@@ -1,0 +1,358 @@
+{
+  "id": "poland",
+  "name": "Poland",
+  "iso": "PL",
+  "iso3": "POL",
+  "flag": "🇵🇱",
+  "region": "Europe",
+  "summary": "A large, fast-growing tech/outsourcing hub with cheap-to-mid English-taught CS MSc, low IP-Box tax and strong savings makes Poland attractive economically, but D-visas for Bangladeshis are decided in New Delhi (~70% student rejection in the 2024 crackdown), citizenship was tightened to 5yr PR + B2 test in Nov 2025, and politics turned sharply anti-immigrant.",
+  "lastReviewed": "2026-06-16",
+  "links": [
+    {
+      "title": "Polish Office for Foreigners (UDSC, official)",
+      "url": "https://udsc.gov.pl/en/"
+    },
+    {
+      "title": "Study in Poland (official NAWA portal)",
+      "url": "https://study.gov.pl/"
+    }
+  ],
+  "categories": {
+    "job-market": {
+      "status": "scored",
+      "score": 78,
+      "summary": "Large, growing tech/nearshoring hub; both engineers hireable, US big-tech offices in Warsaw/Krakow, B2B norm.",
+      "reasoning": "Poland is one of Europe's biggest IT/outsourcing hubs with Google, Microsoft, Amazon and Snowflake offices in Warsaw and Kraków and continued nearshoring demand from Western Europe and the US. Software engineers with 3-5 years earn ~17,000 PLN/month (~EUR 4,000) gross on employment, with senior total comp at US-firm Polish offices reaching EUR 90k-130k+; AI/ML, DevOps/cloud and cybersecurity pay 20-40% above average. English-friendly tech scenes easily absorb two CS graduates, though local hiring often runs through B2B sole-proprietorships.",
+      "evidence": [
+        "Google, Microsoft, Amazon, Snowflake all have Warsaw/Kraków offices",
+        "SW engineer 3-5yr median ~17,000 PLN/month gross (~EUR 4,000)",
+        "Senior TC at US-firm Polish offices EUR 90k-130k+",
+        "AI/ML, DevOps/cloud, cybersecurity pay 20-40% above average",
+        "~30-40% of engineers work via B2B contracts (nearshoring norm)"
+      ],
+      "links": [
+        {
+          "title": "Understanding IT salaries in Poland 2026 (MOTIFE)",
+          "url": "https://www.motife.com/insights/blog/understanding-it-salaries-in-poland-in-2026-a-guide-for-prospective-employers-blog-motife"
+        },
+        {
+          "title": "Warsaw Tech Salaries 2025 (Verita HR)",
+          "url": "https://veritahr.com/warsaw-tech-salaries-2025-top-it-digital-pay-trends/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "visa-access": {
+      "status": "scored",
+      "score": 33,
+      "summary": "D-visa decided in New Delhi, not Dhaka; ~70% Bangladeshi student rejection in 2024 crackdown; heavy scrutiny.",
+      "reasoning": "Long-stay national (D) visas for Bangladeshi nationals are NOT decided in Dhaka: the Embassy of Poland in New Delhi makes every decision, with biometrics and file intake only at VFS Global Dhaka (the Dhaka honorary consulate cannot decide). After a 2024 anti-corruption clampdown and Sikorski's stricter July 2024 guidelines, Bangladesh saw roughly 70% of student applications rejected in 2024 (247 refusals, 6th-highest globally), and overall Schengen refusal for Bangladesh hit 54.9% in 2024. Financial proof is modest (~776-1,010 PLN/month plus 2,500 PLN return travel), but third-country routing plus very high BD-specific refusal make this a severe barrier.",
+      "evidence": [
+        "D-visa decided by Embassy Poland New Delhi, not Dhaka",
+        "Biometrics/file intake at VFS Global Dhaka only; passport returned via Dhaka",
+        "~70% of Bangladeshi student applications rejected in 2024 (Notes From Poland)",
+        "2024 audit found prior 'unlawful, corruption-prone' visa system; Sikorski tightened rules Jul 2024",
+        "Financial proof modest: ~776-1,010 PLN/month + 2,500 PLN return travel"
+      ],
+      "links": [
+        {
+          "title": "Large decline in Polish student visas after clampdown (Notes From Poland, 2024)",
+          "url": "https://notesfrompoland.com/2024/09/27/large-decline-in-student-visas-issued-by-poland-after-clampdown/"
+        },
+        {
+          "title": "Students from Bangladesh to Poland - visa info (Bachelorsportal)",
+          "url": "https://www.bachelorsportal.com/visa-info/101-20/students-from-bangladesh-to-poland.html"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "citizenship": {
+      "status": "scored",
+      "score": 48,
+      "summary": "Nov 2025 reform: 5yr permanent residence (was 3) + B1/B2 test + loyalty oath; dual tolerated for Bangladeshis.",
+      "reasoning": "A November 2025 reform extended the standard naturalisation requirement from 3 to 5 years of continuous residence on a permanent-residence/EU long-term permit, and added a formal citizenship exam (history/values, around B2) plus a loyalty declaration on top of the B1 Polish certificate. Because PR itself takes ~5+ years first (study time counts only half), realistic naturalisation is ~8-10 years from arrival. Poland neither forbids nor formally recognises dual citizenship and tolerates it in practice, and Bangladesh does not strip citizenship on naturalisation, so the couple can effectively keep both - the main weakness is the long timeline and Polish-language bar.",
+      "evidence": [
+        "Nov 2025 reform: residence for naturalisation raised 3yr to 5yr (VisaVerge)",
+        "Added citizenship exam (~B2) + loyalty declaration; B1 Polish certificate required",
+        "Dual citizenship tolerated in practice (Poland neither bans nor recognises it)",
+        "Bangladesh does not revoke citizenship on naturalisation - dual effectively possible",
+        "Realistic timeline ~8-10yr from arrival (PR first, study counts half)"
+      ],
+      "links": [
+        {
+          "title": "Poland tightens passport rules - naturalisation 2025/2026 (VisaVerge)",
+          "url": "https://www.visaverge.com/news/poland-tightens-passport-rules-keeping-naturalization-test-and-residence-permits/"
+        },
+        {
+          "title": "Polish citizenship: descent, naturalization & dual rules 2025 (Legal Wings)",
+          "url": "https://www.legalwings.pl/polish-citizenship-descent-naturalization-dual-rules-2025-update/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "post-study-work": {
+      "status": "scored",
+      "score": 58,
+      "summary": "Only a one-time 9-month graduate job-search permit; full-time graduates then work without a work permit.",
+      "reasoning": "Poland's UDSC grants graduates of Polish universities a one-time temporary residence permit to look for work or start a business, valid for just 9 months and issuable only immediately after graduation. Full-time graduates may then work without a separate work permit, switching to a single (residence+work) permit or Blue Card in-country. The 9-month window is short versus the 18-36 month PSW of top peers, but both spouses graduate so each gets their own permit, and the in-country switch to skilled work is straightforward.",
+      "evidence": [
+        "One-time graduate residence permit valid 9 months (UDSC, official)",
+        "Issuable only immediately after graduation, via MOS e-system",
+        "Full-time Polish-university graduates work without a work permit",
+        "In-country switch to single residence+work permit or Blue Card",
+        "Both partners graduate - each holds their own permit"
+      ],
+      "links": [
+        {
+          "title": "Graduate looking for work or business (UDSC, official)",
+          "url": "https://udsc.gov.pl/en/cudzoziemcy/obywatele-panstw-trzecich/chce-przedluzyc-swoj-pobyt-w-polsce/zezwolenie-na-pobyt-czasowy/absolwent-poszukujacy-pracy/"
+        },
+        {
+          "title": "Permit for temporary residence - graduate (Gov.pl UDSC, official)",
+          "url": "https://www.gov.pl/web/udsc-en/permit-for-temporary-residence--graduate"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "spouse-family": {
+      "status": "scored",
+      "score": 70,
+      "summary": "Both are independent skilled engineers; spouse can study/work on own permit, and family-reunion spouse works freely.",
+      "reasoning": "As two CS graduates the couple need not rely on a dependant route - each can hold an independent student then graduate/work permit and both work in every phase, which is the core strength for this profile. Where one accompanies as family, a temporary residence permit for family reunification (valid up to 3 years) grants the spouse work rights without a separate work permit, though the card must annotate access. The main friction is that family-reunion-style accompaniment usually attaches more cleanly during the work phase than the study phase, and the sponsor must prove stable income.",
+      "evidence": [
+        "Both are skilled engineers - each can hold own student/graduate/work permit",
+        "Family-reunification temporary residence permit valid up to 3 years",
+        "Reunified spouse works without separate work permit (card must allow it)",
+        "Sponsor must show stable, regular income to support family",
+        "No blanket dependant work ban for this dual-engineer couple"
+      ],
+      "links": [
+        {
+          "title": "Foreign family members & family reunification (Careers in Poland)",
+          "url": "https://www.careersinpoland.com/article/arrival-and-stay/foreign-family-members-visiting-and-settling-in-poland"
+        },
+        {
+          "title": "Poland family reunification visa requirements (VisaGuide.World)",
+          "url": "https://visaguide.world/europe/poland-visa/long-stay/family-visa/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "msc-study": {
+      "status": "scored",
+      "score": 72,
+      "summary": "~48 English-taught CS/IT MSc; tuition ~EUR 2,000-6,000/yr; low living cost; student work + spouse accompany.",
+      "reasoning": "Around 48 English-taught Computer Science & IT Master's programmes are offered across ~38 Polish universities (Warsaw University of Technology, Jagiellonian, AGH), with tuition for English-taught programmes typically EUR 2,000-6,000/year - not free like Polish-taught degrees, but cheap by EU standards. Living costs are low (~EUR 500-850/month in Warsaw/Kraków), students can work, and a spouse may accompany on a family permit. It misses the top anchor only because English programmes are paid and scholarships are thinner than DAAD-style systems.",
+      "evidence": [
+        "~48 English-taught CS & IT Master's at ~38 universities (Mastersportal)",
+        "Tuition EUR 2,000-6,000/yr for English-taught programmes",
+        "Polish-taught degrees are tuition-free (language bar makes them impractical here)",
+        "Living cost ~EUR 500-850/month in Warsaw/Kraków",
+        "Students may work; spouse can accompany on family permit"
+      ],
+      "links": [
+        {
+          "title": "Computer Science & IT Master's in Poland 2026 (Mastersportal)",
+          "url": "https://www.mastersportal.com/study-options/268763160/computer-science-it-poland.html"
+        },
+        {
+          "title": "Poland: tuition fees & cost of living (Study.eu)",
+          "url": "https://www.study.eu/article/poland-tuition-fees-cost-of-living"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "pr-pathway": {
+      "status": "scored",
+      "score": 55,
+      "summary": "PR / EU long-term after 5yr continuous residence, but study time counts only half - so ~7yr realistically.",
+      "reasoning": "Both permanent residence (pobyt stały) and the EU long-term resident permit require 5 years of continuous legal residence, but crucially study time on a student visa/permit counts only HALF toward the 5 years, so a couple who arrive as students typically need ~7 years total before PR. The route is clear and rule-based (stable income, B1 Polish, housing proof) rather than quota-locked, but the half-counting of study years and B1 requirement push it below faster peers.",
+      "evidence": [
+        "Permanent residence and EU long-term permit both need 5yr continuous residence",
+        "Study-visa/permit time counts only HALF toward the 5 years (UDSC)",
+        "Realistic PR ~7yr if arriving as students",
+        "Requires stable regular income, B1 Polish, housing proof",
+        "Rule-based, not quota-locked; processing can take up to 12 months"
+      ],
+      "links": [
+        {
+          "title": "Permit for residence of a long-term EU resident (Gov.pl UDSC, official)",
+          "url": "https://www.gov.pl/web/udsc-en/permit-for-residence-of-a-long-term-eu-resident"
+        },
+        {
+          "title": "EU long-term resident permit - study counts half (Dept for Foreigners Poznań)",
+          "url": "https://migrant.poznan.uw.gov.pl/en/procedury/residence-permit-long-term-resident-eu"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "income-cost": {
+      "status": "scored",
+      "score": 72,
+      "summary": "Mid SW pay but very low cost (~40-50% below Amsterdam/Dublin) + IP-Box; 30-50%+ savings realistic on two incomes.",
+      "reasoning": "Software pay is modest by Western-EU standards (~EUR 4,000/month gross mid-level; Warsaw highest) but the cost of living is ~40-50% below Amsterdam or Dublin, with single-person costs ex-rent ~2,965 PLN/month. Combined with low IT taxation (B2B + IP-Box), mid-to-senior devs commonly save 30-50% of net income, and two engineering incomes make savings strong. Rents in Warsaw/Kraków are the main drag but remain far below Western metros.",
+      "evidence": [
+        "Mid SW pay ~EUR 4,000/month gross; AI/cloud/security premium 20-40%",
+        "Cost of living ~40-50% below Amsterdam/Dublin",
+        "Single-person living cost ex-rent ~2,965 PLN/month (Numbeo)",
+        "Mid-to-senior devs save 30-50% of net; up to 50-60% senior remote",
+        "Two incomes + low IT tax = strong household savings"
+      ],
+      "links": [
+        {
+          "title": "Cost of Living in Warsaw (Numbeo, 2026)",
+          "url": "https://www.numbeo.com/cost-of-living/in/Warsaw"
+        },
+        {
+          "title": "Cost of living vs salary for software engineers 2026 (Euro Top Tech)",
+          "url": "https://www.eurotoptech.com/blog/numbeo-cost-living-ranking-2025-developer-analysis"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "healthcare": {
+      "status": "scored",
+      "score": 70,
+      "summary": "Universal NFZ via employment/study; cheap (students ~55.80 PLN/mo, workers 9%); good core care, long queues.",
+      "reasoning": "Public healthcare runs through the National Health Fund (NFZ), accessed by workers via a 9% income contribution and by students via voluntary insurance at only ~55.80 PLN/month in 2025. Core coverage is comprehensive with no co-pays for most treatments and good quality, and most expat workers use a mix of NFZ plus cheap private packages. The main weakness is long waiting times for non-urgent specialist care, which pushes many to private clinics.",
+      "evidence": [
+        "NFZ universal via employment (9% contribution) or study insurance",
+        "Student voluntary NFZ ~55.80 PLN/month (2025)",
+        "No co-pays for most treatments; good core coverage",
+        "Long queues for non-urgent specialist care; private widely used",
+        "Cheap private packages common to bypass public waits"
+      ],
+      "links": [
+        {
+          "title": "Health & insurance - Students (Univ. of Warsaw Welcome Point)",
+          "url": "https://welcome.uw.edu.pl/important-information/health-insurance-2/"
+        },
+        {
+          "title": "Health insurance and care (EURAXESS Poland, official)",
+          "url": "https://www.euraxess.pl/poland/information-assistance/health-insurance-and-care"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "culture-language": {
+      "status": "scored",
+      "score": 52,
+      "summary": "English works in tech hubs, but Polish (B1) needed for PR/citizenship and officialdom; culturally less diverse.",
+      "reasoning": "English is widely usable in Warsaw/Kraków tech workplaces and among younger Poles, but Polish is a hard language and a B1 certificate is mandatory for both PR and citizenship, plus daily officialdom and life outside major hubs runs in Polish. Livability in big cities is good and improving, but Poland is more ethnically homogeneous and less multicultural than Western-EU peers, holding this at the mixed band for an English-speaking couple targeting a passport.",
+      "evidence": [
+        "English common in Warsaw/Kraków tech and among younger Poles",
+        "B1 Polish required for both PR and naturalisation",
+        "Officialdom and off-hub daily life run in Polish",
+        "Polish is a difficult Slavic language to reach B1/B2",
+        "More homogeneous society than Western-EU peers"
+      ],
+      "links": [
+        {
+          "title": "Permit for residence of a long-term EU resident - B1 requirement (Gov.pl UDSC)",
+          "url": "https://www.gov.pl/web/udsc-en/permit-for-residence-of-a-long-term-eu-resident"
+        },
+        {
+          "title": "Polish citizenship law - language requirement (Lexmotion)",
+          "url": "https://lexmotion.eu/blog/polish-citizenship-law/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "safety-law": {
+      "status": "scored",
+      "score": 68,
+      "summary": "WJP 2025: 32nd of 143 (0.66), rising; low street crime, but migrant treatment and homogeneity temper it.",
+      "reasoning": "Poland ranks 32nd of 143 in the WJP Rule of Law Index 2025 with a score of 0.66, improving year-on-year after judicial reforms under the Tusk government. Street crime is low and cities feel safe, but the migrant experience is tempered by a hardening anti-immigration climate, asylum-rights suspensions at the Belarus border, and a society with limited experience of non-European newcomers. Solid but not top-tier rule of law for this couple.",
+      "evidence": [
+        "WJP Rule of Law Index 2025: 32nd of 143, score 0.66 (rising)",
+        "Low street/violent crime; cities generally safe",
+        "Judicial independence improving post-2023 under Tusk government",
+        "Asylum-rights suspension legislation at Belarus border (2025)",
+        "Limited experience with non-European migrants tempers treatment"
+      ],
+      "links": [
+        {
+          "title": "WJP Rule of Law Index 2025 - Poland insights",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/country/2025/Poland/"
+        },
+        {
+          "title": "WJP Rule of Law Index 2025 (full report PDF)",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/downloads/WJPIndex2025.pdf"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "politics": {
+      "status": "scored",
+      "score": 38,
+      "summary": "Sharp anti-immigrant turn: Nawrocki president (Aug 2025), Tusk govt restrictive too; student-visa crackdown.",
+      "reasoning": "Migration policy has tightened decisively across the spectrum: nationalist Karol Nawrocki won the presidency (50.89%) and took office 6 August 2025 on a 'Poland first' anti-migration, anti-EU platform, while the Tusk government itself reinforced the Belarus border, moved to suspend asylum rights, refused EU relocation, and is described by Warsaw migration scholars as in some respects more restrictive than its PiS predecessor. Combined with the 2024-2025 student-visa crackdown and the Nov 2025 citizenship tightening, the volatility and anti-immigrant trend are a clear negative.",
+      "evidence": [
+        "Nawrocki won presidency 50.89%, inaugurated 6 Aug 2025, 'Poland first' platform",
+        "Tusk govt reinforced Belarus border, moved to suspend asylum rights",
+        "Poland refuses EU migration-pact relocation solidarity",
+        "Warsaw scholars: Tusk migration policy 'more restrictive than PiS' in parts",
+        "2024-25 student-visa crackdown + Nov 2025 citizenship tightening"
+      ],
+      "links": [
+        {
+          "title": "Nawrocki wins Polish presidential election (Notes From Poland, 2025)",
+          "url": "https://notesfrompoland.com/2025/06/02/right-wing-opposition-candidate-nawrocki-wins-polish-presidential-election/"
+        },
+        {
+          "title": "The Tusk government and the 2025 presidential election (UK Commons Library)",
+          "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10300/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "tax": {
+      "status": "scored",
+      "score": 72,
+      "summary": "Low for IT: PIT 12%/32% but B2B flat 19% or lump-sum 12%, and IP-Box 5% on software copyright income.",
+      "reasoning": "Employment income is taxed progressively at 12% up to 120,000 PLN and 32% above, but most Polish IT works via B2B sole-proprietorship with a 19% flat tax or a 12% lump-sum option, and qualifying software-copyright income can be taxed at just 5% under IP-Box. Around 70-80% of senior developers operate as sole proprietors to access these regimes, giving software engineers an unusually low effective burden and high take-home versus Western-EU peers.",
+      "evidence": [
+        "Employment PIT: 12% to 120,000 PLN, 32% above",
+        "B2B flat tax 19%, or lump-sum 8.5%/12% for IT services",
+        "IP-Box: 5% PIT on qualifying software copyright income",
+        "~70-80% of senior devs use B2B sole-proprietorship",
+        "Low effective burden / high take-home for SW engineers"
+      ],
+      "links": [
+        {
+          "title": "Poland's 5% tax rate on software IP (IP-Box, ATL Law)",
+          "url": "https://atl-law.pl/en/polands-5-tax-rate-on-software-ip/"
+        },
+        {
+          "title": "B2B contracts in IT industry in Poland 2025 (MOTIFE)",
+          "url": "https://www.motife.com/insights/blog/b2b-contracts-in-it-industry-in-poland-in-2025"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "muslim-diaspora": {
+      "status": "scored",
+      "score": 32,
+      "summary": "Tiny Muslim (~25-40k, 0.1%) and Bangladeshi (~2,600) community; 'Islamophobia without Muslims', halal limited.",
+      "reasoning": "Poland has only ~25,000-40,000 Muslims (0.1% of population) and a very small Bangladeshi community (~2,633 legal residents in 2022), so South Asian/halal infrastructure and mosques are sparse outside big cities. Despite the tiny minority, surveys show high anti-Muslim sentiment - researchers call it 'Islamophobia without Muslims', with opposition to new mosques and attacks on kebab shops, and an EU-era ban affecting ritual halal slaughter. For a Bangladeshi Muslim couple this is a weak environment for community and acceptance.",
+      "evidence": [
+        "~25,000-40,000 Muslims total (0.1% of population)",
+        "Bangladeshi community small: ~2,633 legal residents (2022)",
+        "'Islamophobia without Muslims' - high anti-Muslim sentiment despite tiny minority",
+        "Opposition to new mosques; attacks on kebab shops reported",
+        "Halal access limited; ritual slaughter restricted under EU/animal-rights law"
+      ],
+      "links": [
+        {
+          "title": "Bangladeshis in Poland (Wikipedia, sourced)",
+          "url": "https://en.wikipedia.org/wiki/Bangladeshis_in_Poland"
+        },
+        {
+          "title": "Islamophobia in Poland (Wikipedia, sourced)",
+          "url": "https://en.wikipedia.org/wiki/Islamophobia_in_Poland"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    }
+  }
+}

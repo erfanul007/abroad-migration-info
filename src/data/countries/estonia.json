@@ -1,0 +1,358 @@
+{
+  "id": "estonia",
+  "name": "Estonia",
+  "iso": "EE",
+  "iso3": "EST",
+  "flag": "🇪🇪",
+  "region": "Europe",
+  "summary": "A strong e-Estonia tech scene, flat 22% tax and an affordable English-taught CS MSc make Estonia a credible study->work route for two engineers, but the small two-engineer market, a mandatory trip to New Delhi for the D-visa (no mission in Dhaka), an 8-year + B1-Estonian citizenship path and a no-dual-citizenship rule that forces renouncing Bangladeshi nationality are decisive drawbacks for this couple.",
+  "lastReviewed": "2026-06-16",
+  "links": [
+    {
+      "title": "Study in Estonia (official portal)",
+      "url": "https://www.studyinestonia.ee/"
+    },
+    {
+      "title": "Estonian Police and Border Guard Board - migration (politsei.ee)",
+      "url": "https://www.politsei.ee/en/migration"
+    }
+  ],
+  "categories": {
+    "job-market": {
+      "status": "scored",
+      "score": 68,
+      "summary": "Vibrant e-Estonia/startup tech scene with IT shortage, but a small ~1.3M-population market for absorbing TWO engineers.",
+      "reasoning": "Estonia has a globally outsized startup/tech economy (Bolt, Wise, Skype heritage) and IT is among 60+ shortage professions, with software developers, AI engineers and cybersecurity experts in high demand and many ICT roles exempt from the immigration quota. English is the working language in most tech firms. The caveat is scale: the whole country is ~1.3 million people, so depth of roles for two senior engineers at once is thinner than in larger hubs, and salaries trail Western Europe.",
+      "evidence": [
+        "IT among 60+ shortage professions; software, AI, cybersecurity in high demand (Aliens Act 2025)",
+        "Many ICT roles exempt from the annual immigration quota",
+        "Tech anchors: Bolt, Wise plus a dense startup ecosystem; English-first workplaces",
+        "Small market: ~1.3M population limits simultaneous senior-role depth",
+        "Skilled-worker exemption cap 1,300 permits, rising to 2,600 if GDP grows >=2%"
+      ],
+      "links": [
+        {
+          "title": "Working in Estonia (Study in Estonia, official)",
+          "url": "https://www.studyinestonia.ee/working"
+        },
+        {
+          "title": "Estonia eases immigration rules to attract skilled workers (2025)",
+          "url": "https://www.visasupdate.com/post/estonia-immigration-2025"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "visa-access": {
+      "status": "scored",
+      "score": 42,
+      "summary": "No Estonian mission in Dhaka; the German Embassy handles only Schengen short-stay, so the D-visa requires travelling to New Delhi.",
+      "reasoning": "Estonia has no embassy in Bangladesh, and the German Embassy in Dhaka (its Schengen representative) explicitly cannot issue long-stay D-visas, so Bangladeshi students must travel to the Estonian Embassy in New Delhi to apply in person. The New Delhi mission decides D-visa cases in 7-15 working days, but the cross-border travel, in-person appointment, and lack of any Dhaka processing are real friction. No BD-specific ban, but routing through a third country is a clear penalty versus countries that decide in Dhaka.",
+      "evidence": [
+        "No Estonian embassy in Bangladesh; D-visa cannot be lodged in Dhaka",
+        "German Embassy Dhaka represents Estonia for Schengen short-stay only, not D-visas",
+        "Bangladeshi students must apply in person at Estonian Embassy New Delhi",
+        "D-visa decision 7-15 working days (New Delhi mission)",
+        "Interpreter required if applicant lacks Estonian/English/Hindi at New Delhi"
+      ],
+      "links": [
+        {
+          "title": "For Bangladesh, Nepal, Sri Lanka and other third-country citizens (Estonian Embassy New Delhi, official)",
+          "url": "https://newdelhi.mfa.ee/for-bangladesh-nepal-sri-lanka-citizens/"
+        },
+        {
+          "title": "Long-stay visa for students (Estonian Embassy New Delhi, official)",
+          "url": "https://newdelhi.mfa.ee/d-visa-for-students/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "citizenship": {
+      "status": "scored",
+      "score": 32,
+      "summary": "8 years residence (last 5 permanent) + B1 Estonian + Constitution exam, and dual citizenship is NOT allowed (must renounce).",
+      "reasoning": "Naturalisation requires at least 8 years of residence with the final 5 on a permanent basis, plus passing the Estonian language proficiency exam (B1) and an exam on the Constitution and Citizenship Act. Critically, Estonia does not permit dual citizenship for naturalised adults, so this couple would have to renounce Bangladeshi nationality - a decisive negative given they explicitly prefer dual. The long timeline, hard language bar, and renunciation requirement place this near the bottom band for them.",
+      "evidence": [
+        "8 years residence required, last 5 on a permanent basis (politsei.ee)",
+        "B1 Estonian language exam + Constitution/Citizenship Act exam required",
+        "Dual citizenship not allowed for naturalised citizens; must renounce prior nationality",
+        "Renouncing Bangladeshi citizenship directly conflicts with this couple's stated preference",
+        "Permanent-basis clock typically starts only after long-term/PR status"
+      ],
+      "links": [
+        {
+          "title": "Conditions - Estonian citizenship for an adult (politsei.ee, official)",
+          "url": "https://www.politsei.ee/en/instructions/estonian-citizenship-for-an-adult"
+        },
+        {
+          "title": "Estonian nationality law (overview, sourced)",
+          "url": "https://en.wikipedia.org/wiki/Estonian_nationality_law"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "post-study-work": {
+      "status": "scored",
+      "score": 66,
+      "summary": "~9-month (270-day) job-search extension after graduation, in-country switch to a 2-year work permit; both can hold their own.",
+      "reasoning": "Graduates of Estonian universities may extend their stay for up to 270 days (~9 months) to seek qualified employment, applying to the Police and Border Guard Board before the study permit expires. On signing an employment contract they switch in-country to a residence permit for employment, initially valid 2 years and renewable. As two graduates, each partner can hold their own job-search extension and then work permit, but 9 months is shorter than the 18-36 month windows offered by top destinations.",
+      "evidence": [
+        "270-day (~9-month) job-search extension after graduation",
+        "Apply to PBGB before the study residence permit expires",
+        "In-country switch to employment permit (initially 2 years, renewable)",
+        "Both graduate partners can each hold their own extension and work permit",
+        "Shorter window than 18-36 month PSW in Germany/Australia/Canada"
+      ],
+      "links": [
+        {
+          "title": "Working / after studies (Study in Estonia, official)",
+          "url": "https://www.studyinestonia.ee/working"
+        },
+        {
+          "title": "Visa and residence permit (Study in Estonia, official)",
+          "url": "https://www.studyinestonia.ee/visa-and-residence-permit"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "spouse-family": {
+      "status": "scored",
+      "score": 70,
+      "summary": "Both are engineers, so each holds their own student/work permit and works independently; classic dependant route is restricted.",
+      "reasoning": "For this couple the strongest path is for BOTH to enrol/work on their own permits rather than as dependants, because settling as the family member of someone who is themselves only a student or worker is allowed only in exceptional cases under PBGB rules. As two CS graduates each can hold an independent study then employment permit, so both work in every phase. The weakness is that the pure dependant-spouse route (and its work rights) is restricted, so they must qualify individually - feasible here but not a frictionless family route.",
+      "evidence": [
+        "Settling as family member of a student/worker only allowed in exceptional cases (politsei.ee)",
+        "Both partners can instead each hold their own study then work permit",
+        "Family-member residence permit holders can study/work without a separate visa",
+        "Couple must qualify individually rather than via a dependant track",
+        "Dependant work rights not automatic; separate authorisation/permit needed"
+      ],
+      "links": [
+        {
+          "title": "Residence permit for a family member - for a spouse (politsei.ee, official)",
+          "url": "https://www.politsei.ee/en/instructions/residence-permit-for-a-family-member/for-a-spouse"
+        },
+        {
+          "title": "EU immigration portal - family member, Estonia (official)",
+          "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/family-member-estonia_en"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "msc-study": {
+      "status": "scored",
+      "score": 74,
+      "summary": "English-taught CS MSc at Tartu (~EUR 7,200/yr) and TalTech (~EUR 3,000-6,000/yr); students work freely; cheap vs West.",
+      "reasoning": "Both leading universities run English-taught Computer Science Master's: University of Tartu charges EUR 7,200/year for non-EU students (10 students get a 50% second-semester reduction on merit), and TalTech IT master's run roughly EUR 3,000-6,000/year. Tuition is affordable versus the UK/Australia, students may work alongside study, and a spouse can accompany - though for this couple both enrolling is the cleaner route. Not tuition-free for non-EU, and Tartu is ending most non-EU waivers from 2026/27.",
+      "evidence": [
+        "University of Tartu CS MSc: EUR 7,200/year (non-EU), English-taught",
+        "Tartu: 10 merit-based 50% second-semester reductions for non-EU students",
+        "TalTech IT/CS master's roughly EUR 3,000-6,000/year",
+        "Students may work during studies; spouse may accompany",
+        "Tartu phasing out most non-EU tuition waivers from 2026/27"
+      ],
+      "links": [
+        {
+          "title": "Computer Science MSc (University of Tartu, official)",
+          "url": "https://ut.ee/en/curriculum/computer-science"
+        },
+        {
+          "title": "Tuition fee rates (TalTech, official)",
+          "url": "https://taltech.ee/en/tuition-fee-rates"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "pr-pathway": {
+      "status": "scored",
+      "score": 58,
+      "summary": "Long-term residence after 5 years on temporary permits, but needs B1 Estonian + (from 2026) adaptation programme.",
+      "reasoning": "A long-term resident's permit is available after 5 years of continuous residence on temporary permits, with stable income and health insurance. The friction is integration: the permit requires Estonian at B1 level, and from 1 January 2026 applicants must also complete the adaptation programme (basic module) and reach at least A2. The 5-year timeline is standard, but the B1-Estonian language bar makes it slower in practice for English-speaking newcomers than headline timelines suggest.",
+      "evidence": [
+        "Long-term residence after 5 years on temporary permits (politsei.ee)",
+        "Requires Estonian language at B1 (or education obtained in Estonian)",
+        "From 1 Jan 2026: adaptation programme + at least A2 added",
+        "Needs permanent legal income and health insurance",
+        "Applications filed before 1 Jan 2026 processed under prior rules"
+      ],
+      "links": [
+        {
+          "title": "Long-term resident's residence permit (politsei.ee, official)",
+          "url": "https://www.politsei.ee/en/instructions/residence-permit-for-a-permanent-resident/long-term-resident-s-residence-permit"
+        },
+        {
+          "title": "New PR requirements: adaptation programme + A2 (Integration Foundation, official)",
+          "url": "https://www.integratsioon.ee/en/information-foreigners-applying-temporary-residence-permit-permanent-residence-estonia-requirements"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "income-cost": {
+      "status": "scored",
+      "score": 66,
+      "summary": "SW pay ~EUR 48-67k in Tallinn vs ~EUR 695-900 city rent; flat 22% tax leaves a healthy net on two incomes.",
+      "reasoning": "Average Tallinn software-engineer pay is roughly EUR 48,700, with broad ranges to ~EUR 67,000 total comp and top firms (Bolt ~EUR 84k); the flat 22% income tax plus only ~1.6% employee unemployment contribution leaves a high take-home. Tallinn rent is moderate (~EUR 695 city-centre 1-bed, ~EUR 899/month single-person living costs ex-rent), so two engineering incomes save well. Gross pay is lower than Western Europe, which caps the score, but cost-adjusted savings are solid.",
+      "evidence": [
+        "Average Tallinn SW engineer ~EUR 48,700; range to ~EUR 67k total comp (2025)",
+        "Top employer Bolt ~EUR 84k average total comp",
+        "Tallinn rent ~EUR 695 (1-bed centre); ~EUR 899/mo single-person ex-rent (Numbeo 2026)",
+        "Flat 22% income tax + only ~1.6% employee unemployment contribution",
+        "Two incomes + low employee deductions enable strong savings"
+      ],
+      "links": [
+        {
+          "title": "Cost of Living in Tallinn (Numbeo, 2026)",
+          "url": "https://www.numbeo.com/cost-of-living/in/Tallinn"
+        },
+        {
+          "title": "Significant tax changes in Estonia 2025-2026 (EY)",
+          "url": "https://www.ey.com/en_ee/insights/tax/significant-tax-changes-in-estonia-in-2025-2026"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "healthcare": {
+      "status": "scored",
+      "score": 76,
+      "summary": "Universal EHIF for employed residents (~13% employer tax), highly digitised; short waiting period when starting work.",
+      "reasoning": "The Estonian Health Insurance Fund (EHIF/Tervisekassa) covers all legally employed residents, funded by the employer's social tax, and the system is among Europe's most digitised (99%+ e-prescriptions, full e-health records). Numbeo 2025 ranks Estonia ~10th in Europe for healthcare quality. Coverage activates 1-2 months after the first social-tax payment, so newcomers should hold private cover (from ~EUR 15-30/month) during the gap - a minor coverage-onboarding friction rather than a structural weakness.",
+      "evidence": [
+        "EHIF covers legally employed residents via employer social tax",
+        "Highly digitised: 99%+ e-prescriptions, national e-health portal",
+        "Numbeo 2025: ~10th in Europe for healthcare quality",
+        "Coverage activates ~1-2 months after first social-tax payment",
+        "Affordable private bridge cover ~EUR 15-30/month during gap"
+      ],
+      "links": [
+        {
+          "title": "Estonian Health Insurance Fund (Tervisekassa, official)",
+          "url": "https://tervisekassa.ee/en"
+        },
+        {
+          "title": "Health services for residence permit holders in Estonia",
+          "url": "https://corpenza.com/en/health-services-for-residence-permit-holders-in-estonia/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "culture-language": {
+      "status": "scored",
+      "score": 62,
+      "summary": "English widely used in tech and cities, but Estonian (B1) is required for PR and citizenship - a real officialdom bar.",
+      "reasoning": "English is broadly spoken, especially among younger people and in the English-first tech sector, and digital-first e-government services are easy to use, giving good day-to-day livability. The constraint is that Estonian at B1 is required for both long-term residence and citizenship, and Estonian (a non-Indo-European Finno-Ugric language) is hard to learn. So while daily life and work run fine in English, the local-language requirement for officialdom and the couple's settlement goal holds this in the decent-but-friction band.",
+      "evidence": [
+        "English widely spoken, especially in tech and among youth",
+        "Leading e-government; most services usable digitally in English",
+        "Estonian B1 required for PR and for citizenship",
+        "Estonian is Finno-Ugric and notably hard for newcomers",
+        "Small, cohesive society; integration easier in Tallinn/Tartu"
+      ],
+      "links": [
+        {
+          "title": "Estonian language proficiency examinations (Harno, official)",
+          "url": "https://harno.ee/en/examinations-tests-and-studies/examinations-tests-and-certificates/estonian-language-proficiency"
+        },
+        {
+          "title": "Living in Estonia (Study in Estonia, official)",
+          "url": "https://www.studyinestonia.ee/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "safety-law": {
+      "status": "scored",
+      "score": 84,
+      "summary": "WJP Rule of Law 2025: ~10th of 143 (score 0.82); low crime, strong institutions, fair courts.",
+      "reasoning": "Estonia ranks roughly 10th of 143 countries in the WJP Rule of Law Index 2025 with an overall score of 0.82, one of only a handful of EU states to improve year-on-year. Crime is low, courts are fair and corruption is among the lowest in the region. Top-tier rule of law and a generally orderly, safe environment for skilled migrants; a small visible-minority population means newcomers stand out more than in larger, more diverse hubs.",
+      "evidence": [
+        "WJP Rule of Law Index 2025: ~10th of 143, overall score 0.82",
+        "One of few EU states with a year-on-year improvement",
+        "Low crime; strong, fair judicial institutions",
+        "Low corruption relative to regional peers",
+        "Small minority population; newcomers more visible"
+      ],
+      "links": [
+        {
+          "title": "WJP Rule of Law Index - Estonia",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/country/Estonia"
+        },
+        {
+          "title": "WJP 2025 Index global findings (eucrim)",
+          "url": "https://eucrim.eu/news/wjp-2025-index-shows-sharp-acceleration-of-global-rule-of-law-decline/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "politics": {
+      "status": "scored",
+      "score": 64,
+      "summary": "Stable democracy actively liberalising skilled-migration (Aliens Act 2025), but coalition churn and a strong far-right opposition.",
+      "reasoning": "Estonia is a stable EU/NATO democracy that in May 2025 amended the Aliens Act to streamline visas, expand quotas and prioritise skilled professionals in IT and other shortage sectors - a pro-skilled-migration direction. Tempering this: the governing Reform/Estonia 200 coalition had low ~14% support by late 2025 with realignment likely before 2027, and the far-right EKRE (~15%) campaigns against large-scale immigration, creating some policy-volatility risk for migrants.",
+      "evidence": [
+        "Aliens Act amendments (May 2025) streamline visas, expand quotas, prioritise skilled workers",
+        "Stable EU/NATO member; functioning democratic institutions",
+        "Governing Reform/Estonia 200 coalition ~14% support by Oct 2025",
+        "Far-right EKRE ~15%, opposing large-scale immigration",
+        "Realignment likely before the 2027 national election"
+      ],
+      "links": [
+        {
+          "title": "Estonia eases immigration rules for skilled workers (2025)",
+          "url": "https://www.visasupdate.com/post/estonia-immigration-2025"
+        },
+        {
+          "title": "BTI 2026 Estonia Country Report",
+          "url": "https://bti-project.org/en/reports/country-report/EST"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "tax": {
+      "status": "scored",
+      "score": 78,
+      "summary": "Flat 22% income tax, EUR 700/mo universal allowance, minimal employee contributions; high take-home for engineers.",
+      "reasoning": "Estonia levies a simple flat 22% personal income tax (a planned rise to 24% was cancelled by Parliament in December 2025), with a universal EUR 700/month (EUR 8,400/year) tax-free allowance from 2026 after the 'tax hump' was abolished. Employees pay only ~1.6% unemployment insurance (social tax is employer-side at 33%, plus an optional 2-6% pension), so take-home is high relative to Western Europe - attractive for two software salaries.",
+      "evidence": [
+        "Flat 22% personal income tax; 24% increase cancelled (Dec 2025)",
+        "Universal EUR 700/month (EUR 8,400/year) tax-free allowance from 2026",
+        "'Tax hump' abolished - allowance no longer phases out for high earners",
+        "Employee pays only ~1.6% unemployment insurance + optional 2-6% pension",
+        "33% social tax is employer-side, preserving high net pay"
+      ],
+      "links": [
+        {
+          "title": "Significant tax changes in Estonia 2025-2026 (EY)",
+          "url": "https://www.ey.com/en_ee/insights/tax/significant-tax-changes-in-estonia-in-2025-2026"
+        },
+        {
+          "title": "Abolishing the tax hump: personal income tax in 2026 (Accres)",
+          "url": "https://accres.eu/en/scrapping-tax-hump-estonia-2026/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "muslim-diaspora": {
+      "status": "scored",
+      "score": 34,
+      "summary": "Tiny Muslim community (~6,500-10,000), mainly Tatar/Azeri; minimal Bangladeshi diaspora and limited halal/mosque access.",
+      "reasoning": "Estonia's Muslim population is very small - the 2021 census recorded ~6,500 (0.5%), with estimates to ~10,000 (0.73%) by 2024 - dominated by Tatars and Azeris rather than South Asians, and there is no meaningful Bangladeshi community. Religious infrastructure is sparse: Muslim worship is concentrated at a couple of centres in Tallinn (Lasnamae) with limited halal dining. Secular and broadly tolerant, but the near-absence of a Bangladeshi/South-Asian community and thin halal/mosque access are major drawbacks for this couple.",
+      "evidence": [
+        "~6,500 Muslims (0.5%) at 2021 census; ~10,000 (0.73%) estimated 2024",
+        "Community mainly Tatar and Azeri, not South Asian",
+        "No meaningful Bangladeshi diaspora in Estonia",
+        "Worship concentrated at Tallinn centres (Estonian Islamic Centre, Lasnamae)",
+        "Limited halal dining; secular, broadly tolerant society"
+      ],
+      "links": [
+        {
+          "title": "Islam in Estonia (overview, sourced)",
+          "url": "https://en.wikipedia.org/wiki/Islam_in_Estonia"
+        },
+        {
+          "title": "Estonian Islamic Centre (overview, sourced)",
+          "url": "https://en.wikipedia.org/wiki/Estonian_Islamic_Centre"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    }
+  }
+}

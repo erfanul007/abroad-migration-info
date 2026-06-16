@@ -8,8 +8,14 @@
   "summary": "Strong IT demand, cheap English MSc, excellent healthcare and top-tier safety, but a ~10-year citizenship with a near-total dual-citizenship ban, German B1→B2 bars, in-person New Delhi processing for Bangladeshis, high tax and a tightening migration climate make it a hard fit for a dual-preferring Bangladeshi couple.",
   "lastReviewed": "2026-06-16",
   "links": [
-    { "title": "migration.gv.at – Official Austrian migration portal", "url": "https://www.migration.gv.at/en/" },
-    { "title": "OeAD – Study in Austria", "url": "https://oead.at/en/to-austria/" }
+    {
+      "title": "migration.gv.at – Official Austrian migration portal",
+      "url": "https://www.migration.gv.at/en/"
+    },
+    {
+      "title": "OeAD – Study in Austria",
+      "url": "https://oead.at/en/to-austria/"
+    }
   ],
   "categories": {
     "job-market": {
@@ -24,9 +30,18 @@
         "Both spouses are skilled CS graduates, so both can target shortage-occupation employment."
       ],
       "links": [
-        { "title": "migration.gv.at – Austria-wide shortage occupations", "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/austria-wide-shortage-occupations/" },
-        { "title": "VisaHQ – Austria 2026 shortage-occupation list", "url": "https://www.visahq.com/news/2025-12-24/at/austria-issues-2026-shortage-occupation-list-opening-64-new-pathways-for-non-eu-talent/" },
-        { "title": "SalaryExpert – Software Developer salary Vienna 2026", "url": "https://www.salaryexpert.com/salary/job/software-developer/austria/vienna" }
+        {
+          "title": "migration.gv.at – Austria-wide shortage occupations",
+          "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/austria-wide-shortage-occupations/"
+        },
+        {
+          "title": "VisaHQ – Austria 2026 shortage-occupation list",
+          "url": "https://www.visahq.com/news/2025-12-24/at/austria-issues-2026-shortage-occupation-list-opening-64-new-pathways-for-non-eu-talent/"
+        },
+        {
+          "title": "SalaryExpert – Software Developer salary Vienna 2026",
+          "url": "https://www.salaryexpert.com/salary/job/software-developer/austria/vienna"
+        }
       ],
       "lastReviewed": "2026-06-16"
     },
@@ -42,8 +57,14 @@
         "VFS service/processing fees apply on top of the embassy fee."
       ],
       "links": [
-        { "title": "BMEIA – Austrian Embassy New Delhi: how to apply", "url": "https://www.bmeia.gv.at/en/austrian-embassy-new-delhi/travels-to-austria/entry-and-residence/how-to-apply" },
-        { "title": "VFS Global – Austria visa from Bangladesh", "url": "https://visa.vfsglobal.com/one-pager/austria/bangladesh/english/index.html" }
+        {
+          "title": "BMEIA – Austrian Embassy New Delhi: how to apply",
+          "url": "https://www.bmeia.gv.at/en/austrian-embassy-new-delhi/travels-to-austria/entry-and-residence/how-to-apply"
+        },
+        {
+          "title": "VFS Global – Austria visa from Bangladesh",
+          "url": "https://visa.vfsglobal.com/one-pager/austria/bangladesh/english/index.html"
+        }
       ],
       "lastReviewed": "2026-06-16"
     },
@@ -59,9 +80,18 @@
         "Foreign residents call the renunciation rule the decisive reason they will not apply (The Local, 8 Jan 2026)."
       ],
       "links": [
-        { "title": "oesterreich.gv.at – Dual citizenship", "url": "https://www.oesterreich.gv.at/en/themen/menschen_aus_anderen_staaten/staatsbuergerschaft/Seite.260430" },
-        { "title": "The Local – Austria's strict dual-citizenship rules", "url": "https://www.thelocal.at/20260108/its-a-deal-breaker-foreign-residents-frustrated-by-austrias-strict-dual-citizenship-rules" },
-        { "title": "migration.gv.at – Citizenship", "url": "https://www.migration.gv.at/en/living-and-working-in-austria/integration-and-citizenship/citizenship/" }
+        {
+          "title": "oesterreich.gv.at – Dual citizenship",
+          "url": "https://www.oesterreich.gv.at/en/themen/menschen_aus_anderen_staaten/staatsbuergerschaft/Seite.260430"
+        },
+        {
+          "title": "The Local – Austria's strict dual-citizenship rules",
+          "url": "https://www.thelocal.at/20260108/its-a-deal-breaker-foreign-residents-frustrated-by-austrias-strict-dual-citizenship-rules"
+        },
+        {
+          "title": "migration.gv.at – Citizenship",
+          "url": "https://www.migration.gv.at/en/living-and-working-in-austria/integration-and-citizenship/citizenship/"
+        }
       ],
       "lastReviewed": "2026-06-16"
     },
@@ -77,8 +107,14 @@
         "RWR Card grants full labour-market access, enabling the spouse's RWR Card plus."
       ],
       "links": [
-        { "title": "migration.gv.at – Graduates of Austrian universities", "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/graduates/" },
-        { "title": "VisaHQ – 2026 RWR / Blue Card salary thresholds", "url": "https://www.visahq.com/news/2026-01-10/at/salary-thresholds-jump-for-2026-red-white-red-and-eu-blue-cards/" }
+        {
+          "title": "migration.gv.at – Graduates of Austrian universities",
+          "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/graduates/"
+        },
+        {
+          "title": "VisaHQ – 2026 RWR / Blue Card salary thresholds",
+          "url": "https://www.visahq.com/news/2026-01-10/at/salary-thresholds-jump-for-2026-red-white-red-and-eu-blue-cards/"
+        }
       ],
       "lastReviewed": "2026-06-16"
     },
@@ -94,8 +130,14 @@
         "2025 law permits ordinance-based pause of family reunion until 30 Sep 2026, then a quota model from 2026 (The Local, 21 Dec 2025)."
       ],
       "links": [
-        { "title": "migration.gv.at – Family reunification", "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/family-reunification/" },
-        { "title": "The Local – Immigration changes in Austria 2026 and beyond", "url": "https://www.thelocal.at/20251210/what-immigration-changes-await-foreigners-in-austria-in-2026-and-beyond" }
+        {
+          "title": "migration.gv.at – Family reunification",
+          "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/family-reunification/"
+        },
+        {
+          "title": "The Local – Immigration changes in Austria 2026 and beyond",
+          "url": "https://www.thelocal.at/20251210/what-immigration-changes-await-foreigners-in-austria-in-2026-and-beyond"
+        }
       ],
       "lastReviewed": "2026-06-16"
     },
@@ -111,9 +153,18 @@
         "OeAD scholarships and central study portal support international applicants."
       ],
       "links": [
-        { "title": "studieren.univie.ac.at – Tuition fee amount", "url": "https://studieren.univie.ac.at/en/tuition-fee/amount-tuition-fee/" },
-        { "title": "Mastersportal – Computer Science & IT Master's in Austria", "url": "https://www.mastersportal.com/study-options/268484632/computer-science-it-austria.html" },
-        { "title": "OeAD – Study in Austria (entry & residence)", "url": "https://oead.at/en/to-austria/" }
+        {
+          "title": "studieren.univie.ac.at – Tuition fee amount",
+          "url": "https://studieren.univie.ac.at/en/tuition-fee/amount-tuition-fee/"
+        },
+        {
+          "title": "Mastersportal – Computer Science & IT Master's in Austria",
+          "url": "https://www.mastersportal.com/study-options/268484632/computer-science-it-austria.html"
+        },
+        {
+          "title": "OeAD – Study in Austria (entry & residence)",
+          "url": "https://oead.at/en/to-austria/"
+        }
       ],
       "lastReviewed": "2026-06-16"
     },
@@ -129,8 +180,14 @@
         "2026 introduces capacity-based migration limits, adding unpredictability."
       ],
       "links": [
-        { "title": "oesterreich.gv.at – Residence of foreign nationals", "url": "https://www.oesterreich.gv.at/en/themen/menschen_aus_anderen_staaten/aufenthalt.html" },
-        { "title": "migration.gv.at – Integration Agreement", "url": "https://www.migration.gv.at/en/living-and-working-in-austria/integration-and-citizenship/integration-agreement/" }
+        {
+          "title": "oesterreich.gv.at – Residence of foreign nationals",
+          "url": "https://www.oesterreich.gv.at/en/themen/menschen_aus_anderen_staaten/aufenthalt.html"
+        },
+        {
+          "title": "migration.gv.at – Integration Agreement",
+          "url": "https://www.migration.gv.at/en/living-and-working-in-austria/integration-and-citizenship/integration-agreement/"
+        }
       ],
       "lastReviewed": "2026-06-16"
     },
@@ -146,8 +203,14 @@
         "Annual public-transport pass €365; rent regulation limits increases."
       ],
       "links": [
-        { "title": "Numbeo – Cost of Living in Vienna (Jun 2026)", "url": "https://www.numbeo.com/cost-of-living/in/Vienna" },
-        { "title": "SalaryExpert – Software Developer salary Vienna 2026", "url": "https://www.salaryexpert.com/salary/job/software-developer/austria/vienna" }
+        {
+          "title": "Numbeo – Cost of Living in Vienna (Jun 2026)",
+          "url": "https://www.numbeo.com/cost-of-living/in/Vienna"
+        },
+        {
+          "title": "SalaryExpert – Software Developer salary Vienna 2026",
+          "url": "https://www.salaryexpert.com/salary/job/software-developer/austria/vienna"
+        }
       ],
       "lastReviewed": "2026-06-16"
     },
@@ -163,8 +226,14 @@
         "Direct access to GPs, specialists and hospitals (no gatekeeping); some non-emergency specialist waits."
       ],
       "links": [
-        { "title": "WHO Euro Health Observatory – Austria", "url": "https://eurohealthobservatory.who.int/countries/austria" },
-        { "title": "Expatica – Health insurance in Austria 2026", "url": "https://www.expatica.com/at/healthcare/healthcare-basics/health-insurance-austria-80975/" }
+        {
+          "title": "WHO Euro Health Observatory – Austria",
+          "url": "https://eurohealthobservatory.who.int/countries/austria"
+        },
+        {
+          "title": "Expatica – Health insurance in Austria 2026",
+          "url": "https://www.expatica.com/at/healthcare/healthcare-basics/health-insurance-austria-80975/"
+        }
       ],
       "lastReviewed": "2026-06-16"
     },
@@ -180,8 +249,14 @@
         "New Jan 2026 integration courses (5-day values/orientation) add German-context obligations."
       ],
       "links": [
-        { "title": "migration.gv.at – Integration Agreement", "url": "https://www.migration.gv.at/en/living-and-working-in-austria/integration-and-citizenship/integration-agreement/" },
-        { "title": "The Local – Immigration changes in Austria 2026 and beyond", "url": "https://www.thelocal.at/20251210/what-immigration-changes-await-foreigners-in-austria-in-2026-and-beyond" }
+        {
+          "title": "migration.gv.at – Integration Agreement",
+          "url": "https://www.migration.gv.at/en/living-and-working-in-austria/integration-and-citizenship/integration-agreement/"
+        },
+        {
+          "title": "The Local – Immigration changes in Austria 2026 and beyond",
+          "url": "https://www.thelocal.at/20251210/what-immigration-changes-await-foreigners-in-austria-in-2026-and-beyond"
+        }
       ],
       "lastReviewed": "2026-06-16"
     },
@@ -197,8 +272,14 @@
         "Hardening enforcement climate (integration sanctions, family-reunion pause powers) is the only downward pull."
       ],
       "links": [
-        { "title": "WJP Rule of Law Index 2025 – global press release", "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2025-global-press-release" },
-        { "title": "WJP Rule of Law Index – Austria", "url": "https://worldjusticeproject.org/rule-of-law-index/country/2024/Austria/" }
+        {
+          "title": "WJP Rule of Law Index 2025 – global press release",
+          "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2025-global-press-release"
+        },
+        {
+          "title": "WJP Rule of Law Index – Austria",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/country/2024/Austria/"
+        }
       ],
       "lastReviewed": "2026-06-16"
     },
@@ -214,8 +295,14 @@
         "Migration and border control remain dominant political themes."
       ],
       "links": [
-        { "title": "Wikipedia – Stocker government", "url": "https://en.wikipedia.org/wiki/Stocker_government" },
-        { "title": "The Local – Immigration changes in Austria 2026 and beyond", "url": "https://www.thelocal.at/20251210/what-immigration-changes-await-foreigners-in-austria-in-2026-and-beyond" }
+        {
+          "title": "Wikipedia – Stocker government",
+          "url": "https://en.wikipedia.org/wiki/Stocker_government"
+        },
+        {
+          "title": "The Local – Immigration changes in Austria 2026 and beyond",
+          "url": "https://www.thelocal.at/20251210/what-immigration-changes-await-foreigners-in-austria-in-2026-and-beyond"
+        }
       ],
       "lastReviewed": "2026-06-16"
     },
@@ -231,8 +318,14 @@
         "Max monthly contribution base €6,450 (2026)."
       ],
       "links": [
-        { "title": "OECD – Taxing Wages 2026: Austria", "url": "https://www.oecd.org/en/publications/taxing-wages-2026_3a5169ef-en/full-report/austria_c6e0a28c.html" },
-        { "title": "PwC Worldwide Tax Summaries – Austria (individual)", "url": "https://taxsummaries.pwc.com/austria/individual/other-taxes" }
+        {
+          "title": "OECD – Taxing Wages 2026: Austria",
+          "url": "https://www.oecd.org/en/publications/taxing-wages-2026_3a5169ef-en/full-report/austria_c6e0a28c.html"
+        },
+        {
+          "title": "PwC Worldwide Tax Summaries – Austria (individual)",
+          "url": "https://taxsummaries.pwc.com/austria/individual/other-taxes"
+        }
       ],
       "lastReviewed": "2026-06-16"
     },
@@ -248,9 +341,18 @@
         "Muslim base mainly Turkish/Bosnian; FPÖ-driven anti-immigrant sentiment and 2026 integration sanctions are a downward pull."
       ],
       "links": [
-        { "title": "Statistik Austria – Religious denomination", "url": "https://www.statistik.at/en/statistics/population-and-society/population/further-population-statistics/religious-denomination" },
-        { "title": "Wikipedia – Islam in Austria", "url": "https://en.wikipedia.org/wiki/Islam_in_Austria" },
-        { "title": "Embassy & Permanent Mission of Bangladesh, Vienna", "url": "https://vienna.mofa.gov.bd/" }
+        {
+          "title": "Statistik Austria – Religious denomination",
+          "url": "https://www.statistik.at/en/statistics/population-and-society/population/further-population-statistics/religious-denomination"
+        },
+        {
+          "title": "Wikipedia – Islam in Austria",
+          "url": "https://en.wikipedia.org/wiki/Islam_in_Austria"
+        },
+        {
+          "title": "Embassy & Permanent Mission of Bangladesh, Vienna",
+          "url": "https://vienna.mofa.gov.bd/"
+        }
       ],
       "lastReviewed": "2026-06-16"
     }

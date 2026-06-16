@@ -1,0 +1,354 @@
+{
+  "id": "luxembourg",
+  "name": "Luxembourg",
+  "iso": "LU",
+  "iso3": "LUX",
+  "flag": "🇱🇺",
+  "region": "Europe",
+  "summary": "Tiny, very high-income tech hub with near-free English-taught MSc, low effective tax, 12-month post-study permit and family members who can work freely; but the small market may not absorb two senior engineers, long-stay visas are routed via New Delhi (no Dhaka decision), citizenship needs 5 years plus a Luxembourgish test, and housing is brutally expensive.",
+  "lastReviewed": "2026-06-16",
+  "links": [
+    {
+      "title": "Guichet.lu - Official Luxembourg administrative portal (immigration)",
+      "url": "https://guichet.public.lu/en/citoyens/immigration.html"
+    }
+  ],
+  "categories": {
+    "job-market": {
+      "status": "scored",
+      "score": 70,
+      "summary": "High-paying ICT/fintech hub with strong demand, but a very small labour market that may not absorb two senior engineers.",
+      "reasoning": "Luxembourg is a wealthy ICT, fintech and EU-institutions hub with high software-engineer pay (Glassdoor/PayScale 2025-26 average ~€56k-72k, 75th percentile ~€85k, seniors >€100k) and continued IT demand. English works widely in the international finance/tech scene. The decisive caveat for this couple is scale: the whole country has ~680,000 residents, so the absolute number of senior SW/AI openings is limited and placing BOTH simultaneously is less certain than in Germany or the Netherlands.",
+      "evidence": [
+        "Avg software-engineer salary ~€56k-72k; 75th pct ~€85k (Glassdoor/PayScale 2025-26)",
+        "ICT, fintech, fund-administration and EU-institution demand; English-friendly",
+        "Tiny labour market (~680k residents) limits absolute number of senior roles",
+        "Cross-border commuters from FR/BE/DE fill much of the talent pool, raising competition",
+        "Trending skills: cloud, Kubernetes, microservices, Python/Java/TypeScript"
+      ],
+      "links": [
+        {
+          "title": "Software Engineer Salary in Luxembourg (Glassdoor)",
+          "url": "https://www.glassdoor.com/Salaries/luxembourg-software-engineer-salary-SRCH_IL.0,10_IN148_KO11,28.htm"
+        },
+        {
+          "title": "Tech and Software Engineer Salaries in Luxembourg (TechPays Europe)",
+          "url": "https://techpays.com/europe/luxembourg"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "visa-access": {
+      "status": "scored",
+      "score": 48,
+      "summary": "No Dhaka decision: long-stay D visas for Bangladesh residents are processed at the Luxembourg Embassy in New Delhi.",
+      "reasoning": "The official MAEE Embassy in New Delhi confirms that for residents of Bangladesh, Sri Lanka and the Maldives, long-term D visa applications are processed at the Luxembourg Embassy in New Delhi (sent by courier), not decided in Dhaka. Applicants first obtain a temporary authorisation to stay (Ministry responds within ~60 days, valid 90 days) before the D visa (fee ~€99) plus an €80 residence-permit fee, and must prove ~80% of the social-inclusion income monthly. The New Delhi routing, courier/biometrics friction and modest-but-real funds bar place this in the mixed band.",
+      "evidence": [
+        "MAEE New Delhi: long-stay D visas for Bangladesh residents processed in New Delhi, not Dhaka",
+        "Temporary authorisation to stay first (Ministry ~60 days; valid 90 days)",
+        "D visa fee ~€99; residence-permit fee €80; biometrics required",
+        "Financial proof: monthly resources >= 80% of social-inclusion income",
+        "Sweden VAC in Dhaka handles short-stay only; long-stay routed via India"
+      ],
+      "links": [
+        {
+          "title": "Long-term National Visa - Embassy of Luxembourg in New Delhi (official)",
+          "url": "https://newdelhi.mae.lu/en/service_citoyens/visa-immigration/long-term-national-visa.html"
+        },
+        {
+          "title": "Conditions for residence for third-country students (Guichet.lu, official)",
+          "url": "https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/etudiant/etudiant-pays-tiers.html"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "citizenship": {
+      "status": "scored",
+      "score": 64,
+      "summary": "5 years residence + dual citizenship fully allowed since 2009; but a Luxembourgish-language Sproochentest is required.",
+      "reasoning": "Naturalisation requires 5 years' legal residence (the last 12 months uninterrupted), and Luxembourg has allowed dual/multiple nationality since 1 January 2009, so Bangladeshis need not renounce. The decision comes within ~8 months. The friction is the Sproochentest in Luxembourgish (A2 speaking / B1 listening) plus a 'Living together' civics course; Luxembourgish is a niche language with little day-to-day exposure for English-speaking tech workers, making the language bar the main drag.",
+      "evidence": [
+        "5 years' residence, last 12 months uninterrupted (Guichet.lu)",
+        "Dual citizenship allowed since 1 Jan 2009 - no renunciation for Bangladeshis",
+        "Sproochentest: A2 speaking + B1 listening in Luxembourgish",
+        "Decision within ~8 months of application; civics 'Vivre ensemble' course",
+        "8,223 people acquired Luxembourgish nationality in 2025"
+      ],
+      "links": [
+        {
+          "title": "Luxembourgish citizenship: requirements and procedures (justarrived.lu)",
+          "url": "https://www.justarrived.lu/en/informations-thematiques/demarches-administratives-luxembourg/nationalite-luxembourgeoise"
+        },
+        {
+          "title": "Luxembourg citizenship and the Sproochentest (Etude.lu)",
+          "url": "https://etude.lu/article/how-to-get-luxembourg-citizenship-sproochentest"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "post-study-work": {
+      "status": "scored",
+      "score": 66,
+      "summary": "12-month job-search/business permit for non-EU Master's grads; not renewable, must switch to a worker permit before expiry.",
+      "reasoning": "Non-EU graduates of a Luxembourg Master's get a 'residence permit for personal reasons' marked 'job search or business creation', valid 12 months (Guichet.lu), with a simplified switch to an employee permit once a job is found. It is not renewable: holders must transition to an employee/self-employed permit before it lapses, and must prove monthly resources of >=80% of the social-inclusion income. Solid but shorter than the 3-year open-work top anchor, and only Master's/PhD graduates qualify.",
+      "evidence": [
+        "12-month 'job search or business creation' permit for non-EU Master's/PhD grads (Guichet.lu)",
+        "Not renewable; must switch to employee/self-employed permit before expiry",
+        "Simplified procedure to switch once a job offer is secured",
+        "Apply >=30 days before student permit expires; €80 fee",
+        "Financial proof during search: >=80% of social-inclusion income"
+      ],
+      "links": [
+        {
+          "title": "Staying in Luxembourg to find a job after studies (Guichet.lu, official)",
+          "url": "https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/etudiant/sejour-luxembourg-apres-etudes.html"
+        },
+        {
+          "title": "EU Blue Card / highly qualified worker permit (Guichet.lu, official)",
+          "url": "https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/hautement-qualifie/salarie-hautement-qualifie.html"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "spouse-family": {
+      "status": "scored",
+      "score": 74,
+      "summary": "Family members get free labour-market access on arrival since 1 Sep 2023; strongest in the work phase, weaker during study.",
+      "reasoning": "Since 1 September 2023 any third-country family member holding a 'family member' residence permit has free access to the labour market immediately, regardless of the sponsor's status - so a reunited spouse works without a separate permit. As two engineers, both also have strong standalone routes (student, then Blue Card/employee). The weaker point is the study phase: a student can sponsor a spouse only with a >=1-year visa and proof of resources for both, and student-stage reunification is more discretionary, so the couple may need to time reunification to the work phase.",
+      "evidence": [
+        "Family-member permit holders: free labour-market access on arrival since 1 Sep 2023 (Guichet.lu)",
+        "No separate work permit needed for a reunited spouse",
+        "Both partners can hold independent student / Blue Card / employee permits",
+        "Student-sponsor reunification needs >=1-year visa + resources for both, more discretionary",
+        "Blue Card spouses get expedited (~30-day) reunification processing"
+      ],
+      "links": [
+        {
+          "title": "Salaried work for a third-country family member (Guichet.lu, official)",
+          "url": "https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/membre-famille/exercice-activite-salariee.html"
+        },
+        {
+          "title": "Application for family reunification (Guichet.lu, official)",
+          "url": "https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/membre-famille/regroupement-familial.html"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "msc-study": {
+      "status": "scored",
+      "score": 80,
+      "summary": "University of Luxembourg MSc Information & Computer Sciences: English-taught, only €400/semester, 2 years; spouse can accompany.",
+      "reasoning": "The University of Luxembourg's Master in Information and Computer Sciences is taught entirely in English at just €400/semester (€800/year) over 2 years/4 semesters - near-free for a top-50-young university. Most UL Master's cost €0-400/semester (raised from €200 to €400 for 2025-26). The catalogue is small (essentially one main public university) versus Germany's dozens, and Luxembourg City living costs are very high, which caps the score below the abundant-and-cheap top tier.",
+      "evidence": [
+        "UL MSc Information & Computer Sciences: English (EN), €400/semester, 2 years (official)",
+        "Most UL Master's €0-400/semester; raised €200->€400 for 2025-26",
+        "Single main public university - limited breadth vs larger EU systems",
+        "Students may work part-time alongside study; spouse can accompany",
+        "High Luxembourg City living costs offset the low tuition"
+      ],
+      "links": [
+        {
+          "title": "Master in Information and Computer Sciences (University of Luxembourg, official)",
+          "url": "https://www.uni.lu/fstm-en/study-programs/master-in-information-and-computer-sciences/"
+        },
+        {
+          "title": "University of Luxembourg tuition fees 2026 (Shiksha)",
+          "url": "https://www.shiksha.com/studyabroad/luxembourg/universities/university-of-luxembourg/fees"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "pr-pathway": {
+      "status": "scored",
+      "score": 70,
+      "summary": "EU long-term resident status after 5 years' continuous legal residence; study/EU time can now count toward the clock.",
+      "reasoning": "Long-term resident (EU) status is available after 5 years' uninterrupted legal residence (Guichet.lu). Since 1 July 2024 time spent as a student or researcher (incl. in another EU state) counts toward the 5 years, which helps a study-then-work path. Blue Card holders can reach it via 5 years' EU residence with the last 2 in Luxembourg. Standard ~5-year timeline is predictable but not fast, and continuity rules (limited absences) apply.",
+      "evidence": [
+        "EU long-term resident status after 5 years' uninterrupted legal residence (Guichet.lu)",
+        "Since 1 Jul 2024 student/researcher time (incl. other EU states) counts toward the 5 years",
+        "Blue Card route: 5 years' EU residence, last 2 in Luxembourg",
+        "Permit valid 5 years; status lost after long EU/Luxembourg absences",
+        "No points test - residence-duration based and predictable"
+      ],
+      "links": [
+        {
+          "title": "Long-term resident status for third-country nationals (Guichet.lu, official)",
+          "url": "https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/sejour-5-ans/statut-resident-longue-duree-ressortissant-pays-tiers.html"
+        },
+        {
+          "title": "Luxembourg: Relaxed EU Long-term Residency Calculation Rules (Fragomen)",
+          "url": "https://www.fragomen.com/insights/luxembourg-relaxed-eu-long-term-residency-calculation-rules.html"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "income-cost": {
+      "status": "scored",
+      "score": 62,
+      "summary": "Top European net pay thanks to low effective tax, but Europe's most expensive housing eats much of the gain.",
+      "reasoning": "Net pay is among Europe's best - a married dual-earner couple faces a low tax wedge (OECD 2025: married-with-children wedge 20.7%, net rate ~9.9%) and SW salaries run ~€56k-85k. The offset is housing: Luxembourg City one-bed rents ~€1,675-2,200/month, three-bed €2,500-3,800, with housing costs ~87% above the EU average and chronic supply shortage. Two engineering incomes still allow real savings, but rent is a major drag.",
+      "evidence": [
+        "OECD 2025: married-with-children tax wedge 20.7%; net rate ~9.9%",
+        "Luxembourg City 1-bed rent ~€1,675-2,200/month; 3-bed €2,500-3,800",
+        "Housing costs ~87% above EU average; chronic undersupply",
+        "Rents rose ~4.3% y/y to ~€35.6/m2 by Feb 2026",
+        "Low tax + two incomes still enable meaningful savings"
+      ],
+      "links": [
+        {
+          "title": "Taxing Wages 2026 - Luxembourg (OECD, official PDF)",
+          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/04/taxing-wages-2026-country-notes_491a0e97/luxembourg_37a501fc/82a91506-en.pdf"
+        },
+        {
+          "title": "Cost of living in Luxembourg 2026 (Expatica)",
+          "url": "https://www.expatica.com/lu/moving/about/cost-of-living-in-luxembourg-1167461/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "healthcare": {
+      "status": "scored",
+      "score": 87,
+      "summary": "Universal statutory insurance (CNS) covers ~99% of residents; high quality, costs below EU average, 80-100% reimbursement.",
+      "reasoning": "Luxembourg runs a statutory health-insurance model under the CNS covering ~99% of residents, with public insurance reimbursing 80-100% of medical costs and high-quality care; health spending is ~5.5-7% of GDP, below the EU average. Affiliation via the CCSS is mandatory and tied to work/residence, and students are covered. Near the top tier; slightly below 90 because newcomers pay income-based contributions and some out-of-pocket gaps exist.",
+      "evidence": [
+        "CNS statutory insurance covers ~99% of residents",
+        "Reimbursement 80-100% of medical expenses",
+        "Health spending ~5.5-7% of GDP, below EU average",
+        "Mandatory CCSS affiliation; strong welfare and family benefits",
+        "Consistently ranked among the best systems in Europe"
+      ],
+      "links": [
+        {
+          "title": "Healthcare system in Luxembourg - practical guide (justarrived.lu)",
+          "url": "https://www.justarrived.lu/en/informations-thematiques/sante-bien-etre-luxembourg/apercu-du-systeme-de-sante-luxembourgeois"
+        },
+        {
+          "title": "Luxembourg health system review 2024 (WHO/Euro Observatory)",
+          "url": "https://eurohealthobservatory.who.int/publications/i/luxembourg-health-system-review-2024"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "culture-language": {
+      "status": "scored",
+      "score": 66,
+      "summary": "Highly multilingual and English-friendly daily life, but Luxembourgish (Sproochentest) is the bar for citizenship.",
+      "reasoning": "Luxembourg is one of the most multilingual countries in the world (French, German, Luxembourgish, plus widespread English in the international/tech sector), so English-speaking newcomers function well day-to-day and at work. The constraint is Luxembourgish - a niche language needed for the naturalisation Sproochentest (A2/B1) and some officialdom - which is harder to acquire incidentally than French or German. High livability and openness lift the score; the citizenship language bar holds it mid-band.",
+      "evidence": [
+        "Trilingual official languages (FR/DE/LB) + widespread English at work",
+        "English works in international finance/tech and much of daily life",
+        "Luxembourgish (Sproochentest A2/B1) required for naturalisation",
+        "Very high livability, safety and cosmopolitan (~47% foreign-born) society",
+        "Luxembourgish has limited everyday exposure for English speakers"
+      ],
+      "links": [
+        {
+          "title": "Luxembourg citizenship and the Sproochentest (Etude.lu)",
+          "url": "https://etude.lu/article/how-to-get-luxembourg-citizenship-sproochentest"
+        },
+        {
+          "title": "Religion and society in Luxembourg (justarrived.lu)",
+          "url": "https://www.justarrived.lu/en/generalites-luxembourg/religion/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "safety-law": {
+      "status": "scored",
+      "score": 88,
+      "summary": "WJP Rule of Law 2025: 7th of 143 (0.83); low crime, strong courts and protections for residents.",
+      "reasoning": "Luxembourg ranks 7th of 143 in the WJP Rule of Law Index 2025 with an overall score of 0.83, reflecting strong constraints on government, low corruption, order and security, and fair civil/criminal justice. Crime is low and the legal framework (incl. the Centre for Equal Treatment) protects residents. A top-tier rule-of-law environment; tempered only slightly by reported discrimination experiences among minorities.",
+      "evidence": [
+        "WJP Rule of Law Index 2025: 7th of 143, score 0.83",
+        "Strong scores on order & security and constraints on government",
+        "Low crime and corruption; independent judiciary",
+        "Centre for Equal Treatment (CET) handles discrimination complaints",
+        "EU member with robust civil-rights protections"
+      ],
+      "links": [
+        {
+          "title": "WJP Rule of Law Index 2025 - Luxembourg country page",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/country/Luxembourg"
+        },
+        {
+          "title": "WJP Rule of Law Index 2025 (full report PDF)",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/downloads/WJPIndex2025.pdf"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "politics": {
+      "status": "scored",
+      "score": 74,
+      "summary": "Stable consensus CSV-DP coalition (since Nov 2023); pro-skilled-migration economy, no dominant far-right party.",
+      "reasoning": "The CSV-DP coalition under PM Luc Frieden (formed 17 November 2023) gives stable, centre-right consensus government, and Luxembourg's economy structurally depends on foreign and cross-border workers, keeping skilled-migration routes (Blue Card, student-to-work) intact. There is no large anti-immigrant party comparable to Germany's AfD. Polls hint the coalition's majority is thin for the next election, a modest stability risk, but policy volatility toward skilled migrants is low.",
+      "evidence": [
+        "CSV-DP coalition under PM Luc Frieden since 17 Nov 2023",
+        "Economy reliant on foreign/cross-border labour; pro-skilled-migration",
+        "No dominant far-right party; consensus political culture",
+        "'Living together' integration law in force since 1 Jan 2024",
+        "Polls suggest a thinner future majority - modest stability risk"
+      ],
+      "links": [
+        {
+          "title": "Frieden-Bettel Government (Wikipedia, sourced)",
+          "url": "https://en.wikipedia.org/wiki/Frieden-Bettel_Government"
+        },
+        {
+          "title": "International Migration Outlook 2025 - Luxembourg (OECD)",
+          "url": "https://www.oecd.org/en/publications/international-migration-outlook-2025_ae26c893-en/full-report/luxembourg_f9fe9c51.html"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "tax": {
+      "status": "scored",
+      "score": 72,
+      "summary": "Low effective burden for a married dual-earner couple: ~20.7% tax wedge, ~90% take-home for family with kids (OECD 2025).",
+      "reasoning": "Luxembourg combines a progressive income-tax scale (0-42%) with generous joint taxation for married couples, giving one of the OECD's lower effective burdens. OECD Taxing Wages 2025 puts the married-with-two-children tax wedge at 20.7% (10th-lowest in the OECD) with employee net rate ~9.9%; a single average worker faces ~32%. For this dual-earner couple, joint filing and family benefits make take-home strong relative to most of Western Europe.",
+      "evidence": [
+        "Income tax 0-42% progressive; joint taxation for married couples",
+        "OECD 2025: married-with-2-children tax wedge 20.7% (10th-lowest)",
+        "Employee net rate ~9.9% for that household; ~90% take-home",
+        "Single average worker net rate ~32%",
+        "Joint filing materially lowers the couple's effective burden"
+      ],
+      "links": [
+        {
+          "title": "Taxing Wages 2026 - Luxembourg (OECD, official PDF)",
+          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/04/taxing-wages-2026-country-notes_491a0e97/luxembourg_37a501fc/82a91506-en.pdf"
+        },
+        {
+          "title": "The tax scale in Luxembourg (taxx.lu)",
+          "url": "https://taxx.lu/en/tax-return-guide/the-tax-scale-in-luxembourg"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "muslim-diaspora": {
+      "status": "scored",
+      "score": 50,
+      "summary": "~40-50k Muslims (~6%), 6 mosques, halal in cities; but tiny Bangladeshi community and notable reported discrimination.",
+      "reasoning": "Islam is the second religion (~40,000-50,000 Muslims, ~6% of residents) with six mosques and halal food available in cities, but the community is mainly Balkan, Maghrebi and Syrian - the Bangladeshi/South-Asian presence is very small, so established BD networks are thin. EU FRA (Oct 2024) found ~50% of Luxembourg's Muslims reported racism in the prior year and ~25-28% reported housing/healthcare discrimination, a real if not extreme sentiment concern.",
+      "evidence": [
+        "~40,000-50,000 Muslims (~6%); Islam the second-largest religion",
+        "Six mosques (Mamer/ICC, Luxembourg City, Esch, Wiltz, Diekirch)",
+        "Community mainly Balkan/Maghrebi/Syrian; very small Bangladeshi presence",
+        "Halal food available in cities but options limited vs large diasporas",
+        "EU FRA 2024: ~50% of Muslims reported racism in past year"
+      ],
+      "links": [
+        {
+          "title": "Islam in Luxembourg (Wikipedia, sourced)",
+          "url": "https://en.wikipedia.org/wiki/Islam_in_Luxembourg"
+        },
+        {
+          "title": "Report finds half of Luxembourg's Muslims experience racism (EU FRA-based)",
+          "url": "https://iqna.ir/en/news/3490425/report-finds-half-of-luxembourg%E2%80%99s-muslims-experience-racism"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    }
+  }
+}

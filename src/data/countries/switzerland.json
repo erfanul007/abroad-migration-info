@@ -1,0 +1,358 @@
+{
+  "id": "switzerland",
+  "name": "Switzerland",
+  "iso": "CH",
+  "iso3": "CHE",
+  "flag": "🇨🇭",
+  "region": "Europe",
+  "summary": "Acute ICT shortage, world-leading SW salaries, low income tax and elite English-taught CS Masters make Switzerland a high-pay destination, but it is a poor settle-and-naturalise route for this couple: 10-year citizenship, only a 6-month non-renewable post-study permit, no family reunion for students (spouse cannot accompany a master's student), tripled ETH/EPFL fees and a tiny Bangladeshi community.",
+  "lastReviewed": "2026-06-16",
+  "links": [
+    {
+      "title": "State Secretariat for Migration (SEM, official)",
+      "url": "https://www.sem.admin.ch/sem/en/home.html"
+    },
+    {
+      "title": "Embassy of Switzerland in Bangladesh (official)",
+      "url": "https://www.eda.admin.ch/countries/bangladesh/en/home.html"
+    }
+  ],
+  "categories": {
+    "job-market": {
+      "status": "scored",
+      "score": 84,
+      "summary": "Acute ICT shortage (record 72% of firms can't fill dev roles); top global SW pay; both engineers absorbable but quota-gated.",
+      "reasoning": "Switzerland faces an all-time-high skills shortage: digitalswitzerland's 2024 Digital Skills Barometer found 72% of employers struggle to fill software/IT roles, and a study projects a shortfall of ~54,400 ICT specialists by 2033 even after immigration. Zurich SW pay is world-leading (~CHF 125,000 median, CHF 105k-170k typical), and demand for cloud/data/cybersecurity stays intense in Zurich, Geneva and Lausanne. The brake is the non-EU quota: only 8,500 third-country permits for 2026 (4,500 B + 4,000 L), and employers must prove no EU/EFTA candidate was found, so placing both spouses is harder than in quota-free Germany.",
+      "evidence": [
+        "digitalswitzerland 2024: 72% of employers can't fill software/IT roles (record high)",
+        "Projected shortfall ~54,400 ICT specialists by 2033 (~128,600 needed)",
+        "Zurich SW engineer median ~CHF 125,000; range CHF 105k-170k",
+        "2026 non-EU quota only 8,500 (4,500 B + 4,000 L permits)",
+        "Employer must prove no EU/EFTA candidate (RAV/EURES) before hiring non-EU"
+      ],
+      "links": [
+        {
+          "title": "Swiss Skills Shortage Index (UZH Job Market Monitor, official)",
+          "url": "https://www.stellenmarktmonitor.uzh.ch/en/indices/Swiss-Skills-Shortage-Index.html"
+        },
+        {
+          "title": "Swiss immigration quotas for 2026 (Fragomen)",
+          "url": "https://www.fragomen.com/insights/swiss-immigration-quotas-for-2026-what-employers-and-workers-need-to-know.html"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "visa-access": {
+      "status": "scored",
+      "score": 62,
+      "summary": "Decided in Dhaka (free, in-person at Gulshan embassy), but ~3-month cantonal approval chain and quota gating add friction.",
+      "reasoning": "The Embassy of Switzerland in Dhaka (Gulshan 2) accepts and handles national (type D) student and work visas locally with no New Delhi travel; the student visa application is free and the embassy issues within ~5 days once the cantonal authority authorises. The slow part is the chain: the full process runs ~8-12+ weeks because a Swiss canton must approve first, appointments are by email/phone, and Bengali documents need certified translation. For work visas the non-EU quota and labour-market test add real uncertainty, keeping this below Dhaka-decided peers with simpler approvals.",
+      "evidence": [
+        "Embassy Dhaka (Gulshan 2) handles/decides national visas; no New Delhi travel",
+        "Student visa free of charge; embassy issues within ~5 days post cantonal approval",
+        "Total process ~8-12+ weeks (cantonal authorisation chain, season-dependent)",
+        "Appointment by email (dhaka.visa@eda.admin.ch) or phone, in-person submission",
+        "Bengali documents require certified EN/DE/FR/IT translation"
+      ],
+      "links": [
+        {
+          "title": "Swiss visa desk in Bangladesh (EDA, official)",
+          "url": "https://www.eda.admin.ch/countries/bangladesh/en/home/visa/entry-ch/up-90-days/bangladesh.html"
+        },
+        {
+          "title": "Embassy of Switzerland in Bangladesh (EDA, official)",
+          "url": "https://www.eda.admin.ch/countries/bangladesh/en/home.html"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "citizenship": {
+      "status": "scored",
+      "score": 50,
+      "summary": "10 years lawful residence + C permit required; dual citizenship allowed (no renunciation); B1 oral/A2 written language bar.",
+      "reasoning": "Ordinary naturalisation requires 10 years of lawful residence (3 of the last 5 before applying) AND holding a C settlement permit at the time, far longer than this couple's faster-citizenship preference. The big positive is that Switzerland permits dual citizenship and does not require renouncing Bangladeshi nationality. Applicants must prove integration plus language at the federal minimum (typically B1 spoken / A2 written in a national language, reinforced from 2018), with cantonal/communal processing of ~1-2.5 years on top of the 10 years. Dual-allowed lifts it off the floor, but the decade-plus timeline and language bar cap it in the mixed band.",
+      "evidence": [
+        "Ordinary naturalisation: 10 years residence (3 of last 5) + C permit at application",
+        "Dual citizenship allowed; no renunciation of Bangladeshi nationality required",
+        "Language ~B1 spoken / A2 written in a national language (federal minimum)",
+        "Processing ~1-2.5 years after eligibility; integration test required",
+        "B (and C) permit years count; L short-stay years do not"
+      ],
+      "links": [
+        {
+          "title": "Swiss citizenship by naturalisation (Richmond Chambers, 2026 guide)",
+          "url": "https://www.richmondchambers.ch/swiss-settlement-citizenship/swiss-citizenship-by-naturalisation"
+        },
+        {
+          "title": "State Secretariat for Migration - citizenship (SEM, official)",
+          "url": "https://www.sem.admin.ch/sem/en/home/integration-einbuergerung/schweizer-werden.html"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "post-study-work": {
+      "status": "scored",
+      "score": 48,
+      "summary": "Only a 6-month, non-renewable job-search L permit (max 15h/week work); convert to B if hired, but no spouse track.",
+      "reasoning": "Non-EU graduates of accredited Swiss universities get only a 6-month, non-renewable short-stay (L) job-search permit; you may keep working at most 15 hours/week during the search and must apply at least 15 days before finishing studies. If you secure a qualified job you convert to a B work permit (and Swiss-graduate hires of in-demand skills are favoured), but the window is far shorter than Germany's 18 months or NZ/Canada's multi-year open work, and there is no parallel spouse-of-graduate work route. Short window plus weak family provision holds this well below the strong band.",
+      "evidence": [
+        "Post-study job-search permit: 6 months, not renewable (L permit)",
+        "Max 15h/week work during the search; apply >=15 days before graduating",
+        "Convert to B work permit if hired in a qualified role",
+        "No dedicated spouse-of-graduate work permit in the search phase",
+        "Far shorter than Germany 18mo / NZ-Canada multi-year PSW"
+      ],
+      "links": [
+        {
+          "title": "Permit for post-studies job search, non-EU/EFTA (Canton Geneva, official)",
+          "url": "https://www.ge.ch/en/ask-student-permit/permit-post-studies-job-search-non-eu/efta"
+        },
+        {
+          "title": "Post-graduation stay in Switzerland (EPFL, official)",
+          "url": "https://www.epfl.ch/education/studies/en/epfl-studies/immigration-en/law-foreigners/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "spouse-family": {
+      "status": "scored",
+      "score": 42,
+      "summary": "Decisive weakness: non-EU students have no family-reunion right, so spouse can't accompany a master's student; only B/C spouses work.",
+      "reasoning": "For a couple that must relocate together and both work, the study phase is a near-disqualifier: non-EU/EFTA students have no legal entitlement to family reunification, and cantons rarely approve a spouse to join an ordinary master's student (discretionary Art. 44 FNIA, must prove self-sufficiency). The work phase is fine - a spouse who joins a B or C permit holder gets the right to work or be self-employed anywhere in Switzerland. The realistic fix is for both to enrol as students or for one to land a B work permit first, but the inability of a student's spouse to accompany and work makes the study-led pathway weak for this profile.",
+      "evidence": [
+        "Non-EU students: no entitlement to family reunification (study phase)",
+        "Spouse joining a student is discretionary (Art. 44 FNIA) and uncommon",
+        "Spouse of a B/C permit holder may work/self-employ Switzerland-wide",
+        "Workaround: both enrol separately, or one gets a B work permit first",
+        "Strong penalty given relocateTogether and both-must-work profile"
+      ],
+      "links": [
+        {
+          "title": "Family reunification for family members of non-EU nationals (Richmond Chambers)",
+          "url": "https://www.richmondchambers.ch/swiss-residence-permit/family-reunification-for-family-members-of-non-eu-nationals-living-in-switzerland"
+        },
+        {
+          "title": "Applying for a residence permit for my family (Canton Geneva, official)",
+          "url": "https://www.ge.ch/en/taxonomy/term/4206/impression"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "msc-study": {
+      "status": "scored",
+      "score": 70,
+      "summary": "Elite English-taught CS MSc at ETH/EPFL but tuition tripled to ~CHF 2,190/sem (2025); no work for first 6mo, then 15h/week.",
+      "reasoning": "ETH Zurich and EPFL offer world-class fully-English MSc Computer Science programmes (120 ECTS, several majors), and Swiss public tuition is still cheap by global standards - but from autumn 2025 fees for incoming international students tripled from CHF 730 to at least CHF 2,190 per semester (~CHF 4,380/year). Non-EU students cannot work for the first 6 months of study and are then capped at 15h/week during term. The decisive limiter for this couple is study-phase family reunion (see spouse-family): the spouse cannot reliably accompany a master's student, so abundant programmes and modest fees only partly offset that.",
+      "evidence": [
+        "ETH Zurich and EPFL MSc Computer Science fully taught in English (120 ECTS)",
+        "International tuition tripled from autumn 2025: CHF 730 -> >=CHF 2,190/semester",
+        "Non-EU students: no work in first 6 months, then max 15h/week in term",
+        "Full-time work allowed in lecture-free periods",
+        "Scholarships limited; spouse cannot reliably accompany (study-phase reunion)"
+      ],
+      "links": [
+        {
+          "title": "Tuition fees for foreign nationals to be tripled (ETH-Rat, official)",
+          "url": "https://ethrat.ch/en/tuition-fees-for-foreign-nationals-who-move-to-switzerland-to-study-to-be-tripled/"
+        },
+        {
+          "title": "Employment for non-EU/EFTA students (ETH Zurich, official)",
+          "url": "https://ethz.ch/en/studies/international/after-arrival/employment/non-eu.html"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "pr-pathway": {
+      "status": "scored",
+      "score": 55,
+      "summary": "C permit (PR) normally after 10 years; fast-track at 5 years on a B permit needs high integration (incl. language).",
+      "reasoning": "Standard settlement (C permit) comes after 10 years of lawful residence including 5 uninterrupted years on a B permit. A fast-track 'C permit anticipe' is possible after 5 years for those showing a high degree of integration (including language and economic self-sufficiency), which two well-paid engineers can plausibly meet. It is clearer and more attainable than long quota-locked routes, but ~5 years best-case (10 standard) and a discretionary integration bar put it below points-based PR systems that grant residence in 2-3 years.",
+      "evidence": [
+        "Standard C permit after 10 years residence incl. 5 uninterrupted on a B permit",
+        "Fast-track C permit at 5 years with high integration (language + self-sufficiency)",
+        "Discretionary integration assessment, not a transparent points test",
+        "Study (L) years do not count toward the residence requirement",
+        "Realistic ~5yr best case for two high earners; 10yr standard"
+      ],
+      "links": [
+        {
+          "title": "Swiss C Permit (permanent residence), 2026 guide (Richmond Chambers)",
+          "url": "https://www.richmondchambers.ch/swiss-settlement-citizenship/swiss-permanent-residence-c-permit"
+        },
+        {
+          "title": "Living and working in Switzerland (SEM, official)",
+          "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit.html"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "income-cost": {
+      "status": "scored",
+      "score": 72,
+      "summary": "World-leading net SW pay (keep ~75-85% of gross) but Zurich/Geneva rents and ~CHF 393/mo health premiums bite.",
+      "reasoning": "Software engineers earn among the highest net salaries globally: a Zurich SW engineer on ~CHF 120,000 keeps ~CHF 89,600 (25.4% average tax) before social charges, and with two incomes savings potential is excellent. Offsets are steep: a Zurich 1-bed city-centre runs ~CHF 1,480-1,650/month, mandatory health insurance averages CHF 393.30/month per adult in 2026 (paid separately, not via payroll), and general prices are among the world's highest. On balance two engineering incomes still bank meaningful surplus, hence the strong-but-not-top score.",
+      "evidence": [
+        "Zurich net: CHF 120,000 -> ~CHF 89,572 (25.4% avg tax), before social charges",
+        "Keep ~75-85% of gross after tax + social contributions (canton-dependent)",
+        "Zurich 1-bed city-centre ~CHF 1,480-1,650/month",
+        "2026 average health premium CHF 393.30/month per adult (separate cost)",
+        "Two SW incomes -> strong real savings despite high prices"
+      ],
+      "links": [
+        {
+          "title": "Switzerland - taxes on personal income (PwC Tax Summaries)",
+          "url": "https://taxsummaries.pwc.com/switzerland/individual/taxes-on-personal-income"
+        },
+        {
+          "title": "Swiss health insurance premiums 2026 (moneyland.ch)",
+          "url": "https://www.moneyland.ch/en/health-insurance-saving-potential-2026"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "healthcare": {
+      "status": "scored",
+      "score": 74,
+      "summary": "Top-quality universal care but via mandatory private insurance: ~CHF 393/mo per adult in 2026, rising 4.4%, plus deductibles.",
+      "reasoning": "Switzerland delivers world-class healthcare with universal coverage, but it runs on compulsory private basic insurance every resident must buy individually - averaging CHF 393.30/month per adult in 2026 (Geneva ~CHF 562, Zug ~CHF 317), rising 4.4% on average, on top of annual deductibles. Quality and access are excellent and there's no waiting-list culture, but newcomers carry a real monthly cost from day one with no employer-paid statutory pool, so it lands below universal tax-funded systems.",
+      "evidence": [
+        "Universal coverage via mandatory individual basic insurance",
+        "2026 average premium CHF 393.30/month per adult (+4.4%)",
+        "Wide canton spread: Geneva ~CHF 562 vs Zug ~CHF 317",
+        "Annual deductible (franchise) + 10% co-pay on top of premiums",
+        "Top-tier quality and access; no employer statutory pool for newcomers"
+      ],
+      "links": [
+        {
+          "title": "Premiums and costs - FAQs (Federal Office of Public Health BAG, official)",
+          "url": "https://www.bag.admin.ch/en/premiums-and-costs-answers-to-frequently-asked-questions"
+        },
+        {
+          "title": "Swiss health insurance premiums 2026 (moneyland.ch)",
+          "url": "https://www.moneyland.ch/en/health-insurance-saving-potential-2026"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "culture-language": {
+      "status": "scored",
+      "score": 58,
+      "summary": "English works in tech and high livability, but a national language (B1) is needed for officialdom, PR fast-track and citizenship.",
+      "reasoning": "International tech workplaces in Zurich, Geneva and Lausanne operate heavily in English and livability/safety are world-class, but Switzerland is officially German/French/Italian and a national language is required for daily bureaucracy, the fast-track C permit and naturalisation (~B1 spoken). The couple's settle-and-naturalise goal therefore runs into a genuine language bar, and SVP rhetoric explicitly targets 'expatriates who speak only English'. Good day-to-day English usability lifts it, but the officialdom language requirement holds it in the mixed band.",
+      "evidence": [
+        "English common in Zurich/Geneva/Lausanne tech; high livability and safety",
+        "National language (~B1) needed for naturalisation and fast-track C permit",
+        "Four official languages; officialdom is in the cantonal language",
+        "SVP rhetoric targets English-only 'expatriates'",
+        "Strong integration possible but local language is real friction"
+      ],
+      "links": [
+        {
+          "title": "Living and integration in Switzerland (SEM, official)",
+          "url": "https://www.sem.admin.ch/sem/en/home/integration-einbuergerung.html"
+        },
+        {
+          "title": "Swiss citizenship by naturalisation - language (Richmond Chambers)",
+          "url": "https://www.richmondchambers.ch/swiss-settlement-citizenship/swiss-citizenship-by-naturalisation"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "safety-law": {
+      "status": "scored",
+      "score": 87,
+      "summary": "Top-tier WJP rule of law (top-10 of 143, ~0.83), very low crime, strong courts; migrant treatment generally fair.",
+      "reasoning": "Switzerland sits in the global top tier of the WJP Rule of Law Index 2025 (covering 143 countries; historically ranked ~6th-8th with a score near 0.83), with very low violent crime, strong order and security, and reliable, independent courts. Treatment of skilled migrants in the justice system is generally fair. Minor temper: direct-democracy initiatives targeting minorities (2009 minaret ban, 2021 face-covering ban) show some exclusionary streak, but the rule-of-law and personal-safety fundamentals are excellent for this couple.",
+      "evidence": [
+        "WJP Rule of Law Index 2025: 143 countries; Switzerland in global top tier (~0.83)",
+        "Very low violent crime; strong order and security",
+        "Independent, well-functioning courts; fair legal process",
+        "Constitutional minority votes (minaret 2009, face-covering 2021) a caveat",
+        "Generally fair treatment of skilled migrants"
+      ],
+      "links": [
+        {
+          "title": "WJP Rule of Law Index 2025 - Switzerland (World Justice Project)",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/country/2025/Switzerland"
+        },
+        {
+          "title": "WJP Rule of Law Index 2025 global press release",
+          "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2025-global-press-release"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "politics": {
+      "status": "scored",
+      "score": 60,
+      "summary": "Very stable institutions; SVP-led 10M population cap rejected 14.06.2026, but anti-immigration pressure and quotas persist.",
+      "reasoning": "Switzerland's consensus government and direct democracy make policy unusually stable and predictable. On 14 June 2026 voters rejected the SVP's 'No to 10 million Switzerland' population-cap initiative (~55% opposed projected), a clear pro-openness signal, but the SVP remains the largest party and immigration is a permanent flashpoint, with strict annual non-EU quotas frozen for 2026. Skilled-migration routes are intact and stable, but persistent anti-immigration mobilisation and quota gating keep this short of the top band.",
+      "evidence": [
+        "Stable consensus federal government; predictable, slow-moving policy",
+        "SVP 10-million population-cap initiative rejected 14.06.2026 (~55% against)",
+        "SVP largest party; immigration a recurring referendum theme",
+        "2026 non-EU quotas frozen at 8,500 (predictable but capped)",
+        "Skilled-worker/B-permit routes preserved"
+      ],
+      "links": [
+        {
+          "title": "Swiss reject divisive anti-immigration proposal (France 24, 14.06.2026)",
+          "url": "https://www.france24.com/en/live-news/20260614-swiss-head-to-polls-in-divisive-anti-immigration-vote"
+        },
+        {
+          "title": "Swiss work-permit quotas for 2026 (VisaHQ)",
+          "url": "https://www.visahq.com/news/2026-01-01/ch/swiss-work-permit-quotas-for-2026-take-effect-today-offering-predictability-for-employers/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "tax": {
+      "status": "scored",
+      "score": 74,
+      "summary": "Low income tax + low social charges; Zurich CHF 120k nets ~CHF 89.6k (25.4% avg), with married 'splitting' relief.",
+      "reasoning": "Switzerland is genuinely low-tax for high earners: a Zurich resident on CHF 120,000 pays ~CHF 30,428 income tax (25.4% average, 37% marginal) and keeps ~CHF 89,572, with employee social contributions low (~6-7%) versus Germany's ~20%. Married couples benefit from income 'splitting', and Zurich cut taxation 5.3-11.4% from 1 January 2025. The main caveat is that mandatory health premiums sit outside payroll, but on income-tax burden and take-home this is a clear strength for two SW engineers.",
+      "evidence": [
+        "Zurich CHF 120,000: ~CHF 30,428 tax (25.4% avg, 37% marginal), net ~CHF 89,572",
+        "Employee social contributions low (~6-7%) vs ~20% Germany",
+        "Married couples taxed via income 'splitting' (favourable for dual earners)",
+        "Zurich reduced taxation 5.3-11.4% from 01.01.2025",
+        "Health premiums are separate (not payroll), a partial offset"
+      ],
+      "links": [
+        {
+          "title": "Switzerland - taxes on personal income (PwC Tax Summaries)",
+          "url": "https://taxsummaries.pwc.com/switzerland/individual/taxes-on-personal-income"
+        },
+        {
+          "title": "CHF 120,000 income tax calculator 2025 - Zurich (talent.com)",
+          "url": "https://ch.talent.com/en/tax-calculator?salary=120000&from=year"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "muslim-diaspora": {
+      "status": "scored",
+      "score": 45,
+      "summary": "~440-500k Muslims (5-6%) and halal in cities, but tiny Bangladeshi community (~3,000) and constitutional anti-Muslim votes.",
+      "reasoning": "Switzerland has ~440,000-500,000 Muslims (5-6% of residents, mostly Turkish/Balkan-origin) with ~218 mosques/prayer rooms and easy halal in Zurich, Geneva and Bern. But the Bangladeshi/South-Asian community is very small (~3,000 Bangladeshis), so culturally specific support is thin, and sentiment carries a hard edge: the 2009 minaret-construction ban and 2021 face-covering ('burqa') ban are in the constitution, FIDS reported rising anti-Muslim incidents after Oct 2023, and SVP campaigns invoke 'creeping Islamization'. Halal access offsets, but small community plus institutionalised hostility hold this in the weak band.",
+      "evidence": [
+        "~440,000-500,000 Muslims (5-6%); ~218 mosques/prayer rooms",
+        "Halal food easy in Zurich, Geneva, Bern",
+        "Very small Bangladeshi community (~3,000)",
+        "Constitutional minaret ban (2009) and face-covering ban (2021)",
+        "Rising anti-Muslim incidents post-Oct 2023; SVP 'Islamization' rhetoric"
+      ],
+      "links": [
+        {
+          "title": "2023 Report on International Religious Freedom: Switzerland (US State Dept)",
+          "url": "https://www.state.gov/reports/2023-report-on-international-religious-freedom/switzerland/"
+        },
+        {
+          "title": "Bangladeshi diaspora (Wikipedia, sourced)",
+          "url": "https://en.wikipedia.org/wiki/Bangladeshi_diaspora"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    }
+  }
+}
