@@ -1,33 +1,76 @@
-name: Deploy to GitHub Pages
+name: CI & Deploy to GitHub Pages
+
+# Every push to main runs the quality gate (lint, typecheck, test, build) and,
+# if it passes, publishes the built site to GitHub Pages. Pull requests run the
+# gate only (no deploy) so broken changes never reach main.
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
+
+# GITHUB_TOKEN permissions for the official Pages deployment.
 permissions:
   contents: read
   pages: write
   id-token: write
+
+# Allow one concurrent deployment; don't cancel an in-progress publish.
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
+
 jobs:
   build:
+    name: Lint, typecheck, test, build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with: { node-version: 22, cache: npm }
-      - run: npm ci
-      - run: npm run test
-      - run: npm run build
-      - uses: actions/upload-pages-artifact@v3
-        with: { path: dist }
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Test
+        run: npm test
+
+      - name: Build
+        run: npm run build
+
+      - name: Configure Pages
+        # Auto-enables Pages in "GitHub Actions" mode on first run. Skip on PRs.
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
   deploy:
+    name: Deploy
+    # Deploy only after the gate passes, and never for pull requests.
     needs: build
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - id: deployment
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4

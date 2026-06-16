@@ -18,5 +18,11 @@ export default defineConfig([
     languageOptions: {
       globals: globals.browser,
     },
+    rules: {
+      // shadcn/ui primitives export a component plus its cva variants
+      // (badgeVariants, buttonVariants, …). Allowing constant exports keeps
+      // Vite fast-refresh happy without splitting every primitive into two files.
+      "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
+    },
   },
 ])
