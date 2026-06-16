@@ -9,7 +9,7 @@ export const categories = categoriesJson as Category[];
 export const profile = profileJson as Profile;
 
 // Eagerly import every country JSON file.
-const modules = import.meta.glob<{ default: Country }>("../data/countries/*.json", { eager: true });
+const modules = import.meta.glob<{ default: Country }>("@/data/countries/*.json", { eager: true });
 export const countries: Country[] = Object.values(modules)
   .map((m) => m.default)
   .sort((a, b) => a.name.localeCompare(b.name));
