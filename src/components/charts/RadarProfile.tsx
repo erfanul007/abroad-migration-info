@@ -12,17 +12,19 @@ export function RadarProfile({ countries, categories }: { countries: ScoredCount
   });
 
   return (
-    <ResponsiveContainer width="100%" height={360}>
-      <RadarChart data={data} outerRadius="72%">
-        <PolarGrid />
-        <PolarAngleAxis dataKey="category" tick={{ fontSize: 11 }} />
-        <PolarRadiusAxis domain={[0, 100]} tick={{ fontSize: 10 }} />
-        {countries.map((c, i) => (
-          <Radar key={c.id} name={c.name} dataKey={c.name} stroke={COLORS[i % COLORS.length]} fill={COLORS[i % COLORS.length]} fillOpacity={0.18} />
-        ))}
-        <Tooltip />
-        {countries.length > 1 && <Legend />}
-      </RadarChart>
-    </ResponsiveContainer>
+    <figure className="m-0" role="img" aria-label={`Category radar profile for ${countries.map((c) => c.name).join(", ")}`}>
+      <ResponsiveContainer width="100%" height={360}>
+        <RadarChart data={data} outerRadius="72%">
+          <PolarGrid />
+          <PolarAngleAxis dataKey="category" tick={{ fontSize: 11 }} />
+          <PolarRadiusAxis domain={[0, 100]} tick={{ fontSize: 10 }} />
+          {countries.map((c, i) => (
+            <Radar key={c.id} name={c.name} dataKey={c.name} stroke={COLORS[i % COLORS.length]} fill={COLORS[i % COLORS.length]} fillOpacity={0.18} />
+          ))}
+          <Tooltip />
+          {countries.length > 1 && <Legend />}
+        </RadarChart>
+      </ResponsiveContainer>
+    </figure>
   );
 }
