@@ -5,65 +5,340 @@
   "iso3": "IRL",
   "flag": "🇮🇪",
   "region": "Europe",
-  "summary": "Not yet assessed.",
+  "summary": "English-native EU state with a strong tech labour market (Dublin Big Tech EU HQs), a fast 5-year route to citizenship that allows dual nationality and needs no language test, and a clean 2y CSEP + Stamp 4 + naturalisation pathway. Major drawbacks for this couple: no Irish visa office in Dhaka (apply via New Delhi/VFS Kolkata in India), a severe Dublin housing crisis, ~52% top marginal tax, and the fact that non-EEA students cannot bring a spouse during the study phase.",
   "lastReviewed": "2026-06-16",
-  "links": [],
+  "links": [
+    {
+      "title": "Immigration Service Delivery (irishimmigration.ie)",
+      "url": "https://www.irishimmigration.ie/"
+    },
+    {
+      "title": "Citizens Information - Moving to Ireland",
+      "url": "https://www.citizensinformation.ie/en/moving-country/"
+    }
+  ],
   "categories": {
     "job-market": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 88,
+      "summary": "Severe software/AI skills shortage; Dublin hosts Big Tech EU HQs; software roles on Critical Skills list with easy sponsorship.",
+      "reasoning": "Software developers/engineers sit on the Critical Skills Occupations List, and Dublin is the EU HQ for Google, Meta, LinkedIn, Microsoft, Stripe and Salesforce, so demand for two English-speaking SW engineers is strong and sponsorship via the Critical Skills Employment Permit is straightforward (median SW pay ~€88k, well above the €40,904 CSEP threshold). Held below 90 only because 2024-25 tech-sector layoffs and rising salary thresholds add some friction.",
+      "evidence": [
+        "Software/ICT roles are on the Critical Skills Occupations List (DETE).",
+        "CSEP standard threshold €40,904 from 1 March 2026; SW engineer pay typically €50k-€90k+.",
+        "Dublin is EU HQ for Google, Meta, LinkedIn, Microsoft, Stripe, Salesforce, Workday.",
+        "Median software engineer salary in Ireland ~€88k (2026)."
+      ],
+      "links": [
+        {
+          "title": "Critical Skills Employment Permit - DETE",
+          "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/"
+        },
+        {
+          "title": "Critical Skills Employment Permit - Citizens Information",
+          "url": "https://www.citizensinformation.ie/en/moving-country/working-in-ireland/employment-permits/green-card-permits/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "visa-access": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 48,
+      "summary": "No Irish visa office in Dhaka; Bangladeshis apply via Embassy in New Delhi / VFS Kolkata (India); financial scrutiny high.",
+      "reasoning": "Ireland has no mission or VFS visa centre in Bangladesh, so Bangladeshi nationals must route applications through the Embassy of Ireland in New Delhi or VFS Kolkata in India, and the €6,000 minimum funds rule plus financial-evidence scrutiny (the leading refusal cause) raises the bar. Acceptance is reasonable overall, but the cross-border filing and financial bar pull this firmly into the 'must use another country / financial bar' band.",
+      "evidence": [
+        "No Embassy of Ireland in Bangladesh; applications routed via New Delhi / VFS Kolkata, India.",
+        "From 30 June 2025 students must show >=€6,000 funds plus tuition paid for the Stamp 2 study visa.",
+        "Financial inadequacy is the most common refusal reason (~30% of refusals).",
+        "First-instance study-visa decision time at New Delhi is ~40 working days."
+      ],
+      "links": [
+        {
+          "title": "Visas - Embassy of Ireland, India (New Delhi)",
+          "url": "https://www.ireland.ie/en/india/newdelhi/services/visas/processing-times-and-decisions/"
+        },
+        {
+          "title": "Student visas to study in Ireland - Citizens Information",
+          "url": "https://www.citizensinformation.ie/en/moving-country/visas-for-ireland/student-visas/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "citizenship": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 74,
+      "summary": "~5y reckonable residence, dual citizenship ALLOWED, no language test (English) - favourable, fast route.",
+      "reasoning": "Naturalisation requires 5 years of reckonable residence (1 continuous + 4 in the prior 8), Ireland fully permits dual citizenship so they keep Bangladeshi nationality, and there is no formal language exam since they are already English-proficient. This lands in the favourable ~5y/dual/no-language band; not 90+ because total time including PR build-up is still around 5 years, not under 5.",
+      "evidence": [
+        "Standard naturalisation needs 5 years reckonable residence (rules tightened to 5y baseline from Dec 2025 for some categories).",
+        "Ireland allows dual citizenship - original nationality retained.",
+        "No standalone language test; English proficiency satisfies the requirement.",
+        "Time on Stamp 1G and Stamp 4 counts toward reckonable residence."
+      ],
+      "links": [
+        {
+          "title": "Become an Irish citizen by naturalisation - ISD",
+          "url": "https://www.irishimmigration.ie/how-to-become-a-citizen/become-an-irish-citizen-by-naturalisation/"
+        },
+        {
+          "title": "Becoming an Irish citizen through naturalisation - Citizens Information",
+          "url": "https://www.citizensinformation.ie/en/moving-country/irish-citizenship/becoming-an-irish-citizen-through-naturalisation/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "post-study-work": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 78,
+      "summary": "Third Level Graduate Programme: 24-month Stamp 1G for master's grads, full-time work, easy switch to CSEP.",
+      "reasoning": "Master's (NFQ Level 9) graduates get the Third Level Graduate Programme Stamp 1G for 24 months (12+12), can work full-time with no employer restriction, and convert smoothly to a Critical Skills Employment Permit once they secure a graduate role. Two years of unrestricted work plus an easy permit switch is strong; below 90 because it is 24 months rather than a 3-year open work right.",
+      "evidence": [
+        "Level 9 master's graduates receive 24 months Stamp 1G (granted 12 months, renewed 12).",
+        "Stamp 1G holders may work full-time under Irish employment law.",
+        "Must apply within 6 months of award; €300 registration fee per person.",
+        "Standard route is Stamp 1G to Critical Skills Employment Permit to Stamp 4."
+      ],
+      "links": [
+        {
+          "title": "Third Level Graduate Programme - ISD",
+          "url": "https://www.irishimmigration.ie/my-situation-has-changed-since-i-arrived-in-ireland/third-level-graduate-programme/"
+        },
+        {
+          "title": "Third Level Graduate Scheme - ICOS",
+          "url": "https://www.internationalstudents.ie/info-and-advice/immigration/third-level-graduate-scheme"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "spouse-family": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 58,
+      "summary": "CSEP-phase spouse gets Stamp 1G + full work rights, BUT non-EEA students cannot bring a spouse during study.",
+      "reasoning": "Once one partner holds a Critical Skills Employment Permit, the spouse gets family reunification with Stamp 1G and can work without a separate permit - excellent. But in the study phase non-EEA students generally cannot sponsor a dependent spouse, so the couple must either both enrol as students or relocate together only after the work phase begins. The strong work-phase rights are offset by the study-phase dependant ban, placing this mid-band. Note: as both are SW engineers, each can independently qualify, which mitigates the gap.",
+      "evidence": [
+        "Spouses/partners of CSEP holders get Stamp 1G and can work without an employment permit.",
+        "Stamp 1G dependants may also study in the State.",
+        "Non-EEA students cannot bring a spouse as a dependant during study (limited exceptions e.g. PhD).",
+        "Dependant minors of CSEP holders get Stamp 1G work rights at 16 (from 26 Nov 2025)."
+      ],
+      "links": [
+        {
+          "title": "Employment permits and family members - Citizens Information",
+          "url": "https://www.citizensinformation.ie/en/moving-country/working-in-ireland/employment-permits/spousal-work-permit-scheme/"
+        },
+        {
+          "title": "Immigration rules for full-time non-EEA students - Citizens Information",
+          "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/studying-in-ireland/immigration-nonEEA-students/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "msc-study": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 66,
+      "summary": "Abundant English-taught MSc but high non-EU tuition (~€12k-€30k) + 20h/wk work; spouse cannot accompany as dependant.",
+      "reasoning": "Ireland offers many English-taught MSc programmes in CS/AI at globally ranked universities (Trinity, UCD, UCC), and students can work 20h/week in term and 40h in holidays. However non-EU tuition runs ~€12,000-€30,000/year with limited CS scholarships (Trinity excludes CS from its Global Excellence scheme), a €6,000 funds rule, and the spouse cannot join as a study dependant. English-native MSc + work rights with high cost places this in the upper-mid band.",
+      "evidence": [
+        "Non-EU master's tuition ~€12,000-€30,000/year; CS often at the higher end.",
+        "Trinity Global Excellence Postgraduate Scholarship excludes Computer Science.",
+        "Stamp 2 students may work 20h/week term-time, 40h/week in set holiday periods.",
+        "From 30 June 2025 students must pay >=€6,000 and show it for the visa."
+      ],
+      "links": [
+        {
+          "title": "Working in Ireland - Education in Ireland",
+          "url": "https://www.educationinireland.com/en/living-in-ireland/working-in-ireland"
+        },
+        {
+          "title": "Immigration rules for full-time non-EEA students - Citizens Information",
+          "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/studying-in-ireland/immigration-nonEEA-students/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "pr-pathway": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 72,
+      "summary": "Critical Skills permit holders can apply for Stamp 4 after just 2 years - fast, predictable long-term residence.",
+      "reasoning": "Critical Skills Employment Permit holders may apply for Stamp 4 (full work rights, no permit needed, family also on Stamp 4) after only 2 years, far faster than the 5 years required for General Employment Permit holders. Counting the 24-month Stamp 1G graduate phase, the couple reach secure long-term residence in roughly 4 years - a clear, predictable path placing this in the ~5y/Stamp 4 favourable band, edging above it on speed.",
+      "evidence": [
+        "CSEP holders can apply for Stamp 4 after 2 years (vs 5 years on GEP).",
+        "Stamp 4 grants full work rights, free job changes, no permit, business ownership.",
+        "Family members move to Stamp 4 alongside the principal.",
+        "5 years total legal residence then qualifies for naturalisation."
+      ],
+      "links": [
+        {
+          "title": "Long Term Residency - ISD",
+          "url": "https://www.irishimmigration.ie/my-situation-has-changed-since-i-arrived-in-ireland/long-term-residency/"
+        },
+        {
+          "title": "Critical Skills Employment Permit - Citizens Information",
+          "url": "https://www.citizensinformation.ie/en/moving-country/working-in-ireland/employment-permits/green-card-permits/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "income-cost": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 60,
+      "summary": "High tech pay (two incomes ~€160k+) but severe Dublin housing crisis (1-bed ~€2,500/mo) badly erodes savings.",
+      "reasoning": "Two software-engineer salaries (~€80k-€90k each) give a strong gross household income, but Dublin's housing crisis is acute - one-bed rents ~€2,500/month, two-bed ~€2,490, with only ~1,900 rental homes available nationwide in late 2025 - which combined with ~52% top marginal tax heavily erodes net savings. High pay offset by extreme housing cost places this squarely in the mid band.",
+      "evidence": [
+        "Dublin 1-bed rent ~€2,500/month; 2-bed ~€2,490/month (2025-26).",
+        "Only ~1,901 rental homes available nationwide in November 2025 - one of Europe's tightest markets.",
+        "Two SW engineers earn ~€160k-€180k combined gross.",
+        "Single-person cost of living incl. city-centre rent ~€2,800/month."
+      ],
+      "links": [
+        {
+          "title": "Cost of Living in Dublin - Wise",
+          "url": "https://wise.com/gb/cost-of-living/ireland/dublin"
+        },
+        {
+          "title": "Cost of Living in Dublin - Numbeo",
+          "url": "https://www.numbeo.com/cost-of-living/in/Dublin"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "healthcare": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 62,
+      "summary": "High-quality public HSE care once ordinarily resident, but long waits push ~45% to private insurance.",
+      "reasoning": "Ireland's HSE provides high-quality care and anyone ordinarily resident (>=1 year) can use public health services, but waiting lists are severe (700k+ on the scheduled-care list in early 2025; many outpatients wait 10+ weeks) so about 45% of people buy private insurance for timely access, and non-EEA newcomers must show private cover for the visa. Good quality but real access friction places this in the public-with-long-waits band.",
+      "evidence": [
+        "Public HSE care; ordinarily resident (>=1 year) gives access to public health services.",
+        "~700,320 patients on the scheduled-care list (Feb 2025); long non-emergency waits.",
+        "~45% of people hold private insurance (VHI, Laya, Irish Life Health) for faster access.",
+        "Non-EU newcomers must show private health insurance for visa/residence."
+      ],
+      "links": [
+        {
+          "title": "Healthcare services in Ireland - Citizens Information",
+          "url": "https://www.citizensinformation.ie/en/health/health-overview/"
+        },
+        {
+          "title": "Health Service Executive (HSE)",
+          "url": "https://www.hse.ie/eng/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "culture-language": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 90,
+      "summary": "English-native country; no language barrier for work, study, PR or citizenship - very favourable for this couple.",
+      "reasoning": "Ireland is English-speaking, so this English-proficient couple faces no language barrier for study, employment, daily life, PR or naturalisation, and there is no language exam for citizenship. Combined with a welcoming, multicultural urban culture this is highly favourable; not higher only because of cultural-distance adjustment for new arrivals.",
+      "evidence": [
+        "English is the working and everyday language nationwide.",
+        "No language test required for naturalisation.",
+        "Large, diverse migrant population in Dublin and other cities.",
+        "Study and professional life conducted entirely in English."
+      ],
+      "links": [
+        {
+          "title": "Becoming an Irish citizen through naturalisation - Citizens Information",
+          "url": "https://www.citizensinformation.ie/en/moving-country/irish-citizenship/becoming-an-irish-citizen-through-naturalisation/"
+        },
+        {
+          "title": "Living in Ireland - Education in Ireland",
+          "url": "https://www.educationinireland.com/en/living-in-ireland/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "safety-law": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 86,
+      "summary": "Top-tier rule of law (WJP 8th/143), low violent crime, strong legal protections.",
+      "reasoning": "Ireland ranks 8th of 143 on the WJP Rule of Law Index 2025 with strong institutional checks, impartial justice and accountable governance, and violent crime is low by international standards. Very safe and rights-protecting; held below 90+ due to localised public-order incidents tied to recent anti-immigration unrest.",
+      "evidence": [
+        "WJP Rule of Law Index 2025: Ireland ranks 8th of 143 countries.",
+        "Among the nine highest-scoring European countries (>0.82 on the 0-1 scale).",
+        "Strong institutional checks, transparent governance, impartial justice.",
+        "Low violent crime relative to international peers."
+      ],
+      "links": [
+        {
+          "title": "WJP Rule of Law Index - Ireland (2024)",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/country/2024/Ireland/"
+        },
+        {
+          "title": "WJP Rule of Law Index 2025",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "politics": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 64,
+      "summary": "Stable democracy and pro-EU, but rising anti-immigration protests, unrest and tighter 2026 protection law.",
+      "reasoning": "Ireland remains a stable, pro-EU parliamentary democracy with peaceful transfers of power, but 2024-25 saw record asylum numbers, recurrent anti-immigration protests and riots (Dublin 2023, Co. Clare 2025) and a tougher International Protection Bill 2026, signalling rising anti-immigrant sentiment. Fundamentally stable but with a clear adverse trend on immigration, placing it in the stable-but-rising-sentiment band.",
+      "evidence": [
+        "Stable parliamentary democracy, strong EU member, peaceful power transfers.",
+        "Record asylum applications in 2024 alongside ~100,000 Ukrainian refugees.",
+        "Recurrent anti-immigration protests/riots (Dublin 2023; Co. Clare ~2,000-strong Oct 2025).",
+        "International Protection Bill 2026 tightens asylum rules (in force ~mid-2026)."
+      ],
+      "links": [
+        {
+          "title": "Irish anti-immigration protests - overview",
+          "url": "https://en.wikipedia.org/wiki/Irish_anti-immigration_protests"
+        },
+        {
+          "title": "Immigration Service Delivery - policy updates",
+          "url": "https://www.irishimmigration.ie/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "tax": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 50,
+      "summary": "High burden: ~52% top marginal rate (40% income + 8% USC + 4% PRSI) hits two tech salaries.",
+      "reasoning": "High earners face a ~52% marginal rate (40% income tax + 8% USC + ~4% PRSI) above modest thresholds (~€44k single), so two software-engineer salaries are taxed heavily, though effective rates (~32% on €80k) and the SARP relief for some expats soften this. The high marginal burden on tech-level incomes places this in the high-tax band.",
+      "evidence": [
+        "Top marginal rate ~52% (40% income tax + 8% USC + 4% PRSI).",
+        "40% higher rate applies above ~€44,000 (single) / ~€53,000 (married one earner).",
+        "Effective rate on €80,000 ~32%; employee PRSI rose to 4.2% from Oct 2025.",
+        "SARP relief exempts 30% of income for some qualifying inbound executives."
+      ],
+      "links": [
+        {
+          "title": "Budget 2026 - tax rates, USC, PRSI, bands (KPMG)",
+          "url": "https://kpmg.com/ie/en/insights/tax/budget-2026/tables.html"
+        },
+        {
+          "title": "Revenue - Irish Tax and Customs",
+          "url": "https://www.revenue.ie/en/Home.aspx"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "muslim-diaspora": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 64,
+      "summary": "Growing Muslim & South-Asian community (~82k Muslims, 50 mosques), halal common in Dublin; community still modest.",
+      "reasoning": "Islam is Ireland's fastest-growing religion (~81,930 Muslims, 1.6% in 2022, +29% since 2016) with ~50 mosques including Dublin's ICCI and South Circular Road mosque, a ~95,000-strong South Asian population, and established halal clusters (Parnell St, Dublin 8). Solid and growing community with good Dublin infrastructure, but still relatively modest in scale and against a backdrop of rising anti-immigration sentiment, placing it in the growing-community band.",
+      "evidence": [
+        "~81,930 Muslims (1.6% of population, 2022); fastest-growing religion (+29% 2016-2022).",
+        "~50 mosques nationally incl. ICCI Clonskeagh and South Circular Road, Dublin.",
+        "~95,000 South Asians in Ireland (1.86%, 2022), with Bangladeshi community present.",
+        "Halal food clusters on Parnell Street (D1) and South Circular Road (D8)."
+      ],
+      "links": [
+        {
+          "title": "South Asians in Ireland - overview",
+          "url": "https://en.wikipedia.org/wiki/South_Asians_in_Ireland"
+        },
+        {
+          "title": "Islamic Foundation Ireland",
+          "url": "https://islamicfoundation.ie/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     }
   }
 }

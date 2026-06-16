@@ -5,65 +5,284 @@
   "iso3": "NZL",
   "flag": "🇳🇿",
   "region": "Oceania",
-  "summary": "Not yet assessed.",
+  "summary": "Strong fit for a Bangladeshi software-engineer couple: Software Engineer is Green List Tier 1 (straight-to-residence), master's grads get up to 3y open post-study work, partner of a level 9 student works freely, citizenship in 5y with dual allowed. Main frictions: no NZ mission in Dhaka with elevated student-visa refusals, high CS tuition, smaller/lower-paying tech market than AU/US.",
   "lastReviewed": "2026-06-16",
-  "links": [],
+  "links": [
+    {
+      "title": "Immigration New Zealand",
+      "url": "https://www.immigration.govt.nz/"
+    },
+    {
+      "title": "Green List occupations",
+      "url": "https://www.immigration.govt.nz/employ-migrants/explore-visa-options/green-list-roles"
+    }
+  ],
   "categories": {
     "job-market": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 72,
+      "summary": "Software Engineer on Green List Tier 1; AI/data/cyber demand rising, but small isolated market with lower pay than AU/US.",
+      "reasoning": "Both spouses are software engineers, an occupation INZ classes as a skill shortage on the Green List Tier 1, and 2025 data show data-science roles up ~24% and cybersecurity up ~27% with new dedicated AI roles. Demand is real and sponsorship is accessible, but New Zealand is a geographically isolated, small market with fewer large employers and mid-tier rate compression, so it scores below an AU/US-scale market.",
+      "evidence": [
+        "Software Engineer and ICT Security Specialist sit on Green List Tier 1 (Straight to Residence).",
+        "2025: data-science job postings up ~24%, cybersecurity up ~27%; AI/data-engineering roles emerging.",
+        "Median wage NZD 35.00/hr (from 9 Mar 2026); SE salaries ~NZD 90k-160k, below AU/US levels.",
+        "Remote-first hiring compressed mid-tier rates; demand skews to fewer senior/architecture/AI roles."
+      ],
+      "links": [
+        {
+          "title": "Green List roles (INZ)",
+          "url": "https://www.immigration.govt.nz/employ-migrants/explore-visa-options/green-list-roles"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "visa-access": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 50,
+      "summary": "No NZ mission in Dhaka; fully online via INZ, but Bangladeshi student-visa success only ~45% plus Genuine Student bar.",
+      "reasoning": "There is no New Zealand mission in Dhaka; Bangladeshi nationals apply online directly to Immigration New Zealand and receive decisions electronically, so no travel is required. However, the reported 2025-26 student-visa success rate for Bangladeshis is around 45%, with a compulsory Genuine Student statement and funds held 5-6 months beforehand, marking a meaningful financial and credibility bar.",
+      "evidence": [
+        "Applications lodged online with INZ; outcomes issued electronically (no Dhaka visa office).",
+        "Reported Bangladeshi student-visa success rate ~45% in 2025-26 (varies by institution/application quality).",
+        "Genuine Student statement now compulsory; police clearance and INZ panel-physician medical required.",
+        "Funds must be held 5-6 months pre-application to prove maintenance."
+      ],
+      "links": [
+        {
+          "title": "Study and student visas (INZ)",
+          "url": "https://www.immigration.govt.nz/visas/student-visa/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "citizenship": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 78,
+      "summary": "Citizenship after ~5y residence (1,350 days), dual citizenship allowed, English assessed informally - favourable.",
+      "reasoning": "Citizenship by grant requires holding residence and being present at least 1,350 days over five years (min 240 days/year). New Zealand permits dual citizenship and Bangladesh allows it too, so the couple keep their Bangladeshi passports. English is assessed informally during the application rather than by a fixed test, which suits fluent IT professionals; a formal test is only planned from mid-2027.",
+      "evidence": [
+        "Citizenship by grant: ~5 years residence, 1,350 days total presence (240 days/year minimum).",
+        "Dual citizenship explicitly allowed by New Zealand.",
+        "English requirement assessed informally by DIA through the application process.",
+        "Formal citizenship test only proposed from mid-2027."
+      ],
+      "links": [
+        {
+          "title": "NZ citizenship requirements (govt.nz)",
+          "url": "https://www.govt.nz/browse/passports-citizenship-and-identity/nz-citizenship/requirements-for-nz-citizenship/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "post-study-work": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 90,
+      "summary": "Master's grads get up to 3y open Post Study Work Visa; unrestricted employer/role, easy switch to skilled work.",
+      "reasoning": "A master's degree completed with at least 30 weeks of full-time study qualifies for a Post Study Work Visa of up to 3 years with open conditions, letting both spouses work for any employer and switch into an Accredited Employer Work Visa or Green List residence. A 2024 PGDip-to-master's bridge further protects eligibility.",
+      "evidence": [
+        "Master's grads eligible for up to 3-year open PSWV (min 30 weeks full-time study).",
+        "Nov 2024: PGDip-to-master's progression preserves PSWV eligibility; 12-month application window.",
+        "Open work conditions allow free job change and transition to AEWV / Green List residence.",
+        "Both engineers can each hold their own PSWV."
+      ],
+      "links": [
+        {
+          "title": "Post Study Work Visa (INZ)",
+          "url": "https://www.immigration.govt.nz/visas/post-study-work-visa/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "spouse-family": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 92,
+      "summary": "Partner of a level 9 (master's) student gets a work visa regardless of field; both engineers can each hold own skilled visa.",
+      "reasoning": "Critically, both spouses are software engineers, so neither depends on the other: each can hold their own student, PSW or Green List visa. Even in the study phase, the partner of a student on a level 9 (master's) programme can obtain a work visa irrespective of subject, and from Dec 2024 partners of AEWV holders in skilled roles get open work rights, giving full spouse work entitlement throughout.",
+      "evidence": [
+        "Partner of a level 9/10 (master's/PhD) student can get a work visa regardless of study field.",
+        "From 2 Dec 2024, partners of AEWV holders in skilled roles get open work rights (wage thresholds apply).",
+        "Both spouses are engineers - each can independently hold student/PSW/Green List status.",
+        "Dependent children can accompany on visitor/student visas."
+      ],
+      "links": [
+        {
+          "title": "Partner of a Student Work Visa (INZ)",
+          "url": "https://www.immigration.govt.nz/visas/partner-of-a-student-work-visa/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "msc-study": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 62,
+      "summary": "English-native MSc widely available, but high CS tuition (NZD ~35k-54k/yr); 25h/wk work, partner accompanies.",
+      "reasoning": "New Zealand universities teach master's degrees in English with no language transition, and students may work up to 25 hours/week from Nov 2025 while the partner accompanies and works. The drawback is cost: international MS Computer Science tuition runs roughly NZD 35,000-54,000/year plus NZD 1,200-2,500/month living, and broad scholarships for self-funded Bangladeshi applicants are limited.",
+      "evidence": [
+        "MS Computer Science tuition ~NZD 35,000-54,000/year for international students.",
+        "Living costs ~NZD 1,200-2,500/month; insurance/visa fees add ~NZD 3,500 upfront.",
+        "From 3 Nov 2025 eligible students may work up to 25 hours/week in semester.",
+        "Partner of master's student can accompany and work; broad funded scholarships scarce for self-funded BD applicants."
+      ],
+      "links": [
+        {
+          "title": "Study with New Zealand",
+          "url": "https://www.studywithnewzealand.govt.nz/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "pr-pathway": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 80,
+      "summary": "Green List Tier 1 Software Engineer = Straight to Residence; apply for residence immediately on qualifying job offer.",
+      "reasoning": "Software Engineer is a Green List Tier 1 role, which is a Straight to Residence pathway: with a qualifying Accredited Employer job offer meeting the wage requirement, the couple can apply for a resident visa immediately, with no minimum NZ work period. The alternative 6-point Skilled Migrant Category remains available. Some specialist IT roles carry a higher wage threshold, which slightly tempers certainty.",
+      "evidence": [
+        "Software Engineer = Green List Tier 1 (Straight to Residence) - no set work period before applying.",
+        "Tier 2 'Work to Residence' roles need 24 months work; Tier 1 does not.",
+        "SMC 6-point system available as alternative; Aug 2026 changes simplify wage thresholds.",
+        "Some specialist IT roles require pay above median wage to qualify."
+      ],
+      "links": [
+        {
+          "title": "Green List roles (INZ)",
+          "url": "https://www.immigration.govt.nz/employ-migrants/explore-visa-options/green-list-roles"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "income-cost": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 60,
+      "summary": "Decent SE pay (~NZD 90k-160k) but high Auckland cost and tech salaries below AU/US trim net savings.",
+      "reasoning": "Software engineer salaries of roughly NZD 90,000-160,000 are solid against a cost of living about 10-15% below Australia, supporting a dual-income couple. However, Auckland rent is high, NZ tech pay sits clearly below Australian and US levels, and purchasing power favours Australia, so net savings are moderate rather than strong.",
+      "evidence": [
+        "SE salaries ~NZD 90,000-160,000; junior ~NZD 65,000-85,000.",
+        "Auckland frugal living ~NZD 2,400-2,800/month; rent charged weekly, NZD 180-280/wk per room.",
+        "NZ ~10-15% cheaper than Australia, but AU/US salaries higher; purchasing power favours AU.",
+        "Dual software income materially improves household savings."
+      ],
+      "links": [
+        {
+          "title": "Stats NZ - household income/cost",
+          "url": "https://www.stats.govt.nz/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "healthcare": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 82,
+      "summary": "Universal publicly funded healthcare for residents/work-visa holders; students need insurance during study.",
+      "reasoning": "Once on a resident or qualifying 2+ year work visa, the couple access New Zealand's publicly funded universal healthcare with heavily subsidised care, a clear quality and cost advantage. During the study phase they must hold private student health insurance, a minor cost, which keeps the score just below top tier.",
+      "evidence": [
+        "Publicly funded universal healthcare for residents and most 2+ year work-visa holders.",
+        "International students must hold approved medical/travel insurance (~NZD 900/yr).",
+        "Subsidised GP visits and prescriptions for eligible residents.",
+        "High-quality public hospital system."
+      ],
+      "links": [
+        {
+          "title": "Eligibility for publicly funded health services",
+          "url": "https://www.health.govt.nz/regulation-legislation/eligibility-publicly-funded-health-services"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "culture-language": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 95,
+      "summary": "English-native country; no language barrier for fluent IT professionals - very favourable.",
+      "reasoning": "New Zealand is English-speaking across study, work and daily life, so two English-fluent software engineers face essentially no language barrier. The multicultural, immigrant-heavy population (especially in Auckland) further eases settlement.",
+      "evidence": [
+        "English is the primary working and academic language.",
+        "No language test required for citizenship beyond informal conversational ability.",
+        "Highly multicultural Auckland with large migrant communities.",
+        "IELTS/PTE used only for study/visa entry, not for daily integration."
+      ],
+      "links": [
+        {
+          "title": "Live in New Zealand (INZ)",
+          "url": "https://www.immigration.govt.nz/new-zealand-visas/preparing-a-visa-application/about-new-zealand"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "safety-law": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 90,
+      "summary": "Top-tier rule of law (WJP #6 high-income, 2024), low crime, strong rights protections.",
+      "reasoning": "New Zealand ranks 6th of 47 high-income countries in the 2024 WJP Rule of Law Index and is among the few countries whose score rose, with fundamental-rights protections holding up where they fell elsewhere. Low crime and stable institutions make it a very safe destination for the couple.",
+      "evidence": [
+        "WJP Rule of Law Index 2024: 6th of 47 high-income countries; overall score rose 1.0%.",
+        "Fundamental Rights factor held up while it fell in 81% of countries 2016-2024.",
+        "Top performer in East Asia & Pacific alongside Australia and Japan.",
+        "Generally low violent-crime rates."
+      ],
+      "links": [
+        {
+          "title": "WJP Rule of Law Index - New Zealand",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/country/New%20Zealand"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "politics": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 75,
+      "summary": "Stable democracy; 2025 reforms actively court skilled migrants (NOL, AEWV easing, Green List residence).",
+      "reasoning": "New Zealand is a stable parliamentary democracy, and 2025 policy is actively migrant-friendly: a National Occupation List added 91 occupations, the AEWV median-wage threshold was removed and required experience cut to two years, investor rules eased, and student work hours raised. This pro-skilled-migration stance directly benefits the couple.",
+      "evidence": [
+        "From 3 Nov 2025, National Occupation List replaced ANZSCO with 91 occupations added.",
+        "AEWV median-wage threshold removed; required experience cut 3 to 2 years.",
+        "Investor visa simplified (Apr 2025); student work hours raised to 25/week.",
+        "Stable institutions; orderly democratic transitions."
+      ],
+      "links": [
+        {
+          "title": "Immigration NZ news centre",
+          "url": "https://www.immigration.govt.nz/about-us/news-centre"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "tax": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 72,
+      "summary": "No general CGT, no separate social-security tax; top rate 39%, GST 15%, modest 1.67% ACC levy.",
+      "reasoning": "New Zealand has no general capital gains tax or wealth tax and no separate social-security payroll tax, only a modest ~1.67% ACC earner's levy, which keeps the effective burden on two software salaries relatively low. The top marginal rate of 39% applies only above NZD 180,000, with GST at 15%.",
+      "evidence": [
+        "2025-26 brackets: 10.5% / 17.5% / 30% / 33% / 39% (top rate above NZD 180,000).",
+        "No general capital gains tax and no wealth tax.",
+        "No dedicated social-security tax; ACC earner's levy ~1.67%.",
+        "GST 15%; KiwiSaver contributions optional."
+      ],
+      "links": [
+        {
+          "title": "Inland Revenue - tax rates",
+          "url": "https://www.ird.govt.nz/income-tax/income-tax-for-individuals/tax-codes-and-tax-rates-for-individuals/tax-rates-for-individuals"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "muslim-diaspora": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 58,
+      "summary": "~60k Muslims (Auckland ~40k), mosques and halal present but relatively small community; strong post-2019 solidarity.",
+      "reasoning": "New Zealand's Muslim population is around 60,000 (about 40,000 in Auckland) across 40+ ethnicities including South Asians, with 30+ mosques and Islamic agencies in Auckland and halal food available, so practising is feasible. It remains a relatively small community, and while the 2019 Christchurch attack is part of the context, it was followed by strong national solidarity and protective measures.",
+      "evidence": [
+        "Muslim population ~60,000 nationally; ~40,000 in Auckland.",
+        "30+ mosques and Muslim agencies in Auckland; Deans Ave mosque rebuilt in Christchurch.",
+        "Community spans 40+ ethnicities incl. South Asians; halal food accessible in main cities.",
+        "Post-2019 Christchurch: strong solidarity, protective legislation and community support."
+      ],
+      "links": [
+        {
+          "title": "Ethnic Communities - NZ Muslim Association",
+          "url": "https://www.ethniccommunities.govt.nz/community-directory/show/new-zealand-muslim-association"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
     }
   }
 }

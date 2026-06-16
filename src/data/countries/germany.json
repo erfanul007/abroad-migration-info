@@ -5,25 +5,306 @@
   "iso3": "DEU",
   "flag": "🇩🇪",
   "region": "Europe",
-  "summary": "Strong software/AI market, no tuition at public universities, clear study->work->PR route; German needed for fast citizenship.",
+  "summary": "Severe software/AI talent shortage and tuition-free public MSc make Germany a strong study->work->PR route; dual citizenship allowed but B1 German, high tax and rising anti-immigrant politics temper it.",
   "lastReviewed": "2026-06-16",
   "links": [
-    { "title": "Make it in Germany (official portal)", "url": "https://www.make-it-in-germany.com/en/" }
+    {
+      "title": "Make it in Germany (official portal)",
+      "url": "https://www.make-it-in-germany.com/en/"
+    }
   ],
   "categories": {
-    "job-market": { "status": "scored", "score": 88, "summary": "Deep demand for software/AI engineers across industry.", "reasoning": "Large tech and industrial software sector; EU Blue Card eases hiring of CS graduates.", "evidence": ["EU Blue Card salary thresholds widely met by SW roles", "Strong demand in Berlin/Munich/Hamburg"], "links": [{ "title": "EU Blue Card Germany (official)", "url": "https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card" }], "lastReviewed": "2026-06-16" },
-    "visa-access": { "status": "scored", "score": 70, "summary": "Embassy in Dhaka; structured student-visa process with blocked account.", "reasoning": "German Embassy Dhaka processes national visas; requires blocked account and APS certificate for Bangladeshi students.", "evidence": ["German Mission Dhaka issues student visas", "APS certificate required for BD applicants", "Blocked account financial proof"], "links": [{ "title": "German Missions in Bangladesh (official)", "url": "https://dhaka.diplo.de/" }], "lastReviewed": "2026-06-16" },
-    "citizenship": { "status": "scored", "score": 78, "summary": "Naturalisation possible in ~5 years; dual citizenship allowed since 2024.", "reasoning": "2024 reform cut standard naturalisation to 5 years and permits dual citizenship; B1 German required.", "evidence": ["StAG reform effective 2024", "Dual citizenship now permitted", "B1 German + life test"], "links": [{ "title": "German nationality law (BMI, official)", "url": "https://www.bmi.bund.de/EN/topics/constitution/nationality-law/nationality-law-node.html" }], "lastReviewed": "2026-06-16" },
-    "post-study-work": { "status": "scored", "score": 85, "summary": "18-month job-search residence permit after graduation.", "reasoning": "Graduates get an 18-month permit to seek qualified work; may work without restriction during it.", "evidence": ["18-month post-study job-search permit", "Unrestricted work during search"], "links": [{ "title": "Jobs after studies (Make it in Germany)", "url": "https://www.make-it-in-germany.com/en/study-training/studying/jobs-after-studies" }], "lastReviewed": "2026-06-16" },
-    "spouse-family": { "status": "scored", "score": 75, "summary": "Spouse reunification with broad work rights.", "reasoning": "Dependent spouses of students/workers can join; spouses of skilled workers generally get unrestricted labour-market access.", "evidence": ["Family reunification visa available", "Spouse of skilled worker may work without restriction"], "links": [{ "title": "Family reunification (Make it in Germany)", "url": "https://www.make-it-in-germany.com/en/visa-residence/family" }], "lastReviewed": "2026-06-16" },
-    "msc-study": { "status": "scored", "score": 90, "summary": "No tuition at public universities; many English MSc programs.", "reasoning": "Public universities charge no tuition (semester fee only); broad English-taught MSc catalogue; 120 full days/year work.", "evidence": ["No tuition at public universities", "DAAD catalogue of English programs", "120 full / 240 half work days per year"], "links": [{ "title": "DAAD international programmes", "url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/" }], "lastReviewed": "2026-06-16" },
-    "pr-pathway": { "status": "scored", "score": 80, "summary": "Settlement permit in ~21-33 months on Blue Card with German.", "reasoning": "EU Blue Card holders reach permanent settlement in 21 months (B1) or 27-33 months (A1), faster than most.", "evidence": ["Settlement permit in 21 months with B1 German on Blue Card"], "links": [{ "title": "Settlement permit (Make it in Germany)", "url": "https://www.make-it-in-germany.com/en/visa-residence/types/settlement-permit" }], "lastReviewed": "2026-06-16" },
-    "income-cost": { "status": "scored", "score": 72, "summary": "Solid net salaries; housing tight in major cities.", "reasoning": "Good engineering salaries; rents high in Munich/Berlin but overall savings possible.", "evidence": ["Competitive SW salaries", "High rent in metro areas"], "links": [{ "title": "Salary information (Make it in Germany)", "url": "https://www.make-it-in-germany.com/en/working-in-germany/salary" }], "lastReviewed": "2026-06-16" },
-    "healthcare": { "status": "scored", "score": 85, "summary": "Universal statutory health insurance; strong welfare.", "reasoning": "Mandatory statutory health insurance covers residents and students; comprehensive welfare and parental benefits.", "evidence": ["Statutory health insurance (GKV)", "Parental allowance (Elterngeld)"], "links": [{ "title": "Health insurance (Make it in Germany)", "url": "https://www.make-it-in-germany.com/en/living-in-germany/health-insurance" }], "lastReviewed": "2026-06-16" },
-    "culture-language": { "status": "scored", "score": 62, "summary": "English works in tech, but German needed for PR/citizenship and daily life.", "reasoning": "Tech workplaces often English; German required for bureaucracy, fast PR (B1) and citizenship.", "evidence": ["English common in tech", "German needed for officialdom and naturalisation"], "links": [{ "title": "Learning German (Make it in Germany)", "url": "https://www.make-it-in-germany.com/en/living-in-germany/learn-german" }], "lastReviewed": "2026-06-16" },
-    "safety-law": { "status": "scored", "score": 82, "summary": "Strong rule of law and low violent crime.", "reasoning": "High rule-of-law ranking; generally safe; established anti-discrimination protections.", "evidence": ["High WJP Rule of Law index", "Low violent crime rate"], "links": [{ "title": "WJP Rule of Law Index", "url": "https://worldjusticeproject.org/rule-of-law-index/" }], "lastReviewed": "2026-06-16" },
-    "politics": { "status": "scored", "score": 72, "summary": "Stable democracy; some rise in anti-immigration politics.", "reasoning": "Stable institutions but growing far-right vote share adds modest policy uncertainty.", "evidence": ["Stable federal democracy", "Rising AfD vote share"], "links": [{ "title": "Germany country profile (BBC)", "url": "https://www.bbc.com/news/world-europe-17299607" }], "lastReviewed": "2026-06-16" },
-    "tax": { "status": "scored", "score": 55, "summary": "High income tax and social contributions.", "reasoning": "Progressive tax plus social contributions reduce take-home pay; some student relief.", "evidence": ["Top marginal rate 42-45%", "Significant social contributions"], "links": [{ "title": "Taxes (Make it in Germany)", "url": "https://www.make-it-in-germany.com/en/working-in-germany/taxes-finances" }], "lastReviewed": "2026-06-16" },
-    "muslim-diaspora": { "status": "scored", "score": 80, "summary": "Large Muslim and South-Asian communities; halal widely available.", "reasoning": "Several million Muslims; mosques and halal food common in cities; some anti-Muslim sentiment exists.", "evidence": ["Large established Muslim population", "Halal food and mosques in major cities"], "links": [{ "title": "Religion in Germany (Pew Research)", "url": "https://www.pewresearch.org/religion/" }], "lastReviewed": "2026-06-16" }
+    "job-market": {
+      "status": "scored",
+      "score": 90,
+      "summary": "Acute software/AI shortage; ~109k unfilled IT roles, strong demand for both engineers.",
+      "reasoning": "Bitkom 2025 reports a shortage of ~109,000 IT specialists and 137,000+ open software roles, with an average 7.7 months to fill; demand easily absorbs two CS graduates and EU Blue Card thresholds are routinely met by IT salaries.",
+      "evidence": [
+        "Bitkom 2025: ~109,000 IT specialists missing; 137,000+ open roles",
+        "Average IT vacancy takes 7.7 months to fill",
+        "IT named a shortage occupation with lower Blue Card threshold (€45,934 in 2026)",
+        "Berlin/Munich/Hamburg tech scenes hire in English"
+      ],
+      "links": [
+        {
+          "title": "EU Blue Card Germany (Make it in Germany, official)",
+          "url": "https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card"
+        },
+        {
+          "title": "Skilled professionals for Germany (BMWE, official)",
+          "url": "https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Dossier/skilled-professionals.html"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "visa-access": {
+      "status": "scored",
+      "score": 62,
+      "summary": "Decision and biometrics in Dhaka, but APS, ~€11,904 blocked account and 12-month wait are heavy hurdles.",
+      "reasoning": "The German Embassy Dhaka decides and takes biometrics locally (no New Delhi travel), but Bangladeshi students face a mandatory APS certificate, a blocked account of €11,904 (€992/month for 2026/27), and an average reported wait of 12+ months for a student-visa appointment.",
+      "evidence": [
+        "German Mission Dhaka decides national/student visas locally",
+        "APS certificate mandatory for all Bangladeshi applicants since 2022",
+        "Blocked account €11,904/year (€992/month) for 2026/27",
+        "Reported average student-visa wait over 12 months"
+      ],
+      "links": [
+        {
+          "title": "Study Visa information (German Embassy Dhaka, official)",
+          "url": "https://dhaka.diplo.de/bd-en/service/2685884-2685884"
+        },
+        {
+          "title": "Student Visa FAQ (German Embassy Dhaka, official)",
+          "url": "https://dhaka.diplo.de/bd-en/service/2689586-2689586"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "citizenship": {
+      "status": "scored",
+      "score": 68,
+      "summary": "Standard 5 years + dual citizenship allowed, but 3-year fast-track repealed Oct 2025 and B1 + test required.",
+      "reasoning": "The 2024 reform keeps the 5-year naturalisation path and permits dual citizenship for Bangladeshis, but the 3-year 'turbo' route was repealed effective 30 Oct 2025; applicants still need B1 German, the Leben-in-Deutschland test and financial self-sufficiency.",
+      "evidence": [
+        "Standard naturalisation reduced from 8 to 5 years (StAG 2024)",
+        "Dual citizenship retained for non-EU nationals",
+        "3-year fast-track repealed, in force from 30 Oct 2025",
+        "B1 German + 33-question integration test + no reliance on benefits"
+      ],
+      "links": [
+        {
+          "title": "Naturalisation in Germany (BAMF, official)",
+          "url": "https://www.bamf.de/EN/Themen/Integration/ZugewanderteTeilnehmende/Einbuergerung/einbuergerung.html"
+        },
+        {
+          "title": "German nationality law (BMI, official)",
+          "url": "https://www.bmi.bund.de/EN/topics/constitution/nationality-law/nationality-law-node.html"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "post-study-work": {
+      "status": "scored",
+      "score": 80,
+      "summary": "18-month post-study job-search permit, unrestricted work, in-country switch to work visa.",
+      "reasoning": "German-university graduates get an 18-month residence permit to seek qualified work with unrestricted employment during it, then switch to a work permit or EU Blue Card from inside Germany; spouse can work in parallel.",
+      "evidence": [
+        "18-month post-study job-search permit for German graduates",
+        "Unrestricted work allowed during the search",
+        "Switch to work permit / Blue Card without leaving Germany",
+        "Proof of ~€992/month funds during search"
+      ],
+      "links": [
+        {
+          "title": "Jobs after studies (Make it in Germany, official)",
+          "url": "https://www.make-it-in-germany.com/en/study-training/studying/jobs-after-studies"
+        },
+        {
+          "title": "Opportunity Card / Chancenkarte (Make it in Germany, official)",
+          "url": "https://www.make-it-in-germany.com/en/visa-residence/types/opportunity-card"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "spouse-family": {
+      "status": "scored",
+      "score": 85,
+      "summary": "Both can hold own permits; spouse of skilled worker/Blue Card gets immediate unrestricted work.",
+      "reasoning": "As two qualified engineers each can hold an independent study or work permit, and a reuniting spouse of a skilled worker or EU Blue Card holder gets immediate unrestricted labour-market access with the A1 language requirement waived for Blue Card families.",
+      "evidence": [
+        "Spouse of skilled worker/Blue Card holder may work without restriction",
+        "A1 German waived for spouses joining Blue Card holders",
+        "Both partners can instead each hold their own student/work permit",
+        "Sponsor income ~€1,200/month for two persons"
+      ],
+      "links": [
+        {
+          "title": "Family reunification (Make it in Germany, official)",
+          "url": "https://www.make-it-in-germany.com/en/visa-residence/family-reunification/spouses-joining-citizens-non-eu"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "msc-study": {
+      "status": "scored",
+      "score": 88,
+      "summary": "Abundant English MSc, no tuition at most public universities, DAAD scholarships, student work rights.",
+      "reasoning": "Most public universities charge only a ~€150–350 semester fee with broad English-taught CS Master's catalogues and DAAD funding; students may work 120 full / 240 half days a year and the spouse can accompany. Exceptions: Baden-Württemberg (€1,500/sem) and TUM (€4,000–6,000/sem).",
+      "evidence": [
+        "No tuition at most public universities; semester fee only",
+        "Large English-taught MSc CS catalogue via DAAD",
+        "Student work allowance 120 full / 240 half days per year",
+        "Exceptions: Baden-Württemberg €1,500/sem, TUM €4,000–6,000/sem"
+      ],
+      "links": [
+        {
+          "title": "DAAD International Programmes database (official)",
+          "url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/"
+        },
+        {
+          "title": "DAAD scholarships (official)",
+          "url": "https://www.daad.de/en/studying-in-germany/scholarships/information-for-scholarship-applicants/"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "pr-pathway": {
+      "status": "scored",
+      "score": 82,
+      "summary": "Settlement permit in 21 months (B1) or 27 (A1) on Blue Card; study time can count.",
+      "reasoning": "EU Blue Card holders qualify for a settlement permit after 21 months with B1 German or 27 with A1, far faster than the standard 5 years; for German-university graduates, study time can count toward the residence requirement.",
+      "evidence": [
+        "Settlement permit at 21 months with B1 on Blue Card",
+        "27 months with A1 German on Blue Card",
+        "Standard route 5 years; study time may count for graduates",
+        "Requires pension contributions, B1 and integration test"
+      ],
+      "links": [
+        {
+          "title": "Settlement permit (Make it in Germany, official)",
+          "url": "https://www.make-it-in-germany.com/en/visa-residence/living-permanently/settlement-permit"
+        },
+        {
+          "title": "The EU Blue Card (BAMF, official)",
+          "url": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/ZuwandererDrittstaaten/Migrathek/BlaueKarteEU/blauekarteeu-node.html"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "income-cost": {
+      "status": "scored",
+      "score": 68,
+      "summary": "Good gross SW pay but 30-40% deductions and tight metro rents; two incomes help.",
+      "reasoning": "Mid-level engineers earn ~€55,000–75,000 gross but take-home is only ~60–70% after tax and social contributions, and Munich/Berlin rents are high; two engineering salaries still allow meaningful savings with budgeting (~15–25% of net in Berlin).",
+      "evidence": [
+        "Mid-level SW gross ~€55k–75k; Berlin avg ~€73k",
+        "Deductions typically 30–40% of gross",
+        "One-bed city-centre rent ~€1,000–1,400 (Berlin), €1,200–1,800 (Munich)",
+        "Two incomes enable ~15–25% net savings with budgeting"
+      ],
+      "links": [
+        {
+          "title": "Salary, taxes & social security (Make it in Germany, official)",
+          "url": "https://www.make-it-in-germany.com/en/working-in-germany/working-environment/salary-taxes-social-security"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "healthcare": {
+      "status": "scored",
+      "score": 85,
+      "summary": "Universal statutory health insurance; affordable student cover and strong welfare.",
+      "reasoning": "Mandatory statutory health insurance (GKV) covers residents comprehensively, students get a discounted public rate, and welfare benefits (e.g. Elterngeld) are strong; quality is high for both partners.",
+      "evidence": [
+        "Statutory health insurance (GKV) universal for residents",
+        "Discounted public student insurance rate",
+        "Comprehensive coverage and parental allowance (Elterngeld)"
+      ],
+      "links": [
+        {
+          "title": "Health insurance (Make it in Germany, official)",
+          "url": "https://www.make-it-in-germany.com/en/living-in-germany/health-insurance"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "culture-language": {
+      "status": "scored",
+      "score": 55,
+      "summary": "English works in tech, but B1 German is mandatory for citizenship and daily officialdom.",
+      "reasoning": "Tech workplaces frequently operate in English, but German is required for bureaucracy, faster PR (B1) and naturalisation (B1 + integration test), and daily life outside major hubs, a real barrier to their citizenship goal.",
+      "evidence": [
+        "English common in tech workplaces",
+        "B1 German required for PR and citizenship",
+        "Integration test (Leben in Deutschland) for naturalisation",
+        "German needed for officialdom and daily life"
+      ],
+      "links": [
+        {
+          "title": "Learning German (Make it in Germany, official)",
+          "url": "https://www.make-it-in-germany.com/en/living-in-germany/learn-german"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "safety-law": {
+      "status": "scored",
+      "score": 85,
+      "summary": "Top-tier rule of law and order/security; strong legal protections.",
+      "reasoning": "Germany ranks in the top tier of the WJP Rule of Law Index 2025 (top-5 for order and security) with low violent crime and established anti-discrimination law, though immigrants face rising societal hostility.",
+      "evidence": [
+        "WJP Rule of Law Index 2025: top tier, top-5 order & security",
+        "Low violent crime relative to peers",
+        "Established anti-discrimination framework"
+      ],
+      "links": [
+        {
+          "title": "WJP Rule of Law Index 2025 – Germany",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/country/2025/Germany"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "politics": {
+      "status": "scored",
+      "score": 55,
+      "summary": "Stable institutions but CDU-led tightening, AfD ~21% second, family-reunion curbs.",
+      "reasoning": "Institutions are stable under the CDU/SPD coalition and skilled-worker pathways are preserved, but migration policy is tightening (fast-track citizenship repealed, family reunification curbed) and the AfD's ~21% second-place finish signals a rising anti-immigrant trend.",
+      "evidence": [
+        "CDU/SPD coalition under Merz; skilled-worker routes kept",
+        "AfD ~21%, second place in 2025 federal election",
+        "Family reunification for subsidiary protection suspended; tougher migration line",
+        "3-year fast-track citizenship abolished"
+      ],
+      "links": [
+        {
+          "title": "German elections 2025 and immigration (Fragomen)",
+          "url": "https://www.fragomen.com/insights/german-elections-2025-cdu-and-spd-enter-coalition-talks-after-close-results.html"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "tax": {
+      "status": "scored",
+      "score": 50,
+      "summary": "High burden: progressive income tax plus ~20% social contributions.",
+      "reasoning": "Income tax rises to 42% (45% above ~€277,825) and roughly 20% in employee social contributions push total deductions to about 30–40% of gross, leaving higher earners with only ~55–60% take-home.",
+      "evidence": [
+        "Top marginal income-tax rate 42% (45% above ~€277,825)",
+        "Employee social contributions ~20% of gross",
+        "Total deductions typically 30–40% of gross",
+        "Basic allowance €12,096 (2025)"
+      ],
+      "links": [
+        {
+          "title": "Salary, taxes & social security (Make it in Germany, official)",
+          "url": "https://www.make-it-in-germany.com/en/working-in-germany/working-environment/salary-taxes-social-security"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    },
+    "muslim-diaspora": {
+      "status": "scored",
+      "score": 65,
+      "summary": "~5.5M Muslims, 2,500+ mosques, halal ubiquitous, but small Bangladeshi community and sharply rising Islamophobia.",
+      "reasoning": "Germany has ~5.5 million Muslims and 2,500+ mosques with halal food and worship easy in cities, but the Bangladeshi community is small (South Asian presence is mainly Pakistani), and anti-Muslim incidents rose ~60% in 2024 amid AfD's rise.",
+      "evidence": [
+        "~5.5 million Muslims (~6.6%); 2,500+ mosques",
+        "Halal food widely available in major cities",
+        "Bangladeshi community small; South Asian presence mostly Pakistani (~140k)",
+        "CLAIM 2025: ~60% rise in anti-Muslim incidents in 2024 (3,000+ cases)"
+      ],
+      "links": [
+        {
+          "title": "Islam in Germany (overview)",
+          "url": "https://en.wikipedia.org/wiki/Islam_in_Germany"
+        },
+        {
+          "title": "EU FRA anti-Muslim hatred database",
+          "url": "https://fra.europa.eu/en/databases/anti-muslim-hatred"
+        }
+      ],
+      "lastReviewed": "2026-06-16"
+    }
   }
 }

@@ -7,8 +7,13 @@ describe("data integrity", () => {
     expect(categories).toHaveLength(14);
     expect(categories.reduce((a, c) => a + c.weight, 0)).toBe(100);
   });
-  it("loads 13 countries", () => {
-    expect(countries).toHaveLength(13);
+  it("loads 14 countries", () => {
+    expect(countries).toHaveLength(14);
+  });
+  it("includes the United Kingdom with the exact Natural Earth name (for the map join) and GB iso", () => {
+    const uk = getScoredCountry("GB");
+    expect(uk?.id).toBe("united-kingdom");
+    expect(uk?.name).toBe("United Kingdom"); // must match world-atlas feature name or it won't shade
   });
   it("every country references known category ids with in-range scores", () => {
     const known = new Set(categories.map((c) => c.id));

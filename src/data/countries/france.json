@@ -5,65 +5,228 @@
   "iso3": "FRA",
   "flag": "🇫🇷",
   "region": "Europe",
-  "summary": "Not yet assessed.",
+  "summary": "Strong skilled-worker route (Talent visa, full spouse work rights) and severe tech shortage, but French (B2 for citizenship since 2026), high taxes, strict laïcité and political instability weigh on this Muslim Bangladeshi couple.",
   "lastReviewed": "2026-06-16",
-  "links": [],
+  "links": [
+    { "title": "France-Visas – International talents", "url": "https://france-visas.gouv.fr/en/talents-internationaux-et-attractivite-economique" },
+    { "title": "Campus France – Tuition fees in France", "url": "https://www.campusfrance.org/en/tuition-fees-France" }
+  ],
   "categories": {
     "job-market": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 74,
+      "summary": "Severe tech shortage (~400k gap), 2.5 openings per engineer; AI/cyber demand, but French often expected outside scale-ups.",
+      "reasoning": "France faces a large software/AI talent shortage with strong demand in Paris, Lyon and Toulouse, and the French Tech Visa eases sponsorship at accredited firms (Mistral AI, Datadog, Doctolib). English-only roles concentrate in scale-ups and multinationals; many employers still expect working French, so both engineers can find work but French improves reach.",
+      "evidence": [
+        "~400,000 tech-professional shortfall projected; ~2.5 openings per available software engineer",
+        "AI specialists, ML and cybersecurity engineers among hardest roles to fill",
+        "French Tech Visa accredited employers in 2026 include Mistral AI, Datadog, Criteo, Doctolib, Dataiku",
+        "~51,335 economic/skilled-worker visas available in 2025"
+      ],
+      "links": [
+        { "title": "France-Visas – International talents", "url": "https://france-visas.gouv.fr/en/talents-internationaux-et-attractivite-economique" }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "visa-access": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 70,
+      "summary": "Biometrics + decision via French mission/VFS in Dhaka; Campus France two-interview process; moderate Schengen success, light fees.",
+      "reasoning": "Bangladeshi applicants complete the Études en France/Campus France procedure and submit biometrics at the French mission/VFS in Dhaka, so no third-country travel is needed. Student-visa fee is modest (€90) but the two-interview vetting and financial-proof bar create real hurdles; Schengen student success for Bangladeshis sits around 60-80%.",
+      "evidence": [
+        "Long-stay student route runs through Campus France with two interviews (academic + visa section)",
+        "Biometrics captured and passport collected at the mission/VFS in Dhaka",
+        "Long-stay visa fee €90; financial-means proof required",
+        "Schengen student success for Bangladeshi nationals roughly 60-80%"
+      ],
+      "links": [
+        { "title": "France-Visas – Bangladesh", "url": "https://france-visas.gouv.fr/en/bangladesh" }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "citizenship": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 72,
+      "summary": "5 years residence, dual nationality allowed — but B2 French from Jan 2026 and stricter prefecture scrutiny; ~18-24mo processing.",
+      "reasoning": "Naturalisation needs five years' habitual residence and France permits dual nationality, matching the couple's preferences. Decree 2025-648 raised the language bar from B1 to B2 across all four skills from 1 January 2026, and a 2025 circular tightened prefecture assessment, lengthening the realistic path; processing runs 18-24 months.",
+      "evidence": [
+        "Five years' habitual residence; dual nationality recognised (no renunciation)",
+        "Decree 2025-648 makes B2 French mandatory for naturalisation from 1 Jan 2026",
+        "May 2025 circular instructs prefectures to apply criteria more strictly",
+        "ANEF filing to Journal Officiel decree typically 18-24 months in 2026"
+      ],
+      "links": [
+        { "title": "Service-Public – Becoming French by naturalisation", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2213?lang=en" }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "post-study-work": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 70,
+      "summary": "12-month APS/RÉCE job-search permit for master's grads; non-renewable; student-level work until a contract is signed.",
+      "reasoning": "Master's or engineering graduates can obtain the APS (renamed Recherche d'emploi / Création d'entreprise, RÉCE), valid 12 months and non-renewable, to find work or start a business. Until a contract is signed work is capped at student conditions (~964h/yr), then holders switch into the Talent/employee permit — a workable but time-limited bridge.",
+      "evidence": [
+        "APS/RÉCE valid 12 months, non-renewable, for master's-level or engineering graduates",
+        "Work limited to student conditions (~964h/yr, ~20h/week) until a work contract is signed",
+        "Allows switch to Talent or salaried permit once hired"
+      ],
+      "links": [
+        { "title": "Campus France – Temporary resident permit (APS)", "url": "https://www.campusfrance.org/en/temporary-resident-permit-aps" }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "spouse-family": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 72,
+      "summary": "Talent–Famille gives the spouse full open work rights in the work phase; during the study phase spouse rights are restricted.",
+      "reasoning": "In the work phase the Talent–Famille permit grants the accompanying spouse a multi-year card equivalent to a work permit with no salary threshold or separate sponsor — ideal since both are engineers. During the MSc study phase the spouse typically holds a 'visiteur'/family-of-student status with limited work rights, so the second engineer is constrained until the work phase begins.",
+      "evidence": [
+        "Talent–Famille permit automatically grants the spouse full work rights for the main permit's duration",
+        "No salary threshold or separate work-permit application for the spouse",
+        "Same online process, €225 fee, from abroad or in France",
+        "Study-phase accompanying-spouse status carries restricted work rights"
+      ],
+      "links": [
+        { "title": "Welcome to France – Talent: Qualified employees & family", "url": "https://www.welcometofrance.com/en/fiche/talent-passport-qualified-employee" }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "msc-study": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 76,
+      "summary": "1,500+ English master's, low public tuition (~€3,941/yr non-EU), scholarships and student work — but tuition rising from Sept 2026.",
+      "reasoning": "France offers over 1,500 English-taught programmes and capped differentiated public tuition (~€3,941/yr for non-EU master's), far below Anglophone destinations, plus Eiffel/government scholarships and student work rights. A 2026 directive raises non-EU fees from September 2026, a moderate headwind but still low by global standards; the spouse can accompany.",
+      "evidence": [
+        "1,500+ English-taught degree programmes available",
+        "Non-EU master's differentiated tuition ~€3,941/yr at public universities (2025-2026)",
+        "Government/Eiffel scholarships and exemptions available; student work permitted",
+        "France directs universities to raise non-EU tuition from September 2026"
+      ],
+      "links": [
+        { "title": "Campus France – Tuition fees in France", "url": "https://www.campusfrance.org/en/tuition-fees-France" }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "pr-pathway": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 70,
+      "summary": "10-year carte de résident after ~5 years' continuous legal residence; Talent holders get a direct, fairly predictable path.",
+      "reasoning": "The carte de résident (10-year card) is generally available after five years' continuous legal residence, and Talent-status holders have a recognised direct route to it. The timeline is predictable for steadily-employed engineers, though study years count differently and absences over six months can reset continuity.",
+      "evidence": [
+        "Carte de résident (10-year) after ~5 years' continuous legal residence",
+        "Talent permit offers a direct path to permanent residence",
+        "Carte de résident application fee €225 (2025)"
+      ],
+      "links": [
+        { "title": "France-Visas – International talents", "url": "https://france-visas.gouv.fr/en/talents-internationaux-et-attractivite-economique" }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "income-cost": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 58,
+      "summary": "Paris SW pay €51-73k gross but net ~45% after social charges; high Paris living costs limit savings — dual income helps.",
+      "reasoning": "Paris software engineers earn roughly €51,000-73,000 gross, but heavy employee social contributions and tax leave net pay around 45% of gross, and Paris is among Europe's costlier cities. Two engineering incomes lift household savings to moderate levels rather than high.",
+      "evidence": [
+        "Average Paris software engineer ~€51,000-73,000 gross; France-wide ~€53,800",
+        "Net take-home roughly 45% of gross after tax and social contributions",
+        "Paris living costs notably above the French average"
+      ],
+      "links": [
+        { "title": "Service-Public – Income tax brackets", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1419?lang=en" }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "healthcare": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 88,
+      "summary": "Universal PUMA coverage after ~3 months' residence; top-ranked quality, low out-of-pocket; small new contribution for some.",
+      "reasoning": "France's Protection Universelle Maladie covers all legal residents after about three months, the system is consistently top-ranked for performance with 99%+ coverage and minimal unmet need. Costs are low; a modest annual contribution and rising mutuelle premiums are minor for working professionals.",
+      "evidence": [
+        "PUMA covers all legal residents; automatic after ~3 months' residence",
+        "Historically top-ranked health-system performance, 99%+ coverage",
+        "Affordable supplementary mutuelle insurance (~€10-80/month)",
+        "From 2026 some visitor-visa holders pay a flat ~€300-600 annual contribution"
+      ],
+      "links": [
+        { "title": "WHO/Euro Health Observatory – France health system summary", "url": "https://eurohealthobservatory.who.int/publications/i/france-health-system-summary-2024-(updated)" }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "culture-language": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 60,
+      "summary": "English works in tech, but French strongly needed for daily life and admin; B2 required for citizenship from 2026.",
+      "reasoning": "English is usable in tech workplaces and English-taught study, yet daily life, administration and integration require French, and the B2 naturalisation bar (from 2026) plus civic tests make French acquisition unavoidable for the couple's long-term goal. The language demand is the main cultural barrier.",
+      "evidence": [
+        "French essential for daily life and prefecture/administrative dealings",
+        "B2 French required for naturalisation from 1 Jan 2026; civic test added",
+        "English common in tech and 1,500+ English-taught programmes ease entry"
+      ],
+      "links": [
+        { "title": "Service-Public – Becoming French by naturalisation", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2213?lang=en" }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "safety-law": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 72,
+      "summary": "WJP Rule of Law #22/143 (2025); strong institutions and protections; urban petty theft and protests are the main concerns.",
+      "reasoning": "France ranks 22nd of 143 on the 2025 WJP Rule of Law Index with solid order/security and fundamental-rights scores. Violent crime is relatively low; pickpocketing on the Paris metro and around stations, plus periodic protests, are the practical day-to-day risks rather than serious safety threats.",
+      "evidence": [
+        "WJP Rule of Law Index 2025: France ranks 22 of 143",
+        "Paris Numbeo crime index ~58 (moderate); petty theft the dominant risk",
+        "Caution advised in parts of northern 18th/19th/20th arrondissements after dark"
+      ],
+      "links": [
+        { "title": "WJP Rule of Law Index – France", "url": "https://worldjusticeproject.org/rule-of-law-index/country/France" }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "politics": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 47,
+      "summary": "Government instability since 2024, Rassemblement National rise, 2024 immigration law and 2026 naturalisation tightening.",
+      "reasoning": "The 2024 elections produced a hung Assembly and government collapse, while the far-right RN's influence shaped the January 2024 immigration law and a steady tightening of residence/citizenship rules (B2, stricter prefecture criteria). Rising anti-immigrant sentiment makes the policy environment volatile for non-EU Muslim applicants.",
+      "evidence": [
+        "2024 immigration law adopted with RN claiming 'national preference' victory",
+        "Hung National Assembly and government collapse by end of 2024",
+        "Successive tightening: B2 language (2026), stricter naturalisation circular (2025)"
+      ],
+      "links": [
+        { "title": "UK Commons Library – France political developments & 2024 elections", "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10112/" }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "tax": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 38,
+      "summary": "High overall burden: progressive income tax to 45% plus heavy employee/employer social charges; net ~45% of gross.",
+      "reasoning": "France combines progressive income tax (0-45% plus high-income surcharge) with some of Europe's highest social contributions, leaving net pay around 45% of gross for engineers. The burden is among the heaviest in the OECD, materially reducing disposable income.",
+      "evidence": [
+        "Income tax brackets 0-45%; 3-4% surcharge on very high incomes",
+        "Heavy employee social contributions (incl. CSG 9.2%) withheld at source",
+        "Net take-home roughly 45% of gross salary"
+      ],
+      "links": [
+        { "title": "Service-Public – Income tax brackets", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1419?lang=en" }
+      ],
+      "lastReviewed": "2026-06-16"
     },
     "muslim-diaspora": {
-      "status": "pending",
-      "score": 60
+      "status": "scored",
+      "score": 60,
+      "summary": "Largest Muslim community in Europe (~5M), halal/mosques widespread — but strict laïcité, hijab bans in schools/sport, rising hostility.",
+      "reasoning": "France has Europe's largest Muslim population with abundant halal food and mosques, easing daily religious life. However laïcité bans religious symbols in state schools (and abayas since 2023) and at all levels of several sports, with further restrictions debated and documented rising Islamophobia — a real concern for a visibly Muslim couple, capping the score mid-range.",
+      "evidence": [
+        "~5 million Muslims, ~10% of population — largest Muslim community in Europe",
+        "Hijab/abaya banned in state schools; headscarf banned across French football, basketball, volleyball",
+        "2025 proposals to widen bans; rights groups document rising hostility and 'weaponised' laïcité"
+      ],
+      "links": [
+        { "title": "Amnesty International – France hijab ban concerns (2025)", "url": "https://www.amnesty.org/en/latest/news/2025/02/france-hijab-ban-in-all-sports-would-violate-human-rights-and-target-muslim-women-and-girls/" }
+      ],
+      "lastReviewed": "2026-06-16"
     }
   }
 }
