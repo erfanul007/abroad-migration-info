@@ -1,5 +1,5 @@
 // src/components/common/ScoreBadge.tsx
-import { cn } from "@/lib/cn";
+import { cn } from "@/lib/utils";
 import { formatPercent, scoreTier, scoreTierClasses } from "@/lib/formatters";
 
 export function ScoreBadge({ score, className }: { score: number; className?: string }) {

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router";
 import { Compass, Menu, X } from "lucide-react";
-import { cn } from "@/lib/cn";
+import { cn } from "@/lib/utils";
 import { ThemeToggle } from "@/components/common/ThemeToggle";
 import { Button } from "@/components/ui/button";
 

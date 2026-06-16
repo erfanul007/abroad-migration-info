@@ -63,7 +63,7 @@ function LabelDeclutter({ layers }: { layers: React.RefObject<Map<string, Polygo
   return null;
 }
 
-// Leaflet (unlike d3) doesn't clip at the antimeridian, so a ring that crosses ±180°
+// Leaflet doesn't clip at the antimeridian, so a ring that crosses ±180°
 // (Russia, Fiji, Aleutians…) draws a full-width band. Keeping longitudes continuous
 // (unwrapped) keeps each polygon on one side, so no band — without dropping countries.
 function unwrapRing(ring: Position[]): Position[] {

@@ -1,5 +1,5 @@
 // src/components/common/PendingBadge.tsx
-import { cn } from "@/lib/cn";
+import { cn } from "@/lib/utils";
 
 export function PendingBadge({ className }: { className?: string }) {
   return (

@@ -7,7 +7,7 @@ import { ScoreBadge } from "@/components/common/ScoreBadge";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import { cn } from "@/lib/cn";
+import { cn } from "@/lib/utils";
 import { Radar, Table2 } from "lucide-react";
 
 export default function Compare() {
