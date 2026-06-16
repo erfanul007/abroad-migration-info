@@ -57,7 +57,7 @@ Thresholds live in code (`scoreTier()`), not scattered in components. Change the
 
 ## 3. Typography
 
-- **Family:** system UI stack — `ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif`. No web-font dependency (faster, offline, fewer moving parts). Tailwind `font-sans` default.
+- **Family:** **Geist** (self-hosted via the `geist` npm package, bundled offline by the shadcn nova preset), falling back to the system UI stack. Clean, modern, no runtime CDN dependency. Tailwind `font-sans`.
 - **Numbers:** always `tabular-nums` for scores, ranks, weights (aligned columns).
 
 | Role | Classes | Usage |
