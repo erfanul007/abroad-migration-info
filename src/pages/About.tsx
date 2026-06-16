@@ -55,7 +55,7 @@ export default function About() {
       </Section>
 
       <Section title="Scoring methodology">
-        <p className="max-w-2xl text-sm text-muted-foreground">Each category carries a fixed weight (its percentage-point ceiling). A country's overall score is the weighted average of its category scores, renormalised over assessed categories. Pending categories are excluded and flagged, not counted as zero.</p>
+        <p className="max-w-2xl text-sm text-muted-foreground">Each category carries a fixed weight (its percentage-point ceiling). A country's overall score is the weighted average of its category scores. Pending categories use a provisional placeholder score (flagged as not yet sourced) and are included in the overall — the country is then marked provisional. Categories entirely absent from the data are excluded and the remaining weights renormalised; nothing is silently counted as zero.</p>
         <div className="overflow-x-auto rounded-lg border">
           <Table>
             <TableHeader><TableRow><TableHead>Category</TableHead><TableHead className="text-right">Weight</TableHead><TableHead>What it measures</TableHead></TableRow></TableHeader>

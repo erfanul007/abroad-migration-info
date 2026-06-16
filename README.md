@@ -10,7 +10,7 @@ Static React SPA ranking candidate migration countries against one personal prof
 - `npm run build` — production build to `dist/`
 
 ## Data
-Edit `src/data/` only — no component changes needed to add a country (`countries/<iso>.json`) or category (`categories.json`, keep weights summing to 100). The data validator fails the build if weights ≠ 100 or scores fall outside 0–100.
+Edit `src/data/` only — no component changes needed to add a country (`countries/<iso>.json`) or category (`categories.json`, keep weights summing to 100). The data validator throws in dev and test, so `npm run test` (which runs before `build` in CI) fails if category weights ≠ 100 or any score falls outside 0–100.
 
 ## Docs
 - Product spec: `docs/abroad-migration-feasibility-prd.md`

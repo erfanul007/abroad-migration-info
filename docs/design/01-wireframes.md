@@ -163,8 +163,7 @@ Both hold BSc in CSE from Daffodil International University.
 • Profession: IT / Software / AI…    • Dual citizenship: preferred
 
 ── Scoring methodology ───────────────────────────────────
-Each category has a fixed weight (its % ceiling). Overall = weighted avg,
-renormalised over assessed categories. Pending excluded & flagged.
+Each category has a fixed weight (its % ceiling). Overall = weighted average; pending cells use a flagged placeholder score and ARE included (country marked provisional); only categories absent from the data are excluded (renormalised).
 ┌────────────────────────────┬────────┬───────────────────────────┐
 │ Category                   │ Weight │ What it measures          │
 │ Software & AI Job Market   │   12   │ Demand, salary, sponsor…  │   sorted by weight desc
