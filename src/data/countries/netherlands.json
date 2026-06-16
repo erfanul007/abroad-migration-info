@@ -1,0 +1,69 @@
+{
+  "id": "netherlands",
+  "name": "Netherlands",
+  "iso": "NL",
+  "iso3": "NLD",
+  "flag": "🇳🇱",
+  "region": "Europe",
+  "summary": "Not yet assessed.",
+  "lastReviewed": "2026-06-16",
+  "links": [],
+  "categories": {
+    "job-market": {
+      "status": "pending",
+      "score": 60
+    },
+    "visa-access": {
+      "status": "pending",
+      "score": 60
+    },
+    "citizenship": {
+      "status": "pending",
+      "score": 60
+    },
+    "post-study-work": {
+      "status": "pending",
+      "score": 60
+    },
+    "spouse-family": {
+      "status": "pending",
+      "score": 60
+    },
+    "msc-study": {
+      "status": "pending",
+      "score": 60
+    },
+    "pr-pathway": {
+      "status": "pending",
+      "score": 60
+    },
+    "income-cost": {
+      "status": "pending",
+      "score": 60
+    },
+    "healthcare": {
+      "status": "pending",
+      "score": 60
+    },
+    "culture-language": {
+      "status": "pending",
+      "score": 60
+    },
+    "safety-law": {
+      "status": "pending",
+      "score": 60
+    },
+    "politics": {
+      "status": "pending",
+      "score": 60
+    },
+    "tax": {
+      "status": "pending",
+      "score": 60
+    },
+    "muslim-diaspora": {
+      "status": "pending",
+      "score": 60
+    }
+  }
+}
