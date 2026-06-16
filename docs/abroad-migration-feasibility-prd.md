@@ -61,7 +61,7 @@ The applicant's intended pathway is: **MSc studies → post-study work permit �
 ### 4.1 In scope (v1)
 - Personal profile/goal storage and an About page rendering it.
 - 14 weighted scoring categories (weights sum to 100), extendable via JSON.
-- 13 seed countries, extendable via JSON.
+- 22 seed countries, extendable via JSON.
 - Per-country, per-category score (0–100) with reasoning, evidence, references, and review date.
 - Computed overall 0–100 score via weighted sum.
 - Dashboard home, interactive leaderboard, comparison view, country detail pages.
@@ -117,10 +117,10 @@ _Ordered by weight, descending. Ties are listed pathway-stage first._
 >
 > **Scoring rigor:** scores are curated judgements, each backed by cited sources and a `lastReviewed` date. The high-weight, policy-volatile categories — Visa Accessibility, Post-Study Work, Citizenship, PR Pathway — must each carry at least one authoritative (ideally official/government) source, because they shift with policy and move rankings the most; thinly-sourced scores in these categories are the main credibility risk for the tool.
 
-### 5.4 Seed countries (v1) — 13, extendable
-Germany, Netherlands, Sweden, Norway, Denmark, Finland, Ireland, Austria, France, Portugal, Australia, Canada, New Zealand.
+### 5.4 Seed countries — 22, extendable
+Ordered by overall score: Germany, New Zealand, Norway, Canada, Netherlands, Luxembourg, Ireland, Denmark, Finland, Sweden, Belgium, France, Australia, United Kingdom, Switzerland, Czechia, Italy, Estonia, Spain, Austria, Poland, Portugal.
 
-**Curation strategy (v1):** three **flagship** countries — **Germany, Canada, Australia** — are fully curated: all 14 categories scored, each with reasoning, evidence, and at least one cited source (official/government for the high-weight policy categories). They serve as the gold-standard template and prove the evidence model end-to-end. The remaining 10 countries ship with realistic placeholder scores flagged `"status": "pending"` and are filled in a later curation pass. Placeholder/pending cells are visibly marked in the UI and do not masquerade as sourced data.
+**Curation (as-built):** all 22 countries are fully scored — every one of the 14 categories carries an integer score with summary, reasoning, evidence bullets, and official-first source links, each stamped with a `lastReviewed` date. Scores were validated against live 2025–26 official sources, anchored to the fixed applicant profile on a single absolute 0–100 scale (methodology: `docs/superpowers/research/score-validation-brief-2026-06-16.md`). No cell currently ships as `pending`; the `pending` status remains a supported state for any future not-yet-sourced category. Inclusion rule: a candidate is added only if it scores **≥ 50 overall** and its shape exists in the Natural Earth `countries-110m` geometry — so countries that fall below 50 or cannot render on the map (e.g. Singapore, Malta) are excluded.
 
 ---
 
@@ -219,7 +219,7 @@ Navigation: persistent top nav — Dashboard · Leaderboard · Compare · About 
 
 ## 9. Data Model
 
-JSON files under `src/data/`. Treated as the backend store; presentation-only consumes them.
+JSON files under `src/data/`. Treated as the backend store; presentation-only consumes them. Every file is validated at load against a Zod schema (`src/lib/schema.ts`); the TypeScript data types are inferred from those schemas, so the runtime shape and the compile-time types share one definition.
 
 ### 9.1 `profile.json`
 ```jsonc
@@ -260,12 +260,13 @@ JSON files under `src/data/`. Treated as the backend store; presentation-only co
 ]
 ```
 
-### 9.3 `countries/<iso>.json`
+### 9.3 `countries/<id>.json` (file named by `id`, e.g. `germany.json`, `new-zealand.json`)
 ```jsonc
 {
   "id": "germany",
   "name": "Germany",
   "iso": "DE",
+  "iso3": "DEU",
   "flag": "🇩🇪",
   "region": "Europe",
   "summary": "Short narrative about Germany for this applicant.",
@@ -300,16 +301,17 @@ JSON files under `src/data/`. Treated as the backend store; presentation-only co
 - UI components: **shadcn/ui** (Radix + Tailwind v4, CLI-installed) for polished primitives.
 - Charts: **Recharts 3** (radar, bars).
 - Map: **Leaflet + react-leaflet + topojson-client + world-atlas** — full-world choropleth on a tile-less Leaflet map (a `GeoJSON` layer, SVG renderer, no WebGL).
+- Data validation + types: **Zod 4** — schemas in `lib/schema.ts` validate every JSON file at load; the data TypeScript types are inferred from those schemas (`z.infer`), so runtime checks and compile-time types can't drift.
 - All dependencies installed via npm / component CLI — no hand-rolled equivalents of the above.
 
-> **Map library decision (as-built, deviation from v1.0):** the PRD originally named `react-simple-maps` (latest release 3.0.0, 2022, React `^16.8` peer range — outdated and React-19-incompatible; its React-19 community fork is thin). The build settled on **plain Leaflet via react-leaflet**, drawing our bundled GeoJSON as a tile-less `GeoJSON` layer (SVG renderer, no WebGL, no external tiles → fully offline). Leaflet provides robust pan/zoom, popups, and event handling out of the box, versus hand-rolling SVG projection and interaction code. Counter-risk: Leaflet does not clip at the antimeridian, so dateline-crossing rings (Russia, Fiji, Aleutians) need their longitudes **unwrapped** to avoid full-width bands, and Antarctica is omitted (it wraps the pole) — ~30 lines we own. Geometry join is by country name (Natural Earth `countries-110m` names are stable for the 13 seeds); `iso`/`iso3` retained in data for flags and routing. Topojson is decoded with `topojson-client`'s `feature()`.
+> **Map library decision (as-built, deviation from v1.0):** the PRD originally named `react-simple-maps` (latest release 3.0.0, 2022, React `^16.8` peer range — outdated and React-19-incompatible; its React-19 community fork is thin). The build settled on **plain Leaflet via react-leaflet**, drawing our bundled GeoJSON as a tile-less `GeoJSON` layer (SVG renderer, no WebGL, no external tiles → fully offline). Leaflet provides robust pan/zoom, popups, and event handling out of the box, versus hand-rolling SVG projection and interaction code. Counter-risk: Leaflet does not clip at the antimeridian, so dateline-crossing rings (Russia, Fiji, Aleutians) need their longitudes **unwrapped** to avoid full-width bands, and Antarctica is omitted (it wraps the pole) — ~30 lines we own. Geometry join is by country name (Natural Earth `countries-110m` names are stable for the 22 seeds); `iso` is retained for flags and `/country/:iso` routing (`iso3` is retained for possible future use). Topojson is decoded with `topojson-client`'s `feature()`.
 
 ### 10.2 Folder structure (separation of concern)
 ```
 src/
-  data/        profile.json · categories.json · countries/<iso>.json (13)
-  types/       domain TypeScript interfaces (Country, Category, Profile, ScoredCountry)
-  lib/         cn · scoring (+test) · validation (+test) · formatters (+test) · data (+test) · palette
+  data/        profile.json · categories.json · countries/<id>.json (22)
+  types/       data types re-exported from the Zod schemas + derived types (ScoredCountry, ScoredCategory)
+  lib/         utils (cn) · schema (Zod schemas + inferred types, +test) · scoring (+test) · formatters (+test) · data (+test) · palette
   components/
     ui/         shadcn primitives
     charts/     RadarProfile · ContributionBars · Choropleth
@@ -321,7 +323,7 @@ src/
 ```
 
 ### 10.3 Scoring module
-`lib/scoring.ts` exposes a pure `computeOverall(country, categories)` and `rankCountries(...)`. Unit tests cover: weighted sum correctness, weights-sum-to-100 validation, handling of missing category data, and stable ranking. Tests ship with the module (non-trivial logic).
+`lib/scoring.ts` exposes a pure `computeOverall(country, categories)` and `rankCountries(...)`. Unit tests cover: weighted-sum correctness, handling of missing category data, and stable ranking. Data validation lives in `lib/schema.ts` (Zod): the schemas check full shape (status enum, required fields, integer 0–100 scores, link URLs); the two cross-field rules we own — category weights summing to 100, and a country referencing only known category ids — are tested. Tests cover our logic only, not Zod's shape-checking. Tests ship with each module (non-trivial logic).
 
 ### 10.4 Deployment
 Static build deployed to **GitHub Pages**. English only. No backend, no auth. JSON bundled at build time. Vite `base` set to `/abroad-migration-info/` for the Pages project subpath; React Router uses a matching basename.
@@ -329,13 +331,13 @@ Static build deployed to **GitHub Pages**. English only. No backend, no auth. JS
 ### 10.5 Locked implementation decisions (2026-06-16)
 | Decision | Choice |
 |----------|--------|
-| Data curation scope (v1) | Scaffold full app; **Germany, Canada, Australia** fully sourced; other 10 placeholder `pending` (see §5.4). |
+| Data curation scope | All **22** countries fully scored and sourced against live 2025–26 data (see §5.4); `pending` retained as a supported state for future categories. |
 | Visual direction | **Clean modern minimal** — shadcn neutral base + single accent, data-forward, generous whitespace, subtle motion; light/dark. |
 | Test runner | **Vitest** (Vite-native) for the scoring module and data validators. |
 | Map data | Bundled `world-atlas/countries-110m.json` (decoded with `topojson-client`); rendered via **Leaflet / react-leaflet** (tile-less GeoJSON layer); geometry join on **country name** (iso/iso3 retained in data). |
 | Region taxonomy | Derived from `region` values present in country JSON (no hardcoded list). |
 | Pages base path | `/abroad-migration-info/` (Vite `base` + Router basename). |
-| Verified library versions (2026-06-16) | React 19 · Vite 8 · React Router v7 · Tailwind v4 · shadcn/ui (latest) · TanStack Table v8 · Recharts 3 · Leaflet + react-leaflet. See §10.1 note for the map library rationale. |
+| Verified library versions (2026-06-16) | React 19 · Vite 8 · React Router v7 · Tailwind v4 · shadcn/ui (latest) · TanStack Table v8 · Recharts 3 · Leaflet + react-leaflet · Zod 4 (data validation + inferred types). See §10.1 note for the map library rationale. |
 
 ---
 
@@ -344,11 +346,11 @@ Static build deployed to **GitHub Pages**. English only. No backend, no auth. JS
 | ID | Requirement |
 |----|-------------|
 | NFR1 | Fully static; no runtime backend dependency. |
-| NFR2 | Initial load and leaderboard interaction feel instant for 13–30 countries × 14 categories. |
+| NFR2 | Initial load and leaderboard interaction feel instant for 22–40 countries × 14 categories. |
 | NFR3 | Accessible: keyboard-navigable table, sufficient colour contrast, chart fallbacks/labels. |
 | NFR4 | Maintainable: data edits never require touching components (FR-X3). |
 | NFR5 | Responsive, desktop-first. |
-| NFR6 | Type-safe: all data shapes covered by TypeScript interfaces. |
+| NFR6 | Type-safe: data shapes defined once as Zod schemas with inferred TypeScript types; every JSON file is validated against them at load (throws in dev/test, logs in prod). |
 
 ---
 
@@ -377,7 +379,7 @@ Static build deployed to **GitHub Pages**. English only. No backend, no auth. JS
 
 ## 14. Future / Extensibility
 
-- Add countries by dropping a new `countries/<iso>.json`; add categories via `categories.json` (rebalance weights to 100).
+- Add countries by dropping a new `countries/<id>.json`; add categories via `categories.json` (rebalance weights to 100).
 - v2 candidates: interactive weight sliders (personal re-weighting), favourites/shortlist, tier grades, score history / change log, i18n.
 
 ---

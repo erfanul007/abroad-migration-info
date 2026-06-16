@@ -26,7 +26,13 @@
 - Design system (tokens, components, consistency): [`../../../design/00-design-system.md`](../../../design/00-design-system.md)
 - Wireframes (per-page layout): [`../../../design/01-wireframes.md`](../../../design/01-wireframes.md)
 
-> **Status: built — historical record.** These task steps are preserved as the original build plan. Where the as-built code diverged, the **code + design system are authoritative**, not these snippets. Known divergences: the map moved from `d3-geo` SVG to **Leaflet/react-leaflet** (PRD §10.1 note); the choropleth fill moved from discrete tiers to a **continuous green ramp** (`scoreToGreen`, design-system §2.2); chart/map literal colours were centralised in **`src/lib/palette.ts`** (design-system §2.3).
+> **Status: built — historical record.** These task steps are preserved as the original build plan. Where the as-built code diverged, the **code + PRD + design system are authoritative**, not these snippets. Known divergences:
+> - Map moved from `d3-geo` SVG to **Leaflet/react-leaflet** (PRD §10.1 note); the now-removed `d3-geo` dependency was dropped.
+> - Choropleth fill moved from discrete tiers to a **fixed absolute green ramp** with size-aware ISO labels (`scoreToGreen`, design-system §2.2).
+> - Chart/map literal colours were centralised in **`src/lib/palette.ts`** (design-system §2.3).
+> - Data validation + types moved from a hand-rolled `validation.ts` to **Zod schemas with inferred types** in `src/lib/schema.ts`.
+> - The `cn` helper was consolidated into **`src/lib/utils.ts`** (shadcn `utils` alias); the separate `cn.ts` was removed.
+> - The seed set grew from 13 placeholder-heavy entries to **22 fully-scored countries** (PRD §5.4).
 
 ---
 

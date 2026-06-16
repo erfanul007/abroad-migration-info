@@ -37,16 +37,16 @@ Ranking countries for the goal: MSc studies → post-study work → … → pass
         └─────────┘   └─────────┘   └─────────┘
 
 ┌─ Countries ─┐ ┌─ Categories ──┐ ┌─ Top score ──┐ ┌ Last reviewed ┐   ← 4 StatCards
-│     13      │ │ 14 · wts 100% │ │ ▮84%▮ Germany │ │  16/06/2026   │
+│     22      │ │ 14 · wts 100% │ │ ▮76%▮ Germany │ │  16/06/2026   │
 └─────────────┘ └───────────────┘ └──────────────┘ └───────────────┘
 
 ── World view ────────────────────────────────────────────────
 ┌──────────────────────────────────────────────────────────┐
 │ [+]  🗺️ full-world choropleth (Leaflet/SVG)               │  drag→pan · scroll/btn→zoom
 │ [−]  all countries; scored ones green-shaded; north-up    │
-│      55% ░▒▓█ 85%   (gradient legend, low→high)           │  click→popup overview → "View <country>"
+│  ▢ <60%   60% ░▒▓█ 80%+   (fixed absolute scale)          │  click→popup overview → "View <country>"
 └──────────────────────────────────────────────────────────┘
-Plain Leaflet map, **all countries** from our GeoJSON (no external tiles → offline); scored ones shaded on a **continuous green ramp** (pale = low, deep = high) via `scoreToGreen()` over the data-fit domain, others neutral grey. Reliable SVG rendering (no WebGL). Longitudes unwrapped so dateline-crossing countries (Russia, Fiji) don't draw full-width bands; Antarctica omitted. Default world `center`/`zoom`. Default interactions only: **pan + zoom** (top-left control); always north-up. Clicking a country opens the **default Leaflet popup** with a basic overview (flag · name · score · region · rank · summary) + one *View &lt;country&gt;* button → navigates; ✕ / click-elsewhere closes. Legend is a gradient bar anchored with the actual min/max %. Ocean theme-aware (`bg-muted`); minimal — no custom theming/hover/controls.
+Plain Leaflet map, **all countries** from our GeoJSON (no external tiles → offline); scored ones shaded on a **fixed absolute green ramp** via `scoreToGreen()` — `<60%` unshaded (neutral land) · `60→80%` one green shade per whole percent (pale→deep) · `≥80%` deepest green — others neutral grey. The scale is constant (not data-relative), so a country's colour is stable as the dataset grows. Reliable SVG rendering (no WebGL). Longitudes unwrapped so dateline-crossing countries (Russia, Fiji) don't draw full-width bands; Antarctica omitted. Each scored country carries a permanent ISO-code label, shown only where its polygon renders large enough to read (size-aware declutter). Default world `center`/`zoom`. Default interactions only: **pan + zoom** (top-left control); always north-up. Clicking a country opens the **default Leaflet popup** with a basic overview (flag · name · score · region · rank · summary) + one *View &lt;country&gt;* button → navigates; ✕ / click-elsewhere closes. Legend = a neutral `<60%` chip + an 8-stop gradient bar over the fixed `60→80%+` ramp. Ocean theme-aware (`bg-muted`); minimal — no custom theming/hover/controls.
 
 ── Leaderboard ──────────────────────────  [ Full leaderboard → ]
 ┌──────────────────────────────────────────────────────────┐

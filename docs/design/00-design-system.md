@@ -20,21 +20,23 @@ Tokens are shadcn/ui CSS variables in `src/index.css` (oklch). Components refere
 
 ### 2.1 Semantic tokens (neutral base + blue accent)
 
+Values below mirror `src/index.css` exactly. Base colour is shadcn **neutral** (`components.json`), so every non-accent token is an **untinted grey** (chroma 0); only `--primary`/`--ring` carry the blue accent hue.
+
 | Token | Light (oklch) | Dark (oklch) | Use |
 |-------|---------------|--------------|-----|
 | `--background` | `1 0 0` | `0.145 0 0` | Page background |
-| `--foreground` | `0.205 0.004 285` | `0.985 0 0` | Primary text |
-| `--card` | `1 0 0` | `0.18 0.004 285` | Card surface |
-| `--card-foreground` | `0.205 0.004 285` | `0.985 0 0` | Card text |
-| `--muted` | `0.97 0.002 285` | `0.24 0.004 285` | Subtle fills, pending |
-| `--muted-foreground` | `0.55 0.006 285` | `0.7 0.006 285` | Secondary text |
-| `--border` | `0.92 0.003 285` | `0.27 0.004 285` | Hairlines, table grid |
-| `--input` | `0.92 0.003 285` | `0.3 0.004 285` | Field borders |
+| `--foreground` | `0.145 0 0` | `0.985 0 0` | Primary text |
+| `--card` | `1 0 0` | `0.205 0 0` | Card surface |
+| `--card-foreground` | `0.145 0 0` | `0.985 0 0` | Card text |
+| `--muted` | `0.97 0 0` | `0.269 0 0` | Subtle fills, pending |
+| `--muted-foreground` | `0.556 0 0` | `0.708 0 0` | Secondary text |
+| `--border` | `0.922 0 0` | `1 0 0 / 10%` | Hairlines, table grid |
+| `--input` | `0.922 0 0` | `1 0 0 / 15%` | Field borders |
 | `--ring` | `0.55 0.18 255` | `0.7 0.16 255` | Focus ring (accent) |
 | `--primary` | `0.55 0.18 255` | `0.7 0.16 255` | Accent: links, active nav, buttons, chart series 1 |
 | `--primary-foreground` | `0.98 0 0` | `0.2 0 0` | Text on accent |
 
-> Approx hex for reference only (do not hardcode): accent `#2f6df6` (light) / `#6ea0ff` (dark); foreground `#1f2024`; muted-fg `#71717a`.
+> Approx hex for reference only (do not hardcode): accent `#2f6df6` (light) / `#6ea0ff` (dark); neutrals are untinted greys — foreground `#242424` (light), muted-foreground `#777777`.
 
 ### 2.2 Score-encoding colours (tier badge scale + choropleth green ramp)
 
@@ -63,7 +65,7 @@ Thresholds live in code (`scoreTier()`), not scattered in components. Change the
 
 ## 3. Typography
 
-- **Family:** **Geist** (self-hosted via the `geist` npm package, bundled offline by the shadcn nova preset), falling back to the system UI stack. Clean, modern, no runtime CDN dependency. Tailwind `font-sans`.
+- **Family:** **Geist** (self-hosted via **`@fontsource-variable/geist`**, imported in `src/index.css`), falling back to the system UI stack. Clean, modern, bundled offline — no runtime CDN dependency. Tailwind `font-sans`.
 - **Numbers:** always `tabular-nums` for scores, ranks, weights (aligned columns).
 
 | Role | Classes | Usage |
@@ -104,11 +106,11 @@ Reusable building blocks (in `src/components/common/` unless noted). Each has on
 | `StatCard` | Single KPI (label/value/hint) | `label`, `value`, `badge?`, `hint?`, `icon?` | — |
 | `Podium` | Top-3 countries, 1st raised | `countries` | links to detail |
 | `LeaderboardTable` (leaderboard/) | TanStack table: sort/filter/columns | `countries`, `categories`, `globalFilter`, `columnVisibility`, `onColumnVisibilityChange` | empty = "No countries match" |
-| `SearchBox` (leaderboard/) | Debounced name search | `value`, `onChange` | — |
+| `SearchBox` (leaderboard/) | Name search (global filter) | `value`, `onChange` | — |
 | `Filters` (leaderboard/) | Region select + column-visibility menu | `regions`, `region`, `categories`, `columnVisibility`, … | — |
 | `RadarProfile` (charts/) | Category radar; overlay ≤3 | `countries`, `categories` | legend only when >1 |
 | `ContributionBars` (charts/) | Weighted contribution per category | `country` | sorted desc |
-| `Choropleth` (charts/) | Full-world **choropleth** on a plain **Leaflet** map (react-leaflet; SVG, no WebGL) | `countries` | **All countries** rendered (GeoJSON, no tiles → offline); scored ones shaded on the continuous green ramp (`scoreToGreen()`, §2.2), others the neutral grey land. Longitudes **unwrapped** so dateline-crossing rings (Russia, Fiji, Aleutians) don't draw full-width white bands (Leaflet, unlike d3, doesn't clip the antimeridian); Antarctica omitted (wraps the pole). Default world view (`center`/`zoom`) shows all. Default Leaflet drag + zoom, north-up. **Click → popup overview** (flag · name · score, or a *Pending* chip if provisional · region · rank · short summary + a *View &lt;country&gt;* button → navigates). Ocean = panel `bg-muted` (theme-aware); green-ramp fills theme-independent. Minimal — no theme-repaint / hover / custom-control / CSS-override code. |
+| `Choropleth` (charts/) | Full-world **choropleth** on a plain **Leaflet** map (react-leaflet; SVG, no WebGL) | `countries` | **All countries** rendered (GeoJSON, no tiles → offline); scored ones shaded on the fixed absolute green ramp (`scoreToGreen()`, §2.2), others the neutral grey land. Longitudes **unwrapped** so dateline-crossing rings (Russia, Fiji, Aleutians) don't draw full-width white bands (Leaflet doesn't clip the antimeridian); Antarctica omitted (wraps the pole). Default world view (`center`/`zoom`) shows all. Default Leaflet drag + zoom, north-up. **Click → popup overview** (flag · name · score, or a *Pending* chip if provisional · region · rank · short summary + a *View &lt;country&gt;* button → navigates). Ocean = panel `bg-muted` (theme-aware); green-ramp fills theme-independent. Minimal — no theme-repaint / hover / custom-control / CSS-override code. |
 
 ### 5.1 ScoreBadge — canonical score rendering
 
