@@ -7,7 +7,7 @@ import { StatCard } from "@/components/common/StatCard";
 import { Choropleth } from "@/components/charts/Choropleth";
 import { ScoreBadge } from "@/components/common/ScoreBadge";
 import { Button } from "@/components/ui/button";
-import { formatDate, formatScore } from "@/lib/formatters";
+import { formatDate } from "@/lib/formatters";
 
 export default function Dashboard() {
   const { countries, categories, profile } = useData();
@@ -28,8 +28,8 @@ export default function Dashboard() {
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
         <StatCard label="Countries" value={String(countries.length)} />
         <StatCard label="Categories" value={String(categories.length)} hint="weights sum to 100" />
-        <StatCard label="Top score" value={formatScore(countries[0]?.overall ?? 0)} hint={countries[0]?.name} />
-        <StatCard label="Last reviewed" value={formatDate(reviewedDates[reviewedDates.length - 1])} />
+        <StatCard label="Top score" badge={<ScoreBadge score={countries[0]?.overall ?? 0} />} hint={countries[0]?.name} />
+        <StatCard label="Last reviewed" value={reviewedDates.length ? formatDate(reviewedDates[reviewedDates.length - 1]) : "—"} />
       </div>
 
       <Section title="World view"><Choropleth countries={countries} /></Section>

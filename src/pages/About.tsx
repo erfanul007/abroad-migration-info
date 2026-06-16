@@ -1,4 +1,5 @@
 // src/pages/About.tsx
+import { useMemo } from "react";
 import { useData } from "@/hooks/useData";
 import { Section } from "@/components/common/Section";
 import { Card, CardContent } from "@/components/ui/card";
@@ -7,6 +8,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 export default function About() {
   const { profile, categories } = useData();
   const p = profile;
+  const sortedCategories = useMemo(() => [...categories].sort((a, b) => b.weight - a.weight), [categories]);
 
   return (
     <div className="space-y-10">
@@ -58,7 +60,7 @@ export default function About() {
           <Table>
             <TableHeader><TableRow><TableHead>Category</TableHead><TableHead className="text-right">Weight</TableHead><TableHead>What it measures</TableHead></TableRow></TableHeader>
             <TableBody>
-              {[...categories].sort((a, b) => b.weight - a.weight).map((c) => (
+              {sortedCategories.map((c) => (
                 <TableRow key={c.id}><TableCell className="font-medium">{c.name}</TableCell><TableCell className="text-right tabular-nums">{c.weight}</TableCell><TableCell className="text-muted-foreground">{c.description}</TableCell></TableRow>
               ))}
             </TableBody>

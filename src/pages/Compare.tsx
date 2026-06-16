@@ -1,5 +1,5 @@
 // src/pages/Compare.tsx
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { useData } from "@/hooks/useData";
 import { Section } from "@/components/common/Section";
 import { RadarProfile } from "@/components/charts/RadarProfile";
@@ -13,7 +13,11 @@ export default function Compare() {
   const { countries, categories } = useData();
   const [selected, setSelected] = useState<string[]>(countries.slice(0, 2).map((c) => c.iso));
 
-  const chosen = selected.map((iso) => countries.find((c) => c.iso === iso)).filter((c): c is NonNullable<typeof c> => Boolean(c));
+  const chosen = useMemo(
+    () => selected.map((iso) => countries.find((c) => c.iso === iso)).filter((c): c is NonNullable<typeof c> => Boolean(c)),
+    [selected, countries],
+  );
+  const optionsFor = (i: number) => countries.filter((c) => !selected.includes(c.iso) || selected[i] === c.iso);
 
   function setSlot(index: number, iso: string) {
     setSelected((prev) => { const next = [...prev]; next[index] = iso; return next; });
@@ -31,7 +35,7 @@ export default function Compare() {
           <Select key={i} value={selected[i] ?? ""} onValueChange={(v) => setSlot(i, v)}>
             <SelectTrigger className="w-48"><SelectValue placeholder={`Country ${i + 1}`} /></SelectTrigger>
             <SelectContent>
-              {countries.map((c) => <SelectItem key={c.iso} value={c.iso}>{c.flag} {c.name}</SelectItem>)}
+              {optionsFor(i).map((c) => <SelectItem key={c.iso} value={c.iso}>{c.flag} {c.name}</SelectItem>)}
             </SelectContent>
           </Select>
         ))}

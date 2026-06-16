@@ -64,11 +64,11 @@ export default function CountryDetail() {
                     {cell.summary && <p>{cell.summary}</p>}
                     {cell.reasoning && <p className="text-muted-foreground">{cell.reasoning}</p>}
                     {cell.evidence && cell.evidence.length > 0 && (
-                      <ul className="list-inside list-disc text-muted-foreground">{cell.evidence.map((e, i) => <li key={i}>{e}</li>)}</ul>
+                      <ul className="list-inside list-disc text-muted-foreground">{cell.evidence.map((e) => <li key={e}>{e}</li>)}</ul>
                     )}
                     {cell.links && cell.links.length > 0 && (
                       <div className="flex flex-wrap gap-2 pt-1">
-                        {cell.links.map((l, i) => <a key={i} href={l.url} target="_blank" rel="noreferrer" className="text-primary hover:underline">{l.title} ↗</a>)}
+                        {cell.links.map((l) => <a key={l.url} href={l.url} target="_blank" rel="noreferrer" className="text-primary hover:underline">{l.title} ↗</a>)}
                       </div>
                     )}
                     {cell.lastReviewed && <div className="pt-1 text-xs text-muted-foreground">Reviewed {formatDate(cell.lastReviewed)}</div>}
@@ -83,7 +83,7 @@ export default function CountryDetail() {
       {country.links.length > 0 && (
         <Section title="References">
           <ul className="space-y-1">
-            {country.links.map((l, i) => <li key={i}><a href={l.url} target="_blank" rel="noreferrer" className="text-primary hover:underline">{l.title} ↗</a></li>)}
+            {country.links.map((l) => <li key={l.url}><a href={l.url} target="_blank" rel="noreferrer" className="text-primary hover:underline">{l.title} ↗</a></li>)}
           </ul>
         </Section>
       )}
