@@ -8,7 +8,6 @@ import { ArrowDown, ArrowUp, ChevronsUpDown } from "lucide-react";
 import type { Category, ScoredCountry } from "@/types";
 import { buildColumns } from "@/components/leaderboard/columns";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import { cn } from "@/lib/cn";
 
 interface Props {
   countries: ScoredCountry[];
@@ -47,17 +46,17 @@ export function LeaderboardTable({ countries, categories, globalFilter, columnVi
                   <TableHead
                     key={h.id}
                     title={labelById[h.column.id] ?? undefined}
-                    onClick={h.column.getCanSort() ? h.column.getToggleSortingHandler() : undefined}
-                    className={cn("whitespace-nowrap", h.column.getCanSort() && "cursor-pointer select-none")}
+                    aria-sort={sortDir === "asc" ? "ascending" : sortDir === "desc" ? "descending" : undefined}
+                    className="whitespace-nowrap"
                   >
-                    <span className="inline-flex items-center gap-1">
-                      {flexRender(h.column.columnDef.header, h.getContext())}
-                      {h.column.getCanSort() && (
-                        sortDir === "asc" ? <ArrowUp className="size-3" />
-                          : sortDir === "desc" ? <ArrowDown className="size-3" />
-                          : <ChevronsUpDown className="size-3 opacity-40" />
-                      )}
-                    </span>
+                    {h.column.getCanSort() ? (
+                      <button type="button" onClick={h.column.getToggleSortingHandler()} className="inline-flex items-center gap-1 select-none">
+                        {flexRender(h.column.columnDef.header, h.getContext())}
+                        {sortDir === "asc" ? <ArrowUp className="size-3" /> : sortDir === "desc" ? <ArrowDown className="size-3" /> : <ChevronsUpDown className="size-3 opacity-40" />}
+                      </button>
+                    ) : (
+                      <span className="inline-flex items-center gap-1">{flexRender(h.column.columnDef.header, h.getContext())}</span>
+                    )}
                   </TableHead>
                 );
               })}
@@ -66,7 +65,7 @@ export function LeaderboardTable({ countries, categories, globalFilter, columnVi
         </TableHeader>
         <TableBody>
           {table.getRowModel().rows.length === 0 ? (
-            <TableRow><TableCell colSpan={columns.length} className="py-8 text-center text-muted-foreground">No countries match your search.</TableCell></TableRow>
+            <TableRow><TableCell colSpan={table.getVisibleLeafColumns().length} className="py-8 text-center text-muted-foreground">No countries match your search.</TableCell></TableRow>
           ) : (
             table.getRowModel().rows.map((row) => (
               <TableRow key={row.id}>

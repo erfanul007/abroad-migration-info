@@ -19,7 +19,7 @@ export function buildColumns(categories: Category[]): ColumnDef<ScoredCountry>[]
       header: "Country",
       accessorKey: "name",
       cell: ({ row }) => (
-        <Link to={`/country/${row.original.iso}`} className="flex items-center gap-2 font-medium hover:underline">
+        <Link to={`/country/${row.original.iso}`} className="flex items-center gap-2 text-primary font-medium hover:underline">
           <span aria-hidden>{row.original.flag}</span>
           <span>{row.original.name}</span>
           {row.original.hasPending && <PendingBadge />}
@@ -36,9 +36,9 @@ export function buildColumns(categories: Category[]): ColumnDef<ScoredCountry>[]
     ...categories.map<ColumnDef<ScoredCountry>>((cat) => ({
       id: cat.id,
       header: cat.shortLabel,
-      accessorFn: (c) => c.categories[cat.id]?.score ?? null,
+      accessorFn: (c) => c.categories[cat.id]?.score ?? undefined,
       cell: ({ getValue }) => {
-        const v = getValue<number | null>();
+        const v = getValue<number | undefined>();
         return v == null ? <span className="text-muted-foreground">—</span> : <ScoreBadge score={v} />;
       },
       enableGlobalFilter: false,

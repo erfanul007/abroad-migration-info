@@ -39,6 +39,7 @@ export function Filters({ regions, region, onRegionChange, categories, columnVis
                 <Switch
                   checked={columnVisibility[c.id] !== false}
                   onCheckedChange={(v) => onToggleColumn(c.id, v)}
+                  aria-label={c.shortLabel}
                 />
               </label>
             ))}
