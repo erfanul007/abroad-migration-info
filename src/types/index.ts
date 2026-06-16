@@ -1,69 +1,22 @@
 // src/types/index.ts
+// Data-shape types are inferred from the Zod schemas (src/lib/schema.ts) so the runtime
+// validation and the compile-time types share one definition and can't drift. This file
+// re-exports them and adds the derived (runtime-only) types the schemas don't cover.
+export type {
+  ReferenceLink,
+  Category,
+  CellStatus,
+  CategoryScore,
+  Country,
+  Preferences,
+  Person,
+  Profile,
+} from "@/lib/schema";
+
+import type { Category, CategoryScore, Country } from "@/lib/schema";
+
+/** Category ids are plain strings; this alias documents intent at call sites. */
 export type CategoryId = string;
-export type CellStatus = "scored" | "pending";
-
-export interface ReferenceLink {
-  title: string;
-  url: string;
-}
-
-export interface Category {
-  id: CategoryId;
-  name: string;        // canonical, shown everywhere except dense table headers
-  shortLabel: string;  // dense leaderboard column headers only
-  weight: number;      // 0..100; all categories sum to 100
-  description: string;
-  factors: string[];
-}
-
-export interface CategoryScore {
-  status: CellStatus;
-  score: number;       // 0..100
-  summary?: string;
-  reasoning?: string;
-  evidence?: string[];
-  links?: ReferenceLink[];
-  lastReviewed?: string; // ISO 8601
-}
-
-export interface Country {
-  id: string;
-  name: string;
-  iso: string;   // ISO alpha-2 (flag, routing)
-  iso3: string;  // ISO alpha-3 (retained for future use)
-  flag: string;  // emoji
-  region: string;
-  summary: string;
-  lastReviewed: string; // ISO 8601
-  links: ReferenceLink[];
-  categories: Record<CategoryId, CategoryScore>;
-}
-
-export interface Preferences {
-  regions: string[];
-  fasterCitizenship: boolean;
-  dualCitizenship: string;
-  professionPriority: string;
-  relocateTogether: boolean; // household of two — both partners move together
-}
-
-/** A household member. Both partners are peers — either can be the primary
- *  applicant and the other the dependent, so no role hierarchy is encoded. */
-export interface Person {
-  name: string;
-  role: string;
-  company: string;
-  location: string;
-  links: { portfolio: string; linkedin: string };
-}
-
-export interface Profile {
-  household: { people: Person[] };
-  education: { degree: string; institution: string; completed: string };
-  goal: string;
-  pathway: string[];
-  preferences: Preferences;
-}
 
 // Derived (runtime only)
 export interface ScoredCategory {

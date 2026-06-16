@@ -1,6 +1,6 @@
 // src/lib/data.ts
 import type { Category, Country, Profile, ScoredCountry } from "@/types";
-import { validateCategories, validateCountry } from "@/lib/validation";
+import { validateCategories, validateCountry, validateProfile } from "@/lib/schema";
 import { rankCountries } from "@/lib/scoring";
 import categoriesJson from "@/data/categories.json";
 import profileJson from "@/data/profile.json";
@@ -17,6 +17,7 @@ export const countries: Country[] = Object.values(modules)
 // Validation gate — throws in dev/test if data is malformed.
 const errors = [
   ...validateCategories(categories),
+  ...validateProfile(profile),
   ...countries.flatMap((c) => validateCountry(c, categories)),
 ];
 if (errors.length > 0) {

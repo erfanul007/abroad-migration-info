@@ -1,6 +1,10 @@
-// src/lib/validation.test.ts
+// src/lib/schema.test.ts
+// Tests cover ONLY the cross-field rules we own — category weights summing to 100, unique
+// category ids, and a country referencing only known category ids. The full-shape checking
+// (required fields, status enum, integer 0..100 scores, link {title,url}) is Zod's job and
+// is intentionally not re-tested here.
 import { describe, it, expect } from "vitest";
-import { validateCategories, validateCountry } from "@/lib/validation";
+import { validateCategories, validateCountry } from "@/lib/schema";
 import type { Category, Country } from "@/types";
 
 const cats: Category[] = [
@@ -31,12 +35,8 @@ describe("validateCountry", () => {
   it("passes a well-formed country", () => {
     expect(validateCountry(country, cats)).toEqual([]);
   });
-  it("flags scores out of range", () => {
-    const bad = { ...country, categories: { ...country.categories, a: { status: "scored" as const, score: 150 } } };
-    expect(validateCountry(bad, cats)).toContainEqual(expect.stringContaining("0..100"));
-  });
-  it("flags unknown category ids", () => {
+  it("flags category ids the country references but the catalogue does not define", () => {
     const bad = { ...country, categories: { ...country.categories, zzz: { status: "scored" as const, score: 10 } } };
-    expect(validateCountry(bad, cats)).toContainEqual(expect.stringContaining("Unknown category"));
+    expect(validateCountry(bad, cats)).toContainEqual(expect.stringContaining('Unknown category "zzz"'));
   });
 });
