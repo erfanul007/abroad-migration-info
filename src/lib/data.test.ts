@@ -1,6 +1,6 @@
 // src/lib/data.test.ts
 import { describe, it, expect } from "vitest";
-import { categories, countries, profile, scoredCountries } from "@/lib/data";
+import { categories, countries, getScoredCountry, profile, scoredCountries } from "@/lib/data";
 
 describe("data integrity", () => {
   it("loads 14 categories summing to 100", () => {
@@ -26,5 +26,10 @@ describe("data integrity", () => {
   });
   it("has a profile with a pathway", () => {
     expect(profile.pathway.length).toBeGreaterThan(0);
+  });
+  it("getScoredCountry finds by iso and by id, undefined otherwise", () => {
+    expect(getScoredCountry("DE")?.id).toBe("germany");
+    expect(getScoredCountry("germany")?.id).toBe("germany");
+    expect(getScoredCountry("ZZ")).toBeUndefined();
   });
 });
