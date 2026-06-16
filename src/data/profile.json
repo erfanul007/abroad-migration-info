@@ -1,0 +1,15 @@
+{
+  "applicant": { "name": "Erfanul Bhuiyan", "role": "Software Engineer", "company": "Netpower", "location": "Dhaka, Bangladesh" },
+  "spouse": { "role": "Software Engineer", "company": "Optimizely", "experienceYears": 4, "location": "Dhaka, Bangladesh" },
+  "education": { "degree": "BSc in CSE", "institution": "Daffodil International University", "completed": "2022-02" },
+  "goal": "MSc studies -> post-study work -> permanent residency -> citizenship -> passport",
+  "pathway": ["MSc studies", "Post-study work permit", "Permanent residency", "Citizenship", "Passport"],
+  "preferences": {
+    "regions": ["Europe", "Australia", "First-world"],
+    "fasterCitizenship": true,
+    "dualCitizenship": "preferred",
+    "professionPriority": "IT / Software / AI Engineering",
+    "spouseAccompanies": true
+  },
+  "links": { "portfolio": "https://erfanul007.github.io/portfolio-ai/", "linkedin": "https://www.linkedin.com/in/erfanul007/" }
+}
