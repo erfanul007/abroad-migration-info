@@ -5,7 +5,7 @@
   "iso3": "NOR",
   "flag": "🇳🇴",
   "region": "Europe",
-  "summary": "Strong fit for two Bangladeshi software engineers: severe tech shortage, English-heavy IT sector, Dhaka-based visa processing, dual citizenship and a fast 6-of-10-year citizenship route via income. Offsets: reintroduced non-EEA tuition, high tax/cost, and rising anti-immigration politics targeting 'high-risk' countries.",
+  "summary": "Solid fit for two Bangladeshi software engineers: acute tech shortage, English-heavy IT sector, residence permits filed in Dhaka, dual citizenship and a 6-of-10-year income route to a passport. Offsets: reintroduced non-EEA tuition (under review for 2026), high tax and Oslo costs, only a 12-month job-seeker window, and a record anti-immigration Progress Party pushing longer citizenship/PR timelines.",
   "lastReviewed": "2026-06-16",
   "links": [
     {
@@ -21,36 +21,38 @@
     "job-market": {
       "status": "scored",
       "score": 82,
-      "summary": "Severe software/AI shortage; ~16,000 developer openings in 2025 and most tech work runs in English.",
-      "reasoning": "NAV's 2025 survey ranks software developers, data scientists and cybersecurity among the highest-demand roles, with AI hiring growing fast and 80–90% of tech jobs operating in English, so both engineers can compete. Held below 90 because applicants with foreign-sounding names face documented interview-callback discrimination, adding real friction for two Bangladeshi candidates.",
+      "summary": "Acute software/AI shortage; ~16,000 developer openings in 2025 and most tech work runs in English.",
+      "reasoning": "NAV's 2025 business survey put Norway ~39,000 workers short with IT among the hardest-to-fill fields, and software developers alone account for roughly 16,000 openings in 2025, while SSB projects a ~100,000 skilled-worker shortfall by 2035. Most tech roles operate in English, so both engineers can compete; held below 90 because applicants with foreign-sounding names face documented interview-callback discrimination.",
       "evidence": [
-        "NAV 2025 business survey: software developers among the highest-demand occupations, ~16,000 openings expected.",
-        "Estimated 80–90% of Norwegian tech roles operate in English; IT is the easiest sector for English-speaking foreigners.",
-        "UDI shortage-occupation handling gives expedited processing for skilled IT roles.",
-        "Studies show candidates with foreign-sounding names are markedly less likely to get interview callbacks."
+        "NAV 2025 Bedriftsundersøkelsen: ~39,000-worker shortfall, 21% of firms report recruitment difficulty, 190+ short occupations.",
+        "Software developers ~16,000 openings in 2025; Python/Java/JavaScript and AWS/Azure/GCP cloud most in demand.",
+        "SSB projects a ~100,000 skilled-worker shortfall by 2035, signalling sustained demand.",
+        "Most Norwegian tech workplaces operate in English; IT is the easiest sector for English-speaking foreigners.",
+        "Documented interview-callback discrimination against foreign-sounding names adds real friction."
       ],
       "links": [
         {
-          "title": "UDI – Skilled workers",
-          "url": "https://www.udi.no/en/want-to-apply/work-immigration/skilled-workers/"
+          "title": "The Local – The workers Norway needs most in 2025 (NAV survey)",
+          "url": "https://www.thelocal.no/20250508/in-numbers-the-workers-norway-needs-most-in-2025"
         },
         {
-          "title": "Study in Norway – Working after a degree",
-          "url": "https://studyinnorway.no/working-norway-after-completing-degree"
+          "title": "UDI – Skilled workers",
+          "url": "https://www.udi.no/en/want-to-apply/work-immigration/skilled-workers/"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "visa-access": {
       "status": "scored",
-      "score": 78,
-      "summary": "All residence-permit applications filed in Dhaka via VFS at the Danish Embassy; biometrics local, no New Delhi trip, no interview.",
-      "reasoning": "Bangladeshi nationals register study and skilled-worker permits online with UDI and submit documents plus biometrics at the VFS centre in Gulshan, Dhaka, with decisions made by UDI and no in-person interview required. Score is strong rather than top because financial-proof bars and Schengen-area scrutiny still apply to Bangladeshi applicants.",
+      "score": 80,
+      "summary": "Residence-permit applications filed in Dhaka via VFS (Gulshan) for the Danish Embassy; biometrics local, no New Delhi, no interview.",
+      "reasoning": "Bangladeshi nationals register study and skilled-worker permits online with UDI and submit documents plus biometrics at the VFS centre in Gulshan, Dhaka (which serves the Royal Danish Embassy as Norway's receiving office), with no in-person interview required and decisions made by UDI. This is a genuine in-Dhaka process with no New Delhi trip, scoring in the strong band; financial-proof and Schengen-area document scrutiny keep it below the top.",
       "evidence": [
-        "Residence-permit applications for Norway are received at the VFS centre for the Danish Embassy in Dhaka (Gulshan).",
+        "VFS Global centre at Delta Life Tower, Gulshan North, Dhaka receives all Norway residence-permit applications via the Royal Danish Embassy.",
         "Biometrics collected in Dhaka; no visa interview required for study permits.",
-        "UDI processing typically 2–3 months for student residence permits.",
-        "Applicants must document maintenance funds in a Norwegian/approved account, a meaningful bar."
+        "Embassy normally processes within 15 calendar days; some cases sent to UDI up to ~45 days.",
+        "Applicants must document maintenance funds (job-seeker requires income/savings ≥ NOK 325,400/yr), a meaningful bar.",
+        "No requirement to travel to New Delhi or a third country."
       ],
       "links": [
         {
@@ -66,37 +68,39 @@
     },
     "citizenship": {
       "status": "scored",
-      "score": 70,
-      "summary": "Dual citizenship allowed since 2020; fast 6-of-10-year route for sufficient income (easily met by SW engineers), B1 Norwegian.",
-      "reasoning": "Norway permits dual citizenship since 2020 and offers a reduced 6-of-the-last-10-years residence route for applicants with income of at least 3G (~NOK 384,348), which two software-engineer salaries clear comfortably; student-permit years (≥1 year) also count toward the residence calculation. The B1 oral language and social-studies requirements keep it short of the top band.",
+      "score": 68,
+      "summary": "Dual citizenship allowed since 2020; standard 8-of-11 years, but a 6-of-10 income route SW engineers clear easily; B1 oral required.",
+      "reasoning": "Norway permits dual citizenship since 2020 (no need to renounce Bangladeshi nationality), and while the standard requirement is eight of the last eleven years, a reduced six-of-ten-years route applies for income ≥ 3G (NOK 384,348 for the 2025 settlement) which two software-engineer salaries clear comfortably. The B1 oral Norwegian and social-studies test, plus the Progress Party's pledge to push citizenship to ten years, hold it in the decent band rather than higher.",
       "evidence": [
-        "Dual citizenship permitted since 1 January 2020; no need to renounce Bangladeshi nationality.",
-        "Reduced residence: 6 of the last 10 years if income ≥ 3× basic amount (~NOK 384,348 for the 2025 settlement).",
-        "Student-permit time of at least one year counts toward the citizenship residence period.",
-        "B1 oral Norwegian plus a social-studies (samfunnskunnskap) test required."
+        "Dual citizenship permitted since 1 January 2020; Bangladesh also allows it with European countries via the Dual Nationality Certificate.",
+        "Standard residence: 8 of the last 11 years (UNE/UDI); language raised to B1 oral plus a social-studies test.",
+        "Reduced residence: 6 of the last 10 years if income ≥ 3G = NOK 384,348 (2025 settlement; was NOK 366,675 in 2024).",
+        "UDI verifies income directly from the Tax Administration; scholarships and loans do not count.",
+        "Progress Party (record 2025 result) pledges to extend citizenship residence from 7 to 10 years — a downside risk."
       ],
       "links": [
         {
-          "title": "UDI – Citizenship",
-          "url": "https://www.udi.no/en/want-to-apply/citizenship/"
+          "title": "UDI – Sufficient income for reduced residence time when applying for citizenship",
+          "url": "https://www.udi.no/en/important-messages/Sufficient-income-for-reduced-residence-time-when-applying-for-citizenship/"
         },
         {
-          "title": "UDI – Reduced residence time with sufficient income",
-          "url": "https://www.udi.no/en/important-messages/Sufficient-income-for-reduced-residence-time-when-applying-for-citizenship/"
+          "title": "UDI – Citizenship",
+          "url": "https://www.udi.no/en/want-to-apply/citizenship/"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "post-study-work": {
       "status": "scored",
-      "score": 70,
-      "summary": "12-month job-seeker permit after graduation; free switch to skilled-worker permit once a qualifying job offer arrives.",
-      "reasoning": "Graduates can apply for a one-year job-seeker residence permit before their student permit expires and convert it, at no fee, to a skilled-worker permit once they secure a full-time, degree-relevant job meeting the salary rule (NOK 473,000 in 2025). It is a solid one-year window rather than the multi-year unrestricted period that scores higher.",
+      "score": 65,
+      "summary": "Only a 12-month job-seeker permit after graduation (can work during it); free switch to skilled-worker permit on a qualifying offer.",
+      "reasoning": "Graduates may apply, before their student permit ends, for a one-year job-seeker permit during which they can work any job and then convert at no fee to a skilled-worker permit once they secure a degree-relevant role meeting the salary rule (NOK 599,200 for master's-level posts from 1 September 2025). It is a solid in-country switch but only a 12-month window, short of the multi-year open work rights that score higher under this anchor.",
       "evidence": [
-        "Job-seeker permit gives up to 12 months to find skilled work; must be applied for before the student permit ends.",
-        "Free in-portal conversion from job-seeker to skilled-worker application if a job offer arrives first.",
-        "Skilled-worker job must be full-time, degree-relevant and meet the salary threshold (NOK 473,000 in 2025).",
-        "Applicants must show maintenance funds for the job-seeking period."
+        "Job-seeker permit gives up to 12 months; must be applied for before the student permit expires.",
+        "Graduates may work any job (not self-employed) during the job-seeking period.",
+        "Free in-portal conversion to a skilled-worker application once a qualifying offer arrives.",
+        "Skilled-worker salary floor from 1 Sept 2025: NOK 599,200 (master's), NOK 522,600 (bachelor's).",
+        "Must document income/savings ≥ NOK 325,400/yr for the job-seeking period."
       ],
       "links": [
         {
@@ -104,7 +108,7 @@
           "url": "https://www.udi.no/en/want-to-apply/work-immigration/job-seekers/"
         },
         {
-          "title": "Study in Norway – Working after a degree",
+          "title": "Study in Norway – Working in Norway after completing a degree",
           "url": "https://studyinnorway.no/working-norway-after-completing-degree"
         }
       ],
@@ -112,14 +116,15 @@
     },
     "spouse-family": {
       "status": "scored",
-      "score": 85,
-      "summary": "Both are skilled workers, so each can hold an independent permit; family permits also carry full work rights in the work phase.",
-      "reasoning": "Because both spouses are software engineers, each can independently qualify for a student then skilled-worker permit, rather than depending on the other; where one is the family member, a family-immigration permit tied to a skilled worker grants full work rights. The minor restriction is the student phase, where the accompanying spouse's family permit gives more limited work access, keeping it below 90.",
+      "score": 78,
+      "summary": "Both are skilled workers, so each can hold an independent permit; family permits tied to a skilled worker carry full work rights.",
+      "reasoning": "Because both spouses are software engineers, each can independently qualify for a student then skilled-worker permit rather than depending on the other, and a family-immigration permit attached to a skilled worker grants full-time work rights. The drag is the study phase: UDI states it lacks capacity to process a family member's application simultaneously with the student application, and the dependent route is slower, keeping it below the top band.",
       "evidence": [
-        "Both applicants can each obtain their own study/skilled-worker permit, avoiding dependency.",
+        "Both applicants can each obtain their own study and skilled-worker permits, avoiding one-earner dependency.",
         "Family-immigration permit holders attached to a skilled worker may work full-time.",
-        "Families can apply together and receive decisions simultaneously.",
-        "Income requirement for family immigration applies (NOK 305,000+ in 2025), but met by either engineer."
+        "Income for family immigration: NOK 436,957/yr pre-tax (sponsor), with a student exception down to NOK 351,432.",
+        "UDI states it currently lacks capacity to process a student's family-member application at the same time as the study application — a study-phase delay.",
+        "No dependant work ban in the work phase, the decisive failure mode this couple needs to avoid."
       ],
       "links": [
         {
@@ -127,7 +132,7 @@
           "url": "https://www.udi.no/en/want-to-apply/family-immigration/"
         },
         {
-          "title": "UDI – Income requirement in family immigration",
+          "title": "UDI – Income requirement in family immigration cases",
           "url": "https://www.udi.no/en/word-definitions/income-requirement-in-family-immigration-cases-/"
         }
       ],
@@ -136,36 +141,38 @@
     "msc-study": {
       "status": "scored",
       "score": 58,
-      "summary": "Abundant English MSc programmes, but non-EEA tuition was reintroduced in 2023 (~NOK 130,000–180,000/yr) on top of high living costs.",
-      "reasoning": "English-taught MSc options are plentiful and students may work part-time (~20 h/week) with the spouse able to accompany, but since autumn 2023 non-EEA students pay institution-set tuition often in the NOK 130,000–180,000 range, and Norway's living costs are among Europe's highest. Limited scholarships for non-EEA applicants pull the score into the moderate band.",
+      "summary": "Abundant English CS MSc, but non-EEA tuition ~NOK 176,000–206,000/yr since 2023; a 2026 reform may cut fees sharply.",
+      "reasoning": "English-taught CS/technology master's options are plentiful and students may work part-time with the spouse able to accompany, but since autumn 2023 non-EEA students pay institution-set tuition — NTNU's 2026/27 technology rate is NOK 205,600/yr (NOK 176,300 for social science/business) — atop some of Europe's highest living costs. A June 2025 ministry proposal would let universities set fees (including near-zero) from 1 August 2026 after an ~80% drop in non-European enrolments, a real upside that has not yet landed.",
       "evidence": [
-        "Tuition fees reintroduced for non-EU/EEA students from autumn 2023; each public institution sets its own fees.",
-        "Master's tuition commonly NOK 130,000–180,000 per year for non-EEA students.",
+        "Tuition reintroduced for non-EU/EEA students from autumn 2023; each institution sets its own fees.",
+        "NTNU 2026/27 non-EEA master's: NOK 205,600/yr (tech/science), NOK 176,300/yr (humanities/business).",
+        "Typical non-EEA fee range NOK 130,000–390,000/yr; semester fee ~NOK 600.",
         "Students may work part-time alongside studies; accompanying spouse can apply for family immigration.",
-        "Few scholarships available to non-EEA students, and proof-of-funds plus tuition raise the cost barrier."
+        "June 2025 reform proposal lets universities set fees (incl. near-zero) from 1 Aug 2026 after ~80% enrolment drop; NTNU/Nord already cutting fees."
       ],
       "links": [
         {
-          "title": "Study in Norway – Tuition fees",
-          "url": "https://studyinnorway.no/"
+          "title": "NTNU – Tuition fees for non-EU/EEA students",
+          "url": "https://www.ntnu.edu/studies/tuition-fee"
         },
         {
-          "title": "UDI – Study permit",
-          "url": "https://www.udi.no/en/want-to-apply/studies/"
+          "title": "Study in Norway – Tuition fees",
+          "url": "https://studyinnorway.no/"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "pr-pathway": {
       "status": "scored",
-      "score": 68,
-      "summary": "PR after 3 years of skilled-worker residence, but student years do NOT count, so the clock effectively starts post-study.",
-      "reasoning": "A permanent residence permit is reachable after three continuous years on a skilled-worker permit, with the language bar eased from September 2025 to an A2 oral test plus a social-studies test instead of mandatory courses. The catch for this couple is that student-permit years do not count toward PR, so the realistic timeline is study plus three working years.",
+      "score": 66,
+      "summary": "PR after 3 years of skilled-worker residence, but student years do NOT count, so the realistic clock is study + 3 working years.",
+      "reasoning": "A permanent residence permit is reachable after three continuous years on a skilled-worker permit, and from 1 September 2025 the language bar is an A2 oral test plus a social-studies test (with exemptions for documented Norwegian study) rather than mandatory courses. The catch for this couple is that student-permit years do not count toward PR, making the realistic timeline study plus three working years; the Progress Party's pledge to raise PR to eight years is a tightening risk.",
       "evidence": [
         "PR available after three consecutive years holding a skilled-worker permit.",
-        "From 1 September 2025: A2 oral Norwegian test + social-studies test replaces mandatory courses for PR.",
-        "Time on a student permit does not count toward the permanent-residence residence period.",
-        "Self-support requirement assessed at application date under the September 2025 changes."
+        "From 1 Sept 2025: A2 oral Norwegian + social-studies test replaces mandatory courses (level set by police-appointment date).",
+        "Exemptions if you document Norwegian study (≥30 ECTS language / ≥10 ECTS social studies) — study can pre-qualify the tests.",
+        "Time on a student permit does not count toward the PR residence period.",
+        "Progress Party (record 2025 result) pledges to raise the PR bar from 5 to 8 years."
       ],
       "links": [
         {
@@ -173,7 +180,7 @@
           "url": "https://www.udi.no/en/want-to-apply/permanent-residence/permanent-residence-permit/"
         },
         {
-          "title": "UDI – Changes to permanent-residence language requirements",
+          "title": "UDI – Changes to PR language and social-studies requirements (1 Sept 2025)",
           "url": "https://www.udi.no/en/important-messages/changes-to-the-requirements-for-a-permanent-residence-permit/"
         }
       ],
@@ -181,42 +188,46 @@
     },
     "income-cost": {
       "status": "scored",
-      "score": 70,
-      "summary": "Very high software salaries (avg ~NOK 949,000) but very high cost of living, especially in Oslo.",
-      "reasoning": "Software engineers earn well, averaging around NOK 949,000 with seniors well past a million, and two such incomes give strong gross earning power. However, Oslo's cost of living runs about 25% above the national average and overall living costs are among Europe's highest, so net savings are good but not exceptional.",
+      "score": 68,
+      "summary": "High software salaries (Oslo avg ~NOK 740,000; mid ~NOK 950,000) but very high tax and Oslo housing erode net savings.",
+      "reasoning": "Software engineers in Oslo average around NOK 740,000 with mid-levels near NOK 950,000 and seniors past NOK 1.2M, so two such incomes give strong gross earning power. However, Oslo rent runs roughly NOK 20,000–30,000/month with one of Europe's highest overall cost bases, and a substantial tax load means net savings on two incomes are good but not exceptional.",
       "evidence": [
-        "Average software-engineer salary ~NOK 949,000 (2025); entry ~NOK 655,000, senior NOK 1.1–1.4M.",
-        "Oslo cost of living roughly 25% above the Norwegian average.",
-        "Two professional incomes give a strong dual-earner position.",
-        "High housing and everyday costs erode net disposable income."
+        "Oslo software-engineer average ~NOK 740,500/yr; mid-level ~NOK 950,000; senior NOK 0.9–1.25M (2025).",
+        "Oslo rent incl. utilities ~NOK 20,000–30,000/month; single-person non-rent costs ~NOK 13,400/month.",
+        "Two professional IT incomes give a strong dual-earner position.",
+        "High income tax plus housing and everyday costs erode net disposable income."
       ],
       "links": [
         {
-          "title": "PwC – Norway individual taxes",
-          "url": "https://taxsummaries.pwc.com/norway/individual/taxes-on-personal-income"
+          "title": "Numbeo – Cost of Living in Oslo (Jun 2026)",
+          "url": "https://www.numbeo.com/cost-of-living/in/Oslo"
         },
         {
-          "title": "OECD – Norway",
-          "url": "https://www.oecd.org/en/countries/norway.html"
+          "title": "Levels.fyi – Software Engineer salary, Oslo",
+          "url": "https://www.levels.fyi/t/software-engineer/locations/oslo-nor"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "healthcare": {
       "status": "scored",
-      "score": 90,
-      "summary": "Universal, tax-funded healthcare; automatic coverage for residents staying 12+ months, top OECD outcomes.",
-      "reasoning": "Coverage is universal and automatic for anyone resident 12 months or more, including GP, hospital and most services, with 86% of spending prepaid and the highest patient-satisfaction levels in the OECD. Modest co-payments and GP waiting access are the only minor detractors from a top-tier system.",
+      "score": 88,
+      "summary": "Universal, tax-funded healthcare; automatic coverage for residents staying 12+ months, top OECD outcomes, some specialist waits.",
+      "reasoning": "Coverage is universal and automatic for anyone resident 12 months or more, with 80% of residents satisfied with care availability (OECD average 64%) and just 1.7% reporting unmet needs (OECD 3.4%). Held just below the top band because 61% of patients wait a month or more for a specialist appointment — among the highest in the OECD — even as overall waits fell back to 2019 levels by late 2025.",
       "evidence": [
-        "Universal coverage, automatic for residents staying 12+ months.",
-        "Norway ranks #4 on the 2024 World Index of Healthcare Innovation.",
-        "80% of residents satisfied with quality healthcare availability vs 64% OECD average.",
-        "86% of health spending covered by mandatory prepayment."
+        "Universal coverage, automatic for residents staying 12+ months (GP, hospital, most services).",
+        "80% satisfied with quality healthcare availability vs 64% OECD average; 1.7% unmet need vs 3.4%.",
+        "Out-of-pocket spending low (~14% of health spending); modest co-payments.",
+        "61% of patients wait 1+ month for a specialist (tied highest with Canada); average waits back to 2019 levels by Aug–Sep 2025."
       ],
       "links": [
         {
           "title": "OECD – Health at a Glance 2025: Norway",
           "url": "https://www.oecd.org/en/publications/health-at-a-glance-2025_15a55280-en/norway_3b4abde5-en.html"
+        },
+        {
+          "title": "OECD/WHO – State of Health in the EU: Norway Country Health Profile 2025",
+          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/country-health-profile-2025-country-notes_7e72146d/norway_54b02fb4/68497bf6-en.pdf"
         }
       ],
       "lastReviewed": "2026-06-16"
@@ -224,11 +235,11 @@
     "culture-language": {
       "status": "scored",
       "score": 72,
-      "summary": "Very high everyday English; Norwegian not needed for tech work but B1 required for citizenship, A2 for PR.",
-      "reasoning": "English is widely spoken and most IT workplaces operate in English, so daily life and work are accessible without Norwegian. The score sits in the upper-middle band because immigration milestones impose language bars: A2 oral for permanent residence and B1 oral plus social studies for citizenship.",
+      "summary": "Very high everyday English; Norwegian not needed for tech work but A2 oral for PR and B1 oral for citizenship.",
+      "reasoning": "English is widely spoken and most IT workplaces operate in English, so daily life and skilled work are accessible without Norwegian, alongside high livability and openness. The score sits in the upper-middle band because immigration milestones impose language bars: an A2 oral test for permanent residence (from Sept 2025) and B1 oral plus a social-studies test for citizenship.",
       "evidence": [
         "English proficiency among the highest globally; most tech jobs run in English.",
-        "A2 oral Norwegian test required for permanent residence from September 2025.",
+        "A2 oral Norwegian test required for permanent residence from 1 September 2025.",
         "B1 oral Norwegian plus social-studies test required for citizenship.",
         "Norwegian increasingly useful for integration and broader (non-tech) job mobility."
       ],
@@ -238,7 +249,7 @@
           "url": "https://www.udi.no/en/want-to-apply/citizenship/"
         },
         {
-          "title": "UDI – Permanent residence language changes",
+          "title": "UDI – Changes to PR language requirements (Sept 2025)",
           "url": "https://www.udi.no/en/important-messages/changes-to-the-requirements-for-a-permanent-residence-permit/"
         }
       ],
@@ -247,37 +258,46 @@
     "safety-law": {
       "status": "scored",
       "score": 92,
-      "summary": "WJP Rule of Law #2/142 (0.89), CPI 81/100; very low crime and strong legal protections.",
-      "reasoning": "Norway ranks second worldwide on the WJP Rule of Law Index and scores 81 on the Corruption Perceptions Index, with low violent crime and robust civil and worker protections. This is a clear top-band result for safety and legal certainty.",
+      "summary": "WJP Rule of Law #2/143 (2025), CPI 81/100; very low crime and strong legal protections.",
+      "reasoning": "Norway ranks second of 143 on the WJP Rule of Law Index 2025 (behind Denmark, ahead of Finland and Sweden) and scores 81 on the 2025 Corruption Perceptions Index, with low violent crime, an independent judiciary and robust labour protections. This is a clear top-band result for safety and legal certainty for incoming skilled migrants.",
       "evidence": [
-        "WJP Rule of Law Index 2024: Norway #2 of 142, score 0.89.",
-        "Transparency International CPI 2025: Norway 81/100.",
+        "WJP Rule of Law Index 2025: Norway #2 of 143 (Denmark #1 at 0.90); Norway score ~0.89.",
+        "Transparency International CPI 2025: Norway 81/100, among the top scorers in Western Europe.",
         "Low violent-crime rates and strong, well-enforced labour protections.",
         "Independent judiciary and high institutional trust."
       ],
       "links": [
         {
-          "title": "WJP Rule of Law Index – Norway",
-          "url": "https://worldjusticeproject.org/rule-of-law-index/country/2024/Norway/"
+          "title": "WJP Rule of Law Index 2025 – Global press release (rankings)",
+          "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2025-global-press-release"
+        },
+        {
+          "title": "Transparency International – CPI 2025: Norway",
+          "url": "https://www.transparency.org/en/cpi/2025/index/nor"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "politics": {
       "status": "scored",
-      "score": 58,
-      "summary": "Stable Labour-led government after Sept 2025, but the anti-immigration Progress Party hit a record ~22% targeting 'high-risk' countries.",
-      "reasoning": "Institutions are stable and Labour retained power in the September 2025 election, so governance is predictable. However, the Progress Party recorded its best-ever result on a platform of 'zero net immigration from high-risk countries' (which would include Bangladesh) and tighter citizenship, PR and family rules, signalling a real and rising risk to this couple's pathway.",
+      "score": 55,
+      "summary": "Stable Labour-led government re-elected Sept 2025, but the Progress Party hit a record ~24% on a restrict-immigration platform.",
+      "reasoning": "Institutions are stable and the Labour-led left bloc retained a majority (87 of 169 seats) in the September 2025 election, with Labour itself pledging to make Norway more attractive to international researchers and students. However, Sylvi Listhaug's Progress Party doubled to ~24% (47 seats), its best-ever result, on pledges to raise citizenship to 10 years, PR to 8 years, and tighten language/self-sufficiency rules — a real and rising tightening risk for this couple's pathway.",
       "evidence": [
-        "September 2025 election: left bloc retained a parliamentary majority (Labour-led).",
-        "Progress Party reached a record ~22%, its best-ever result, on an anti-immigration platform.",
-        "Progress Party proposals: zero net immigration from 'high-risk' countries and tougher citizenship/PR/family rules.",
-        "Around a fifth of residents are immigrants or their children, fuelling polarised debate."
+        "September 2025 election: Labour-led left bloc won 87/169 seats; PM Jonas Gahr Støre re-elected (Labour 28.0%, 53 seats).",
+        "Progress Party (Sylvi Listhaug) doubled to ~24% / 47 seats — best-ever result, now second largest.",
+        "Progress pledges: citizenship 7→10 yrs, PR 5→8 yrs, tougher language/self-sufficiency tests, offshore asylum.",
+        "Labour pledges shorter family-reunification processing and to make Norway 'more attractive' for international students/researchers.",
+        "Immigration was not the top campaign issue (cost of living and foreign wars dominated)."
       ],
       "links": [
         {
-          "title": "The Local – Norway party pledges affecting foreigners",
+          "title": "The Local – How election pledges would affect foreigners in Norway",
           "url": "https://www.thelocal.no/20250611/key-points-how-election-pledges-would-affect-foreigners-in-norway"
+        },
+        {
+          "title": "Wikipedia – 2025 Norwegian parliamentary election",
+          "url": "https://en.wikipedia.org/wiki/2025_Norwegian_parliamentary_election"
         }
       ],
       "lastReviewed": "2026-06-16"
@@ -285,32 +305,36 @@
     "tax": {
       "status": "scored",
       "score": 45,
-      "summary": "High burden: 22% flat income tax plus bracket tax up to 17.8% and ~7.7% social security on wages.",
-      "reasoning": "General income is taxed at 22% with a progressive bracket tax reaching 17.8% on high earnings, plus a 7.7% employee social-security contribution, so dual high salaries face a substantial marginal load. Effective rates for tech salaries land roughly in the high-20s to mid-30s percent, placing Norway in the high-tax band.",
+      "summary": "High burden: 22% flat income tax plus bracket tax up to 17.8% and ~7.6% employee national-insurance on wages.",
+      "reasoning": "General income is taxed at a flat 22% with a progressive bracket tax (trinnskatt) reaching 17.8% above NOK 1,467,200, plus a ~7.6% employee national-insurance contribution on wages, so two high tech salaries face a substantial marginal load. Effective rates for software salaries land roughly in the high-20s to mid-30s percent with no special low-tax regime for skilled migrants, placing Norway firmly in the high-tax band.",
       "evidence": [
-        "Flat 22% on general income plus bracket tax up to 17.8% on top earnings (2025).",
-        "Employee social-security contribution ~7.7% on wage income.",
-        "Effective tax on a ~NOK 700,000 salary is roughly 26%, rising for higher earners.",
-        "No special low-tax regime for skilled migrants."
+        "Flat 22% on general income (2025/2026).",
+        "Bracket tax: 1.7%/4.0%/13.7%/16.8% across thresholds, top 17.8% above NOK 1,467,200.",
+        "Employee national-insurance 7.6% on wage income (2025/2026, ages 17–69, Skatteetaten).",
+        "No special low-tax/expat regime for skilled migrants (non-resident PAYE flat 25% incl. social security)."
       ],
       "links": [
         {
-          "title": "PwC – Norway taxes on personal income",
+          "title": "PwC – Norway: taxes on personal income",
           "url": "https://taxsummaries.pwc.com/norway/individual/taxes-on-personal-income"
+        },
+        {
+          "title": "Skatteetaten – National insurance contribution rates",
+          "url": "https://www.skatteetaten.no/en/rates/national-insurance-contributions/"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "muslim-diaspora": {
       "status": "scored",
-      "score": 64,
-      "summary": "~5–6% Muslim; large Pakistani/Somali communities and 40+ Oslo prayer sites, halal available, but rising hostility.",
-      "reasoning": "Norway has an established Muslim population (~5–6%), with sizeable Pakistani and Somali communities concentrated in Oslo, dozens of mosques and prayer locations, and permitted halal slaughter, so religious and South-Asian community life is accessible in cities. The score is moderate rather than high because anti-immigration sentiment is rising and the community is smaller than in larger European hubs.",
+      "score": 62,
+      "summary": "~4–5% Muslim; large Pakistani/Somali communities in Oslo, mosques and halal available, but small BD community and rising hostility.",
+      "reasoning": "Norway has an established Muslim population (~4–5%, the largest faith minority) with sizeable Pakistani, Iraqi and Somali communities — 56% in the Oslo/Akershus region — plus numerous mosques and accessible halal food, so religious and broader South-Asian community life is workable in cities. The score is moderate because the specifically Bangladeshi community is small, no single nationality exceeds a quarter of Muslims, and anti-immigration rhetoric is rising with the Progress Party's record result.",
       "evidence": [
-        "Muslim share of population around 5–6% (2025 estimates), largest faith minority.",
-        "Large Pakistani-Norwegian (≈39,000) and Somali (≈43,000) communities, heavily concentrated in Oslo.",
-        "40+ prayer locations in Oslo; Central Jamaat-e Ahl-e Sunnat is the largest mosque (~6,000 members).",
-        "Halal slaughter permitted; growing anti-immigration rhetoric is a countervailing concern."
+        "Muslim share ~4–5% (2025); 197,000+ registered members of Muslim communities, largest faith minority.",
+        "Largest origins Pakistan, Iraq, Somalia; no single nationality is even a quarter of the Muslim total.",
+        "56% of Muslims live in Oslo and Akershus — strong urban concentration with mosques and halal access.",
+        "Bangladeshi community specifically is small; rising anti-immigration sentiment (Progress Party ~24%) is a countervailing concern."
       ],
       "links": [
         {

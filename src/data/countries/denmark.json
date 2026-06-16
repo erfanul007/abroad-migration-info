@@ -5,7 +5,7 @@
   "iso3": "DNK",
   "flag": "🇩🇰",
   "region": "Europe",
-  "summary": "Strong IT shortage and a 3-year unrestricted post-study permit make the work and study phases attractive for two Bangladeshi software engineers, with full spouse work rights once one holds a work permit. The trade-off is Europe's most restrictive immigration politics, very high tax, and one of the hardest, slowest citizenship routes (~9 years, B2 Danish), though dual nationality is allowed.",
+  "summary": "For two Bangladeshi software engineers via a state-approved university, Denmark is strong on the study-to-work arc: acute IT shortage, a 3-year graduate stay with unrestricted work permits, full spouse work rights, and visas decided in Dhaka. The trade-offs are Europe's harshest immigration politics, a top 60.5% tax, and one of the slowest, most exacting citizenship routes (~9 years, B2 Danish) — though dual nationality is allowed.",
   "lastReviewed": "2026-06-16",
   "links": [
     { "title": "New to Denmark (SIRI) – official immigration portal", "url": "https://www.nyidanmark.dk/en-GB" },
@@ -14,213 +14,238 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "score": 78,
-      "summary": "Severe IT/AI shortage; Software Backend Developer on Positive List to Dec 2026, but Copenhagen-centric and Danish often preferred.",
-      "reasoning": "Denmark reports 7,000+ unfilled IT specialist roles and a projected 13,000 graduate shortfall by 2030, with software development openings up ~22% in 2025. IT roles (software developer, IT architect, system admin) sit on the Positive List for Higher Education, easing sponsorship for both engineers. Demand concentrates heavily in Copenhagen and Danish is frequently favoured, capping it below the top tier.",
+      "score": 76,
+      "summary": "Acute IT shortage; 12 IT titles on the Positive List, both engineers qualify; but Copenhagen-centric and Danish often preferred.",
+      "reasoning": "The Positive List for People with a Higher Education (last updated 16/04/2026, ~183 titles) carries 12 IT roles both engineers qualify for: Computer scientist (to 30/06/2027), Programmer and System Developer (to 30/06/2027), Software Backend Developer (to 31/12/2026), IT Architect, Web Developer and more, each needing a 3-year bachelor-level IT education. Denmark reports thousands of unfilled IT roles and a projected graduate shortfall, with strong English-language tech employers in Copenhagen. The January 2026 reforms narrowed the lists and raised pay floors, and demand concentrates in Copenhagen with Danish frequently favoured, capping it below the top tier.",
       "evidence": [
-        "Positive List for Higher Education (190 titles, July 2025) includes Software Backend Developer (listed until 31 Dec 2026), IT architect, system administrator.",
-        "Copenhagen accounts for ~94% of software-engineer job openings; tech sector ~10% of GDP with ~22% rise in SW openings in 2025.",
-        "STEM body projects a 13,000 graduate shortfall by 2030 (20,400 by 2040) and 7,000+ unfilled IT roles."
+        "Positive List (updated 16/04/2026) includes 12 IT titles: Computer scientist, IT Engineer, Programmer and System Developer, IT Architect, System Administrator, Software Backend Developer, Web Developer, IT Consultant, Data Consultant, etc.",
+        "Each IT title requires 'at least three years IT education at bachelor level' — both hold a BSc in CSE, so both qualify.",
+        "List narrowed from 190 (July 2025) toward ~183 titles for January 2026 as part of broader tightening.",
+        "Demand is heavily Copenhagen-centric; salary must match Danish professional standards and be paid to a Danish bank account within 180 days."
       ],
       "links": [
         { "title": "The Positive List for People with a Higher Education (SIRI)", "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Positive-List-Higher-Education" },
-        { "title": "Positive Lists updated as of 1 July 2025 (SIRI)", "url": "https://www.nyidanmark.dk/en-GB/News-Front-Page/2025/07/The-Positive-Lists-are-updated-as-of-1-July-2025" }
+        { "title": "The Pay Limit Scheme (SIRI)", "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Pay-limit-scheme" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "visa-access": {
       "status": "scored",
-      "score": 72,
-      "summary": "Denmark VFS centre in Dhaka (Gulshan) handles long-stay (D) and biometrics; no appointment needed, but financial bars and rising fees.",
-      "reasoning": "Bangladeshi nationals submit both short-stay (C) and long-stay (D) residence-permit applications and give biometrics at the Denmark Visa Application Centre run by VFS Global in Gulshan, Dhaka, so no travel to New Delhi is required. Hurdles are the documentation, proof-of-funds (e.g. DKK 89,112 max for students) and fee increases from January 2026, plus heightened scrutiny under tightened rules.",
+      "score": 78,
+      "summary": "Decided in Dhaka: Denmark VFS centre (Gulshan) takes long-stay (D) applications and biometrics on-site; no New Delhi travel, modest funds.",
+      "reasoning": "Bangladeshi nationals lodge both short-stay (C) and long-stay (D) residence-permit applications and give biometrics at the Denmark Visa Application Centre run by VFS Global in Delta Life Tower, Gulshan, Dhaka — the embassy explicitly confirms applicants do not travel to New Delhi. Funds bars are modest (graduate establishment ~DKK 8,231/month, 2025), and the embassy fee is paid online via dys.um.dk. Hurdles are document scrutiny and the January 2026 fee increases (work permit DKK 6,810, accompanying family DKK 3,080), so it scores strong but not best-in-class.",
       "evidence": [
-        "Denmark Visa Application Centre (VFS Global) in Delta Life Tower, Gulshan, Dhaka accepts C and D applications with biometrics on site; no prior appointment needed.",
-        "Students must show ~DKK 7,426/month (2026), capped at DKK 89,112 for studies over a year; accompanying-spouse support bar ~DKK 98,772.",
-        "January 2026 reforms raised application fees and tightened compliance for non-EU applicants."
+        "Denmark Visa Application Centre (VFS Global), Delta Life Tower, Gulshan North, Dhaka 1212, accepts C and D applications with biometrics on site (Sun–Thu 09:00–14:00).",
+        "Royal Danish Embassy confirms VFS handles applications locally — no travel to New Delhi required.",
+        "Mandatory online embassy fee via dys.um.dk; 2026 fees rose to DKK 6,810 (work permit) and DKK 3,080 (accompanying family).",
+        "Graduate job-seeking proof-of-funds ~DKK 8,231/month (2025); student bar ~DKK 7,426/month."
       ],
       "links": [
-        { "title": "Royal Danish Embassy Bangladesh – how and where to apply", "url": "https://bangladesh.um.dk/en/travel-and-residence/practical-information/residence-permit/how-and-where-to-apply" },
+        { "title": "Royal Danish Embassy Bangladesh – how and where to apply", "url": "https://um.dk/bangladesh/en/travel-and-residence/practical-information/residence-permit/how-and-where-to-apply" },
         { "title": "VFS Global – Denmark visa, Bangladesh", "url": "https://visa.vfsglobal.com/bgd/en/dnk/" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "citizenship": {
       "status": "scored",
-      "score": 45,
-      "summary": "Among the hardest in Europe: ~9 years residence, B2 Danish (PD3), strict Indfødsretsprøven (36/45), but dual citizenship allowed since 2015.",
-      "reasoning": "Naturalisation requires roughly 9 years of continuous residence, passing Prøve i Dansk 3 (B2) and the demanding indfødsretsprøven (36 of 45, incl. 4 values questions), plus self-support, tax compliance and a clean record. The route is long and exacting, but Denmark has permitted dual citizenship since 2015, so the couple need not renounce Bangladeshi nationality. Scored at the strict end per the rubric.",
+      "score": 44,
+      "summary": "Among Europe's hardest: 9 years' residence, Dansk 3 (B2), indfødsretsprøven, self-support, no public debt — but dual allowed since 2015.",
+      "reasoning": "Ordinary naturalisation requires 9 years' continuous residence (reducible to 5 only with 3+ years of substantial Danish education), passing Prøve i Dansk 3 (B2) and the indfødsretsprøven citizenship test, plus self-support (no social assistance in the last 2 years), full-time employment for 3 years 6 months of the last 4 years, no overdue public debt, and a constitution ceremony. Approval also requires inclusion in a twice-yearly parliamentary naturalisation bill, adding 1–2 years. The route is long and exacting, but Denmark has allowed dual citizenship since 2015, so the couple need not renounce Bangladeshi nationality — the one real bright spot.",
       "evidence": [
-        "At least 9 years of continuous lawful residence required for ordinary naturalisation.",
-        "Language bar is Prøve i Dansk 3 (B2) — higher than the PD2 used for permanent residence.",
-        "Indfødsretsprøven: 45 questions, 36 correct required (incl. 4 on Danish values); dual citizenship allowed since 2015."
+        "9 years' continuous residence is standard (Dansk 2 only if no social assistance >3 months in 9 years; otherwise Dansk 3 / B2).",
+        "Indfødsretsprøven (2021 test) on Danish society, culture and history is mandatory.",
+        "Employment 3 years 6 months in the last 4 years, plus no social assistance in the last 2 years and no overdue public debt.",
+        "Dual citizenship permitted since 2015; final grant via parliamentary bill twice a year, typically 1–2 years to ceremony."
       ],
       "links": [
-        { "title": "Conditions for acquisition of Danish citizenship (borger.dk)", "url": "https://lifeindenmark.borger.dk/settle-in-denmark/danish-citizenship/conditions-for-foreign-citizens--acquisition-of-danish-citizenship" }
+        { "title": "Conditions for acquisition of Danish citizenship (borger.dk)", "url": "https://lifeindenmark.borger.dk/settle-in-denmark/danish-citizenship/conditions-for-foreign-citizens--acquisition-of-danish-citizenship" },
+        { "title": "Danish Citizenship (Royal Danish Embassy / um.dk)", "url": "https://usa.um.dk/en/travel-and-residence/consular-matters/citizenship" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "post-study-work": {
       "status": "scored",
-      "score": 88,
-      "summary": "3-year unrestricted work/job-search permit after a Danish degree (replaced establishment card in 2023); full-time work, easy switch.",
-      "reasoning": "Since April 2023 the old establishment card was replaced by a 3-year residence permit without work limitations for graduates of Danish bachelor, master or PhD programmes, granting full-time work and job-search rights and a straightforward switch into the Positive List or Pay Limit Scheme. This is one of the stronger stay-back regimes for the couple, just short of top marks given employer-pay thresholds for the later work-permit switch.",
+      "score": 86,
+      "summary": "3-year job-search permit after a state-approved Danish degree; unrestricted full-time work permit available, easy Pay Limit switch.",
+      "reasoning": "Graduates of a state-approved Danish bachelor, master or PhD programme get a residence permit for up to 3 years for job seeking; since 1 April 2023 (replacing the establishment card) they can also obtain a work permit without limitations, lifting the 90-hours/month study-period cap to full-time work anywhere. They can begin working while SIRI processes a job-based permit and switch into the Positive List or Pay Limit Scheme once a qualifying offer lands. This is one of the strongest stay-back regimes for the couple; it sits just below top marks because the later work-permit switch faces 2026 pay floors (Pay Limit DKK 552,000) and the May 2025 cut-offs that exclude non-state-approved programmes.",
       "evidence": [
-        "3-year permit without limitations for Danish degree holders, replacing the establishment card as of 1 April 2023.",
-        "Graduates may work full-time during the job-search/establishment period.",
-        "Switch to Pay Limit / Positive List possible once a qualifying offer is secured."
+        "Up to 3-year job-seeking permit for graduates of state-approved Danish programmes; fee DKK 3,060, processing ~3 months.",
+        "Since 1 April 2023, non-EU graduates can get a work permit without limitations — full-time, any employer (establishment card abolished).",
+        "Can start work while a job-based residence-and-work permit is processed.",
+        "Non-state-approved (EVA advisory-only) programmes get just a 6-month stay and lost work rights from 2 May 2025."
       ],
       "links": [
-        { "title": "University of Copenhagen – Establishment Card / 3-year permit", "url": "https://www.ku.dk/studies/job-and-career/establishment-card" }
+        { "title": "Job seeking permit for 3 years after a completed programme (SIRI)", "url": "https://nyidanmark.dk/en-GB/You-want-to-apply/Study/Study---job-seeking/Study---3-years-job-seeking" },
+        { "title": "Non-EEA graduates with a 3-year work permit (a-kasser.dk)", "url": "https://www.a-kasser.dk/non-eea-graduates/have-work-permit-without-limitations/index.html" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "spouse-family": {
       "status": "scored",
-      "score": 62,
-      "summary": "Worker's accompanying spouse gets FULL work rights (both engineers work in work phase); student-phase family/work rights curtailed May 2025.",
-      "reasoning": "Once one partner holds a Pay Limit/Positive List work permit, the accompanying spouse receives a residence-and-work permit with unrestricted employment — ideal since both are software engineers. The weakness is the study phase: from 2 May 2025 students in non-state-approved programmes can no longer bring family or obtain automatic work permits, so the picture is excellent in the work phase but restricted in the study phase.",
+      "score": 72,
+      "summary": "Worker's spouse gets FULL work rights; state-approved students keep family + spouse rights (May 2025 cut hit only non-approved courses).",
+      "reasoning": "Once one partner holds a Pay Limit/Positive List work permit, the accompanying spouse receives a residence-and-work permit with unrestricted employment — ideal as both are software engineers. Crucially, the 2 May 2025 reform that bars spouse residence and work rights applies only to non-state-approved programmes; a couple enrolling at a state-approved university retains spouse and family rights in the study phase too. So if they choose a recognised university (as planned), both can work across study and work phases — a strong outcome, capped by the family-funds bar and 2026 fee rises.",
       "evidence": [
         "Accompanying spouse of a worker gets a residence-and-work permit with full labour-market access (SIRI).",
-        "From 2 May 2025, students in unrecognised programmes cannot bring spouse/children and lose automatic work rights.",
-        "Accompanying-family financial bar ~DKK 98,772 (sponsor must show funds for stays of a year or more)."
+        "May 2025 spouse/family ban applies ONLY to non-state-approved programmes; state-approved university students keep family + spouse rights.",
+        "Accompanying-family permit fee rose to DKK 3,080 in 2026; sponsor must show funds for stays of a year or more.",
+        "Both engineers can therefore work in both study and work phases on a state-approved route."
       ],
       "links": [
-        { "title": "Work permit for accompanying family (SIRI)", "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Work-permit-accompanying-family" }
+        { "title": "Work permit for accompanying family (SIRI)", "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Work-permit-accompanying-family" },
+        { "title": "New rules for third-country students in non-state-approved programmes (SIRI, May 2025)", "url": "https://www.nyidanmark.dk/en-GB/News-Front-Page/2025/05/Nye-regler-ikkestatsligt-godkendte-udd" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "msc-study": {
       "status": "scored",
-      "score": 60,
-      "summary": "350+ English MSc programmes, but non-EU tuition ~DKK 45–120k/yr; student work now needs a permit and family banned for non-recognised courses.",
-      "reasoning": "Denmark offers 350+ English-taught programmes and most master's are in English, with the 3-year stay-back as a major draw. However non-EU/EEA tuition runs ~DKK 45,000–120,000/yr (IT/engineering at the higher end), scholarships are limited, and the May 2025 reforms made student work conditional on a permit and barred family for unrecognised programmes — pulling this to mid-range.",
+      "score": 62,
+      "summary": "350+ English MSc programmes and a 3-year stay-back, but non-EU IT/engineering tuition ~DKK 50–120k/yr with limited scholarships.",
+      "reasoning": "Denmark offers 350+ English-taught programmes and most master's are in English, and a state-approved MSc unlocks the 3-year graduate stay plus retained spouse/family and work rights. The drag is cost: non-EU/EEA master's tuition runs ~DKK 50,000–120,000/yr (DTU IT/engineering at EUR 13,500–17,000), scholarships are limited, and proof-of-funds is ~DKK 7,426/month. Student work is capped at the 90-hours/month study-period limit unless an unrestricted permit is obtained, so cost and limited funding pull this to mid-range.",
       "evidence": [
-        "350+ English-taught programmes; non-EU master's tuition ~EUR 6,000–16,000 (DKK 45k–120k) per year, IT/engineering at the top end.",
-        "Standard master's is 2 years (120 ECTS); proof-of-funds ~DKK 7,426/month.",
-        "From 2 May 2025 students must apply for a work permit (not automatic) and unrecognised programmes lose family rights."
+        "350+ English-taught programmes; non-EU master's tuition ~DKK 50,000–120,000/yr.",
+        "DTU (engineering/IT) non-EU tuition ~EUR 13,500–17,000/yr (EUR 7,500/semester).",
+        "Standard master's 2 years (120 ECTS); proof-of-funds ~DKK 7,426/month.",
+        "State-approved programmes retain full work/family rights; non-state-approved lost these on 2 May 2025."
       ],
       "links": [
-        { "title": "Study in Denmark – tuition fees and living costs", "url": "https://studyindenmark.dk/study-options/tuition-fees-scholarships" },
-        { "title": "Higher Education study permit (SIRI)", "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Study/Higher-Education" }
+        { "title": "Study in Denmark – tuition fees and scholarships", "url": "https://studyindenmark.dk/study-options/tuition-fees-scholarships" },
+        { "title": "Aarhus University – tuition fees", "url": "https://masters.au.dk/tuitionfees" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "pr-pathway": {
       "status": "scored",
-      "score": 50,
-      "summary": "Demanding: 8 years standard, or 4 years if strict conditions met — employment 3.5 of last 4 years, language, self-support, no public debt.",
-      "reasoning": "Permanent residence normally requires 8 years of lawful residence, reduced to 4 only when supplementary conditions are met: employment/self-employment for at least 3 years 6 months of the last 4 years, a Danish language level, financial self-support with no public debt and no recent benefits, plus a clean record. Achievable for two employed engineers but slow and condition-heavy, so mid-range.",
+      "score": 52,
+      "summary": "8 years standard, or 4 years if supplementary conditions met — 3.5yr employment, Danish language, self-support, no public debt.",
+      "reasoning": "Permanent residence normally requires 8 years' lawful residence, reduced to 4 only when all four supplementary conditions are met: regular employment for at least 3 years 6 months of the last 4 years, a Danish language level, financial self-support with no qualifying benefits or public debt in the last 4 years, and active citizenship/clean record. Applicants must also be employed when SIRI decides. Achievable for two employed engineers on the 4-year track, but condition-heavy and slow, so mid-range.",
       "evidence": [
-        "8 years' lawful residence standard; reducible to 4 years if supplementary conditions are met.",
-        "Must have worked at least 3 years 6 months within the last 4 years.",
-        "No public debt and no qualifying public benefits within the last 4 years; language and clean-record requirements apply."
+        "8 years' lawful residence standard; reducible to 4 years if all supplementary conditions are met.",
+        "Must have held regular employment at least 3 years 6 months within the last 4 years.",
+        "No public debt and no qualifying public benefits in the last 4 years; Danish language and clean-record requirements apply.",
+        "Must be employed at the time SIRI decides the application."
       ],
       "links": [
-        { "title": "Permanent residence permit (SIRI)", "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Permanent-residence-permit" }
+        { "title": "Permanent residence permit (SIRI)", "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Permanent-residence-permit" },
+        { "title": "Apply for a permanent residence permit (SIRI)", "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Permanent-residence-permit/Permanent-residence" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "income-cost": {
       "status": "scored",
       "score": 62,
-      "summary": "Strong SW pay (DKK 600k–880k+, AI/cloud 800k+), but Copenhagen is in the top ~7% most expensive cities globally.",
-      "reasoning": "Copenhagen software engineers earn roughly DKK 600,000–880,000 (AI/ML/cloud and FAANG far higher), and with two incomes the household is comfortable. But Copenhagen ranks among the world's most expensive cities (single ~EUR 2,750/month, family-of-four ~EUR 7,000) and very high tax erodes net savings, leaving solid-but-not-exceptional accumulation.",
+      "summary": "Strong SW pay (median ~DKK 684k, senior 1M+, FAANG higher), but Copenhagen is among the world's priciest cities and tax erodes net.",
+      "reasoning": "Copenhagen software engineers average ~DKK 684,000 total comp (range ~598k–877k), seniors DKK 700k–1.04M and Microsoft/Meta DKK 1.1M–1.9M (Levels.fyi 2026), so two incomes are comfortable. But a city-centre 1-bed runs DKK 12,000–18,000/month and total monthly outlay often exceeds DKK 20,000–22,000 per person, while high tax cuts take-home; the researcher scheme (32.84% for 7 years) lifts net for senior roles. Solid savings potential, not exceptional — mid-range.",
       "evidence": [
-        "Software engineer average total comp ~DKK 684,000 in Copenhagen; senior/AI roles 800k+ (Levels.fyi 2026).",
-        "Single person living cost ~EUR 2,751/month; family of four ~EUR 7,063/month.",
-        "Copenhagen ranked in the top ~7% most expensive cities worldwide."
+        "Software engineer average total comp ~DKK 683,806 in Copenhagen; senior DKK 703k–1.04M; Microsoft median ~DKK 1.1M, Meta ~DKK 1.9M (Levels.fyi 2026).",
+        "City-centre 1-bed rent DKK 12,000–18,000/month; ~8,000–8,700/month non-rent spend per single.",
+        "Copenhagen ranks among the world's most expensive cities; effective tax ~40–52%.",
+        "Researcher scheme (32.84% flat for 7 years) materially improves net pay for qualifying senior roles."
       ],
       "links": [
-        { "title": "Levels.fyi – Software Engineer, Copenhagen", "url": "https://www.levels.fyi/t/software-engineer/locations/copenhagen-dnk" }
+        { "title": "Levels.fyi – Software Engineer, Copenhagen", "url": "https://www.levels.fyi/t/software-engineer/locations/copenhagen-dnk" },
+        { "title": "Cost of living in Copenhagen 2026 (Wise)", "url": "https://wise.com/us/cost-of-living/denmark/copenhagen" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "healthcare": {
       "status": "scored",
       "score": 88,
-      "summary": "Universal, tax-funded system free at point of use for residents once a CPR number and yellow health card are issued.",
-      "reasoning": "Anyone resident more than three months with a residence permit registers for a CPR number and receives the yellow health card (Sundhedskort), giving the same free public healthcare as citizens — covering both spouses from the work or study phase. Co-payments apply mainly to adult dental and prescriptions, hence just below top marks.",
+      "summary": "Universal, tax-funded system free at point of use once a CPR number and yellow health card (Sundhedskort) are issued — covers both spouses.",
+      "reasoning": "Residents staying over three months with a residence permit register for a CPR number and the yellow health card (Sundhedskort), gaining the same free GP, hospital and referred-specialist care as citizens with no premiums or co-pays for most services — covering both spouses from the work or study phase. Emergency care is provided regardless of CPR status. Co-payments remain mainly for adult dental and some prescriptions, hence just below top marks.",
       "evidence": [
-        "Residents over 3 months with a permit get a CPR number and automatic public health enrolment.",
-        "Yellow health card (Sundhedskort) entitles holders to free GP and hospital care.",
-        "Co-payments remain for adult dental, some prescriptions, and optional private/faster care."
+        "CPR number and yellow card available after staying over 3 months with a residence permit; first card free, replacement DKK 40 (2026).",
+        "GP, hospital and referred specialist care free at point of use; GP auto-assigned at registration.",
+        "Emergency care provided to anyone regardless of CPR status.",
+        "Co-payments persist for adult dental, some prescriptions and optional private/faster care."
       ],
       "links": [
-        { "title": "University of Copenhagen – health and safety in Denmark", "url": "https://www.ku.dk/studies/student-life/living-in-copenhagen/health-and-safety-in-denmark" }
+        { "title": "Yellow health card (City of Copenhagen)", "url": "https://international.kk.dk/live/healthcare/health-insurance/yellow-health-card" },
+        { "title": "Health and safety in Denmark (University of Copenhagen)", "url": "https://www.ku.dk/studies/student-life/living-in-copenhagen/health-and-safety-in-denmark" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "culture-language": {
       "status": "scored",
-      "score": 68,
-      "summary": "Very high everyday English in Copenhagen tech; Danish not needed daily but required (B2) for citizenship and at lower levels for PR.",
-      "reasoning": "English is pervasive in Copenhagen, in tech workplaces and across 350+ English-taught programmes, so the couple can live and work without Danish initially. The barrier is the long game: Danish at B2 (PD3) is mandatory for citizenship and a lower level for permanent residence, so Danish must eventually be learned for the migration goals.",
+      "score": 70,
+      "summary": "Very high everyday English in Copenhagen tech; Danish not needed daily but required (Dansk 3 / B2) for citizenship and a level for PR.",
+      "reasoning": "English is pervasive in Copenhagen, in tech workplaces and across 350+ English-taught programmes, so the couple can live and work without Danish initially, and livability is high. The barrier is the long game: Danish at Prøve i Dansk 3 (B2) is mandatory for citizenship and a Danish level is required for permanent residence, so Danish must eventually be learned to complete the migration goals.",
       "evidence": [
-        "English widely spoken; most master's programmes and much of tech operate in English.",
-        "Danish (Prøve i Dansk 3, B2) required for naturalisation.",
-        "A Danish language level is also required for permanent residence."
+        "English widely spoken; most master's programmes and much of the tech sector operate in English.",
+        "Prøve i Dansk 3 (B2) required for naturalisation (Dansk 2 only if no social assistance >3 months in 9 years).",
+        "A Danish language level is also required for permanent residence.",
+        "High livability but officialdom and the citizenship endgame are Danish-language gated."
       ],
       "links": [
-        { "title": "Indfødsretsprøven / Danish tests (Studieskolen)", "url": "https://www.studieskolen.dk/en/tests/danish-tests/indfoedsretsproeven" }
+        { "title": "Conditions for acquisition of Danish citizenship (borger.dk)", "url": "https://lifeindenmark.borger.dk/settle-in-denmark/danish-citizenship/conditions-for-foreign-citizens--acquisition-of-danish-citizenship" },
+        { "title": "Higher educational programmes – study permit (SIRI)", "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Study/Higher-Education" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "safety-law": {
       "status": "scored",
       "score": 95,
-      "summary": "Ranked #1 of 143 on the WJP Rule of Law Index 2025 and 3rd on the 2025 Safety & Security Index; low crime, strong protections.",
-      "reasoning": "Denmark is the world's top-ranked country on the World Justice Project Rule of Law Index 2025 and 3rd globally for safety, with very low crime, low corruption and strong institutional protections. This is a decisive strength for the couple regardless of nationality or religion.",
+      "summary": "Ranked #1 of 143 on the WJP Rule of Law Index 2025; very low crime, low corruption, strong institutional and judicial protections.",
+      "reasoning": "Denmark is the world's top-ranked country on the World Justice Project Rule of Law Index 2025 (1st of 143, ahead of Norway, Finland, Sweden and New Zealand), with very low crime, low corruption and strong, fair institutions. This is a decisive strength for the couple regardless of nationality or religion, even as immigration policy itself is restrictive.",
       "evidence": [
         "WJP Rule of Law Index 2025: Denmark ranked 1st of 143 worldwide.",
-        "Ranked 1st of 31 in the EU/EFTA/North America region.",
-        "3rd on the 2025 Safety and Security Index (after Iceland and Switzerland)."
+        "Top five: Denmark (1), Norway (2), Finland (3), Sweden (4), New Zealand (5).",
+        "Low crime and corruption with strong judicial fairness and civil-justice scores.",
+        "Rule-of-law strength is independent of the country's restrictive migration stance."
       ],
       "links": [
-        { "title": "WJP Rule of Law Index 2025 – press release", "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2025-global-press-release" }
+        { "title": "WJP Rule of Law Index 2025 – global press release", "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2025-global-press-release" },
+        { "title": "WJP Rule of Law Index – Denmark country profile (PDF)", "url": "https://worldjusticeproject.org/sites/default/files/documents/Denmark_3.pdf" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "politics": {
       "status": "scored",
-      "score": 45,
-      "summary": "Very stable democracy, but among Europe's most restrictive immigration regimes — cross-party consensus, 2019 paradigm shift, 2026 tightening.",
-      "reasoning": "Institutionally Denmark is highly stable, but its immigration stance is among the harshest in Europe, sustained by consensus between the Social Democrats and the centre-right. The 2019 'paradigm shift', record-low asylum numbers and January 2026 tightening (higher fees, stricter work permits, narrower job lists, student-rule changes) make the policy environment volatile and unwelcoming for migrants, dragging the score down despite the stable polity.",
+      "score": 42,
+      "summary": "Very stable democracy, but Europe's most restrictive immigration regime — 'zero refugees', 2026 tightening before a September election.",
+      "reasoning": "Institutionally Denmark is highly stable, but its immigration stance is among the harshest in Europe, sustained by Social Democrat / centre-right consensus and a 'zero refugees' goal since the 2019 paradigm shift. Asylum approvals hit a historic low (839 by Nov 2025; applications down to 6,735 from 9,645 in 2024), the January 2026 reforms raised fees and pay floors and narrowed job lists, and ministers openly aim to deter foreigners ahead of a September 2026 election. For skilled migrants the work routes persist but the climate is consistently tightening and unwelcoming, so the score is low despite the stable polity.",
       "evidence": [
-        "Widely described as among the most restrictive immigration systems in Europe (2019 'paradigm shift').",
-        "1 January 2026 reforms raised fees, lifted salary thresholds and narrowed eligible job titles.",
-        "Asylum approvals at a historic low (839 by Nov 2025; ~600 quota for 2026); new restrictions on non-EU students."
+        "Widely described as Europe's most restrictive immigration system (2019 'paradigm shift', 'zero refugees' policy).",
+        "1 January 2026 reforms raised fees (work permit DKK 6,810), lifted Pay Limit to DKK 552,000 and narrowed the Positive List.",
+        "Asylum approvals at a historic low: 839 by Nov 2025; applications fell from 9,645 (2024) to 6,735 (2025).",
+        "Government signals further tightening before the September 2026 general election."
       ],
       "links": [
-        { "title": "Danish Immigration Service – national figures 2026 (EUAA)", "url": "https://dip.euaa.europa.eu/developments/denmark/danish-immigration-service-publishes-national-figures-2026" }
+        { "title": "Denmark records historic-low asylum approvals in 2025", "url": "https://europeanconservative.com/articles/news-corner/denmarks-asylum-numbers-hit-record-low/" },
+        { "title": "Denmark 2026 residence-permit fees increased (Envoy Global)", "url": "https://www.envoyglobal.com/news-alert/denmark-2026-residence-permit-fees-increased/" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "tax": {
       "status": "scored",
-      "score": 32,
-      "summary": "Very high burden: 8% labour-market contribution first, then progressive tax to a top marginal rate of ~55.9%.",
-      "reasoning": "Labour income first faces an 8% AM-bidrag, then municipal (~25%), bottom and top national taxes, giving a top marginal rate around 55.9% in 2025. Even mid-level engineer salaries sit well into high effective rates, materially reducing take-home pay; a special researcher/expat scheme exists but is time-limited and conditional, so the base burden is very high.",
+      "score": 34,
+      "summary": "Very high: 8% AM-bidrag first, then tax to a top marginal ~60.5% (2026, up from 55.9%); researcher scheme 32.84% for 7yr eases it.",
+      "reasoning": "Labour income first faces an 8% AM-bidrag, then 12.01% bottom, ~25% municipal, plus middle (7.5% above DKK 696,956), top (7.5% above DKK 845,543) and top-top (5%) taxes, lifting the maximum marginal rate to ~60.5% in 2026 — up from 55.9%, which is why this scores lower than before. The big mitigant for these engineers is the researcher/expat scheme (48E / Forskerordningen): a flat 27% (32.84% with AM-bidrag) for up to 84 months, requiring an average monthly salary of at least DKK 65,400 (2026), which senior software roles can meet. Base burden remains very high, so it stays in the weak band.",
       "evidence": [
-        "8% labour-market contribution (AM-bidrag) levied before income tax.",
-        "Top marginal labour-income rate ~55.9% in 2025; top tax threshold ~DKK 611,800 (after AM-bidrag).",
-        "From 2026 a restructured four-layer national tax (bottom/middle/top/top-top) applies."
+        "8% AM-bidrag levied before income tax; municipal ~25.049% average (2026).",
+        "Middle tax above DKK 696,956, top tax above DKK 845,543, top-top tax 5% above DKK 2,818,152 (2026).",
+        "Maximum marginal rate ~60.5% in 2026, raised from 55.9%.",
+        "Researcher scheme (48E): flat 27% / 32.84% with AM-bidrag, up to 84 months, min ~DKK 65,400/month (2026, down from DKK 78,000 in 2025)."
       ],
       "links": [
-        { "title": "PwC – Denmark individual taxes on personal income", "url": "https://taxsummaries.pwc.com/denmark/individual/taxes-on-personal-income" }
+        { "title": "PwC – Denmark individual taxes on personal income", "url": "https://taxsummaries.pwc.com/denmark/individual/taxes-on-personal-income" },
+        { "title": "PwC – Denmark individual significant developments (2026)", "url": "https://taxsummaries.pwc.com/denmark/individual/significant-developments" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "muslim-diaspora": {
       "status": "scored",
-      "score": 58,
-      "summary": "~270k Muslims (4.7%), 100+ mosques, Pakistani/Turkish communities, halal in cities; offset by 'parallel society' laws and anti-Muslim sentiment.",
-      "reasoning": "Denmark has roughly 270,000 Muslims (~4.7%), two grand mosques and 100+ mosques nationwide, with established Pakistani, Turkish and other communities and halal availability in cities — so practical religious life is feasible, especially in Copenhagen. This is offset by restrictive 'parallel society' housing laws and documented anti-Muslim sentiment and debates (ritual slaughter, sermon-translation proposals), keeping the score mid-range.",
+      "score": 55,
+      "summary": "~270k Muslims (~4.7%), mosques and halal in cities via Pakistani/Turkish communities; but tiny BD diaspora and 'parallel society' laws.",
+      "reasoning": "Denmark has roughly 270,000 Muslims (~4.7%, the second-largest religion), with grand mosques and 100+ mosques and halal food in Copenhagen, Aarhus and Odense, mainly via established Pakistani, Turkish and Arab communities — so practical religious life is feasible in cities. But the specifically Bangladeshi diaspora is very small (~2,000), and a documented hostile-policy trend weighs heavily: 'parallel society' housing laws targeting non-Western-majority areas, the niqab/full-face-covering ban (2018), the ritual-slaughter ban requiring imported halal meat, a ban on foreign mosque funding, and the 2023 'Quran law' debate. Mid-range, leaning cautious.",
       "evidence": [
-        "~270,000 Muslims (~4.7%), second-largest religion; two grand mosques and 100+ mosques, concentrated in Copenhagen, Aarhus, Odense.",
-        "Large South-Asian-origin (Pakistani) and Turkish communities provide halal food and community infrastructure in cities.",
-        "Restrictive 'parallel society' (former 'ghetto') laws and recurring anti-Muslim policy debates raise hostility concerns."
+        "~270,000 Muslims (~4.7%), second-largest religion; grand mosques and 100+ mosques concentrated in Copenhagen, Aarhus, Odense.",
+        "Halal and community infrastructure via large Pakistani, Turkish and Arab-origin communities; Bangladeshi diaspora very small (~2,000).",
+        "'Parallel society' (former 'ghetto') laws target non-Western-majority neighbourhoods; ECRI urges action against anti-Muslim discrimination.",
+        "Niqab/full-face-covering ban (2018), non-stun ritual-slaughter ban (2014), ban on foreign mosque funding, and 2023 'Quran law'."
       ],
       "links": [
+        { "title": "Council of Europe (ECRI) – Denmark on anti-Muslim discrimination and 'parallel society'", "url": "https://www.coe.int/en/web/european-commission-against-racism-and-intolerance/-/denmark-should-address-discrimination-of-muslims-and-avoid-evictions-of-families-with-a-migration-background-in-the-neighbourhoods-referred-to-as-para" },
         { "title": "U.S. State Dept – Report on International Religious Freedom: Denmark", "url": "https://2021-2025.state.gov/reports/2021-report-on-international-religious-freedom/denmark/" }
       ],
       "lastReviewed": "2026-06-16"

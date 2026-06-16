@@ -5,7 +5,7 @@
   "iso3": "GBR",
   "flag": "🇬🇧",
   "region": "Europe",
-  "summary": "English-native study & work, deep software/AI demand, and one of the world's largest Bangladeshi diasporas; but taught-Master's students cannot bring dependants, the financial bar from Dhaka is heavy, and 2025–26 reforms (Graduate visa cut to 18 months, possible 10-year settlement) make the route slower and less predictable. (England is part of the UK — visas, settlement and citizenship are UK-wide.)",
+  "summary": "English-native study and work with deep software/AI demand and one of the world's largest Bangladeshi diasporas, but the taught-Master's dependant ban (Jan 2024) blocks this dual-engineer couple from relocating together during study, and 2025-26 reforms (Graduate route cut to 18 months from Jan 2027, proposed 10-year 'earned settlement') make the route slower and far less predictable.",
   "lastReviewed": "2026-06-16",
   "links": [
     {
@@ -13,21 +13,21 @@
       "url": "https://www.gov.uk/browse/visas-immigration"
     },
     {
-      "title": "Study UK (British Council)",
-      "url": "https://study-uk.britishcouncil.org/"
+      "title": "Changes to UK visa and settlement rules after the 2025 white paper (House of Commons Library)",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10267/"
     }
   ],
   "categories": {
     "job-market": {
       "status": "scored",
-      "score": 78,
-      "summary": "Severe software/AI/cloud shortage; but Skilled Worker threshold now £41,700 and the RQF6 graduate-level rule narrow sponsorship.",
-      "reasoning": "Software developer is a top-five hard-to-fill UK role, with acute AI, cloud and cybersecurity gaps and rising tech pay — strong demand for both engineers. But from 22 July 2025 the general Skilled Worker threshold rose to £41,700 (higher of that or the going rate), the minimum skill level moved to RQF6 (graduate), and English rises to B2 from Jan 2026; the market is also increasingly senior-driven, thinning entry-level sponsored roles.",
+      "score": 77,
+      "summary": "Acute software/AI/cloud shortage and English-native scene fit both engineers; but the £41,700 floor and RQF6 rule thin sponsored roles.",
+      "reasoning": "Software development is among the UK's hardest-to-fill roles with acute AI, cloud and cybersecurity gaps, and pay is strong (UK average ~£50k, London £58k-£67k, graduate roles ~£33k-£41k) — good demand for both engineers in an English-language market. From 22 July 2025 the general Skilled Worker salary floor rose to £41,700 (or the going rate, whichever is higher) and the minimum skill level moved to RQF6 (graduate), with English rising to B2; this narrows sponsored junior roles but graduate-level software engineers remain squarely in scope.",
       "evidence": [
-        "Software developer a top-five in-demand UK role; AI/cloud/cyber shortages",
+        "Software developer a top hard-to-fill UK role; AI/cloud/cyber shortages",
         "Skilled Worker general threshold £41,700 from 22 July 2025 (was £38,700)",
-        "Skill level raised to RQF6 (graduate); B2 English for first-time applicants from 8 Jan 2026",
-        "Senior-driven market shrinking junior/sponsored entry roles"
+        "Minimum skill level raised to RQF6 (graduate-level) on 22 July 2025",
+        "Salaries: UK avg ~£50k; London ~£58k-£67k; graduate dev ~£33k-£41k"
       ],
       "links": [
         {
@@ -35,22 +35,23 @@
           "url": "https://www.gov.uk/skilled-worker-visa"
         },
         {
-          "title": "Statement of changes to Immigration Rules (GOV.UK)",
-          "url": "https://www.gov.uk/government/collections/immigration-rules-statement-of-changes"
+          "title": "Skilled Worker changes 22 July 2025 (University of Oxford)",
+          "url": "https://staffimmigration.admin.ox.ac.uk/article/skilled-worker-changes-july-2025"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "visa-access": {
       "status": "scored",
-      "score": 58,
-      "summary": "Biometrics in Dhaka (VFS), but heavy financial bar, tightened maintenance funds and elevated Bangladeshi refusals.",
-      "reasoning": "Student and Skilled Worker routes are well-trodden and biometrics are handled at VFS Dhaka/Sylhet (no New Delhi travel). However the Bangladeshi student grant rate is around 84% (refusals materially higher than the global average), upfront IHS is required, and from 11 November 2025 students must show full first-year tuition plus 9 months' living costs held 28 days; some UK universities now treat Bangladesh as a high-risk source and have curbed intake.",
+      "score": 56,
+      "summary": "Biometrics decided via VFS Dhaka/Sylhet (no New Delhi), but ~84% BD grant rate, heavy funds bar and rising university caution weigh it down.",
+      "reasoning": "Student and Skilled Worker routes are well-trodden and biometrics are handled at VFS Global centres in Dhaka and Sylhet, so no New Delhi travel is required — a real plus. However the Bangladeshi sponsored-study grant rate was ~84% for the year ending September 2025 (14,104 applications, 1,684 refusals — well below the ~95% global average), upfront IHS is required, and from 11 November 2025 students must hold full first-year tuition plus 9 months' living costs (£1,529/month London, £1,171 outside) for 28 consecutive days; several UK universities have curbed Bangladesh intake after the Home Office cut the acceptable refusal threshold to 5%.",
       "evidence": [
-        "VFS visa application centres in Dhaka and Sylhet (no New Delhi travel)",
-        "Bangladeshi student grant rate ~84% (year ending Sep 2025); heavier scrutiny",
-        "Maintenance funds from 11 Nov 2025: first-year tuition + 9 months living, held 28 days",
-        "Upfront IHS; several UK universities curb intake from Bangladesh"
+        "VFS application centres in Dhaka and Sylhet (no New Delhi travel)",
+        "BD sponsored-study grant rate ~84% (year ending Sep 2025) vs ~95% global",
+        "Maintenance from 11 Nov 2025: tuition + 9 months living, held 28 days",
+        "Home Office cut university refusal threshold to 5%; BD intake curbed",
+        "Immigration Health Surcharge payable upfront with the application"
       ],
       "links": [
         {
@@ -66,14 +67,15 @@
     },
     "citizenship": {
       "status": "scored",
-      "score": 68,
-      "summary": "ILR after 5y then naturalise ~1y later; dual allowed, very strong passport — but 2025 plans to extend settlement to ~10y add risk.",
-      "reasoning": "Standard route is 5 years to Indefinite Leave to Remain, with British citizenship typically a year after ILR; the UK permits dual nationality and the passport is very strong (Life in the UK test plus English required). The decisive risk is the May 2025 White Paper's proposed move to an 'earned settlement' model defaulting to 10 years (consultation ongoing), which could materially lengthen the timeline.",
+      "score": 62,
+      "summary": "~6y today (5y ILR + 1y), dual allowed, knowledge test; but 2025 'earned settlement' plans threaten a 10-year base; Reform may scrap ILR.",
+      "reasoning": "Today the route is ILR after 5 years then naturalisation usually 12 months later (~6 years total), the UK permits dual nationality (no renunciation — a strong fit), and settlement/citizenship require the Life in the UK test (a 24-question knowledge test, not a language test) plus English. The decisive risk is volatility: the May 2025 White Paper proposes a default 10-year qualifying period, the 'earned settlement' consultation closed February 2026, the Home Affairs Committee endorsed a 10-year baseline (20 March 2026), and Reform UK has proposed abolishing ILR entirely — so the favourable 6-year timeline may not hold.",
       "evidence": [
-        "~6 years total today (5 to ILR + 1 to naturalise)",
-        "Dual citizenship permitted; strong passport (~180+ visa-free destinations)",
-        "Life in the UK test + English requirement",
-        "2025 White Paper proposes 'earned settlement' defaulting to ~10 years (under consultation)"
+        "~6 years total today: ILR after 5 years + naturalise ~12 months later",
+        "Dual citizenship permitted (no renunciation); strong passport",
+        "Life in the UK test (24-question knowledge test) + English required",
+        "2025 White Paper proposes default 10-year settlement; consultation closed Feb 2026",
+        "Reform UK (Sep 2025) proposes abolishing indefinite leave to remain"
       ],
       "links": [
         {
@@ -81,22 +83,22 @@
           "url": "https://www.gov.uk/becoming-a-british-citizen"
         },
         {
-          "title": "Immigration White Paper changes (House of Commons Library)",
-          "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10267/"
+          "title": "Life in the UK test (GOV.UK)",
+          "url": "https://www.gov.uk/life-in-the-uk-test"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "post-study-work": {
       "status": "scored",
-      "score": 66,
-      "summary": "Graduate visa now 18 months for master's grads (applications from 1 Jan 2027) — cut confirmed, not just proposed.",
-      "reasoning": "The Graduate route still gives unsponsored work and can switch to Skilled Worker, but the Statement of Changes published 14 October 2025 confirms the duration drops from 24 to 18 months for bachelor's and master's graduates applying on or after 1 January 2027 (PhDs keep 3 years). For this couple's MSc-then-work plan that lands in the reduced regime, shortening the runway to secure £41,700 sponsorship.",
+      "score": 64,
+      "summary": "Graduate route gives unsponsored work for both spouses, but drops from 24 to 18 months for master's grads applying from 1 Jan 2027.",
+      "reasoning": "The Graduate route permits unsponsored work (and self-employment) for the holder and any dependant, and can switch to Skilled Worker before expiry — a genuine job-search runway where the spouse may also work. The Statement of Changes published 14 October 2025 confirms the duration falls from 24 to 18 months for bachelor's and master's graduates applying on or after 1 January 2027 (PhDs keep 3 years); this couple's MSc-then-work plan lands in the reduced 18-month regime, a tight window to secure £41,700 Skilled Worker sponsorship.",
       "evidence": [
-        "Graduate visa cut to 18 months for applications from 1 Jan 2027 (confirmed, not just under review)",
-        "Master's/bachelor's grads affected; PhDs retain 3 years",
-        "Unsponsored work; can switch to Skilled Worker before expiry",
-        "18 months is a tight window to secure £41,700 sponsorship"
+        "Graduate route: unsponsored work; can switch to Skilled Worker",
+        "Cut to 18 months for bachelor's/master's applying from 1 Jan 2027 (confirmed)",
+        "PhDs retain a 3-year Graduate visa",
+        "18-month window is tight to land £41,700 sponsorship"
       ],
       "links": [
         {
@@ -113,55 +115,60 @@
     "spouse-family": {
       "status": "scored",
       "score": 38,
-      "summary": "Taught-Master's students cannot bring dependants (since Jan 2024) — decisive, as the spouse is also a SW engineer who must work.",
-      "reasoning": "Since January 2024 most taught postgraduate students cannot bring a partner or children (only PhD/research or government-funded courses qualify), and the ban remains fully enforced in 2025–26. Because both spouses are software engineers who must work, the couple cannot legally relocate together during the study phase. Dependants ARE permitted later on the Skilled Worker route, with work rights — but that comes after the study phase.",
+      "summary": "Taught-Master's students cannot bring a partner (since Jan 2024) — decisive, as the spouse is also an engineer who must work.",
+      "reasoning": "Since 1 January 2024, students on taught postgraduate courses (RQF7 master's) cannot bring a partner or children; only PhDs/research degrees (RQF8) or government-funded students may. Because both spouses are software engineers who must relocate together and both want to work, the couple cannot legally move together during the MSc phase — a decisive structural weakness. Dependants with full work rights ARE permitted later on the Graduate and Skilled Worker routes, but only after the study phase.",
       "evidence": [
-        "No dependants for taught Master's students (since Jan 2024, still enforced 2025–26)",
-        "Both spouses are SW engineers — both must work; ban blocks moving together during study",
-        "Research/PhD or government-funded students may still bring dependants",
-        "Dependants allowed on the Skilled Worker route, with work rights"
+        "No dependants for taught Master's (RQF7) students since 1 Jan 2024",
+        "Only PhD/research (RQF8) or government-funded students may bring dependants",
+        "Both spouses are engineers who must work — ban blocks moving together during study",
+        "Dependants with work rights allowed later on Graduate/Skilled Worker routes"
       ],
       "links": [
         {
           "title": "Student visa: family members (GOV.UK)",
           "url": "https://www.gov.uk/student-visa/family-members"
+        },
+        {
+          "title": "Graduate visa: family members (GOV.UK)",
+          "url": "https://www.gov.uk/graduate-visa/family-members"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "msc-study": {
       "status": "scored",
-      "score": 70,
-      "summary": "Vast English-taught 1-year Master's (time/cost efficient); but high tuition (~£16k–£38k) and the dependant ban hurt for a couple.",
-      "reasoning": "As an English-native country the UK offers an enormous catalogue of taught Master's, and the typical 1-year format saves time and living cost versus 2-year EU programmes. Drawbacks for this couple: high international tuition (roughly £16k–£38k), the taught-Master's dependant ban, and term-time work capped at 20 hours/week; Chevening and Commonwealth scholarships (open to Bangladesh) are competitive but available.",
+      "score": 68,
+      "summary": "Vast English 1-year Master's, Chevening open to BD; but high tuition (~£16k-£38k), 20-hr work cap and the dependant ban hurt couples.",
+      "reasoning": "As an English-native country the UK offers an enormous catalogue of taught CS/AI Master's, and the typical 1-year format saves a year of tuition and living cost versus 2-year EU programmes. Drawbacks for this couple are real: international tuition runs roughly £16k-£38k, term-time work is capped at 20 hours/week, and the taught-Master's dependant ban applies; Chevening and Commonwealth Master's scholarships are open to Bangladeshi nationals but highly competitive.",
       "evidence": [
-        "1-year taught Master's common (time/cost efficient)",
-        "High international tuition (~£16k–£38k); London budgets £30k–£45k/yr all-in",
-        "Chevening & Commonwealth Master's scholarships open to Bangladeshi nationals",
-        "Term-time work 20 hrs/week; dependant ban applies to taught Master's"
+        "1-year taught Master's standard (saves a year of cost vs 2-year EU)",
+        "International tuition roughly £16k-£38k; London all-in budget high",
+        "Term-time work capped at 20 hours/week",
+        "Chevening & Commonwealth Master's scholarships open to Bangladeshis",
+        "Taught-Master's dependant ban applies (spouse cannot accompany)"
       ],
       "links": [
         {
-          "title": "Chevening Scholarships",
-          "url": "https://www.chevening.org/"
+          "title": "Student visa (GOV.UK)",
+          "url": "https://www.gov.uk/student-visa"
         },
         {
-          "title": "Chevening Scholarships (Study UK, British Council)",
-          "url": "https://study-uk.britishcouncil.org/scholarships-funding/chevening-scholarships"
+          "title": "Chevening Scholarships",
+          "url": "https://www.chevening.org/"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "pr-pathway": {
       "status": "scored",
-      "score": 58,
-      "summary": "ILR after 5y on Skilled Worker today, but 2025 'earned settlement' plans to extend to ~10y + frequent changes cut predictability.",
-      "reasoning": "Skilled Worker holders currently qualify for ILR after 5 years via a defined points-based route. Predictability is the weakness: the May 2025 White Paper proposes moving the default qualifying period to ~10 years (with faster 'earned' routes for high contribution), the earned-settlement consultation opened in late 2025, and 2024–26 saw repeated rule changes — so a couple starting now cannot rely on the 5-year timeline holding.",
+      "score": 52,
+      "summary": "ILR after 5y on Skilled Worker today, but the 2025 'earned settlement' plan to default to ~10y plus constant rule changes gut certainty.",
+      "reasoning": "Skilled Worker holders currently qualify for Indefinite Leave to Remain after 5 years via a defined route. Predictability is the core weakness: the May 2025 White Paper proposes moving the default qualifying period to 10 years (with faster 'earned' reductions for high contribution), the consultation closed February 2026, the Home Affairs Committee endorsed a 10-year baseline on 20 March 2026, and 2024-26 brought repeated rule changes — so a couple starting now cannot rely on the 5-year timeline holding.",
       "evidence": [
         "ILR after 5 years on the Skilled Worker route today",
-        "2025 White Paper proposes default settlement at ~10 years ('earned settlement')",
-        "Earned-settlement consultation opened Nov 2025; not yet law",
-        "Frequent 2024–26 rule changes reduce predictability"
+        "2025 White Paper proposes default settlement at 10 years",
+        "Earned-settlement consultation closed Feb 2026; Committee backed 10y (Mar 2026)",
+        "Frequent 2024-26 rule changes reduce planning certainty"
       ],
       "links": [
         {
@@ -169,7 +176,7 @@
           "url": "https://www.gov.uk/indefinite-leave-to-remain"
         },
         {
-          "title": "Immigration White Paper changes (House of Commons Library)",
+          "title": "Changes to UK visa and settlement rules after the 2025 white paper (House of Commons Library)",
           "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10267/"
         }
       ],
@@ -177,14 +184,14 @@
     },
     "income-cost": {
       "status": "scored",
-      "score": 58,
-      "summary": "Strong tech salaries but very high London cost, upfront IHS, and frozen tax thresholds erode net savings.",
-      "reasoning": "Engineering pay is good (UK average ~£55k; London ~£69k for established engineers, graduate roles ~£33k–£41k), but London living runs ~£3,300+/month and central rent £2,200+, leaving a thin saving margin for graduates. Upfront IHS (£1,035/yr standard, £776/yr student) and frozen personal-allowance/thresholds (fiscal drag to 2028) further squeeze take-home.",
+      "score": 57,
+      "summary": "Strong tech pay, but very high London rent (~£2,200-£2,350/mo), upfront IHS and frozen tax thresholds erode net savings.",
+      "reasoning": "Engineering pay is good (UK average ~£50k; London £58k-£67k for established engineers; graduate roles ~£33k-£41k), but a central London 1-bed rents for ~£2,200-£2,350/month and total single-person costs run ~£2,500+/month, leaving a thin margin for graduates. Upfront IHS (£1,035/yr standard, £776/yr students) and personal-allowance/threshold freezes to 2028 (fiscal drag) further squeeze take-home; savings potential is real only once both reach mid-level pay.",
       "evidence": [
-        "UK SW engineer avg ~£55k; London ~£69k; graduate ~£33k–£41k",
-        "London cost ~£3,300+/month; central 1-bed rent ~£2,200+",
-        "IHS upfront: £1,035/yr (standard), £776/yr (students/dependants)",
-        "Income-tax thresholds frozen to 2028 (fiscal drag)"
+        "London 1-bed rent ~£2,200-£2,350/month; total single costs ~£2,500+/month",
+        "Salaries: UK avg ~£50k; London ~£58k-£67k; graduate ~£33k-£41k",
+        "IHS upfront: £1,035/yr standard, £776/yr students/dependants",
+        "Personal allowance and thresholds frozen to 2028 (fiscal drag)"
       ],
       "links": [
         {
@@ -192,7 +199,7 @@
           "url": "https://www.gov.uk/healthcare-immigration-application"
         },
         {
-          "title": "Income Tax rates (GOV.UK)",
+          "title": "Income Tax rates and Personal Allowances (GOV.UK)",
           "url": "https://www.gov.uk/income-tax-rates"
         }
       ],
@@ -200,14 +207,14 @@
     },
     "healthcare": {
       "status": "scored",
-      "score": 72,
-      "summary": "NHS free at point of use via the IHS, comprehensive — but elective waiting list ~7.3M with long waits.",
-      "reasoning": "After paying the Immigration Health Surcharge, visa holders access the NHS on the same basis as residents, with comprehensive coverage. The decisive caveat is capacity: the elective waiting list sits around 7.3 million pathways (early 2026), only ~59% treated within 18 weeks, and ~100,000 waiting over a year.",
+      "score": 70,
+      "summary": "NHS free at point of use via the IHS and comprehensive, but the elective waiting list sits at ~7.2M with long waits.",
+      "reasoning": "After paying the Immigration Health Surcharge, visa holders access the NHS on the same basis as residents, with comprehensive coverage free at point of use. The decisive caveat is capacity: the elective waiting list was ~7.22 million pathways (April 2026), only a minority are treated within the 18-week standard (target 92%), and ~100,000 people have waited over a year.",
       "evidence": [
         "NHS access via the IHS; comprehensive, free at point of use",
-        "Elective waiting list ~7.3M pathways (early 2026)",
-        "~59% treated within the 18-week standard (target 92%)",
-        "~100,000 waiting over a year for treatment"
+        "Elective waiting list ~7.22M pathways (April 2026)",
+        "Median wait ~11.9 weeks; 18-week standard (92%) far from met",
+        "~100,000 patients waiting over a year for treatment"
       ],
       "links": [
         {
@@ -223,19 +230,23 @@
     },
     "culture-language": {
       "status": "scored",
-      "score": 86,
-      "summary": "English-native — no language barrier for daily life, PR, or citizenship; highly multicultural.",
-      "reasoning": "English as the national language removes the biggest integration hurdle and satisfies all PR/citizenship language requirements outright, a decisive advantage for this couple. Society is very diverse with established South Asian communities; work-life balance is moderate and the climate is grey.",
+      "score": 85,
+      "summary": "English-native — no language barrier for daily life, PR or citizenship; highly multicultural with large South Asian communities.",
+      "reasoning": "English as the national language removes the biggest integration hurdle and satisfies all PR/citizenship language requirements outright — a decisive advantage for this couple, since settlement only adds the Life in the UK knowledge test. Society is highly diverse with established South Asian communities; work-life balance is moderate and the climate is grey, which keeps this just below the top band.",
       "evidence": [
-        "English native — no language test friction for PR/citizenship",
+        "English native — no language test friction for daily life, PR or citizenship",
         "Highly multicultural; large established South Asian communities",
-        "Life in the UK test (knowledge, not language) for settlement/citizenship",
+        "Life in the UK test is knowledge-based, not a language barrier",
         "Moderate work-life balance; grey climate"
       ],
       "links": [
         {
           "title": "Life in the UK test (GOV.UK)",
           "url": "https://www.gov.uk/life-in-the-uk-test"
+        },
+        {
+          "title": "Prove your knowledge of English for citizenship and settling (GOV.UK)",
+          "url": "https://www.gov.uk/english-language"
         }
       ],
       "lastReviewed": "2026-06-16"
@@ -243,40 +254,44 @@
     "safety-law": {
       "status": "scored",
       "score": 80,
-      "summary": "Strong rule of law (WJP 14th of 143, score 0.78), independent judiciary, generally safe.",
-      "reasoning": "A well-established legal system and independent courts give the UK a high rule-of-law standing — 14th of 143 in the WJP 2025 Index (score 0.78). Violent crime is generally low with some urban variation; immigrant legal protections are well established.",
+      "summary": "Strong rule of law (WJP 2025: 14th of 143, score 0.78), independent judiciary, generally safe with established migrant protections.",
+      "reasoning": "A well-established legal system and independent courts give the UK a high rule-of-law standing — 14th of 143 in the WJP Rule of Law Index 2025 with an overall score of 0.78. Violent crime is generally low with some urban variation, and immigrant legal protections are well established, though rising hostility (see muslim-diaspora and politics) is a softer concern.",
       "evidence": [
         "WJP Rule of Law Index 2025: 14th of 143, overall score 0.78",
         "Independent judiciary; established immigrant legal protections",
-        "Generally safe, with urban variation"
+        "Generally low violent crime, with urban variation"
       ],
       "links": [
         {
-          "title": "WJP Rule of Law Index — United Kingdom",
+          "title": "WJP Rule of Law Index 2025 — United Kingdom",
           "url": "https://worldjusticeproject.org/rule-of-law-index/country/2025/United%20Kingdom/"
+        },
+        {
+          "title": "Hate crime, England and Wales, year ending March 2025 (GOV.UK)",
+          "url": "https://www.gov.uk/government/statistics/hate-crime-england-and-wales-year-ending-march-2025/hate-crime-england-and-wales-year-ending-march-2025"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "politics": {
       "status": "scored",
-      "score": 52,
-      "summary": "Stable institutions, but immigration is the public's top concern and policy is highly volatile and hardening.",
-      "reasoning": "Democratic institutions are stable, but immigration policy is the dominant political battleground: it is the public's top concern (Ipsos Aug 2025), the Labour government and opposition (incl. Reform UK, which wants to abolish ILR) are competing to tighten rules, and 2024–26 brought repeated changes (dependant ban, threshold hikes, Graduate-visa cut, earned-settlement plans). This creates significant planning risk for a multi-year migration.",
+      "score": 48,
+      "summary": "Stable institutions, but immigration is the public's #1 concern and policy is volatile and hardening (Reform wants to scrap ILR).",
+      "reasoning": "Democratic institutions are stable, but immigration policy is the dominant battleground: it is the public's top concern (Ipsos, Nov 2025, ~50% naming it an important issue; 30% the single biggest), and government and opposition are competing to tighten rules. 2024-26 brought the taught-Master's dependant ban, salary-threshold hikes, the Graduate-route cut and 'earned settlement' plans, while Reform UK (Sep 2025) proposes abolishing ILR — significant planning risk for a multi-year migration.",
       "evidence": [
-        "Stable democratic institutions but elevated political turbulence (2026 Labour leadership pressure)",
-        "Immigration the public's top concern (Ipsos, Aug 2025, 48%)",
-        "Reform UK proposes abolishing indefinite leave to remain",
-        "Repeated immigration-rule changes 2024–26"
+        "Stable democratic institutions but high immigration-policy volatility",
+        "Immigration the public's top concern (Ipsos, Nov 2025, ~50%)",
+        "Reform UK (Sep 2025) proposes abolishing indefinite leave to remain",
+        "Repeated tightening 2024-26: dependant ban, thresholds, Graduate cut, settlement"
       ],
       "links": [
         {
-          "title": "Immigration reforms (House of Commons Library)",
-          "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10575/"
+          "title": "Immigration remains the biggest issue facing Britain (Ipsos)",
+          "url": "https://www.ipsos.com/en-uk/immigration-remains-biggest-issue-facing-britain-0"
         },
         {
-          "title": "Immigration Rules (GOV.UK)",
-          "url": "https://www.gov.uk/guidance/immigration-rules"
+          "title": "Changes to UK visa and settlement rules after the 2025 white paper (House of Commons Library)",
+          "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10267/"
         }
       ],
       "lastReviewed": "2026-06-16"
@@ -284,20 +299,21 @@
     "tax": {
       "status": "scored",
       "score": 56,
-      "summary": "Income tax 20/40/45% plus NI; the tax-free allowance is frozen to 2028, pushing more pay into higher bands.",
-      "reasoning": "Progressive income tax (20/40/45%) plus 8% employee National Insurance applies; the £12,570 personal allowance and thresholds are frozen until 2028, so fiscal drag raises the effective burden over time. Overall moderate-to-high, though lighter than Scandinavia.",
+      "summary": "Income tax 20/40/45% plus 8% NI; the £12,570 personal allowance is frozen to 2028, pushing more pay into higher bands over time.",
+      "reasoning": "Progressive income tax (20% to £50,270, 40% to £125,140, 45% above) plus 8% employee National Insurance applies; the £12,570 personal allowance and the band thresholds are frozen until 2028, so fiscal drag raises the effective burden over time. Overall a moderate-to-high burden — heavier than low-tax hubs but lighter than Scandinavia.",
       "evidence": [
-        "Income tax bands 20/40/45% (England/Wales/NI)",
-        "Employee NI 8% on earnings between thresholds",
-        "Personal allowance £12,570 frozen to 2028 (fiscal drag)"
+        "Income tax bands 20/40/45% (England, Wales, Northern Ireland)",
+        "Personal allowance £12,570; basic rate to £50,270; higher to £125,140",
+        "Employee National Insurance 8% on earnings between thresholds",
+        "Personal allowance and thresholds frozen to 2028 (fiscal drag)"
       ],
       "links": [
         {
-          "title": "Income Tax rates (GOV.UK)",
+          "title": "Income Tax rates and Personal Allowances (GOV.UK)",
           "url": "https://www.gov.uk/income-tax-rates"
         },
         {
-          "title": "National Insurance rates (GOV.UK)",
+          "title": "National Insurance rates and categories (GOV.UK)",
           "url": "https://www.gov.uk/national-insurance-rates-letters"
         }
       ],
@@ -305,23 +321,23 @@
     },
     "muslim-diaspora": {
       "status": "scored",
-      "score": 85,
-      "summary": "~3.9M Muslims and one of the world's biggest Bangladeshi diasporas; halal & mosques ubiquitous — but anti-Muslim hate is rising.",
-      "reasoning": "About 3.87 million Muslims (2021 Census, England & Wales) and ~650,000 British Bangladeshis (notably Tower Hamlets/Brick Lane and Birmingham) make community, halal food and prayer facilities ubiquitous — a top strength for this couple. The weight-down is rising hostility: anti-Muslim hate crimes rose ~19% to 3,199 offences (year to March 2025) amid 2025 anti-immigration protests.",
+      "score": 82,
+      "summary": "~3.9M Muslims and ~652k British Bangladeshis; halal and mosques ubiquitous — a top strength, but anti-Muslim hate crime rose ~19% to 2025.",
+      "reasoning": "About 3.87 million Muslims (2021 Census, England & Wales) and ~652,000 British Bangladeshis — Europe's largest Bangladeshi diaspora, concentrated in Tower Hamlets and Birmingham — make community, halal food and prayer facilities ubiquitous, a top fit for this couple. The weight-down is rising hostility: police recorded 4,478 anti-Muslim hate crimes in the year to March 2025 (45% of religious hate crime, up ~19%), amid 2024-25 anti-immigration disorder.",
       "evidence": [
         "~3.87M Muslims (2021 Census, England & Wales)",
-        "~650k British Bangladeshis (Tower Hamlets, Birmingham); halal & mosques ubiquitous",
-        "Anti-Muslim hate crimes ~3,199 (+19%) year to March 2025",
-        "2025 anti-immigration protests; elevated hostility"
+        "~652,000 British Bangladeshis; Europe's largest BD diaspora",
+        "Halal food and mosques ubiquitous (Tower Hamlets, Birmingham)",
+        "Anti-Muslim hate crimes 4,478 (45% of religious hate crime, +19%) to Mar 2025"
       ],
       "links": [
         {
-          "title": "Religion, England & Wales (ONS 2021 Census)",
-          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion"
+          "title": "Hate crime, England and Wales, year ending March 2025 (GOV.UK)",
+          "url": "https://www.gov.uk/government/statistics/hate-crime-england-and-wales-year-ending-march-2025/hate-crime-england-and-wales-year-ending-march-2025"
         },
         {
-          "title": "Hate crime statistics (GOV.UK)",
-          "url": "https://www.gov.uk/government/collections/hate-crime-statistics"
+          "title": "Religion, England and Wales (ONS 2021 Census)",
+          "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion"
         }
       ],
       "lastReviewed": "2026-06-16"

@@ -5,7 +5,7 @@
   "iso3": "PRT",
   "flag": "🇵🇹",
   "region": "Europe",
-  "summary": "Strong study-and-stay base with a real Bangladeshi/Muslim community, but the 2025-26 reforms gutted its headline advantage: citizenship now 10 years (not 5), AIMA is in deep backlog, and no long-term visa is processed in Dhaka.",
+  "summary": "A genuine study-and-work base with real tech hubs, a large Bangladeshi/Muslim community and an A2-only language bar, but the 2025-26 reforms gutted its headline edge: citizenship is now 10 years (clock from permit issuance), no long-term D visa is processed in Dhaka, and politics has lurched toward immigration tightening.",
   "lastReviewed": "2026-06-16",
   "links": [
     {
@@ -20,88 +20,88 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "score": 62,
-      "summary": "Growing Lisbon/Porto tech scene, English-friendly startups, but notably lower salaries (~€43k avg) than NW Europe.",
-      "reasoning": "Lisbon and Porto are genuine tech hubs with international firms and English-speaking startups, giving both engineers realistic prospects. But average software-engineer pay (~€43k, seniors €55-58k) is well below Northern Europe, and sponsorship competes with a large applicant pool.",
+      "score": 63,
+      "summary": "Real Lisbon/Porto tech hubs, English-friendly, both engineers placeable - but pay lags NW Europe (avg ~€59k Lisbon).",
+      "reasoning": "Lisbon and Porto host Google, Microsoft, Cloudflare, Farfetch and VW Digital plus an English-speaking startup scene, so both software engineers have realistic prospects and AI/dev demand is rising. But the average Lisbon software-engineer salary is ~€58,954 gross (entry ~€41k, senior ~€66k) - well below Northern Europe - and the pool is competitive, so it is decent rather than best-in-class for this couple.",
       "evidence": [
-        "Average software-engineer salary ~€43,000/yr; seniors ~€57,800 in Lisbon (Glassdoor 2025).",
-        "Lisbon/Porto established as international tech hubs attracting startups and multinationals.",
-        "English widely used in tech firms; demand for developers/AI skills is rising.",
-        "Salaries materially lag NW Europe; cost-adjusted savings are moderate."
+        "Lisbon average software-engineer salary ~€58,954 gross; entry ~€41,162, senior ~€66,353 (Glassdoor/SalaryExpert 2025-26).",
+        "International offices: Google, Microsoft, Cloudflare, Farfetch, VW Digital Solutions in Lisbon/Porto.",
+        "Senior/staff total comp at multinationals can reach €90k-€140k+ with equity.",
+        "English widely used in tech firms; salaries still materially lag NW Europe."
       ],
       "links": [
         {
-          "title": "Glassdoor - Software Engineer salary Lisbon",
-          "url": "https://www.glassdoor.com/Salaries/lisbon-software-engineer-salary-SRCH_IL.0,6_IM1121_KO7,24.htm"
+          "title": "Glassdoor - Software Engineer salary Portugal",
+          "url": "https://www.glassdoor.com/Salaries/portugal-software-engineer-salary-SRCH_IL.0,8_IN195_KO9,26.htm"
         },
         {
-          "title": "Levels.fyi - Software Engineer Portugal",
-          "url": "https://www.levels.fyi/t/software-engineer/locations/portugal"
+          "title": "SalaryExpert - Software Engineer Lisbon 2026",
+          "url": "https://www.salaryexpert.com/salary/job/software-engineer/portugal/lisbon"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "visa-access": {
       "status": "scored",
-      "score": 38,
-      "summary": "No long-term visa processing in Dhaka; BD applicants apply via Embassy of Portugal in New Delhi, plus severe AIMA backlog.",
-      "reasoning": "Bangladeshi nationals cannot obtain a national (D/student) visa in Dhaka - the honorary consulate handles no visas; long-term applications route to the Embassy of Portugal in New Delhi (travel/cost burden). Once in-country, AIMA's ~400k-case backlog and the April 2025 strict-complete-application rule add heavy delay and rejection risk.",
+      "score": 34,
+      "summary": "No national D visa in Dhaka; BD applicants must apply via Embassy in New Delhi AND first hold an Indian double-entry visa.",
+      "reasoning": "Bangladeshi nationals cannot lodge a national (D / study / work / family) visa in Dhaka - those applications route to the Embassy of Portugal in New Delhi via VFS, and applicants must first obtain a double-entry X visa from the High Commission of India in Dhaka just to travel there. That double cross-border burden, plus document scrutiny and AIMA's onward backlog, makes the Dhaka experience a severe barrier despite Portugal's general visa reputation.",
       "evidence": [
-        "Long-term (national D/student) visas for BD applicants are submitted at the Embassy of Portugal in New Delhi, India.",
-        "Dhaka VFS / French Embassy handle only short-stay Schengen, not national visas.",
-        "AIMA carried ~400,000 backlogged cases in 2025; permit waits of weeks to many months.",
-        "Since 28 Apr 2025 AIMA rejects any application missing a single document."
+        "Long-term D visas (study €90, work €90, family €90) for BD residents are decided at the Embassy of Portugal in New Delhi via VFS.",
+        "BD applicants need a double-entry X visa from the Indian High Commission in Dhaka (max 3 months, ≤15-day stay) to apply in New Delhi.",
+        "Schengen short-stay for BD routes via the Embassy of France in Dhaka, not New Delhi.",
+        "Onward AIMA processing of standard permits runs ~3-6 months after biometrics."
       ],
       "links": [
         {
-          "title": "AIMA - Residence permits",
-          "url": "https://aima.gov.pt/en"
+          "title": "Embassy of Portugal in New Delhi - Visas (jurisdiction incl. Bangladesh)",
+          "url": "https://novadeli.embaixadaportugal.mne.gov.pt/en/consular-section/visas"
         },
         {
-          "title": "EU Immigration Portal - Portugal",
-          "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en"
+          "title": "AIMA - residence and visa information",
+          "url": "https://aima.gov.pt/en"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "citizenship": {
       "status": "scored",
-      "score": 40,
-      "summary": "2025-26 reform extended naturalisation from 5 to 10 years (BD not CPLP). Dual allowed, A2 Portuguese - but the clock is now long.",
-      "reasoning": "Portugal's famed 5-year route is gone: the reform (parliament Apr 2026, signed by the President 3 May 2026) sets 10 years for non-EU/non-CPLP nationals, and Bangladesh is not a CPLP country so the 7-year track does not apply. The residence clock starts only at permit issuance and student time counts at a reduced rate, pushing real timelines beyond 10 years; dual citizenship and modest A2 language remain positives.",
+      "score": 37,
+      "summary": "2025-26 reform extended naturalisation from 5 to 10 years (BD is non-CPLP), clock from permit issuance. Dual allowed, A2 + civic test.",
+      "reasoning": "Portugal's famed 5-year route is gone: parliament approved the reform on 28 Oct 2025 (resubmitted and re-approved Apr 2026, promulgated by the President in May 2026), setting 10 years for non-EU/non-CPLP nationals - and Bangladesh is not a CPLP country, so the 7-year track does not apply. The residence clock now counts only from the date the permit is issued (reversing the 2024 amendment), pushing real timelines past a decade. Dual citizenship is still permitted (no renunciation of Bangladeshi nationality) and the bar is only A2 plus a civics test, which keeps this above the worst cases.",
       "evidence": [
-        "Reform raises general naturalisation to 10 years (7 for EU/CPLP); BD nationals fall under 10 years.",
-        "Enacted: parliament approved Apr 2026, President signed 3 May 2026; effect on publication.",
-        "Dual citizenship permitted - no renunciation of Bangladeshi nationality required.",
-        "Residence counted only from permit issuance; student years count at a reduced rate."
+        "Non-CPLP third-country nationals (incl. Bangladesh): 10 years; CPLP/EU: 7 years.",
+        "Parliament approved 28 Oct 2025 (157-64); re-approved Apr 2026; promulgated by President May 2026.",
+        "Residence clock counts only from permit-issuance date, not application date.",
+        "Dual citizenship still allowed; requirements include A2 Portuguese, a civics test and a sworn democratic-principles declaration."
       ],
       "links": [
         {
-          "title": "The Portugal News - citizenship rules and timelines",
-          "url": "https://www.theportugalnews.com/news/2026-03-05/latest-on-portugals-citizenship-rules-and-timelines-explained/985375"
+          "title": "idealista - New Portuguese Nationality Law tightens citizenship",
+          "url": "https://www.idealista.pt/en/news/legal-advice-in-portugal/2025/10/30/72358-new-portuguese-nationality-law-tightens-citizenship-requirements"
         },
         {
-          "title": "AIMA - Portuguese nationality",
-          "url": "https://aima.gov.pt/en"
+          "title": "Global Citizen Solutions - Portuguese Nationality Law updates",
+          "url": "https://www.globalcitizensolutions.com/portuguese-nationality-law-updates/"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "post-study-work": {
       "status": "scored",
-      "score": 66,
-      "summary": "12-month post-study job-seeker permit + student-to-work conversion via 20-day Green Route; full work rights but non-renewable.",
-      "reasoning": "Graduates of Portuguese universities get a 12-month post-study job-seeker residence permit with full work rights, and the 'Green Route' processes work-permit conversions in ~20 days. The window is non-renewable (must secure a job within 12 months) and the standalone job-seeker visa was tightened in Oct 2025, but the student-to-work path remains workable.",
+      "score": 64,
+      "summary": "12-month post-study job-seeker permit, full work rights, immediate spouse join - but non-renewable, so a job must be found fast.",
+      "reasoning": "Graduates of Portuguese universities can obtain a 12-month post-study job-seeker residence permit with full work rights (subsistence proof ~€13,000, fee ~€93), and once employed the spouse and children can join immediately with their own permits. The window is non-renewable - employment must be secured within 12 months to convert to a work permit - so it is workable but shorter and less generous than the 3-year open permits in Canada/NZ.",
       "evidence": [
-        "Post-study job-seeker residence permit: 12 months, full work rights, ~€13k subsistence proof.",
-        "Government 'Green Route' targets ~20-day processing for work-permit conversion.",
-        "Permit is non-renewable - a job must be secured within the 12 months.",
-        "Oct 2025: standalone Skilled Job Seeker visa now needs degree + 5 yrs experience."
+        "Post-study job-seeker residence permit: 12 months, full work rights, ~€13,000 (1.5x IAS) subsistence, ~€93 fee.",
+        "Permit is non-renewable - must convert to a work permit within 12 months.",
+        "Once employed, spouse and children under 18 can join and receive permits without extra waiting.",
+        "Pathway then runs to PR in ~5 years and citizenship under the new 10-year rule."
       ],
       "links": [
         {
-          "title": "AIMA - residence permits for work and study",
-          "url": "https://aima.gov.pt/en"
+          "title": "Where to Emigrate - Portugal post-study job-seeker permit",
+          "url": "https://wheretoemigrate.io/pathways/portugal-post-study-job-seeker"
         },
         {
           "title": "Study in Portugal (DGES)",
@@ -112,14 +112,14 @@
     },
     "spouse-family": {
       "status": "scored",
-      "score": 58,
-      "summary": "Reunified family gets work rights, BUT 2025 law makes sponsor wait ~2 years before bringing spouse - a real gap.",
-      "reasoning": "Family reunification grants the spouse the right to work under the same conditions as the sponsor, which suits a two-engineer couple - but the 2025 immigration law generally requires the sponsor to hold a valid permit for ~2 years first (reducible to 15 months in some cohabitation cases). Best mitigated by both spouses enrolling as students so each holds an independent permit with work rights.",
+      "score": 62,
+      "summary": "Both-students entry gives each an independent work permit; skilled-worker/Blue Card sponsors skip the new 2-year reunification wait.",
+      "reasoning": "For this two-engineer couple the cleanest route is both enrolling as students, so each holds an independent residence permit with study-period work rights - sidestepping the new Law 61/2025 rule that a third-country sponsor must hold a permit for 2 years (15 months if 18 months' prior cohabitation) before reuniting a spouse. Crucially, highly skilled worker and EU Blue Card sponsors are exempt from that waiting period, and reunified spouses may work on the same terms as the sponsor, so both can work across study and work phases.",
       "evidence": [
+        "Law 61/2025 (published 22 Oct 2025): general 2-year wait before family reunification, 15 months with 18-month prior cohabitation.",
+        "Highly skilled worker permits and EU Blue Card holders are exempt from the waiting period.",
         "Reunified family members may live and work under the same conditions as the sponsor.",
-        "2025 law: sponsor must usually hold a permit ~2 years before reunification (15 months in some cases).",
-        "Workaround: both enrol as students, each holding an independent permit with study-period work rights.",
-        "Reunified family must attend Portuguese-language and civic-values training."
+        "Both-students workaround: each spouse holds an independent permit with work rights from the start."
       ],
       "links": [
         {
@@ -136,36 +136,36 @@
     "msc-study": {
       "status": "scored",
       "score": 72,
-      "summary": "Growing English MSc offer, low tuition (~€3-7k/yr non-EU), part-time student work, spouse can accompany/enrol.",
-      "reasoning": "Public universities offer an expanding set of English-taught Masters (incl. CS/data/AI) at low non-EU tuition of roughly €3,000-7,000/yr, with part-time work rights during study. The spouse - also an engineer - can enrol in parallel or accompany, making a both-students entry the cleanest dual-work setup; English-medium CS choice is still narrower than UK/Netherlands.",
+      "summary": "200+ English-taught masters, low non-EU tuition (~€3-7k/yr), part-time student work, spouse can enrol in parallel.",
+      "reasoning": "Portugal offers over 200 English-taught programmes including CS/data/AI masters at low non-EU tuition of roughly €3,000-7,000/yr, with monthly instalment options and part-time work rights during study. The spouse - also an engineer - can enrol in parallel so both hold independent permits, making the both-students entry the cleanest dual-work setup; the English-medium CS catalogue is still narrower than the UK or Netherlands.",
       "evidence": [
-        "Non-EU Masters tuition typically ~€3,000-7,000/yr (e.g. U.Porto CS Master €3,750 for 2025/26).",
-        "Growing range of English-taught Masters, though some flagship CS courses remain Portuguese.",
-        "Students hold work rights for part-time/limited hours during studies.",
+        "200+ English-taught programmes; non-EU masters tuition typically ~€3,000-7,000/yr.",
+        "Tuition payable in monthly instalments at most universities.",
+        "Students hold part-time work rights during studies.",
         "Both spouses can enrol, each gaining an independent residence permit."
       ],
       "links": [
         {
-          "title": "Study in Portugal (DGES)",
-          "url": "https://www.dges.gov.pt/en"
+          "title": "Mastersportal - Study a Master in Portugal",
+          "url": "https://www.mastersportal.com/countries/21/portugal.html"
         },
         {
-          "title": "University of Porto - Faculty of Sciences",
-          "url": "https://www.up.pt/portal/en/cup/fcup/876/"
+          "title": "Study in Portugal (DGES)",
+          "url": "https://www.dges.gov.pt/en"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "pr-pathway": {
       "status": "scored",
-      "score": 55,
-      "summary": "Permanent residence after ~5 years legal stay + A2 Portuguese, but AIMA backlog makes timing unpredictable.",
-      "reasoning": "Permanent residence (and EU long-term resident status) is reachable after 5 years of legal residence with A2 Portuguese, stable income and tax compliance - notably shorter than the new 10-year citizenship bar. The catch is AIMA processing: backlogs can stretch decisions to 1-2 years, eroding predictability for this couple.",
+      "score": 56,
+      "summary": "Permanent residence after ~5 years legal stay + A2 Portuguese - far shorter than the 10-year citizenship bar, but AIMA timing is uncertain.",
+      "reasoning": "Permanent residence (and EU long-term resident status) is reachable after 5 years of legal residence with A2 Portuguese, stable income and tax/social-security compliance, and student and work years count - making PR notably more attainable than the new 10-year citizenship track. The drag is AIMA: although it cleared ~93% of inherited cases by Oct 2025, standard permits still run 3-6 months and card issuance 4-12 weeks, so timing remains less predictable than top-tier points systems.",
       "evidence": [
-        "PR requires 5 years legal residence, A2 Portuguese, stable income and tax/social-security compliance.",
-        "Student and work years of legal residence count toward the 5-year PR threshold.",
-        "AIMA decisions can take 1-2 years amid the national backlog.",
-        "PR clock is shorter and more attainable than the 10-year citizenship track."
+        "PR after 5 years legal residence with A2 Portuguese, stable income and tax/social-security compliance.",
+        "Student and work years of legal residence count toward the 5-year threshold.",
+        "AIMA issued ~386,000 permits in 2025 and cleared ~93% of inherited backlog cases by Oct 2025.",
+        "Standard permits ~3-6 months; card issuance ~4-12 weeks post-approval."
       ],
       "links": [
         {
@@ -181,14 +181,14 @@
     },
     "income-cost": {
       "status": "scored",
-      "score": 58,
-      "summary": "Low historic cost of living offset by lower tech pay and fast-rising Lisbon rents - moderate net savings for two engineers.",
-      "reasoning": "Tech salaries are comfortably above the Portuguese median, so a dual-engineer household lives well, but rents have surged (Lisbon 1-bed centre ~€1,408/mo; metro rents +35% since 2020) while pay lags NW Europe. Result is moderate, not generous, savings - better than locals but below higher-paying EU destinations.",
+      "score": 57,
+      "summary": "Lower historic costs offset by surging Lisbon rents and tech pay below NW Europe - moderate net savings on two incomes.",
+      "reasoning": "A dual-engineer household lives comfortably above the Portuguese median, but Lisbon rents have surged (1-bed city-centre ~€1,424/mo; outside centre ~€1,070) while salaries lag Northern Europe, so savings are moderate rather than generous. The IFICI 20% flat tax meaningfully lifts take-home if both qualify, but on a single income Lisbon would be tight.",
       "evidence": [
-        "Lisbon 1-bed city-centre rent ~€1,408/mo; metro rents up >35% since 2020.",
-        "Average tech pay (~€3,690/mo) sits well above the general workforce.",
-        "National rents ~€16.8/m2 (Aug 2025), still climbing ~3.3% yoy.",
-        "Two tech incomes yield moderate savings; single income would be tight in Lisbon."
+        "Lisbon 1-bed city-centre rent ~€1,424/mo; outside centre ~€1,070/mo (Numbeo, Jun 2026).",
+        "Couple basic monthly costs ex-rent roughly €1,300-1,500.",
+        "Tech pay sits well above the Portuguese median (~€32-40k) but below NW Europe.",
+        "Two tech incomes yield moderate savings; IFICI 20% flat tax can boost net pay."
       ],
       "links": [
         {
@@ -204,14 +204,14 @@
     },
     "healthcare": {
       "status": "scored",
-      "score": 68,
-      "summary": "Universal tax-funded SNS, low cost and good clinical quality, but long waits and GP shortages strain access.",
-      "reasoning": "Legal residents with a social-security number access the universal SNS at low or no cost, and clinical quality in major hospitals is well regarded. However, waiting lists are large (nearly 975k waiting for a first specialist consultation mid-2025) and 1.5m+ residents lack an assigned GP, so private top-up insurance is commonly used in Lisbon/Porto.",
+      "score": 66,
+      "summary": "Universal tax-funded SNS, low cost and solid clinical quality, but GP shortages and long waits push many to private top-up.",
+      "reasoning": "Legal residents with a social-security number access the universal SNS at low or no cost and clinical quality in major hospitals is well regarded. But access is strained - 1,563,710 people lacked an assigned family doctor at end-2025, Lisbon and the Algarve are worst hit, and waiting lists are long - so affordable private insurance is commonly used in Lisbon/Porto.",
       "evidence": [
-        "Universal SNS covers all legal residents with a social-security number.",
-        "~974,770 patients awaited a first hospital consultation by mid-2025.",
-        "Over 1.56m residents lacked an assigned family doctor in early 2025.",
-        "Portugal ranked 23rd in Numbeo's 2025 Health Care Index; private insurance is affordable."
+        "Universal SNS covers all legal residents with a social-security number, low or no out-of-pocket cost.",
+        "1,563,710 people without an assigned family doctor at end-December 2025 (SNS transparency portal).",
+        "Lisbon, Algarve and Setúbal peninsula worst affected; waits can exceed a year for GP assignment.",
+        "Government 2026 order allows hiring up to 1,111 retired doctors to close the gap."
       ],
       "links": [
         {
@@ -227,14 +227,14 @@
     },
     "culture-language": {
       "status": "scored",
-      "score": 72,
-      "summary": "High English use in cities/tech; daily life manageable in English, with A2 Portuguese needed for PR/citizenship.",
-      "reasoning": "English is widely spoken in Lisbon/Porto, tech workplaces and universities, so day-to-day life and work are manageable without fluent Portuguese. Portuguese is a Romance language that is relatively learnable to the A2 level required for PR and citizenship, and the established South-Asian community further eases settling in.",
+      "score": 73,
+      "summary": "High English use in cities/tech and universities; only A2 Portuguese for PR/citizenship, with a large South-Asian community easing settling.",
+      "reasoning": "English is widely spoken in Lisbon/Porto, tech workplaces and universities, so daily life and work are manageable without fluent Portuguese. The language bar for officialdom is modest - only A2 for PR and citizenship - and Portuguese is a relatively learnable Romance language, while the established Bangladeshi/South-Asian community provides a soft cultural landing.",
       "evidence": [
         "High English proficiency in cities, tech firms and universities.",
-        "Only A2 Portuguese required for PR/citizenship - a modest, achievable bar.",
-        "Large Bangladeshi/South-Asian community supports a soft cultural landing.",
-        "Portuguese (Romance language) is comparatively approachable for A2 study."
+        "Only A2 Portuguese required for PR and citizenship - a modest, achievable bar.",
+        "Large Bangladeshi/South-Asian community supports integration.",
+        "Portuguese (Romance language) comparatively approachable to A2 level."
       ],
       "links": [
         {
@@ -250,83 +250,83 @@
     },
     "safety-law": {
       "status": "scored",
-      "score": 84,
-      "summary": "Among the world's safest (7th on 2025 Global Peace Index); solid rule of law (WJP 29th), low violent crime.",
-      "reasoning": "Portugal ranks 7th on the 2025 Global Peace Index with low violent crime and high perceived safety, an important reassurance for a relocating couple. Rule of law is solid (WJP 2025 ~29th of 143) though not top-tier; petty theft in tourist areas is the main everyday concern.",
+      "score": 82,
+      "summary": "Among the world's safest (7th on 2025 Global Peace Index); solid rule of law (WJP 29th/143), low violent crime.",
+      "reasoning": "Portugal ranks 7th on the 2025 Global Peace Index (score 1.371, 5th in Europe) with low violent crime and high perceived safety - strong reassurance for a relocating couple. Rule of law is solid but not top-tier (WJP 2025 ~29th of 143, with a noted decline), and 2024-25 heavy-handed police operations in immigrant areas like Martim Moniz are a minor caveat on fair treatment of migrants.",
       "evidence": [
-        "7th worldwide in the 2025 Global Peace Index.",
-        "WJP Rule of Law Index 2025: ~29th of 143 countries.",
-        "Low violent crime; ~83% feel safe walking alone at night (Gallup 2024).",
-        "Main risk is petty theft/pickpocketing in tourist zones."
+        "7th worldwide in the 2025 Global Peace Index (score 1.371; 5th in Europe).",
+        "WJP Rule of Law Index 2025: ~29th of 143, with a slight decline.",
+        "Low violent crime; petty theft in tourist zones is the main everyday concern.",
+        "Dec 2024 Martim Moniz police operation drew large anti-racism protests in Jan 2025."
       ],
       "links": [
         {
-          "title": "WJP Rule of Law Index 2025",
-          "url": "https://worldjusticeproject.org/rule-of-law-index/global"
+          "title": "WJP Rule of Law Index 2025 - Global Insights",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/global/2025"
         },
         {
-          "title": "Global Peace Index (Vision of Humanity)",
-          "url": "https://www.visionofhumanity.org/maps/#/"
+          "title": "The Portugal News - Portugal 7th safest country (2025 GPI)",
+          "url": "https://www.theportugalnews.com/news/2025-06-25/portugal-up-to-7th-safest-country-in-the-world/98817"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "politics": {
       "status": "scored",
-      "score": 52,
-      "summary": "Stable institutions but recent turmoil: 3rd election in 3 years, far-right Chega surging, 2025-26 immigration tightening.",
-      "reasoning": "Portugal's institutions are democratic and stable, but it has held three general elections in three years under fragile minority governments. Far-right Chega's 2025 breakthrough (now main opposition) has pushed immigration and nationality rules tighter - directly visible in the citizenship extension and family-reunification curbs - creating policy risk for migrants.",
+      "score": 48,
+      "summary": "Stable institutions but volatile: 3 elections in 3 years, far-right Chega now 2nd, and 2025-26 immigration/nationality tightening.",
+      "reasoning": "Portugal's institutions are democratic and stable, but it held its third general election in three years in May 2025 and far-right Chega surged to ~58 seats, tying for second and becoming decisive. Chega's support was crucial to passing the 28 Oct 2025 nationality reform and the Law 61/2025 immigration curbs - so policy risk for migrants is now real and rising, not theoretical.",
       "evidence": [
-        "Third general election in three years; recurrent minority governments.",
-        "Far-right Chega surged to ~60 seats (May 2025), becoming main opposition.",
-        "2025-26 saw nationality extended to 10 years and family reunification curbed.",
-        "Immigration is a top political flashpoint, raising future-policy uncertainty."
+        "Third general election in three years (May 2025); recurrent minority governments.",
+        "Chega rose to ~58 seats, tying for second; its votes carried the nationality reform (157-64).",
+        "2025: citizenship extended to 10 years and family reunification tightened (Law 61/2025).",
+        "Immigration is now a central political flashpoint, raising future-policy uncertainty."
       ],
       "links": [
         {
-          "title": "Atlantic Council - Portugal's shift to the right",
-          "url": "https://www.atlanticcouncil.org/blogs/new-atlanticist/portugals-shift-to-the-right-is-accelerating-what-does-that-mean-for-its-future/"
+          "title": "Jobbatical - Portugal 2025 elections impact on immigration",
+          "url": "https://www.jobbatical.com/blog/portugal-2025-elections-impact-immigration"
         },
         {
-          "title": "AIMA - immigration policy",
-          "url": "https://aima.gov.pt/en"
+          "title": "Portugal.com - Portugal passes new nationality law",
+          "url": "https://www.portugal.com/news/portugal-passes-new-nationality-law-that-tightens-the-path-to-citizenship-final-review-rests-with-the-president/"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "tax": {
       "status": "scored",
-      "score": 55,
-      "summary": "High top marginal IRS (48% + surcharges), but IFICI/NHR 2.0 offers 20% flat on income for qualifying tech roles.",
-      "reasoning": "Standard income tax is high - progressive to 48% above ~€81k plus solidarity surcharges - which weighs on dual high earners. The IFICI regime (NHR 2.0) gives a 20% flat rate on eligible professional income to qualifying high-skilled/tech workers not tax-resident in the prior 5 years, materially softening the burden if both qualify.",
+      "score": 56,
+      "summary": "High top IRS (48% + surcharges), but IFICI/NHR 2.0 gives a 20% flat rate to qualifying tech professionals for 10 years.",
+      "reasoning": "Standard income tax is high - progressive to 48% above ~€81k plus a 2.5-5% solidarity surcharge - which weighs on dual high earners. The IFICI regime (NHR 2.0) offers a 20% flat rate on eligible Portuguese professional income for up to 10 years to highly qualified workers (EQF Level 6+ degree, science/tech sectors) not tax-resident in the prior 5 years, materially softening the burden if both engineers qualify.",
       "evidence": [
-        "Top marginal IRS rate 48% above ~€81,199; +2.5-5% solidarity surcharge for high incomes.",
-        "IFICI (NHR 2.0): 20% flat on eligible Portuguese professional income.",
-        "IFICI needs no PT tax residence in prior 5 years + qualifying degree/role (CS/tech eligible).",
-        "Original NHR closed to new applicants; final transition window ended Mar 2025."
+        "Top marginal IRS 48% above ~€81k, plus 2.5-5% solidarity surcharge for high incomes.",
+        "IFICI (NHR 2.0): 20% flat rate on eligible PT professional income for up to 10 years.",
+        "Eligibility: new tax resident (no PT residence in prior 5 yrs) + EQF Level 6+ degree in science/tech/R&D.",
+        "Original NHR closed to new applicants; income from blacklisted jurisdictions taxed at 35%."
       ],
       "links": [
         {
-          "title": "Autoridade Tributária e Aduaneira (Portuguese Tax Authority)",
-          "url": "https://www.portaldasfinancas.gov.pt/at/html/index.html"
+          "title": "Sovereign Group - Portugal IFICI tax incentive regime",
+          "url": "https://www.sovereigngroup.com/portugal/portugal-ifici-tax-incentive-regime/"
         },
         {
-          "title": "Global Citizen Solutions - NHR 2.0 / IFICI",
-          "url": "https://www.globalcitizensolutions.com/new-nhr/"
+          "title": "Autoridade Tributária e Aduaneira (Portuguese Tax Authority)",
+          "url": "https://www.portaldasfinancas.gov.pt/at/html/index.html"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "muslim-diaspora": {
       "status": "scored",
-      "score": 78,
-      "summary": "Established Bangladeshi/South-Asian hub in Lisbon (Martim Moniz), multiple mosques, halal food and services widespread.",
-      "reasoning": "Lisbon hosts a long-standing, visible Bangladeshi community centred on Martim Moniz/Rua do Benformoso, with Bangladeshi-run mosques, halal shops, remittance services and restaurants - a major comfort factor for this Muslim couple. The overall Muslim population is modest nationally but the South-Asian/Bangladeshi presence specifically is strong and growing.",
+      "score": 74,
+      "summary": "Established Bangladeshi hub in Lisbon (Martim Moniz), mosques and halal everywhere - but 2024-25 police raids signal rising hostility.",
+      "reasoning": "Lisbon hosts a long-standing, visible Bangladeshi community centred on Martim Moniz and Rua do Benformoso, with the 'Bangla masjid', halal butchers, restaurants and remittance services - a major comfort factor for this Muslim couple. The national Muslim population is modest but the Bangladeshi/South-Asian presence is strong; however, the Dec 2024 Martim Moniz police operation and Chega's rise signal rising anti-immigrant sentiment, so the trend is less reassuring than the community size alone.",
       "evidence": [
-        "Bangladeshi community concentrated in Lisbon's Martim Moniz ('Bengali Gali') and around Porto.",
-        "Several Bangladeshi-supervised mosques plus the Lisbon Central Mosque.",
+        "Bangladeshi community concentrated in Lisbon's Martim Moniz; 'Bangla masjid' on Rua do Benformoso.",
         "Rua do Benformoso lined with Bangladeshi restaurants, halal meat and money-transfer shops.",
-        "Community growing since the 1990s; widely documented diaspora presence."
+        "Halal butchers standard for community restaurants in Mouraria/Martim Moniz.",
+        "Dec 2024 police operation in Martim Moniz triggered large Jan 2025 anti-racism marches - rising-hostility signal."
       ],
       "links": [
         {
@@ -334,8 +334,8 @@
           "url": "https://www.thedailystar.net/nrb/news/bangladeshi-immigrants-now-forefront-portugals-lisbon-neighbourhood-3025651"
         },
         {
-          "title": "Comunidade Islâmica de Lisboa (Lisbon Central Mosque)",
-          "url": "https://www.comunidadeislamica.pt/"
+          "title": "Portugal Resident - thousands march over Martim Moniz police operation",
+          "url": "https://www.portugalresident.com/thousands-march-through-lisbon-protesting-against-martim-moniz-police-operation/"
         }
       ],
       "lastReviewed": "2026-06-16"

@@ -5,7 +5,7 @@
   "iso3": "AUS",
   "flag": "🇦🇺",
   "region": "Oceania",
-  "summary": "English-speaking points-based study->485->skilled-PR route with full spouse work rights, but software engineers left the 2025 shortage list, ICT PR is fiercely competitive, and Bangladesh sits at Evidence Level 3 with steep fees.",
+  "summary": "English-speaking study->485->skilled-PR route with unrestricted spouse work, but software engineers left the 2025 shortage list, ICT points-tested PR needs ~90-110 points, and Bangladesh sits at Evidence Level 3 (strictest) from January 2026 with steep fees and funds.",
   "lastReviewed": "2026-06-16",
   "links": [
     {
@@ -16,31 +16,37 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "score": 68,
-      "summary": "Solid tech demand and high salaries, but software engineers left the 2025 national shortage list.",
-      "reasoning": "Jobs and Skills Australia's 2025 Occupation Shortage List removed software/developer roles from shortage in every state (AI adoption plus more local graduates), though cybersecurity and AI-specialist roles stay short and the sector still needs ~312,000 workers by 2030; sponsorship for generic SW roles is now harder for both partners.",
+      "score": 60,
+      "summary": "High tech salaries, but software engineers left the 2025 national shortage list, hurting sponsorship for both partners.",
+      "reasoning": "Jobs and Skills Australia's 2025 Occupation Shortage List (Oct 2025) removed software engineer and developer programmer from shortage in every state and territory for the first time since 2021, so generic SW sponsorship is now harder for both partners; salaries remain strong (~AUD 128k-151k median) and cybersecurity/AI-specialist roles stay in nationwide shortage with ~85,000 cyber roles to fill by 2030. The market is decent for this couple but no longer a both-easily-hired acute shortage.",
       "evidence": [
-        "Software engineers no longer in shortage in any state (JSA 2025)",
-        "Median SW engineer pay ~AUD 128k-151k; AI/cyber roles still in demand",
-        "Australia needs ~312,000 extra tech workers by 2030"
+        "Software engineer + developer programmer off shortage list in all states (JSA Oct 2025)",
+        "Cybersecurity engineer/operations roles still in nationwide shortage; ~85,000 cyber roles needed by 2030",
+        "Median SW engineer pay ~AUD 128k-151k (2025); English-language tech scene",
+        "31 of removed roles fall in ICT/professional groups as AI adoption and local graduates rise"
       ],
       "links": [
         {
-          "title": "Jobs and Skills Australia Occupation Shortage List",
-          "url": "https://www.jobsandskills.gov.au/data/occupation-shortages-analysis"
+          "title": "Jobs and Skills Australia Occupation Shortage",
+          "url": "https://www.jobsandskills.gov.au/data/occupation-shortage"
+        },
+        {
+          "title": "ACS Information Age: no shortage of software engineers (2025)",
+          "url": "https://ia.acs.org.au/article/2025/there-s-no-shortage-of-software-engineers-in-australia-anymore.html"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "visa-access": {
       "status": "scored",
-      "score": 40,
-      "summary": "Bangladesh at Evidence Level 3 (highest scrutiny); no Dhaka decision office, AUD 2,000 fee, AUD 29,710 funds.",
-      "reasoning": "From January 2026 Bangladesh sits at Evidence Level 3, triggering the deepest document, financial and bank verification; applicants lodge biometrics via VFS, the student-visa charge rose to AUD 2,000 (Jul 2025), proof of AUD 29,710 living costs is required, and the Genuine Student test plus falling approval rates raise refusal risk.",
+      "score": 36,
+      "summary": "Bangladesh at Evidence Level 3 (strictest) from 9 Jan 2026; AUD 2,000 charge, AUD 29,710 funds, deep scrutiny.",
+      "reasoning": "On 9 January 2026 Home Affairs re-rated Bangladesh from Evidence Level 2 to Evidence Level 3, the strictest setting in the Simplified Student Visa Framework, demanding 3+ months of bank statements, detailed source-of-funds and authenticated transcripts, with median processing stretching well beyond the prior ~14 days. The student visa charge rose to AUD 2,000 (1 Jul 2025), proof of AUD 29,710 living costs is required, and the Genuine Student test raises refusal risk; lodgement is online with VFS biometrics in Dhaka (no New Delhi travel), which keeps this off the floor.",
       "evidence": [
-        "Bangladesh reclassified to Evidence Level 3 (Jan 2026), highest scrutiny",
-        "Student visa charge AUD 2,000 since 1 Jul 2025; living-cost proof AUD 29,710",
-        "Genuine Student requirement; direct bank/employer verification, lump-sum deposits flagged"
+        "Bangladesh moved to Evidence Level 3 on 9 Jan 2026 (strictest SSVF tier)",
+        "Student visa charge AUD 2,000 since 1 Jul 2025; living-cost proof AUD 29,710 (2026)",
+        "EL3 requires 3+ month bank statements, source-of-funds, authenticated transcripts; spot checks + biometric cross-matching",
+        "Genuine Student requirement; lodged online with VFS biometrics in Dhaka (no New Delhi requirement)"
       ],
       "links": [
         {
@@ -48,26 +54,31 @@
           "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
         },
         {
-          "title": "Study Australia visa charge increase",
-          "url": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/student-visa-application-charge-increase"
+          "title": "Australia lifts student-visa evidence level for Bangladesh (Jan 2026)",
+          "url": "https://www.visahq.news/2026-01-09/au/australia-lifts-student-visa-evidence-level-for-india-nepal-bangladesh-and-bhutan/"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "citizenship": {
       "status": "scored",
-      "score": 70,
-      "summary": "Citizenship after 4 years lawful residence incl. last 12 months as PR; dual citizenship allowed.",
-      "reasoning": "Applicants need 4 years lawful residence with the final 12 months as a permanent resident and limited absences, but PR must be secured first (a hard, competitive step for ICT); Australia has allowed dual citizenship since 2002 with only a modest English/citizenship test.",
+      "score": 68,
+      "summary": "Citizenship after 4 years lawful residence incl. last 12 months as PR; dual citizenship allowed, light test.",
+      "reasoning": "Applicants need 4 years lawful residence with the final 12 months as a permanent resident and limited absences (<12 months over 4 years, <90 days in the final year), with dual citizenship permitted and only a modest English/values test. The decisive constraint is that PR must be secured first, a hard and competitive step for ICT, so the realistic clock is longer than four years for this couple.",
       "evidence": [
-        "4 years lawful residence incl. last 12 months as PR",
-        "Absence limits: <12 months over 4 years, <90 days in final year",
-        "Dual citizenship permitted; modest citizenship test"
+        "4 years lawful residence incl. last 12 months as a permanent resident",
+        "Absence limits: <12 months over 4 years, <90 days in the final year",
+        "Dual citizenship permitted (since 2002); Bangladesh allows a Dual Nationality Certificate",
+        "Citizenship test 20 questions, >=75% pass; PR is the gating prerequisite"
       ],
       "links": [
         {
           "title": "Home Affairs Australian citizenship (official)",
           "url": "https://immi.homeaffairs.gov.au/citizenship"
+        },
+        {
+          "title": "Home Affairs residence calculator (official)",
+          "url": "https://immi.homeaffairs.gov.au/help-support/tools/residence-calculator"
         }
       ],
       "lastReviewed": "2026-06-16"
@@ -75,35 +86,41 @@
     "post-study-work": {
       "status": "scored",
       "score": 70,
-      "summary": "Subclass 485 ~2 years for coursework masters, full work rights, but age limit 35 and AUD 4,600 fee.",
-      "reasoning": "The Temporary Graduate (subclass 485) gives up to 2 years for a coursework master's (3 for research) with unrestricted work for both partners, but the general age limit is 35, COVID-era extensions are being scrapped by mid-2026, and the application charge doubled to AUD 4,600 from 1 March 2026.",
+      "summary": "Subclass 485 ~2 years for coursework master's, full work for both, but age limit 35 and AUD 4,600 fee.",
+      "reasoning": "The Temporary Graduate (subclass 485) gives up to 2 years for a coursework master's (3 for research) with unrestricted in-country work for both partners and a switch to skilled/employer-sponsored pathways. Friction is real: the general age limit is 35, COVID-era extensions are being scrapped by mid-2026, and the application charge doubled to AUD 4,600 from 1 March 2026.",
       "evidence": [
-        "485 up to 2 years for coursework master's, full work rights from day one",
+        "485 up to 2 years for coursework master's (3 for research), full work rights for both partners",
         "General age limit 35 (50 for research master's/PhD)",
-        "485 fee AUD 4,600 since 1 Mar 2026; COVID extensions ending"
+        "485 fee doubled to AUD 4,600 from 1 Mar 2026 (was ~AUD 2,300)",
+        "COVID-era 485 extensions fully scrapped by mid-2026; second 485 may need shortage-aligned field"
       ],
       "links": [
         {
           "title": "Home Affairs Temporary Graduate visa (subclass 485) (official)",
           "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485"
+        },
+        {
+          "title": "Study Australia post-study work visa",
+          "url": "https://www.aeccglobal.com/study-in-australia/visas/post-study-work-visa"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "spouse-family": {
       "status": "scored",
-      "score": 82,
+      "score": 84,
       "summary": "Partner of a master's student gets UNRESTRICTED work hours; full work rights on 485 and skilled visas too.",
-      "reasoning": "Both partners are software engineers, and a spouse of a student who has commenced a master's or doctorate can work unrestricted hours (not the 48-hour fortnight cap), with full work rights continuing as a dependant on the 485 graduate and skilled visas; only minor friction is the pre-course-start work ban.",
+      "reasoning": "Both partners are software engineers, and the partner of a student undertaking a master's (coursework or research) or doctorate can work unrestricted hours from the start of the course, not the 48-hour fortnight cap that applies to bachelor-level dependants. Full partner work rights continue as a dependant on the 485 graduate and skilled/PR visas; the only friction is that the partner may not work before the student's course commences.",
       "evidence": [
-        "Spouse of master's/doctorate student: unrestricted work hours",
+        "Partner of a master's/doctorate student: unrestricted work hours during study phase",
+        "Bachelor-level partners capped at 48 hours/fortnight; master's removes the cap",
         "Full partner work rights on 485 and skilled/PR visas",
-        "Spouse may not work before the student's course starts"
+        "Partner cannot start work before the student's course commences (CoE evidence needed)"
       ],
       "links": [
         {
-          "title": "Study Australia student visa work hours",
-          "url": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/work-hours-limit-for-student-visa-holders-to-be-re-introduced"
+          "title": "Study Australia student visa (subclass 500)",
+          "url": "https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500"
         },
         {
           "title": "Home Affairs including family members (official)",
@@ -114,18 +131,23 @@
     },
     "msc-study": {
       "status": "scored",
-      "score": 62,
-      "summary": "Wide English MSc offering and spouse can accompany, but tuition, living costs and visa fees are very high.",
-      "reasoning": "Strong universities offer English-taught master's and students may work up to 48 hours per fortnight, with the spouse able to accompany and work unrestricted, but international tuition is steep, proof of AUD 29,710 funds plus an AUD 2,000 visa charge is required, and managed-growth caps tighten places.",
+      "score": 60,
+      "summary": "Wide English MSc offering and spouse accompanies + works unrestricted, but tuition, funds and fees are very high.",
+      "reasoning": "Strong universities offer abundant English-taught CS master's, students may work up to 48 hours per fortnight in term, and the spouse can accompany and work unrestricted hours. The drag is cost: high international tuition, proof of AUD 29,710 funds plus an AUD 2,000 visa charge, and a 295,000 national student-place cap for 2026 that tightens admissions.",
       "evidence": [
-        "Broad English-taught master's; work up to 48 hours/fortnight during term",
+        "Broad English-taught master's; students work up to 48 hours/fortnight in term, unlimited in breaks",
+        "Spouse accompanies and works unrestricted hours during a master's",
         "High tuition + AUD 29,710 living-cost proof + AUD 2,000 visa charge",
-        "2026 managed-growth student caps (planning level 295,000)"
+        "2026 national student-place cap set at 295,000"
       ],
       "links": [
         {
           "title": "Study Australia (Australian Government)",
           "url": "https://www.studyaustralia.gov.au/"
+        },
+        {
+          "title": "Study Australia student visa (subclass 500)",
+          "url": "https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/student-visa-subclass-500"
         }
       ],
       "lastReviewed": "2026-06-16"
@@ -133,12 +155,13 @@
     "pr-pathway": {
       "status": "scored",
       "score": 50,
-      "summary": "Skilled PR exists but ICT invitations now need ~90-110 points; employer route via SID->186 is ~2 years.",
-      "reasoning": "General Skilled Migration (189/190) has a nominal 65-point pass mark, but 2025-26 ICT invitation rounds effectively required roughly 90-110 points, making independent PR unpredictable; the new Skills in Demand visa offers a clearer employer-sponsored 186 PR after ~2 years but needs a sponsoring employer and shortage-aligned occupation.",
+      "summary": "Skilled PR exists but ICT invitations need ~90-110 points; employer SID->186 PR is ~2 years but needs a sponsor.",
+      "reasoning": "General Skilled Migration (189/190) has a nominal 65-point pass mark, but 2025-26 ICT invitation rounds effectively required roughly 90-110 points, making independent PR unpredictable for software engineers. The Skills in Demand visa (opened 7 Dec 2025, replacing the 482) offers a clearer employer-sponsored 186 PR after ~2 years, but needs a sponsoring employer and a shortage-aligned occupation, and SW left the shortage list.",
       "evidence": [
         "ICT 189/190 invitations effectively need ~90-110 points (2025-26 rounds)",
-        "Skills in Demand visa replaced 482 (Dec 2024); 4-year stay, 186 PR after ~2 years",
-        "Permanent program 185,000 places, skilled stream ~132,200"
+        "Skills in Demand visa opened 7 Dec 2025 (replaced 482); 4-year stay, 186 PR after ~2 years",
+        "186 TRT needs 2 years with same sponsor, under 45, IELTS 6.0",
+        "2025-26 permanent program 185,000 places, Skill stream 132,200"
       ],
       "links": [
         {
@@ -154,35 +177,46 @@
     },
     "income-cost": {
       "status": "scored",
-      "score": 62,
-      "summary": "High tech salaries but Sydney/Melbourne among the world's costliest housing markets.",
-      "reasoning": "Median software-engineer pay of roughly AUD 128k-151k supports good dual-income savings, but housing and living costs in Sydney and Melbourne are among the highest globally, eroding net savings for a couple.",
+      "score": 60,
+      "summary": "High tech salaries but Sydney/Melbourne housing is among the world's costliest, eroding net savings.",
+      "reasoning": "Median software-engineer pay of roughly AUD 128k-151k supports good dual-income earning, but Sydney median unit rents hit ~AUD 750/week in December 2025 (houses ~AUD 800), among the most expensive globally, so housing absorbs a large share of net income. Two tech salaries still leave savings headroom, but less than the gross figures suggest.",
       "evidence": [
-        "Median SW engineer pay ~AUD 128k-151k",
+        "Median SW engineer pay ~AUD 128k-151k (2025)",
+        "Sydney median unit rent ~AUD 750/week, house ~AUD 800/week (Dec 2025)",
+        "Melbourne median unit rent ~AUD 580/week (Dec 2025); lower than Sydney",
         "Sydney/Melbourne housing among the most expensive worldwide"
       ],
       "links": [
         {
-          "title": "Australian Bureau of Statistics cost of living",
+          "title": "Australian Bureau of Statistics consumer price/inflation",
           "url": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation"
+        },
+        {
+          "title": "ANU Centre for Social Research rental trends paper (2025)",
+          "url": "https://polis.cass.anu.edu.au/files/docs/2025/6/Rental-Trends-Paper_0.pdf"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "healthcare": {
       "status": "scored",
-      "score": 72,
-      "summary": "Excellent Medicare for PRs/citizens, but Bangladeshis have no reciprocal deal so OSHC/private until PR.",
-      "reasoning": "Medicare gives permanent residents and citizens high-quality, low-cost universal care, but Bangladesh has no Reciprocal Health Care Agreement, so the couple must hold OSHC during study and private cover on the 485 visa until they reach PR.",
+      "score": 70,
+      "summary": "Excellent Medicare for PRs/citizens, but Bangladesh has no reciprocal deal so OSHC/private until PR.",
+      "reasoning": "Medicare gives permanent residents and citizens high-quality, low-cost universal care, but Bangladesh is not among the 11 Reciprocal Health Care Agreement countries, so the couple must hold mandatory OSHC during study and private cover on the 485 visa until they reach PR. Coverage gaps and out-of-pocket costs persist for the full temporary phase.",
       "evidence": [
         "Medicare for PRs and citizens (universal, high quality)",
-        "No Australia-Bangladesh reciprocal agreement; OSHC/private cover until PR",
-        "Adequate health insurance a 485 visa condition"
+        "Bangladesh not among the 11 RHCA countries; no reciprocal agreement",
+        "OSHC mandatory for the full duration of the student visa",
+        "Adequate health insurance is a 485 visa condition"
       ],
       "links": [
         {
           "title": "Services Australia Medicare",
           "url": "https://www.servicesaustralia.gov.au/medicare"
+        },
+        {
+          "title": "Services Australia Reciprocal Health Care Agreements",
+          "url": "https://www.servicesaustralia.gov.au/reciprocal-health-care-agreements"
         }
       ],
       "lastReviewed": "2026-06-16"
@@ -191,50 +225,65 @@
       "status": "scored",
       "score": 88,
       "summary": "English-native and highly multicultural; no language bar for study, work, PR or citizenship.",
-      "reasoning": "English is the everyday and working language, and the large multicultural population with established migrant communities makes integration straightforward; no separate language barrier applies to the migration or citizenship pathway.",
+      "reasoning": "English is the everyday and working language, removing any separate language barrier for study, employment, PR or citizenship, and the highly multicultural population with established migrant communities makes day-to-day integration straightforward. Livability is high; the only marginal drag is rising social tension noted under safety and diaspora.",
       "evidence": [
-        "English working and everyday language",
-        "Highly multicultural population; no language bar for PR/citizenship"
+        "English working and everyday language; no separate language test friction for PR/citizenship",
+        "Highly multicultural population with established migrant communities",
+        "High livability and openness for skilled newcomers"
       ],
       "links": [
         {
           "title": "Study Australia living in Australia",
           "url": "https://www.studyaustralia.gov.au/en/plan/living-in-australia"
+        },
+        {
+          "title": "ABS religious affiliation in Australia",
+          "url": "https://www.abs.gov.au/articles/religious-affiliation-australia"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "safety-law": {
       "status": "scored",
-      "score": 82,
-      "summary": "Strong rule of law (WJP 11/143, score 0.80) and generally low violent crime.",
-      "reasoning": "Australia ranks 11th of 143 in the 2025 WJP Rule of Law Index (score 0.80) with stable courts, low violent crime and anti-discrimination protections, though it slipped slightly on checks and balances.",
+      "score": 80,
+      "summary": "Strong rule of law (WJP 2025: 11/143, score 0.80) and generally low violent crime.",
+      "reasoning": "Australia ranks 11th of 143 in the 2025 WJP Rule of Law Index (overall score 0.80) with stable courts, low violent crime and anti-discrimination protections for migrants. It slipped two ranks year-on-year on checks and balances and judicial limits on government power, a modest negative.",
       "evidence": [
-        "WJP Rule of Law Index 2025: 11th of 143, score 0.80",
+        "WJP Rule of Law Index 2025: 11th of 143, overall score 0.80",
+        "Slipped two ranks on checks and balances / judicial limits",
         "Generally low violent crime; migrant anti-discrimination protections"
       ],
       "links": [
         {
-          "title": "WJP Rule of Law Index",
-          "url": "https://worldjusticeproject.org/rule-of-law-index/"
+          "title": "WJP Rule of Law Index 2025 (country page)",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/country/2025"
+        },
+        {
+          "title": "WJP Rule of Law Index Australia factsheet (PDF)",
+          "url": "https://worldjusticeproject.org/sites/default/files/documents/Australia_2.pdf"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "politics": {
       "status": "scored",
-      "score": 62,
-      "summary": "Stable democracy, but a sustained 2024-2026 migration crackdown adds real uncertainty.",
-      "reasoning": "Institutions are stable, yet the Labor government's managed-growth agenda has driven frequent restrictions since 2024 (student caps, Evidence Level 3, doubled 485/student fees, points tightening), creating policy risk for newcomers.",
+      "score": 58,
+      "summary": "Stable democracy, but a sustained 2024-2026 migration crackdown adds real policy uncertainty for newcomers.",
+      "reasoning": "Institutions are stable, but the government's managed-growth agenda has driven frequent restrictions since 2024 (student caps at 295,000 for 2026, Evidence Level 3 for Bangladesh, doubled 485 and student-visa fees, ICT points tightening), creating genuine policy volatility for incoming migrants. The direction of travel is tightening rather than steady pro-skilled-migration.",
       "evidence": [
         "Stable parliamentary democracy",
-        "Managed-growth crackdown: student caps, EL3, fee hikes, 485 cuts (2024-26)",
-        "Net overseas migration cut from 429k peak toward ~306k"
+        "2026 student-place cap 295,000; Bangladesh moved to Evidence Level 3 (Jan 2026)",
+        "Doubled 485 fee (AUD 4,600) and AUD 2,000 student charge; ICT points effectively ~90-110",
+        "2025-26 permanent program held flat at 185,000"
       ],
       "links": [
         {
           "title": "Home Affairs migration program planning (official)",
           "url": "https://immi.homeaffairs.gov.au/what-we-do/migration-program-planning-levels"
+        },
+        {
+          "title": "Fragomen: Australia migration program planning levels 2025-26",
+          "url": "https://www.fragomen.com/insights/australia-migration-program-planning-levels-202526-announced.html"
         }
       ],
       "lastReviewed": "2026-06-16"
@@ -242,34 +291,45 @@
     "tax": {
       "status": "scored",
       "score": 55,
-      "summary": "Progressive income tax to 45% plus 2% Medicare levy; moderate-to-high burden.",
-      "reasoning": "Resident rates for 2025-26 run 16% to 45% with a 2% Medicare levy (47% top effective rate over AUD 190k), so a tech couple faces a moderate-to-high burden though the tax-free threshold cushions lower income.",
+      "summary": "Progressive 2025-26 income tax to 45% plus 2% Medicare levy; moderate-to-high burden.",
+      "reasoning": "Resident rates for 2025-26 run 16% (AUD 18,201-45,000), 30% (to 135,000), 37% (to 190,000) and 45% above AUD 190,000, plus a 2% Medicare levy giving a ~47% top effective rate. A dual tech couple faces a moderate-to-high burden, though the AUD 18,200 tax-free threshold cushions lower bands.",
       "evidence": [
         "2025-26 brackets: 16/30/37/45% plus 2% Medicare levy",
-        "Top effective rate 47% over AUD 190,000; tax-free under AUD 18,200"
+        "Top effective rate ~47% over AUD 190,000",
+        "Tax-free threshold AUD 18,200",
+        "Medicare levy quoted separately from headline rates"
       ],
       "links": [
         {
           "title": "Australian Taxation Office individual tax rates",
           "url": "https://www.ato.gov.au/tax-rates-and-codes/tax-rates-australian-residents"
+        },
+        {
+          "title": "PwC tax summaries: Australia individual income tax",
+          "url": "https://taxsummaries.pwc.com/australia/individual/taxes-on-personal-income"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "muslim-diaspora": {
       "status": "scored",
-      "score": 72,
-      "summary": "Large Muslim and Bangladeshi communities, halal everywhere, but rising post-2024 Islamophobia.",
-      "reasoning": "Australia has ~813,000 Muslims (3.2%) and a sizeable Bangladeshi community (~51,000, mostly in NSW/Victoria) with mosques and halal food ubiquitous in Sydney (Lakemba, Auburn) and Melbourne; however, anti-Muslim incidents have risen since late 2024.",
+      "score": 66,
+      "summary": "Large Muslim and Bangladeshi communities, halal everywhere, but a sharp 2025-26 rise in Islamophobia.",
+      "reasoning": "Australia has ~813,000 Muslims (3.2%, 2021 Census) and ~51,000 Bangladesh-born residents (84% Muslim), mostly in NSW/Victoria, with mosques and halal food ubiquitous in Sydney (Lakemba, Auburn) and Melbourne. However, anti-Muslim sentiment has surged: the National Imams Council logged a ~200% rise late 2025 into 2026 (62 incidents in December alone), and the Islamophobia envoy called it pervasive in his Sept 2025 report.",
       "evidence": [
-        "~813,000 Muslims (3.2%); ~51,000 Bangladesh-born, mostly NSW/Victoria",
+        "~813,000 Muslims (3.2%, 2021 Census); ~51,000 Bangladesh-born (84% Muslim), mostly NSW/Victoria",
         "Mosques and halal food ubiquitous in Sydney/Melbourne",
-        "Rising Islamophobia incidents reported 2024-2025"
+        "ANIC logged ~200% surge in incidents late 2025-2026; 62 in December alone",
+        "Islamophobia envoy's Sept 2025 report called sentiment pervasive and at times terrifying"
       ],
       "links": [
         {
           "title": "ABS religious affiliation in Australia",
-          "url": "https://www.abs.gov.au/statistics/people/people-and-communities/religious-affiliation-australia"
+          "url": "https://www.abs.gov.au/articles/religious-affiliation-australia"
+        },
+        {
+          "title": "Bangladeshi Australians (population/community data)",
+          "url": "https://en.wikipedia.org/wiki/Bangladeshi_Australians"
         }
       ],
       "lastReviewed": "2026-06-16"

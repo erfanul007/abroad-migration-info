@@ -5,7 +5,7 @@
   "iso3": "FIN",
   "flag": "🇫🇮",
   "region": "Europe",
-  "summary": "Top-tier safety and English-friendly tech sector, but 2024-2026 immigration tightening (6y citizenship/PR, A2 language, 3-month unemployment rule), high tax, a Finns-Party-led restrictive government, and a small Muslim community with rising Islamophobia weigh against a Bangladeshi Muslim couple.",
+  "summary": "World-leading safety, very high English and a structural IT/AI talent shortage suit two software engineers, and a Finnish MSc unlocks a fast PR route. But visas route through New Delhi, 2025-2026 immigration tightening (6yr PR/citizenship, B1/A2 language, work-history and income tests, citizenship test from 2027) and a Finns-Party-led restrictive government plus a small Bangladeshi community amid high anti-Muslim discrimination weigh against this couple.",
   "lastReviewed": "2026-06-16",
   "links": [
     { "title": "Finnish Immigration Service (Migri)", "url": "https://migri.fi/en/home" },
@@ -14,233 +14,243 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "score": 65,
-      "summary": "Structural IT/AI shortage (130k hires needed by 2030) but a 2026 downturn with ~9% unemployment dampens demand.",
-      "reasoning": "Finland has a recognised long-term shortage in software, AI and deep tech, and specialist developer pools stay thin, so English-speaking senior engineers remain sought after. However, the 2026 labour market is in slow recovery with unemployment near 9% and vacancies down ~40%, adding friction for two job-seekers entering at once.",
+      "score": 66,
+      "summary": "Structural IT/AI shortage (~130k IT hires needed by 2030) but a 2026 downturn with ~10% unemployment limits entry for two at once.",
+      "reasoning": "Finland has a recognised long-term shortage in software, AI and cybersecurity, with the tech sector growing ~15% and the country projected to need ~130,000 new IT professionals by 2030, so experienced English-speaking engineers stay in demand. However, the 2026 labour market is soft with general unemployment near 10% and entry-level roles intensely competitive, so placing both spouses quickly carries real friction, easing at senior level (7+ years).",
       "evidence": [
-        "Finland projected to need ~130,000 new IT hires by 2030; acute shortages persist in advanced tech.",
-        "2026 labour market: unemployment near 9%, general vacancies down ~40% versus peak.",
-        "Helsinki-Uusimaa tech ecosystem (incl. Nokia, gaming, deep tech) drives most demand.",
-        "Foreign tech professionals with English plus basic Finnish are favoured for long-term roles."
+        "Finland projected to need ~130,000 new IT professionals by 2030; ~25,000 new tech roles being added (2026).",
+        "Acute shortages in AI engineering and cybersecurity; ~90 open ML/AI roles logged (Oct 2025).",
+        "General unemployment ~10% in 2026; entry-level roles see ~200 applicants each.",
+        "Senior/specialist pool is thin and largely employed, favouring experienced hires."
       ],
       "links": [
-        { "title": "Finnish IT industry talent fears amid restrictions (Computer Weekly)", "url": "https://www.computerweekly.com/news/366562316/Finnish-IT-industry-talent-fears-amid-government-restrictions" },
-        { "title": "Migri – Work permits", "url": "https://migri.fi/en/information-bank/work-permits" }
+        { "title": "Migri – Work in Finland", "url": "https://migri.fi/en/work-in-finland" },
+        { "title": "Hiring in Finland in 2026 (Intelligent Employment)", "url": "https://intelligentemployment.com/the-realities-of-hiring-in-finland-in-2026/" },
+        { "title": "Top in-demand skills in Finland 2026 (Edstellar)", "url": "https://www.edstellar.com/blog/skills-in-demand-in-finland" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "visa-access": {
       "status": "scored",
       "score": 50,
-      "summary": "No Finnish residence-permit biometrics in Dhaka; Bangladeshis must travel to New Delhi (VFS + Finland Embassy).",
-      "reasoning": "For long-term study/work residence permits, Bangladeshi nationals identify and give biometrics at the Embassy of Finland in New Delhi via VFS Global, requiring travel to India. Document legalisation (birth/marriage certificates) is mandatory for Bangladeshi-origin applicants, adding cost and time.",
+      "summary": "No Finnish processing in Dhaka; Bangladeshis apply on Enter Finland then give biometrics at VFS New Delhi (Embassy of Finland).",
+      "reasoning": "For long-term study/work residence permits, Bangladeshi nationals apply on Enter Finland and then identify and give biometrics at the Finland Visa Application Centre (VFS Global) in New Delhi, since there is no Finnish mission in Dhaka and Finland is represented by Sweden for visas. Document legalisation (birth/marriage certificates) is required for Bangladeshi-origin applicants, and processing of permits typically runs up to 90 days, adding cost, travel and time.",
       "evidence": [
-        "Embassy of Finland in New Delhi handles Bangladesh; residence-permit biometrics taken at VFS New Delhi.",
+        "Embassy of Finland, New Delhi handles Bangladesh; biometrics taken at VFS New Delhi by appointment.",
+        "Process: apply on Enter Finland first, then book a VFS appointment in New Delhi.",
         "Bangladeshi applicants must legalise birth/marriage and bachelorhood/spinsterhood certificates.",
-        "Apply on Enter Finland first, then book VFS appointment in New Delhi.",
-        "Student residence-permit fee ~€350; processing typically weeks to a few months."
+        "Permit applications generally processed within ~90 days; VFS service fee plus courier applies."
       ],
       "links": [
         { "title": "Residence permits to Finland – Finland abroad: Bangladesh", "url": "https://finlandabroad.fi/web/bgd/residence-permits-to-finland" },
-        { "title": "Embassy of Finland, New Delhi – mission", "url": "https://finlandabroad.fi/web/bgd/mission" }
+        { "title": "Embassy of Finland, New Delhi – Finland abroad: Bangladesh", "url": "https://finlandabroad.fi/web/bgd/mission" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "citizenship": {
       "status": "scored",
-      "score": 55,
-      "summary": "Residence raised from 5 to 6 years (2025) plus A2 Finnish/Swedish; dual allowed but under review, test from 2027.",
-      "reasoning": "Finland tightened naturalisation: six consecutive years of lawful residence and CEFR A2 Finnish or Swedish are now required (the earlier 8-year proposal landed at 6). Dual citizenship remains permitted but a government study is under way, and a citizenship test is set to enter force in 2027, so this is a slow, tightening path.",
+      "score": 62,
+      "summary": "Dual citizenship allowed (no renunciation), but 6yr residence (5yr if A2 Finnish/Swedish), income test from Dec 2025, test from 2027.",
+      "reasoning": "From 17 December 2025 the residence requirement rose from five to six consecutive years, reduced to five for applicants who meet the A2 Finnish/Swedish language requirement (the mooted eight years was not enacted). A new sufficient-income rule (no reliance on unemployment/social assistance) applies, and a citizenship test enters force early 2027. Crucially, Finland still permits dual citizenship, so this couple need not renounce Bangladeshi nationality — a major plus that offsets the language and tightening friction.",
       "evidence": [
-        "Residence requirement increased from 5 to 6 consecutive years (effective late 2025).",
-        "CEFR A2 Finnish or Swedish language skills now mandatory.",
-        "Dual citizenship currently allowed; a review study is in preparation.",
-        "Citizenship test proposal submitted April 2026, planned to take effect early 2027."
+        "Residence: 6 consecutive years standard, 5 years if A2 Finnish or Swedish met (effective 17 Dec 2025).",
+        "New self-sufficiency rule: no unemployment benefit/social assistance >3 months in the past 2 years.",
+        "Dual citizenship permitted; Bangladeshi nationality need not be renounced.",
+        "Citizenship test (20-40 MCQs, ~70% pass, in Finnish/Swedish) to take effect early 2027."
       ],
       "links": [
-        { "title": "Migri – Finnish citizenship FAQ", "url": "https://migri.fi/en/faq-finnish-citizenship" },
-        { "title": "Ministry of the Interior – Reform of the Citizenship Act", "url": "https://intermin.fi/en/projects/reform-of-the-citizenship-act" }
+        { "title": "Migri – Period of residence", "url": "https://migri.fi/en/period-of-residence" },
+        { "title": "Ministry of the Interior – Reform of the Citizenship Act", "url": "https://intermin.fi/en/projects/reform-of-the-citizenship-act" },
+        { "title": "Finnish Government – citizenship test proposal", "url": "https://valtioneuvosto.fi/en/-/1410869/government-submits-several-proposals-to-parliament-concerning-migration" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "post-study-work": {
       "status": "scored",
-      "score": 75,
-      "summary": "2-year job-search residence permit after graduation, splittable; spouse can work; 3-month unemployment rule adds risk.",
-      "reasoning": "Graduates of Finnish degrees get a residence permit to look for work or start a business for up to two years (can be taken in parts within three years, applied for up to five years after graduation). Switching to a work permit is straightforward, but the 2025 three-month unemployment rule (six months for specialists or 2-year residents) means job loss can trigger permit cancellation.",
+      "score": 76,
+      "summary": "2-year job-search residence permit after graduation, splittable; family member works freely; 3-6mo unemployment grace eases job loss.",
+      "reasoning": "Graduates of Finnish degrees get a residence permit to look for work or start a business for up to two years (can be taken in parts, applied for up to five years after graduation), and switching to a Specialist/EU Blue Card permit is straightforward for engineers above the €3,937/month (2026) salary floor. A family member on family-ties grounds has an unrestricted right to work throughout, and the unemployment grace period (three months, six for specialists/Blue Card holders or 2-year residents, effective 11 June 2025) softens the risk of job loss voiding a permit.",
       "evidence": [
-        "Post-study residence permit to seek work: up to 2 years, splittable into parts.",
-        "Can apply up to 5 years after graduation; degree certificate required.",
-        "Three-month unemployment protection (six months for specialists) from 11 June 2025.",
-        "Family member's residence permit grants unrestricted work rights during this phase."
+        "Post-study residence permit to seek work/start a business: up to 2 years, splittable, applied within 5 years of graduating.",
+        "Specialist/EU Blue Card salary floor €3,937/month (2026); engineers clear it comfortably.",
+        "Family-ties permit holder has unrestricted right to work, trade and study.",
+        "Unemployment grace: 3 months (6 months for specialists/Blue Card/2-yr residents) from 11 June 2025."
       ],
       "links": [
-        { "title": "Migri – Seeking work after graduation", "url": "https://migri.fi/en/seeking-work-after-graduation-or-completion-of-research" },
-        { "title": "Migri – Changes to work-based permits (unemployment protection period)", "url": "https://migri.fi/en/-/changes-to-work-based-residence-permits-protection-period-for-unemployment-and-new-notification-obligation-for-employers" }
+        { "title": "Migri – Seeking work after graduation or completion of research", "url": "https://migri.fi/en/seeking-work-after-graduation-or-completion-of-research" },
+        { "title": "Finland – Unemployment Protection Period (Fragomen)", "url": "https://www.fragomen.com/insights/finland-unemployment-protection-period-for-foreign-workers-in-effect.html" },
+        { "title": "Migri – Income requirement (work)", "url": "https://migri.fi/en/working-in-finland/income-requirement" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "spouse-family": {
       "status": "scored",
-      "score": 82,
-      "summary": "Family-ties permit grants unrestricted work rights in both study and work phases; income requirement and student-family tightening apply.",
-      "reasoning": "A spouse who holds a residence permit on the basis of family ties has an unrestricted right to work, run a business and study in both the study and work phases, so the second software engineer can work freely. Bringing family carries an income requirement and the government has tightened conditions for students' family members, but the couple may also each apply independently as students.",
+      "score": 84,
+      "summary": "Both can work freely: family-ties permit gives unrestricted work in study and work phases; or each applies independently as a student.",
+      "reasoning": "A spouse holding a residence permit on the basis of family ties has an unrestricted right to work, run a business and study throughout both the study and work phases, so the second software engineer can work freely from arrival — no taught-master's dependant work ban as in the UK. Bringing family carries an income requirement, and the government has tightened conditions for students' family members, but the couple can also each apply independently as students, strengthening their position.",
       "evidence": [
-        "Family-ties residence permit = unrestricted right to work, trade and study.",
-        "Spouses in Finland with a residence permit may work without restriction.",
-        "Income requirement applies to bring family (e.g. ~€1,350/month for a student couple, region-dependent).",
-        "Government has tightened conditions for international students' family members."
+        "Family-ties residence permit = unrestricted right to work, pursue a trade and study, in both phases.",
+        "First family-member permit up to 1 year, extendable up to 4 years (tied to sponsor's permit dates).",
+        "Income requirement applies to bring family; conditions for students' family members tightened.",
+        "Both spouses can instead apply independently as degree students, each gaining study + work rights."
       ],
       "links": [
         { "title": "Migri – Student's family members", "url": "https://migri.fi/en/students-family-members" },
-        { "title": "Migri – Spouse in Finland with a residence permit", "url": "https://migri.fi/en/spouse-in-finland-with-a-residence-permit" }
+        { "title": "Migri – Income requirement for family members", "url": "https://migri.fi/en/income-requirement-for-family-members-of-a-person-who-has-been-granted-a-residence-permit-in-finland" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "msc-study": {
       "status": "scored",
       "score": 70,
-      "summary": "Many English-taught MSc programmes; non-EU tuition €8-20k/yr with scholarships/waivers; student and spouse may work.",
-      "reasoning": "Finnish universities offer abundant English-taught CS/AI master's programmes. Non-EU tuition runs roughly €8,000-20,000 per year, but merit scholarships and partial-to-full waivers (incl. the national Finland Scholarship) cut the cost substantially. Students may work, accompanying spouses get full work rights, and the student healthcare fee is nominal.",
+      "summary": "Abundant English-taught CS/AI MSc; non-EU tuition ~€8-20k/yr with waivers; student works, spouse works; €9,600/yr funds proof.",
+      "reasoning": "Finnish universities offer many English-taught CS/AI master's programmes, with non-EU tuition roughly €8,000-20,000/year and widely available 25-100% scholarships/waivers (incl. the national Finland Scholarship). Students may work, accompanying spouses get full work rights, and the FSHS health fee is nominal, but applicants must show €9,600 in funds for the first year (€800/month) on a six-month bank statement.",
       "evidence": [
-        "Non-EU master's tuition ~€8,000-20,000/year (e.g. Helsinki €13,000-18,000).",
-        "Scholarships/fee waivers of 25-100% widely available; national Finland Scholarship scheme.",
-        "Student residence permit allows part-time work; spouse permit allows full-time work.",
-        "Student healthcare fee ~€36/term; modest student-union fees."
+        "Non-EU master's tuition ~€8,000-20,000/year (e.g. University of Helsinki ~€13,000-18,000).",
+        "Scholarships/fee waivers of 25-100% common; national Finland Scholarship scheme.",
+        "Proof of funds: €9,600 for first year (€800/month), shown on a 6-month bank statement.",
+        "Student permit allows part-time work; accompanying spouse gets unrestricted work rights; FSHS fee ~€36/term."
       ],
       "links": [
-        { "title": "Study in Finland – admissions and tuition", "url": "https://www.studyinfinland.fi/admissions" },
-        { "title": "University of Helsinki – tuition fees and scholarships", "url": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/tuition-fees-and-scholarship-programme" }
+        { "title": "Study in Finland – Student residence permit", "url": "https://www.studyinfinland.fi/admissions/student-residence-permit" },
+        { "title": "Migri – Income requirement for students", "url": "https://migri.fi/en/income-requirement-for-students" },
+        { "title": "University of Helsinki – residence permit for degree students", "url": "https://studies.helsinki.fi/instructions/article/residence-permit-degree-students" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "pr-pathway": {
       "status": "scored",
-      "score": 50,
-      "summary": "PR continuous-residence raised from 4 to 6 years plus A2 language and 2-year work history (8 Jan 2026).",
-      "reasoning": "From 8 January 2026 the continuous residence required for a permanent residence permit rose from four to six years, and applicants must show satisfactory Finnish or Swedish and two years of work in Finland. This makes PR slower and conditional, and student years count only partially toward continuous residence.",
+      "score": 70,
+      "summary": "Finnish MSc/doctoral grads have NO residence-period requirement for PR; others need 6yr (4yr if €40k) + B1 + 2yr work.",
+      "reasoning": "From 8 January 2026 the standard continuous-residence requirement for permanent residence rose from four to six years, with new B1 Finnish/Swedish and two-year work-history requirements; a €40,000 annual income gives a four-year fast-track. Decisively for this couple, there is no period-of-residence requirement at all for holders of a Finnish master's, licentiate or doctoral degree, so completing their MSc in Finland makes PR fast and predictable once the work-history and language conditions are met.",
       "evidence": [
-        "Continuous residence for PR extended from 4 to 6 years (effective 8 January 2026).",
-        "Satisfactory Finnish/Swedish and two years of work in Finland required.",
-        "Amendments to the Aliens Act approved by the President on 22 December 2025.",
-        "Study time counts only partially toward the continuous-residence calculation."
+        "No residence-period requirement for PR for Finnish master's/licentiate/doctoral (or bachelor's) graduates.",
+        "Standard residence raised 4→6 years; 4-year fast-track if annual income ≥ €40,000 (effective 8 Jan 2026).",
+        "B1 Finnish/Swedish and ≥2 years of gainful employment in Finland now required.",
+        "Amendments signed by the President 22 Dec 2025; pre-8-Jan applications use the old 4-year rules."
       ],
       "links": [
-        { "title": "Migri – Amendments to PR provisions from 8 January 2026", "url": "https://migri.fi/en/-/amendments-to-provisions-on-permanent-residence-permits-enter-into-force-on-8-january-2026" },
-        { "title": "Finnish Government – stricter conditions for permanent residence permits", "url": "https://valtioneuvosto.fi/en/-/1410869/stricter-conditions-for-permanent-residence-permits-as-of-8-january" }
+        { "title": "Migri – Amendments to Aliens Act regarding permanent residence permits 2026", "url": "https://migri.fi/en/amendments-to-aliens-act-regarding-permanent-residence-permits-2026" },
+        { "title": "Finnish Government – stricter PR conditions as of 8 January", "url": "https://valtioneuvosto.fi/en/-/1410869/stricter-conditions-for-permanent-residence-permits-as-of-8-january" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "income-cost": {
       "status": "scored",
       "score": 68,
-      "summary": "Two software salaries (~€50-72k each) give solid dual income vs ~€2,300/mo Helsinki cost, but tax erodes net.",
-      "reasoning": "Mid-level software engineers earn roughly €4,200-5,800/month gross (€50-72k/year) in Helsinki, netting about €3,000-4,000 after tax; two earners support comfortable savings against a ~€2,300/month cost of living. High effective tax and social contributions limit how much accumulates.",
+      "summary": "Two software salaries (mid ~€62-72k, senior ~€95k) net ~€3.5-4.5k each vs ~€2,000-2,300/mo costs give solid savings.",
+      "reasoning": "Mid-level software engineers in Helsinki earn roughly €62,000-72,000/year gross (seniors ~€95,000), netting about €3,500-4,500/month after tax; two earners support comfortable savings against Helsinki single-person costs of ~€2,000-2,300/month including a ~€1,050 city-centre one-bed rent. The dual income materially improves savings capacity, though Helsinki is the second-priciest Finnish city and a soft 2026 market tempers upside.",
       "evidence": [
-        "Software engineer average ~€50,660/year; mid-level Helsinki €62,000-72,000.",
-        "Net pay ~€3,000-4,000/month per engineer in the capital.",
-        "Helsinki cost of living ~€2,300/month incl. rent.",
-        "Dual income materially improves savings capacity for the couple."
+        "Helsinki software engineer: mid-level €62,000-72,000/yr, senior (8+ yrs) ~€95,000, average ~€84k gross.",
+        "Net pay ~€3,500-4,500/month per mid-to-senior engineer in the capital.",
+        "Helsinki 1-bed city-centre rent ~€1,049/month; single-person costs ~€2,000-2,300 incl. rent (Numbeo, Jun 2026).",
+        "Two incomes give strong combined savings; housing pressure on small flats due to immigration demand."
       ],
       "links": [
-        { "title": "Average Salary in Finland & Helsinki (relocate.me)", "url": "https://relocate.me/salaries/finland-average-salary" }
+        { "title": "Cost of Living in Helsinki – Numbeo (Jun 2026)", "url": "https://www.numbeo.com/cost-of-living/in/Helsinki" },
+        { "title": "Software Engineer Salary in Helsinki – Levels.fyi", "url": "https://www.levels.fyi/t/software-engineer/locations/helsinki-fin" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "healthcare": {
       "status": "scored",
       "score": 82,
-      "summary": "Universal tax-funded healthcare via wellbeing counties; high quality; students get cheap FSHS access.",
-      "reasoning": "Finland provides universal, publicly funded healthcare to residents through the wellbeing services counties, with strong outcomes and top-tier life expectancy. Higher-education students access affordable Finnish Student Health Service care for a nominal per-term fee, though non-EU newcomers may need private cover before they qualify as residents.",
+      "summary": "Universal tax-funded healthcare via wellbeing counties; high quality; students get cheap FSHS; newcomers may need bridging cover.",
+      "reasoning": "Finland provides universal, publicly funded healthcare to residents through the wellbeing services counties, with strong preventive care and among the world's best life expectancy outcomes. Higher-education students access affordable FSHS care for a nominal per-term fee, though non-EU newcomers may need private insurance until they qualify as municipal residents.",
       "evidence": [
-        "Universal healthcare for residents, organised by wellbeing services counties.",
-        "Strong preventive focus; among the best life expectancy and infant-mortality outcomes.",
-        "Students access FSHS for ~€36/term (general, mental health, dental).",
+        "Universal healthcare for residents, organised by wellbeing services counties (SOTE reform).",
+        "Strong preventive focus; among the best life expectancy and low infant-mortality outcomes.",
+        "Students access FSHS for ~€36/term (general, mental health, dental care).",
         "Non-EU arrivals may need private insurance until municipal/residency coverage applies."
       ],
       "links": [
-        { "title": "Healthcare in Finland (international student insurance guide)", "url": "https://www.internationalstudentinsurance.com/finland-student-insurance/healthcare-in-finland.php" }
+        { "title": "InfoFinland – Health services in Finland", "url": "https://www.infofinland.fi/en/health/health-services-in-finland" },
+        { "title": "Study in Finland – health and wellbeing", "url": "https://www.studyinfinland.fi/living-in-finland/health-and-wellbeing" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "culture-language": {
       "status": "scored",
       "score": 68,
-      "summary": "Very high English (EF #12, 'very high'), workable daily, but A2 Finnish/Swedish now required for PR and citizenship.",
-      "reasoning": "English works well in daily life, tech workplaces and universities; Finland ranks 12th globally in the 2025 EF index ('very high proficiency'). However, PR and citizenship now require CEFR A2 Finnish or Swedish, and Finnish is a notoriously hard language, so long-term settlement carries a real language barrier.",
+      "summary": "Very high English (EF #12, score 603) works day-to-day, but A2 needed for citizenship and B1 for PR; Finnish is hard.",
+      "reasoning": "English works well in daily life, tech workplaces and English-taught degrees; Finland ranks 12th globally in the 2025 EF index (score 603, 'very high proficiency'). However, citizenship now requires A2 and permanent residence B1 Finnish/Swedish, and Finnish is a Uralic language widely regarded as hard, so long-term settlement carries a real, escalating language barrier.",
       "evidence": [
-        "EF EPI 2025: score 603, ranked 12th, 'very high proficiency' band.",
-        "English is widely used in tech workplaces and English-taught degrees.",
-        "A2 Finnish/Swedish now required for both PR and citizenship.",
-        "Finnish is a Uralic language widely regarded as difficult for newcomers."
+        "EF EPI 2025: Finland score 603, ranked 12th of 123, 'very high proficiency'.",
+        "English widely used in tech workplaces and English-taught master's programmes.",
+        "A2 Finnish/Swedish for citizenship; B1 for permanent residence.",
+        "Finnish (Uralic) is widely considered difficult for newcomers, raising the integration bar."
       ],
       "links": [
-        { "title": "EF English Proficiency Index 2025 – Finland", "url": "https://www.ef.com/wwen/epi/regions/europe/finland/" }
+        { "title": "EF English Proficiency Index 2025 (report PDF)", "url": "https://www.ef.com/assetscdn/WIBIwq6RdJvcD9bc8RMd/cefcom-epi-site/reports/2025/ef-epi-2025-english.pdf" },
+        { "title": "Migri – Period of residence (language requirement)", "url": "https://migri.fi/en/period-of-residence" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "safety-law": {
       "status": "scored",
-      "score": 95,
-      "summary": "World-leading rule of law (WJP #3) and second-least-corrupt country (CPI #2); very low crime.",
-      "reasoning": "Finland sits at the very top globally for rule of law and integrity, ranking 3rd in the WJP Rule of Law Index 2025 and 2nd least corrupt on Transparency International's 2025 Corruption Perceptions Index. Strong legal protections, order and security make it among the safest destinations.",
+      "score": 92,
+      "summary": "World-leading rule of law (WJP 2025 #3) and second-least-corrupt (CPI 2025, score 88); very low crime.",
+      "reasoning": "Finland sits at the very top globally for rule of law and integrity, ranking 3rd in the WJP Rule of Law Index 2025 (behind Denmark and Norway) and 2nd least corrupt on Transparency International's 2025 CPI with a score of 88. Strong legal protections, order and security make it among the safest destinations, though migrants face administrative scrutiny under the current policy climate.",
       "evidence": [
-        "WJP Rule of Law Index 2025: Finland ranked 3rd globally.",
-        "Transparency International CPI 2025: 2nd least corrupt of 180 countries.",
-        "Strong scores on order/security, fundamental rights and civil/criminal justice.",
-        "Consistently rated among the world's safest societies."
+        "WJP Rule of Law Index 2025: Finland ranked 3rd globally (Denmark 1, Norway 2).",
+        "Transparency International CPI 2025: score 88, 2nd of 180 countries.",
+        "Strong order/security, fundamental rights and civil/criminal justice scores.",
+        "Consistently rated among the world's safest, least-corrupt societies."
       ],
       "links": [
-        { "title": "WJP Rule of Law Index 2025 – press release", "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2025-global-press-release" }
+        { "title": "WJP Rule of Law Index 2025 – global press release", "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2025-global-press-release" },
+        { "title": "Transparency International CPI 2025 – Finland", "url": "https://www.transparency.org/en/cpi/2025/index/fin" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "politics": {
       "status": "scored",
       "score": 45,
-      "summary": "Stable institutions but the most right-wing government ever; Finns-Party-driven immigration crackdown and tightening.",
-      "reasoning": "Institutions are stable, yet the Orpo coalition includes the radical-right Finns Party as the main driver of an unprecedented immigration crackdown, having tightened citizenship, PR and work-permit rules and cut refugee intake. The restrictive, anti-immigrant policy direction is a clear negative for a non-EU Muslim couple's long-term certainty.",
+      "summary": "Stable institutions but a right-wing Orpo coalition with the Finns Party drives a sustained immigration crackdown.",
+      "reasoning": "Institutions are stable, but the Orpo coalition (in office since 2023) includes the radical-right Finns Party as the main driver of an unprecedented immigration crackdown, having tightened citizenship, PR and work-permit rules, added a citizenship test and cut refugee intake across 2024-2026. The restrictive, anti-immigrant policy direction and ongoing volatility in the rules are a clear negative for a non-EU Muslim couple's long-term certainty.",
       "evidence": [
-        "Orpo government described as Finland's 'most right-wing ever', with the Finns Party central.",
-        "Government announced a 'paradigm shift' immigration crackdown.",
-        "Citizenship, PR and work-permit conditions tightened across 2024-2026.",
-        "Refugee resettlement quota cut from 1,050 to 500 per year."
+        "Orpo coalition (since 2023): National Coalition + Finns Party (20.1% in 2023) + SPP + Christian Democrats.",
+        "Government declared a 'paradigm shift' immigration crackdown.",
+        "Citizenship, PR and work-permit conditions tightened repeatedly in 2024-2026; citizenship test added.",
+        "Refugee resettlement quota cut; eastern-border asylum rejection law extended to end-2026."
       ],
       "links": [
-        { "title": "Finland's new government announces immigration crackdown (France 24)", "url": "https://www.france24.com/en/europe/20230616-finland-s-new-government-announces-paradigm-shift-to-clamp-down-on-immigration" },
-        { "title": "Ministry of the Interior – Government Programme migration measures", "url": "https://intermin.fi/en/areas-of-expertise/migration/government-programme-measures-to-reform-migration-policy" }
+        { "title": "Ministry of the Interior – Government Programme migration measures", "url": "https://intermin.fi/en/areas-of-expertise/migration/government-programme-measures-to-reform-migration-policy" },
+        { "title": "Finland: domestic politics and the Orpo Government since 2023 (UK Commons Library)", "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10498/" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "tax": {
       "status": "scored",
-      "score": 40,
-      "summary": "High effective burden on software salaries: ~25-35% income deductions plus social/pension contributions.",
-      "reasoning": "Finland levies high overall taxation. Software-engineer salaries face roughly 25-35% combined income deductions, on top of municipal income tax (averaging ~7.5%), mandatory pension and health-insurance contributions, leaving net pay well below gross. The burden is heavy relative to lower-tax destinations.",
+      "score": 50,
+      "summary": "Effective ~30% on a €60k Helsinki salary (~70% net); Key Employee 25% flat regime can help high earners.",
+      "reasoning": "Finland's burden is high-but-not-extreme: a €60,000 Helsinki engineer faces roughly 30% combined state and municipal income tax (~5.8%) plus ~8.65% social contributions, taking home about 70% — comparable to Germany and lighter than Sweden or Denmark only at the margin. Foreign experts can elect the Key Employee flat 25% regime for up to 84 months if earning ≥€5,800/month, modestly improving take-home, but Finland remains well above low-tax destinations.",
       "evidence": [
-        "Software salaries see ~25-35% deductions before take-home pay.",
-        "Average municipal income tax ~7.5% (range ~4.7-10.9%) on wages, 2025.",
-        "Mandatory pension and health-insurance contributions add to the load.",
-        "Progressive state income tax applies on top of municipal tax."
+        "€60,000 Helsinki salary: ~30% effective rate, ~70% net (2026).",
+        "Employee social contributions 8.65% (pension 7.15%, unemployment 0.79%, health 0.84%) in 2026.",
+        "Municipal tax: Helsinki ~5.3-5.8%; national average ~7.57%.",
+        "Key Employee flat 25% regime for foreign experts earning ≥€5,800/month, up to 84 months."
       ],
       "links": [
-        { "title": "Finland gross-to-net salary calculator 2025", "url": "https://taxcalcpro.com/finland" }
+        { "title": "OECD – Taxing Wages 2026: Finland", "url": "https://www.oecd.org/en/publications/taxing-wages-2026_3a5169ef-en/full-report/finland_a35a14c3.html" },
+        { "title": "Finland – Individual taxes on personal income (PwC)", "url": "https://taxsummaries.pwc.com/finland/individual/taxes-on-personal-income" }
       ],
       "lastReviewed": "2026-06-16"
     },
     "muslim-diaspora": {
       "status": "scored",
       "score": 40,
-      "summary": "Small Muslim community (~3%), ~9k Bangladeshi; mosques/halal in cities but #3 in EU for Muslim discrimination.",
-      "reasoning": "Finland's Muslim population is relatively small (~150,000-170,000, ~3%), with around 9,000 people of Bangladeshi background and Sunni Bengali community life in Helsinki, Tampere and Turku, plus mosques and halal food in cities. However, Finland ranks 3rd in the EU for anti-Muslim discrimination (63% report it), Islamophobia is rising, and Helsinki still lacks a purpose-built mosque.",
+      "summary": "Small Muslim community (~3%), modest Bangladeshi presence; mosques/halal in cities but Finland #3 in EU for Muslim discrimination (63%).",
+      "reasoning": "Finland's Muslim population is small (~150,000-170,000, ~2.7-3%), concentrated in Greater Helsinki, with a modest Bangladeshi/Sunni Bengali community and mosques plus halal food in major cities (e.g. Helsinki Mosque, Helsinki Islamic Centre). However, an EU FRA survey ranks Finland 3rd-highest in the EU for anti-Muslim discrimination (63% of Muslims report it, behind Austria and Germany) and Islamophobia is rising, a real concern for a visibly Muslim South Asian couple.",
       "evidence": [
-        "Muslim population ~150,000-170,000 (~2.7-3%), concentrated in Greater Helsinki.",
-        "~9,000 people of Bangladeshi background, mainly Sunni Muslim.",
-        "Mosques and halal restaurants present in Helsinki and other cities.",
-        "EU FRA: Finland 3rd-highest for Muslim discrimination (63%); rising Islamophobia; no purpose-built Helsinki mosque."
+        "Muslim population ~150,000-170,000 (~2.7-3%), concentrated in Uusimaa/Greater Helsinki.",
+        "Mosques and halal food available in Helsinki, Tampere and Turku; Bangladeshi community modest.",
+        "EU FRA: Finland 3rd-highest in EU for Muslim discrimination (63%), after Austria (71%) and Germany (68%).",
+        "Islamophobia rising; surveys show notably negative attitudes toward Muslim communities."
       ],
       "links": [
-        { "title": "Islamophobia rising across Europe – Finland among highest (Euronews)", "url": "https://www.euronews.com/my-europe/2025/11/06/as-islamophobia-increases-around-europe-which-country-sees-the-most-anti-muslim-incidents" }
+        { "title": "Euronews – Islamophobia rising across Europe (FRA data)", "url": "https://www.euronews.com/my-europe/2025/11/06/as-islamophobia-increases-around-europe-which-country-sees-the-most-anti-muslim-incidents" },
+        { "title": "Helsinki Times – negative attitudes toward Muslim communities in Finland", "url": "https://www.helsinkitimes.fi/finland/news-in-brief/19661-new-study-reveals-negative-attitudes-towards-muslim-somalian-and-roma-communities-in-finland.html" }
       ],
       "lastReviewed": "2026-06-16"
     }

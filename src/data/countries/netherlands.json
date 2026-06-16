@@ -5,7 +5,7 @@
   "iso3": "NLD",
   "flag": "🇳🇱",
   "region": "Europe",
-  "summary": "Strong tech/AI job market and excellent English-taught MSc with full spouse work rights, but citizenship is weak for this couple: dual nationality is restricted (renunciation required) and a 5→10 year extension is proposed. Good study/work path; severe housing crisis; rising Islamophobia.",
+  "summary": "Strong AI/tech job market with full spouse work rights in both study and work phases, and abundant English-taught CS master's, but citizenship is a decisive weakness for this couple: dual nationality requires renunciation and a 2025 bill proposes extending naturalisation from 5 to 10 years. Severe housing crisis and rising Islamophobia temper an otherwise good study-to-PR path.",
   "lastReviewed": "2026-06-16",
   "links": [
     {
@@ -13,49 +13,54 @@
       "url": "https://ind.nl/en"
     },
     {
-      "title": "Study in NL / Nuffic",
-      "url": "https://www.studyinnl.org/"
+      "title": "IND – Required amounts / income requirements",
+      "url": "https://ind.nl/en/required-amounts-income-requirements"
     }
   ],
   "categories": {
     "job-market": {
       "status": "scored",
-      "score": 82,
-      "summary": "Severe SW/AI shortage, strong pay, easy highly-skilled-migrant sponsorship; both employable but English-only postings shrinking.",
-      "reasoning": "IT/AI is on the national shortage list with rapid growth; the highly skilled migrant scheme via recognised sponsors makes hiring both engineers straightforward at a modest salary norm. Friction: English-only vacancies dropped sharply, so non-Dutch speakers compete mainly at multinationals.",
+      "score": 81,
+      "summary": "IT/AI in persistent shortage, strong pay, easy HSM sponsorship; market cooled in 2025, English-only roles at multinationals.",
+      "reasoning": "Tech/IT stays on the shortage list with AI/ML skills growing ~17%/yr, and the recognised-sponsor highly skilled migrant scheme lets both engineers be hired at a modest salary norm with no labour-market test. The market softened in 2025 (Q3 2025 was the first quarter in four years with fewer vacancies than unemployed), yet 37% of employers still plan to expand in 2026, so both are very employable, mainly at English-working multinationals.",
       "evidence": [
-        "~100 occupations face severe shortage; tech growing ~15%/yr, AI roles ~32%/yr.",
-        "Thousands of English-language software vacancies; SW engineer pay ~€73k–€100k+.",
-        "Highly skilled migrant 2026 salary norm €5,942/mo (30+), €4,357 (<30); recent-grad/orientation rate €2,989.",
-        "English-only postings reportedly fell from ~60% to ~10%, raising friction for non-Dutch speakers."
+        "IND 2026 HSM salary norms: €5,942/mo (30+), €4,357/mo (<30), €3,122/mo reduced/recent-graduate rate.",
+        "Median SW total comp ~€90k (levels.fyi, Mar 2026); range ~€70k–€121k; Amsterdam senior median ~€107k.",
+        "Q3 2025: first quarter in 4 years with fewer vacancies than unemployed; IT shortage persists; 37% of employers plan 2026 headcount growth.",
+        "AI/ML skills growing ~17%/yr; data scientist, full-stack, AI engineer among most in-demand roles.",
+        "Recognised-sponsor route means no separate work permit; English-only vacancies cluster at multinationals."
       ],
       "links": [
         {
           "title": "IND – Salary requirements highly skilled migrants",
           "url": "https://ind.nl/en/required-amounts-income-requirements"
+        },
+        {
+          "title": "DutchReview – Dutch job market 2026 for expats",
+          "url": "https://dutchreview.com/expat/dutch-job-market-2026/"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "visa-access": {
       "status": "scored",
-      "score": 72,
-      "summary": "VFS Dhaka now offers NL visa services incl. MVV biometrics (Nov 2025); sponsor-submitted TEV eases process; some financial scrutiny.",
-      "reasoning": "Until late 2025 Bangladeshi applicants effectively depended on New Delhi; the November 2025 launch of a VFS Netherlands centre in Dhaka means MVV collection and biometrics are now done locally after IND approval. The recognised-sponsor TEV procedure (university/employer files) and high study-permit approval reduce refusal risk; financial proof and indexed fees remain a bar.",
+      "score": 74,
+      "summary": "VFS Netherlands centre opened in Dhaka Nov 2025; MVV biometrics now collected locally after IND approval; sponsor-filed TEV eases process.",
+      "reasoning": "Until late 2025 Bangladeshi applicants effectively depended on missions outside Dhaka; the VFS Global Netherlands centre that launched in Banani, Dhaka on 2025-11-03 now handles short-stay applications and MVV sticker collection/biometrics locally once the IND letter indicates it. The recognised-sponsor TEV procedure (university or employer files for entry plus residence) and high study-permit approval reduce refusal risk, though financial proof and indexed fees remain a bar.",
       "evidence": [
-        "VFS Global launched Netherlands visa services in Bangladesh on 2025-11-03.",
-        "MVV/residence applications filed by recognised sponsor (university/employer) via TEV; biometrics in Dhaka after IND approval.",
-        "Student route via recognised sponsor has very high approval; TEV/MVV fee ~€210 (2026, indexed).",
-        "No full-service NL embassy historically issued all services in Dhaka; couple should confirm long-stay scope at VFS Dhaka before relying on it."
+        "VFS Global launched Netherlands visa services in Dhaka on 2025-11-03 (Banani centre).",
+        "MVV stickers can be applied for and biometrics given in Bangladesh when the IND letter indicates; decisions stay with MFA The Hague.",
+        "Residence/MVV via recognised-sponsor TEV (Entry and Residence) filed by university/employer; student route has very high approval.",
+        "Applications register at consular.mfaservices.nl then book a VFS Dhaka slot; couple should confirm long-stay scope before relying on it."
       ],
       "links": [
         {
-          "title": "IND – Apply for MVV and residence permit from abroad",
-          "url": "https://ind.nl/en/apply-for-mvv-and-residence-permit-from-abroad"
+          "title": "VFS Global – Netherlands visa services rollout in Bangladesh (2025-11-03)",
+          "url": "https://www.vfsglobal.com/en/PDF/media-releases/2025/MR-Netherlands-visa-services-rollout-in-Bangladesh-03112025.pdf"
         },
         {
-          "title": "VFS Global – Netherlands visa, Bangladesh",
-          "url": "https://visa.vfsglobal.com/bgd/en/nld"
+          "title": "NetherlandsWorldwide – Apply for a Schengen visa in Bangladesh",
+          "url": "https://www.netherlandsworldwide.nl/visa-the-netherlands/schengen-visa/apply-bangladesh"
         }
       ],
       "lastReviewed": "2026-06-16"
@@ -63,13 +68,14 @@
     "citizenship": {
       "status": "scored",
       "score": 32,
-      "summary": "Dual nationality restricted (must renounce); 5y now but 10y extension proposed; A2 (B1 proposed). Poor fit for dual-preferring couple.",
-      "reasoning": "Dutch law generally forces naturalising adults to renounce their original nationality, and a 2025 cabinet proposal would extend the residence requirement from 5 to 10 years with a likely B1 language step. For a couple who explicitly prefer dual citizenship and faster routes, this is a decisive negative.",
+      "summary": "Dual nationality requires renunciation; 2025 bill proposes 5→10 year residence, narrows dual cases. Poor fit for dual-preferring couple.",
+      "reasoning": "Dutch law generally forces naturalising adults to renounce their original nationality, and a September 2025 bill amending the RWN proposes doubling the standard residence requirement from 5 to 10 years while ending naturalisation-from-abroad and tightening dual-nationality cases. The bill is from the caretaker government and the new Jetten cabinet leaves its fate uncertain, but for a couple who explicitly prefer dual citizenship and a faster route, the renunciation rule alone is decisive.",
       "evidence": [
         "Adults naturalising must usually renounce their other nationality (limited spouse/refugee exceptions).",
-        "Sept 2025 cabinet proposal: extend naturalisation residence from 5 to 10 years (consultation to 2025-12-01).",
-        "Language for naturalisation currently A2; raise to B1 under discussion.",
-        "Bangladesh permits dual nationality mainly for select Western/Commonwealth states; Dutch renunciation rule is the binding constraint."
+        "Sept 2025 RWN bill: standard residence 5→10 years, spouse-of-Dutch 3→5; consultation closed 2025-12-01.",
+        "Bill ends naturalisation from abroad for spouses/former nationals and narrows dual nationality further.",
+        "Naturalisation language currently A2 (KNM + Dutch); not retroactive, but legislative path is 1–2 years and politically uncertain.",
+        "Bangladesh allows dual nationality with select states, but the binding constraint is the Dutch renunciation rule."
       ],
       "links": [
         {
@@ -77,8 +83,8 @@
           "url": "https://ind.nl/en/dutch-citizenship/becoming-a-dutch-national-through-naturalisation"
         },
         {
-          "title": "Government.nl – Dual citizenship",
-          "url": "https://www.government.nl/topics/dutch-citizenship/dual-citizenship"
+          "title": "Everaert Advocaten – Dutch naturalisation period may increase to 10 years",
+          "url": "https://www.everaert.nl/en/dutch-naturalisation-period-may-increase-to-10-years/"
         }
       ],
       "lastReviewed": "2026-06-16"
@@ -86,22 +92,22 @@
     "post-study-work": {
       "status": "scored",
       "score": 70,
-      "summary": "Orientation year (zoekjaar) = 1 year, once per lifetime, but free labour access + easy switch to HSM at reduced €2,989 threshold.",
-      "reasoning": "After an MSc each graduate gets a one-year orientation-year permit with unrestricted work and no employer permit needed, and can convert to the highly skilled migrant scheme at a discounted salary norm. Limit: only one year and usable once per lifetime, so it is generous-but-short rather than multi-year.",
+      "summary": "Orientation year (zoekjaar) = 1 year free labour access; easy switch to highly skilled migrant at reduced €3,122/mo threshold.",
+      "reasoning": "After an MSc each graduate gets a one-year orientation-year permit with unrestricted labour-market access (no work permit, self-employment allowed) and can convert to the highly skilled migrant scheme at the reduced graduate salary norm. The limit is duration: only twelve non-renewable months per completed programme, applied for within three years of graduating, so it is generous-but-short rather than a multi-year open work right.",
       "evidence": [
-        "Zoekjaar permit: up to 12 months, free access to labour market, no separate work permit.",
-        "Reduced HSM salary norm for orientation-year/recent grads (€2,989/mo in 2025) eases conversion.",
-        "Usable only once in a lifetime; permit fee ~€210 (2026).",
-        "Can be applied for up to 3 years after graduation."
+        "Zoekjaar permit: 1 year, 'work freely permitted, TWV not required', self-employment allowed.",
+        "Can apply within 3 years of graduation; non-renewable per programme; 2026 fee €254.",
+        "Reduced HSM salary norm €3,122/mo (2026) eases conversion from orientation year to work permit.",
+        "Eligibility includes graduates of recognised Dutch universities or world top-200 institutions."
       ],
       "links": [
         {
-          "title": "IamExpat / iamsterdam – Orientation year permit",
-          "url": "https://www.iamsterdam.com/en/live-work-study/living/official-procedures/orientation-year-permits"
+          "title": "IND – Residence permit for orientation year",
+          "url": "https://ind.nl/en/residence-permits/work/residence-permit-for-orientation-year"
         },
         {
-          "title": "IND – After your studies (orientation year)",
-          "url": "https://ind.nl/en/residence-permits/study/orientation-year-highly-educated-persons"
+          "title": "iamsterdam – Orientation year permits",
+          "url": "https://www.iamsterdam.com/en/live-work-study/living/official-procedures/orientation-year-permits"
         }
       ],
       "lastReviewed": "2026-06-16"
@@ -109,18 +115,22 @@
     "spouse-family": {
       "status": "scored",
       "score": 88,
-      "summary": "Dependant/partner visa in both study and work phases; partner of student/highly skilled migrant has full free labour-market access.",
-      "reasoning": "Critical for a couple where the spouse is also a software engineer: the accompanying partner of a student or highly skilled migrant gets a residence permit with free access to the Dutch labour market in both phases, so both can work without a separate work permit. Both can also pursue their own MSc independently, strengthening the joint route.",
+      "summary": "Partner of a student or highly skilled migrant gets a dependant permit with free labour-market access in both study and work phases.",
+      "reasoning": "Decisive for a couple where the spouse is also a software engineer: the accompanying partner of a student, orientation-year, or highly skilled migrant holder gets a residence permit with free access to the Dutch labour market in both phases, so both can work without a separate work permit. Either engineer's salary comfortably meets the partner sponsorship income norm (~€2,294/mo without holiday allowance, 2026), and either can alternatively hold their own student/HSM permit.",
       "evidence": [
-        "Partner of a study or work permit holder may get a dependant residence permit and work freely.",
-        "No separate work authorisation needed for the partner of a highly skilled migrant/student.",
-        "Income/sponsor conditions apply but are met by either engineer's salary.",
-        "Both spouses can alternatively each obtain their own student/HSM permit."
+        "Partner of a study or work permit holder may get a dependant permit and work freely (no TWV).",
+        "2026 partner sponsorship income norm €2,294.40/mo (without holiday allowance) / €2,477.95 (with) — met by either SW salary.",
+        "Both spouses can alternatively each obtain their own student or highly skilled migrant permit.",
+        "No taught-master's dependant work ban (unlike the UK), so the study phase is not a trap for this couple."
       ],
       "links": [
         {
-          "title": "IND – Residence permit for family member / partner",
+          "title": "IND – Residence permits: family and partner",
           "url": "https://ind.nl/en/residence-permits/family-and-partner"
+        },
+        {
+          "title": "IND – Required amounts / income requirements",
+          "url": "https://ind.nl/en/required-amounts-income-requirements"
         }
       ],
       "lastReviewed": "2026-06-16"
@@ -128,18 +138,18 @@
     "msc-study": {
       "status": "scored",
       "score": 80,
-      "summary": "Abundant English MSc, English-restriction (TAO) walked back for existing programmes; moderate non-EU tuition, scholarships, student work, spouse accompanies.",
-      "reasoning": "The Netherlands offers one of Europe's largest catalogues of English-taught CS/AI master's, and the controversial 2024 plan to curb English instruction was largely set aside in July 2025 for existing programmes (the TAO test now mainly applies to new programmes). Non-EU tuition is moderate (~€15k–€20k), scholarships exist, students may work part-time, and the partner can accompany.",
+      "summary": "Large English-taught CS/AI MSc catalogue; TAO restriction cancelled for existing programmes (May 2025); moderate tuition; partner works.",
+      "reasoning": "The Netherlands has one of Europe's largest catalogues of English-taught CS/AI/data-science master's, and on 27 May 2025 the House voted to cancel the TAO language test for existing programmes, with the minister set to amend the WIB by end-2025 (TAO stays only for new programmes). Non-EU tuition is moderate (~€15k–€20k/yr), scholarships exist, students may work part-time, and the accompanying partner can work freely.",
       "evidence": [
-        "Large range of English-taught MSc incl. CS/AI/data science across research universities.",
-        "July 2025: government shelved TAO restriction for existing English programmes; applies mainly to new ones.",
+        "Broad English-taught MSc range in CS/AI/data science across research universities.",
+        "27 May 2025: House voted to cancel the TAO test for existing programmes; minister to amend WIB by end-2025; TAO remains for new programmes.",
         "Non-EU MSc tuition roughly €15k–€20k/yr; Holland/Orange Tulip and university scholarships available.",
-        "Students may work part-time; accompanying partner gets work rights."
+        "Student work allowed part-time; accompanying partner gets free labour-market access."
       ],
       "links": [
         {
-          "title": "Study in NL / Nuffic – Programmes & funding",
-          "url": "https://www.studyinnl.org/"
+          "title": "ICEF Monitor – Dutch government walks back curb on English-taught degrees",
+          "url": "https://monitor.icef.com/2025/07/dutch-government-walks-back-controversial-measures-to-constrain-english-taught-degrees/"
         },
         {
           "title": "IND – Residence permit for study",
@@ -151,36 +161,44 @@
     "pr-pathway": {
       "status": "scored",
       "score": 70,
-      "summary": "5 years of legal residence → permanent residence, predictable; A2 civic integration and stable income required.",
-      "reasoning": "Permanent residence (national or EU long-term resident) is available after five continuous years of legal stay with A2 civic integration and sufficient stable income. The route is clear and predictable, though student years count and the five-year timeline is standard rather than fast.",
+      "summary": "Permanent residence after 5 continuous years of legal stay, predictable; needs A2 civic integration and stable income (~€1,698/mo).",
+      "reasoning": "Permanent residence (national or EU long-term resident) is available after five continuous years of legal stay with the civic-integration exam at A2 and sufficient stable independent income (~€1,697.82/mo, 2026). Student and work years count, absences are capped, and the route is clear and predictable, though five years is standard rather than fast and A2 Dutch is required.",
       "evidence": [
-        "PR after 5 consecutive years of legal residence; absences capped (<6 consecutive / <10 total months).",
-        "Civic integration at level A2 (still sufficient in 2026) plus stable income (~€1,698/mo norm).",
-        "Permit indefinite; document renewed every 5 years; fee ~€243.",
-        "Processing up to 6 months."
+        "PR after 5 consecutive years of legal residence; absence cap (<6 consecutive / <4 months in any single year).",
+        "Civic integration at A2 still sufficient for PR in 2026.",
+        "Stable independent income norm ~€1,697.82/mo (2026); waived after 10+ years of residence.",
+        "Adult fee €243; processing up to 6 months; permit indefinite, document renewed every 5 years."
       ],
       "links": [
         {
           "title": "IND – Permanent residence permit",
           "url": "https://ind.nl/en/replace-extend-renew-and-change/permanent-residency/permanent-residence-permit"
+        },
+        {
+          "title": "IND – Civic integration",
+          "url": "https://ind.nl/en/living-in-the-netherlands-with-a-residence-permit/civic-integration-for-more-secure-residence-permit-and-naturalisation"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "income-cost": {
       "status": "scored",
-      "score": 62,
-      "summary": "High SW pay and expat tax ruling, but severe housing crisis (Amsterdam rent €2,100+) erodes savings, especially during study.",
-      "reasoning": "Software salaries (~€73k–€100k+) are strong and the 30%/27% expat ruling lifts net pay, but the Dutch housing crisis pushes rents very high (Amsterdam ~€2,100+/mo, national free-sector average ~€1,838) and landlords often require income of 3x rent, so realistic savings are moderate rather than high.",
+      "score": 60,
+      "summary": "Strong SW pay and 30% expat ruling, but a severe housing crisis (Amsterdam 80m² ~€2,300–2,500) and ~410k home shortage erode savings.",
+      "reasoning": "Software salaries (~€70k–€121k) plus the 30% expat ruling lift net pay, but the Dutch housing crisis is acute: the country is ~410,000 homes short, free-sector rents average ~€1,838/mo nationally (Amsterdam 80m² ~€2,300–2,500) and listings draw ~57 responses each, so finding and affording housing during study is hard. On two engineer incomes savings are decent, but housing scarcity and competition keep net outcomes from being excellent.",
       "evidence": [
-        "SW engineer total comp ~€73k–€100k+; Amsterdam averages higher.",
-        "Free-sector rent averaged ~€1,838/mo (Q4 2025); Amsterdam furnished ~€2,100+.",
-        "Couple essential living cost ~€2,200/mo before rent in some estimates.",
-        "30%/27% expat ruling improves net pay for both engineers (see tax)."
+        "SW total comp ~€70k–€121k; Amsterdam senior median ~€107k.",
+        "National free-sector rent averaged ~€1,838/mo; Amsterdam 80m² ~€2,300–2,500/mo; ~57 responses per listing.",
+        "Housing shortage ~410,000 homes (~4.8% of stock); free-sector supply fell >36%.",
+        "30% expat ruling improves net pay for both engineers (see tax); 2026 mid-segment rent cap 6.1%, free-sector 4.4%."
       ],
       "links": [
         {
-          "title": "CBS – Statistics Netherlands (prices & income)",
+          "title": "Pararius – Understanding the Dutch rental crisis as an expat (2026)",
+          "url": "https://www.pararius.com/expat-guide/understanding-the-dutch-rental-crisis-as-an-expat-in-2026"
+        },
+        {
+          "title": "CBS – Statistics Netherlands",
           "url": "https://www.cbs.nl/en-gb"
         }
       ],
@@ -189,18 +207,22 @@
     "healthcare": {
       "status": "scored",
       "score": 76,
-      "summary": "High-quality universal-access system via mandatory private basic insurance (~€159/mo each) plus €385 annual deductible.",
-      "reasoning": "Healthcare quality and access are excellent, but coverage runs through compulsory private basic insurance each resident must buy (~€159/mo in 2026) with a €385 own-risk deductible, so it is good rather than free. Low earners (e.g., during study) may qualify for healthcare allowance.",
+      "summary": "High-quality universal access via mandatory basic insurance (~€160/mo each) plus €385 annual deductible; allowance helps low earners.",
+      "reasoning": "Healthcare quality and access are excellent, but coverage runs through compulsory basic insurance each resident must buy (~€160/mo in 2026, frozen €385 own-risk deductible), so it is good rather than free. GP visits and maternity care are exempt from the deductible, and lower-income residents (e.g., during study) can claim healthcare allowance (zorgtoeslag).",
       "evidence": [
         "Basic health insurance mandatory within 4 months of registration/work.",
-        "Average 2026 basic premium ~€159/mo (~€1,912/yr) per person; 2025 ~€158/mo.",
-        "Compulsory deductible €385 (2026); optional voluntary deductible.",
-        "Healthcare allowance (zorgtoeslag) may offset cost for lower incomes."
+        "Average 2026 basic premium ~€159–160/mo per person; cheapest ~€142/mo.",
+        "Mandatory deductible frozen at €385 for 2026 (raisable voluntarily to €885 for lower premium).",
+        "Deductible excludes GP visits and maternity care; zorgtoeslag offsets cost for lower incomes."
       ],
       "links": [
         {
-          "title": "Business.gov.nl / Government – Health insurance",
+          "title": "Business.gov.nl – Health insurance",
           "url": "https://business.gov.nl/regulation/health-insurance/"
+        },
+        {
+          "title": "IamExpat – Best health insurance in the Netherlands 2026",
+          "url": "https://www.iamexpat.nl/expat-info/dutch-news/the-best-health-insurance-netherlands-2026-a-comparison"
         }
       ],
       "lastReviewed": "2026-06-16"
@@ -208,18 +230,22 @@
     "culture-language": {
       "status": "scored",
       "score": 68,
-      "summary": "Among the world's highest English proficiency for daily life and work, but Dutch (A2, B1 proposed) required for PR and citizenship.",
-      "reasoning": "Everyday life, study and tech work run smoothly in English with very high national proficiency, so initial settling is easy. The barrier comes at the back end: civic integration in Dutch at A2 is needed for PR and naturalisation, with a B1 step under discussion for citizenship.",
+      "summary": "Among the world's highest English proficiency for daily life and tech work, but Dutch at A2 is required for PR and naturalisation.",
+      "reasoning": "Everyday life, study and tech work run smoothly in English given very high national proficiency, so initial settling is easy and livability is high. The barrier is at the back end: civic integration in Dutch at A2 is required for both PR and naturalisation, which is real friction for an English-working couple aiming at a passport.",
       "evidence": [
-        "Very high English proficiency; English-taught MSc and many tech workplaces.",
+        "Very high English proficiency; English-taught MSc and many English-working tech employers.",
         "Dutch A2 civic integration required for PR and naturalisation.",
-        "Proposal to raise naturalisation language to B1.",
-        "Daily services and signage widely accessible in English in cities."
+        "Daily services and signage widely accessible in English in cities.",
+        "Integration burden falls mainly on the citizenship/PR phase, not daily life."
       ],
       "links": [
         {
           "title": "IND – Civic integration",
           "url": "https://ind.nl/en/living-in-the-netherlands-with-a-residence-permit/civic-integration-for-more-secure-residence-permit-and-naturalisation"
+        },
+        {
+          "title": "Study in NL / Nuffic",
+          "url": "https://www.studyinnl.org/"
         }
       ],
       "lastReviewed": "2026-06-16"
@@ -227,34 +253,42 @@
     "safety-law": {
       "status": "scored",
       "score": 84,
-      "summary": "Top-tier rule of law (WJP #9, 0.82 in 2025), low crime and strong legal protections, with a slight recent decline.",
-      "reasoning": "The Netherlands ranks 9th of 143 in the 2025 WJP Rule of Law Index with strong constraints on government, low corruption and good order and security, making it very safe and rights-protective. A small 2025 decline mirrors a broader European trend but does not change the high overall standing.",
+      "summary": "Top-tier rule of law (WJP 2025 rank 9/143, score 0.82), low crime and strong legal protections, with a small recent decline.",
+      "reasoning": "The Netherlands ranks 9th of 143 in the 2025 WJP Rule of Law Index (overall 0.82, 8th of 31 in its EU/EFTA/North-America region) with strong constraints on government, low corruption and good order and security, making it very safe and rights-protective for migrants. A small 2025 dip mirrors a broader European trend but does not change the high standing.",
       "evidence": [
         "WJP Rule of Law Index 2025: rank 9/143, overall score 0.82.",
-        "Decline of ~0.7% in 2025, in line with regional trend.",
-        "Strong fundamental-rights and order-and-security performance.",
-        "Generally low violent crime."
+        "Regional rank 8/31 (EU, EFTA, North America).",
+        "Strong constraints on government, fundamental rights and order-and-security performance.",
+        "Generally low violent crime; slight 2025 decline in line with regional trend."
       ],
       "links": [
         {
           "title": "WJP Rule of Law Index – Netherlands",
           "url": "https://worldjusticeproject.org/rule-of-law-index/country/Netherlands"
+        },
+        {
+          "title": "WJP Rule of Law Index 2025 – Global press release",
+          "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2025-global-press-release"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "politics": {
       "status": "scored",
-      "score": 58,
-      "summary": "Oct 2025 election shifted from far-right PVV toward centrist D66, easing tone, but immigration/citizenship tightening continues amid volatile coalitions.",
-      "reasoning": "The far-right PVV collapsed the cabinet over migration in 2025; the October 2025 election moved the country toward a D66-led centrist bloc, softening the rhetoric. However, migration restriction remains a cross-party theme (HSM reform, proposed 10-year naturalisation), and coalition formation has been unstable, so policy for migrants stays uncertain.",
+      "score": 62,
+      "summary": "Jetten D66/VVD/CDA minority cabinet (Feb 2026) softened tone, but migration tightening (10-yr naturalisation bill, HSM reform) persists.",
+      "reasoning": "The PVV collapsed the cabinet over asylum policy in June 2025; the 29 Oct 2025 election left D66 and PVV tied at 26 seats with D66 ahead, and a D66/VVD/CDA minority cabinet under Rob Jetten was sworn in on 23 Feb 2026, easing anti-immigrant rhetoric. However, migration restriction remains a cross-party theme (the 5→10 year naturalisation bill, HSM scheme tightening), and a 66-seat minority government adds policy uncertainty for migrants.",
       "evidence": [
-        "PVV exited the coalition (June 2025), triggering a 2025-10-29 snap election.",
-        "D66 (Jetten) emerged on top, shifting toward a centrist/liberal bloc.",
-        "Highly skilled migrant scheme tightening announced 2025; 5→10y naturalisation proposed.",
-        "Coalition formation protracted with no clear majority."
+        "PVV left the coalition on 2025-06-03 over asylum, triggering a snap election.",
+        "2025-10-29 election: D66 and PVV 26 seats each, D66 ahead on votes; PVV down from 37.",
+        "Jetten (D66/VVD/CDA) minority cabinet sworn in 2026-02-23, holding 66 of 150 seats.",
+        "Naturalisation 5→10 year bill and HSM reform keep restriction on the agenda despite the centrist shift."
       ],
       "links": [
+        {
+          "title": "Wikipedia – 2025–2026 Dutch cabinet formation (Jetten cabinet)",
+          "url": "https://en.wikipedia.org/wiki/2025%E2%80%932026_Dutch_cabinet_formation"
+        },
         {
           "title": "Government.nl – Dutch government & cabinet",
           "url": "https://www.government.nl/"
@@ -265,37 +299,45 @@
     "tax": {
       "status": "scored",
       "score": 52,
-      "summary": "High overall tax burden, but the expat ruling (30% now, 27% from 2027) meaningfully lifts net pay for both engineers.",
-      "reasoning": "Dutch income tax and social contributions are high, but qualifying incoming employees can use the expat facility (30% tax-free in 2025–2026, dropping to 27% from 2027) for up to five years, which both software engineers can likely claim and which substantially improves take-home pay early on.",
+      "summary": "High overall burden, but the expat ruling (30% in 2026, 27% from 2027) meaningfully lifts net pay for both engineers for up to 5 years.",
+      "reasoning": "Dutch income tax and social contributions are high, but qualifying incoming employees can use the expat facility, tax-free at 30% in 2026 and dropping to a flat 27% from 1 Jan 2027 for the remaining term, for up to five years. Both software engineers can likely claim it (2026 salary thresholds €48,013, or €36,497 for under-30 master's holders), substantially improving early take-home pay.",
       "evidence": [
-        "Expat ruling: 30% tax-free 2025–2026, reduced to 27% from 2027 for up to 60 months.",
-        "Salary norm for the ruling rises to €50,436 (2027, then indexed); benefit capped at high-salary ceiling.",
-        "Top marginal income-tax rates remain high.",
-        "Both engineers likely qualify, easing the burden during the work phase."
+        "Expat ruling: 30% tax-free in 2026, reduced to 27% from 2027 (for rulings started on/after 1 Jan 2024); pre-2024 rulings keep 30%.",
+        "2026 ruling salary thresholds: €48,013, or €36,497 for under-30 master's graduates; benefit capped at €262,000.",
+        "Thresholds set to rise ~9–10% from 2027.",
+        "High top marginal income-tax rates; both engineers likely qualify for the facility during the work phase."
       ],
       "links": [
         {
           "title": "Business.gov.nl – The expat scheme (30%/27% ruling)",
           "url": "https://business.gov.nl/staff/employing-staff/the-expat-scheme-30-percent-ruling-in-the-netherlands/"
+        },
+        {
+          "title": "Baker Tilly – New threshold amounts for expats and highly skilled migrants in 2026",
+          "url": "https://www.bakertilly.nl/en/inzichten/kennisartikel/new-threshold-amounts-for-expats-and-highly-skilled-migrants-in-2026"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "muslim-diaspora": {
       "status": "scored",
-      "score": 52,
-      "summary": "~1.1M Muslims (6%) and dense halal/mosque network in cities, but tiny Bangladeshi community and rising, normalised Islamophobia.",
-      "reasoning": "Muslims number about 1.1 million with 400–500 mosques and one of Europe's densest halal-restaurant networks in major cities, so religious life is practical. However, the South-Asian/Bangladeshi community is very small (~3,500), the diaspora is mainly Turkish/Moroccan, and surveys show rising, increasingly normalised Islamophobia.",
+      "score": 50,
+      "summary": "~6% Muslim with dense halal/mosque networks in cities, but a tiny Bangladeshi community (~3,500) and rising, normalised Islamophobia.",
+      "reasoning": "About 6% of the population is Muslim (mostly Turkish/Moroccan origin) with strong halal and mosque infrastructure in major cities, so religious life is practical. However, the Bangladeshi/South-Asian community is very small (~3,500 Bangladeshi residents, CBS 2022), and 2025 research from Regioplan/Utrecht University and Meld Islamofobie shows Islamophobia is increasingly normalised — 82% of Dutch Muslims feel it is worsening — which lowers the score for this couple.",
       "evidence": [
-        "~1.1M Muslims (~6% of population); 400–500 mosques, mostly Turkish/Moroccan.",
-        "Dense halal-restaurant/mosque networks in Amsterdam and other cities.",
-        "Bangladeshi residents ~3,500 (CBS 2022) — a small community.",
-        "2025 research: Muslim discrimination 'normalised'; 82% feel Islamophobia worsening."
+        "~6% of the population identifies as Muslim (CBS 2023); largest groups Turkish and Moroccan.",
+        "Dense halal-restaurant and mosque networks in Amsterdam and other cities.",
+        "Bangladeshi residents ~3,500 (CBS 2022) — a small South-Asian community.",
+        "2025 Regioplan/Utrecht study: Muslim discrimination 'normalised'; Meld Islamofobie: 82% feel Islamophobia worsening, 83% feel less safe."
       ],
       "links": [
         {
-          "title": "CBS – Religion statistics, Netherlands",
-          "url": "https://www.cbs.nl/en-gb"
+          "title": "CBS – The Netherlands in Numbers 2024: major religions",
+          "url": "https://longreads.cbs.nl/the-netherlands-in-numbers-2024/what-are-the-major-religions/"
+        },
+        {
+          "title": "NL Times – Muslims experience severe discrimination, research shows (2025)",
+          "url": "https://nltimes.nl/2025/03/21/muslims-experience-severe-discrimination-racism-netherlands-research-shows"
         }
       ],
       "lastReviewed": "2026-06-16"

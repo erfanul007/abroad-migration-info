@@ -5,7 +5,7 @@
   "iso3": "SWE",
   "flag": "🇸🇪",
   "region": "Europe",
-  "summary": "Strong tech/AI demand and English-friendly workplaces, but 2026 reforms push citizenship to 8 years (+language/civics tests), cap student work at 15h/week, and raise salary bars; high tax, rising anti-immigrant politics.",
+  "summary": "English-friendly tech market with structural SW/AI demand and strong dual-income spouse work rights, but the 6 June 2026 reform pushes citizenship to 8 years with self-sufficiency, civics and language tests, post-study search stays a short 12 months, tax is heavy, and immigration politics keep tightening.",
   "lastReviewed": "2026-06-16",
   "links": [
     {
@@ -21,16 +21,17 @@
     "job-market": {
       "status": "scored",
       "score": 82,
-      "summary": "Structural SW/AI shortage (~18k/yr deficit), English-friendly workplaces; some hiring softness vs 2022 peak.",
-      "reasoning": "Software developers, IT architects and AI/security roles are on Arbetsförmedlingen's shortage lists, with English widely usable for both engineers. Hiring cooled from the 2022 boom and employers want specific seniority, so it is strong rather than effortless.",
+      "summary": "Structural SW/AI shortage; English-friendly workplaces; both engineers hireable. New SEK 33,390/mo wage floor far below tech pay.",
+      "reasoning": "Software/systems developers, IT architects, IT security and AI roles remain on Arbetsförmedlingen shortage lists for 2025-2026, and TechSverige's Jan 2026 forecast projects 15-20% growth in AI engineering demand, with most tech workplaces operating in English so both spouses are placeable. The new work-permit salary floor of SEK 33,390/month (90% of the SEK 37,100 median, from June 2026) sits far below typical SW pay (~SEK 48,000-67,000/mo), so it is no barrier. Hiring cooled from the 2022 boom and employers want specific seniority, making it strong rather than effortless.",
       "evidence": [
-        "Arbetsförmedlingen flags software/systems developers, IT architects and IT security as shortage occupations 2025-2026.",
-        "Estimated ~18,000 annual professional shortfall 2024-2028, concentrated in AI, software and cybersecurity.",
-        "Junior dev pay ~EUR 4,000/mo, 5-yr ~EUR 6,000/mo; IT recruitment forecast positive but well below 2022's +39%."
+        "Arbetsförmedlingen flags software/systems developers, IT architects, systems analysts and IT security as shortage occupations 2025-2026.",
+        "TechSverige Jan 2026 analysis: 15-20% rise in demand for AI engineers/product roles; 35% of Swedish firms use AI (SCB 2025).",
+        "Stockholm AI/cloud talent market reports demand for senior AI/ML/MLOps far outstripping supply.",
+        "Work-permit salary floor rises to SEK 33,390/mo (June 2026) but is well below SW engineer pay, so not binding for this couple."
       ],
       "links": [
         {
-          "title": "Arbetsförmedlingen labour shortage outlook",
+          "title": "Arbetsförmedlingen (English)",
           "url": "https://arbetsformedlingen.se/other-languages/english-engelska"
         },
         {
@@ -42,21 +43,26 @@
     },
     "visa-access": {
       "status": "scored",
-      "score": 78,
-      "summary": "Decision online by Migrationsverket; biometrics + card pickup at VFS Global Dhaka. No New Delhi travel; financial bar present.",
-      "reasoning": "Bangladeshis apply to Migrationsverket online and complete biometrics at the VFS Global centre in Banani, Dhaka, with the permit card delivered there. Acceptance for genuine students/skilled workers is reasonable, though maintenance/financial proof is a real hurdle.",
+      "score": 80,
+      "summary": "Decided online by Migrationsverket; biometrics + card pickup at VFS Global Banani, Dhaka. No New Delhi travel; modest maintenance funds.",
+      "reasoning": "Bangladeshi nationals apply to Migrationsverket online and complete biometrics at the VFS Global Sweden centre in Banani, Dhaka, with the permit card delivered there - no travel to New Delhi or a third country is required. For genuine students and skilled workers acceptance is reasonable, and the funds bar is modest: a student must show ~SEK 10,656/mo (2026), an accompanying spouse SEK 4,440/mo. This local, predictable processing puts Sweden among the easier first-world routes from Dhaka.",
       "evidence": [
-        "VFS Global Sweden visa centre operates in Banani, Dhaka; biometrics captured locally, no need to travel to New Delhi.",
-        "Residence-permit decisions made online by Migrationsverket; card sent to the Dhaka centre for collection.",
-        "Applicants must show maintenance funds (e.g. SEK ~100,000 per accompanying spouse over the permit period)."
+        "VFS Global Sweden Visa Application Centre operates at Borak Mehnur, Banani, Dhaka-1213; biometrics captured locally.",
+        "Residence-permit decisions are made online by Migrationsverket; the card is sent to the Dhaka centre for collection.",
+        "Student maintenance ~SEK 10,656/mo (2026); accompanying spouse SEK 4,440/mo - modest financial bars, no blocked account.",
+        "No requirement to travel to New Delhi or a third country to apply or give biometrics."
       ],
       "links": [
         {
-          "title": "Sweden Abroad – Bangladesh: how to apply",
+          "title": "Sweden Abroad - Bangladesh: how to apply",
           "url": "https://www.swedenabroad.se/en/about-sweden-non-swedish-citizens/bangladesh/going-to-sweden/visiting-sweden/how-to-apply/"
         },
         {
-          "title": "Migrationsverket – residence permits",
+          "title": "VFS Global - Sweden, Dhaka",
+          "url": "https://visa.vfsglobal.com/bgd/en/swe/attend-centre/dhaka"
+        },
+        {
+          "title": "Migrationsverket - apply",
           "url": "https://www.migrationsverket.se/en/you-want-to-apply.html"
         }
       ],
@@ -64,65 +70,68 @@
     },
     "citizenship": {
       "status": "scored",
-      "score": 55,
-      "summary": "Dual citizenship allowed, but June 2026 reform raises residency 5→8 yrs plus civics (Aug 2026) and language (Oct 2027) tests.",
-      "reasoning": "Sweden permits dual citizenship without renouncing Bangladeshi nationality, a clear plus. But the April 2026 law (effective 6 June 2026) lifts ordinary residency to 8 years and adds self-sufficiency, civics and language tests, materially slowing the route for this couple.",
+      "score": 48,
+      "summary": "Dual citizenship allowed (no renunciation), but 6 June 2026 reform raises residency 5→8 yrs plus self-sufficiency, civics + language tests.",
+      "reasoning": "Sweden permits dual citizenship without renouncing Bangladeshi nationality, the key plus for this couple. But the law effective 6 June 2026 lifts the general residency requirement from five to eight years and adds a self-sufficiency income test (~SEK 20,000/mo, three income base amounts; no income support >6 of past 36 months), a civics test from August 2026 and a Swedish language test from a later date, mandatory for ages 16-66. On an absolute cross-country scale this is a slow, test-heavy route - far from Canada's ~3-year passport - so it scores down sharply from the old 5-year picture.",
       "evidence": [
-        "New citizenship law effective 6 June 2026 raises general residency requirement from 5 to 8 years.",
-        "Civics knowledge test from August 2026; Swedish language (reading/listening) test from October 2027.",
-        "Sweden allows dual citizenship and does not require renouncing prior nationality (since 2001)."
+        "From 6 June 2026 the general residency requirement rises from 5 to 8 years (Migrationsverket).",
+        "New self-sufficiency rule: long-term income ~SEK 20,000/mo; barred if on income support >6 of the last 36 months.",
+        "Civics knowledge test from August 2026; Swedish language test introduced later; mandatory ages 16-66.",
+        "Dual citizenship remains allowed - no renunciation of Bangladeshi nationality required (since 2001)."
       ],
       "links": [
         {
-          "title": "Library of Congress – Sweden new citizenship law (2026)",
-          "url": "https://www.loc.gov/item/global-legal-monitor/2026-05-08/sweden-parliament-approves-new-citizenship-law-requiring-language-and-knowledge-tests/"
+          "title": "Migrationsverket - new citizenship rules from 6 June 2026",
+          "url": "https://www.migrationsverket.se/en/news-archive/news/2026-05-06-new-rules-for-swedish-citizenship-from-6-june-2026.html"
         },
         {
-          "title": "Government.se – dual citizenship",
-          "url": "https://www.government.se/government-of-sweden/ministry-for-foreign-affairs/dual-citizenship/"
+          "title": "Library of Congress - Sweden new citizenship law (2026)",
+          "url": "https://www.loc.gov/item/global-legal-monitor/2026-05-08/sweden-parliament-approves-new-citizenship-law-requiring-language-and-knowledge-tests/"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "post-study-work": {
       "status": "scored",
-      "score": 62,
-      "summary": "12-month job-search permit after graduation; can switch to work permit/Blue Card once hired, spouse works throughout.",
-      "reasoning": "Graduates get a 12-month residence permit to seek work or start a business, then switch to a work permit or EU Blue Card on a job offer. It is shorter than the 2-3 years offered by some rivals, but switching is straightforward and family work rights continue.",
+      "score": 58,
+      "summary": "Only 12-month job-search permit for master's grads (researchers get 12-18 mo); can switch to work permit/Blue Card once hired.",
+      "reasoning": "After a master's (≥2 semesters passed) graduates get a residence permit of up to 12 months to seek work or start a business, then switch to a work permit or EU Blue Card on a qualifying offer. The 12-month window is short and non-extendable versus the 2-3 years offered by NZ/Canada-style rivals, and from 11 June 2026 only researchers/doctoral graduates get the longer 12-18 months. Switching in-country is straightforward and the accompanying spouse keeps full work rights, which lifts it above the weak band.",
       "evidence": [
-        "Migrationsverket grants a residence permit valid for 12 months to look for work after completing studies.",
-        "Holder must show means of support and apply before the study permit expires.",
-        "On a qualifying offer, switch to work permit or EU Blue Card (IT salary bar ~SEK 52,000/mo, 2025)."
+        "Master's graduates: residence permit of up to 12 months to look for work; not extendable (Migrationsverket).",
+        "Eligibility: completed ≥2 semesters with passing grades; apply before the study permit expires.",
+        "From 11 June 2026 researchers/doctoral graduates get 12-18 months, but taught master's stays at 12.",
+        "On a qualifying offer, switch to work permit or EU Blue Card; accompanying spouse retains work rights."
       ],
       "links": [
         {
-          "title": "Migrationsverket – seek work after studies",
+          "title": "Migrationsverket - seek work after studies",
           "url": "https://www.migrationsverket.se/en/you-want-to-extend/study/look-for-work-after-completing-your-studies-in-sweden.html"
         },
         {
-          "title": "Migrationsverket – EU Blue Card",
-          "url": "https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/eu-blue-cards.html"
+          "title": "Migrationsverket - new study permit rules (2026)",
+          "url": "https://www.migrationsverket.se/nyheter/news-archive/2026-05-25-new-rules-for-residence-permits-for-studies-in-higher-education.html"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "spouse-family": {
       "status": "scored",
-      "score": 78,
-      "summary": "Accompanying spouse of a worker/Blue Card holder gets full work rights; as student's spouse can also work, with funds proof.",
-      "reasoning": "A spouse joining a work-permit or EU Blue Card holder receives unrestricted work rights immediately, ideal as both are engineers. In the study phase the accompanying spouse also gets a residence permit with the right to work, subject to a maintenance-funds requirement.",
+      "score": 80,
+      "summary": "Accompanying spouse of a worker/Blue Card holder gets unrestricted work rights; spouse of a student may also work, with modest funds proof.",
+      "reasoning": "Migrationsverket confirms the accompanying adult spouse of a work-permit or self-employed holder is granted a permit to work with no restrictions, which is ideal as both are engineers in the work phase. In the study phase the accompanying spouse also gets a residence permit with the right to work (only the student themselves faces the new 15h/week cap). Modest maintenance proof (~SEK 4,440/mo per spouse) applies, so this couple can both work across both phases - a strong result.",
       "evidence": [
-        "Family of an employee/Blue Card holder: adult spouse granted residence and work permit with right to work.",
+        "Migrationsverket: a close relative of an employee/self-employed person is granted a permit to work, unrestricted.",
         "Family of a student may accompany and the adult partner is permitted to work.",
-        "Maintenance proof of ~SEK 100,000 per accompanying spouse for the permit period (normally two years)."
+        "Maintenance proof ~SEK 4,440/mo per accompanying spouse/partner (2026).",
+        "Only the student themselves faces the new 15h/week semester work cap; the accompanying spouse does not."
       ],
       "links": [
         {
-          "title": "Migrationsverket – family of a worker",
+          "title": "Migrationsverket - family of a worker",
           "url": "https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/family-of-an-employee-or-self-employed-person-who-apply-afterwards.html"
         },
         {
-          "title": "Migrationsverket – family of a student",
+          "title": "Migrationsverket - family of a student",
           "url": "https://www.migrationsverket.se/en/you-want-to-apply/study/family-who-want-to-apply-afterwards.html"
         }
       ],
@@ -131,20 +140,25 @@
     "msc-study": {
       "status": "scored",
       "score": 62,
-      "summary": "~1,000 English MSc programs + SI scholarships, but non-EU tuition SEK 80k-250k/yr and new 15h/week student work cap (June 2026).",
-      "reasoning": "Sweden offers ~1,000 English-taught master's and competitive Swedish Institute scholarships, and spouses may accompany. But non-EU applicants pay full tuition (SEK 80,000-250,000/yr) and a new 15h/week work cap applies to permits granted from 11 June 2026, limiting earnings while studying.",
+      "summary": "~1,000 English MSc (≈40 in CS) + SISGP scholarship (BD eligible), but non-EU tuition SEK 80k-250k/yr and new 15h/week work cap.",
+      "reasoning": "Sweden offers ~1,000 fully English-taught master's (around 40 in computer science) and the spouse may accompany and work, a strong base for this couple. Bangladesh is among the 34 SISGP-eligible countries (full tuition + SEK 12,000/mo living allowance), but it needs 3,000 documented work hours and only ~300 awards are made globally each cycle, so it is highly competitive. Non-EU tuition is SEK 80,000-250,000/yr and a new 15h/week semester work cap (permits from 11 June 2026) plus 37.5/45-credit progress rules limit earning while studying.",
       "evidence": [
-        "Roughly 1,000 master's programmes taught entirely in English; SI scholarships cover tuition + living but are very competitive.",
+        "~1,000 master's programmes taught entirely in English; about 40 in computer science (Mastersportal 2026).",
         "Non-EU/EEA tuition typically SEK 80,000-250,000 per academic year.",
-        "Bachelor/master students with permits granted from 11 June 2026 may work a maximum of 15 hours/week."
+        "SISGP (Bangladesh eligible): full tuition + SEK 12,000/mo + SEK 15,000 travel, ~300 awards, 3,000 work hours required.",
+        "Students with permits from 11 June 2026 may work max 15h/week in semester; pass 37.5 credits yr 1, 45/yr after."
       ],
       "links": [
         {
-          "title": "University Admissions Sweden – fees & scholarships",
+          "title": "University Admissions Sweden - fees & scholarships",
           "url": "https://www.universityadmissions.se/en/all-you-need-to-know1/applying-for-studies/tuition-fees-and-scholarships/"
         },
         {
-          "title": "Migrationsverket – residence permit for studies",
+          "title": "Swedish Institute scholarships (SISGP)",
+          "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/"
+        },
+        {
+          "title": "Migrationsverket - residence permit for studies",
           "url": "https://www.migrationsverket.se/en/you-want-to-apply/study/higher-education.html"
         }
       ],
@@ -152,43 +166,45 @@
     },
     "pr-pathway": {
       "status": "scored",
-      "score": 60,
-      "summary": "PR after 4 yrs on work permit (or 48-month Blue Card), but tightened with income test and incoming language/civics rules.",
-      "reasoning": "PR is reachable after four years of work permit (or 48 months on an EU Blue Card) with a qualifying ongoing job, which is faster than many peers. However recent reforms add a self-sufficiency income test and, from 2027, Swedish language and civics requirements, raising unpredictability.",
+      "score": 58,
+      "summary": "PR after ~4 yrs on work permit (or 48-mo Blue Card) with income test; Swedish language + civics added from July 2027.",
+      "reasoning": "Permanent residence is reachable after about four years of work permit (worked 4 of the past 7 years, ~44 aligned months) or 48 months on an EU Blue Card, with a self-sufficiency income test (~SEK 29,680/mo net) and a permanent/≥18-month job at decision - faster and clearer than several peers. However from July 2027 PR will also require Swedish language and civics knowledge, and the political direction keeps tightening, adding real unpredictability over the couple's settlement horizon.",
       "evidence": [
-        "Four years of work/research permit (or 48 months EU Blue Card) can qualify for permanent residence at extension.",
-        "Employment must be permanent or fixed-term of at least 18 months at decision; self-sufficiency income test applies.",
-        "Language (A2-B1) and civics requirements for PR proposed from ~July 2027."
+        "PR after ~4 years of work/research permit (worked 4 of past 7 years) or 48 months on an EU Blue Card.",
+        "Self-sufficiency income test (~SEK 29,680/mo net); employment permanent or fixed-term ≥18 months at decision.",
+        "Swedish language and civics requirements for PR added from July 2027.",
+        "Currently no language/civics bar for PR, but the 2026-2027 tightening reduces predictability."
       ],
       "links": [
         {
-          "title": "Migrationsverket – permanent residence permit",
+          "title": "Migrationsverket - permanent residence permit",
           "url": "https://www.migrationsverket.se/en/you-want-to-apply/permanent-residence-permit.html"
         },
         {
-          "title": "Migrationsverket – work permits",
-          "url": "https://www.migrationsverket.se/en/you-want-to-apply/work.html"
+          "title": "Migrationsverket - extend a work permit",
+          "url": "https://www.migrationsverket.se/en/you-want-to-extend/work/employee-or-self-employed/employees.html"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "income-cost": {
       "status": "scored",
-      "score": 62,
-      "summary": "Good SW pay (avg ~SEK 48-67k/mo) but high tax and Stockholm rents cap savings; dual income helps materially.",
-      "reasoning": "Software salaries are solid (average ~SEK 48,000-67,000/mo, more at top firms), and two engineering incomes ease the maths. But high effective tax and Stockholm rents (studio ~SEK 11,000, 2-bed ~SEK 19,000/mo) leave moderate savings rather than strong surpluses.",
+      "score": 60,
+      "summary": "Good SW pay (avg ~SEK 48-67k/mo, Stockholm ~SEK 52k) but high tax (~38% eff.) and rents cap savings; dual income helps.",
+      "reasoning": "Software pay is solid - average ~SEK 48,583/mo, Stockholm typical ~SEK 52,000/mo, seniors to SEK 67,000+ - and two engineering incomes ease the maths. But the effective tax of ~38% for a Stockholm single (marginal 52-55% above ~SEK 614k) plus rents (studio ~SEK 11,000, 1-bed ~SEK 14,500, central 2-bed ~SEK 19,000/mo) leave moderate rather than strong savings. Net position is decent for a Nordic capital but not a high-surplus destination.",
       "evidence": [
-        "Average software engineer ~SEK 583,000/yr (~SEK 48,583/mo); Stockholm total comp averages ~SEK 671,000.",
-        "Stockholm second-hand studio ~SEK 11,000/mo; central 2-bed ~SEK 19,000/mo.",
-        "Comparative savings rank places Sweden mid-table (~EUR 16,000/yr per single dev) due to Nordic costs."
+        "Average software engineer ~SEK 583,000/yr (~SEK 48,583/mo); Stockholm typical ~SEK 52,000/mo, senior to ~SEK 67,000.",
+        "Effective tax ~38% for a Stockholm single filer; marginal 52-55% above ~SEK 613,900 gross.",
+        "Stockholm second-hand rent: studio ~SEK 11,000, 1-bed ~SEK 14,500, central 2-bed ~SEK 19,000/mo.",
+        "Two incomes materially improve household savings versus a single earner."
       ],
       "links": [
         {
-          "title": "Statistics Sweden (SCB) – wages and salaries",
+          "title": "Statistics Sweden (SCB) - wages and salaries",
           "url": "https://www.scb.se/en/finding-statistics/statistics-by-subject-area/labour-market/wages-salaries-and-labour-costs/"
         },
         {
-          "title": "sweden.se – living in Sweden",
+          "title": "sweden.se - cost of living in Sweden",
           "url": "https://sweden.se/life/society/cost-of-living-in-sweden"
         }
       ],
@@ -197,20 +213,21 @@
     "healthcare": {
       "status": "scored",
       "score": 88,
-      "summary": "Universal, high-quality tax-funded care; low patient fees, life expectancy 83.4, residents covered.",
-      "reasoning": "Sweden provides universal residence-based healthcare financed mainly through taxes, with small capped user fees. Quality and outcomes are above the OECD average and satisfaction is high, so the couple is well covered once resident.",
+      "summary": "Universal, high-quality tax-funded care; low capped patient fees, life expectancy 83.4, residents covered.",
+      "reasoning": "Sweden provides universal residence-based healthcare financed mainly through taxes, with small capped user fees, so the couple is well covered once resident. Outcomes are above the OECD average (life expectancy 83.4, ~2.3 years above OECD; 75% satisfied with quality vs 64% OECD) and top hospitals such as Karolinska rank among the world's best. It sits just below best-in-class only because newcomers face waiting times and registration friction before settling.",
       "evidence": [
-        "All residents covered; ~86% of health costs publicly funded, only ~13% via patient fees (OECD/EU profile).",
-        "Life expectancy 83.4 yrs (2.3 above OECD); 75% satisfied with quality vs 64% OECD average.",
-        "Karolinska University Hospital ranked 5th in the 2025 Newsweek/Statista global hospital rating."
+        "All residents covered; ~86% of health spending publicly funded, ~13% via patient fees (OECD/EU profile).",
+        "Life expectancy 83.4 yrs (~2.3 above OECD); 75% satisfied with quality vs 64% OECD average.",
+        "Karolinska University Hospital ranked top-5 in the 2025 Newsweek/Statista global hospital rating.",
+        "User fees are capped (high-cost ceiling), keeping out-of-pocket costs low for residents."
       ],
       "links": [
         {
-          "title": "OECD – Health at a Glance 2025: Sweden",
+          "title": "OECD - Health at a Glance 2025: Sweden",
           "url": "https://www.oecd.org/en/publications/health-at-a-glance-2025_15a55280-en/sweden_e51ede07-en.html"
         },
         {
-          "title": "sweden.se – healthcare in Sweden",
+          "title": "sweden.se - healthcare in Sweden",
           "url": "https://sweden.se/life/society/healthcare-in-sweden"
         }
       ],
@@ -218,65 +235,68 @@
     },
     "culture-language": {
       "status": "scored",
-      "score": 68,
-      "summary": "English near-universal day-to-day, but Swedish now needed for PR (2027) and citizenship (test from Oct 2027).",
-      "reasoning": "English is spoken widely in workplaces and daily life, so the couple can function and work from day one. However, new language tests for citizenship (from Oct 2027) and proposed Swedish requirements for PR (from 2027) make Swedish necessary for long-term settlement.",
+      "score": 66,
+      "summary": "English near-universal day-to-day, but Swedish now needed for PR (2027) and citizenship (civics 2026, language test later).",
+      "reasoning": "English is near-universal in workplaces and daily life, so the couple can function and work from day one, and livability is high. However the 2026 reform makes Swedish increasingly mandatory for settlement: a civics test for citizenship from August 2026, a citizenship language test at a later date, and Swedish language/civics for PR from July 2027. These rising official-language bars add real long-term friction for English-speaking newcomers.",
       "evidence": [
         "English is near-universal; most tech workplaces operate in English.",
-        "Citizenship language (reading/listening) test takes effect from 1 October 2027 at the earliest.",
-        "Swedish language proficiency (A2-B1) proposed as a permanent-residence requirement from ~2027."
+        "Citizenship civics test from August 2026; Swedish language test introduced at a later stage.",
+        "Swedish language and civics required for permanent residence from July 2027.",
+        "High livability, but Swedish needed for officialdom and long-term settlement."
       ],
       "links": [
         {
-          "title": "sweden.se – the Swedish language",
-          "url": "https://sweden.se/culture/history/the-swedish-language"
+          "title": "Migrationsverket - new citizenship rules from 6 June 2026",
+          "url": "https://www.migrationsverket.se/en/news-archive/news/2026-05-06-new-rules-for-swedish-citizenship-from-6-june-2026.html"
         },
         {
-          "title": "Library of Congress – citizenship language/knowledge tests",
-          "url": "https://www.loc.gov/item/global-legal-monitor/2026-05-08/sweden-parliament-approves-new-citizenship-law-requiring-language-and-knowledge-tests/"
+          "title": "sweden.se - the Swedish language",
+          "url": "https://sweden.se/culture/history/the-swedish-language"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "safety-law": {
       "status": "scored",
-      "score": 78,
-      "summary": "Top-tier rule of law (WJP 4th, 0.85); shootings down ~33-50% by 2025 but bombings surged, gang violence localised.",
-      "reasoning": "Sweden ranks 4th globally on the WJP Rule of Law Index with strong rights protections, and fatal shootings fell sharply through 2025. Persistent gang-linked explosions (around one a day in early 2025) and localised organised crime are a real concern that tempers an otherwise very safe environment.",
+      "score": 80,
+      "summary": "Top-tier rule of law (WJP 4th 2025); homicides at a decade low in 2025 (84) but gang bombings surged, localised.",
+      "reasoning": "Sweden ranks 4th globally on the 2025 WJP Rule of Law Index (behind Denmark, Norway, Finland) with strong rights and fair institutions, and homicides fell to a decade low of 84 in 2025 (from 92 in 2024) with shootings down ~33% 2022-2024. Persistent gang-linked explosions (~30 in January 2025 alone) and a deadly Örebro mass shooting (Feb 2025, 11 killed) are real concerns but are largely organised-crime and localised, so they temper an otherwise very safe, migrant-fair environment.",
       "evidence": [
-        "WJP Rule of Law Index 2025: Sweden 4th globally, score 0.85.",
-        "Shootings fell ~33% 2022-2024 and roughly halved in 2025 per police data.",
-        "Bombings surged (~30 in January 2025 alone), driven by networks like Foxtrot; mostly Stockholm/urban."
+        "WJP Rule of Law Index 2025: Sweden 4th globally (Denmark 1, Norway 2, Finland 3).",
+        "Homicides fell to a decade low of 84 in 2025 (92 in 2024; peak 124 in 2020).",
+        "Shootings down ~33% 2022-2024 (390→262); fatal shootings down ~35%.",
+        "Gang bombings surged (~30 in Jan 2025); Örebro mass shooting Feb 2025 killed 11 - mostly urban/organised crime."
       ],
       "links": [
         {
-          "title": "WJP Rule of Law Index 2025",
-          "url": "https://worldjusticeproject.org/rule-of-law-index/country/2025/Sweden/"
+          "title": "WJP Rule of Law Index 2025 - press release",
+          "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2025-global-press-release"
         },
         {
-          "title": "Brå – Swedish National Council for Crime Prevention",
-          "url": "https://bra.se/bra-in-english.html"
+          "title": "Brå - shootings and violence (English)",
+          "url": "https://bra.se/english/statistics/shootings-and-violence"
         }
       ],
       "lastReviewed": "2026-06-16"
     },
     "politics": {
       "status": "scored",
-      "score": 50,
+      "score": 46,
       "summary": "Institutionally stable but a sharp restrictive immigration turn; Sweden Democrats kingmaker, repeated tightening 2024-2026.",
-      "reasoning": "Sweden's democracy and institutions are very stable, but immigration policy has swung sharply restrictive with the Sweden Democrats backing the government. Successive 2024-2026 changes (higher salary bars, longer citizenship residency, tougher PR) and rising anti-immigrant sentiment make the long-term path less predictable.",
+      "reasoning": "Sweden's democracy and institutions are very stable, but immigration policy has swung sharply restrictive with the Sweden Democrats (20.5% in 2022) underpinning the governing bloc. A single 2024-2026 cycle raised the work-permit salary floor, extended citizenship to 8 years with tests, tightened PR and capped student work, and anti-immigrant rhetoric is now mainstream - so the long-term path for this couple is less predictable. This volatility, not instability, is what pulls the score into the mixed band.",
       "evidence": [
         "Sweden Democrats (20.5% in 2022) underpin the governing bloc, driving an anti-immigration agenda.",
         "2024-2026 reforms: work-permit salary to SEK 33,390 (June 2026), citizenship to 8 yrs, tougher PR.",
-        "Multiple proposals tighten student work (15h cap) and residence routes within a single cycle."
+        "Student work capped at 15h/week and stricter study-permit progress rules added in the same cycle.",
+        "Frequent same-cycle tightening signals continued policy volatility on skilled migration."
       ],
       "links": [
         {
-          "title": "Government.se – migration policy",
-          "url": "https://www.government.se/government-policy/migration-and-asylum/"
+          "title": "Migrationsverket - new citizenship rules from 6 June 2026",
+          "url": "https://www.migrationsverket.se/en/news-archive/news/2026-05-06-new-rules-for-swedish-citizenship-from-6-june-2026.html"
         },
         {
-          "title": "Migrationsverket – news and updates",
+          "title": "Migrationsverket - news archive",
           "url": "https://www.migrationsverket.se/en/about-the-swedish-migration-agency/the-swedish-migration-agency-answers.html"
         }
       ],
@@ -284,21 +304,22 @@
     },
     "tax": {
       "status": "scored",
-      "score": 38,
-      "summary": "High burden: municipal ~29-35% plus 20% state surtax above ~SEK 598k; effective ~30-55% on tech pay.",
-      "reasoning": "Sweden levies municipal income tax of roughly 29-35% plus a 20% national surtax on income above ~SEK 598,500/yr, so well-paid engineers face high effective rates. An expert-tax relief exists for some incoming specialists but is limited, leaving the overall burden heavy.",
+      "score": 40,
+      "summary": "High burden: municipal ~32% plus 20% state surtax above ~SEK 614k; effective ~38% on Stockholm tech pay.",
+      "reasoning": "Sweden levies municipal income tax of roughly 29-35% (Stockholm ~32%) plus a 20% national surtax on income above ~SEK 613,900/yr, giving an effective rate around 38% for a Stockholm engineer and a 52-55% marginal rate at the top. The jobbskatteavdrag earned-income credit and a narrow expert-tax relief for some incoming specialists soften this, but the overall burden on well-paid IT workers remains heavy, leaving the score in the weak band.",
       "evidence": [
-        "Municipal income tax ~29-35% depending on municipality; flat 20% state tax above ~SEK 598,500/yr.",
-        "Effective tax on tech salaries commonly ~30-55% across income and municipality.",
-        "Expert-tax (expertskatt) relief available for some qualifying specialists but narrowly scoped."
+        "Municipal income tax ~29-35% (Stockholm ~32%); flat 20% state tax above ~SEK 613,900/yr.",
+        "Effective tax ~38% for a Stockholm single filer; marginal 52-55% at the top.",
+        "Jobbskatteavdrag earned-income credit reduces effective rates somewhat.",
+        "Expert-tax (expertskatt) relief exists for some qualifying specialists but is narrowly scoped."
       ],
       "links": [
         {
-          "title": "Skatteverket (Swedish Tax Agency)",
+          "title": "Skatteverket (Swedish Tax Agency) - English",
           "url": "https://www.skatteverket.se/servicelankar/otherlanguages/inenglish.4.12815e4f14a62bc048f4edc.html"
         },
         {
-          "title": "Skatteverket – tax rates",
+          "title": "Skatteverket - amounts and percentages",
           "url": "https://www.skatteverket.se/privat/skatter/beloppochprocent.4.7459477810df5bccdd4800014318.html"
         }
       ],
@@ -306,21 +327,22 @@
     },
     "muslim-diaspora": {
       "status": "scored",
-      "score": 58,
-      "summary": "Sizeable Muslim community + mosques/halal in big cities, but notable anti-Muslim politics and Quran-burning episodes.",
-      "reasoning": "Sweden has several hundred thousand Muslims with mosques and halal options concentrated in Stockholm, Göteborg and Malmö, so practising daily life is feasible. Recent Quran-burning incidents and the prominence of anti-Muslim political rhetoric raise hostility concerns for a visibly Muslim couple.",
+      "score": 52,
+      "summary": "Sizeable Muslim community + mosques/halal in big cities, but small Bangladeshi diaspora and notable anti-Muslim politics.",
+      "reasoning": "Sweden has several hundred thousand Muslims with mosques and halal options concentrated in Stockholm, Göteborg and Malmö, so practising daily life is feasible. But the specifically Bangladeshi/South-Asian community is small (Bangladesh is not among Sweden's larger foreign-born groups), and high-profile 2023 Quran-burning incidents plus mainstream anti-Muslim rhetoric within the governing bloc raise hostility concerns for a visibly Muslim couple. The combination of a small co-national community and a rising-hostility trend places this in the mixed band.",
       "evidence": [
-        "Estimated ~250,000-350,000 Muslims; over 60% live in Stockholm, Göteborg and Malmö where mosques/halal are available.",
-        "High-profile Quran-burning incidents (2022-2023) drew international condemnation; some prosecuted as hate crimes.",
-        "Sweden Democrats' anti-Muslim rhetoric is mainstream within the governing bloc; South Asian community present but Bangladeshi numbers small."
+        "Estimated ~250,000-350,000 Muslims; over 60% in Stockholm, Göteborg and Malmö where mosques/halal are available.",
+        "Bangladesh is not among Sweden's larger foreign-born groups - the BD diaspora is small.",
+        "2023 Quran-burning incidents drew international condemnation and raised the terror-threat level to 4/5.",
+        "Sweden Democrats' anti-Muslim rhetoric is mainstream within the governing bloc."
       ],
       "links": [
         {
-          "title": "Euro-Islam – country profile: Sweden",
+          "title": "Euro-Islam - country profile: Sweden",
           "url": "https://www.euro-islam.info/country-profiles/sweden/"
         },
         {
-          "title": "sweden.se – religion in Sweden",
+          "title": "sweden.se - religion in Sweden",
           "url": "https://sweden.se/life/society/religion-in-sweden"
         }
       ],
