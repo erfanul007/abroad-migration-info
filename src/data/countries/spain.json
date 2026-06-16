@@ -5,8 +5,8 @@
   "iso3": "ESP",
   "flag": "🇪🇸",
   "region": "Europe",
-  "summary": "Spain offers cheap public MSc, a Dhaka-decided visa, a real software shortage and the 2025 Reglamento (RD 1155/2024) granting students 30h/week work plus a 12-24 month job-search permit - but it is decisively weakened for this couple by a student-spouse work ban during studies, a 10-year citizenship clock that forces Bangladeshis to renounce, and study years counting only 50% toward PR.",
-  "lastReviewed": "2026-06-16",
+  "summary": "Spain offers a real software/AI shortage, cheap public MSc, a Dhaka-decided visa and the 2025 Reglamento (RD 1155/2024) giving students 30h/week work plus an EU Blue Card route from ~EUR 31k - but it is decisively weakened for this couple by a study-phase spouse work ban, study years counting only 50% toward PR, a 10-year citizenship clock forcing Bangladeshis to renounce (no dual), and a Madrid/Barcelona housing squeeze.",
+  "lastReviewed": "2026-06-17",
   "links": [
     {
       "title": "La Moncloa: new Immigration Regulation results (official, 21.11.2025)",
@@ -20,39 +20,39 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "score": 74,
-      "summary": "Real ICT shortage (~30k+ unfilled), Madrid/Barcelona top-6 EU startup hubs, English-friendly; pay modest vs north EU.",
-      "reasoning": "Spain has a shortage of roughly 30,000 ICT professionals with estimates of 25,000-50,000 unfilled developer roles, and the tech sector is growing ~18% with 33,000+ IT businesses. Madrid accounts for ~47% of software openings and Barcelona ~27%; both rank among Europe's top startup hubs and the scene actively hires international, English-speaking talent. Two CS engineers are readily absorbed, though salaries trail Germany/Nordics and big-tech-level pay is concentrated in a few firms.",
+      "score": 75,
+      "summary": "30k-50k ICT shortage, AI Engineer the most in-demand role 2026; Madrid/Barcelona hubs, EU Blue Card from ~EUR 31k.",
+      "reasoning": "Spain is short 30,000-50,000 ICT specialists and AI Engineer is projected the single most in-demand role in 2026, with ~30% of AI/ML positions unfilled - ideal for two CS engineers. Madrid and Barcelona are top EU startup hubs that hire English-speaking international talent, and the EU Blue Card (2026 threshold EUR 39,269.92, reduced EUR 31,415.94 for shortage roles/recent graduates) gives a fast, labour-market-test-free sponsorship route for both spouses. Salaries trail Germany/Nordics, keeping it strong rather than world-leading.",
       "evidence": [
-        "Shortage ~30,000 ICT professionals; 25,000-50,000 developer roles unfilled (2025)",
-        "Tech sector growing ~18%; 33,000+ IT businesses in Spain",
-        "Madrid 47% and Barcelona 27% of software job openings",
-        "High demand for cloud, AI/ML, cybersecurity, DevOps",
-        "Barcelona/Madrid 5th-6th largest startup hubs in Europe"
+        "Shortage of 30,000-50,000 ICT specialists; ICT workforce grew 6.8% YoY (2025-26)",
+        "AI Engineer projected most in-demand role in Spain 2026; ~30% of AI/ML roles unfilled",
+        "EU Blue Card 2026 threshold EUR 39,269.92; reduced EUR 31,415.94 for shortage/recent grads",
+        "Blue Card in-country switch, no labour-market test, ~20 day processing",
+        "Madrid/Barcelona top EU startup hubs; senior TC EUR 100k+ at international firms"
       ],
       "links": [
         {
-          "title": "Spain desperately needs software developers and engineers",
-          "url": "https://www.spaindigitaljobs.com/blog/spain-desperately-needs-software-developers-and-engineers/"
+          "title": "EU Blue Card Spain 2026 - thresholds & processing (Jobbatical)",
+          "url": "https://www.jobbatical.com/blog/spain-eu-blue-card-guide"
         },
         {
-          "title": "Most in-demand tech job in Spain 2025 (Nucamp)",
-          "url": "https://www.nucamp.co/blog/coding-bootcamp-spain-esp-most-in-demand-tech-job-in-spain-in-2025"
+          "title": "Most in-demand tech job in Spain 2026 (TechMag)",
+          "url": "https://www.techmag.es/15-most-in-demand-jobs-in-spain-in-2026/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "visa-access": {
       "status": "scored",
-      "score": 72,
-      "summary": "Decided at Embassy of Spain in Dhaka (no New Delhi), modest ~EUR 600/month funds, biometrics, no interview, 10-15 working days.",
-      "reasoning": "National (long-term) student visas are submitted and decided directly at the Embassy of Spain in Dhaka - no New Delhi travel - with appointments by phone and short-stay/Schengen handled via the BLS centre in Banani. Financial proof is modest at ~100% IPREM (~EUR 600/month) versus blocked-account regimes elsewhere, biometrics are taken but no interview is required, and processing is ~10-15 working days. Friction is real but mid-tier: all documents must be translated into Spanish and notarised, and appointment availability can be tight.",
+      "score": 70,
+      "summary": "National student visa decided at Embassy in Dhaka (no New Delhi), modest ~EUR 600/month funds; but BD Schengen refusal 54.9% (2024).",
+      "reasoning": "Long-term/national student visas are submitted and decided directly at the Embassy of Spain in Dhaka (appointments by phone, no New Delhi travel), with modest financial proof of ~100% IPREM (EUR 600/month) and no interview - a mid-tier, workable process. The headline risk is the broader Bangladesh Schengen refusal rate, which jumped to 54.9% in 2024 (from 43.3%), though that figure covers short-stay visas; national study visas are a separate, document-driven track decided in Dhaka. Friction is real: all documents must be translated into Spanish and notarised, and appointment slots can be tight.",
       "evidence": [
-        "Long-term/student visas decided at Embassy of Spain in Dhaka; no New Delhi routing",
+        "National/student visas decided at Embassy of Spain in Dhaka; no New Delhi routing",
+        "Proof of funds 100% IPREM = EUR 600/month for the student (2025-26)",
         "Appointment by phone (+8801609208089, 14:00-15:30); Schengen via BLS Banani",
-        "Proof of funds ~EUR 600/month (100% IPREM) for students",
-        "Biometrics required; no visa interview for students",
-        "All documents must be translated to Spanish and notarised; ~10-15 working days"
+        "Bangladesh overall Schengen refusal rate 54.9% in 2024 (up from 43.3% in 2023)",
+        "All documents must be translated to Spanish and notarised; biometrics, no interview"
       ],
       "links": [
         {
@@ -60,71 +60,71 @@
           "url": "https://bgd.blsspainvisa.com/long-term-visa.php"
         },
         {
-          "title": "Spain Visa Application Center Bangladesh (BLS International)",
-          "url": "https://bgd.blsspainvisa.com/"
+          "title": "Schengen Visa Refusal Rate 2024-2025 (HelloSafe barometer)",
+          "url": "https://hellosafe.com/schengen-visa/rejection"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "citizenship": {
       "status": "scored",
-      "score": 30,
-      "summary": "10 years residence, dual citizenship NOT allowed for Bangladeshis (must renounce), plus DELE A2 + CCSE exams.",
-      "reasoning": "Standard naturalisation requires 10 years of legal residence for non-Ibero-American nationals, and Spain's bilateral dual-nationality treaties exclude Bangladesh - so Bangladeshis must formally renounce their original nationality at the citizenship ceremony, a decisive penalty for a couple who prefer dual. Applicants must also pass the DELE A2 Spanish exam (Bangladeshis are not exempt; only Ibero-American nationals are) and the CCSE civics test. Long clock plus forced renunciation plus language bar places this near the bottom band.",
+      "score": 28,
+      "summary": "10 years residence, NO dual citizenship for Bangladeshis (must renounce), plus DELE A2 + CCSE exams.",
+      "reasoning": "Standard naturalisation requires 10 years of legal residence for non-Ibero-American nationals, and Spain's dual-nationality treaties exclude Bangladesh - so Bangladeshis must formally renounce their original nationality at the citizenship oath, directly defeating this couple's dual-citizenship preference. Applicants must also pass the DELE A2 Spanish exam (Bangladeshis not exempt; only Ibero-Americans are) and the CCSE civics test. The long clock, forced renunciation and language bar are all decisive negatives, placing this near the bottom band; the strong passport once obtained is small consolation given the cost of entry.",
       "evidence": [
         "10 years legal residence for non-Ibero-American nationals (incl. Bangladeshis)",
-        "Dual-nationality treaties cover only Latin America, Andorra, Portugal, Philippines, Equatorial Guinea - not Bangladesh",
-        "Renunciation of prior nationality generally required at the ceremony",
-        "DELE A2 language exam required; Bangladeshis not exempt (only Ibero-Americans are)",
+        "Dual-nationality treaties cover only Latin America, Andorra, Portugal, Philippines, Eq. Guinea - not Bangladesh",
+        "Renunciation of prior nationality required at the oath/ceremony",
+        "DELE A2 language exam required; Bangladeshis not exempt",
         "CCSE civics/constitution test applies to virtually all applicants"
       ],
       "links": [
         {
-          "title": "Spanish nationality by residence - integration requirements 2025 (Costaluz Lawyers)",
-          "url": "https://www.costaluzlawyers.com/spanish-nationality-residence-integration-requirements-2025/"
+          "title": "Does Spain Allow Dual Citizenship? Rules & Requirements 2026 (MySpainVisa)",
+          "url": "https://myspainvisa.com/dual-citizenship-in-spain/"
         },
         {
-          "title": "Does Spain allow dual citizenship? Rules & requirements 2026",
-          "url": "https://myspainvisa.com/dual-citizenship-in-spain/"
+          "title": "Spanish Citizenship by Residence: 2025 Guide (Lexidy)",
+          "url": "https://www.lexidy.com/blog/spanish-citizenship-by-residence/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "post-study-work": {
       "status": "scored",
-      "score": 72,
-      "summary": "RD 1155/2024: 30h/week work during studies + 12-24 month job-search permit, in-country conversion to work permit.",
-      "reasoning": "Under the 2025 Reglamento (RD 1155/2024, in force 20 May 2025), higher-education students may work up to 30 hours/week automatically within the student permit, then take a 12-24 month residence permit to seek work or start a business (non-extendable). The student-to-work conversion is in-country and streamlined - immediate switch for a highly-qualified offer, otherwise after ~10 months. Strong on duration and conversion, but the spouse cannot work in the study phase (see spouse-family) and the job-search permit itself does not authorise employment until converted.",
+      "score": 71,
+      "summary": "RD 1155/2024: 30h/week during studies + up to 24-month job-search permit; in-country switch to Blue Card, but permit itself doesn't authorise work.",
+      "reasoning": "Under RD 1155/2024 (in force 20 May 2025) higher-education students may work up to 30h/week automatically, then take a job-search residence permit (sources cite 12 up to 24 months, non-renewable) to seek work or start a business. Conversion to a work permit / EU Blue Card is in-country and streamlined for these qualified engineers. Two caveats keep it below the strong band: the job-search permit does NOT itself authorise employment (a separate work permit is needed once a job is found), and the accompanying spouse cannot work during the study phase.",
       "evidence": [
         "Higher-ed students may work up to 30h/week, built into the permit (RD 1155/2024)",
-        "Post-study job-search permit 12 months min, 24 months max, non-extendable",
-        "Conversion to work permit in-country; immediate for highly-qualified offer",
-        "Reform in force 20 May 2025; student permits valid for full course duration",
-        "93,000 student residence applications 20 May-31 Oct 2025 (La Moncloa)"
+        "Post-study job-search residence permit up to 12-24 months, non-extendable",
+        "Job-search permit does NOT authorise work; separate work permit needed on hire",
+        "In-country switch to EU Blue Card (no labour-market test, ~20 days)",
+        "Reform in force 20 May 2025; student permits valid for full course duration"
       ],
       "links": [
         {
-          "title": "Long-Term Student Visa under the new Immigration Regulation (KLEV&VERA)",
-          "url": "https://www.klevvera.com/blog/long-term-student-visa-in-spain-under-the-new-immigration-regulation/"
+          "title": "Job Search Visa in Spain for students seeking employment (Immigration Spain)",
+          "url": "https://www.immigrationspain.es/en/new-law-for-foreigner-students-in-spain/"
         },
         {
-          "title": "Job Search Visa in Spain - residency for students seeking employment (Immigration Spain)",
-          "url": "https://www.immigrationspain.es/en/new-law-for-foreigner-students-in-spain/"
+          "title": "Spain's New Residency Rules: RD 1155/2024 (360 Business Law)",
+          "url": "https://www.360businesslaw.com/spains-new-residency-rules-royal-decree-1155-2024/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "spouse-family": {
       "status": "scored",
       "score": 42,
-      "summary": "Family of a STUDENT may accompany but CANNOT work during studies - decisive for two earners; both work only in work phase.",
-      "reasoning": "Under RD 1155/2024 a student's spouse/partner may accompany (apply together or later if 90+ days remain on the permit), but the regulation explicitly states accompanying family members are NOT authorised to work. For a two-engineer household where both must work, the study-phase dependant work ban is a serious weakness - one partner sits idle for the full MSc unless they secure their own student or work permit independently. Both can work freely once on work/Blue Card permits, lifting it above the worst band; if both enrol as students each can work 30h/week.",
+      "summary": "Student's spouse may accompany but is explicitly NOT authorised to work during studies - decisive for two earners; both work only in work phase.",
+      "reasoning": "RD 1155/2024 lets a student's spouse/partner accompany (apply together or later if 90+ days remain), but official guidance states accompanying family members 'are not authorized to work' - and a student cannot sponsor family reunification under the general regime. For a two-engineer household this means one partner sits idle through the full MSc unless separately enrolled as a student (then 30h/week) or holding their own work permit. Both work freely once on work/Blue Card permits, lifting it above the worst band but the study-phase ban is a serious structural weakness.",
       "evidence": [
-        "Student's accompanying family 'are not authorized to work' (RD 1155/2024)",
+        "Student's accompanying family members 'are not authorized to work' (RD 1155/2024)",
+        "Students cannot sponsor family reunification under the general regime",
         "Family may apply together or later if 90+ days remain on student permit",
-        "Each partner enrolling as a student can independently work 30h/week",
-        "Both partners work freely once holding work/highly-qualified permits",
-        "Reform broadened family definitions (children to 26, stable partners)"
+        "Each partner enrolling separately as a student can independently work 30h/week",
+        "Both partners work freely once holding work/EU Blue Card permits"
       ],
       "links": [
         {
@@ -132,143 +132,143 @@
           "url": "https://www.klevvera.com/blog/long-term-student-visa-in-spain-under-the-new-immigration-regulation/"
         },
         {
-          "title": "Student Work Permit in Spain (Entre Tramites)",
-          "url": "https://entretramites.com/en/immigration/spain-student-work-permit-rules"
+          "title": "Spain's New Residency Rules: RD 1155/2024 (360 Business Law)",
+          "url": "https://www.360businesslaw.com/spains-new-residency-rules-royal-decree-1155-2024/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "msc-study": {
       "status": "scored",
-      "score": 78,
-      "summary": "700+ English-taught Master's, cheap public tuition (~EUR 2,700-6,600 non-EU), 30h/week work; but spouse can't work.",
-      "reasoning": "Spain offers 700+ English-taught Master's and a public 60-ECTS MSc costs roughly EUR 2,700-6,600 for non-EU students (e.g. UPC Barcelona EUR 53.33/ECTS for 2025/26, University of Barcelona EUR 65-100/credit), far cheaper than the UK/US. Students get an automatic 30h/week work right and the permit covers the full study duration. It falls short of Germany's near-free tuition, and crucially the accompanying spouse cannot work during studies unless separately enrolled or on a work permit.",
+      "score": 77,
+      "summary": "200+ English-taught Master's, cheap public tuition (~EUR 2,700-6,600 non-EU/yr), 30h/week work; but accompanying spouse can't work.",
+      "reasoning": "Spain offers 200+ English-taught Master's and a public 60-ECTS MSc costs roughly EUR 2,700-6,600/year for non-EU students (fees set regionally; UPC Barcelona has cut non-EU master's fees), far cheaper than the UK/US. Students get an automatic 30h/week work right and the permit now covers the full study duration without annual renewals. It trails Germany's near-free tuition and limited-but-growing English provision, and the accompanying spouse cannot work during studies unless separately enrolled - both temper the score.",
       "evidence": [
-        "700+ English-taught Master's programmes in Spain",
-        "Public non-EU MSc ~EUR 2,700-6,600 total (60 ECTS)",
-        "UPC Barcelona EUR 53.33/ECTS for 2025/26 + ~EUR 89.54/semester fee",
-        "University of Barcelona EUR 65-100 per credit for non-EU nationals",
-        "Students may work up to 30h/week; permit valid for full course duration"
+        "200+ English-taught Master's programmes across Spanish universities",
+        "Public non-EU MSc ~EUR 2,700-6,600/year (60 ECTS); fees set per region",
+        "UPC Barcelona reduced non-EU master's tuition fees",
+        "Students may work up to 30h/week; permit valid for full course duration (RD 1155/2024)",
+        "Private universities EUR 10,000-30,000+/year for English Master's"
       ],
       "links": [
         {
-          "title": "UPC MASTEAM fees for non-EU students 2025-2026 (official)",
-          "url": "https://masteam.masters.upc.edu/en/admission/information/fees"
-        },
-        {
           "title": "Spain: Tuition fees & cost of living (Study.eu)",
           "url": "https://www.study.eu/article/spain-tuition-fees-cost-of-living"
+        },
+        {
+          "title": "UPC reduces tuition fees for non-EU master's students (official)",
+          "url": "https://www.upc.edu/en/press-room/news/the-upc-reduces-tuition-fees-for-non-eu-students-enrolling-in-master-degrees"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "pr-pathway": {
       "status": "scored",
       "score": 55,
       "summary": "Long-term residence at 5 years - but STUDENT years count only 50%, pushing real PR to ~7+ years from study start.",
-      "reasoning": "Long-term residence (larga duracion) is granted after 5 years of continuous legal residence with modest income (~EUR 600/month, 100% IPREM) and clean record. The catch for this pathway: student-visa years count only 50% toward the 5-year total, so a 2-year MSc contributes only ~1 year - meaning realistic PR is ~7+ years from arrival if starting as students. The route is clear and renewable indefinitely, but slower than its headline '5 years' suggests for a study-first couple.",
+      "reasoning": "Long-term residence (larga duracion) is granted after 5 years of continuous legal residence with modest income (~EUR 600/month, 100% IPREM), valid health cover and clean record. The catch for a study-first pathway: student-visa years count only 50% toward the 5-year total, so a 2-year MSc contributes only ~1 year - realistic PR is ~7+ years from arrival. Work/Blue Card years count fully, the route is clear and renewable indefinitely, but the headline '5 years' is misleading for this couple.",
       "evidence": [
         "Long-term residence after 5 years continuous legal residence",
         "Student-visa years count only 50% toward permanent residence",
+        "Work-permit / Blue Card years count as full years toward the 5-year goal",
         "Income bar low: ~EUR 600/month (100% IPREM, 2025)",
-        "Absence limits: up to 12 months consecutive, 18 in any 2-year period",
-        "Status renewable indefinitely (card renews every 5 years)"
+        "Absences must not exceed ~10 months total in the 5-year period; TIE renews every 5 years"
       ],
       "links": [
         {
-          "title": "Spain's Long-Term Residency Explained (Fuster & Associates)",
-          "url": "https://fuster-associates.com/blog/spains-long-term-residency-explained-rights-after-5-years/"
+          "title": "Spain Permanent Residence: 2025 Guide to Time Limits and Rules (Lexidy)",
+          "url": "https://www.lexidy.com/blog/spain-permanent-residency/"
         },
         {
-          "title": "Spain Permanent Residence: Guide for Non-EU Citizens (Lexidy)",
-          "url": "https://www.lexidy.com/blog/spain-permanent-residency/"
+          "title": "Long-Term Residency in Spain: 2025 Guide (RRYP Global)",
+          "url": "https://rrypglobal.com/en/residencia-de-larga-duracion-en-espana/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "income-cost": {
       "status": "scored",
-      "score": 58,
-      "summary": "Mid SW pay (~EUR 40-75k; Madrid/Barcelona +10-15%) vs lower cost than north EU; two incomes save modestly.",
-      "reasoning": "Software engineers earn ~EUR 40,000-60,000 mid-level and EUR 60,000-75,000 senior, with a 10-15% Madrid/Barcelona premium and big-tech outliers (Amazon SDE-II EUR 80-100k TC). Cost of living and rent are lower than Germany or the Nordics, so two engineering incomes save meaningfully, but high regular IRPF (up to 45-47%) plus ~6.4% employee social security erode net pay, and metro rents in Madrid/Barcelona have risen sharply. Net savings are decent on two incomes but not exceptional.",
+      "score": 54,
+      "summary": "Mid SW pay (Barcelona avg ~EUR 63.6k TC) vs record rents - Madrid rent ~37% of household income; two incomes save modestly.",
+      "reasoning": "Software engineers earn solid mid pay (Barcelona average TC ~EUR 63,597; Madrid range ~EUR 36k-75k; EUR 100k+ at senior international firms), and two incomes help, but Spain is in an acute housing squeeze that erodes savings. National rents hit a record ~EUR 15/m2/month in April 2026 (+5.2% YoY) and Madrid rent already absorbs ~37% of average household income with rental supply down 56% since the pandemic. Combined with high IRPF, net savings on two engineering incomes are decent but pressured - down from prior view given the worsening rent data.",
       "evidence": [
-        "Mid-level SW ~EUR 40,000-60,000; senior EUR 60,000-75,000 gross (2025-26)",
-        "Madrid/Barcelona ~10-15% premium; Amazon SDE-II EUR 80-100k TC",
-        "Cost of living below Germany/Nordics, aiding savings on two incomes",
-        "Regular IRPF up to 45-47% plus employee social security erode net",
-        "Madrid/Barcelona rents rising; housing pressure a real factor"
+        "Barcelona SW average total comp ~EUR 63,597; Madrid ~EUR 36k-75k (2026)",
+        "National average rent ~EUR 15/m2/month, record high, +5.2% YoY (April 2026)",
+        "Madrid rent ~37% of average household income (Dec 2025); big cities ~EUR 1,750/month",
+        "Rental supply down 56% since the pandemic (Idealista, 2025)",
+        "Cost of living below Germany/Nordics but housing now a major drag"
       ],
       "links": [
         {
-          "title": "Software Engineer Salary in Madrid (Levels.fyi)",
-          "url": "https://www.levels.fyi/t/software-engineer/locations/madrid-esp"
+          "title": "Software Engineer Salary in Barcelona (Levels.fyi)",
+          "url": "https://www.levels.fyi/t/software-engineer/locations/barcelona-esp"
         },
         {
-          "title": "Tech Salaries in Spain 2026 (GetManfred)",
-          "url": "https://www.getmanfred.com/en/blog/tech-salaries-spain-2026"
+          "title": "What will happen to property prices and rents in Spain in 2026? (The Local)",
+          "url": "https://www.thelocal.es/20251210/what-will-happen-to-property-prices-and-rents-in-spain-in-2026"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "healthcare": {
       "status": "scored",
-      "score": 82,
-      "summary": "Universal SNS, ~99% coverage, high quality; students under 26 free, workers covered via social security.",
-      "reasoning": "Spain's National Health System (SNS) provides near-universal coverage (>99% of residents) with high quality and low out-of-pocket cost, funded at ~EUR 99.3bn/year (~EUR 2,079 per inhabitant, 2025 Ministry of Health). Students under 26 access public care, and workers are covered through social-security contributions; entitlement is residence-based since 2018. Some public-system strain and waiting lists push many to top up with affordable private cover, holding it just below the top band.",
+      "score": 80,
+      "summary": "Universal SNS, life expectancy ~84 (top in EU); students under 26 free, workers via social security, Convenio Especial ~EUR 60/month otherwise.",
+      "reasoning": "Spain's National Health System (SNS) is near-universal and high quality - life expectancy ~84, the best in the EU, ranked 26th of 110 on the 2024 Health Care Index. Students under 26 and all workers (via social-security contributions) are covered; others can pay into the Convenio Especial at ~EUR 60/month, though it does not auto-cover dependants. Public waiting-list strain pushes many to affordable private top-ups, holding it just below the top band; safety net (unemployment/parental benefits) is solid for contributors.",
       "evidence": [
-        "SNS covers >99% of population; residence-based entitlement since 2018",
-        "Public spend ~EUR 99.3bn/year, ~EUR 2,079 per inhabitant (2025)",
-        "Students under 26 access public healthcare",
+        "SNS near-universal; life expectancy ~84, highest in the EU",
+        "Spain ranked 26th of 110 on 2024 Health Care Index",
+        "Students under 26 access public healthcare free",
         "Workers covered via social-security contributions",
-        "Public waiting-list strain; affordable private top-ups common"
+        "Convenio Especial ~EUR 60/month for under-65s; does not auto-cover dependants"
       ],
       "links": [
         {
-          "title": "Spain health system review 2024 (WHO/Euro Health Observatory)",
-          "url": "https://eurohealthobservatory.who.int/publications/i/spain-health-system-review-2024"
+          "title": "The healthcare system in Spain (Expatica, 2026)",
+          "url": "https://www.expatica.com/es/healthcare/healthcare-basics/healthcare-in-spain-101467/"
         },
         {
-          "title": "Healthcare in Spain (Expatica)",
-          "url": "https://www.expatica.com/es/healthcare/healthcare-basics/healthcare-in-spain-101467/"
+          "title": "Convenio Especial Spain: Healthcare Guide for Expats 2026 (MySpainVisa)",
+          "url": "https://myspainvisa.com/convenio-especial-spain/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "culture-language": {
       "status": "scored",
-      "score": 52,
-      "summary": "English works in tech hubs, but Spanish needed for officialdom, daily life and citizenship (DELE A2 + CCSE); high livability.",
-      "reasoning": "Barcelona and Madrid tech workplaces and startups often operate in English, and livability (climate, food, social life) is excellent, but Spanish is needed for bureaucracy, daily life outside the hubs and is a hard bar for citizenship (DELE A2 + CCSE, no Bangladeshi exemption). Catalonia adds Catalan in some official/educational contexts. English usability for day-to-day officialdom is weaker than in northern Europe, holding this at the mixed band.",
+      "score": 50,
+      "summary": "EF EPI 2025: 36th globally (540, 'moderate'); English works in tech hubs but Spanish needed for officialdom & citizenship (DELE A2 + CCSE).",
+      "reasoning": "Spain ranks only 36th on EF EPI 2025 (score 540, 'moderate', speaking just 462), so English usability for day-to-day officialdom is markedly weaker than northern Europe; tech workplaces in Madrid/Barcelona do run in English. Spanish is needed for bureaucracy and is a hard citizenship bar (DELE A2 + CCSE, no Bangladeshi exemption), and Catalonia adds Catalan in some official/educational settings. Livability (climate, food, social life) is excellent, but the language friction for this couple's long-term goals keeps it in the mixed band.",
       "evidence": [
-        "English common in Barcelona/Madrid tech scene and startups",
-        "Spanish required for officialdom and daily life off-hub",
+        "EF EPI 2025: Spain 36th globally, score 540 ('moderate'); speaking 462",
+        "English common in Barcelona/Madrid tech scene; weak for officialdom off-hub",
         "Citizenship needs DELE A2 + CCSE; Bangladeshis not exempt",
         "Catalan used in some official/educational contexts in Catalonia",
         "High livability: climate, food, social life rated strongly"
       ],
       "links": [
         {
-          "title": "Best English-Taught Universities in Spain 2025 (StudiesIn)",
-          "url": "https://studiesin.com/knowledge-base/english-taught-universities-in-spain"
+          "title": "Spain - EF English Proficiency Index 2025 (official)",
+          "url": "https://www.ef.com/wwen/epi/regions/europe/spain/"
         },
         {
           "title": "DELE A2 exam for Spanish citizenship 2025/2026 (Prep2Go)",
           "url": "https://www.prep2go.study/blog/how-to-pass-the-dele-a2-exam-for-spanish-citizenship-2025-2026-guide"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "safety-law": {
       "status": "scored",
-      "score": 75,
-      "summary": "WJP 2025: 25th of 143 (0.71); low violent crime, good rule of law - but petty theft high in tourist cities.",
-      "reasoning": "Spain ranks 25th of 143 in the WJP Rule of Law Index 2025 with a score of 0.71 (down 0.6% on the year), placing it in the upper tier but below Germany (6th) and the Nordics. Violent crime is low and courts are broadly fair, though pickpocketing and petty theft are notably high in Barcelona/Madrid tourist zones. Treatment of skilled migrants is generally fair, with the usual administrative slowness.",
+      "score": 74,
+      "summary": "WJP 2025: 25th of 143 (score 0.71, -0.6%); low violent crime, fair courts - but high petty theft in tourist cities.",
+      "reasoning": "Spain ranks 25th of 143 on the WJP Rule of Law Index 2025 with a score of 0.71 (down 0.6% YoY), upper-tier but below Germany and the Nordics. Violent crime is low and courts are broadly fair, but pickpocketing/petty theft is notably high in Barcelona/Madrid tourist zones, and 2025 saw anti-migrant unrest (Torre-Pacheco) that, while localised, dents the climate for visible minorities. Treatment of skilled migrants is generally fair with the usual extranjeria administrative slowness.",
       "evidence": [
-        "WJP Rule of Law Index 2025: 25th of 143, score 0.71 (-0.6%)",
+        "WJP Rule of Law Index 2025: 25th of 143, score 0.71 (-0.6% YoY)",
         "Low violent crime relative to global peers",
         "High petty theft / pickpocketing in Barcelona & Madrid tourist areas",
-        "Functioning anti-discrimination legal framework",
-        "Administrative (extranjeria) slowness a common friction"
+        "July 2025 anti-migrant unrest in Torre-Pacheco (Murcia)",
+        "Extranjeria administrative slowness a common friction"
       ],
       "links": [
         {
@@ -276,83 +276,83 @@
           "url": "https://worldjusticeproject.org/sites/default/files/documents/Spain_3.pdf"
         },
         {
-          "title": "WJP Rule of Law Index 2025 global press release",
-          "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2025-global-press-release"
+          "title": "WJP Rule of Law Index 2025 global table",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/global/2025/table"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "politics": {
       "status": "scored",
-      "score": 58,
-      "summary": "Pro-migration national govt (RD 1155/2024 expanded routes) but fragile Sanchez minority; far-right Vox rising regionally.",
-      "reasoning": "The national PSOE-led government has been actively pro-skilled-migration, with RD 1155/2024 expanding legal residence/work routes (applications to reside and work up 46.2% to 724,000 in 20 May-31 Oct 2025). But Sanchez leads a fragile minority after Junts withdrew, with corruption scandals and no 2027 majority guaranteed, while far-right Vox is entering PP regional coalitions (Extremadura, Aragon) and pushing harder anti-immigration lines. Policy direction is currently favourable but politically unstable.",
+      "score": 54,
+      "summary": "Pro-migration govt (RD 1155/2024; +46% work applications) but Sanchez minority fragile; Vox projected to ~double seats (33->60).",
+      "reasoning": "The PSOE-led government remains pro-skilled-migration - RD 1155/2024 expanded routes and applications to reside and work rose 46.2% to 724,000 (May-Oct 2025), with a 2026 plan to regularise ~500,000 migrants. But Sanchez leads a fragile, scandal-hit minority polling ~107 seats (far below 176), while Vox is projected to nearly double to ~60 seats, won ~17% in Extremadura (Dec 2025) and is re-entering PP regional coalitions on tougher immigration lines. Current policy is favourable but the trajectory is volatile and tilting against migrants, lowering the score.",
       "evidence": [
-        "RD 1155/2024 expanded legal residence/work pathways (in force 20 May 2025)",
-        "Applications to reside and work +46.2% to 724,000 (May-Oct 2025, La Moncloa)",
-        "Sanchez minority government fragile after Junts withdrawal; corruption scandals",
-        "Vox entering PP regional coalitions; rising anti-immigrant rhetoric",
-        "Sanchez ruled out early elections, to run again in 2027"
+        "RD 1155/2024 expanded routes; reside-and-work applications +46.2% to 724,000 (May-Oct 2025)",
+        "2026 plan to regularise ~500,000 undocumented migrants",
+        "PSOE polling ~107 seats vs 176 needed; corruption scandals weaken Sanchez",
+        "Vox projected to jump from 33 to ~60 seats; ~17% in Dec 2025 Extremadura vote",
+        "PP-Vox regional coalitions tightening immigration rules"
       ],
       "links": [
         {
-          "title": "La Moncloa: applications to reside and work up ~50% (official, 21.11.2025)",
+          "title": "La Moncloa: reside-and-work applications up ~50% (official, 21.11.2025)",
           "url": "https://www.lamoncloa.gob.es/lang/en/gobierno/news/paginas/2025/20251121-reside-work-applications.aspx"
         },
         {
-          "title": "Spain's far-right Vox returns to regional power with PP (Euronews)",
+          "title": "Spain's far-right Vox returns to regional power with PP (Euronews, 2026)",
           "url": "https://www.euronews.com/my-europe/2026/04/22/spains-far-right-vox-returns-to-power-in-regional-coalition-government-with-popular-party"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "tax": {
       "status": "scored",
       "score": 45,
-      "summary": "High regular IRPF (up to 45-47%); Beckham 24% flat rate largely unavailable to study-first arrivals.",
-      "reasoning": "Regular IRPF is progressive to 45% above EUR 60,000 and 47% above EUR 300,000 (region-dependent; Madrid lower, Andalucia to 48%), plus ~6.4% employee social security - a high burden for SW salaries. The Beckham regime offers a flat 24% up to EUR 600,000 for six years, but it requires no Spanish tax residence in the prior 5 years and relocation for work, so a couple who study in Spain first generally cannot use it when they switch to work. Realistic burden for this pathway is the high regular rate.",
+      "summary": "High regular IRPF (19-47%); Beckham 24% flat rate needs no Spanish residence in prior 5 years - excludes study-first arrivals.",
+      "reasoning": "Regular IRPF is progressive 19-47% (47% above EUR 300,000; ~45% above EUR 60,000, region-dependent) plus employee social security - a high burden on SW salaries. The Beckham regime offers a flat 24% up to EUR 600,000 for six years, but it requires NO Spanish tax residence in the prior 5 years and relocation for a Spanish employer, so a couple who study in Spain first cannot use it when they switch to work. The realistic burden for this study-first pathway is the high regular rate.",
       "evidence": [
-        "IRPF 45% above EUR 60,000; 47% above EUR 300,000 (2025, region-dependent)",
-        "Employee social security ~6.4% on top of income tax",
-        "Beckham flat 24% up to EUR 600,000 for 6 tax years",
-        "Beckham bars anyone tax-resident in Spain in prior 5 years - excludes study-first arrivals",
-        "Madrid lowest regional rates (~43.5%), Andalucia highest (~48%)"
+        "IRPF progressive 19-47%; ~45% above EUR 60,000, 47% above EUR 300,000 (region-dependent)",
+        "Beckham flat 24% on income up to EUR 600,000 for 6 tax years",
+        "Beckham requires no Spanish tax residence in prior 5 years - excludes study-first arrivals",
+        "Beckham needs a Spanish employer (or Digital Nomad Visa for remote)",
+        "Employee social-security contributions on top of income tax"
       ],
       "links": [
-        {
-          "title": "Taxes in Spain in 2025 for Residents and Non-Residents (Koronapay)",
-          "url": "https://koronapay.com/transfers/europe/en/blog/taxes-in-spain-in-2025/"
-        },
         {
           "title": "Beckham Law in Spain: Guide for 2026 (Lawants)",
           "url": "https://www.lawants.com/en/beckham-law/"
+        },
+        {
+          "title": "Beckham Law Spain 2026: 24% Flat Tax, Requirements (Pellicer & Heredia)",
+          "url": "https://www.pellicerheredia.com/en/beckham-law-spain/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "muslim-diaspora": {
       "status": "scored",
-      "score": 60,
-      "summary": "~50k Bangladeshis (larger than Germany's), Barcelona/Madrid hubs, halal & mosques easy; some rising hostility.",
-      "reasoning": "Spain hosts ~50,000 Bangladeshis - notably larger and more established than Germany's - concentrated in Barcelona and Madrid, alongside ~300,000 Muslims in Catalonia with easy halal food, shops and mosques (Aladdin, La Medina, Islamic cultural centres). The community provides real settlement support, and Spain's Andalusian heritage gives Islam a long local footprint. Sentiment is mixed: generally workable but with rising far-right (Vox) anti-immigrant rhetoric in some regions.",
+      "score": 55,
+      "summary": "~50k Bangladeshis, 1.085M Muslims (Jan 2025), Barcelona/Madrid hubs, easy halal & mosques - but 2025 anti-Muslim unrest rising.",
+      "reasoning": "Spain hosts ~50,000 Bangladeshis and ~1.085 million Muslims (Jan 2025), with established South Asian communities in Barcelona (264 mosques in the province) and Madrid's Lavapies, where halal butchers, restaurants and grocers are abundant - real settlement support for this couple. But the sentiment trend is deteriorating: the July 2025 Torre-Pacheco anti-migrant violence, a mosque arson near Barcelona, and Vox proposals to ban the hijab in public spaces are material negatives, pulling the score down from the prior view despite the community's size and Andalusian heritage.",
       "evidence": [
-        "~50,000 Bangladeshis in Spain; established community in Barcelona & Madrid",
-        "~300,000 Muslims in Catalonia; mosques and Islamic centres present",
-        "Halal restaurants, food markets and shops common in Barcelona/Madrid",
-        "Long historical Muslim footprint (Andalusia)",
-        "Rising far-right (Vox) anti-immigrant rhetoric a watch-item"
+        "~50,000 Bangladeshis in Spain; ~1.085M Muslims as of January 2025",
+        "Barcelona province has 264 mosques/Muslim places of worship",
+        "Madrid's Lavapies: Bangladeshi/Pakistani halal restaurants, butchers, grocers",
+        "July 2025 Torre-Pacheco anti-migrant violence; mosque arson near Barcelona",
+        "Vox proposed banning the hijab in all public spaces (2025)"
       ],
       "links": [
         {
-          "title": "Bangladeshi diaspora (Wikipedia, sourced)",
-          "url": "https://en.wikipedia.org/wiki/Bangladeshi_diaspora"
+          "title": "Islam in Barcelona (Euro-Islam city profile)",
+          "url": "https://www.euro-islam.info/country-profiles/city-profiles/17006-2/"
         },
         {
-          "title": "Islam in Barcelona (Euro-Islam country/city profile)",
-          "url": "https://www.euro-islam.info/country-profiles/city-profiles/17006-2/"
+          "title": "2025 Torre-Pacheco unrest (Wikipedia, sourced)",
+          "url": "https://en.wikipedia.org/wiki/2025_Torre-Pacheco_unrest"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     }
   }
 }

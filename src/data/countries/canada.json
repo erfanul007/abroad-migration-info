@@ -5,24 +5,28 @@
   "iso3": "CAN",
   "flag": "🇨🇦",
   "region": "North America",
-  "summary": "English-speaking with a best-in-class 3-year citizenship and 3-year master's PGWP, but 2025-26 study caps, ~36% national study-permit approval, dormant STEM Express Entry draws and tightened spousal work permits create real friction for a two-engineer Bangladeshi couple.",
-  "lastReviewed": "2026-06-16",
+  "summary": "English-speaking with a best-in-class 3-year citizenship route and 3-year master's PGWP, but a ~49% study-cap cut, ~36% national study-permit approval (Bangladesh among hardest hit), dormant STEM Express Entry draws and tightened spousal work permits create real friction for a two-engineer Bangladeshi couple.",
+  "lastReviewed": "2026-06-17",
   "links": [
     {
       "title": "IRCC immigrate to Canada (official)",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
+    },
+    {
+      "title": "IRCC study permit (official)",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html"
     }
   ],
   "categories": {
     "job-market": {
       "status": "scored",
       "score": 72,
-      "summary": "Deep English-speaking demand for software/AI talent, but 2025-26 is selective hiring amid major layoffs and newcomer friction.",
-      "reasoning": "Toronto, Vancouver, Montreal and Waterloo host large tech sectors and Robert Half's 2026 guide keeps software/AI roles in the most-in-demand list with specialized talent scarce; however 2026 saw heavy layoffs (Microsoft ~6,000, Meta ~8,000 globally, Ontario ~7,348 cuts), so two newcomers without Canadian experience face real friction before landing roles. Both engineers are hireable but placement is not immediate.",
+      "summary": "Deep English-speaking demand for software/AI talent (~98% of IT depts planning transformation), but 2026 is selective hiring after 2023-24 layoffs.",
+      "reasoning": "Toronto, Vancouver, Montreal and Waterloo host large tech sectors and Robert Half's 2026 guide keeps software/AI roles in the most-in-demand list with specialized talent (AI/ML, cybersecurity, cloud) scarce and paying a 20-30% premium. However, the market is in selective hiring after the 2023-24 layoff wave, so two newcomers without Canadian experience face real friction before landing roles; both engineers are hireable but placement is not immediate.",
       "evidence": [
-        "Robert Half 2026: software engineers among top in-demand tech roles; specialized AI talent scarce",
-        "~9,218 software engineer postings open in Canada (Glassdoor, May 2026)",
-        "2026 layoffs: Ontario ~7,348 and BC ~2,595 cuts; market shifted to selective hiring"
+        "Robert Half 2026: software/AI engineers among top in-demand tech roles; ~98% of IT departments planning major digital transformation, keeping specialized talent scarce",
+        "2026 SWE pay: entry ~CAD 60-100k, mid ~CAD 100-130k, senior Toronto ~CAD 135-178k (city salary benchmarks)",
+        "Market in selective hiring post 2023-24 layoffs; AI/ML, cybersecurity, cloud and Python skills add 20-30% pay premium"
       ],
       "links": [
         {
@@ -30,21 +34,21 @@
           "url": "https://www.jobbank.gc.ca/"
         },
         {
-          "title": "Robert Half - most in-demand tech jobs in Canada 2026",
-          "url": "https://www.roberthalf.com/ca/en/insights/research/most-in-demand-tech-jobs-in-canada"
+          "title": "Robert Half - 2026 IT & tech salary guide trends (Canada)",
+          "url": "https://www.roberthalf.com/ca/en/insights/research/it-and-tech-salary-guide-2026-trends"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "visa-access": {
       "status": "scored",
-      "score": 52,
-      "summary": "Biometrics in Dhaka, but no SDS, ~36% national approval, CAD 22,895 funds bar; medicals assessed via New Delhi RMO.",
-      "reasoning": "Bangladeshis apply via the regular stream (SDS ended 8 Nov 2024) with biometrics at VFS Dhaka and IOM medicals in Dhaka, but the 2025 national study-permit approval rate fell to about 35.7% and 'financial insufficiency' is a top refusal reason. Proof-of-funds rose to CAD 22,895 per applicant (1 Sep 2025) on top of tuition, and medical results route to IRCC's New Delhi Regional Medical Office, so processing is local for biometrics but the funds/scrutiny bar is heavy.",
+      "score": 50,
+      "summary": "Biometrics in Dhaka but no SDS, ~35.7% national approval (Bangladesh among hardest hit), CAD 22,895 funds bar; medicals via New Delhi RMO.",
+      "reasoning": "Bangladeshis apply via the regular stream (SDS ended 8 Nov 2024) with biometrics at VFS Dhaka and IOM medicals locally, but the 2025 national study-permit approval rate fell to about 35.7% (refusals ~64%, toughest in a decade) and IRCC's Visa Integrity push hit India, Bangladesh and Nigeria hardest, with applications down ~40%. Proof-of-funds is CAD 22,895 per applicant (continuing into 2026) on top of tuition, financial insufficiency and weak documentation are top refusal reasons, and medical results route to IRCC's New Delhi Regional Medical Office, so the scrutiny and funds bar is heavy for this profile.",
       "evidence": [
         "SDS closed 8 Nov 2024 - all Bangladeshi applicants use the regular stream",
-        "2025 national study-permit approval ~35.7% (refusals ~62%); financial insufficiency a top Dhaka refusal reason",
-        "Proof-of-funds CAD 22,895 + tuition per applicant (from 1 Sep 2025); biometrics in Dhaka, medicals via New Delhi RMO"
+        "2025 national study-permit approval ~35.7% (refusal ~64%, toughest in a decade); India/Bangladesh/Nigeria hardest hit, applications down ~40% early 2025",
+        "Proof-of-funds CAD 22,895 + tuition per applicant (continuing into 2026); financial insufficiency and weak docs top refusal reasons; biometrics in Dhaka, medicals via New Delhi RMO"
       ],
       "links": [
         {
@@ -52,21 +56,21 @@
           "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html"
         },
         {
-          "title": "Increased fund requirements for study permits (CAD 22,895)",
-          "url": "https://www.cicnews.com/2025/09/increased-fund-requirements-for-study-permits-take-effect-0959314.html"
+          "title": "Canada rejects nearly two in three study-permit applicants (The PIE News)",
+          "url": "https://thepienews.com/canada-rejects-nearly-two-in-three-study-permit-applicants/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "citizenship": {
       "status": "scored",
       "score": 90,
-      "summary": "Citizenship after 1,095 days (3 of 5 yrs); only CLB 4 language; dual citizenship fully allowed - top of the set.",
-      "reasoning": "Among the fastest routes globally for this couple: physically present 1,095 days in the 5 years before applying (min 730 as PR), a modest CLB 4 speaking/listening test for ages 18-54, and Canada is one of the most dual-citizenship-friendly nations so they need not renounce Bangladeshi nationality. IRCC quotes 7-14 months processing (routine files often 8-11), keeping the passport timeline realistic.",
+      "summary": "Citizenship after 1,095 days (3 of 5 yrs); only CLB 4 language; dual citizenship fully allowed; passport ranks 7th-8th (181-182 destinations).",
+      "reasoning": "Among the fastest routes globally for this couple: physically present 1,095 days in the 5 years before applying (min 730 as PR), a modest CLB 4 speaking/listening test for ages 18-54, and Canada is one of the most dual-citizenship-friendly nations so they need not renounce Bangladeshi nationality. The 2026 Henley index ranks the passport 7th-8th with visa-free access to 181-182 destinations; IRCC quotes ~13 months processing plus a 2-4 month oath wait, keeping the passport timeline realistic.",
       "evidence": [
-        "1,095 days physical presence in 5 years (min 730 as PR)",
-        "Language only CLB 4 (speak/listen) for ages 18-54; IRCC processing ~7-14 months in 2026",
-        "Dual citizenship permitted - no need to give up the Bangladeshi passport"
+        "1,095 days physical presence in 5 years (min 730 as PR); taxes filed for 3 years; CLB 4 (speak/listen) for ages 18-54",
+        "Dual citizenship permitted - no need to give up the Bangladeshi passport",
+        "Henley Passport Index 2026: Canada 7th-8th, ~181-182 visa-free/visa-on-arrival destinations; citizenship processing ~13 months + 2-4 month oath wait"
       ],
       "links": [
         {
@@ -74,21 +78,21 @@
           "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship.html"
         },
         {
-          "title": "The 1095-day rule for Canadian citizenship",
-          "url": "https://www.canadavisa.com/canadian-citizenship-the-1095-day-rule.html"
+          "title": "Canada retains top-ten spot in 2026 Henley Passport Index",
+          "url": "https://www.visahq.com/news/2026-02-01/ca/canada-retains-top-ten-spot-in-2026-henley-passport-index/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "post-study-work": {
       "status": "scored",
       "score": 85,
-      "summary": "Master's grads get a 3-year open PGWP, field-of-study exempt; CLB 7 language proof required (easy for IT).",
-      "reasoning": "Graduates of a university master's program receive an open PGWP of up to 3 years regardless of program length (min 8 months) and are exempt from the field-of-study restriction, letting both engineers work openly and switch employers. Since 1 Nov 2024 degree grads must show CLB 7 across all four skills, which is straightforward for IT professionals; IRCC confirmed the eligible-fields list is frozen for 2026.",
+      "summary": "Master's grads get a 3-year open PGWP regardless of program length, field-of-study exempt; CLB 7 language proof required (easy for IT).",
+      "reasoning": "Graduates of a university master's program (min 8 months) receive an open PGWP of up to 3 years regardless of program length and are exempt from the field-of-study restriction, letting both engineers work openly and switch employers. Degree grads must show CLB 7 across all four skills (~IELTS 6.0), which is straightforward for IT professionals; the only friction is the strict 180-day post-graduation application window and the general policy-tightening backdrop.",
       "evidence": [
-        "Master's grads: up to 3-year open PGWP regardless of program length",
-        "Degree grads exempt from PGWP field-of-study list (frozen for 2026)",
-        "CLB 7 in all four skills required for university grads (since 1 Nov 2024)"
+        "Master's grads: up to 3-year open PGWP regardless of program length (min 8-month program)",
+        "Degree grads (bachelor's/master's/PhD) exempt from PGWP field-of-study list",
+        "CLB 7 in all four skills required for university grads (~IELTS 6.0); must apply within 180 days of graduation"
       ],
       "links": [
         {
@@ -96,42 +100,42 @@
           "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html"
         },
         {
-          "title": "Eligible fields of study for PGWP will not change in 2026",
-          "url": "https://immigration.ca/eligible-fields-of-study-for-canadas-pgwp-will-not-change-in-2026/"
+          "title": "PGWP Canada 2026: eligibility & new rules",
+          "url": "https://www.gofarglobal.com/news/pgwp-post-graduation-work-permit-canada-2026"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "spouse-family": {
       "status": "scored",
-      "score": 62,
-      "summary": "Both can accompany; spousal open work permit survives for a 16+ month master's but 2025-26 rules narrowed it.",
-      "reasoning": "From 21 Jan 2025 a spousal open work permit (SOWP) is limited to spouses of master's programs of at least 16 months, doctoral or listed professional programs, so a standard thesis MSc qualifies; an additional rule effective 4 Mar 2026 refuses SOWPs when the student is in their final academic term. In the work phase the principal must hold a skilled job (TEER 0/1) with 16+ months authorization remaining, so both can work but only under conditions, not unconditionally as they would on a points-based skilled visa.",
+      "score": 60,
+      "summary": "Both can accompany; spousal open work permit survives for a 16+ month master's, but 2025-26 rules narrowed it and refuse final-term spouses.",
+      "reasoning": "From 21 Jan 2025 a spousal open work permit (SOWP) is limited to spouses of master's programs of at least 16 months, doctoral or listed professional programs, so a standard thesis MSc qualifies with no TEER threshold; an additional rule effective 4 Mar 2026 refuses SOWPs (even renewals) when the student is in their final academic term. In the work phase the principal must hold a skilled job (TEER 0/1) with 16+ months authorization remaining, so both can work but only under conditions, not unconditionally as on a points-based skilled visa - and the final-term cut-off is a fresh downside.",
       "evidence": [
-        "SOWP for students restricted to master's >=16 months / doctoral / professional programs (21 Jan 2025)",
-        "Effective 4 Mar 2026: SOWP refused if student is in their final academic term",
-        "Work-phase SOWP requires principal in a skilled occupation with 16+ months authorization remaining"
+        "SOWP for students restricted to master's >=16 months / doctoral / listed professional programs (21 Jan 2025); no TEER threshold for full-time master's/doctoral students",
+        "Effective 4 Mar 2026: SOWP refused (even on renewal) if student is in their final academic term",
+        "Work-phase SOWP requires principal in a TEER 0/1 occupation with 16+ months authorization remaining"
       ],
       "links": [
         {
-          "title": "IRCC open work permits for spouses (eligibility)",
-          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/special-instructions/spouses-dependent-children/eligibility.html"
+          "title": "IRCC work permit for spouses of students (official)",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/help-your-spouse-common-law-partner-work-canada.html"
         },
         {
-          "title": "IRCC work permit for spouses of students",
-          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/help-your-spouse-common-law-partner-work-canada.html"
+          "title": "Spouses of international students 2025-2026: who still qualifies for an open work permit",
+          "url": "https://www.immigration-nation.ca/2025/11/19/spouses-of-international-students-in-2025-2026-who-still-qualifies-for-an-open-work-permit/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "msc-study": {
       "status": "scored",
       "score": 68,
-      "summary": "Abundant English MSc; high coursework tuition (~CAD 35k/yr) though research MSc often funded; 24h/wk work.",
-      "reasoning": "Broad English-taught master's catalogue at strong universities, with coursework tuition around CAD 35,000/yr, while thesis/research MSc commonly carry TA/RA stipends and awards (CGS-M, Vanier CAD 50k). Master's and doctoral students are exempt from the study-permit cap from 1 Jan 2026, students may work off-campus up to 24 hours/week, and the spouse can accompany - though sticker tuition and the funds bar keep this short of best-in-class.",
+      "summary": "Abundant English MSc; coursework tuition ~CAD 10-40k/yr (eng. high end) though research MSc often funded; 24h/wk work; cap-exempt from 2026.",
+      "reasoning": "Broad English-taught master's catalogue at strong universities, with international tuition typically CAD 10,000-40,000/yr (engineering at the higher end), while thesis/research MSc commonly carry TA/RA stipends and awards (CGS-M, Vanier CAD 50k, Mitacs Accelerate CAD 10k). Master's and doctoral students are exempt from the study-permit cap from 1 Jan 2026, students may work off-campus up to 24 hours/week, and the spouse can accompany - though sticker tuition plus CAD 20-30k living costs and the funds bar keep this short of best-in-class.",
       "evidence": [
-        "Wide English-taught MSc catalogue; coursework tuition ~CAD 35,000/yr",
-        "Research MSc often funded via TA/RA + CGS-M / Vanier (CAD 50k) awards",
+        "Wide English-taught MSc catalogue; international tuition ~CAD 10,000-40,000/yr (engineering higher end); living costs ~CAD 20,000-30,000/yr",
+        "Research MSc often funded via TA/RA + CGS-M / Vanier (CAD 50k) / Mitacs Accelerate (CAD 10k) awards",
         "Master's/doctoral students exempt from the study-permit cap from 1 Jan 2026; off-campus work 24 hrs/week"
       ],
       "links": [
@@ -140,21 +144,21 @@
           "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html"
         },
         {
-          "title": "What international students need to know about the 2026-2028 plan",
+          "title": "What international students need to know about the 2026-2028 plan (CIC News)",
           "url": "https://www.cicnews.com/2025/11/what-international-students-need-to-know-about-canadas-immigration-levels-plan-2026-2028-1162044.html"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "pr-pathway": {
       "status": "scored",
-      "score": 62,
-      "summary": "Clear ~3.5-4yr study->PGWP->CEC route, but CEC CRS ~507-515 and STEM draws dormant ~23 months.",
-      "reasoning": "Express Entry (CEC after 1 yr skilled Canadian work) is a predictable route taking roughly 3.5-4 years from study start with PR processing of ~6 months, but 2026 CEC cut-offs sit at a high 507-515 and dedicated STEM category draws have not run for about 23 months as of mid-2026. French at NCLC 7 unlocks far lower category cut-offs, so PR is attainable but competitive without French or a provincial nomination.",
+      "score": 60,
+      "summary": "Clear ~3.5-4yr study->PGWP->CEC route, but CEC CRS ~507-515, STEM draws dormant since Apr 2024 and now need 1yr experience.",
+      "reasoning": "Express Entry (CEC after 1 yr skilled Canadian work) is a predictable route taking roughly 3.5-4 years from study start with PR processing of ~6 months, but 2026 CEC cut-offs sit at a high 507-515 with draw sizes stuck near 2,000 ITAs, and dedicated STEM category draws have not run since April 2024. From 18 Feb 2026 the STEM category minimum experience rose from 6 months to 1 year, and French at NCLC 7 unlocks far lower cut-offs (~409), so PR is attainable but competitive without French or a provincial (OINP/BC PNP Tech) nomination.",
       "evidence": [
-        "Study->PGWP->CEC pathway ~3.5-4 years; economic PR target 380k in 2026 (64% economic share)",
-        "2026 CEC CRS cut-offs ~507-515; STEM category draws dormant ~23 months as of June 2026",
-        "French-language category draws cut much lower; OINP / BC PNP Tech are active alternatives"
+        "Study->PGWP->CEC pathway ~3.5-4 years; PR target held at 380k/yr 2026-2028, economic share ~64% (~239,800 in 2026)",
+        "2026 CEC CRS cut-offs ~507-515 (April draw 515); STEM category draws dormant since April 2024",
+        "STEM category min experience raised 6mo->1yr (18 Feb 2026); French draws cut to ~409; OINP / BC PNP Tech active alternatives"
       ],
       "links": [
         {
@@ -162,21 +166,21 @@
           "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html"
         },
         {
-          "title": "CEC cut-off reaches new high - April 2026 draw (CIC News)",
-          "url": "https://www.cicnews.com/2026/04/third-express-entry-draw-of-april-0474123.html"
+          "title": "Express Entry latest draw tracker (Moving2Canada)",
+          "url": "https://moving2canada.com/express-entry-draw/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "income-cost": {
       "status": "scored",
       "score": 68,
-      "summary": "Strong dual tech salaries (SWE ~CAD 86-162k) and softening rents, but big-metro housing still erodes savings.",
-      "reasoning": "Robert Half's 2026 guide puts software engineers at CAD 86,250-131,500 and seniors at 119,750-162,500, so a two-engineer household earns well. Toronto 1-bed rents eased to roughly CAD 2,100-2,340/month (down year-over-year) and Vancouver ~CAD 2,260, so dual income yields good savings, but high-metro housing and tax keep it short of exceptional.",
+      "summary": "Strong dual tech salaries (mid SWE ~CAD 100-130k) and softening rents (12 months down), but big-metro housing still erodes savings.",
+      "reasoning": "2026 salary benchmarks put mid-level software engineers around CAD 100,000-130,000 and seniors higher, so a two-engineer household earns well. Toronto 1-bed rents eased to roughly CAD 2,100-2,340/month and Metro Vancouver ~CAD 2,100-2,500 (national rents down ~12 months straight), so dual income yields good savings, but high-metro housing affordability plus tax keep it short of exceptional.",
       "evidence": [
-        "Robert Half 2026: software engineer CAD 86,250-131,500; senior 119,750-162,500",
-        "Toronto 1-bed rent ~CAD 2,100-2,340/month (down YoY); Vancouver ~CAD 2,262",
-        "Dual income materially improves household savings vs a single earner"
+        "2026 SWE pay: mid ~CAD 100-130k, senior Toronto ~CAD 135-178k; dual income materially lifts household savings",
+        "Toronto 1-bed rent ~CAD 2,100-2,340/month; Metro Vancouver ~CAD 2,100-2,495 (down ~CAD 182 since Jan 2025)",
+        "National rents down ~12 consecutive months, easing the affordability crunch from its peak"
       ],
       "links": [
         {
@@ -188,17 +192,17 @@
           "url": "https://www.statcan.gc.ca/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "healthcare": {
       "status": "scored",
       "score": 75,
-      "summary": "Universal and free for PR/citizens, high quality, but record ~28.6-week waits and family-doctor shortage.",
-      "reasoning": "Provincial plans cover permanent residents and citizens (waiting period capped at 3 months, often waived) at no point-of-care cost and quality is high. However the Fraser Institute's 2025 study put the median wait from GP referral to treatment at 28.6 weeks (second-longest on record), millions lack a family doctor, and international students must buy provincial/private student insurance during study.",
+      "summary": "Universal and free for PR/citizens, high quality, but ~28.6-week median waits and a family-doctor shortage.",
+      "reasoning": "Provincial plans cover permanent residents and citizens (waiting period capped at 3 months, often waived) at no point-of-care cost and quality is high. However the Fraser Institute's 2025 study put the median wait from GP referral to treatment at 28.6 weeks (second-longest on record, down from 30.0 in 2024; Ontario shortest at 19.2 weeks), millions lack a family doctor, and international students must buy provincial/private student insurance during study.",
       "evidence": [
         "Universal provincial coverage for PR/citizens; <=3-month wait period, often waived",
-        "Median treatment wait 28.6 weeks in 2025 (Fraser Institute); Ontario shortest at 19.2 weeks",
-        "Family-doctor shortage; international students need student health insurance"
+        "Median treatment wait 28.6 weeks in 2025 (Fraser Institute, down from 30.0 in 2024); Ontario shortest at 19.2 weeks, New Brunswick longest 60.9",
+        "Family-doctor shortage; international students need student health insurance during study"
       ],
       "links": [
         {
@@ -210,17 +214,17 @@
           "url": "https://www.fraserinstitute.org/studies/waiting-your-turn-wait-times-for-health-care-in-canada-2025"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "culture-language": {
       "status": "scored",
       "score": 88,
-      "summary": "English daily and official multiculturalism; no language barrier for PR or citizenship outside Quebec.",
-      "reasoning": "English (and French in Quebec) is the working language, Canada has an official multiculturalism policy and a very large immigrant population, and PR/citizenship language thresholds (CLB 7 / CLB 4) are easily met by IT professionals - so day-to-day integration is straightforward. Only Quebec adds a French dimension, which this couple can avoid by settling in Ontario/BC.",
+      "summary": "English daily and official multiculturalism; no language barrier for PR (CLB 7) or citizenship (CLB 4) outside Quebec.",
+      "reasoning": "English (and French in Quebec) is the working language, Canada has an official multiculturalism policy and one of the largest immigrant populations in the OECD, and PR/citizenship language thresholds (CLB 7 / CLB 4) are easily met by IT professionals - so day-to-day integration is straightforward. Only Quebec adds a French dimension, which this couple can avoid by settling in Ontario/BC; cold winters are the main livability caveat.",
       "evidence": [
         "English working language outside Quebec; official multiculturalism policy",
-        "Large immigrant share of population eases integration",
-        "No additional language barrier for English-speaking PR/citizenship applicants"
+        "Large immigrant share of population (South Asians ~19% of the GTA) eases integration",
+        "No additional language barrier for English-speaking PR (CLB 7) / citizenship (CLB 4) applicants; harsh winters the main livability caveat"
       ],
       "links": [
         {
@@ -232,17 +236,17 @@
           "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/become-canadian-citizen/eligibility/language-proof.html"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "safety-law": {
       "status": "scored",
       "score": 82,
-      "summary": "Top-tier rule of law (WJP 13th, 0.79) and peaceful (GPI 14th); strong Charter protections for immigrants.",
-      "reasoning": "Canada ranks 13th of 143 on the 2025 WJP Rule of Law Index (score 0.79) and 14th of 163 on the 2025 Global Peace Index (1.491), with Charter rights and broadly safe cities. The GPI score edged down from 1.449 in 2024 and violent crime has risen over the decade, slightly tempering an otherwise strong score.",
+      "summary": "Top-tier rule of law (WJP 13th, 0.79) and peaceful (GPI 14th, 1.491); strong Charter protections for immigrants.",
+      "reasoning": "Canada ranks 13th of 143 on the 2025 WJP Rule of Law Index (score 0.79, down one spot from 12th) and tied 14th of 163 on the 2025 Global Peace Index (1.491), with Charter rights and broadly safe cities. The GPI score edged down from 1.449 in 2024 (a five-spot drop) on rising violent crime, slightly tempering an otherwise strong score; treatment of immigrants under law remains fair.",
       "evidence": [
-        "WJP Rule of Law Index 2025: 13th of 143 (score 0.79)",
-        "Global Peace Index 2025: 14th of 163 (1.491, down from 1.449 in 2024)",
-        "Charter rights and strong protections for immigrants"
+        "WJP Rule of Law Index 2025: 13th of 143 (score 0.79), down from 12th",
+        "Global Peace Index 2025: tied 14th of 163 (1.491, down from 1.449 in 2024, -5 spots) on rising violent crime",
+        "Charter rights and strong legal protections for immigrants"
       ],
       "links": [
         {
@@ -254,39 +258,39 @@
           "url": "https://worldjusticeproject.org/rule-of-law-index/country/Canada"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "politics": {
       "status": "scored",
-      "score": 58,
-      "summary": "Stable democracy but sharp 2025-28 immigration cuts and rising public sentiment add volatility.",
-      "reasoning": "Institutions are stable, but the 2026-2028 plan holds PR admissions at 380,000, cut new study-permit intake roughly 50% to 155,000, and reduced total new temporary residents to 385,000 amid waning public support for immigration. Master's/doctoral students are exempted from the study cap from 1 Jan 2026, which softens the impact for this couple, but the overall policy direction is clearly tightening.",
+      "score": 56,
+      "summary": "Stable democracy but sharp 2025-28 immigration cuts (study -49%, temp residents -43%) and rising negative public sentiment add volatility.",
+      "reasoning": "Institutions are stable, but the Carney government's 2026-2028 plan holds PR at 380,000, cut new study-permit intake ~49% to 155,000, reduced total work permits ~37% to 230,000 and temporary residents ~43% (673,650 in 2025 to 385,000 in 2026) amid persistently negative public opinion on immigration driven by housing and economic strain. Master's/doctoral students are exempted from the study cap from 1 Jan 2026, which softens the impact for this couple, but the overall policy direction is clearly and volatilely tightening.",
       "evidence": [
-        "2026-2028 plan: PR target 380k in 2026; economic share rising to ~64%",
-        "New study permits cut to 155k (~50% reduction); new temporary residents to 385k (2026)",
+        "2026-2028 plan: PR target 380k/yr; new study permits cut ~49% to 155k; work permits cut ~37% to 230k; temporary residents 673,650 (2025) -> 385,000 (2026), -43%",
+        "Public opinion on immigration remains negative (Abacus 2026); housing crisis and US tariff strain cited as drivers",
         "Master's/doctoral students exempt from the study-permit cap (1 Jan 2026)"
       ],
       "links": [
         {
-          "title": "IRCC 2026-2028 Immigration Levels Plan (official)",
+          "title": "IRCC Supplementary Information 2026-2028 Immigration Levels Plan (official)",
           "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/corporate-initiatives/levels/supplementary-immigration-levels-2026-2028.html"
         },
         {
-          "title": "What international students need to know about the 2026-2028 plan",
-          "url": "https://www.cicnews.com/2025/11/what-international-students-need-to-know-about-canadas-immigration-levels-plan-2026-2028-1162044.html"
+          "title": "Canadians' views on immigration remain largely unchanged and overly negative (Abacus Data)",
+          "url": "https://abacusdata.ca/canadians-views-on-immigration-remain-largely-unchanged-from-last-year-and-overly-negative/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "tax": {
       "status": "scored",
       "score": 60,
-      "summary": "Moderate burden: ~43% marginal at CAD 100k in Ontario; OECD single-worker tax wedge 32.0% (26th lowest).",
-      "reasoning": "The combined federal-provincial marginal rate is about 43% at CAD 100k in Ontario (top combined ~53.5%), but the OECD single-worker tax wedge is 32.0% - the 26th lowest of 38 OECD members - so the effective burden on tech salaries is moderate rather than punishing. The lowest federal personal rate is 14% for 2026, modestly improving take-home.",
+      "summary": "Moderate burden: OECD single-worker tax wedge 32.0% (26th lowest of 38); ~43% marginal at CAD 100k in Ontario.",
+      "reasoning": "The OECD single-worker tax wedge is 32.0% - the 26th lowest of 38 OECD members - so the effective burden on tech salaries is moderate rather than punishing. The combined federal-provincial marginal rate is about 43% at CAD 100k in Ontario (top combined ~53.5%), and the lowest federal personal rate dropped to 14% (effective 1 Jul 2025, 14.5% full-year 2025), modestly improving take-home.",
       "evidence": [
+        "OECD Taxing Wages: Canada single-worker tax wedge 32.0% (2024) - 26th lowest of 38 OECD members",
         "Ontario combined marginal rate ~43% at CAD 100k; top combined ~53.5%",
-        "OECD single-worker tax wedge 32.0% (2024) - 26th lowest of 38 OECD members",
-        "Lowest federal PIT rate 14% for 2026 (down from 15%)"
+        "Lowest federal PIT rate cut 15%->14% (effective 1 Jul 2025; 14.5% full-year 2025)"
       ],
       "links": [
         {
@@ -298,17 +302,17 @@
           "url": "https://www.taxtips.ca/taxrates/on.htm"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "muslim-diaspora": {
       "status": "scored",
-      "score": 83,
-      "summary": "Large Muslim (~1.8M) and Bangladeshi (~75-120k) communities and ubiquitous halal, but Islamophobia rising since 2023.",
-      "reasoning": "Canada has ~1.78M Muslims (4.9%, 2021 census) concentrated in the GTA, and roughly 75,425 single-origin to ~120,000 diaspora Bangladeshi Canadians, with about 26,650 in the City of Toronto - so halal food, mosques and a familiar South-Asian community (19% of the GTA) are readily available. The trend is the caveat: anti-Muslim and anti-Palestinian incidents have surged since October 2023, with about half of Canadians saying the country has a serious anti-Muslim problem.",
+      "score": 82,
+      "summary": "Large Muslim (~1.78M) and Bangladeshi (~75k, ~26.6k in Toronto) communities and ubiquitous halal, but G7-highest deadly Islamophobic attacks.",
+      "reasoning": "Canada has ~1.78M Muslims (4.9%, 2021 census, South Asians the largest group at 37.6%) concentrated in the GTA, and ~75,245 single-origin Bangladeshi Canadians (~26,650 in the City of Toronto), so halal food, mosques and a familiar South-Asian community (19% of the GTA) are readily available. The trend is the caveat: the National Council of Canadian Muslims calls Canada the G7 country with the highest number of deadly Islamophobic attacks, with documented vandalism, threats and assaults, prompting a federal anti-Islamophobia guide in March 2025.",
       "evidence": [
-        "~1.78M Muslims in Canada (4.9%, 2021 census); South Asians ~19% of the GTA",
-        "~75,425 single-origin Bangladeshi Canadians (~120k diaspora estimate); ~26,650 in the City of Toronto (2021)",
-        "Islamophobia surge since Oct 2023 noted by advocacy groups; rising hostility is the main risk"
+        "~1.78M Muslims in Canada (4.9%, 2021 census); South Asians 37.6% of Muslims; South Asians ~19% of the GTA",
+        "~75,245 single-origin Bangladeshi Canadians (2021); ~26,650 in the City of Toronto; ~84% of Bangladeshi Canadians are Muslim",
+        "NCCM: Canada the G7 country with the most deadly Islamophobic attacks; first federal anti-Islamophobia guide issued March 2025 - rising hostility is the main risk"
       ],
       "links": [
         {
@@ -320,7 +324,7 @@
           "url": "https://www.canada.ca/en/canadian-heritage/campaigns/combatting-islamophobia-canada/annual-report-2024-2025.html"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     }
   }
 }

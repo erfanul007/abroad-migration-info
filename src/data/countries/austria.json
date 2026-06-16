@@ -5,8 +5,8 @@
   "iso3": "AUT",
   "flag": "🇦🇹",
   "region": "Europe",
-  "summary": "Strong IT demand, cheap English MSc, excellent healthcare and top-tier safety, but a ~10-year citizenship with a near-total dual-citizenship ban, German B1→B2 bars, in-person New Delhi processing for Bangladeshis, high tax and a tightening migration climate make it a hard fit for a dual-preferring Bangladeshi couple.",
-  "lastReviewed": "2026-06-16",
+  "summary": "Strong IT shortage demand and a very cheap English MSc with a clean graduate-to-RWR-Card route are the biggest levers, but a ~10-year citizenship with a near-total dual-citizenship ban, German B1→B2 gates, New Delhi in-person visa processing and a hardening, FPÖ-pressured migration climate make Austria a poor fit for this dual-preferring Bangladeshi couple.",
+  "lastReviewed": "2026-06-17",
   "links": [
     {
       "title": "migration.gv.at – Official Austrian migration portal",
@@ -20,22 +20,22 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "score": 79,
-      "summary": "Software/data engineers on the 2026 nationwide shortage list (64 occupations); deep DACH tech demand, strong pay, both placeable.",
-      "reasoning": "The Fachkräfteverordnung 2026 (BGBl II 316/2025) lists 64 nationwide shortage occupations, with categories 21 and 34 covering 70+ data-processing/software-engineer titles, so both engineers fit shortage routes that waive the AMS labour-market test. Austria reports a deficit of ~24,000 IT specialists and Vienna dev pay runs ~€58k average to ~€86k senior (2026); English-only roles cluster in Vienna while German widens options, capping this just below the top band.",
+      "score": 80,
+      "summary": "Data-processing/software engineers on the 2026 nationwide shortage list (64 occupations); ~24k IT deficit, Vienna dev pay ~€58–86k, both placeable.",
+      "reasoning": "The Fachkräfteverordnung 2026 (published 23 Dec 2025) expanded the nationwide shortage list to 64 occupations (up from 58 in 2025), with data-processing/high-tech engineers explicitly prioritised, so both engineers fit a route giving up to 20 RWR bonus points, a waived/simplified labour-market test, and faster ~3–4 week processing. Vienna developer pay runs ~€58k average (Glassdoor) to ~€86k senior (SalaryExpert) in 2026, against a reported ~24,000 IT-specialist deficit. English-only roles cluster in Vienna while German widens options, capping this just below the top band.",
       "evidence": [
-        "2026 nationwide shortage list = 64 occupations; categories 21 (engineers, data processing) + 34 (graduate engineers, data processing) include software developers, software engineers, system analysts, IT architects.",
-        "Shortage status waives the AMS labour-market test and lowers RWR points/salary bars (Fachkräfteverordnung 2026, eff. Jan 2026).",
-        "~24,000 IT specialists lacking nationally; SalaryExpert 2026 Vienna software developer avg ~€86k, Glassdoor avg ~€58k.",
+        "Fachkräfteverordnung 2026 (eff. Jan 2026, publ. 23 Dec 2025): 64 nationwide shortage occupations, up from 58 in 2025; data-processing/high-tech engineers prioritised.",
+        "Shortage status gives up to 20 RWR points toward the 55-point bar, waives/simplifies the labour-market test, and cuts processing to ~3–4 weeks.",
+        "~24,000 IT specialists lacking nationally; Vienna software developer pay ~€58k avg (Glassdoor) to ~€86k senior (SalaryExpert), 2026.",
         "Both spouses are skilled CS graduates, so both can target shortage-occupation employment."
       ],
       "links": [
         {
-          "title": "migration.gv.at – Austria-wide shortage occupations",
-          "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/austria-wide-shortage-occupations/"
+          "title": "migration.gv.at – Skilled workers in shortage occupations",
+          "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/skilled-workers-in-shortage-occupations/"
         },
         {
-          "title": "VisaHQ – Austria 2026 shortage-occupation list",
+          "title": "VisaHQ – Austria 2026 shortage-occupation list (64 occupations)",
           "url": "https://www.visahq.com/news/2025-12-24/at/austria-issues-2026-shortage-occupation-list-opening-64-new-pathways-for-non-eu-talent/"
         },
         {
@@ -43,18 +43,18 @@
           "url": "https://www.salaryexpert.com/salary/job/software-developer/austria/vienna"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "visa-access": {
       "status": "scored",
       "score": 55,
-      "summary": "Residence permits, work visa AND job-seeker visa need in-person appearance at the Embassy New Delhi; only D-visa lodging is in Dhaka.",
-      "reasoning": "Per the Austrian Embassy New Delhi, applications for residence permits (over 6 months), work visas and the job-seeker visa must be made in person in New Delhi by Bangladeshi applicants; only D-visa lodging and biometrics run through the VFS centre in Gulshan, Dhaka, and decisions are made by New Delhi. The student MSc residence permit therefore likely also requires Delhi travel, plus VFS fees and subsistence/health-insurance proof, which is real friction versus countries that decide fully in Dhaka.",
+      "summary": "Residence permits >6 months (incl. student/work) require in-person appearance at the Embassy New Delhi; only D-visa intake runs via VFS Dhaka.",
+      "reasoning": "Per BMEIA New Delhi, applications for residence permits exceeding 6 months, work visas and job-seeker visas must be made in person at the Austrian Embassy New Delhi by Bangladeshi applicants; only the long-stay D-visa intake/biometrics run through VFS in Gulshan, Dhaka, with all decisions made by New Delhi. The MSc residence permit therefore likely involves Delhi travel plus a ~BDT 9,158 VFS service fee, ~€12,000/yr subsistence proof and ~6–8 week processing — real friction versus countries that decide fully in Dhaka, though there is no BD-specific ban.",
       "evidence": [
         "BMEIA New Delhi (2026): residence permits >6 months, work visas and job-seeker visas must be applied for in person at the Austrian Embassy New Delhi.",
-        "Schengen C-visas handled by the French Embassy in Dhaka; long-stay D-visas lodged at VFS Delta Life Tower, Gulshan, Dhaka.",
-        "All applications assessed by the Austrian Embassy New Delhi; fingerprints required if none in last 59 months.",
-        "VFS service/processing fees apply on top of the embassy fee."
+        "Long-stay D-visa intake lodged via VFS, Gulshan, Dhaka; Schengen C-visas handled by the French Embassy in Dhaka; all assessed by New Delhi.",
+        "VFS service charge ~BDT 9,158 incl. VAT per application; visa decision typically 6–8 weeks.",
+        "Student residence permit requires admission letter plus proof of funds ~€12,000/year."
       ],
       "links": [
         {
@@ -66,18 +66,18 @@
           "url": "https://visa.vfsglobal.com/one-pager/austria/bangladesh/english/index.html"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "citizenship": {
       "status": "scored",
       "score": 20,
-      "summary": "~10 years residency, near-total dual-citizenship ban (renounce in 2 yrs), German B1 rising to B2. Deal-breaker for a dual-preferring couple.",
-      "reasoning": "Standard naturalisation requires 10 years' residence (incl. 5 with a settlement permit), and the official oesterreich.gv.at page confirms naturalised citizens must give up prior citizenship (renounce within 2 years) save narrow 'special interest' exceptions, so both would lose Bangladeshi nationality. The 2025-2029 Stocker coalition plans to raise required German from B1 to B2 for standard naturalisation; only a 6-year fast track exists, itself needing B2. For a couple who explicitly prefer dual citizenship this is near-disqualifying.",
+      "summary": "~10 years residency, near-total dual-citizenship ban (renounce prior nationality), German B1 set to rise to B2. Deal-breaker for a dual-preferring couple.",
+      "reasoning": "Standard naturalisation requires 10 years' continuous residence (incl. 5 with a settlement permit), and naturalised citizens must generally give up prior citizenship, so both would lose Bangladeshi nationality; The Local (Feb 2026) notes significant reform of the dual-citizenship ban is unlikely as it has deep roots and little political momentum. The ÖVP–SPÖ–NEOS programme plans to raise required German from B1 to B2 for naturalisation, with reform work expected H1 2026; only a 6-year fast track exists, itself needing B2. For a couple who explicitly prefer dual citizenship this is near-disqualifying, despite a world-class passport (visa-free to ~185 destinations, Henley 2026).",
       "evidence": [
-        "Standard naturalisation after 10 years (incl. 5 with settlement permit); 6-year route requires B2 German + integration proof.",
-        "oesterreich.gv.at: applicants must give up previous citizenship; renounce within 2 years if not automatic; dual allowed only in narrow exceptions.",
-        "Coalition programme plans B1→B2 German for citizenship; reform expected 2026 (The Local, 10 Dec 2025).",
-        "Foreign residents call the renunciation rule the decisive reason they will not apply (The Local, 8 Jan 2026)."
+        "Standard naturalisation after 10 years (incl. 5 with settlement permit); naturalised citizens generally must renounce prior citizenship.",
+        "The Local (12 Feb 2026): dual-citizenship reform unlikely soon — deep legal roots, little political momentum; foreign residents call the ban 'a deal breaker' (8 Jan 2026).",
+        "Coalition programme plans B1→B2 German + a mandatory ÖIF citizenship course; reform work expected H1 2026 (The Local, 7 Jan 2026).",
+        "Upside if naturalised: Austrian passport ~185 visa-free destinations, Henley Index 2026 (~4th–5th globally)."
       ],
       "links": [
         {
@@ -85,26 +85,26 @@
           "url": "https://www.oesterreich.gv.at/en/themen/menschen_aus_anderen_staaten/staatsbuergerschaft/Seite.260430"
         },
         {
-          "title": "The Local – Austria's strict dual-citizenship rules",
+          "title": "The Local – Austria's strict dual-citizenship rules ('deal breaker')",
           "url": "https://www.thelocal.at/20260108/its-a-deal-breaker-foreign-residents-frustrated-by-austrias-strict-dual-citizenship-rules"
         },
         {
-          "title": "migration.gv.at – Citizenship",
-          "url": "https://www.migration.gv.at/en/living-and-working-in-austria/integration-and-citizenship/citizenship/"
+          "title": "The Local – What Austria's planned citizenship reform could mean",
+          "url": "https://www.thelocal.at/20260107/what-austrias-planned-citizenship-reform-could-mean-for-foreign-residents"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "post-study-work": {
       "status": "scored",
-      "score": 70,
-      "summary": "12-month job-seeker extension after graduation, then RWR Card for graduates with no points and no labour-market test.",
-      "reasoning": "Graduates of Austrian higher-education institutions can renew the student permit for 12 months to job-hunt, then switch to a Red-White-Red Card for graduates on a qualification-matched job at the locally customary graduate salary, with no points system and no AMS labour-market test (migration.gv.at, 2026). The RWR Card then carries full labour-market access so the spouse can move to an RWR Card plus and work freely. It is a clear, predictable route, but conditional on landing a qualifying offer and shorter than the 2-3 year open-work permits in Canada/NZ.",
+      "score": 72,
+      "summary": "12-month job-seeker extension after graduation, then RWR Card for graduates with no points and no labour-market test — a clean, predictable route.",
+      "reasoning": "Graduates of Austrian higher-education institutions can renew the residence permit for 12 months to job-hunt or start a business, then switch to a Red-White-Red Card for graduates on a qualification-matched offer at the locally customary graduate salary, with no points system and no AMS labour-market test (migration.gv.at, 2026). The RWR Card carries full labour-market access, so the spouse can move to an RWR Card Plus and work freely. It is clearer and more predictable than relative-points systems, but shorter than the 2–3 year open work permits in Canada/NZ and conditional on landing a qualifying offer.",
       "evidence": [
-        "Student permit renewable for 12 months post-graduation to seek work or start a business.",
-        "RWR Card for graduates: qualification-matched contract at locally customary graduate junior salary; no points, no labour-market test.",
-        "2026 RWR Card salary floor €3,465/month gross; graduate route benchmarked to comparable Austrian junior pay.",
-        "RWR Card grants full labour-market access, enabling the spouse's RWR Card plus."
+        "Student permit renewable for 12 months post-graduation to seek qualification-matched work or start a business.",
+        "RWR Card for graduates: no points system, no labour-market test, at locally customary graduate gross salary (migration.gv.at).",
+        "2026 RWR Card 'other key worker' salary floor €3,465/month gross; graduate route benchmarked to comparable Austrian junior pay.",
+        "Pathway: 12-mo job search → RWR Card → RWR Card Plus (after ~21 months) → Long-term Resident–EU at 5 years."
       ],
       "links": [
         {
@@ -116,18 +116,18 @@
           "url": "https://www.visahq.com/news/2026-01-10/at/salary-thresholds-jump-for-2026-red-white-red-and-eu-blue-cards/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "spouse-family": {
       "status": "scored",
-      "score": 48,
-      "summary": "Work-phase spouse works freely (RWR-Plus); study-phase spouse needs an AMS permit + labour-market check; 2026 reunion quotas add risk.",
-      "reasoning": "In the work phase the dependant gets a Red-White-Red Card plus with free labour-market access, but during the MSc phase the accompanying spouse holds a 12-month family-reunification stay permit and can work only after an employer obtains an AMS Beschäftigungsbewilligung subject to a labour-market check. A 2025 law (eff. into 2026) also lets the government pause family reunification by ordinance until 30 Sep 2026 and introduces a capacity-based quota model, adding real uncertainty for a couple who must relocate together and both want to work from day one.",
+      "score": 55,
+      "summary": "Work-phase spouse works freely (RWR Card Plus, unrestricted labour access); study-phase spouse needs an AMS permit. 2026 reunion freeze is refugee-only.",
+      "reasoning": "In the work phase the dependant gets a Red-White-Red Card Plus with unrestricted labour-market access (not tied to one employer), strongly fitting a couple who both want to work; the family-reunification freeze extended to 2 July 2026 applies only to recognised refugees and subsidiary-protection holders, NOT to skilled-worker/student family routes, so the prior 'pause risk' was overstated. The main residual friction is the MSc phase: an accompanying spouse on a family-reunification stay permit can work only after an employer obtains an AMS Beschäftigungsbewilligung, and dependents need A1 German and income proof.",
       "evidence": [
-        "RWR Card plus grants free labour-market access to family members of card holders (work phase).",
-        "Student-permit dependants get a 12-month 'Stay Permit – Family Reunification' and need an AMS work permit after a labour-market check before working (study phase).",
-        "Spouse must be 21+ at application; permit issued for max 12 months at a time.",
-        "2025 law permits ordinance-based pause of family reunion until 30 Sep 2026, then a quota model from 2026 (The Local, 21 Dec 2025)."
+        "RWR Card Plus gives unrestricted access to the Austrian labour market (employed or self-employed, not employer-bound) — work-phase spouse works freely.",
+        "Family-reunification freeze extended to 2 July 2026 applies only to refugees/subsidiary-protection holders, not skilled-worker/student dependents (VisaHQ, Dec 2025).",
+        "Study-phase dependants get a 12-month family-reunification stay permit; work needs an AMS permit after a labour-market check.",
+        "Dependents must meet A1 German and income requirements; spouse must be 21+ at application."
       ],
       "links": [
         {
@@ -135,26 +135,30 @@
           "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/family-reunification/"
         },
         {
-          "title": "The Local – Immigration changes in Austria 2026 and beyond",
-          "url": "https://www.thelocal.at/20251210/what-immigration-changes-await-foreigners-in-austria-in-2026-and-beyond"
+          "title": "migration.gv.at – Red-White-Red Card plus",
+          "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/redwhiteredcardplus/"
+        },
+        {
+          "title": "VisaHQ – Austria prolongs refugee family-reunification freeze to 2 July 2026",
+          "url": "https://www.visahq.com/news/2025-12-19/at/austria-prolongs-freeze-on-refugee-family-reunification-rights-to-2-july-2026/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "msc-study": {
       "status": "scored",
-      "score": 80,
-      "summary": "20+ English CS MSc, very low public tuition (~€726.72/semester), 20h/week student work; but study-phase spouse access is restricted.",
-      "reasoning": "Austrian public universities charge non-EU students only €726.72/semester (~€1,453/yr) plus a €26.20 ÖH fee, with ~20 English-taught CS Master's across 15 institutions and OeAD scholarships available. Non-EU Master's students may work 20h/week during term (full-time in breaks) once an employer secures an AMS permit. The main drag for this couple is the restricted study-phase work for the accompanying spouse, keeping it out of the top band.",
+      "score": 81,
+      "summary": "English CS MSc at TU Wien/Vienna/TU Graz, very low public tuition €726.72/semester, 20h/week term work (40h in summer); study-phase spouse access restricted.",
+      "reasoning": "Austrian public universities charge non-EU students only €726.72/semester (~€1,453/yr) plus a €26.20 ÖH fee, with multiple fully English-taught CS Master's (University of Vienna, TU Graz, etc., 4 semesters / 120 ECTS) and OeAD scholarships. Non-EU Master's students may work 20h/week during term and up to 40h/week in summer (with an AMS permit). It is excellent value and accessible for both; the residual drag is the AMS-gated study-phase work for the accompanying spouse, keeping it just out of the top band.",
       "evidence": [
-        "Non-EU public-university tuition €726.72/semester (~€1,453/yr) + €26.20 ÖH fee — far below UK/US/Australia.",
-        "Mastersportal lists ~20 English-taught Master's in Computer Sciences across 15 universities (2026).",
-        "Master's students may work 20h/week in term, full-time in lecture-free months (AMS Beschäftigungsbewilligung still required).",
-        "OeAD scholarships and central study portal support international applicants."
+        "Non-EU public-university tuition €726.72/semester (~€1,453/yr) + €26.20 ÖH fee — far below UK/US/Australia (confirmed univie.ac.at, TU Wien 2026).",
+        "Fully English-taught CS Master's at University of Vienna and TU Graz (4 semesters, 120 ECTS); Mastersportal lists many CS/IT Master's.",
+        "Third-country Master's students may work 20h/week in term, up to 40h/week in summer (AMS Beschäftigungsbewilligung required).",
+        "OeAD scholarships and a central study portal support international applicants; admission letter + ~€12,000/yr funds needed."
       ],
       "links": [
         {
-          "title": "studieren.univie.ac.at – Tuition fee amount",
+          "title": "studieren.univie.ac.at – Tuition fee amount (€726.72/semester)",
           "url": "https://studieren.univie.ac.at/en/tuition-fee/amount-tuition-fee/"
         },
         {
@@ -162,22 +166,22 @@
           "url": "https://www.mastersportal.com/study-options/268484632/computer-science-it-austria.html"
         },
         {
-          "title": "OeAD – Study in Austria (entry & residence)",
-          "url": "https://oead.at/en/to-austria/"
+          "title": "WU Vienna – International students: working in Austria (20h/week)",
+          "url": "https://www.wu.ac.at/en/programs/international-students/living-in-austria/working-in-austria"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "pr-pathway": {
       "status": "scored",
-      "score": 58,
-      "summary": "Long-term Resident – EU after 5 years, but needs B1 German (Module 2), income bar and integration; settlement quotas add friction.",
-      "reasoning": "Daueraufenthalt-EU is reachable after 5 years of continuous lawful residence, which is solid, but it requires Integration Agreement Module 2 (B1 German), proof of stable income (~€1,274/month single, 2025) and a clean record. Student years count only partially toward the clock and Austria's settlement system runs on annual quotas plus, from 2026, capacity-based limits, so timing to PR is not fully predictable for this couple.",
+      "score": 60,
+      "summary": "Long-term Resident–EU after 5 years (RWR + RWR Plus tenure), but needs B1 German (Integration Module 2), income proof; student years count only partially.",
+      "reasoning": "Daueraufenthalt-EU is reachable after 5 years of continuous lawful residence combining RWR Card and RWR Card Plus tenure, which is a clear, codified route — the main reason this sits at the top of the 'good' band. It requires Integration Agreement Module 2 (B1 German), proof of stable regular income and a clean record, and student years count only partially toward the 5-year clock, so the realistic PR timeline starts mainly from the work phase. Policy is broadly stable for skilled migrants, though Austria's overall migration framework is tightening.",
       "evidence": [
-        "Long-term Resident – EU permit after 5 years' continuous lawful residence (limited permitted absences).",
+        "Long-term Resident–EU permit after 5 years' continuous lawful residence (RWR + RWR Card Plus tenure combined).",
         "Requires Integration Agreement Module 2 (B1 German) and proof of regular income.",
-        "Study-permit years count only partially toward the 5-year clock; settlement is quota-bound.",
-        "2026 introduces capacity-based migration limits, adding unpredictability."
+        "Study-permit years count only partially toward the 5-year clock; clock effectively runs from the work phase.",
+        "Route is codified and predictable for skilled workers, but the broader migration framework is tightening in 2026."
       ],
       "links": [
         {
@@ -185,22 +189,22 @@
           "url": "https://www.oesterreich.gv.at/en/themen/menschen_aus_anderen_staaten/aufenthalt.html"
         },
         {
-          "title": "migration.gv.at – Integration Agreement",
+          "title": "migration.gv.at – Integration Agreement (Module 2 / B1)",
           "url": "https://www.migration.gv.at/en/living-and-working-in-austria/integration-and-citizenship/integration-agreement/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "income-cost": {
       "status": "scored",
       "score": 58,
-      "summary": "Good gross dev pay (~€58-86k Vienna) but ~18% employee social load, top 55% tax and ~€1,300 rents compress net savings to moderate.",
-      "reasoning": "Two software salaries (Vienna dev ~€58k avg to ~€86k senior, 2026) give a solid gross, but ~18% employee social contributions plus progressive income tax (top 55%) and Vienna one-bed rents averaging ~€1,300/month leave moderate, not strong, savings. The 14-pay system (bonus months taxed at 6%), a €365 annual transit pass and rent regulation help, but on two high incomes the tax-and-rent drag keeps this mid-band.",
+      "summary": "Two dev salaries (~€58–86k Vienna) but ~40–45% combined tax+social load and ~€1,150 one-bed rents compress net savings to moderate.",
+      "reasoning": "Two software salaries (Vienna dev ~€58k avg to ~€86k senior, 2026) give a solid gross, but ~18% employee social contributions plus progressive income tax leave an effective combined burden around 40–45% at developer income levels, and a Vienna one-bed averages ~€1,150/month (range €730–€1,700) with single living cost ~€1,900/month incl. rent. The 14-pay system (bonus months taxed at flat 6%), a €365 annual transit pass and rent regulation help, and dual income lifts household savings, but the tax-and-rent drag keeps net accumulation mid-band rather than strong.",
       "evidence": [
-        "Vienna software developer pay ~€58k (Glassdoor) to ~€86k senior (SalaryExpert), 2026.",
-        "Employee social contributions ~18% of gross; income tax progressive to 55%; 13th/14th salary taxed at flat 6%.",
-        "Vienna one-bed rent averages ~€1,300/month (€730–€1,700 range); single living cost ~€2,000+/month.",
-        "Annual public-transport pass €365; rent regulation limits increases."
+        "Vienna software developer pay ~€58k avg (Glassdoor) to ~€86k senior (SalaryExpert), 2026; entry ~€60k.",
+        "Effective combined tax+social burden ~40–45% at developer income; employee social contributions ~18% of gross; 13th/14th salary taxed at flat 6%.",
+        "Vienna one-bed rent ~€1,150/month avg (range €730–€1,700); single monthly living cost ~€1,900 incl. rent (Numbeo/Wise, Jun 2026).",
+        "Annual public-transport pass €365; rent regulation limits increases — but two engineers face material tax drag."
       ],
       "links": [
         {
@@ -208,21 +212,21 @@
           "url": "https://www.numbeo.com/cost-of-living/in/Vienna"
         },
         {
-          "title": "SalaryExpert – Software Developer salary Vienna 2026",
-          "url": "https://www.salaryexpert.com/salary/job/software-developer/austria/vienna"
+          "title": "Wise – Cost of living in Vienna 2026",
+          "url": "https://wise.com/gb/cost-of-living/austria/vienna"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "healthcare": {
       "status": "scored",
       "score": 88,
-      "summary": "Near-universal statutory insurance (99.9% covered), high quality, life expectancy 81.3, out-of-pocket under ~15%.",
-      "reasoning": "Austria's social health insurance covers ~99.9% of residents with comprehensive financial protection and out-of-pocket spending under ~15% of total health expenditure (WHO Euro Observatory). Life expectancy is 81.3 years, above the OECD average, with high physician/bed density and no formal gatekeeping. Both spouses are covered cheaply via employment or student insurance, with some non-emergency specialist wait times the only notable gap.",
+      "summary": "Near-universal statutory insurance (>99% covered), high quality, life expectancy ~81–82, out-of-pocket under ~15%.",
+      "reasoning": "Austria's social health insurance covers over 99% of residents with comprehensive financial protection and out-of-pocket spending under ~15% of total health expenditure (WHO Euro Observatory). Life expectancy is ~81–82 years, above the OECD average, with high physician and hospital-bed density and no formal gatekeeping (direct access to GPs, specialists and hospitals). Both spouses are cheaply covered via employment or student insurance; some non-emergency specialist waits are the only notable gap.",
       "evidence": [
-        "Near-universal coverage; >99% of population insured through SHI funds (WHO, 2023 data).",
+        "Near-universal coverage; >99% of population insured through SHI funds (WHO Euro Health Observatory).",
         "Out-of-pocket spending under ~15% of total health spending; cost-sharing exemptions for vulnerable groups.",
-        "Life expectancy at birth 81.3 years, above OECD average; high physician and hospital-bed density.",
+        "Life expectancy at birth ~81–82 years, above OECD average; high physician and hospital-bed density.",
         "Direct access to GPs, specialists and hospitals (no gatekeeping); some non-emergency specialist waits."
       ],
       "links": [
@@ -235,18 +239,18 @@
           "url": "https://www.expatica.com/at/healthcare/healthcare-basics/health-insurance-austria-80975/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "culture-language": {
       "status": "scored",
-      "score": 50,
-      "summary": "English works in tech and study, but B1 German gates PR, rising-B2 German gates citizenship, and German is needed for officialdom.",
-      "reasoning": "Vienna tech work and English-taught study run fine in English, but German is unavoidable for administration, schooling and public services, and is a hard gate for PR (B1, Integration Agreement Module 2) and citizenship (B1 rising to B2 under the 2025-2029 coalition). Livability is high, yet for a couple targeting long-term settlement the German requirement is a real structural barrier.",
+      "score": 49,
+      "summary": "English works in tech and study, but B1 German gates PR, rising-B2 German gates citizenship, and German is needed for officialdom and children's schooling.",
+      "reasoning": "Vienna tech work and English-taught study run fine in English, but German is unavoidable for administration, public services and schooling, and is a hard gate for PR (B1, Integration Agreement Module 2) and citizenship (B1 rising to B2 under the 2025–2029 coalition). Livability is high, but new mandatory integration/values courses and a Dec 2025 headscarf ban for under-14 schoolgirls signal a less accommodating climate, and for a couple targeting long-term settlement the German requirement is a real structural barrier — keeping this mid-band.",
       "evidence": [
-        "Integration Agreement Module 2 (B1 German) required for Long-term Resident – EU permit.",
-        "Citizenship German requirement set to rise from B1 to B2 (coalition plan, The Local 10 Dec 2025).",
-        "English common in Vienna tech roles, but German needed for administration, schooling and public services.",
-        "New Jan 2026 integration courses (5-day values/orientation) add German-context obligations."
+        "Integration Agreement Module 2 (B1 German) required for Long-term Resident–EU permit.",
+        "Citizenship German requirement set to rise from B1 to B2 (coalition plan; The Local, Jan 2026).",
+        "English common in Vienna tech roles, but German needed for administration, public services and schooling.",
+        "Dec 2025: parliament passed a headscarf ban for schoolgirls under 14 — relevant to integration climate and children's schooling."
       ],
       "links": [
         {
@@ -254,45 +258,45 @@
           "url": "https://www.migration.gv.at/en/living-and-working-in-austria/integration-and-citizenship/integration-agreement/"
         },
         {
-          "title": "The Local – Immigration changes in Austria 2026 and beyond",
-          "url": "https://www.thelocal.at/20251210/what-immigration-changes-await-foreigners-in-austria-in-2026-and-beyond"
+          "title": "Euronews – Austria passes headscarf ban for schoolgirls under 14",
+          "url": "https://www.euronews.com/2025/12/11/austrias-parliament-passes-law-banning-headscarves-for-schoolgirls-under-age-of-14"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "safety-law": {
       "status": "scored",
-      "score": 84,
-      "summary": "Top-tier rule of law (WJP 2025 top ~12-15 of 143) and very low crime; stable institutions, though migrant-policy climate is hardening.",
-      "reasoning": "Austria sits in the top ~12-15 of 143 countries in the WJP Rule of Law Index 2025 (which it improved on, against a global decline of 68% of countries), with low crime and reliable courts, giving the couple strong day-to-day security and legal protection. The minor deduction reflects a hardening migration-enforcement climate (new integration sanctions, family-reunion pause powers) rather than any breakdown in personal safety or the justice system.",
+      "score": 85,
+      "summary": "Top-tier rule of law (WJP 2025 #12 of 142, score 0.79) and very low crime (Global Peace Index #4); reported crime down 0.2% in 2025.",
+      "reasoning": "Austria ranks 12th globally in the WJP Rule of Law Index 2025 (overall score 0.79) and 4th on the 2025 Global Peace Index, with low violent crime, reliable courts and trusted public institutions, giving the couple strong day-to-day security and legal protection. Reported crime fell marginally (~0.2%) in 2025 and is mainly property-related. The minor deduction reflects a hardening migration-enforcement and integration-sanctions climate rather than any breakdown in personal safety or judicial fairness.",
       "evidence": [
-        "WJP Rule of Law Index 2025 assessed 143 countries (Nordics + NZ top 5); Austria consistently top ~12-15 and improved in 2025.",
-        "Global rule-of-law decline: 68% of countries fell in 2025; Austria was among the minority that improved.",
-        "Very low violent crime and safe public spaces; stable, well-functioning institutions and courts.",
-        "Hardening enforcement climate (integration sanctions, family-reunion pause powers) is the only downward pull."
+        "WJP Rule of Law Index 2025: Austria 12th globally, overall score 0.79.",
+        "Global Peace Index 2025: Austria ranks #4 (score ~1.29); low violent crime, trusted public systems.",
+        "Reported crime fell ~0.2% in 2025 vs 2024; top crimes property-related; Vienna safe overall.",
+        "Hardening enforcement/integration-sanctions climate is the only meaningful downward pull."
       ],
       "links": [
         {
-          "title": "WJP Rule of Law Index 2025 – global press release",
-          "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2025-global-press-release"
+          "title": "WJP Rule of Law Index 2025 (full report PDF)",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/downloads/WJPIndex2025.pdf"
         },
         {
-          "title": "WJP Rule of Law Index – Austria",
+          "title": "WJP Rule of Law Index – Austria insights",
           "url": "https://worldjusticeproject.org/rule-of-law-index/country/2024/Austria/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "politics": {
       "status": "scored",
-      "score": 46,
-      "summary": "Centrist ÖVP–SPÖ–NEOS coalition governs since Mar 2025, but FPÖ won the 2024 vote and is the leading opposition; migration rules tightening.",
-      "reasoning": "The FPÖ topped the Sept 2024 election (28.8%) on a 'remigration' platform, but a centrist three-party Stocker coalition (ÖVP–SPÖ–NEOS) took office on 3 Mar 2025 and the far right sits in opposition, so governance is stable in the near term. However, that coalition itself is tightening migration: stricter asylum, B1→B2 German for citizenship, integration sanctions and family-reunion pause/quota powers, and the FPÖ leads many polls, so policy volatility and an anti-immigrant trend are real risks for Muslim Bangladeshi newcomers.",
+      "score": 44,
+      "summary": "Centrist ÖVP–SPÖ–NEOS coalition since Mar 2025, but polling below majority while FPÖ leads at ~33–35%; migration rules tightening, 3 years of recession.",
+      "reasoning": "A centrist three-party Stocker coalition (ÖVP–SPÖ–NEOS) took office on 3 Mar 2025 with the FPÖ in opposition, so near-term governance holds, but the coalition now polls below a majority amid internal friction while the FPÖ sits steadily at ~33–35% on a 'remigration' platform — a real medium-term volatility and anti-immigrant risk for Muslim Bangladeshi newcomers. The coalition itself is tightening migration (stricter asylum, B1→B2 German for citizenship, integration sanctions, ~40,000 Syrian status reassessments), against three consecutive years of recession (2023–2025).",
       "evidence": [
-        "FPÖ won the Sept 2024 election with 28.8% on 'remigration'; now leading opposition party.",
-        "Stocker ÖVP–SPÖ–NEOS coalition sworn in 3 Mar 2025 (first tripartite govt since 1949); stricter asylum agreed.",
-        "Coalition tightening: B1→B2 German for citizenship, Jan 2026 integration sanctions, family-reunion pause until 30 Sep 2026.",
-        "Migration and border control remain dominant political themes."
+        "Stocker ÖVP–SPÖ–NEOS coalition sworn in 3 Mar 2025 (first three-party federal govt of the Second Republic); FPÖ in opposition.",
+        "2025–2026 polls: ruling parties below a combined majority; FPÖ steady at ~33–35% on 'remigration'.",
+        "Coalition tightening migration: stricter asylum, B1→B2 German for citizenship, integration sanctions, ~40,000 Syrian status reassessments.",
+        "Three consecutive recession years (2023 −0.7%, 2024 −1.2%, 2025 −0.1%) — worst run of the Second Republic."
       ],
       "links": [
         {
@@ -300,22 +304,22 @@
           "url": "https://en.wikipedia.org/wiki/Stocker_government"
         },
         {
-          "title": "The Local – Immigration changes in Austria 2026 and beyond",
-          "url": "https://www.thelocal.at/20251210/what-immigration-changes-await-foreigners-in-austria-in-2026-and-beyond"
+          "title": "PolitPro – Austria election polls 2026",
+          "url": "https://politpro.eu/en/austria"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "tax": {
       "status": "scored",
-      "score": 38,
-      "summary": "Heavy burden: progressive income tax to 55% plus ~18% employee social contributions; ~37-39% combined load.",
-      "reasoning": "Austria's 2026 income tax is progressive from 20% (above ~€12,816) to 55% (above €1m), with the tax-free threshold raised to ~€13,541, and employees pay ~18% social contributions on top (pension 10.25%, health 3.87%, unemployment 3%). Combined with employer contributions the total load is ~37-39%; the flat 6% tax on 13th/14th salaries softens it slightly, but two well-paid engineers keep materially less take-home than in lower-tax destinations.",
+      "score": 40,
+      "summary": "Heavy burden: progressive income tax to 55%, ~18% employee social contributions; ~40–45% effective load at developer incomes.",
+      "reasoning": "Austria's 2026 income tax is progressive from 20% to 55% (top rate above €1m, temporary to 2029), with employees paying ~18% social contributions on top (pension 10.25%, health, unemployment). At typical Vienna developer incomes the effective combined tax-and-social burden is ~40–45%; the flat 6% tax on 13th/14th salaries softens it slightly, but two well-paid engineers keep materially less take-home than in lower-tax destinations, placing this in the weak band.",
       "evidence": [
-        "2026 brackets: 0% to €13,541, then 20/30/40/48/50% up to €1m, 55% above; brackets indexed +1.73% for 2026.",
-        "Employee social contributions ~18% of gross; combined with employer ~21% gives ~39% total.",
-        "13th/14th salary (jahressechstel) taxed at flat 6%, first €620 of each tax-free.",
-        "Max monthly contribution base €6,450 (2026)."
+        "2026 progressive income tax 20–55% (55% above €1m, temporary to 2029); tax-free threshold ~€13,500.",
+        "Employee social contributions ~18% of gross (pension 10.25% etc.); effective combined burden ~40–45% at developer income.",
+        "13th/14th salary (jahressechstel) taxed at flat 6% — partial relief.",
+        "Capital gains/savings (KESt) taxed at 27.5%."
       ],
       "links": [
         {
@@ -323,38 +327,38 @@
           "url": "https://www.oecd.org/en/publications/taxing-wages-2026_3a5169ef-en/full-report/austria_c6e0a28c.html"
         },
         {
-          "title": "PwC Worldwide Tax Summaries – Austria (individual)",
-          "url": "https://taxsummaries.pwc.com/austria/individual/other-taxes"
+          "title": "PwC Worldwide Tax Summaries – Austria (individual income)",
+          "url": "https://taxsummaries.pwc.com/austria/individual/taxes-on-personal-income"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "muslim-diaspora": {
       "status": "scored",
-      "score": 68,
-      "summary": "Islam legally recognised since 1912; ~8.3% Muslim, 200+ mosques/prayer rooms and abundant halal in Vienna; but rising political hostility.",
-      "reasoning": "Vienna has a large, established Muslim infrastructure (200+ mosques/prayer rooms incl. the Vienna Islamic Centre, abundant halal food) with Islam legally recognised since 1912 and Muslims ~8.3% nationally (much higher in Vienna), plus an organised Bangladeshi community (embassy, BCCA cricket club). The base is mainly Turkish/Bosnian rather than South Asian, and rising FPÖ-driven anti-Muslim sentiment plus tightening integration rules temper an otherwise strong community fit.",
+      "score": 65,
+      "summary": "Islam recognised since 1912; ~8.3% Muslim (41% of Vienna pupils), abundant mosques/halal incl. a Bangladeshi mosque; but rising hostility, headscarf ban.",
+      "reasoning": "Vienna has deep, established Muslim infrastructure — the Vienna Islamic Centre plus many mosques and abundant halal dining, Islam legally recognised since 1912, Muslims ~8.3% nationally (and ~41% of Vienna schoolchildren) — and a specific Bangladeshi community anchor (Bangladesh Islamic Center Baitul Mukarram, plus the Bangladesh Embassy/Permanent Mission in Vienna). But the community base is mainly Turkish/Bosnian rather than South Asian, and rising FPÖ-driven Islamophobia (1,324 recorded anti-Muslim incidents in 2022) plus a Dec 2025 under-14 headscarf ban temper an otherwise strong fit, pulling it just into the upper-mid band.",
       "evidence": [
-        "Islam recognised by law since 1912; ~8.3% of Austria's population Muslim (Statistik Austria 2021), higher in Vienna.",
-        "Vienna has 200+ mosques/prayer rooms (incl. Vienna Islamic Centre) and a well-established halal food scene.",
-        "Bangladeshi presence: Embassy/Permanent Mission in Vienna and Bangladesh Cricket Club Austria (BCCA).",
-        "Muslim base mainly Turkish/Bosnian; FPÖ-driven anti-immigrant sentiment and 2026 integration sanctions are a downward pull."
+        "Islam recognised by law since 1912; ~8.3% of Austria's population Muslim (Statistik Austria 2021); ~41% of Vienna schoolchildren identify as Muslim.",
+        "Vienna Islamic Centre (largest mosque) plus many mosques/prayer rooms and abundant halal dining.",
+        "Bangladeshi anchors: Bangladesh Islamic Center Baitul Mukarram (Rudolfsheim-Fünfhaus) and the Bangladesh Embassy/Permanent Mission, Vienna.",
+        "Downward pull: 1,324 recorded anti-Muslim incidents in 2022; Dec 2025 ban on headscarves for schoolgirls under 14; FPÖ-driven hostility."
       ],
       "links": [
         {
-          "title": "Statistik Austria – Religious denomination",
-          "url": "https://www.statistik.at/en/statistics/population-and-society/population/further-population-statistics/religious-denomination"
-        },
-        {
           "title": "Wikipedia – Islam in Austria",
           "url": "https://en.wikipedia.org/wiki/Islam_in_Austria"
+        },
+        {
+          "title": "Euronews – Austria passes headscarf ban for schoolgirls under 14",
+          "url": "https://www.euronews.com/2025/12/11/austrias-parliament-passes-law-banning-headscarves-for-schoolgirls-under-age-of-14"
         },
         {
           "title": "Embassy & Permanent Mission of Bangladesh, Vienna",
           "url": "https://vienna.mofa.gov.bd/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     }
   }
 }

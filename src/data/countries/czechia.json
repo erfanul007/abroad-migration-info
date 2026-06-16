@@ -5,8 +5,8 @@
   "iso3": "CZE",
   "flag": "🇨🇿",
   "region": "Europe",
-  "summary": "A growing Prague/Brno tech hub with low flat-ish tax, cheap or moderately priced English MSc options and dual citizenship allowed makes Czechia a real study->employee-card route for two engineers; but the lack of a Dhaka mission (all long-stay visas decided in New Delhi under a 50-application quota), a slow ~10-year citizenship clock with B1 Czech, only a 9-month post-study job-search window, a thin Bangladeshi/Muslim community and a new Babis anti-migration coalition temper it.",
-  "lastReviewed": "2026-06-16",
+  "summary": "Czechia is a real study->Employee-Card->PR route for two engineers, with a booming Prague/Brno tech market, low ~15% flat tax and dual citizenship allowed as the biggest levers; the biggest drag is access - no Dhaka mission (all long-stay visas decided in New Delhi under a hard 50-application quota), a ~10-year B1-Czech citizenship clock, only a 9-month post-study job-search window, a thin Bangladeshi/Muslim community and a new Babis anti-migration coalition.",
+  "lastReviewed": "2026-06-17",
   "links": [
     {
       "title": "Study in Czechia (official national portal)",
@@ -21,38 +21,39 @@
     "job-market": {
       "status": "scored",
       "score": 82,
-      "summary": "Booming Prague/Brno tech hub; ~15,000 new IT roles in 2025, ~190k devs, demand outstrips supply for both engineers.",
-      "reasoning": "Czechia's IT market grew ~18% in 2025 with roughly 15,000 new tech roles, software/data/AI engineers top the in-demand list, and Brno alone hosts ~45,000-50,000 IT professionals while graduating only ~3,500 against ~4,200 needed. With ~190,000 developers and demand exceeding supply, both CS graduates are readily absorbed, and English-speaking tech scenes exist at Microsoft, Google, Red Hat and many product firms. Slightly below top-tier because the absolute market is smaller than Germany/UK and some local roles still expect Czech.",
+      "summary": "Lowest-unemployment EU economy with deep IT shortage; mid SW comp ~CZK 1.1-1.5M, AI/ML CZK 1.1-1.8M, both engineers absorbable.",
+      "reasoning": "Czechia has the EU's lowest unemployment and a structural IT/engineering shortage, so software, data and AI/ML engineers are among the most sought-after roles and visa sponsorship runs through government Highly-Qualified Worker / Blue Card schemes. Mid-career software comp sits around CZK 1.1-1.5M with seniors at CZK 1.7-2.7M+, and AI/ML engineers command CZK 1.1-1.8M, with Red Hat, Oracle, IBM, Kiwi.com and dozens of multinational hubs hiring in English in Prague and Brno. Both spouses are readily employable; held just below top-tier because the absolute market is smaller than Germany/UK and some local roles still expect Czech.",
       "evidence": [
-        "~18% IT-role growth and ~15,000 new tech jobs in 2025 (Nucamp)",
-        "Brno: ~45,000-50,000 IT pros; ~3,500 grads vs ~4,200 needed",
-        "~190,000 developers nationally; demand outstrips supply",
-        "Software devs, data scientists, AI/ML engineers top demand 2025",
-        "2026 Blue Card threshold may drop to 1.2x avg wage for shortage tech"
+        "EU's lowest unemployment + structural IT/engineering shortage (2025-2026)",
+        "Mid SW comp ~CZK 1.1-1.5M; senior CZK 1.7-2.7M+ (Glassdoor/Levels.fyi, 2026)",
+        "AI/ML engineer CZK 1.1-1.8M, GenAI/AI engineer CZK 1.0-1.7M (Nucamp 2026)",
+        "Govt Highly-Qualified Worker & Blue Card schemes prioritise skilled non-EU",
+        "English-speaking employers: Red Hat, Oracle, IBM, Kiwi.com, Productboard"
       ],
       "links": [
         {
-          "title": "Most In-Demand Tech Job in Czech Republic 2025 (Nucamp)",
-          "url": "https://www.nucamp.co/blog/coding-bootcamp-czech-republic-cze-most-in-demand-tech-job-in-czech-republic-in-2025"
+          "title": "AI Salaries in the Czech Republic in 2026 (Nucamp)",
+          "url": "https://www.nucamp.co/blog/coding-bootcamp-czech-republic-cze-top-10-best-paid-tech-job-in-czech-republic-in-2025"
         },
         {
-          "title": "Czechia's 2026 visa changes for non-EU workers (Expats.cz)",
-          "url": "https://www.expats.cz/czech-news/article/czechia-s-2026-visa-changes-what-non-eu-workers-need-to-know"
+          "title": "Software Engineer Salary in Czech Republic (Levels.fyi)",
+          "url": "https://www.levels.fyi/t/software-engineer/locations/czech-republic"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "visa-access": {
       "status": "scored",
-      "score": 38,
-      "summary": "No Dhaka mission; all long-stay visas decided in New Delhi under a 50-application quota with BD-specific delays.",
-      "reasoning": "There is no Czech embassy in Dhaka: Bangladeshi nationals must apply for long-stay study/work visas at the Czech Embassy in New Delhi, and 2026 rules require applying from the home-country mission. New Delhi caps Bangladesh-region long-term intake at 50 applications per registration window (at least 20 reserved for family reunification, max 5 for seasonal work), and appointments for Bangladeshi nationals are deliberately assigned with 1-2 months' advance notice 'due to the current situation' in Bangladesh, plus applicants must show 2 years' residence proof. This New-Delhi routing, tight quota and BD-specific friction place it near the severe-barrier band.",
+      "score": 37,
+      "summary": "No Dhaka mission; all long-stay visas decided in New Delhi under a hard 50-application quota with BD-specific 1-2 month notice delays.",
+      "reasoning": "There is no Czech mission in Dhaka, so Bangladeshi nationals must apply for long-stay study/work visas at the Czech Embassy in New Delhi, which caps the Bhutan/Maldives/Sri Lanka/Bangladesh/Nepal long-term intake at 50 applications per registration window (>=20 reserved for family reunification, <=5 seasonal). Bangladeshi appointments are deliberately assigned with 1-2 months' advance notice 'due to the current situation' in Bangladesh, applicants must show 2 years' continuous legal residence if applying as non-jurisdiction nationals, and the email-registration system disqualifies any double submission. Blue Card has a separate larger queue (~250-300), but the New-Delhi routing, tight study/work quota and BD-specific friction place this near the severe-barrier band.",
       "evidence": [
-        "No Czech mission in Dhaka; long-stay visas decided in New Delhi",
-        "Registration windows 2026: May 4, Jun 1, Jul 7, Aug 3, Sep 7 (New Delhi)",
-        "Quota: 50 applications/period; >=20 family reunion, <=5 seasonal",
-        "Bangladeshi appointments given 1-2 months' notice 'due to situation'",
-        "2026 rule: non-EU must apply from home-country embassy only"
+        "No Czech mission in Dhaka; long-stay visas decided in New Delhi (official)",
+        "Quota 50 applications/window; >=20 family reunion, <=5 seasonal (official)",
+        "2026 registration windows: May 4, Jun 1, Jul 7, Aug 3, Sep 7 (New Delhi)",
+        "BD appointments given 1-2 months' notice 'due to current situation'",
+        "Separate Blue Card queue ~250-300 applications (visasupdate, 2026)",
+        "Processing ~7-30 days once submitted; one email per applicant or disqualified"
       ],
       "links": [
         {
@@ -60,23 +61,23 @@
           "url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/additional_appointments_for_long_term.html"
         },
         {
-          "title": "Czechia's 2026 visa changes for non-EU workers (Expats.cz)",
-          "url": "https://www.expats.cz/czech-news/article/czechia-s-2026-visa-changes-what-non-eu-workers-need-to-know"
+          "title": "Czech Embassy New Delhi Appointment System 2026 (visasupdate)",
+          "url": "https://www.visasupdate.com/post/czech-embassy-new-delhi-appointment-system-2026"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "citizenship": {
       "status": "scored",
       "score": 55,
-      "summary": "Dual citizenship allowed (since 2014) and BD permits dual with EU, but ~10yr clock + B1 Czech + integration test.",
-      "reasoning": "Czechia has permitted dual citizenship since 1 January 2014, and Bangladesh allows dual nationality with EU states, so this couple could naturalise without renouncing Bangladeshi citizenship (a genuine plus). However the timeline is long: naturalisation requires either 5 years of permanent residence (itself reached only after ~5 years of temporary residence) or 10 years' total legal residence, plus a B1 Czech exam, an integration/civics test and self-sufficiency. The ~10-year effective path and B1 Czech bar hold it at the mixed band despite the dual-citizenship advantage.",
+      "summary": "Dual citizenship allowed since 2014 (no renunciation), but ~10yr legal-residence clock + B1 Czech exam + civics/integration test.",
+      "reasoning": "Czech law has permitted multiple citizenship since 1 January 2014 with no renunciation required, and Bangladesh allows dual nationality with EU states, so this couple could naturalise while keeping Bangladeshi citizenship - a genuine plus given their dual-passport preference. But the clock is long: naturalisation needs 5 years of permanent residence (itself reached after ~5 years of temporary residence) or effectively 10 years' total legal residence, plus an ALTE-certified B1 Czech exam, a constitutional/history civics test and proven integration and self-sufficiency. The ~10-year effective path and B1 Czech bar hold it at the mixed band despite the dual-citizenship advantage.",
       "evidence": [
-        "Dual citizenship allowed since 01.01.2014; original nationality retained",
-        "Bangladesh permits dual nationality with EU countries (DNC)",
-        "Naturalisation: 5yr permanent residence OR 10yr total legal residence",
-        "B1 Czech exam (ALTE-certified) + Czech-realities civics test required",
-        "Must prove self-sufficiency, no tax/fine debts; MoI decides in 180 days"
+        "Multiple citizenship allowed since 01.01.2014; no renunciation required",
+        "Bangladesh permits dual nationality with EU countries",
+        "Naturalisation: 5yr permanent residence OR ~10yr total legal residence",
+        "B1 Czech exam (ALTE-certified) + constitutional/history civics test",
+        "Must prove integration (family/work/social) and self-sufficiency"
       ],
       "links": [
         {
@@ -84,47 +85,47 @@
           "url": "https://portal.gov.cz/en/sluzby-vs/conferment-of-czech-citizenship-S10108"
         },
         {
-          "title": "Citizenship (cizinci.cz, official integration portal)",
-          "url": "https://www.cizinci.cz/web/en/citizenship"
+          "title": "Czech dual citizenship and nationality (Expats.cz)",
+          "url": "https://www.expats.cz/czech-news/article/beyond-the-second-passport-understanding-czech-citizenship-and-dual-nationality"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "post-study-work": {
       "status": "scored",
       "score": 58,
-      "summary": "9-month post-study job-seeker stay, then in-country switch to Employee Card/Blue Card; spouse can work.",
-      "reasoning": "Non-EU graduates of Czech universities may stay up to 9 months on a job-seeker / business-purpose long-term residence to find qualified work, then switch in-country to an Employee Card (valid up to 2 years, renewable) or an EU Blue Card. This is meaningfully shorter than the 18-36 month windows in Germany, Australia or Canada, and the Employee Card still involves an employer contract and qualification check. Adequate but short, so it sits in the lower-middle band; the 2026 90-day Employee Card processing guarantee helps.",
+      "summary": "9-month job-seeker residence (free labour-market access) after a Czech degree, then in-country switch to Employee Card/Blue Card; spouse can work.",
+      "reasoning": "Graduates of an accredited Czech university programme can take a long-term residence permit for seeking employment or starting a business for up to 9 months, during which they have free, unrestricted access to the labour market, then switch in-country to an Employee Card (up to 2 years, renewable) or an EU Blue Card. A Czech degree also grants free labour-market access on the Employee Card without a separate work permit, which helps both spouses. The 9-month window is non-extendable and meaningfully shorter than Germany's 18 months or multi-year Australia/Canada post-study windows, so it sits in the lower-middle band; the 2026 90-day Employee Card decision guarantee helps.",
       "evidence": [
-        "9-month post-study stay to seek employment (since 2019)",
-        "Switch in-country to Employee Card (up to 2 yrs, renewable) or Blue Card",
-        "Employee Card needs employment contract + qualification proof",
-        "From 01.01.2026 Employee Card applications must be decided in 90 days",
-        "Shorter than DE 18mo / AU-CA multi-year post-study windows"
+        "9-month job-seeker / business residence after a Czech degree (ipc.gov.cz)",
+        "Free, unrestricted labour-market access during the job-seeker permit",
+        "Switch in-country to Employee Card (up to 2 yrs) or EU Blue Card",
+        "Czech-degree Employee Card needs no separate work permit",
+        "Window non-extendable; shorter than DE 18mo / AU-CA multi-year PSW"
       ],
       "links": [
         {
-          "title": "Work while or after studying (Study in Czechia, official)",
-          "url": "https://www.studyin.cz/live-work/work/"
+          "title": "Long-term Residence Permit for Seeking Employment or Business (ipc.gov.cz, official)",
+          "url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-residence-permits/long-term-residence-permit-for-the-purpose-of-seeking-employment-or-starting-a-business/"
         },
         {
-          "title": "Czechia's 2026 visa changes for non-EU workers (Expats.cz)",
-          "url": "https://www.expats.cz/czech-news/article/czechia-s-2026-visa-changes-what-non-eu-workers-need-to-know"
+          "title": "Getting a work visa after studies (Study in Czechia, official)",
+          "url": "https://www.studyin.cz/alumni/work-in-the-czech-republic/getting-work-visa/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "spouse-family": {
       "status": "scored",
       "score": 70,
-      "summary": "Both can hold own permits and work; spouse of a worker can work, but study-phase dependent work is not automatic.",
-      "reasoning": "As two qualified engineers, the strongest path is for each to hold an independent student then Employee Card/Blue Card permit, so both work freely in the work phase. A spouse joining a Blue Card or Employee Card holder via family reunification (after the sponsor's ~6 months' residence for Employee Card) can generally work without a separate permit. The weaker point is the study phase: a 2023 amendment abolished adult dependants' family-reunion-by-study route, so during the MSc the partner should ideally enrol or hold their own permit rather than rely on a dependant visa. Strong overall but not the seamless both-work-in-every-phase top anchor.",
+      "summary": "Both can hold own permits and work; spouse of an Employee/Blue Card holder can work via reunification, but study-phase dependent work isn't automatic.",
+      "reasoning": "As two qualified engineers the strongest path is for each to hold an independent student then Employee Card/Blue Card permit, so both work freely in the work phase. A spouse joining a Blue Card or Employee Card holder via family reunification (after the sponsor's ~6 months' residence for Employee Card) can generally work without a separate permit, and reunited family children access free public schooling. The weaker point is the study phase: a 2023 amendment removed the adult-dependant family-reunion-via-study route, so during the MSc the partner should ideally enrol or hold their own permit rather than rely on a dependant visa. Strong overall but not the seamless both-work-in-every-phase top anchor.",
       "evidence": [
         "Each partner can hold own student/Employee Card/Blue Card permit",
-        "Blue Card/Employee Card family reunion lets spouse work without extra permit",
+        "Blue Card/Employee Card reunification lets spouse work without extra permit",
         "Employee Card sponsor needs ~6 months' residence to reunite family",
-        "2023 amendment abolished adult dependant family-reunion via study",
-        "Best for this couple: both enrol/work on their own permits, not dependant"
+        "2023 amendment removed adult-dependant family reunion via study",
+        "Reunited children have access to free public schooling"
       ],
       "links": [
         {
@@ -136,18 +137,18 @@
           "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/family-member-czechia_en"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "msc-study": {
       "status": "scored",
       "score": 72,
-      "summary": "English-taught CS MSc widely available (~EUR 2,500-10,000/yr); free only in Czech; students may work, spouse can join.",
-      "reasoning": "Charles University, CTU Prague and Masaryk (Brno) offer English-taught CS Master's, but English programmes charge tuition typically ~EUR 2,500-10,000 per year (some technical fields higher); only Czech-language programmes at public universities are tuition-free, and Czech is hard to reach at entry level. Students may work and a spouse can accompany. Solidly good given the low cost of living and strong tech ecosystem, but not the near-free abundant-English profile of Germany.",
+      "summary": "English-taught CS MSc widely available at ~CZK 100k-400k/yr (~EUR 4k-16k); Czech-taught is free; students work freely, spouse can join.",
+      "reasoning": "Charles University, CTU Prague and Masaryk (Brno) offer English-taught CS Master's, with public-university English tuition typically CZK 100,000-400,000/year (~EUR 4,000-16,000); Czech-language programmes at public universities are tuition-free for all nationalities but Czech is hard to reach at entry. Students may work without a separate permit and a spouse can accompany, and the low cost of living eases the total study budget. Solidly good given the strong tech ecosystem, but not the near-free, abundant-English profile of Germany.",
       "evidence": [
-        "English-taught Master's tuition ~EUR 2,500-10,000/yr (public unis)",
-        "Tuition-free only for Czech-language programmes at public universities",
+        "English-taught Master's tuition ~CZK 100k-400k/yr (~EUR 4k-16k)",
+        "Czech-language programmes tuition-free for all nationalities (public unis)",
         "Charles University, CTU Prague, Masaryk offer English CS Master's",
-        "Students may work; spouse may accompany",
+        "Students work without a separate work permit; spouse may accompany",
         "Lower living costs than Western Europe ease total study budget"
       ],
       "links": [
@@ -156,23 +157,23 @@
           "url": "https://www.studyin.cz/plan-your-studies/tuition-fees/"
         },
         {
-          "title": "Master's Degrees in the Czech Republic 2026 (Study.eu)",
-          "url": "https://www.study.eu/guide/masters-in-czech-republic"
+          "title": "Tuition fees & cost of living in Czechia (Study.eu)",
+          "url": "https://www.study.eu/article/czechia-tuition-fees-and-cost-of-living"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "pr-pathway": {
       "status": "scored",
       "score": 60,
-      "summary": "PR after 5 years' continuous residence, but study time counts only half; A2 Czech and clean record required.",
-      "reasoning": "Third-country nationals can obtain permanent residence after 5 years of continuous temporary residence, which is a clear standard route. The catch for this couple is that time on a student residence permit counts only at half value, so a 2-year MSc adds only 1 year - they would need ~4 more years on an Employee Card/Blue Card to reach 5, making the realistic PR horizon ~6 years from arrival. An A2 Czech exam and clean financial/criminal record are also required. Standard-paced and predictable, hence the middle band.",
+      "summary": "PR after 5 years' continuous residence, but student time counts only half; A2 Czech exam (new format Apr 2026) and clean record required.",
+      "reasoning": "Third-country nationals can obtain permanent residence after 5 years of continuous temporary residence, a clear standard route. The catch for this couple is that time on a student residence permit counts only at half value, so a 2-year MSc adds only 1 year toward PR - they would need ~4 more years on an Employee Card/Blue Card to reach 5, making the realistic PR horizon ~6 years from arrival. An A2 Czech exam (held in a new format since 11 April 2026) and a clean financial/criminal record are also required. Standard-paced and predictable, hence the middle band.",
       "evidence": [
         "PR after 5 years' continuous residence (ipc.gov.cz)",
         "Student-permit time counts at HALF toward the 5 years",
         "MSc 2 yrs = ~1 yr credit; then ~4 yrs Employee/Blue Card needed",
-        "A2 Czech exam required for permanent residence",
-        "Blue Card: 2 yrs in CZ + 1 yr in another EU state can combine"
+        "A2 Czech exam required; new exam format since 11.04.2026",
+        "Clean financial and criminal record required"
       ],
       "links": [
         {
@@ -180,47 +181,47 @@
           "url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/permanent-residence/permanent-residence-permit-after-5-years-of-temporary-residence-in-the-czech-republic/"
         },
         {
-          "title": "Permanent residence and citizenship (EURAXESS Czech Republic, official)",
-          "url": "https://www.euraxess.cz/czech-republic/information-assistance/permanent-residence-and-citizenship"
+          "title": "Czech A2 Language Exam for Permanent Residency (Pexpats)",
+          "url": "https://pexpats.com/the-czech-language-exams-for-permanent-residency-applicants"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "income-cost": {
       "status": "scored",
-      "score": 65,
-      "summary": "SW median ~CZK 1.4M (~EUR 56k), Prague ~CZK 1.68M (~EUR 67k); low tax + cheaper rents let two incomes save.",
-      "reasoning": "Median software-engineer total comp is ~CZK 1,402,000 (~EUR 56,000), rising to ~CZK 1,678,000 (~EUR 67,000) in Prague and to CZK 2-3M at top firms (Microsoft, Pure Storage). Gross pay is below Western Europe, but a low ~15% flat-ish income tax, ~11.6% employee contributions and far cheaper housing than Berlin (single-person costs ~EUR 780/month excl. rent; Prague 1-bed ~EUR 700-1,200) mean two engineering incomes save well, with Brno ~13% cheaper than Prague. Net savings potential is good rather than exceptional given lower headline salaries.",
+      "score": 66,
+      "summary": "Prague SW comp ~CZK 1.1-1.7M; single-person ~CZK 20k/mo excl. rent, 1-bed centre ~CZK 25.7k - two low-taxed incomes save well.",
+      "reasoning": "Mid-career software comp in Prague runs roughly CZK 1.1-1.5M (seniors CZK 1.7-2.7M+), while Numbeo (Jun 2026) puts a single person's monthly cost at ~CZK 20,000 (~EUR 845) excluding rent and a city-centre 1-bed at ~CZK 25,700 (~EUR 1,086), with Brno noticeably cheaper. Gross pay is below Western Europe, but a low ~15% income tax and ~11.6% employee contributions plus cheaper housing mean two engineering incomes save comfortably. Net savings potential is good rather than exceptional given lower headline salaries and rising Prague rents.",
       "evidence": [
-        "Median SW total comp ~CZK 1,402,000 (~EUR 56k) (Levels.fyi, Jun 2026)",
-        "Prague ~CZK 1,678,000 (~EUR 67k); top firms CZK 2-3M",
-        "Single-person monthly cost ~EUR 780 excl. rent (Numbeo)",
-        "Prague 1-bed ~EUR 700-1,200/month; Brno ~13% cheaper than Prague",
-        "Low ~15% tax + ~11.6% contributions preserve take-home"
+        "Prague mid SW comp ~CZK 1.1-1.5M; senior CZK 1.7-2.7M+ (2026)",
+        "Single-person monthly cost ~CZK 20,000 (~EUR 845) excl. rent (Numbeo Jun 2026)",
+        "Prague 1-bed city centre ~CZK 25,700 (~EUR 1,086); outside ~CZK 22,000",
+        "Brno ~CZK 93k buys Prague-CZK 110k lifestyle (Numbeo comparison)",
+        "Low ~15% tax + ~11.6% contributions preserve take-home for two earners"
       ],
       "links": [
         {
-          "title": "Software Engineer Salary in Czech Republic (Levels.fyi)",
-          "url": "https://www.levels.fyi/t/software-engineer/locations/czech-republic"
-        },
-        {
           "title": "Cost of Living in Prague, Jun 2026 (Numbeo)",
           "url": "https://www.numbeo.com/cost-of-living/in/Prague"
+        },
+        {
+          "title": "Software Engineer Salary in Prague (Levels.fyi)",
+          "url": "https://www.levels.fyi/t/software-engineer/locations/prague-cze"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "healthcare": {
       "status": "scored",
       "score": 68,
-      "summary": "Universal public insurance (VZP) for employees; good quality, but non-EU students must buy commercial cover.",
-      "reasoning": "Czechia runs a universal public health insurance system (VZP covers ~6 million people) giving employed residents comprehensive, good-quality access at modest cost (employee 4.5% of gross). The gap for this couple is the study phase: non-EU students cannot join public VZP unless employed and must buy commercial foreigners' insurance, and health cover is mandatory for the visa/residence permit. Quality and cost are solid once both are working, so it sits in the decent-with-newcomer-gaps band.",
+      "summary": "Universal public insurance (13.5% payroll) for employees - good quality; non-EU students must buy commercial cover ~CZK 7k-13k/yr.",
+      "reasoning": "Czechia runs universal public health insurance funded by a 13.5%-of-salary payroll contribution (employee 4.5%), giving employed residents comprehensive, good-quality access to GPs, specialists and hospitals at modest cost; VZP is the largest insurer (~60% of the population). The gap for this couple is the study phase: non-EU students who don't work cannot join the public system and must buy commercial foreigners' insurance, typically CZK 7,000-13,000/year (~EUR 280-520), and health cover is mandatory for any stay over 90 days. Quality and cost are solid once both are working, so it sits in the decent-with-newcomer-gaps band.",
       "evidence": [
-        "Universal public insurance; VZP covers ~6M (largest insurer)",
-        "Employees join public insurance; employee contribution 4.5% of gross",
-        "Non-EU students must buy commercial insurance (not eligible for VZP)",
-        "Health insurance mandatory for stays over 90 days / residence permits",
-        "Good-quality access to GPs, specialists, hospitals once employed"
+        "Universal public insurance funded by 13.5% payroll (employee 4.5%)",
+        "VZP is the largest public insurer (~60% of the population)",
+        "Non-EU non-working students must buy commercial insurance",
+        "Commercial student cover ~CZK 7,000-13,000/yr (~EUR 280-520)",
+        "Health insurance mandatory for stays over 90 days / residence permits"
       ],
       "links": [
         {
@@ -228,46 +229,46 @@
           "url": "https://en.vzp.cz/information/healthcare-for-foreigners"
         },
         {
-          "title": "How the Czech healthcare system works (PVZP)",
-          "url": "https://www.pvzp.cz/en/blog-en/health-insurance-for-czech-citizens-and-foreign-nationals-how-does-the-czech-healthcare-system-work/"
+          "title": "Student Insurance Czech Republic 2026 - VZP & PVZP Guide",
+          "url": "https://www.student-insurance.com/blog/student-health-insurance-czech-republic-vzp-guide/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "culture-language": {
       "status": "scored",
       "score": 55,
-      "summary": "English works in Prague/Brno tech, but Czech is needed for officialdom, A2 for PR and B1 for citizenship.",
-      "reasoning": "English is workable in Prague/Brno tech workplaces and among younger Czechs, and livability is high with low cost of living and central-Europe access. However Czech is a hard Slavic language needed for bureaucracy and daily life outside the hubs, with an A2 exam for permanent residence and a B1 exam plus civics test for citizenship. This local-language bar for officialdom and the couple's passport goal keeps it in the mixed band.",
+      "summary": "EF EPI 2025 rank #23 (B2, score 582); English works in Prague/Brno tech, but Czech needed for officialdom, A2 for PR, B1 for citizenship.",
+      "reasoning": "Czechia ranks #23 globally on the EF English Proficiency Index 2025 (score 582, 'upper-intermediate' B2), with Brno (620) outscoring Prague (576), so English is workable in tech workplaces and among younger Czechs, and livability is high with low cost and central-Europe access. However Czech is a hard Slavic language needed for bureaucracy and life outside the hubs, with an A2 exam for permanent residence and a B1 exam plus civics test for citizenship, and EF notes progress has stalled for five years. This local-language bar for officialdom and the couple's passport goal keeps it in the mixed band.",
       "evidence": [
-        "English usable in Prague/Brno tech and among younger Czechs",
+        "EF EPI 2025: rank #23 globally, score 582, B2 'upper-intermediate'",
+        "Brno 620 vs Prague 576; speaking weakest skill (498)",
         "Czech required for officialdom and life outside major cities",
         "A2 Czech exam for permanent residence; B1 for citizenship",
-        "Czech is a difficult Slavic language to acquire",
-        "High livability, low cost of living, central location"
+        "High livability, low cost of living, central Schengen location"
       ],
       "links": [
         {
-          "title": "Live & Work (Study in Czechia, official)",
-          "url": "https://www.studyin.cz/live-work/"
+          "title": "EF English Proficiency Index 2025 - Czechia fact sheet (official PDF)",
+          "url": "https://www.ef.com/assetscdn/WIBIwq6RdJvcD9bc8RMd/cefcom-epi-site/fact-sheets/2025/ef-epi-fact-sheet-czech-republic-english.pdf"
         },
         {
           "title": "Examination for Permanent Residence and Citizenship (official)",
           "url": "https://cestina-pro-cizince.cz/?hl=en_US"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "safety-law": {
       "status": "scored",
       "score": 78,
-      "summary": "WJP Rule of Law Index 2025: top-20 globally (ranked 20 of 140 on country profile); low crime, sound courts.",
-      "reasoning": "Czechia ranks in the global top 20 of the WJP Rule of Law Index 2025 (its official country profile cites rank 20 of 140; the full 2025 index covers 143 jurisdictions), placing it 15th among EU/EFTA/North America. Violent crime is low and courts are broadly sound. Slightly below Germany/Nordics because of a less robust experience for visible-minority migrants and rising anti-migrant rhetoric.",
+      "summary": "WJP Rule of Law Index 2025: rank 20 of 140; Prague crime index ~24 (vs Berlin 45, Paris 58); one of Europe's safest.",
+      "reasoning": "Czechia ranks 20th of 140 on the WJP Rule of Law Index 2025 (15th of 31 in the EU/EFTA/North America region), confirming sound, broadly independent courts. Violent crime is low - Prague's Numbeo crime index is ~24, far below Berlin (~45) or Paris (~58) - and US/UK/Australian advisories all sit at 'exercise normal precautions' in early 2026. Held below the Nordics/Germany because the migrant experience is weaker amid a hardening anti-immigrant political climate, but a strong factor overall for this couple.",
       "evidence": [
-        "WJP Rule of Law Index 2025: global top 20 (rank 20 of 140 on profile)",
+        "WJP Rule of Law Index 2025: rank 20 of 140 (country profile)",
         "15th of 31 in EU/EFTA/North America region",
-        "2025 index covers 143 countries/jurisdictions, 0-1 scale",
-        "Low violent crime; functional, broadly independent courts",
+        "Prague Numbeo crime index ~24 (vs Berlin ~45, Paris ~58)",
+        "US/UK/AU advisories: 'exercise normal precautions' (early 2026)",
         "Migrant experience weaker amid anti-immigrant political climate"
       ],
       "links": [
@@ -280,67 +281,67 @@
           "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2025-global-press-release"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "politics": {
       "status": "scored",
-      "score": 45,
-      "summary": "New Babis coalition (Dec 2025) with anti-migrant SPD pledges zero-tolerance migration; IT visas pragmatically kept.",
-      "reasoning": "Andrej Babis was sworn in as PM on 9 December 2025 leading an ANO coalition with the anti-migrant SPD and the Motorists, holding 108 of 200 seats and winning confidence in January 2026 on a 'zero-tolerance for illegal migration' platform, a new Migration Act and resistance to the EU Migration Pact. Babis's previous government did expand fast-track IT visa schemes, so skilled-tech routes are likely preserved by economic pragmatism, but coalition tension and a tightening, anti-immigrant tone weigh the score down toward the lower-middle band.",
+      "score": 44,
+      "summary": "Babis ANO+SPD+Motorists coalition (108/200) won confidence Jan 2026, survived no-confidence Feb 2026; 'zero-tolerance' migration, rejects EU Pact.",
+      "reasoning": "Andrej Babis was sworn in as PM in December 2025 leading an ANO + anti-migrant SPD + Motorists coalition holding 108 of 200 seats; it won a confidence vote 108-91 on 13-15 January 2026 and survived a no-confidence motion in February 2026, so it is stable in the near term. The platform is 'zero-tolerance' for illegal migration, a new Migration Act and rejection of the EU Migration Pact, with stricter foreigner/asylum rules phasing in through June 2026. Babis's prior government did expand fast-track IT visa schemes, so skilled-tech routes are likely preserved by economic pragmatism, but the hardening anti-immigrant tone weighs the score into the weak band for a non-EU Muslim couple.",
       "evidence": [
-        "Babis sworn in as PM 09.12.2025; ANO + SPD + Motorists, 108/200 seats",
-        "Government won confidence vote January 2026 (108-91)",
-        "Platform: zero-tolerance migration, new Migration Act, resist EU Pact",
-        "Babis's prior govt expanded fast-track IT visa schemes (pragmatism)",
-        "Coalition tensions and 2026 municipal elections add volatility"
+        "Babis sworn in PM Dec 2025; ANO+SPD+Motorists, 108/200 seats",
+        "Won confidence vote 108-91 (13-15 Jan 2026)",
+        "Survived no-confidence motion Feb 2026 (coalition durable near-term)",
+        "Platform: zero-tolerance migration, new Migration Act, rejects EU Pact",
+        "Stricter foreigner/asylum rules phasing in through Jun 2026"
       ],
       "links": [
         {
-          "title": "Babis sworn in as Czech PM (Euronews, 09.12.2025)",
-          "url": "https://www.euronews.com/2025/12/09/right-wing-billionaire-andrej-babis-sworn-in-as-czech-republics-new-prime-minister"
+          "title": "Babis govt wins vote of confidence (Brno Daily, 16.01.2026)",
+          "url": "https://brnodaily.com/2026/01/16/news/politics/babiss-coalition-government-wins-confidence-vote-in-the-chamber-of-deputies/"
         },
         {
           "title": "Incoming Babis Government to Harden Czech Migration Position (VisaHQ)",
           "url": "https://www.visahq.com/news/2025-12-14/cz/incoming-babi-government-poised-to-harden-czech-position-on-eu-migration-rules/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "tax": {
       "status": "scored",
       "score": 75,
-      "summary": "Low flat-ish tax: 15% up to ~CZK 1.76M, 23% above; employee contributions ~11.6%; strong take-home.",
-      "reasoning": "Czechia taxes personal income at just 15% up to ~CZK 1,762,812 (~EUR 71,000) in 2026 and 23% only above that, with employee social and health contributions of ~11.6% (6.5% pension, 0.6% sickness, 4.5% health). For typical software salaries the all-in effective burden is roughly 26-34%, clearly lighter than Germany's 35-40%, giving these engineers a strong take-home. Among the better tax environments in this set.",
+      "summary": "Low flat-ish tax: 15% up to ~CZK 1.76M, 23% above; employee contributions ~11.6% (7.1% social + 4.5% health); strong take-home.",
+      "reasoning": "Czechia taxes personal income at 15% up to CZK 1,762,812 (~EUR 71,000) in 2026 and 23% only above that, with employee social and health contributions of ~11.6% (7.1% social security + 4.5% health) and a basic taxpayer credit of CZK 30,840. For typical software salaries the all-in effective burden is roughly 25-34%, clearly lighter than Germany's 35-40%, giving these engineers a strong take-home. Among the better tax environments in this set; held below 80 because the 23% band and uncapped health levy bite at senior-engineer pay.",
       "evidence": [
-        "Income tax 15% up to ~CZK 1,762,812 (~EUR 71k), 23% above (2026)",
-        "Employee contributions ~11.6% (6.5% pension, 0.6% sickness, 4.5% health)",
-        "No cap on health-insurance contributions; social-security cap CZK 2,350,416",
-        "Effective all-in burden ~26-34% for SW salaries",
-        "Lighter than Germany's ~35-40% deductions"
+        "Income tax 15% up to CZK 1,762,812 (~EUR 71k), 23% above (2026)",
+        "Employee contributions ~11.6% (7.1% social + 4.5% health) in 2026",
+        "Social-security cap CZK 2,350,416; no cap on health contributions",
+        "Basic taxpayer credit CZK 30,840 lowers effective rate at mid pay",
+        "Effective all-in burden ~25-34% for SW salaries vs DE ~35-40%"
       ],
       "links": [
         {
-          "title": "2026 Tax Guideline for the Czech Republic (Accace)",
-          "url": "https://www.accace.com/tax-guideline-for-the-czech-republic/"
+          "title": "Changes in employee taxation in 2026 (KPMG Czech Republic)",
+          "url": "https://danovky.cz/en/news/detail/1767"
         },
         {
-          "title": "Czech Republic - Individual - Other taxes (PwC Tax Summaries)",
-          "url": "https://taxsummaries.pwc.com/czech-republic/individual/other-taxes"
+          "title": "2026 Tax Guideline for the Czech Republic (Accace)",
+          "url": "https://www.accace.com/tax-guideline-for-the-czech-republic/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "muslim-diaspora": {
       "status": "scored",
       "score": 32,
-      "summary": "Very small Muslim community (~20k, 0.2%), few mosques, limited halal, and notable Islamophobia.",
-      "reasoning": "Czechia has only ~20,000 Muslims (~0.2% of the population), no large purpose-built mosques (worship is largely in small/basement prayer spaces and only ~3 recognised mosques), and limited visible halal infrastructure outside Prague. The Bangladeshi/South Asian community is negligible, and Islamophobic incidents and political hostility are well documented, with Muslims among the least-accepted groups. This is a weak environment for a Muslim Bangladeshi couple seeking community.",
+      "summary": "Very small Muslim community (~20k, ~0.2%); ~2 Prague mosques + basement prayer rooms, limited halal, documented Islamophobia.",
+      "reasoning": "Czechia has only ~20,000 Muslims (~0.2% of the population), no large purpose-built mosques (Prague has ~2 plus small/basement prayer rooms), and halal food is hard to find outside Prague. The Bangladeshi/South Asian community is negligible - the largest Asian groups are Vietnamese (~63,000), Mongolian and Chinese, with no notable Bangladeshi presence - and Islamophobia is well documented, with anti-Islam rhetoric normalised in mainstream politics since 2014-2015 and reinforced by the current SPD-backed coalition. This is a weak environment for a Muslim Bangladeshi couple seeking community.",
       "evidence": [
         "~20,000 Muslims (~0.2% of population)",
-        "No large purpose-built mosques; ~3 recognised, plus basement prayer rooms",
-        "Limited halal availability outside Prague",
-        "Negligible Bangladeshi/South Asian community",
-        "Documented Islamophobia; Muslims among least-accepted groups"
+        "Prague has ~2 mosques plus small/basement prayer rooms; none large purpose-built",
+        "Halal food hard to find outside Prague",
+        "Largest Asian groups Vietnamese ~63k, Mongolian, Chinese; BD negligible",
+        "Documented Islamophobia; anti-Islam rhetoric normalised since 2014-2015"
       ],
       "links": [
         {
@@ -348,11 +349,11 @@
           "url": "https://english.radio.cz/hidden-muslim-communities-basements-prague-8857205"
         },
         {
-          "title": "Prague's Muslims struggle for mosque space amid rising prejudice (The New Arab)",
-          "url": "https://www.newarab.com/features/pragues-muslims-struggle-mosque-space-amid-rising-prejudice"
+          "title": "Islamophobia Rising in the Czech Republic (Liberties.eu)",
+          "url": "https://www.liberties.eu/en/stories/islamophobia-czech-republic/3702"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     }
   }
 }

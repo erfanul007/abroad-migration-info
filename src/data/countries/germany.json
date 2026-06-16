@@ -5,50 +5,54 @@
   "iso3": "DEU",
   "flag": "🇩🇪",
   "region": "Europe",
-  "summary": "Acute software/AI shortage plus tuition-free public MSc make Germany a strong study->Blue Card->fast-PR route for two engineers; no APS and Dhaka-decided visas help, but B1 German for citizenship, high deductions and rising anti-immigrant politics temper it.",
-  "lastReviewed": "2026-06-16",
+  "summary": "Tuition-free English MSc plus a ~109k software/AI shortage and a fast 21-month Blue Card settlement route make Germany a strong study->work->dual-citizenship play for two engineers; the biggest lever is the no-APS Dhaka-decided visa with ~90% approval, the biggest drag is the ~19-month Dhaka appointment backlog amid surging AfD-led anti-immigrant politics.",
+  "lastReviewed": "2026-06-17",
   "links": [
     {
-      "title": "Make it in Germany (official portal)",
+      "title": "Make it in Germany (official federal portal)",
       "url": "https://www.make-it-in-germany.com/en/"
+    },
+    {
+      "title": "FAQ - Student Visa (German Embassy Dhaka, official)",
+      "url": "https://dhaka.diplo.de/bd-en/service/2689586-2689586"
     }
   ],
   "categories": {
     "job-market": {
       "status": "scored",
-      "score": 90,
-      "summary": "Acute software/AI shortage; ~109k unfilled IT roles, 137k+ open software jobs, both engineers easily absorbed.",
-      "reasoning": "Bitkom 2025 reports a shortage of ~109,000 IT specialists with 137,000+ open software roles and an average 7.7 months to fill a vacancy; 85% of firms report a shortage and 79% expect it to worsen. Demand easily absorbs two CS graduates, and software/AI/data roles top the bottleneck list, with English-speaking tech scenes in Berlin, Munich and Hamburg.",
+      "score": 87,
+      "summary": "~109k unfilled IT roles, 80%+ firms short of specialists; software/AI/data top demand, but 2026 market favors experience.",
+      "reasoning": "Bitkom reports ~109,000 unfilled IT roles (down from 149,000 two years ago but 79% expect it to worsen), with software developers, AI/ML engineers and data scientists topping bottleneck lists and an average 7.7 months to fill a vacancy. Senior/experienced engineers get multiple offers and English-speaking tech hubs (Berlin, Munich) absorb both spouses; the modest deduction from world-leading reflects a 2026 market that is 'pickier', brutal for juniors (only 39 junior roles in Berlin in Q1 2026), so post-MSc with 2-3 yrs experience is the sweet spot.",
       "evidence": [
-        "Bitkom 2025: ~109,000 IT specialists missing; 137,000+ open roles",
-        "Average IT vacancy takes 7.7 months to fill (Bitkom 2025)",
-        "85% of firms report a shortage; 79% expect it to worsen",
-        "Software devs, AI/ML, data scientists, cybersecurity top demand",
-        "Cloud skills gap could reach 200,000 by 2030 (Bitkom)"
+        "Bitkom 2026: ~109,000 IT specialists missing (down from 149,000 in 2024)",
+        "80%+ of firms report acute specialist shortage; avg 7.7 months to fill a role",
+        "Top demand: software devs, AI/ML, data scientists, cybersecurity, cloud/DevOps",
+        "42% of firms expect AI to create additional IT demand (Bitkom)",
+        "2026 market 'pickier': senior multiple-offer, junior saturated (Berlin Q1 2026 only 39 junior roles)"
       ],
       "links": [
         {
-          "title": "Bitkom: Germany still lacks more than 100,000 IT specialists (2025)",
+          "title": "Bitkom: Germany still lacks more than 100,000 IT specialists",
           "url": "https://silicon-saxony.de/en/bitkom-germany-still-lacks-more-than-100000-it-specialists/"
         },
         {
-          "title": "EU Blue Card Germany (Make it in Germany, official)",
-          "url": "https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card"
+          "title": "109,000 IT Jobs in Germany: Tech Talent Shortage 2026",
+          "url": "https://www.wegetyouhired.com/post/109-000-it-jobs-in-germany"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "visa-access": {
       "status": "scored",
-      "score": 70,
-      "summary": "Decided in Dhaka, no APS and no New Delhi travel; but VFS-intake backlog and €11,904 blocked account weigh.",
-      "reasoning": "The German Embassy Dhaka handles and decides every student visa locally with no New Delhi travel, and crucially APS is NOT required for Bangladeshi applicants (unlike India/China/Vietnam). Friction remains: master applications are taken via VFS since 02.01.2025, a blocked account of €11,904 (€992/month) for 2026 is required, and the embassy admits appointment waits are unpredictable after applicant numbers rose exponentially.",
+      "score": 62,
+      "summary": "No APS, Dhaka-decided, ~90% approval - but embassy clears ~2,000/yr vs ~80,000 demand, so ~19-month appointment waits.",
+      "reasoning": "The structural pluses are strong: Embassy Dhaka decides every student visa locally (no New Delhi travel), no APS is required for Bangladesh (unlike India/China/Vietnam), and the student-visa approval rate is ~90%. But the binding constraint is severe: the embassy processes only ~2,000 applications a year against ~40x that demand, producing reported appointment waits of up to ~19 months, plus a €11,904 blocked-account bar and master intake via VFS since 02.01.2025. The backlog, not refusal risk, is the real obstacle, pulling this into the upper-mixed band.",
       "evidence": [
         "No APS required for Bangladesh (Embassy Dhaka FAQ)",
-        "Embassy Dhaka decides every application locally; no New Delhi travel",
-        "Master-student visa intake via VFS Global since 02.01.2025",
-        "Blocked account €11,904/year (€992/month) for 2026",
-        "Embassy states wait times unpredictable amid exponential demand"
+        "~90% student-visa approval rate for Bangladeshi applicants",
+        "Embassy processes ~2,000 applications/yr vs ~40x that demand; waits up to ~19 months",
+        "Blocked account €11,904/year (€992/month) required for 2026",
+        "Master-student intake via VFS Global since 02.01.2025; embassy retains decision"
       ],
       "links": [
         {
@@ -56,27 +60,27 @@
           "url": "https://dhaka.diplo.de/bd-en/service/2689586-2689586"
         },
         {
-          "title": "Information regarding Study Visa (German Embassy Dhaka, official)",
-          "url": "https://dhaka.diplo.de/bd-en/service/2669544-2669544"
+          "title": "Visa hurdles derail higher education dreams for Bangladeshi students (Dhaka Tribune)",
+          "url": "https://www.dhakatribune.com/bangladesh/393600/visa-hurdles-derail-higher-education-dreams-for"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "citizenship": {
       "status": "scored",
       "score": 67,
-      "summary": "Standard 5 years + dual citizenship allowed, but 3-year fast-track repealed 30 Oct 2025; B1 + test required.",
-      "reasoning": "The 2024 StAG reform keeps the 5-year naturalisation path and permits dual citizenship for Bangladeshis (no renunciation), but the 3-year 'turbo' route was repealed effective 30 October 2025. Applicants still need B1 German, the Leben-in-Deutschland test and proof of self-sufficiency, placing this at the ~5yr+dual anchor with a language bar.",
+      "summary": "5-year naturalisation + dual citizenship kept, but 3-year fast-track repealed 30 Oct 2025; needs B1 + test. Passport 4th globally.",
+      "reasoning": "The 2024 StAG reform's core gains survive: a 5-year naturalisation path (down from 8) and retained dual citizenship, so the couple need not renounce Bangladeshi nationality. But the 3-year 'turbo' route was repealed effective 30 October 2025 (only spouses of Germans keep a 3-yr §9 route), and applicants still need B1 German plus the Leben-in-Deutschland test and self-sufficiency. The German passport (Henley 2026: 4th, 185 visa-free) is elite, anchoring this at a solid 'good' despite the lost fast-track.",
       "evidence": [
-        "Standard naturalisation 5 years; dual citizenship retained (StAG 2024)",
-        "3-year fast-track repealed, in force 30 Oct 2025 (Bundestag 8 Oct 2025)",
-        "Dual citizenship permitted for non-EU nationals incl. Bangladeshis",
-        "Requires B1 German + integration test + no reliance on benefits",
-        "3-year path survives only for spouses of German citizens (§9 StAG)"
+        "Standard naturalisation 5 years; dual citizenship retained (StAG 2024, confirmed Oct 2025)",
+        "3-year fast-track repealed, in force 30 Oct 2025 (Bundestag vote 8 Oct 2025)",
+        "Requires B1 German + Leben-in-Deutschland test + no reliance on benefits",
+        "3-year path survives only for spouses of German citizens (§9 StAG)",
+        "German passport: Henley 2026 ranks 4th, 185 destinations visa-free"
       ],
       "links": [
         {
-          "title": "Law scrapping 3-year citizenship route in effect (IamExpat)",
+          "title": "Law scrapping 3-year citizenship route comes into effect (IamExpat)",
           "url": "https://www.iamexpat.de/expat-info/germany-news/law-scrapping-route-german-citizenship-after-3-years-comes-effect"
         },
         {
@@ -84,43 +88,43 @@
           "url": "https://www.bamf.de/EN/Themen/Integration/ZugewanderteTeilnehmende/Einbuergerung/einbuergerung.html"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "post-study-work": {
       "status": "scored",
-      "score": 80,
-      "summary": "18-month post-study job-search permit with unrestricted work, in-country switch to work visa or Blue Card.",
-      "reasoning": "German-university graduates get an 18-month residence permit (§20) to seek qualified work, with the right to take ANY job during the search, then switch to a work permit or EU Blue Card from inside Germany. The 18 months starts at graduation; the spouse, who can hold their own student/graduate permit, works in parallel. Falls short of the 3-year open-work top anchor.",
+      "score": 82,
+      "summary": "18-month §20 job-search permit with UNRESTRICTED full-time work; clock starts at results, in-country switch to Blue Card.",
+      "reasoning": "Graduates of German universities get an 18-month residence permit under §20 AufenthG to seek qualified work, and crucially it allows unrestricted full-time employment in ANY occupation during the search (unlike the Opportunity Card's 20-hour cap), then a clean in-country switch to a work permit or EU Blue Card. The permit is open to all nationalities and can be applied for as soon as final results confirm graduation. Both partners can each hold their own §20 permit, so they search in parallel; falls just short of a 3-year open-work top anchor.",
       "evidence": [
-        "18-month job-search residence permit for German graduates (§20)",
-        "Any employment allowed during the 18-month search",
-        "In-country switch to work permit / EU Blue Card",
-        "Clock starts at graduation, not permit-card issue date",
-        "Both partners as graduates can each hold their own PSW permit"
+        "18-month job-search residence permit for German graduates (§20 AufenthG)",
+        "Unrestricted full-time employment in any occupation during the search",
+        "Open to all nationalities; apply once final exam results confirm graduation",
+        "In-country switch to work permit / EU Blue Card with no exit",
+        "Both partners as graduates can each hold their own §20 permit"
       ],
       "links": [
         {
-          "title": "Working in Germany After Graduation 2026 (Studying in Germany)",
-          "url": "https://www.studying-in-germany.org/working-in-germany-after-graduation/"
+          "title": "§ Section 20 AufenthG - residence to look for a job (Migrando)",
+          "url": "https://migrando.de/en/blog/residence-permit/20-aufenthg/"
         },
         {
           "title": "Jobs after studies (Make it in Germany, official)",
           "url": "https://www.make-it-in-germany.com/en/study-training/studying/jobs-after-studies"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "spouse-family": {
       "status": "scored",
       "score": 88,
-      "summary": "Both work freely in every phase; reuniting Blue Card spouse gets immediate unlimited work, no German needed.",
-      "reasoning": "As two qualified engineers each can hold an independent student, job-search or work permit, so both work in every phase. BAMF confirms a spouse joining an EU Blue Card holder gets a residence title with NO German requirement and immediate, unlimited permission to work. The subsidiary-protection family-reunion suspension (Jul 2025) does not touch Blue Card or skilled-worker families.",
+      "summary": "Both work freely every phase; Blue Card spouse gets immediate unlimited work, no German, processed in 4-8 weeks.",
+      "reasoning": "As two qualified engineers each can independently hold a student, §20 job-search or work/Blue Card permit, so both work in every phase. A spouse joining an EU Blue Card holder gets a residence permit with NO pre-arrival German requirement and immediate, unrestricted work rights (no separate work authorisation, no salary floor), typically processed in 4-8 weeks, consolidating into an independent residence right after 3 years. The Jul 2025 family-reunion suspension targets subsidiary-protection refugees and exempts Blue Card/skilled-worker families.",
       "evidence": [
-        "Blue Card spouse: residence title without German + immediate unlimited work (BAMF)",
-        "Both partners can each hold their own student/work permit throughout",
-        "Family-reunion suspension (24 Jul 2025) exempts Blue Card holders",
-        "No dependant work ban during study phase for this couple",
-        "Sponsor income requirement modest for two skilled earners"
+        "Blue Card spouse: residence permit without German + immediate unrestricted work",
+        "Family-member processing typically 4-8 weeks; no separate work authorisation",
+        "Both partners can each hold their own student/§20/work permit throughout",
+        "Spouse status consolidates to independent residence after 3 years of marriage in Germany",
+        "Family-reunion suspension (24 Jul 2025) targets subsidiary protection, exempts Blue Card"
       ],
       "links": [
         {
@@ -128,23 +132,23 @@
           "url": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/ZuwandererDrittstaaten/Migrathek/BlaueKarteEU/blauekarteeu-node.html"
         },
         {
-          "title": "Suspension of family reunification - Blue Card exempt (Federal Foreign Office)",
-          "url": "https://manama.diplo.de/bh-en/2727952-2727952"
+          "title": "Hiring in Germany? EU Blue Card 2026 Guide (Jobbatical)",
+          "url": "https://www.jobbatical.com/blog/germany-eu-blue-card-guide-eligibility-benefits-application"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "msc-study": {
       "status": "scored",
       "score": 88,
-      "summary": "Abundant English-taught CS MSc, ~€0 tuition + ~€150-350 semester fee, student work rights, spouse accompanies.",
-      "reasoning": "Most public universities charge only a ~€150-350 semester contribution with large English-taught CS Master's catalogues (RWTH Aachen alone lists 60+; 46+ all-English CS programmes nationally) and DAAD funding. Students may work 120 full / 240 half days a year and the spouse can accompany. Exceptions: Baden-Württemberg charges €1,500/sem for non-EU students.",
+      "summary": "Abundant English-taught CS MSc, ~€0 tuition + ~€250-350 semester fee, 120/240-day work rights, spouse accompanies.",
+      "reasoning": "Most public universities charge no tuition - only a ~€250-350 semester contribution (often including a transit ticket) - with large English-taught CS Master's catalogues and DAAD funding available. Students may work 120 full / 240 half days a year, and the spouse can accompany on a dependent permit. The one notable exception is Baden-Württemberg, which charges non-EU students €1,500/semester (€3,000/yr), so program/state choice matters for cost.",
       "evidence": [
-        "No tuition at most public universities; only ~€150-350 semester fee",
-        "46+ all-English CS Master's programmes; RWTH Aachen 60+",
+        "No tuition at most public universities; only ~€250-350 semester fee (often incl. transit ticket)",
+        "Large English-taught CS Master's catalogue via DAAD International Programmes",
         "Student work allowance 120 full / 240 half days per year",
-        "DAAD funding and International Programmes database available",
-        "Exception: Baden-Württemberg €1,500/sem for non-EU students"
+        "DAAD scholarships and funding database available to Bangladeshi applicants",
+        "Exception: Baden-Württemberg charges non-EU students €1,500/semester (€3,000/yr)"
       ],
       "links": [
         {
@@ -152,23 +156,23 @@
           "url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/"
         },
         {
-          "title": "English-Taught Programmes in Germany 2026 (GradGermany)",
-          "url": "https://www.gradgermany.com/english-taught-programmes-germany"
+          "title": "Baden-Württemberg Tuition Fees 2026 (MyGermanUniversity)",
+          "url": "https://www.mygermanuniversity.com/articles/Baden-Wuerttemberg-University-Tuition-Fees"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "pr-pathway": {
       "status": "scored",
       "score": 83,
-      "summary": "Blue Card settlement permit in 21 months (B1) or 27 (A1) with social contributions; study time can count.",
-      "reasoning": "BAMF confirms EU Blue Card holders qualify for a settlement permit (Niederlassungserlaubnis) after 21 months with B1 German or 27 months with A1, far faster than the standard 5 years. The 2026 Blue Card salary floor (~€45,934 for IT/shortage, €50,700 standard) is easily met by SW engineers, and graduate study time can count toward residence. Predictable and points-light.",
+      "summary": "Blue Card settlement permit in 21 months (B1) or 27 (A1) with pension contributions; 2026 floors €45,934 IT / €50,700 std.",
+      "reasoning": "EU Blue Card holders qualify for a settlement permit (Niederlassungserlaubnis) after 21 months with B1 German or 27 months with A1 plus pension contributions - far faster than the 5-year standard route - and the path is clearly codified and predictable. The 2026 Blue Card salary floors (€45,934.20 for IT/shortage/recent graduates, €50,700 standard, effective 01.01.2026) are comfortably met by software-engineer pay. The only friction is the B1/A1 language and 'Leben in Deutschland' requirement, holding it just below an elite score.",
       "evidence": [
-        "Settlement permit at 21 months with B1 on Blue Card (BAMF)",
-        "27 months with A1 German on Blue Card (BAMF)",
-        "2026 Blue Card floor: ~€45,934 shortage/IT, €50,700 standard",
-        "Standard route 5 years; graduate study time may count",
-        "Requires ongoing pension contributions + integration test"
+        "Settlement permit at 21 months with B1 (or 27 with A1) on Blue Card (BAMF)",
+        "Requires qualified employment + statutory pension contributions throughout",
+        "2026 Blue Card floor €45,934.20 IT/shortage/graduate, €50,700 standard (from 01.01.2026)",
+        "Graduate route + Blue Card is points-light and clearly codified",
+        "Standard non-Blue-Card settlement remains 5 years"
       ],
       "links": [
         {
@@ -176,23 +180,23 @@
           "url": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/ZuwandererDrittstaaten/Migrathek/BlaueKarteEU/blauekarteeu-node.html"
         },
         {
-          "title": "Settlement permit (Make it in Germany, official)",
-          "url": "https://www.make-it-in-germany.com/en/visa-residence/living-permanently/settlement-permit"
+          "title": "Settlement permit with EU Blue Card (City of Munich, official)",
+          "url": "https://stadt.muenchen.de/service/en-GB/info/auslanderbehorde/10422537/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "income-cost": {
       "status": "scored",
       "score": 66,
-      "summary": "Strong gross SW pay (~€64-74k avg) but 35-40% deductions and high metro rents; two incomes still save.",
-      "reasoning": "Average software-engineer pay is ~€64,000-74,100 gross in 2026, but deductions of 35-40% leave only ~55-65% net (a €74,100 gross nets ~€45-50k), and Berlin/Munich rents are high. Two engineering incomes still allow meaningful savings, and AI/cloud specialisations push pay to the upper range, but tax and rent erode net relative to lower-tax peers.",
+      "summary": "Strong gross SW pay (~€60-73k avg; Berlin median TC ~€90k) but 35-40% deductions and €1,000-1,800 metro rents.",
+      "reasoning": "Software-engineer pay averages ~€60,000-73,000 gross in 2026 (Berlin median total comp ~€90,601, Munich ~€78,876), but deductions of 35-40% leave roughly 55-65% net, and city-centre one-bed rents run €1,000-1,400 (Berlin) to €1,200-1,800 (Munich). Two engineering incomes plus an AI/cloud pay premium still allow meaningful savings, but high tax and metro housing costs erode net relative to lower-tax peers, keeping this in the 'good with caveats' band.",
       "evidence": [
-        "Average SW gross ~€64,000; ~€74,100 in some 2026 datasets",
+        "Average SW gross ~€60,000-73,000 in 2026; national median TC ~€81,495",
         "Berlin median total comp ~€90,601; Munich ~€78,876",
-        "Deductions 35-40%: €74,100 gross nets ~€45-50k",
-        "High metro rents in Berlin/Munich erode savings",
-        "Two incomes + AI/cloud premium enable real savings"
+        "Deductions 35-40%: e.g. €100k gross nets ~€58k",
+        "City-centre 1-bed rent: Berlin €1,000-1,400, Munich €1,200-1,800/month",
+        "Two incomes + AI/cloud premium enable real savings despite high deductions"
       ],
       "links": [
         {
@@ -200,23 +204,23 @@
           "url": "https://www.wbscodingschool.com/blog/software-engineer-salary/"
         },
         {
-          "title": "Salary, taxes & social security (Make it in Germany, official)",
-          "url": "https://www.make-it-in-germany.com/en/working-in-germany/working-environment/salary-taxes-social-security"
+          "title": "Cost of Living in Germany 2026 (Expatica)",
+          "url": "https://www.expatica.com/de/moving/about/cost-of-living-in-germany-1085100/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "healthcare": {
       "status": "scored",
-      "score": 86,
-      "summary": "Universal statutory insurance (GKV); ~€130-151/month student rate, high quality, strong welfare.",
-      "reasoning": "Mandatory statutory health insurance (GKV) covers residents comprehensively at high quality, with a discounted student rate of ~€130-151/month in 2026 (TK/AOK Bayern from €141.16) and same-quality access for workers. Welfare (e.g. Elterngeld parental allowance) is strong. Slightly below the universal-and-free top anchor because contributions are non-trivial.",
+      "score": 87,
+      "summary": "Universal statutory insurance (GKV); student rate ~€110/month in 2026, high quality, strong Elterngeld welfare net.",
+      "reasoning": "Mandatory statutory health insurance (GKV) covers residents comprehensively at high quality, with a discounted student rate of ~€110.38/month at TK from 01.01.2026 and full same-quality access for workers (14.6% base + ~2.7-3.3% supplement, split with employer). Welfare is strong (Elterngeld parental allowance, unemployment insurance, pensions). It sits just below a universal-and-free top anchor only because contributions are non-trivial for high earners.",
       "evidence": [
-        "Statutory health insurance (GKV) universal for residents",
-        "Student rate ~€130-151/month in 2026 (from €141.16 TK/AOK)",
-        "Student general contribution 10.22% vs 14.6% for employees",
-        "eGK health card issued within 2-3 weeks of enrolment",
-        "Strong parental allowance (Elterngeld) and welfare net"
+        "Statutory health insurance (GKV) universal and comprehensive for residents",
+        "Student GKV rate ~€110.38/month at TK from 01.01.2026",
+        "General contribution 14.6% + 2026 avg supplement ~2.9% (TK 2.69%), employer-split for workers",
+        "Strong welfare: Elterngeld parental allowance, unemployment insurance, pensions",
+        "Premiums rose for 2026 but coverage quality remains high"
       ],
       "links": [
         {
@@ -224,23 +228,23 @@
           "url": "https://www.student-insurance.com/insurance/germany/public-health-insurance/"
         },
         {
-          "title": "Health insurance (Make it in Germany, official)",
-          "url": "https://www.make-it-in-germany.com/en/living-in-germany/health-insurance"
+          "title": "Health insurance contribution composition (TK, official)",
+          "url": "https://www.tk.de/en/become-a-member/join-tk/composition-health-insurance-contribution-2188034"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "culture-language": {
       "status": "scored",
       "score": 55,
-      "summary": "English works in tech, but B1 German is mandatory for citizenship and daily officialdom outside hubs.",
-      "reasoning": "Tech workplaces in Berlin/Munich/Hamburg often operate in English, but German is required for bureaucracy, faster PR (B1 cuts the Blue Card settlement clock to 21 months) and naturalisation (B1 + Leben-in-Deutschland test), and for daily life outside major hubs. This local-language bar for officialdom and the couple's citizenship goal holds it at the mixed band.",
+      "summary": "English works in tech hubs, but B1 German is mandatory for citizenship and faster PR, plus daily officialdom off-hub.",
+      "reasoning": "Tech workplaces in Berlin/Munich/Hamburg often operate in English, but German is required for bureaucracy, for the faster PR clock (B1 cuts Blue Card settlement to 21 months vs 27 at A1), and for naturalisation (B1 + Leben-in-Deutschland test). Daily life and officialdom outside major hubs still need German, and the couple's citizenship goal makes the language bar materially binding, holding this in the mixed band despite good urban livability and openness.",
       "evidence": [
-        "English common in major-hub tech workplaces",
+        "English common in major-hub tech workplaces but not in officialdom",
         "B1 German required for naturalisation + integration test",
-        "B1 unlocks 21-month Blue Card settlement vs 27 (A1)",
-        "German needed for officialdom and daily life off-hub",
-        "High livability and openness in cities, lower in some regions"
+        "B1 unlocks 21-month Blue Card settlement vs 27 months at A1",
+        "German needed for bureaucracy and daily life off major hubs",
+        "High urban livability/openness; lower in some rural/eastern regions"
       ],
       "links": [
         {
@@ -252,19 +256,19 @@
           "url": "https://www.bamf.de/EN/Themen/Integration/ZugewanderteTeilnehmende/Einbuergerung/einbuergerung.html"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "safety-law": {
       "status": "scored",
-      "score": 86,
-      "summary": "WJP 2025: 6th of 143 globally (0.83), top-5 order & security; strong legal protections.",
-      "reasoning": "Germany ranks 6th of 143 in the WJP Rule of Law Index 2025 with an overall score of 0.83, and is 5th globally for order and security, with low violent crime and an established anti-discrimination framework. Top-tier rule of law and fair courts; tempered slightly by rising societal hostility toward migrants and Muslims.",
+      "score": 85,
+      "summary": "WJP 2025: 6th of 143 globally (0.83), 5th for order & security; strong courts, but rising hostility to migrants.",
+      "reasoning": "Germany ranks 6th of 143 in the WJP Rule of Law Index 2025 (overall 0.83) and 5th globally for order and security (behind only the Nordics), with low violent crime and an established anti-discrimination framework. Top-tier rule of law and fair, independent courts strongly benefit immigrant residents; the score is tempered only slightly from elite by rising societal hostility toward migrants and Muslims amid the AfD's surge.",
       "evidence": [
-        "WJP Rule of Law Index 2025: 6th of 143, score 0.83",
-        "5th globally for order & security (after Nordics)",
-        "Low violent crime relative to global peers",
-        "Established anti-discrimination legal framework",
-        "Rising societal hostility tempers the migrant experience"
+        "WJP Rule of Law Index 2025: 6th of 143, overall score 0.83",
+        "5th globally for order & security (after Denmark, Norway, Finland, Sweden)",
+        "Low violent crime relative to global peers; independent judiciary",
+        "Established anti-discrimination legal framework (AGG)",
+        "Rising societal hostility to migrants/Muslims tempers lived experience"
       ],
       "links": [
         {
@@ -272,83 +276,83 @@
           "url": "https://worldjusticeproject.org/rule-of-law-index/country/2025/Germany"
         },
         {
-          "title": "WJP Rule of Law Index 2025 Global Press Release",
-          "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2025-global-press-release"
+          "title": "WJP Rule of Law Index 2025 (full report PDF)",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/downloads/WJPIndex2025.pdf"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "politics": {
       "status": "scored",
-      "score": 55,
-      "summary": "Stable institutions but CDU/SPD migration tightening, AfD 20.8% second; skilled-worker routes preserved.",
-      "reasoning": "Institutions are stable under the Merz CDU/CSU-SPD grand coalition (formed 6 May 2025) and skilled-worker/Blue Card routes are deliberately preserved, but migration policy is tightening (3-year citizenship repealed; family reunion suspended for subsidiary protection, though Blue Card holders are exempt). The AfD's 20.8% second-place finish signals a rising anti-immigrant trend.",
+      "score": 47,
+      "summary": "Stable institutions but AfD now leads polls ~27%, Merz ~71% disapproval, coalition at risk; skilled routes still preserved.",
+      "reasoning": "Institutions remain robust, and skilled-worker/Blue Card routes are deliberately preserved, but the political climate has deteriorated sharply: by May/June 2026 the AfD leads national polls at ~27% (ahead of CDU/CSU ~22%), Merz's disapproval hit ~71%, and the CDU/CSU-SPD coalition (formed 6 May 2025) is reported as having lost a polling majority with open talk of early collapse. Migration policy is tightening (3-yr citizenship repealed; subsidiary-protection family reunion suspended). The volatility and rising anti-immigrant sentiment pull this into the weak band despite preserved skilled pathways.",
       "evidence": [
-        "CDU/CSU-SPD grand coalition under Merz from 6 May 2025",
-        "AfD 20.8%, second place, Feb 2025 federal election",
-        "Skilled-worker and EU Blue Card pathways preserved",
-        "3-year fast-track citizenship abolished (Oct 2025)",
-        "Family reunion suspension (Jul 2025) targets refugees, not Blue Card"
+        "AfD leads national polls ~27% by mid-2026, ahead of CDU/CSU ~22%",
+        "Merz disapproval ~71% (May 2026); 69% rate the government's work poorly",
+        "CDU/CSU-SPD coalition formed 6 May 2025 now polling below a majority; collapse talk",
+        "Migration tightening: 3-yr citizenship repealed Oct 2025; family reunion suspended Jul 2025",
+        "Skilled-worker and EU Blue Card pathways deliberately preserved"
       ],
       "links": [
         {
-          "title": "Merz cabinet (Wikipedia, sourced)",
-          "url": "https://en.wikipedia.org/wiki/Merz_cabinet"
+          "title": "Germany Election Polls & Voting Intentions 2026 (PolitPro)",
+          "url": "https://politpro.eu/en/germany"
         },
         {
-          "title": "Germany suspends family reunification for subsidiary protection (Library of Congress)",
-          "url": "https://www.loc.gov/item/global-legal-monitor/2025-08-06/germany-amended-law-suspends-family-reunification-for-certain-refugees"
+          "title": "AfD Doubles Vote Share and Reshapes Germany's Political Landscape (Wilson Center)",
+          "url": "https://www.wilsoncenter.org/article/germanys-far-right-afd-doubles-vote-share-and-reshapes-germanys-political-landscape"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "tax": {
       "status": "scored",
       "score": 50,
-      "summary": "High burden: progressive income tax to 42% plus ~20% employee social contributions.",
-      "reasoning": "The 2026 income tax rises to 42% above €69,878 (45% above €277,825) on top of ~20% employee social contributions (9.3% pension, 7.3% health, etc.), pushing total deductions to ~35-40% of gross for SW salaries. The 2026 basic allowance rose to €12,348, but take-home for mid/high earners stays around 55-65%.",
+      "summary": "High burden: progressive income tax to 42% from €69,878 (45% over €277,825) plus ~20% employee social contributions.",
+      "reasoning": "The 2026 income tax reaches 42% above €69,878 and 45% above €277,825, layered on ~20% employee social contributions (9.3% pension, 7.3% health base + ~1.45% supplement, 2.9% care, 1.3% unemployment), pushing total deductions to ~35-40% of gross for software salaries. The basic allowance rose to €12,348 and married couples get a doubled €24,696 allowance plus joint assessment (Ehegattensplitting), but take-home for mid/high earners stays ~55-65%, anchoring this at a high-burden mixed score.",
       "evidence": [
         "42% marginal income tax from €69,878 (45% above €277,825), 2026",
-        "Employee social contributions ~20% of gross",
+        "Employee social contributions ~20% of gross (9.3% pension + 7.3% health + 2.9% care + 1.3% unemployment)",
         "Basic allowance €12,348 in 2026 (up from €12,096)",
         "Total deductions ~35-40% of gross for SW salaries",
-        "Joint married allowance €24,696 helps a dual-earner couple"
+        "Married joint allowance €24,696 + Ehegattensplitting helps a dual-earner couple"
       ],
       "links": [
         {
-          "title": "Germany: Taxing Wages 2026 (OECD, official)",
-          "url": "https://www.oecd.org/en/publications/taxing-wages-2026_3a5169ef-en/full-report/germany_8f4270cd.html"
+          "title": "The tax system in Germany: updated for 2026 (Expatica)",
+          "url": "https://www.expatica.com/de/finance/taxes/taxes-in-germany-103978/"
         },
         {
           "title": "Salary, taxes & social security (Make it in Germany, official)",
           "url": "https://www.make-it-in-germany.com/en/working-in-germany/working-environment/salary-taxes-social-security"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "muslim-diaspora": {
       "status": "scored",
-      "score": 58,
-      "summary": "~5.5M Muslims, halal easy in cities, but small Bangladeshi community (~20k) and sharply rising Islamophobia.",
-      "reasoning": "Germany has ~5.5 million Muslims with halal food and worship easy in cities, but the Bangladeshi community is small (~16,000-20,000, with South Asian presence mainly Pakistani). CLAIM recorded 3,080 anti-Muslim incidents in 2024, a ~60% jump from 1,926 in 2023, and surveys find Muslims the least-accepted minority - a worsening sentiment trend amid the AfD's rise.",
+      "score": 55,
+      "summary": "~5.5M Muslims, halal easy in cities, but small Bangladeshi community (~22k) and record anti-Muslim incidents (+60% in 2024).",
+      "reasoning": "Germany has ~5.5 million Muslims with halal food, mosques and worship readily available in cities, but the Bangladeshi community is small (~22,000 per the Federal Statistical Office; South Asian presence is mainly Pakistani). CLAIM documented a record 3,080 anti-Muslim incidents in 2024 - a ~60% jump from 1,926 in 2023, averaging 8/day, including two homicides and 70+ mosque attacks - and surveys find Muslims the least-accepted minority, a worsening trend amid the AfD's rise. Workable in big cities but with a clear and rising hostility risk.",
       "evidence": [
-        "~5.5 million Muslims in Germany; halal widely available in cities",
-        "Bangladeshi community small: ~16,000-20,000",
-        "CLAIM 2025: 3,080 anti-Muslim incidents in 2024, +60% vs 2023",
-        "Surveys: Muslims the least-accepted minority in Germany",
-        "~70% of victims were Muslim women; Berlin alone 644 cases"
+        "~5.5 million Muslims in Germany; halal, mosques and worship easy in cities",
+        "Bangladeshi community small: ~22,000 (Federal Statistical Office)",
+        "CLAIM: 3,080 anti-Muslim incidents in 2024, +60% vs 1,926 in 2023 (8/day)",
+        "2024 incidents included two homicides, 198 assaults, 70+ mosque attacks; ~70% of victims women",
+        "Surveys: Muslims the least-accepted minority; sentiment worsening with AfD rise"
       ],
       "links": [
         {
-          "title": "Germany Records Over 3,000 Anti-Muslim Incidents in 2024 (CLAIM data)",
-          "url": "https://www.aa.com.tr/en/europe/alarming-islamophobia-in-germany-every-second-person-agrees-with-anti-muslim-statements-/3609924"
+          "title": "Anti-Muslim attacks in Germany hit record high in 2024 (CLAIM data via AA)",
+          "url": "https://www.aa.com.tr/en/europe/anti-muslim-attacks-in-germany-hit-record-high-in-2024/3601594"
         },
         {
           "title": "EU FRA anti-Muslim hatred database (official)",
           "url": "https://fra.europa.eu/en/databases/anti-muslim-hatred"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     }
   }
 }

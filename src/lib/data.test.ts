@@ -7,8 +7,8 @@ describe("data integrity", () => {
     expect(categories).toHaveLength(14);
     expect(categories.reduce((a, c) => a + c.weight, 0)).toBe(100);
   });
-  it("loads 22 countries", () => {
-    expect(countries).toHaveLength(22);
+  it("loads 20 countries", () => {
+    expect(countries).toHaveLength(20);
   });
   it("includes the United Kingdom with the exact Natural Earth name (for the map join) and GB iso", () => {
     const uk = getScoredCountry("GB");

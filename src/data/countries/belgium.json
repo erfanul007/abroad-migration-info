@@ -5,8 +5,8 @@
   "iso3": "BEL",
   "flag": "🇧🇪",
   "region": "Europe",
-  "summary": "Belgium offers Dhaka-decided study visas, abundant English CS master's and a clear study->search-year->single-permit->5-year-PR route with dual citizenship allowed; but Europe's highest tax wedge (52.5%), a 2025 citizenship reform raising language to B1 plus a civics exam and a €1,000 fee, the De Wever 'strictest migration ever' climate, and a study-phase spouse work restriction temper it for two engineers.",
-  "lastReviewed": "2026-06-16",
+  "summary": "Belgium fits two CS engineers well via a Dhaka-decided study visa, abundant English CS master's and a study->search-year->single-permit->5-year-PR route with dual citizenship allowed; the biggest lever is its structural IT shortage absorbing both spouses, while the biggest drag is Europe's highest tax wedge (52.5%) compounded by a 2025 citizenship reform (B1 + civics + €1,000) and the De Wever 'strictest migration ever' climate.",
+  "lastReviewed": "2026-06-17",
   "links": [
     {
       "title": "Immigration Office (IBZ/DOFI, official)",
@@ -20,15 +20,15 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "score": 78,
-      "summary": "Persistent IT shortage; ~€42-78k SW pay in Brussels/Antwerp, English-friendly tech scene absorbs both engineers.",
-      "reasoning": "Belgium has a structural ICT-profile shortage (software developers, analysts and data roles are on regional shortage-occupation lists in Flanders, Brussels and Wallonia), and 2026 levels.fyi/PayScale data put SW engineer pay at ~€42,000-78,451 gross with Brussels/Antwerp totals ~€54,000-58,000. Brussels' international and EU-institution scene plus Flanders' tech hubs operate substantially in English, so two CS graduates can realistically both be placed. Slightly below top-tier because the mid-market is narrow and sponsorship requires meeting region-specific salary floors.",
+      "score": 77,
+      "summary": "IT on all-region shortage lists; ~€42-75k SW pay, projected 21k tech-worker gap by 2026; English tech scene absorbs both.",
+      "reasoning": "Software developers, data/cloud/DevOps and AI/ML roles sit on shortage-occupation lists in Flanders, Brussels and Wallonia, and Belgium is projected to be short ~21,000 tech workers by 2026, so demand for two CS engineers is genuine and durable. Gross SW pay ranges ~€42,000-74,562 (entry ~€62k average per ERI), with Brussels/Flanders tech and EU-institution scenes operating substantially in English. Held below the top band because mid-market comp is modest versus US/Nordic peers and sponsorship requires meeting region-specific salary floors (e.g. Flanders Blue Card €63,586/yr in 2026), which thins openings for fresh graduates.",
       "evidence": [
-        "ICT roles on shortage-occupation lists in all three regions (VDAB/Actiris/Forem)",
-        "SW engineer pay ~€42,000-78,451 gross (levels.fyi/PayScale 2026)",
-        "Brussels avg total comp ~€54,270; Antwerp ~€57,831 (levels.fyi 2026)",
-        "Brussels EU/international scene + Flanders hubs work in English",
-        "AI/specialist stacks drive most 2026 rate growth"
+        "IT roles on shortage-occupation lists in all three regions (VDAB/Actiris/Forem, 2025)",
+        "Projected shortage of ~21,000 tech workers by 2026",
+        "SW engineer gross pay ~€42,034-74,562 (ERI/PayScale 2026)",
+        "Shortages flagged in Java, .NET, Python; AI/ML in demand",
+        "Brussels EU/international + Flanders hubs work in English"
       ],
       "links": [
         {
@@ -36,23 +36,23 @@
           "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/highly-qualified-worker-belgium_en"
         },
         {
-          "title": "Software Engineer Salary in Belgium (levels.fyi)",
-          "url": "https://www.levels.fyi/t/software-engineer/locations/belgium"
+          "title": "Belgium updates shortage occupation list, adds IT roles (2025)",
+          "url": "https://nairametrics.com/2025/07/31/belgium-updates-shortage-occupation-list-adds-it-roles-drops-personal-service-jobs/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "visa-access": {
       "status": "scored",
-      "score": 76,
-      "summary": "D study visa filed and decided from Dhaka VAC (opened 16 Nov 2025); no New Delhi travel; €180 fee, ~15-45 days.",
-      "reasoning": "FPS Foreign Affairs confirms applicants resident in Bangladesh apply at the Belgian Visa Application Centre in Dhaka (Banani) with appointments live since 16 November 2025 and explicitly do NOT need to travel to New Delhi. The long-stay D visa costs €180 plus a 12,325 BDT VAC service fee, with the Immigration Office making the final decision and processing typically 15 days up to 45 calendar days. Friction remains around peak-season appointment backlogs (May-Sep student intakes) and the financial-proof requirement, but local decisioning makes this strong for a Bangladeshi applicant.",
+      "score": 74,
+      "summary": "D study visa filed and DECIDED via Dhaka VAC (Banani, since 16 Nov 2025); no New Delhi travel; €180 + 12,325 BDT, ~6-12 weeks.",
+      "reasoning": "FPS Foreign Affairs officially confirms Bangladesh residents apply at the Belgian Visa Application Centre in Dhaka (Banani), no longer travel to New Delhi, and that the Immigration Office (DOFI) makes the final decision communicated via the embassy. The long-stay D visa costs €180 plus a 12,325 BDT VAC service fee. Realistic processing is 6-12+ weeks (up to ~45 days when DOFI reviews), and the financial-proof bar (blocked account or Annex 32 guarantor) plus heavy document scrutiny and May-Sep appointment backlogs add friction. Local decisioning is a strong plus for Bangladeshi applicants; the documentary and timing burden keeps it just below the strong band.",
       "evidence": [
-        "Belgian VAC in Dhaka (Banani); appointments since 16 Nov 2025",
-        "FPS Foreign Affairs: applicants do NOT travel to New Delhi",
+        "Belgian VAC in Dhaka (Banani); appointments since 16 Nov 2025 (FPS official)",
+        "FPS Foreign Affairs: applicants do NOT travel to New Delhi; DOFI decides",
         "D long-stay visa €180 + 12,325 BDT VAC service fee",
-        "Processing typically 15 days, up to 45 calendar days",
-        "Final decision by the Immigration Office (DOFI)"
+        "Processing realistically 6-12+ weeks (DOFI review ~45 days)",
+        "Financial proof via blocked account or Annex 32 guarantor; strict docs"
       ],
       "links": [
         {
@@ -64,19 +64,19 @@
           "url": "https://visa.vfsglobal.com/bgd/en/bel"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "citizenship": {
       "status": "scored",
-      "score": 62,
+      "score": 60,
       "summary": "5-year integration route + dual citizenship allowed, but 2025 reform raised language to B1, added civics exam and €1,000 fee.",
-      "reasoning": "Belgium permits naturalisation after 5 years of legal residence (with integration/economic participation) or 10 years without, and dual citizenship has been allowed since 2008, so Bangladeshis need not renounce. However, the Program Law of 18 July 2025 raised the application fee from €150 to €1,000 (annually indexed from 2026) and the 2025 reform lifted the language bar from A2 to at least B1 in one official language plus a new civics exam on institutions and values. The 5yr+dual basics sit near the strong band, but the tightened language and cost pull it down.",
+      "reasoning": "Belgium permits naturalisation after 5 years of legal residence (with integration/economic participation) or 10 years without, and dual citizenship is allowed, so Bangladeshis need not renounce - a strong fit for this couple's dual-citizenship preference. However, the 2025 reform lifted the language bar from A2 to at least B1 in one official language and added a civics exam on institutions and values, while the application fee jumped to €1,000 per adult (indexed). Further tightening to the integration/long-term-residence prerequisites is signalled for 2026-2027. The 5yr+dual basics sit near the strong band, but rising language, fee and integration bars pull it into good-with-caveats.",
       "evidence": [
         "Naturalisation at 5 years (integration) or 10 years (no integration)",
-        "Dual citizenship allowed since 2008; no renunciation for Bangladeshis",
+        "Dual citizenship allowed; no renunciation required for Bangladeshis",
         "2025 reform: language raised from A2 to B1 + new civics exam",
-        "Application fee €1,000 from 18 Jul 2025 (was €150), indexed from 2026",
-        "Mandatory integration: language, employment, financial independence"
+        "Application fee €1,000 per adult (was lower), non-refundable, indexed",
+        "Further integration/nationality tightening flagged for 2026-2027"
       ],
       "links": [
         {
@@ -84,47 +84,48 @@
           "url": "https://www.belgium.be/en/family/nationality"
         },
         {
-          "title": "Belgian Citizenship 2025/2026 guide (Immigrant in Law)",
-          "url": "https://immigrantinlaw.com/en/blog-en/belgian-citizenship/"
+          "title": "New Law 2025 - Belgian Nationality, fee €1,000 (Altea)",
+          "url": "https://www.altea.be/en/news/new-law-in-2025-on-the-acquisition-of-belgian-nationality-fee-increased-to-1-000-euros.html"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "post-study-work": {
       "status": "scored",
       "score": 68,
-      "summary": "12-month 'search year' to find work or start a business after graduation, then switch to single permit in-country.",
-      "reasoning": "Non-EU graduates of a Belgian higher-education institution (level 5+) can request a 12-month 'search year' (orientation year) residence permit to find qualified work or set up a business, needing ~€835/month resources for 2025-2026. During it they can take any job and, once an employer applies, switch in-country to a combined single permit. Both partners as graduates can each hold their own search-year permit. It falls short of the 3-year open-work top anchor because the window is only 12 months.",
+      "summary": "12-month 'search year' to find qualified work or start a business after graduation, then in-country switch to single permit.",
+      "reasoning": "Non-EU graduates of a Belgian higher-education institution (level 5+) can request a one-off 12-month 'search year' (orientation year) residence permit to find qualified work or set up a business, needing proof of resources (~€803-835/month). During it any employment is allowed, and once an employer applies the holder switches in-country to a combined single permit. Both partners as graduates can each hold their own search-year permit, which suits relocating together. It falls short of the 3-year open-work top anchor because the window is only 12 months and is non-extendable.",
       "evidence": [
-        "12-month search/orientation year for level-5+ graduates",
-        "Resources ~€835/month required (2025-2026)",
+        "12-month, one-off, non-extendable search/orientation year (level-5+ graduates)",
+        "Proof of resources ~€803-835/month required (2024-2026)",
         "Any employment allowed during the search year",
         "In-country switch to combined single permit once hired",
         "Both graduates can each hold their own search-year permit"
       ],
       "links": [
         {
-          "title": "Work in Flanders after graduation (Study in Flanders, official)",
-          "url": "https://www.studyinflanders.be/after-your-studies"
+          "title": "Non-EEA students: working in Belgium after graduation (KU Leuven, official)",
+          "url": "https://www.kuleuven.be/english/stuvo/working-volunteering-career/transition-to-the-job-market/working-non-eea"
         },
         {
-          "title": "Orientation year (University of Antwerp)",
-          "url": "https://www.uantwerpen.be/en/life-in-antwerp/visa-and-permits/orientation-year/"
+          "title": "Working in Belgium after graduation (Thomas More, official)",
+          "url": "https://thomasmore.be/en/study/practical/after-your-studies/working-belgium-after-graduation"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "spouse-family": {
       "status": "scored",
-      "score": 58,
-      "summary": "Both work freely in work/Blue Card phase, but a spouse joining a STUDENT has no automatic work right - a study-phase gap.",
-      "reasoning": "Spouses of single-permit/EU Blue Card workers may work, and for highly-qualified workers and Blue Card holders the family-reunification income threshold is presumed met, so the work phase is fine for this couple. The decisive weakness is the study phase: a spouse reuniting with a student or PhD holder has NO automatic right to work and needs a separate employer-sponsored single permit. Because both are engineers, the practical fix is for each to enrol as a student (each then works ~20h/week as a student), so the penalty is partial rather than a hard dependant ban.",
+      "score": 55,
+      "summary": "Both work freely in work/Blue Card phase, but a spouse joining a STUDENT has no auto work right; Dec 2025 income checks tightened.",
+      "reasoning": "Spouses of single-permit/EU Blue Card workers may work, and for Blue Card / highly-qualified workers the family income test is presumed met, so the work phase is fine for two engineers. The decisive weakness is the study phase: a spouse reuniting with a student has NO automatic right to work and needs a separate employer-sponsored single permit. New friction: from 17 Dec 2025 consulates must verify sponsor income BEFORE issuing the family-reunification D-visa (general threshold €2,323.08 net/month, Jul 2025; fast-track 15-day route needs €5,000 gross/month). Because both are engineers, the practical fix is for each to enrol as a student (each then works ~650h/year), so the penalty is partial rather than a hard ban.",
       "evidence": [
         "Spouse of single-permit/Blue Card worker may work (DOFI)",
-        "No automatic work right for spouse reuniting with a student/PhD",
+        "No automatic work right for spouse reuniting with a student",
         "Family-reunification net-income threshold €2,323.08/month (Jul 2025)",
-        "Threshold presumed met for Blue Card / highly-qualified workers",
-        "Workaround: both enrol as students, each works ~20h/week"
+        "From 17 Dec 2025: pre-issuance income verification at consulates",
+        "Fast-track 15-day family visa needs €5,000 gross/month sponsor income",
+        "Workaround: both enrol as students, each works up to 650h/year"
       ],
       "links": [
         {
@@ -132,47 +133,47 @@
           "url": "https://dofi.ibz.be/en/themes/third-country-nationals/family-reunification/third-country-national/holder-single-permit"
         },
         {
-          "title": "Bringing your family (University of Antwerp)",
-          "url": "https://www.uantwerpen.be/en/life-in-antwerp/visa-and-permits/visa/bringing-your-family/"
+          "title": "Belgium enforces higher income thresholds for family-reunification visas (Dec 2025)",
+          "url": "https://www.fragomen.com/insights/belgium-stricter-application-of-family-reunification-visa-application-financial-threshold.html"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "msc-study": {
       "status": "scored",
-      "score": 76,
-      "summary": "Many English CS master's (KU Leuven, Ghent, VUB); non-EU tuition ~€1,800-8,000/yr; ~20h/wk work; spouse can accompany.",
-      "reasoning": "Flemish and Brussels universities offer abundant English-taught CS/engineering master's (KU Leuven, Ghent, VUB, Antwerp), with non-EU tuition roughly €1,800-8,000/year (KU Leuven averaging ~€4,100) - far cheaper than Anglophone destinations though not free. French-speaking universities raised non-EU fees to ~€5,010/year for 2025-2026. Non-EEA students may work up to 20h/week (650-hour annual student quota in 2025) and a spouse can accompany via family reunification. Scholarships (Master Mind, VLIR-UOS) exist but are competitive.",
+      "score": 77,
+      "summary": "350+ English master's (KU Leuven CS ~€3,900, Ghent CS-Eng ~€5,882); ~20h/wk (650h/yr) work; spouse can accompany.",
+      "reasoning": "Flemish and Brussels universities offer 350+ English-taught programmes including strong CS/engineering master's (KU Leuven, Ghent, VUB, Antwerp), with non-EU tuition roughly €3,000-€8,000/year (KU Leuven CS ~€3,900-€6,000; Ghent CS Engineering ~€5,882) - far cheaper than Anglophone destinations. Living costs are moderate (~€900-1,300/month). Since 1 Jan 2025 the student work quota is 650h/year (~20h/week in term), and a spouse can accompany via family reunification. Scholarships (Master Mind, VLIR-UOS) exist but are competitive, and non-EU fees keep rising, holding it just below the strong-plus band.",
       "evidence": [
-        "English CS master's at KU Leuven, Ghent, VUB, Antwerp",
-        "Non-EU tuition ~€1,800-8,000/yr; KU Leuven avg ~€4,100",
-        "French-speaking universities non-EU fee ~€5,010 (2025-2026)",
-        "Non-EEA students work up to 20h/week; 650h annual quota (2025)",
-        "Flanders Master Mind / VLIR-UOS scholarships available"
+        "350+ English-taught programmes; CS master's at KU Leuven, Ghent, VUB, Antwerp",
+        "KU Leuven non-EU CS tuition ~€3,900 (60 cr); Ghent CS Engineering ~€5,882",
+        "Non-EU tuition broadly €3,000-€8,000/yr; living cost ~€900-1,300/mo",
+        "Student work quota 650h/year since 1 Jan 2025 (~20h/week)",
+        "Flanders Master Mind / VLIR-UOS scholarships available (competitive)"
       ],
       "links": [
         {
-          "title": "Tuition fees (Study in Flanders, official)",
-          "url": "https://www.studyinflanders.be/practical-information/tuition-fees"
+          "title": "Tuition fee regulations 2025-2026 (KU Leuven, official)",
+          "url": "https://www.kuleuven.be/english/education/student/fees/regulation"
         },
         {
-          "title": "Tuition fee regulations 2025-2026 (KU Leuven)",
-          "url": "https://www.kuleuven.be/english/education/student/fees/regulation"
+          "title": "Tuition fees for non-EEA students (Ghent University, official)",
+          "url": "https://www.ugent.be/ps/en/degree-students/tuition_fee_non_eea"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "pr-pathway": {
       "status": "scored",
       "score": 66,
       "summary": "EU long-term resident / permanent residence after 5 years' continuous legal stay; study time counts at 50%.",
-      "reasoning": "Third-country nationals can obtain EU long-term resident status / permanent residence (B, K or L card) after 5 years of continuous legal residence, provided they show stable sufficient resources and health insurance - readily met by two engineers. Crucially DOFI counts half of study periods toward the 5-year total, shortening the effective work-phase wait, with a ~5-month decision window. It sits at the standard-5yr anchor: clear and rule-based but not fast, and the De Wever government's 5-year benefit exclusion for newcomers raises the self-sufficiency bar.",
+      "reasoning": "Third-country nationals obtain EU long-term resident status / permanent residence after 5 years of continuous legal residence with stable sufficient resources and health insurance - readily met by two engineers. Crucially DOFI counts half of study periods toward the 5-year total, shortening the effective work-phase wait, with a ~5-month decision window. It sits at the standard-5yr anchor: clear and rule-based but not fast, and the De Wever government's signalled tightening of residence/integration conditions and a 5-year newcomer benefit exclusion raise the self-sufficiency bar.",
       "evidence": [
         "EU long-term resident status after 5 years' continuous residence",
         "Half of study periods count toward the 5-year total (DOFI)",
         "Requires stable sufficient resources + health insurance",
         "~5-month decision after acknowledgement of receipt",
-        "Newcomers barred from social benefits for first 5 years (2025 govt)"
+        "Newcomers face tightened residence/integration conditions (2025 govt)"
       ],
       "links": [
         {
@@ -180,22 +181,22 @@
           "url": "https://dofi.ibz.be/en/themes/third-country-nationals/long-term-resident/acquisition-long-term-resident-status-belgium"
         },
         {
-          "title": "Permanent residency in Belgium (Expatica)",
-          "url": "https://www.expatica.com/be/moving/visas/permanent-residency-in-belgium-270048/"
+          "title": "Permanent residence in Belgium 2025 (Immigrant in Law)",
+          "url": "https://immigrantinlaw.com/en/blog-en/permanent-residence-in-belgium/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "income-cost": {
       "status": "scored",
       "score": 52,
-      "summary": "Decent gross SW pay but Europe's highest tax wedge (52.5%) and ~€1,100-1,320 Brussels rents erode two-income savings.",
-      "reasoning": "Gross SW pay (~€54,000-58,000 total in Brussels/Antwerp) looks reasonable, but Belgium has the OECD's highest tax wedge at 52.5% (2025) and take-home for an average single worker is only 60.5% of gross, so net income is heavily compressed. Brussels one-bed rents average ~€1,110-1,321 in 2025-2026; living costs ~€1,760/month for one. Two engineering incomes still permit savings, but high deductions and rising rents keep this in the mixed band versus lower-tax peers.",
+      "summary": "Decent gross SW pay but Europe's highest tax wedge (52.5%) and ~€1,118 Brussels 1-bed rents erode two-income savings.",
+      "reasoning": "Gross SW pay (~€42k-74k) looks reasonable, but Belgium has the OECD's highest tax wedge at 52.5% (2025) and take-home for an average single worker is only 60.5% of gross, so net income is heavily compressed. Brussels one-bed rents average ~€1,118/month (2026) and a single person's total living cost runs ~€2,200/month. Two engineering incomes still permit savings, and a married couple is taxed more favourably than two singles, but high deductions and rising rents keep this in the mixed band versus lower-tax peers.",
       "evidence": [
         "OECD highest tax wedge 52.5% for average single worker (2025)",
         "Take-home only 60.5% of gross vs OECD avg 74.9%",
-        "Brussels 1-bed rent ~€1,110-1,321/month (2025-2026)",
-        "Single-person living cost ~€1,760/month",
+        "Brussels 1-bed city-centre rent ~€1,118/month (2026)",
+        "Single-person total living cost ~€2,200/month",
         "Two incomes still save, but net is heavily eroded"
       ],
       "links": [
@@ -204,47 +205,47 @@
           "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/04/taxing-wages-2026-country-notes_491a0e97/belgium_2c42d1fc/f118830f-en.pdf"
         },
         {
-          "title": "Residential rental prices in Belgium 2025 (PropertyWeb/CBRE)",
-          "url": "https://propertyweb.be/en/insights/residential-rental-prices-in-belgium-2025-what-are-you-really-paying/452"
+          "title": "Cost of living in Brussels 2026 (Wise)",
+          "url": "https://wise.com/gb/cost-of-living/belgium/brussels"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "healthcare": {
       "status": "scored",
       "score": 82,
-      "summary": "Universal mutuelle/ziekenfonds, high quality, free choice of doctor; ~10-20% patient co-pays remain.",
-      "reasoning": "Belgium runs a universal compulsory health-insurance system via a mutuelle/ziekenfonds funded by social contributions (~4.7% employee withholding in 2025) plus a ~€64 annual fund fee, with high quality - 86% of residents satisfied with availability of quality care vs an OECD average of 64% - and free choice of GP/specialist without referral. Slightly below the universal-and-free top anchor because patients still pay ~10-20% co-pays on care and 15-50% on most prescriptions, though reimbursement and ceilings limit exposure.",
+      "summary": "Universal mutuelle/ziekenfonds, high quality, free choice of doctor; students pay ~€79/quarter; ~10-20% co-pays remain.",
+      "reasoning": "Belgium runs a universal compulsory health-insurance system via a mutuelle/ziekenfonds, mandatory for anyone living, studying or working there, with an excellent reputation and free choice of GP/specialist without referral. Students get heavily subsidised access (social contribution ~€78.93/quarter), and residents are covered through ~13.07% combined social security. Slightly below the universal-and-free top anchor because patients still pay ~10-20% co-pays on care and 15-50% on most prescriptions, though reimbursement ceilings limit exposure.",
       "evidence": [
-        "Universal mutuelle/ziekenfonds; joining mandatory for residents",
-        "86% satisfied with quality care vs OECD avg 64%",
+        "Universal mutuelle/ziekenfonds; joining mandatory for residents/students",
         "Free choice of GP/specialist without referral",
+        "Students pay reduced social contribution ~€78.93/quarter",
         "Patient co-pays ~10-20% on care; 15-50% on prescriptions",
-        "~€64 annual fund fee (2025); ~4.7% employee contribution"
+        "Excellent reputation; among Europe's most generous systems"
       ],
       "links": [
         {
-          "title": "Health at a Glance 2025: Belgium (OECD, official)",
-          "url": "https://www.oecd.org/en/publications/health-at-a-glance-2025_15a55280-en/belgium_48dbe97f-en.html"
-        },
-        {
           "title": "The healthcare system in Belgium (Expatica)",
           "url": "https://www.expatica.com/be/healthcare/healthcare-basics/the-belgian-healthcare-system-100097/"
+        },
+        {
+          "title": "Joining a mutual health insurance fund (Commissioner Brussels, official)",
+          "url": "https://www.commissioner.brussels/joining-a-mutual-health-insurance-fund-compulsory-insurance/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "culture-language": {
       "status": "scored",
       "score": 58,
-      "summary": "English widely usable in Brussels/Flanders tech, but Dutch/French needed for officialdom and B1 for citizenship.",
-      "reasoning": "English works well day-to-day in Brussels' international scene and Flemish tech workplaces, and high livability and English-taught study lower the entry barrier. But Belgium is officially trilingual (Dutch/French/German), so an official language is needed for bureaucracy, integration and especially naturalisation, where the 2025 reform now demands B1 plus a civics exam. The language-region split (Dutch in Flanders, French in Wallonia/Brussels) adds friction, holding this in the mixed band given the couple's citizenship goal.",
+      "summary": "English widely usable in Brussels/Flanders tech and 75% flexible work, but Dutch/French needed for officialdom; B1 for citizenship.",
+      "reasoning": "English works well day-to-day in Brussels' international scene and Flemish tech workplaces, over a third of residents have foreign origins, and work-life balance is strong (38h week, ~75% of firms offer flexible work). But Belgium is officially trilingual (Dutch/French/German), so an official language is needed for bureaucracy, integration and especially naturalisation, where the 2025 reform now demands B1 plus a civics exam. The Flanders-Dutch / Wallonia-Brussels-French split adds friction, holding this in the mixed band given the couple's citizenship goal.",
       "evidence": [
         "English widely usable in Brussels + Flemish tech workplaces",
-        "Dutch/French required for officialdom and integration",
-        "Citizenship now needs B1 + civics exam (2025 reform)",
-        "Trilingual country; Flanders Dutch, Wallonia/Brussels French",
-        "High livability and English-taught study ease initial entry"
+        "~75% of firms offer flexible work; 38h standard week",
+        "Over a third of residents have foreign origins (integration support)",
+        "Dutch/French required for officialdom; citizenship needs B1 + civics (2025)",
+        "Trilingual country; Flanders Dutch, Wallonia/Brussels French"
       ],
       "links": [
         {
@@ -252,23 +253,23 @@
           "url": "https://www.belgium.be/en/family/nationality"
         },
         {
-          "title": "Study in Flanders - living and language (official)",
-          "url": "https://www.studyinflanders.be/after-your-studies"
+          "title": "Living in Belgium as an expat (Expatica)",
+          "url": "https://www.expatica.com/be/moving/about/expat-life-in-belgium-574008/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "safety-law": {
       "status": "scored",
       "score": 78,
       "summary": "WJP 2025: ~17th of 143 (score ~0.78); strong rule of law and fair courts, moderate urban crime in Brussels.",
-      "reasoning": "Belgium sits in the upper tier of the WJP Rule of Law Index 2025 (around 17th of 143, score ~0.78), with strong constraints on government, independent courts and an established anti-discrimination framework. Crime is generally low though Brussels has elevated property crime and occasional drug-gang violence. Solid legal protections for residents and migrants, a notch below the Nordic top tier (Denmark 1, Norway 2) that dominates this index.",
+      "reasoning": "Belgium sits in the upper tier of the WJP Rule of Law Index 2025 (around 17th of 143, score ~0.78), with strong constraints on government, independent courts and an established anti-discrimination framework - demonstrated when its Constitutional Court suspended parts of the 2025 asylum package in Feb 2026. Crime is generally low though Brussels has elevated property crime and occasional drug-gang violence, and Dec 2025 saw protest-related security advisories. Solid legal protections for residents and migrants, a notch below the Nordic top tier (Denmark 1, Norway 2) that dominates this index.",
       "evidence": [
         "WJP Rule of Law Index 2025: ~17th of 143, score ~0.78",
-        "Top tier dominated by Denmark (1), Norway (2), Finland (3)",
-        "Independent judiciary; established anti-discrimination law",
+        "Top tier: Denmark (1), Norway (2), Finland (3), Sweden (4)",
+        "Independent judiciary (froze parts of 2025 asylum package, Feb 2026)",
         "Generally low crime; elevated Brussels property/drug crime",
-        "Fair legal protections for residents and migrants"
+        "Established anti-discrimination law; fair protections for migrants"
       ],
       "links": [
         {
@@ -276,47 +277,47 @@
           "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2025-global-press-release"
         },
         {
-          "title": "WJP Rule of Law Index - Belgium",
+          "title": "WJP Rule of Law Index - Belgium country profile",
           "url": "https://worldjusticeproject.org/rule-of-law-index/country/2025/Belgium"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "politics": {
       "status": "scored",
-      "score": 50,
-      "summary": "De Wever 'Arizona' coalition (Jan 2025) launched 'strictest migration ever', but targets work/study migration positively.",
-      "reasoning": "A five-party 'Arizona' coalition under N-VA's Bart de Wever took office 31 January 2025 promising the 'strictest migration policy ever' - tougher family reunification, scaled-back subsidiary protection and a 5-year social-benefit exclusion for newcomers. Institutions are stable and the government explicitly says it wants to attract work and study migrants who contribute, which protects skilled routes for this couple. The overall anti-immigration tightening and a strong Flemish-nationalist tone hold politics in the mixed band.",
+      "score": 52,
+      "summary": "De Wever 'Arizona' coalition pushed 'strictest migration ever', but courts froze parts (Feb 2026); skilled routes protected.",
+      "reasoning": "The N-VA-led 'Arizona' coalition under Bart de Wever (in office since 31 Jan 2025) is implementing the 'strictest migration policy ever' - tougher family reunification, scaled-back protection, newcomer benefit limits. Institutions are stable and checks work: the Constitutional Court suspended several pillars of the asylum package on 26 Feb 2026 for likely breaching EU/fundamental-rights law, and the government keeps pursuing it by other means. Crucially it explicitly wants to attract contributing work and study migrants, protecting skilled routes for this couple. Ongoing anti-immigration tightening, mass protests and Flemish-Francophone tension hold politics in the mixed band, marginally up on demonstrated rule-of-law guardrails.",
       "evidence": [
-        "De Wever 'Arizona' coalition formed 31 Jan 2025 (N-VA-led)",
+        "De Wever 'Arizona' coalition (N-VA-led) in office since 31 Jan 2025",
         "Government brands its policy 'strictest migration ever'",
-        "Stricter family reunification; subsidiary protection scaled back",
-        "Newcomers barred from social benefits for first 5 years",
+        "Constitutional Court suspended asylum-package pillars 26 Feb 2026",
+        "Mass protests/union opposition to welfare and migration measures",
         "Stated focus on attracting work/study migrants who contribute"
       ],
       "links": [
         {
-          "title": "New federal coalition: asylum and migration objectives (EMN Belgium)",
-          "url": "https://emnbelgium.be/news/new-federal-coalition-agreement-clarifies-key-objectives-field-asylum-and-migration"
+          "title": "Belgian court suspends new asylum rules (Euronews, Feb 2026)",
+          "url": "https://www.euronews.com/2026/02/26/belgian-court-suspends-new-asylum-rules-in-blow-to-strictest-migration-policy-yet"
         },
         {
-          "title": "De Wever launches Belgium's 'strictest migration policy yet' (VRT NWS)",
-          "url": "https://www.vrt.be/vrtnws/en/2025/02/03/mr-de-wever-launches-belgiums-strictest-migration-policy-yet/"
+          "title": "New government to implement 'strictest migration policy ever' (InfoMigrants)",
+          "url": "https://www.infomigrants.net/en/post/62655/belgium-new-government-to-implement-strictest-migration-policy-ever"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "tax": {
       "status": "scored",
       "score": 38,
       "summary": "Europe's heaviest labour tax: OECD tax wedge 52.5% (2025), take-home only 60.5% of gross for a single worker.",
-      "reasoning": "Belgium had the highest tax wedge among 38 OECD countries in 2025 at 52.5% for the average single worker, leaving take-home at just 60.5% of gross versus an OECD average of 74.9%. Income tax and employer social contributions make up 79% of the wedge, and progressive income-tax rates reach 50%. A married couple with two children fares better (6th-highest wedge, 36.9%), but for two childless high earners the burden is severe, placing this near the bottom band.",
+      "reasoning": "Belgium had the highest tax wedge among 38 OECD countries in 2025 at 52.5% for the average single worker (up from 52.4% in 2024), leaving take-home at just 60.5% of gross versus an OECD average of 74.9%. Employees pay 13.07% social security and progressive income-tax rates reach 50%. A married worker with two children fares far better (net rate 19.7%, take-home 80.3%), but for two childless high earners the burden is severe, placing this near the bottom band. Minor relief: students within the 650h quota keep almost full pay.",
       "evidence": [
-        "OECD highest tax wedge: 52.5% single worker (2025)",
+        "OECD highest tax wedge: 52.5% single worker (2025), up from 52.4%",
         "Take-home only 60.5% of gross vs OECD avg 74.9%",
-        "Top marginal income-tax rate 50%",
-        "Income tax + employer SSC = 79% of the wedge",
-        "Married-with-2-children wedge 36.9% (6th highest)"
+        "Employee social security 13.07%; top marginal income tax 50%",
+        "Married-with-2-children net rate 19.7% (take-home 80.3%)",
+        "Students within 650h/yr quota keep almost full pay"
       ],
       "links": [
         {
@@ -324,35 +325,35 @@
           "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/04/taxing-wages-2026-country-notes_491a0e97/belgium_2c42d1fc/f118830f-en.pdf"
         },
         {
-          "title": "Tax Burden on Labor in Europe 2026 (Tax Foundation)",
-          "url": "https://taxfoundation.org/data/all/eu/tax-burden-on-labor-europe/"
+          "title": "How much tax do workers pay? OECD Taxing Wages (OECD blog)",
+          "url": "https://www.oecd.org/en/blogs/2025/09/how-much-tax-do-workers-pay-oecd-taxing-wages-knows-the-answer.html"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "muslim-diaspora": {
       "status": "scored",
       "score": 55,
-      "summary": "~6% Muslim (~700k), 300+ mosques and easy halal, but the Bangladeshi community is tiny (~5k) and sentiment is tense.",
-      "reasoning": "Islam is Belgium's second religion at ~6% of the population (~600,000-700,000), with 300+ mosques (some sources 350+) and halal food readily available in restaurants and supermarkets, so religious infrastructure is good in cities. However, the specifically Bangladeshi community is very small (~5,000), so South-Asian familiarity is limited, and NGOs (CIIB, Amnesty) report ongoing Islamophobic discrimination and harassment amid the De Wever government's hardline migration tone. Decent halal/worship access but a thin BD network and tense sentiment keep this mid-band.",
+      "summary": "~7% Muslim (~850k), ~350 state-funded mosques and easy halal, but the Bangladeshi community is tiny (~5k) and sentiment is tense.",
+      "reasoning": "Islam is Belgium's second religion at ~7% of the population (~700,000-850,000), with ~350 mosques (the state funds recognised mosques and employs 800+ imams) and halal food readily available, so religious infrastructure is good in cities. However, the specifically Bangladeshi community is very small (~5,000), so South-Asian familiarity is limited, and reports point to escalating Islamophobic discrimination amid the De Wever government's hardline migration tone. Decent halal/worship access but a thin BD network and tense sentiment keep this mid-band.",
       "evidence": [
-        "Muslims ~6% of population (~600,000-700,000)",
-        "300+ mosques (some sources 350+); halal widely available",
+        "Muslims ~7% of population (~700,000-850,000)",
+        "~350 mosques; state funds recognised mosques and 800+ imams",
+        "Halal food readily available (slaughter via recognised slaughterhouses)",
         "Bangladeshi community very small (~5,000)",
-        "CIIB/Amnesty report Islamophobic discrimination and harassment",
-        "Hardline 2025 migration climate adds to tense sentiment"
+        "Reports of escalating Islamophobic discrimination; tense 2025 migration climate"
       ],
       "links": [
         {
-          "title": "2023 Report on International Religious Freedom: Belgium (US State Dept)",
-          "url": "https://www.state.gov/reports/2023-report-on-international-religious-freedom/belgium/"
+          "title": "Islam in Belgium - country profile (Euro-Islam)",
+          "url": "https://www.euro-islam.info/country-profiles/belgium/"
         },
         {
           "title": "Forgotten Women: Islamophobia in Belgium (ENAR report)",
           "url": "https://www.enar-eu.org/wp-content/uploads/forgotten_women_report_belgium_-_final.pdf"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     }
   }
 }

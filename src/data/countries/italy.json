@@ -5,15 +5,15 @@
   "iso3": "ITA",
   "flag": "🇮🇹",
   "region": "Europe",
-  "summary": "Cheap public MSc (Polimi non-EU ~€3,943/yr), an acute IT-skills shortage and a large Bangladeshi community (~175k-200k) make Italy a viable study->work route for two engineers, but the visa is decided in New Delhi not Dhaka, citizenship takes 10 years with B1 Italian, Italian tech salaries lag, and the Meloni government is hard-right on immigration.",
-  "lastReviewed": "2026-06-16",
+  "summary": "Cheap public MSc (Polimi non-EU ~€3,891/yr), an acute IT/AI skills shortage and Europe's largest Bangladeshi community (~175k-200k) make Italy a viable study->work->PR route for two engineers, but the visa is adjudicated in New Delhi not Dhaka, naturalisation stays at 10 years (June 2025 5-year referendum failed) with B1 Italian, tech salaries lag Northern Europe, and the Meloni government is hard-right on irregular migration.",
+  "lastReviewed": "2026-06-17",
   "links": [
     {
       "title": "Universitaly - official study-in-Italy portal",
       "url": "https://www.universitaly.it/vivere-in-italia"
     },
     {
-      "title": "Ambasciata d'Italia Dhaka - Consular Services & Visas",
+      "title": "Ambasciata d'Italia Dhaka - Consular Services & Visas (official)",
       "url": "https://ambdhaka.esteri.it/en/servizi-consolari-e-visti/"
     }
   ],
@@ -21,38 +21,38 @@
     "job-market": {
       "status": "scored",
       "score": 72,
-      "summary": "Acute ICT shortage (digital roles hardest-to-fill 3yrs running); both hireable, but Italian tech pay lags Northern Europe.",
-      "reasoning": "Digital/IT roles have been Italy's hardest-to-fill positions for three consecutive years (Excelsior/Unioncamere), LinkedIn ICT postings exceeded 136,000 in 2024 and ICT postings rose another ~60% in the first nine months of 2025, with AI, cloud and cybersecurity leading. Both engineers are easily absorbable and Milan's tech scene has English-speaking employers, but salaries are markedly lower than Germany/Nordics and many smaller firms operate in Italian, which is the main drag on this score.",
+      "summary": "Digital/IT roles hardest-to-fill 3yrs running; AI engineering top-demand role; both hireable, but Italian tech pay lags peers.",
+      "reasoning": "Software developers, cybersecurity, data and AI engineers are in acute shortage across Italy, with AI ranked the most in-demand profession (machine-learning demand reportedly +625%) and hiring concentrated in Milan, Rome and Turin. The €191.5bn PNRR (must be disbursed by Aug 2026) keeps driving digitisation hiring, so both engineers are easily absorbable in a two-income household. The drag is structurally low pay versus Germany/Nordics and Italian-language requirements at smaller firms, which caps the score.",
       "evidence": [
-        "Digital/IT roles hardest-to-fill 3 years running (Excelsior survey)",
-        "LinkedIn ICT postings >136,000 in 2024; +~60% in first 9 months of 2025",
-        "AI, cloud, cybersecurity lead demand; ~2.1M digital-skilled workers needed 2024-2028",
-        "DORA (in force Jan 2025) drives ICT security/risk hiring in finance",
-        "Italian SW pay lags peers; Italian often expected outside big-city tech hubs"
+        "Software devs, cybersecurity, data analysts in short supply; 44% of manufacturers can't fill technical engineering vacancies (2026)",
+        "AI Engineer ranked most in-demand profession; ML job demand surge cited at +625%",
+        "PNRR allocates €191.5bn EU recovery funds, disbursement deadline Aug 2026, fuelling tech hiring",
+        "55% of Italian companies adopting cloud; demand high in big firms and startups alike",
+        "Market competitive (many applicants); Italian often expected outside big-city hubs"
       ],
       "links": [
         {
-          "title": "Digital skills, the great mismatch slowing down Italian transformation (Il Sole 24 Ore)",
-          "url": "https://en.ilsole24ore.com/art/digital-skills-big-mismatch-slowing-down-italian-transformation-AI3yn3B"
+          "title": "Italy's IT Job Market 2026: Trends and Opportunities (JobTrackr)",
+          "url": "https://jobtrackr.it/blog/it-it-job-market-april-2026"
         },
         {
-          "title": "Most in-demand tech jobs in Italy 2025 (Nucamp)",
-          "url": "https://www.nucamp.co/blog/coding-bootcamp-italy-ita-most-in-demand-tech-job-in-italy-in-2025"
+          "title": "Top 10 In-Demand Skills in Italy for 2026 (Edstellar)",
+          "url": "https://www.edstellar.com/blog/skills-in-demand-in-italy"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "visa-access": {
       "status": "scored",
       "score": 48,
-      "summary": "Filed at VFS Dhaka but adjudicated by the Italian Embassy in New Delhi; low funds bar (~€6,947/yr) is the bright spot.",
-      "reasoning": "Italy has an embassy in Dhaka but student (national type D) visas are filed exclusively through VFS Global and the file is forwarded to the Italian Embassy in New Delhi for the decision, not decided locally - a genuine penalty under the Bangladesh lens. The financial bar is modest (subsistence ~€534.41/month, ~€6,947.33/year, no blocked account), but New-Delhi routing, document translation/legalisation into Italian, and appointment friction hold this in the mixed band.",
+      "summary": "Filed at VFS Dhaka (also Chattogram/Sylhet) but adjudicated by Italian Embassy New Delhi; low funds bar is the bright spot.",
+      "reasoning": "Italy has an embassy in Dhaka but national type-D study visas are filed exclusively through VFS Global (Dhaka, Chattogram, Sylhet) and forwarded to the Italian Embassy in New Delhi for adjudication, not decided locally - a genuine penalty under the Bangladesh lens. The financial bar is modest (~€534.41/month) and there is no blocked-account requirement, but New-Delhi routing, document translation/legalisation into Italian and noisy/unofficial refusal data hold this in the mixed band. Approval-ratio figures for Bangladeshi students are not officially published and vary widely by consultant (~12-15% rejection in some sources, much higher in others).",
       "evidence": [
-        "Visa applications filed exclusively at VFS Global Dhaka (Embassy Dhaka, official)",
-        "VFS forwards the file to the Italian Embassy in New Delhi for adjudication",
-        "Financial proof ~€534.41/month (~€6,947.33/year); no blocked account required",
-        "Documents must be translated into Italian and legalised",
-        "Pre-enrolment via Universitaly portal required before visa"
+        "Visas filed exclusively at VFS Global (Dhaka, Chattogram, Sylhet) - Embassy Dhaka official",
+        "Files forwarded to the Italian Embassy in New Delhi for decision (no local adjudication)",
+        "Financial proof ~€534.41/month; no blocked account required",
+        "Documents must be translated into Italian and legalised; pre-enrolment via Universitaly required",
+        "BD student approval ratios not officially published; rejection estimates range ~12-15% to much higher"
       ],
       "links": [
         {
@@ -60,95 +60,95 @@
           "url": "https://ambdhaka.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/"
         },
         {
-          "title": "Student procedures and services - Ambasciata d'Italia New Delhi (official)",
+          "title": "Student procedures - Ambasciata d'Italia New Delhi (official)",
           "url": "https://ambnewdelhi.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/student-procedures-and-services/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "citizenship": {
       "status": "scored",
       "score": 50,
-      "summary": "10 years' residence for non-EU + B1 Italian, but dual citizenship fully allowed (no renunciation needed).",
-      "reasoning": "Naturalisation for a non-EU national requires 10 years of continuous legal residence plus B1 Italian (CEFR) and stable income (~€8,263.31), one of the longer timelines in this set. The decisive plus for this couple is that Italy fully recognises dual citizenship, so they would not renounce Bangladeshi nationality. Law 74/2025 reformed citizenship by descent and tightened a 2-year route to Italian-descendants only - it does not shorten the 10-year naturalisation path for Bangladeshis.",
+      "summary": "10yr residence + B1 Italian; June 2025 referendum to cut to 5yr FAILED (30.6% turnout); but dual citizenship fully allowed.",
+      "reasoning": "Naturalisation for a non-EU national still requires 10 years' continuous legal residence plus B1 Italian and stable income - one of the longest timelines in this set, and the June 2025 referendum to halve it to 5 years failed for lack of quorum (only 30.6% turnout vs 50%+1 needed), so the 10-year path is locked in. The decisive plus for this couple is that Italy fully recognises dual citizenship - they would not renounce Bangladeshi nationality. The 2025 Law 74 reform tightened citizenship by descent only; it does not affect the naturalisation timeline for Bangladeshis.",
       "evidence": [
-        "10 years' continuous legal residence for non-EU naturalisation",
-        "B1 Italian (CEFR) mandatory since the 2018 security decree",
-        "Income requirement ~€8,263.31 for a single applicant",
+        "10 years' continuous legal residence for non-EU naturalisation (unchanged)",
+        "June 2025 referendum to cut to 5 years FAILED: 30.6% turnout vs 50% quorum (Wikipedia/NPR)",
+        "B1 Italian (CEFR) mandatory; stable income + clean record required",
         "Dual citizenship fully permitted - no renunciation of Bangladeshi nationality",
-        "Law 74/2025 (in force 24 May 2025) only changed descent rules, not naturalisation years"
+        "Law 74/2025 only changed citizenship-by-descent rules, not the 10-year path"
       ],
       "links": [
         {
-          "title": "Italian Citizenship by Residency: Requirements and 2025 Updates (Boccadutri)",
-          "url": "https://www.boccadutri.com/italian-citizenship-by-residency-or-naturalization/"
+          "title": "2025 Italian referendum (Wikipedia, sourced)",
+          "url": "https://en.wikipedia.org/wiki/2025_Italian_referendum"
         },
         {
-          "title": "Italy Dual Citizenship Reform 2025 - Law 74/2025 (Citizenship.EU)",
-          "url": "https://citizenship.eu/news-and-updates/italy-dual-citizenship-reform-2025-law-74-2025/"
+          "title": "Italian Citizenship by Residency: Requirements and 2025 Updates (Boccadutri)",
+          "url": "https://www.boccadutri.com/italian-citizenship-by-residency-or-naturalization/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "post-study-work": {
       "status": "scored",
-      "score": 60,
-      "summary": "12-month job-search permit (attesa occupazione), in-country switch to work permit; non-renewable, shorter than peers.",
-      "reasoning": "Italian-university graduates can convert their study permit to a 12-month residence permit for job-seeking/self-employment (permesso per attesa occupazione) and then to a work permit once employed, with low income (~€8,500) and insurance requirements. Both partners as graduates can each hold one and the in-country switch is clean, but the 12 months is non-renewable and shorter than the 18-24 month or multi-year stay-back of Germany, NZ or Canada, capping the score.",
+      "score": 61,
+      "summary": "12-month job-search permit (attesa occupazione); no quota cap on study->work conversion since 2023; non-renewable, shorter than peers.",
+      "reasoning": "Italian-university graduates can convert their study permit to a 12-month residence permit for job-seeking/self-employment (permesso per attesa occupazione) and then to a work permit once employed, and since the 2023 Cutro Decree these study-to-work conversions face no annual quota cap - a real plus. Both partners as Italian graduates can each hold one, but the 12 months is non-renewable and shorter than the 18-24 month or multi-year stay-back of Germany, NZ or Canada, capping the score.",
       "evidence": [
-        "12-month job-search permit (attesa occupazione) after an Italian degree",
+        "12-month job-search permit (attesa occupazione) after an Italian degree; start switch 2 months before study permit expires",
         "Convertible to a work permit once an employer is found",
-        "Income requirement ~€8,500 + health insurance for the period",
+        "No annual quota restriction on study->work conversions since the 2023 Cutro Decree",
         "Non-renewable; must secure sponsorship within the year",
         "Both graduates can each hold their own permit"
       ],
       "links": [
         {
-          "title": "Permesso di Soggiorno for employment search (attesa occupazione) - ItaliaHello",
-          "url": "https://italiahello.it/en/articolo/permesso-di-soggiorno-for-employment-search-attesa-occupazione/"
+          "title": "Job Seeking Permit (Permesso Attesa Occupazione) - Bocconi University",
+          "url": "https://www.unibocconi.it/en/programs/current-students/job-seeking-permit-permesso-attesa-occupazione"
         },
         {
-          "title": "Post-Graduation Work Permit Options in Italy (Italy Handbook)",
-          "url": "https://italyhandbook.com/post-graduation-work-permit-options-in-italy/"
+          "title": "Permesso di Soggiorno for employment search (attesa occupazione) - ItaliaHello",
+          "url": "https://italiahello.it/en/articolo/permesso-di-soggiorno-for-employment-search-attesa-occupazione/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "spouse-family": {
       "status": "scored",
       "score": 74,
-      "summary": "Both can enrol on own student visas; family permit (motivi familiari) allows work - no UK-style dependant work ban.",
-      "reasoning": "Because both are CS graduates, the cleanest route is each enrolling on their own student visa, and each can then work part-time (20h/week, 1,040h/year) during study and hold their own post-study permit. Alternatively a spouse joining on a family permit (permesso per motivi familiari) is explicitly allowed to work and study - Italy has no taught-master's dependant work ban (unlike the UK). The friction: family-reunification sponsorship now needs ~2 years' prior residence (Law 187/2024), so the dual-student route is preferable.",
+      "summary": "Both can enrol on own student visas (each works 20h/wk); family permit (motivi familiari) allows work - no UK-style dependant ban.",
+      "reasoning": "Because both are CS graduates, the cleanest route is each enrolling on their own student visa, with each working part-time (20h/week, 1,040h/year) during study and holding their own post-study permit. Alternatively a spouse joining via family reunification gets a permit that allows work and study - Italy has no taught-master's dependant work ban (unlike the UK). The friction: family-reunification sponsorship now needs ~2 years' prior continuous residence (raised from 1 year), so the dual-student route is preferable.",
       "evidence": [
-        "Each spouse can hold an independent student visa + work 20h/week (1,040h/yr)",
-        "Family permit (motivi familiari) holders may work and study freely",
+        "Each spouse can hold an independent student visa + work 20h/week (1,040h/yr); self-employment uncapped",
+        "Family-reunification residence permit holders may work and study freely",
         "No UK-style ban on dependants of taught-master's students working",
-        "Family-reunification sponsorship needs ~2 years' residence (Law 187/2024)",
-        "Family income floor ~€7,101.12 (2026), +50% per extra member"
+        "Family-reunification sponsorship now needs ~2 years' continuous residence (up from 1 yr), per 2024 amendment",
+        "Sponsor income floor ~€6,700/yr for one member, +~€2,300-3,000 per extra adult"
       ],
       "links": [
         {
-          "title": "Family permit: Permesso di Soggiorno per Motivi Familiari (Refugee.Info Italy)",
-          "url": "https://italy.refugee.info/en-us/articles/6587659565597"
+          "title": "Italy: Stricter Continuous Residence Rules for Sponsoring Family Members (Fragomen)",
+          "url": "https://www.fragomen.com/insights/italy-stricter-continuous-residence-rules-for-sponsoring-family-members.html"
         },
         {
-          "title": "Italy Family Reunification Visa guide (Citizen Remote)",
-          "url": "https://citizenremote.com/visas/italy-family-reunification-visa/"
+          "title": "Residence permit for study purposes - work rights (Sapienza Università di Roma, official)",
+          "url": "https://www.uniroma1.it/en/pagina/residence-permit-study-purposes"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "msc-study": {
       "status": "scored",
       "score": 78,
-      "summary": "40+ English MSc at Polimi; non-EU tuition only ~€3,943/yr, generous scholarships, 20h/wk work, spouse can accompany.",
-      "reasoning": "Politecnico di Milano offers 40+ English-taught graduate programmes incl. Computer Science & Engineering with a maximum non-EU annual tuition of only ~€3,943.04 for 2025/26 and one of Italy's most generous (often auto-assessed) scholarship systems. Students may work 20h/week (1,040h/year) and a spouse can accompany. It misses the top band only because non-EU students without scholarships pay the maximum (no ISEE reduction) and English MSc breadth is concentrated in a few strong universities.",
+      "summary": "30+ English MSc at Polimi; CS&Eng non-EU tuition only ~€3,891/yr, scholarships, 20h/wk work, ~€10k/yr living, spouse can join.",
+      "reasoning": "Politecnico di Milano offers 30+ English-taught graduate programmes including a 2-year MSc in Computer Science & Engineering with non-EU annual tuition of only ~€3,891 for 2025/26 and a broad scholarship system. Students may work 20h/week (1,040h/year) and a spouse can accompany or enrol separately. It misses the top band only because non-EU students without scholarships pay near the maximum (no ISEE reduction) and English MSc breadth concentrates in a few strong universities; living costs run ~€10,000/year.",
       "evidence": [
-        "Polimi: 40+ English-taught graduate programmes incl. CS/CS Engineering",
-        "Non-EU max tuition ~€3,943.04/year for 2025/26 (Polimi official)",
-        "Generous, often auto-assessed scholarships; many regional DSU grants",
+        "Polimi: 30+ English-taught graduate programmes incl. CS & Engineering (2-yr, English)",
+        "Non-EU MSc tuition ~€3,891/year for CS&Eng (2025/26); range ~€3,900-4,000",
+        "Broad scholarship system; many regional DSU/DSU-Lombardia grants",
         "Students may work 20h/week, 1,040 hours/year during study",
-        "Non-EU students without scholarship pay the maximum (no ISEE cut)"
+        "Estimated living costs ~€10,000/year (accommodation, food, transport)"
       ],
       "links": [
         {
@@ -160,19 +160,19 @@
           "url": "https://www.universitaly.it/vivere-in-italia"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "pr-pathway": {
       "status": "scored",
-      "score": 58,
-      "summary": "EU long-term residence at 5 years + A2 Italian, but study time counts only 50%, stretching the real timeline.",
-      "reasoning": "Italy's EU long-term residence permit (permanent residence) needs 5 years of continuous legal residence, income at least the assegno sociale (~€6,947.33/year), suitable housing and A2 Italian. The catch for this couple: time on a study permit counts at only 50% toward the five years, so two MSc years count as one, pushing the real wait beyond 5 calendar years from arrival. Predictable and clear once on a work permit, but slower in practice than the headline.",
+      "score": 65,
+      "summary": "EU long-term residence at 5 years + A2 Italian; study-permit time counts 100% (per official FVG), so MSc years count fully.",
+      "reasoning": "Italy's EU long-term residence permit needs 5 years' continuous legal residence (absences not exceeding 6 months continuous / 10 months total), income at least the assegno sociale, and A2 Italian (waived for Italian university graduates). Crucially, official regional guidance (Welcome Office FVG) states study-permit periods are counted at 100% toward the five years - correcting the earlier assumption of a 50% discount - so both MSc years count fully, making the headline 5-year timeline realistic for this couple. Predictable and clear, lifted by the A2-waiver for graduates.",
       "evidence": [
         "EU long-term residence after 5 years' continuous legal residence",
-        "Income at least assegno sociale ~€6,947.33/year + suitable-housing certificate",
-        "A2 Italian language test required",
-        "Study-permit time counts only 50% toward the 5 years",
-        "Permit indefinite; card renewed every 10 years"
+        "Study-permit periods counted at 100% toward the 5 years (Welcome Office FVG, official regional)",
+        "Income at least the assegno sociale (~€6,950/yr) required",
+        "A2 Italian test required, but WAIVED for holders of an Italian university degree",
+        "Absences must not exceed 6 months continuous / 10 months total over the 5 years"
       ],
       "links": [
         {
@@ -180,46 +180,46 @@
           "url": "https://welcomeoffice.fvg.it/practical-info/entry-and-stay/residence-permit-permesso-di-soggiorno/eu-long-term-residence-permit/"
         },
         {
-          "title": "Permanent Resident Italy: EU Long-Term Residence Permit (Future Italian)",
-          "url": "https://www.futureitalian.com/blog/permanent-resident-italy-full-guide-to-the-eu-long-term-residence-permit"
+          "title": "The Italian long-term residence permit (Arletti Partners)",
+          "url": "https://arlettipartners.com/the-italian-long-term-residence-permit/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "income-cost": {
       "status": "scored",
       "score": 52,
-      "summary": "SW pay modest (~€38-55k Milan median; entry ~€24-30k) vs €1,150-1,500 Milan rent; two incomes save modestly.",
-      "reasoning": "Milan median software-engineer pay is roughly €38,500-55,000 gross (entry-level ~€24,000-30,000), well below Germany or the Nordics, while a one-bed in Milan runs €1,150-1,500/month and can exceed 70% of a single average net salary. Two engineering incomes plus lower costs outside the centre allow modest savings, but high taxes and weak gross relative to Northern Europe keep net savings limited - the impatriati regime (below) is the main lever to improve take-home.",
+      "summary": "Milan SW median ~€38.5-48k gross (entry ~€23-33k) vs €1,150-1,500 one-bed rent; rent can be >70% of one net salary.",
+      "reasoning": "Milan software-engineer pay is roughly €38,500-48,000 gross median (entry-level ~€23,000-33,000; ML engineers ~€70k), well below Germany or the Nordics, while a one-bed runs €1,150-1,500/month (€1,500-2,200 central) and can exceed 70% of a single average net salary. Net pay typically sits ~€1,400-1,950/month and a comfortable single standard needs ~€2,500-3,000 net. Two engineering incomes plus cheaper non-central living enable modest savings, but weak gross and high housing keep net savings limited - the impatriati regime is the main lever.",
       "evidence": [
-        "Milan SW median ~€38,500-55,000 gross; entry-level ~€24,000-30,000",
-        "Senior roles reach ~€66,000-83,000 (top of range)",
-        "Milan one-bed €1,150-1,500/month; can exceed 70% of one net salary",
-        "Salaries lag Germany/Nordics; Italian tech pay structurally lower",
-        "Two incomes + cheaper non-central living enable modest savings"
+        "Milan SW median ~€38,500-48,000 gross; entry-level ~€23,000-33,000; ML eng ~€70k",
+        "Milan one-bed €1,150-1,500/month (€1,500-2,200 central); rent can exceed 70% of one net salary",
+        "Typical Milan net salary ~€1,400-1,950/month; comfortable single needs ~€2,500-3,000 net",
+        "Non-rent living ~€1,050/month for a single person",
+        "Two incomes + non-central living enable modest savings; salaries lag Germany/Nordics"
       ],
       "links": [
         {
           "title": "Software Engineer Salary in Milan (Glassdoor)",
-          "url": "https://www.glassdoor.com/Salaries/milan-software-engineering-salary-SRCH_IL.0,5_IM1058_KO6,26.htm"
+          "url": "https://www.glassdoor.com/Salaries/milan-software-engineer-salary-SRCH_IL.0,5_IM1058_KO6,23.htm"
         },
         {
           "title": "Average rent in Milan, June 2025 (Investropa)",
           "url": "https://investropa.com/blogs/news/average-rent-milan"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "healthcare": {
       "status": "scored",
       "score": 78,
-      "summary": "Universal SSN, high quality; free for workers/family, ~€700/yr voluntary for students - good but newcomer fee gaps.",
-      "reasoning": "The Servizio Sanitario Nazionale (SSN) offers universal, high-quality coverage; enrolment is free and mandatory for work-permit holders (via employer) and family-reunification members, giving the couple full GP access once working. During study, voluntary SSN enrolment costs ~€700/year per person (up sharply from €149.77 pre-2024), a modest newcomer cost. Quality and access are strong; regional disparities (north vs south) and the student fee hike keep it just below the top band.",
+      "summary": "Universal SSN, high quality; free for workers/family, ~€700/yr voluntary for students (up from €149.77) - good but newcomer fee gap.",
+      "reasoning": "The Servizio Sanitario Nazionale (SSN) offers universal, high-quality coverage; enrolment is free and mandatory for work-permit holders (via employer) and family-reunification members, giving the couple full GP access once working. During study, voluntary SSN enrolment costs a non-fractionable ~€700/year per person (raised from €149.77 in 2024 under Law 213/2023), a modest newcomer cost. Quality and access are strong; once enrolled, benefits equal those of Italian citizens, but north-south regional disparities and the student fee hike keep it just below the top band.",
       "evidence": [
-        "SSN universal; free mandatory enrolment for workers (via employer) and family",
-        "Students: voluntary SSN enrolment ~€700/year per person",
-        "Student fee rose from €149.77 (pre-2024) to ~€700",
-        "GP assigned on enrolment; same benefits as Italian citizens",
+        "SSN universal; free mandatory enrolment for workers (via employer) and family-reunification members",
+        "Students: voluntary SSN enrolment €700/year per person, non-fractionable (general non-EU rate €2,000)",
+        "Student fee rose from €149.77 to €700 in 2024 (Law 213/2023)",
+        "Registration needs a residence permit >3 months; GP assigned, benefits equal to citizens",
         "North-south regional quality disparities persist"
       ],
       "links": [
@@ -228,47 +228,47 @@
           "url": "https://www.mazzeschi.it/annual-fee-for-non-eu-nationals-adhering-to-the-italian-national-health-service/"
         },
         {
-          "title": "Access the National Health Service - students (YesMilano, official city portal)",
-          "url": "https://www.yesmilano.it/en/study/how-to/national-health-service-students-step-step"
+          "title": "Voluntary registration - Health (Welcome Office FVG, official)",
+          "url": "https://www.welcomeoffice.fvg.it/practical-info/health/italian-health-system-servizio-sanitario-nazionale/voluntary-registration/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "culture-language": {
       "status": "scored",
-      "score": 50,
-      "summary": "Italian needed for officialdom, PR (A2) and citizenship (B1); English limited outside big-city tech; high livability.",
-      "reasoning": "English works in Milan's international tech firms and universities, but daily bureaucracy, work outside major hubs and the formal milestones all require Italian: A2 for PR and B1 for citizenship. Everyday English proficiency is lower than in Northern Europe, so the local-language bar for officialdom and the couple's settlement goal sits squarely in the mixed band, partly offset by Italy's high livability, food, climate and openness in cities.",
+      "score": 47,
+      "summary": "EF EPI 2025: Italy 59th, lowest in EU, 'low proficiency' (dropped 13 places); Italian needed for officialdom, A2 PR / B1 citizenship.",
+      "reasoning": "Italy fell 13 places to 59th in the EF English Proficiency Index 2025 (score 513/700), now the lowest in the EU and in EF's 'low proficiency' band - materially worse for English-only newcomers than Northern Europe. English works in Milan's international tech firms and English MSc programmes, but daily bureaucracy and most non-hub workplaces require Italian, and the milestones demand it (A2 for PR, B1 for citizenship). High livability (climate, food, culture, city openness) partly offsets, but the language bar plus the EPI slide pull this into the lower-mixed band.",
       "evidence": [
+        "EF EPI 2025: Italy 59th, score 513/700 - lowest in the EU, 'low proficiency' band (down 13 places)",
+        "Regional spread: best Friuli-VG 553, Emilia-Romagna 534; lowest Calabria 482",
         "Italian required for bureaucracy and most non-hub workplaces",
-        "A2 Italian for PR; B1 Italian for citizenship",
-        "Lower everyday English proficiency than Northern Europe",
-        "English available in Milan international tech firms and English MSc",
-        "High livability: climate, food, culture, city openness"
+        "A2 Italian for PR (waived for Italian graduates); B1 Italian for citizenship",
+        "High livability: climate, food, culture, city openness partly offset"
       ],
       "links": [
         {
-          "title": "Italian Citizenship by Residency - language requirement (Boccadutri)",
-          "url": "https://www.boccadutri.com/italian-citizenship-by-residency-or-naturalization/"
+          "title": "Italy drops to bottom of EU ranking for English skills (The Local, EF EPI 2025)",
+          "url": "https://www.thelocal.it/20251126/italy-ranked-worst-in-eu-for-english-language-skills"
         },
         {
-          "title": "EU long-term residence permit - A2 language (Welcome Office FVG)",
-          "url": "https://welcomeoffice.fvg.it/practical-info/entry-and-stay/residence-permit-permesso-di-soggiorno/eu-long-term-residence-permit/"
+          "title": "EF English Proficiency Index 2025 (EF, official)",
+          "url": "https://www.ef.com/wwen/epi/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "safety-law": {
       "status": "scored",
       "score": 58,
-      "summary": "WJP 2025: 34th of 143, score 0.66 - mid-tier rule of law; slow civil justice and hard-line migrant enforcement.",
-      "reasoning": "Italy ranks 34th of 143 in the WJP Rule of Law Index 2025 with an overall score of 0.66 (a slight decline year-on-year), clearly mid-tier and well below Germany or the Nordics, dragged by slow civil justice and corruption perceptions. Violent crime is moderate and courts are independent, but the Meloni government's hard-line migrant enforcement (Albania transfers, repeatedly blocked by Italian judges) signals a tougher legal climate for migrants.",
+      "summary": "WJP 2025: 34th of 143 - mid-tier rule of law; slow civil justice; hard-line migrant enforcement but independent judiciary.",
+      "reasoning": "Italy ranks 34th of 143 in the WJP Rule of Law Index 2025, clearly mid-tier and well below Germany or the Nordics (top tier led by Denmark/Norway/Finland), dragged by slow civil justice and corruption perceptions. Violent crime is moderate and the judiciary is independent - it repeatedly blocked the Meloni government's Albania migrant-transfer scheme - but the government's hard-line enforcement signals a tougher legal climate for migrants, and petty theft is notable in tourist cities.",
       "evidence": [
-        "WJP Rule of Law Index 2025: 34th of 143, score 0.66",
-        "Slight year-on-year decline (~-0.5%)",
+        "WJP Rule of Law Index 2025: Italy 34th of 143 (mid-tier; top tier Denmark/Norway/Finland/Sweden/NZ)",
         "Slow civil justice and corruption perceptions weigh on the score",
-        "Independent judiciary repeatedly blocked Albania migrant transfers",
-        "Moderate violent crime; petty theft notable in tourist cities"
+        "Independent judiciary repeatedly blocked Albania migrant-transfer scheme",
+        "Moderate violent crime; petty theft notable in tourist cities",
+        "Index measures 8 factors incl. Order & Security and Civil/Criminal Justice"
       ],
       "links": [
         {
@@ -276,47 +276,47 @@
           "url": "https://worldjusticeproject.org/rule-of-law-index/country/2025/Italy"
         },
         {
-          "title": "WJP Rule of Law Index 2025 Global Press Release",
+          "title": "WJP Rule of Law Index 2025 Global Press Release (143 countries)",
           "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2025-global-press-release"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "politics": {
       "status": "scored",
-      "score": 55,
-      "summary": "Unusually stable Meloni govt + big skilled-worker quotas (~500k 2026-28), but hard-right, anti-irregular-migration tone.",
-      "reasoning": "The Meloni government (since Sept 2022) is set to become Italy's longest-serving postwar government, a rare stretch of stability, and the 2026-2028 Decreto Flussi authorises ~500,000 work permits (164,850 for 2026) with a skilled-worker tilt - structurally pro-legal-migration. The counterweight: it is a hard-right coalition focused on deterring irregular arrivals (Albania scheme, navy powers), and rising Bangladeshi boat arrivals draw scrutiny, creating a less welcoming political climate for migrants overall.",
+      "score": 57,
+      "summary": "Stable Meloni govt; Decreto Flussi 2026-28 ~500k permits with Bangladesh among 14 priority countries, but hard-right migration tone.",
+      "reasoning": "The Meloni government (since Sept 2022) is among Italy's most durable postwar administrations, a rare stretch of stability, and the 2026-2028 Decreto Flussi authorises ~500,000 work permits (164,850 in 2026) explicitly prioritising 14 partner countries that INCLUDE Bangladesh - a structural, profile-specific upside. The counterweight: it is a hard-right coalition focused on deterring irregular arrivals (Albania scheme, sea-arrival crackdowns), creating a chillier overall climate for migrants even as legal channels widen.",
       "evidence": [
-        "Meloni government in office since Sept 2022; nearing longest postwar tenure",
-        "Decreto Flussi 2026-2028: ~500,000 work permits; 164,850 for 2026",
-        "Skilled-worker and relocation pathways prioritised in 2025 reform",
-        "Hard-line on irregular migration (Albania transfers, navy block powers)",
-        "Rising Bangladeshi sea arrivals (7,615 in 2024) draw official concern"
+        "Meloni government in office since Sept 2022; durable, near-record postwar tenure",
+        "Decreto Flussi 2026-2028: ~500,000 work permits; 164,850 for 2026 (+11% vs prior plan)",
+        "Priority for 14 partner countries INCLUDING Bangladesh (also Pakistan, Egypt, Morocco, Albania)",
+        "Employer 'click-day' applications via ALI portal; demand outstrips supply in minutes",
+        "Hard-line on irregular migration (Albania transfers, sea-arrival crackdowns) cools overall tone"
       ],
       "links": [
         {
-          "title": "Explainer: Italy's 2026-2028 Flow Decree (InfoMigrants)",
-          "url": "https://www.infomigrants.net/en/post/68411/explainer-italys-20262028-flow-decree-decreto-flussi"
+          "title": "Italian Decreto Flussi 2026: Work Visa Quotas & Click-days (ILF Law Firm)",
+          "url": "https://italylawfirms.com/en/italian-decreto-flussi-2026-work-visa-quotas-clickdays/"
         },
         {
-          "title": "Two years of anti-immigrant policy in Meloni's Italy (InfoMigrants)",
-          "url": "https://www.infomigrants.net/en/post/60758/two-years-of-antiimmigrant-policy-in-giorgia-melonis-italy"
+          "title": "Government's New Decreto Flussi Opens 500,000 Work Permits for 2026-28 (VisaHQ)",
+          "url": "https://www.visahq.com/news/2026-02-21/it/governments-new-decreto-flussi-opens-500000-work-permits-for-2026-28/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "tax": {
       "status": "scored",
-      "score": 55,
-      "summary": "IRPEF 23/33/43% + ~10% INPS + regional surtax, but impatriati regime cuts taxable income 50% for 5 years.",
-      "reasoning": "2026 IRPEF is 23% to €28,000, 33% to €50,000 and 43% above €50,001, plus ~9-10% INPS social contributions and regional/municipal surtaxes (0.7-3.33%+), giving an effective burden of ~30-40% for SW salaries. The decisive offset for new arrivals is the lavoratori impatriati regime: only 50% (up to 60%) of Italian-source income is taxed for 5 years (income up to €600,000), materially lifting take-home for the couple's first years post-study.",
+      "score": 56,
+      "summary": "IRPEF 23/33/43% + ~10% INPS + regional surtax, but impatriati regime taxes only 50% (60% with kids) of income for 5 years.",
+      "reasoning": "IRPEF is 23% to €28,000, 33% to €50,000 and 43% above €50,001, plus ~9-10% INPS social contributions and regional/municipal surtaxes, giving an effective burden of ~30-40% for SW salaries without relief. The decisive offset for new arrivals is the lavoratori impatriati regime: only 50% of qualifying Italian-source income is taxed for 5 years (60% if relocating with minor children; income cap €600,000), materially lifting take-home in the couple's first post-study years. Caveat: it now requires 'highly qualified' work, genuine residence transfer, no Italian tax residence in the prior 3 years, and a binding stay commitment with clawback.",
       "evidence": [
         "IRPEF 2026: 23% to €28k, 33% to €50k, 43% above €50,001",
-        "INPS employee social contributions ~9-10%; regional surtax 0.7-3.33%+",
+        "INPS employee social contributions ~9-10%; regional/municipal surtaxes on top",
         "Effective burden ~30-40% for SW salaries without relief",
-        "Impatriati regime: only 50% (or 60%) of income taxed for 5 years",
-        "Requires genuine transfer of tax residence + minimum stay commitment"
+        "Impatriati regime: only 50% of income taxed for 5 years (60% with minor children), cap €600k",
+        "Requires highly-qualified work, no IT tax residence prior 3 yrs, genuine transfer + clawback if leaving early"
       ],
       "links": [
         {
@@ -328,19 +328,19 @@
           "url": "https://arlettipartners.com/impatriate-tax-regime-italy-new-rules/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     },
     "muslim-diaspora": {
       "status": "scored",
-      "score": 64,
-      "summary": "~175k-200k Bangladeshis + ~2.6M Muslims; halal easy in cities, but few official mosques and a far-right govt.",
-      "reasoning": "Italy hosts a large, established Bangladeshi community of ~175,000-200,000 (one of the biggest in Europe, concentrated in Rome, Milan and the Veneto) plus ~2.6M Muslims (~4-5%), so halal food, Bangla networks and prayer spaces are readily available in cities - a real strength for this couple. The drag: very few officially recognised mosques (worship mostly in informal 'prayer homes'), no national agreement (Intesa) with Islam, and a far-right government with a chillier tone toward Muslims.",
+      "score": 70,
+      "summary": "Largest Bangladeshi community in the EU (~175k-200k) + ~2.7M Muslims (4.9%); Bangla networks/halal abundant in cities, but ~8 official mosques and no Islam Intesa.",
+      "reasoning": "Italy hosts ~175,000-200,000 Bangladeshis - the largest Bangladeshi community in the EU (2nd in Europe after the UK), concentrated in Lazio/Rome (Tor Pignattara), Lombardy/Milan and the Veneto, and now a top-3 nationality for new residence permits - so Bangla networks, halal food and prayer spaces are abundant in cities, the decisive positive for this Bangladeshi household and stronger than smaller-diaspora peers. The drag is institutional rather than communal: ~2.7M Muslims (4.9%) are served by only ~8 officially recognised mosques (worship mostly in informal prayer rooms), Islam has no state Intesa, and the far-right government keeps the climate cooler - though everyday hate-crime rates stay relatively low, keeping this in the upper-middle band.",
       "evidence": [
-        "Bangladeshi community ~175,000-200,000 (Italian ambassador, 2024)",
-        "~2.6 million Muslims in Italy (~4-5% of population)",
-        "Halal food and shops common in Rome, Milan, Florence, Veneto",
-        "Few officially recognised mosques; worship in informal prayer homes",
-        "No state Intesa with Islam; far-right government cools sentiment"
+        "Bangladeshi community ~175,000-200,000 - largest in the EU (Italian ambassador, 2024); top-3 nationality for new permits",
+        "Concentrated in Lazio/Rome (Tor Pignattara), Lombardy/Milan, Veneto; remittances to BD >€1bn in 2023",
+        "~2.7 million Muslims (~4.9% of population, Jan 2025); halal food common in larger cities",
+        "Only ~8 officially recognised mosques; most worship in informal prayer rooms",
+        "No state Intesa with Islam (2017 National Pact never formalised); far-right govt cools sentiment, hate-crime rates relatively low"
       ],
       "links": [
         {
@@ -348,11 +348,11 @@
           "url": "https://en.wikipedia.org/wiki/Bangladeshis_in_Italy"
         },
         {
-          "title": "Italy's makeshift mosques a crucial hub for Muslims' integration (Salaam Gateway)",
-          "url": "https://salaamgateway.com/story/italys-makeshift-mosques-a-crucial-hub-for-muslims-social-integration"
+          "title": "Growing Muslim Population in Italy: Facts Amidst Concerns (Shia Waves)",
+          "url": "https://shiawaves.com/english/news/world/europe/italy/134499-growing-muslim-population-in-italy-facts-amidst-concerns/"
         }
       ],
-      "lastReviewed": "2026-06-16"
+      "lastReviewed": "2026-06-17"
     }
   }
 }
