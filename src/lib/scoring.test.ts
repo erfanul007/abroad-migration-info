@@ -54,4 +54,10 @@ describe("rankCountries", () => {
     expect(ranked[0].rank).toBe(1);
     expect(ranked[1].rank).toBe(2);
   });
+  it("breaks exact ties alphabetically by name", () => {
+    const tied = rankCountries([country("zebra", 80, 80), country("alpha", 80, 80)], cats);
+    expect(tied.map((c) => c.id)).toEqual(["alpha", "zebra"]);
+    expect(tied[0].rank).toBe(1);
+    expect(tied[1].rank).toBe(2);
+  });
 });

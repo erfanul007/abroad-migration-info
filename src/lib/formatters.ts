@@ -2,7 +2,7 @@
 const LOCALE = "en-GB"; // org default for user-facing en (point decimal, DD/MM/YYYY)
 
 export function formatScore(score: number): string {
-  return new Intl.NumberFormat(LOCALE, { maximumFractionDigits: 0 }).format(Math.round(score));
+  return new Intl.NumberFormat(LOCALE, { maximumFractionDigits: 0 }).format(score);
 }
 
 export function formatNumber(n: number, fractionDigits = 0): string {
@@ -11,7 +11,9 @@ export function formatNumber(n: number, fractionDigits = 0): string {
 
 export function formatDate(iso: string): string {
   const d = new Date(iso);
-  return new Intl.DateTimeFormat(LOCALE, { day: "2-digit", month: "2-digit", year: "numeric" }).format(d);
+  return new Intl.DateTimeFormat(LOCALE, {
+    day: "2-digit", month: "2-digit", year: "numeric", timeZone: "UTC",
+  }).format(d);
 }
 
 export type Tier = "excellent" | "good" | "fair" | "weak";

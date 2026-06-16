@@ -22,4 +22,12 @@ describe("scoreTier", () => {
     expect(scoreTier(50)).toBe("fair");
     expect(scoreTier(30)).toBe("weak");
   });
+  it("maps tier boundary values exactly", () => {
+    expect(scoreTier(80)).toBe("excellent");
+    expect(scoreTier(79)).toBe("good");
+    expect(scoreTier(65)).toBe("good");
+    expect(scoreTier(64)).toBe("fair");
+    expect(scoreTier(45)).toBe("fair");
+    expect(scoreTier(44)).toBe("weak");
+  });
 });
