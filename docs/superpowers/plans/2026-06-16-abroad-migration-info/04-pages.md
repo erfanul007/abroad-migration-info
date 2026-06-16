@@ -388,20 +388,22 @@ export default function About() {
         <p className="max-w-2xl text-sm text-muted-foreground">A transparent, personally-weighted ranking of candidate migration countries. Each country is scored 0–100 per category; a weighted sum (weights total 100) gives the overall score.</p>
       </div>
 
-      <Section title="Who this is for">
+      <Section title="The household">
+        {/* Two peers of equivalent profiles — either can be primary applicant / dependent. */}
         <div className="grid gap-4 sm:grid-cols-2">
-          <Card><CardContent className="space-y-1 p-4 text-sm">
-            <div className="font-semibold">{p.applicant.name}</div>
-            <div className="text-muted-foreground">{p.applicant.role} · {p.applicant.company}</div>
-            <div className="text-muted-foreground">{p.applicant.location}</div>
-          </CardContent></Card>
-          <Card><CardContent className="space-y-1 p-4 text-sm">
-            <div className="font-semibold">Spouse</div>
-            <div className="text-muted-foreground">{p.spouse.role} · {p.spouse.company} · {p.spouse.experienceYears}+ yrs</div>
-            <div className="text-muted-foreground">{p.spouse.location}</div>
-          </CardContent></Card>
+          {p.household.people.map((person) => (
+            <Card key={person.name}><CardContent className="space-y-1 p-4 text-sm">
+              <div className="font-semibold">{person.name}</div>
+              <div className="text-muted-foreground">{person.role} · {person.company}</div>
+              <div className="text-muted-foreground">{person.location}</div>
+              <div className="flex gap-3 pt-1">
+                <a href={person.links.portfolio} target="_blank" rel="noreferrer" className="text-primary hover:underline">Portfolio ↗</a>
+                <a href={person.links.linkedin} target="_blank" rel="noreferrer" className="text-primary hover:underline">LinkedIn ↗</a>
+              </div>
+            </CardContent></Card>
+          ))}
         </div>
-        <p className="text-sm text-muted-foreground">Both hold {p.education.degree} from {p.education.institution}.</p>
+        <p className="text-sm text-muted-foreground">Both hold a {p.education.degree} from {p.education.institution}; either of us can lead the application.</p>
       </Section>
 
       <Section title="Goal & pathway">
@@ -421,7 +423,7 @@ export default function About() {
           <li>Profession priority: {p.preferences.professionPriority}</li>
           <li>Faster citizenship: {p.preferences.fasterCitizenship ? "yes" : "no"}</li>
           <li>Dual citizenship: {p.preferences.dualCitizenship}</li>
-          <li>Spouse accompanies: {p.preferences.spouseAccompanies ? "yes" : "no"}</li>
+          <li>Relocate together: {p.preferences.relocateTogether ? "yes" : "no"}</li>
         </ul>
       </Section>
 
@@ -439,12 +441,7 @@ export default function About() {
         </div>
       </Section>
 
-      <Section title="Links">
-        <div className="flex gap-3 text-sm">
-          <a href={p.links.portfolio} target="_blank" rel="noreferrer" className="text-primary hover:underline">Portfolio ↗</a>
-          <a href={p.links.linkedin} target="_blank" rel="noreferrer" className="text-primary hover:underline">LinkedIn ↗</a>
-        </div>
-      </Section>
+      {/* Per-person Portfolio/LinkedIn links live inside each household card above. */}
     </div>
   );
 }

@@ -1,5 +1,6 @@
 // src/components/common/Podium.tsx
 import { Link } from "react-router";
+import { Crown, Medal } from "lucide-react";
 import type { ScoredCountry } from "@/types";
 import { Card, CardContent } from "@/components/ui/card";
 import { ScoreBadge } from "@/components/common/ScoreBadge";
@@ -17,7 +18,9 @@ export function Podium({ countries }: { countries: ScoredCountry[] }) {
           <Link key={c.id} to={`/country/${c.iso}`} className={`transition-transform ${raised}`}>
             <Card className="text-center hover:border-primary">
               <CardContent className="p-4">
-                <div className="text-xs font-medium text-muted-foreground">#{c.rank}</div>
+                <div className="flex items-center justify-center gap-1 text-xs font-medium text-muted-foreground">
+                  {i === 0 ? <Crown className="size-4 text-primary" aria-hidden /> : <Medal className="size-4" aria-hidden />}#{c.rank}
+                </div>
                 <div className="my-1 text-3xl" aria-hidden>{c.flag}</div>
                 <div className="truncate font-semibold">{c.name}</div>
                 <div className="mt-2 flex justify-center"><ScoreBadge score={c.overall} /></div>

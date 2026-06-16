@@ -1,8 +1,8 @@
 // src/components/charts/RadarProfile.tsx
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer, Legend, Tooltip } from "recharts";
 import type { Category, ScoredCountry } from "@/types";
-
-const COLORS = ["#2f6df6", "#16a34a", "#ea580c"]; // design-system §2.3
+import { formatPercent } from "@/lib/formatters";
+import { SERIES } from "@/lib/palette";
 
 export function RadarProfile({ countries, categories }: { countries: ScoredCountry[]; categories: Category[] }) {
   const data = categories.map((cat) => {
@@ -17,11 +17,11 @@ export function RadarProfile({ countries, categories }: { countries: ScoredCount
         <RadarChart data={data} outerRadius="72%">
           <PolarGrid />
           <PolarAngleAxis dataKey="category" tick={{ fontSize: 11 }} />
-          <PolarRadiusAxis domain={[0, 100]} tick={{ fontSize: 10 }} />
+          <PolarRadiusAxis domain={[0, 100]} tick={{ fontSize: 10 }} tickFormatter={(v) => `${v}%`} />
           {countries.map((c, i) => (
-            <Radar key={c.id} name={c.name} dataKey={c.name} stroke={COLORS[i % COLORS.length]} fill={COLORS[i % COLORS.length]} fillOpacity={0.18} />
+            <Radar key={c.id} name={c.name} dataKey={c.name} stroke={SERIES[i % SERIES.length]} fill={SERIES[i % SERIES.length]} fillOpacity={0.18} />
           ))}
-          <Tooltip />
+          <Tooltip formatter={(value, name) => [formatPercent(Number(value)), name]} />
           {countries.length > 1 && <Legend />}
         </RadarChart>
       </ResponsiveContainer>

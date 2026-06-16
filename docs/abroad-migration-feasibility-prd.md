@@ -88,6 +88,8 @@ overall = Σ over categories ( category.score / 100 × category.weight )
 ```
 Because weights sum to 100, `overall` is bounded to **0–100** and reads directly as a percentage. The overall score is a pure, derived value computed at runtime from per-category scores (single source of truth); it is not persisted in data files.
 
+If a category is **entirely absent** from a country's data, it is excluded and the remaining weights are **renormalised** (the present weights are rescaled to 100), so a missing category is never silently counted as 0. A **pending** cell, by contrast, carries a placeholder score and **is** included in the sum — the country is then flagged provisional (per Q3 / §9).
+
 ### 5.3 Categories (v1) — weights sum to 100
 | # | Category | Short label | Weight | What it measures (documented factors) |
 |---|----------|-------------|--------|----------------------------------------|
@@ -128,7 +130,7 @@ Germany, Netherlands, Sweden, Norway, Denmark, Finland, Ireland, Austria, France
 | ID | Requirement | Priority |
 |----|-------------|----------|
 | FR-D1 | Show a podium of the top 3 countries by overall score, with flag, name, and score. | Must |
-| FR-D2 | Show a choropleth world map shaded by overall score; hovering a country reveals its score; clicking opens its detail page. | Should |
+| FR-D2 | Show a choropleth world map shaded by overall score; clicking a country opens a popup overview (score, region, rank, summary) with a link to its detail page. | Should |
 | FR-D3 | Embed a compact leaderboard table (top N) with a link to the full leaderboard. | Must |
 | FR-D4 | Show quick stats: number of countries, number of categories, highest/lowest scoring category across the set, last-reviewed range. | Could |
 | FR-D5 | Provide a one-line summary of the applicant's goal and a link to About. | Must |
@@ -211,7 +213,7 @@ Navigation: persistent top nav — Dashboard · Leaderboard · Compare · About 
 | Interactive data table | Leaderboard, Compare | TanStack Table v8 (headless) | Native sort, filter, global search, column visibility. |
 | Radar / spider chart | Country detail, Compare | Recharts | One axis per category; overlay multiple countries on Compare. |
 | Weighted-contribution bars | Country detail | Recharts | Shows how each weighted category builds the overall score. |
-| Choropleth map | Dashboard | d3-geo + topojson-client + world-atlas | World map shaded by overall score; click-through to country detail. SVG rendered directly (see §10.1 note). |
+| Interactive choropleth map | Dashboard | Leaflet + react-leaflet + topojson-client + world-atlas | Full-world choropleth shaded by overall score; pan + zoom, always north-up. SVG rendering (no WebGL → reliable). All country shapes from bundled GeoJSON, **no external tiles** (offline, no third-party calls); longitudes unwrapped to avoid Leaflet antimeridian bands. Click a country → popup overview → details. |
 
 ---
 
@@ -222,8 +224,14 @@ JSON files under `src/data/`. Treated as the backend store; presentation-only co
 ### 9.1 `profile.json`
 ```jsonc
 {
-  "applicant": { "name": "...", "role": "Software Engineer", "company": "Netpower", "location": "Dhaka, Bangladesh" },
-  "spouse":    { "role": "Software Engineer", "company": "Optimizely", "experienceYears": 4, "location": "Dhaka, Bangladesh" },
+  // Two-person household of equivalent profiles. Peers, not applicant/dependent —
+  // either partner can lead the application; the choice is interchangeable.
+  "household": {
+    "people": [
+      { "name": "...", "role": "Software Engineer", "company": "Netpower", "location": "Dhaka, Bangladesh", "links": { "portfolio": "...", "linkedin": "..." } },
+      { "name": "...", "role": "Software Engineer", "company": "Optimizely", "location": "Dhaka, Bangladesh", "links": { "portfolio": "...", "linkedin": "..." } }
+    ]
+  },
   "education": { "degree": "BSc in CSE", "institution": "Daffodil International University", "completed": "2022-02" },
   "goal": "MSc studies → post-study work → permanent residency → citizenship → passport",
   "pathway": ["MSc studies", "Post-study work permit", "Permanent residency", "Citizenship", "Passport"],
@@ -232,9 +240,8 @@ JSON files under `src/data/`. Treated as the backend store; presentation-only co
     "fasterCitizenship": true,
     "dualCitizenship": "preferred",
     "professionPriority": "IT / Software / AI Engineering",
-    "spouseAccompanies": true
-  },
-  "links": { "portfolio": "https://erfanul007.github.io/portfolio-ai/", "linkedin": "https://www.linkedin.com/in/erfanul007/" }
+    "relocateTogether": true
+  }
 }
 ```
 
@@ -292,24 +299,24 @@ JSON files under `src/data/`. Treated as the backend store; presentation-only co
 - Table: **TanStack Table v8** (headless) — sort/filter/search/column-visibility.
 - UI components: **shadcn/ui** (Radix + Tailwind v4, CLI-installed) for polished primitives.
 - Charts: **Recharts 3** (radar, bars).
-- Map: **d3-geo + topojson-client + world-atlas** — choropleth rendered as SVG `<path>` directly.
+- Map: **Leaflet + react-leaflet + topojson-client + world-atlas** — full-world choropleth on a tile-less Leaflet map (a `GeoJSON` layer, SVG renderer, no WebGL).
 - All dependencies installed via npm / component CLI — no hand-rolled equivalents of the above.
 
-> **Map library decision (deviation from v1.0):** the PRD originally named `react-simple-maps`. Version check found its latest release is 3.0.0 (2022) with a React `^16.8` peer range — outdated and React-19-incompatible. Its React-19 community fork is thin and infrequently maintained. `react-simple-maps` is a wrapper over `d3-geo` + `topojson`; rendering the SVG directly with those canonical libraries removes the fragile dependency, has no React-version coupling, and bundles the map offline. Counter-risk: ~40 lines of projection/path code we own instead of a component import — small, well-understood, and verifiable. Geometry join is by country name (Natural Earth names are stable for the 13 seeds); `iso`/`iso3` retained in data for flags and future use.
+> **Map library decision (as-built, deviation from v1.0):** the PRD originally named `react-simple-maps` (latest release 3.0.0, 2022, React `^16.8` peer range — outdated and React-19-incompatible; its React-19 community fork is thin). The build settled on **plain Leaflet via react-leaflet**, drawing our bundled GeoJSON as a tile-less `GeoJSON` layer (SVG renderer, no WebGL, no external tiles → fully offline). Leaflet provides robust pan/zoom, popups, and event handling out of the box, versus hand-rolling SVG projection and interaction code. Counter-risk: Leaflet does not clip at the antimeridian, so dateline-crossing rings (Russia, Fiji, Aleutians) need their longitudes **unwrapped** to avoid full-width bands, and Antarctica is omitted (it wraps the pole) — ~30 lines we own. Geometry join is by country name (Natural Earth `countries-110m` names are stable for the 13 seeds); `iso`/`iso3` retained in data for flags and routing. Topojson is decoded with `topojson-client`'s `feature()`.
 
 ### 10.2 Folder structure (separation of concern)
 ```
 src/
-  data/        profile.json · categories.json · countries/<iso>.json
+  data/        profile.json · categories.json · countries/<iso>.json (13)
   types/       domain TypeScript interfaces (Country, Category, Profile, ScoredCountry)
-  lib/         scoring.ts (+ scoring.test.ts) · formatters · data loaders/validators
+  lib/         cn · scoring (+test) · validation (+test) · formatters (+test) · data (+test) · palette
   components/
     ui/         shadcn primitives
     charts/     RadarProfile · ContributionBars · Choropleth
-    leaderboard/ LeaderboardTable · filters · search
-    common/     Layout · Nav · ThemeToggle · ScoreBadge
-  pages/        Dashboard · Leaderboard · Compare · CountryDetail · About
-  hooks/        useCountries · useTheme
+    leaderboard/ LeaderboardTable · columns · SearchBox · Filters
+    common/     Layout · Nav · ThemeProvider · ThemeToggle · ScoreBadge · PendingBadge · StatCard · Podium · Section
+  pages/        Dashboard · Leaderboard · Compare · CountryDetail · About · NotFound
+  hooks/        useData · useTheme
   routes/       route definitions
 ```
 
@@ -325,10 +332,10 @@ Static build deployed to **GitHub Pages**. English only. No backend, no auth. JS
 | Data curation scope (v1) | Scaffold full app; **Germany, Canada, Australia** fully sourced; other 10 placeholder `pending` (see §5.4). |
 | Visual direction | **Clean modern minimal** — shadcn neutral base + single accent, data-forward, generous whitespace, subtle motion; light/dark. |
 | Test runner | **Vitest** (Vite-native) for the scoring module and data validators. |
-| Map data | Bundled `world-atlas/countries-110m.json`; rendered via `d3-geo`; geometry join on **country name** (iso3 retained in data). |
+| Map data | Bundled `world-atlas/countries-110m.json` (decoded with `topojson-client`); rendered via **Leaflet / react-leaflet** (tile-less GeoJSON layer); geometry join on **country name** (iso/iso3 retained in data). |
 | Region taxonomy | Derived from `region` values present in country JSON (no hardcoded list). |
 | Pages base path | `/abroad-migration-info/` (Vite `base` + Router basename). |
-| Verified library versions (2026-06-16) | React 19 · Vite 8 · React Router v7 · Tailwind v4 · shadcn/ui (latest) · TanStack Table v8 · Recharts 3 · d3-geo. See §10.1 note for the map substitution rationale. |
+| Verified library versions (2026-06-16) | React 19 · Vite 8 · React Router v7 · Tailwind v4 · shadcn/ui (latest) · TanStack Table v8 · Recharts 3 · Leaflet + react-leaflet. See §10.1 note for the map library rationale. |
 
 ---
 

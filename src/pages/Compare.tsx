@@ -8,6 +8,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Button } from "@/components/ui/button";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { cn } from "@/lib/cn";
+import { Radar, Table2 } from "lucide-react";
 
 export default function Compare() {
   const { countries, categories } = useData();
@@ -25,7 +26,7 @@ export default function Compare() {
 
   return (
     <div className="space-y-8">
-      <div>
+      <div className="space-y-1">
         <h1 className="text-2xl font-bold tracking-tight">Compare</h1>
         <p className="text-sm text-muted-foreground">Compare up to three countries side by side.</p>
       </div>
@@ -44,8 +45,8 @@ export default function Compare() {
 
       {chosen.length >= 2 && (
         <>
-          <Section title="Profiles"><RadarProfile countries={chosen} categories={categories} /></Section>
-          <Section title="Category scores">
+          <Section title="Profiles" icon={Radar}><RadarProfile countries={chosen} categories={categories} /></Section>
+          <Section title="Category scores" icon={Table2}>
             <div className="overflow-x-auto rounded-lg border">
               <Table>
                 <TableHeader>

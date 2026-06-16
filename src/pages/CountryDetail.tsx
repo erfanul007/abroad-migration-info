@@ -8,6 +8,7 @@ import { RadarProfile } from "@/components/charts/RadarProfile";
 import { ContributionBars } from "@/components/charts/ContributionBars";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { formatDate } from "@/lib/formatters";
+import { Radar, BarChart3, LayoutGrid, BookMarked } from "lucide-react";
 
 export default function CountryDetail() {
   const { iso } = useParams();
@@ -24,13 +25,13 @@ export default function CountryDetail() {
   }
 
   return (
-    <div className="space-y-10">
+    <div className="space-y-8">
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
           <div className="flex items-center gap-3">
             <span className="text-4xl" aria-hidden>{country.flag}</span>
             <div>
-              <h1 className="text-3xl font-bold tracking-tight">{country.name}</h1>
+              <h1 className="text-2xl font-bold tracking-tight">{country.name}</h1>
               <p className="text-sm text-muted-foreground">{country.region} · Rank #{country.rank} · Reviewed {formatDate(country.lastReviewed)}</p>
             </div>
           </div>
@@ -44,11 +45,11 @@ export default function CountryDetail() {
       </div>
 
       <div className="grid gap-6 lg:grid-cols-2">
-        <Section title="Category profile"><RadarProfile countries={[country]} categories={categories} /></Section>
-        <Section title="Contribution to overall"><ContributionBars country={country} /></Section>
+        <Section title="Category profile" icon={Radar}><RadarProfile countries={[country]} categories={categories} /></Section>
+        <Section title="Contribution to overall" icon={BarChart3}><ContributionBars country={country} /></Section>
       </div>
 
-      <Section title="Category detail">
+      <Section title="Category detail" icon={LayoutGrid}>
         <div className="grid gap-4 md:grid-cols-2">
           {country.scored.map(({ category, cell }) => (
             <Card key={category.id}>
@@ -81,7 +82,7 @@ export default function CountryDetail() {
       </Section>
 
       {country.links.length > 0 && (
-        <Section title="References">
+        <Section title="References" icon={BookMarked}>
           <ul className="space-y-1">
             {country.links.map((l) => <li key={l.url}><a href={l.url} target="_blank" rel="noreferrer" className="text-primary hover:underline">{l.title} ↗</a></li>)}
           </ul>

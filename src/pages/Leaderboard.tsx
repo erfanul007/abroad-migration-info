@@ -19,8 +19,8 @@ export default function Leaderboard() {
   );
 
   return (
-    <div className="space-y-6">
-      <div>
+    <div className="space-y-8">
+      <div className="space-y-1">
         <h1 className="text-2xl font-bold tracking-tight">Leaderboard</h1>
         <p className="text-sm text-muted-foreground">Countries ranked by overall feasibility. Sort any column; search and filter to narrow.</p>
       </div>

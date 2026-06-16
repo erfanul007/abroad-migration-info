@@ -2,7 +2,7 @@
 
 > Low-fidelity layout reference for all five routes. Follows the shell, tokens, and components in `00-design-system.md`. Desktop-first; responsive rules per page. These are layout contracts, not pixel specs.
 
-Legend: `[ ]` container/card · `▮▮` score badge · `◔` chart · `▼` select · `🔍` search.
+Legend: `[ ]` container/card · `▮▮` score badge (rendered as `%`, e.g. `84%`) · `◔` chart · `▼` select · `🔍` search.
 
 ---
 
@@ -18,7 +18,7 @@ Legend: `[ ]` container/card · `▮▮` score badge · `◔` chart · `▼` sel
 │   └────────────────────────────────────────────────────────────────┘   │
 └──────────────────────────────────────────────────────────────────────┘
 ```
-Active nav item: `bg-muted`. Theme toggle (☾/☀) far right. Country detail is **not** in nav — reached by clicking countries.
+Active nav item: `bg-muted`. The **brand title** ("Migration Feasibility") links to the Dashboard (`/`). Theme toggle (☾/☀) far right. On **mobile (<`sm`)** the inline links collapse into a hamburger (☰) that toggles a stacked menu; brand + toggle + hamburger stay on one row. Country detail is **not** in nav — reached by clicking countries.
 
 ---
 
@@ -26,7 +26,7 @@ Active nav item: `bg-muted`. Theme toggle (☾/☀) far right. Country detail is
 
 ```
 Migration Feasibility                                       (h1, text-3xl)
-Ranking countries for: MSc → work → PR → citizenship → passport.  About →
+Ranking countries for the goal: MSc studies → post-study work → … → passport.  About the method →
 
 ── Top countries ─────────────────────────────────────────────
         ┌─────────┐   ┌─────────┐   ┌─────────┐
@@ -36,24 +36,25 @@ Ranking countries for: MSc → work → PR → citizenship → passport.  About 
         │  ▮81▮   │   │  ▮84▮   │   │  ▮79▮   │
         └─────────┘   └─────────┘   └─────────┘
 
-┌─ Countries ─┐ ┌─ Categories ┐ ┌─ Top score ─┐ ┌─ Last review ┐   ← 4 StatCards
-│     13      │ │  14 (=100)  │ │  84 Germany │ │  16/06/2026  │
-└─────────────┘ └─────────────┘ └─────────────┘ └──────────────┘
+┌─ Countries ─┐ ┌─ Categories ──┐ ┌─ Top score ──┐ ┌ Last reviewed ┐   ← 4 StatCards
+│     13      │ │ 14 · wts 100% │ │ ▮84%▮ Germany │ │  16/06/2026   │
+└─────────────┘ └───────────────┘ └──────────────┘ └───────────────┘
 
 ── World view ────────────────────────────────────────────────
 ┌──────────────────────────────────────────────────────────┐
-│                  ◔ choropleth (SVG, d3-geo)               │  hover→tooltip
-│            seed countries shaded by tier                  │  click→/country/:iso
-│  ■ excellent  ■ good  ■ fair  ■ weak   (legend)           │
+│ [+]  🗺️ full-world choropleth (Leaflet/SVG)               │  drag→pan · scroll/btn→zoom
+│ [−]  all countries; scored ones green-shaded; north-up    │
+│      55% ░▒▓█ 85%   (gradient legend, low→high)           │  click→popup overview → "View <country>"
 └──────────────────────────────────────────────────────────┘
+Plain Leaflet map, **all countries** from our GeoJSON (no external tiles → offline); scored ones shaded on a **continuous green ramp** (pale = low, deep = high) via `scoreToGreen()` over the data-fit domain, others neutral grey. Reliable SVG rendering (no WebGL). Longitudes unwrapped so dateline-crossing countries (Russia, Fiji) don't draw full-width bands; Antarctica omitted. Default world `center`/`zoom`. Default interactions only: **pan + zoom** (top-left control); always north-up. Clicking a country opens the **default Leaflet popup** with a basic overview (flag · name · score · region · rank · summary) + one *View &lt;country&gt;* button → navigates; ✕ / click-elsewhere closes. Legend is a gradient bar anchored with the actual min/max %. Ocean theme-aware (`bg-muted`); minimal — no custom theming/hover/controls.
 
 ── Leaderboard ──────────────────────────  [ Full leaderboard → ]
 ┌──────────────────────────────────────────────────────────┐
 │ 1  🇩🇪 Germany ............................... ▮84▮         │  top 5, each row → detail
 │ 2  🇨🇦 Canada  ............................... ▮81▮         │
 │ 3  🇦🇺 Australia ............................. ▮79▮         │
-│ 4  🇳🇱 Netherlands  [pending] ............... ▮60▮         │
-│ 5  🇸🇪 Sweden       [pending] ............... ▮60▮         │
+│ 4  🇳🇱 Netherlands  [Pending] ............... ▮60▮         │
+│ 5  🇸🇪 Sweden       [Pending] ............... ▮60▮         │
 └──────────────────────────────────────────────────────────┘
 ```
 Responsive: podium 3-up ≥sm, stacks on mobile; StatCards `grid-cols-2 sm:grid-cols-4`; map scales by `viewBox` (full width).
@@ -78,7 +79,7 @@ Countries ranked by overall feasibility. Sort any column; search & filter.
 ```
 - Default sort: Overall desc. Click any header → toggle asc/desc (arrow indicator).
 - `🔍` filters by name (global filter). `▼` region filter. `⚙ Columns` popover toggles category columns (Switch per category).
-- Score cells = `ScoreBadge`; pending rows show `—` per category + `[pending]` chip by the name.
+- Score cells = `ScoreBadge`; pending rows show `—` per category + `[Pending]` chip by the name.
 - Wide table → `overflow-x-auto`; rank column stays first.
 
 ---
@@ -117,7 +118,7 @@ Compare up to three countries side by side.
 🇩🇪  Germany                                         Overall
      Europe · Rank #1 · Reviewed 16/06/2026          ▮84▮
      Strong software/AI market, no tuition… (summary)
-     [pending] Some categories not yet assessed — provisional.   (only if pending)
+     [Pending] Some categories not yet assessed — provisional.   (only if pending)
 
 ┌─ Category profile ─────────┐  ┌─ Contribution to overall ──┐
 │      ◔ radar (single)      │  │  Job Market   ████████ 10.6│  ← bars, sorted desc,
@@ -148,12 +149,14 @@ Responsive: two charts `lg:grid-cols-2` (stack on mobile); cards `md:grid-cols-2
 About this tool                                              (h1)
 A transparent, personally-weighted ranking… (intro)
 
-── Who this is for ───────────────────────────────────────
-┌─ Erfanul Bhuiyan ─────┐  ┌─ Spouse ──────────────┐
+── The household ─────────────────────────────────────────   (two equal peers — no applicant/dependent label)
+┌───────────────────────┐  ┌────────────────────────┐
+│ Erfanul Bhuiyan       │  │ Tanima Hossain         │
 │ Software Eng·Netpower │  │ Software Eng·Optimizely│
-│ Dhaka, Bangladesh     │  │ 4+ yrs · Dhaka         │
-└───────────────────────┘  └───────────────────────┘
-Both hold BSc in CSE from Daffodil International University.
+│ Dhaka, Bangladesh     │  │ Dhaka, Bangladesh      │
+│ Portfolio ↗  LinkedIn↗│  │ Portfolio ↗  LinkedIn↗ │  ← per-person links
+└───────────────────────┘  └────────────────────────┘
+Both hold a BSc in CSE from Daffodil International University; either of us can lead the application — the other joins as the dependent.
 
 ── Goal & pathway ────────────────────────────────────────
 [ MSc studies ] → [ Post-study work ] → [ PR ] → [ Citizenship ] → [ Passport ]
@@ -166,13 +169,12 @@ Both hold BSc in CSE from Daffodil International University.
 Each category has a fixed weight (its % ceiling). Overall = weighted average; pending cells use a flagged placeholder score and ARE included (country marked provisional); only categories absent from the data are excluded (renormalised).
 ┌────────────────────────────┬────────┬───────────────────────────┐
 │ Category                   │ Weight │ What it measures          │
-│ Software & AI Job Market   │   12   │ Demand, salary, sponsor…  │   sorted by weight desc
-│ Visa Accessibility (BD)    │   10   │ Acceptance, Dhaka mission…│
+│ Software & AI Job Market   │  12%   │ Demand, salary, sponsor…  │   sorted by weight desc
+│ Visa Accessibility (BD)    │  10%   │ Acceptance, Dhaka mission…│
 │ …                          │   …    │ …                         │
 └────────────────────────────┴────────┴───────────────────────────┘
-
-── Links ──   Portfolio ↗   LinkedIn ↗
 ```
+Per-person Portfolio/LinkedIn links live inside each profile card (above), so there is no separate Links section.
 Responsive: profile cards `sm:grid-cols-2`; pathway chips wrap; weight table `overflow-x-auto`.
 
 ---
@@ -181,7 +183,7 @@ Responsive: profile cards `sm:grid-cols-2`; pathway chips wrap; weight table `ov
 
 | Token | Min width | Key changes |
 |-------|-----------|-------------|
-| base | 0 | Single column; nav labels stay (short); tables scroll-x |
+| base | 0 | Single column; nav links collapse to a hamburger menu; wide tables scroll-x; map pan/zoom (touch) |
 | `sm` | 640px | Podium 3-up; StatCards 4-up; profile cards 2-up |
 | `md` | 768px | Category cards 2-up |
 | `lg` | 1024px | Detail charts side-by-side |

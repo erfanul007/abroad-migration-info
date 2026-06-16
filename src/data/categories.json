@@ -1,16 +1,194 @@
 [
-  { "id": "job-market", "name": "Software & AI Job Market", "shortLabel": "Job Market", "weight": 12, "description": "Demand, salary, sponsorship, and market size for software/AI engineers.", "factors": ["Demand for SW/AI engineers", "Salary levels", "Visa sponsorship norms", "Remote acceptance", "Market size for both spouses"] },
-  { "id": "visa-access", "name": "Visa Accessibility (Bangladesh)", "shortLabel": "Visa Access", "weight": 10, "description": "Bangladeshi-national lens: acceptance vs refusal, Dhaka mission, processing, financial bars, diplomatic ties, bans.", "factors": ["Acceptance vs refusal rate for BD applicants", "Embassy in Dhaka vs travel (e.g. New Delhi)", "Processing time & complexity", "Financial-proof / blocked-account bars", "Document scrutiny burden", "Diplomatic ties BD <-> country", "History of bans / heightened scrutiny"] },
-  { "id": "citizenship", "name": "Citizenship & Passport Strength", "shortLabel": "Citizenship", "weight": 10, "description": "Years to citizenship, dual citizenship, requirements, passport strength.", "factors": ["Years to citizenship", "Dual citizenship allowed", "Residency/language requirements", "Passport visa-free access"] },
-  { "id": "post-study-work", "name": "Post-Study Work Permit", "shortLabel": "Post-Study Work", "weight": 9, "description": "PSW duration, eligibility, job-search window, transition to skilled work, spouse rights.", "factors": ["PSW permit duration", "Eligibility ease", "Job-search window", "Transition to skilled-work visa", "Spouse work rights during PSW"] },
-  { "id": "spouse-family", "name": "Spouse Work & Family", "shortLabel": "Spouse & Family", "weight": 9, "description": "Dependent visa, spouse work rights during/after study, family reunification, schooling.", "factors": ["Dependent visa availability", "Spouse work permit during study", "Spouse work permit after study/work", "Family reunification", "Children's schooling"] },
-  { "id": "msc-study", "name": "Master's Study Access", "shortLabel": "MSc Study", "weight": 8, "description": "English-taught programs, cost, scholarships, duration, student work rights, spouse accompany.", "factors": ["English-taught program availability", "Tuition/study cost", "Scholarship availability", "Typical program duration", "Student part-time work rights (hrs/week)", "Spouse can accompany", "Intake flexibility"] },
-  { "id": "pr-pathway", "name": "Permanent Residency Pathway", "shortLabel": "PR Pathway", "weight": 8, "description": "Years to PR, clarity of route, criteria difficulty, policy predictability.", "factors": ["Years to PR eligibility", "Clarity of route", "Points/criteria difficulty", "Predictability of policy"] },
-  { "id": "income-cost", "name": "Income & Cost of Living", "shortLabel": "Income & Cost", "weight": 7, "description": "Net salary vs cost, savings potential, housing availability.", "factors": ["Net salary vs rent & living cost", "Savings potential", "Housing availability"] },
-  { "id": "healthcare", "name": "Healthcare & Welfare", "shortLabel": "Healthcare", "weight": 6, "description": "Healthcare access/quality/cost & coverage, unemployment support, parental benefits, pensions.", "factors": ["Healthcare access & quality", "Cost & coverage for students/residents", "Unemployment support", "Parental benefits", "Pensions / safety net"] },
-  { "id": "culture-language", "name": "Culture & Language", "shortLabel": "Culture/Lang", "weight": 6, "description": "English usability, local-language requirements, integration, work-life balance, livability.", "factors": ["English usability day-to-day", "Local-language requirement for PR/citizenship", "Integration support", "Work-life balance", "Openness/diversity", "Climate & livability"] },
-  { "id": "safety-law", "name": "Safety & Rule of Law", "shortLabel": "Safety & Law", "weight": 5, "description": "Crime, rule of law, treatment of immigrants, judicial fairness.", "factors": ["Crime levels", "Rule of law", "Treatment of immigrants", "Judicial fairness"] },
-  { "id": "politics", "name": "Political Stability", "shortLabel": "Politics", "weight": 4, "description": "Government stability, immigration-policy volatility, anti-immigrant sentiment trend.", "factors": ["Government stability", "Immigration-policy volatility", "Anti-immigrant sentiment trend"] },
-  { "id": "tax", "name": "Tax Burden", "shortLabel": "Tax", "weight": 3, "description": "Income tax burden, treatment of students/foreign workers, take-home pay.", "factors": ["Income tax burden", "Treatment of students/foreign workers", "Take-home pay"] },
-  { "id": "muslim-diaspora", "name": "Muslim Diaspora", "shortLabel": "Muslim", "weight": 3, "description": "Muslim & South-Asian community, halal food, mosques, religious accommodation, sentiment trend.", "factors": ["Muslim & South-Asian community size", "Halal food availability", "Mosques/prayer facilities", "Religious accommodation", "Anti-Muslim sentiment trend"] }
+  {
+    "id": "job-market",
+    "name": "Software & AI Job Market",
+    "shortLabel": "Job Market",
+    "weight": 12,
+    "description": "Demand, salary, sponsorship, and market size for software/AI engineers.",
+    "factors": [
+      "Demand for SW/AI engineers",
+      "Salary levels",
+      "Visa sponsorship norms",
+      "Remote acceptance",
+      "Market size for both spouses"
+    ]
+  },
+  {
+    "id": "visa-access",
+    "name": "Visa Accessibility (Bangladesh)",
+    "shortLabel": "Visa Access",
+    "weight": 10,
+    "description": "Bangladeshi-national lens: acceptance vs refusal, Dhaka mission, processing, financial bars, diplomatic ties, bans.",
+    "factors": [
+      "Acceptance vs refusal rate for BD applicants",
+      "Embassy in Dhaka vs travel (e.g. New Delhi)",
+      "Processing time & complexity",
+      "Financial-proof / blocked-account bars",
+      "Document scrutiny burden",
+      "Diplomatic ties BD <-> country",
+      "History of bans / heightened scrutiny"
+    ]
+  },
+  {
+    "id": "citizenship",
+    "name": "Citizenship & Passport Strength",
+    "shortLabel": "Citizenship",
+    "weight": 10,
+    "description": "Years to citizenship, dual citizenship, requirements, passport strength.",
+    "factors": [
+      "Years to citizenship",
+      "Dual citizenship allowed",
+      "Residency/language requirements",
+      "Passport visa-free access"
+    ]
+  },
+  {
+    "id": "post-study-work",
+    "name": "Post-Study Work Permit",
+    "shortLabel": "Post-Study Work",
+    "weight": 9,
+    "description": "PSW duration, eligibility, job-search window, transition to skilled work, spouse rights.",
+    "factors": [
+      "PSW permit duration",
+      "Eligibility ease",
+      "Job-search window",
+      "Transition to skilled-work visa",
+      "Spouse work rights during PSW"
+    ]
+  },
+  {
+    "id": "spouse-family",
+    "name": "Spouse Work & Family",
+    "shortLabel": "Spouse & Family",
+    "weight": 9,
+    "description": "Dependent visa, spouse work rights during/after study, family reunification, schooling.",
+    "factors": [
+      "Dependent visa availability",
+      "Spouse work permit during study",
+      "Spouse work permit after study/work",
+      "Family reunification",
+      "Children's schooling"
+    ]
+  },
+  {
+    "id": "msc-study",
+    "name": "Master's Study Access",
+    "shortLabel": "MSc Study",
+    "weight": 8,
+    "description": "English-taught programs, cost, scholarships, duration, student work rights, spouse accompany.",
+    "factors": [
+      "English-taught program availability",
+      "Tuition/study cost",
+      "Scholarship availability",
+      "Typical program duration",
+      "Student part-time work rights (hrs/week)",
+      "Spouse can accompany",
+      "Intake flexibility"
+    ]
+  },
+  {
+    "id": "pr-pathway",
+    "name": "Permanent Residency Pathway",
+    "shortLabel": "PR Pathway",
+    "weight": 8,
+    "description": "Years to PR, clarity of route, criteria difficulty, policy predictability.",
+    "factors": [
+      "Years to PR eligibility",
+      "Clarity of route",
+      "Points/criteria difficulty",
+      "Predictability of policy"
+    ]
+  },
+  {
+    "id": "income-cost",
+    "name": "Income & Cost of Living",
+    "shortLabel": "Income & Cost",
+    "weight": 7,
+    "description": "Net salary vs cost, savings potential, housing availability.",
+    "factors": [
+      "Net salary vs rent & living cost",
+      "Savings potential",
+      "Housing availability"
+    ]
+  },
+  {
+    "id": "healthcare",
+    "name": "Healthcare & Welfare",
+    "shortLabel": "Healthcare",
+    "weight": 6,
+    "description": "Healthcare access/quality/cost & coverage, unemployment support, parental benefits, pensions.",
+    "factors": [
+      "Healthcare access & quality",
+      "Cost & coverage for students/residents",
+      "Unemployment support",
+      "Parental benefits",
+      "Pensions / safety net"
+    ]
+  },
+  {
+    "id": "culture-language",
+    "name": "Culture & Language",
+    "shortLabel": "Culture/Lang",
+    "weight": 6,
+    "description": "English usability, local-language requirements, integration, work-life balance, livability.",
+    "factors": [
+      "English usability day-to-day",
+      "Local-language requirement for PR/citizenship",
+      "Integration support",
+      "Work-life balance",
+      "Openness/diversity",
+      "Climate & livability"
+    ]
+  },
+  {
+    "id": "safety-law",
+    "name": "Safety & Rule of Law",
+    "shortLabel": "Safety & Law",
+    "weight": 5,
+    "description": "Crime, rule of law, treatment of immigrants, judicial fairness.",
+    "factors": [
+      "Crime levels",
+      "Rule of law",
+      "Treatment of immigrants",
+      "Judicial fairness"
+    ]
+  },
+  {
+    "id": "politics",
+    "name": "Political Stability",
+    "shortLabel": "Politics",
+    "weight": 4,
+    "description": "Government stability, immigration-policy volatility, anti-immigrant sentiment trend.",
+    "factors": [
+      "Government stability",
+      "Immigration-policy volatility",
+      "Anti-immigrant sentiment trend"
+    ]
+  },
+  {
+    "id": "tax",
+    "name": "Tax Burden",
+    "shortLabel": "Tax",
+    "weight": 3,
+    "description": "Income tax burden, treatment of students/foreign workers, take-home pay.",
+    "factors": [
+      "Income tax burden",
+      "Treatment of students/foreign workers",
+      "Take-home pay"
+    ]
+  },
+  {
+    "id": "muslim-diaspora",
+    "name": "Muslim Diaspora",
+    "shortLabel": "Muslim",
+    "weight": 3,
+    "description": "Muslim & South-Asian community, halal food, mosques, religious accommodation, sentiment trend.",
+    "factors": [
+      "Muslim & South-Asian community size",
+      "Halal food availability",
+      "Mosques/prayer facilities",
+      "Religious accommodation",
+      "Anti-Muslim sentiment trend"
+    ]
+  }
 ]

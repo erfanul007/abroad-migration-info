@@ -44,17 +44,25 @@ export interface Preferences {
   fasterCitizenship: boolean;
   dualCitizenship: string;
   professionPriority: string;
-  spouseAccompanies: boolean;
+  relocateTogether: boolean; // household of two — both partners move together
+}
+
+/** A household member. Both partners are peers — either can be the primary
+ *  applicant and the other the dependent, so no role hierarchy is encoded. */
+export interface Person {
+  name: string;
+  role: string;
+  company: string;
+  location: string;
+  links: { portfolio: string; linkedin: string };
 }
 
 export interface Profile {
-  applicant: { name: string; role: string; company: string; location: string };
-  spouse: { role: string; company: string; experienceYears: number; location: string };
+  household: { people: Person[] };
   education: { degree: string; institution: string; completed: string };
   goal: string;
   pathway: string[];
   preferences: Preferences;
-  links: { portfolio: string; linkedin: string };
 }
 
 // Derived (runtime only)

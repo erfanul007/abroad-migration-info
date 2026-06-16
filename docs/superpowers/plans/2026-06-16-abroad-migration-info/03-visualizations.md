@@ -91,9 +91,11 @@ git commit -m "feat: weighted-contribution bar chart"
 
 ---
 
-## Task 19: Choropleth map (d3-geo, offline)
+## Task 19: Choropleth map (offline)
 
 **Files:** Create `src/components/charts/Choropleth.tsx`
+
+> **As-built note.** The steps below are the original `d3-geo` SVG plan. The shipped component instead uses **Leaflet + react-leaflet** (tile-less GeoJSON layer with antimeridian longitude unwrapping, click → popup overview, pan/zoom) and shades scored countries on a **continuous green ramp** (`scoreToGreen()`), not discrete tiers. The authoritative reference is `src/components/charts/Choropleth.tsx` plus PRD §10.1 note and design-system §2.2 / §5. Kept here as the build record.
 
 - [ ] **Step 1: Implement the choropleth** (bundled world-atlas topojson; shade by overall tier; click → detail). Geometry join is by **country name** — Natural Earth `countries-110m` names match all 13 seeds, which avoids the numeric-id gaps (e.g. Norway) that affect id-based joins.
 

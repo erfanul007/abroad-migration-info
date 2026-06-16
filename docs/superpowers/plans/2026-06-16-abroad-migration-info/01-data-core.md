@@ -57,17 +57,25 @@ export interface Preferences {
   fasterCitizenship: boolean;
   dualCitizenship: string;
   professionPriority: string;
-  spouseAccompanies: boolean;
+  relocateTogether: boolean; // household of two — both partners move together
+}
+
+/** A household member. Both partners are peers — either can be the primary
+ *  applicant and the other the dependent, so no role hierarchy is encoded. */
+export interface Person {
+  name: string;
+  role: string;
+  company: string;
+  location: string;
+  links: { portfolio: string; linkedin: string };
 }
 
 export interface Profile {
-  applicant: { name: string; role: string; company: string; location: string };
-  spouse: { role: string; company: string; experienceYears: number; location: string };
+  household: { people: Person[] };
   education: { degree: string; institution: string; completed: string };
   goal: string;
   pathway: string[];
   preferences: Preferences;
-  links: { portfolio: string; linkedin: string };
 }
 
 // Derived (runtime only)
@@ -127,8 +135,12 @@ git commit -m "feat: domain types for profile, category, country, scored model"
 
 ```json
 {
-  "applicant": { "name": "Erfanul Bhuiyan", "role": "Software Engineer", "company": "Netpower", "location": "Dhaka, Bangladesh" },
-  "spouse": { "role": "Software Engineer", "company": "Optimizely", "experienceYears": 4, "location": "Dhaka, Bangladesh" },
+  "household": {
+    "people": [
+      { "name": "Erfanul Bhuiyan", "role": "Software Engineer", "company": "Netpower", "location": "Dhaka, Bangladesh", "links": { "portfolio": "https://erfanul007.github.io/portfolio-ai/", "linkedin": "https://www.linkedin.com/in/erfanul007/" } },
+      { "name": "Tanima Hossain", "role": "Software Engineer", "company": "Optimizely", "location": "Dhaka, Bangladesh", "links": { "portfolio": "https://tanimahossain.github.io/", "linkedin": "https://www.linkedin.com/in/tanimahossain/" } }
+    ]
+  },
   "education": { "degree": "BSc in CSE", "institution": "Daffodil International University", "completed": "2022-02" },
   "goal": "MSc studies -> post-study work -> permanent residency -> citizenship -> passport",
   "pathway": ["MSc studies", "Post-study work permit", "Permanent residency", "Citizenship", "Passport"],
@@ -137,9 +149,8 @@ git commit -m "feat: domain types for profile, category, country, scored model"
     "fasterCitizenship": true,
     "dualCitizenship": "preferred",
     "professionPriority": "IT / Software / AI Engineering",
-    "spouseAccompanies": true
-  },
-  "links": { "portfolio": "https://erfanul007.github.io/portfolio-ai/", "linkedin": "https://www.linkedin.com/in/erfanul007/" }
+    "relocateTogether": true
+  }
 }
 ```
 
