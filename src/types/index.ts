@@ -7,6 +7,8 @@ export type {
   Factor,
   Category,
   CellStatus,
+  ProCon,
+  FactorScore,
   CategoryScore,
   Country,
   Preferences,
@@ -23,13 +25,16 @@ export type CategoryId = string;
 export interface ScoredCategory {
   category: Category;
   cell: CategoryScore | null; // null = category missing for this country
-  contribution: number;       // (score/100) * weight, 0 if missing
+  score: number | null;       // derived from factor sub-scores; null = non-derivable (pending/incomplete)
+  contribution: number;       // (score/100) * weight, 0 if non-derivable
 }
 
 export interface ScoredCountry extends Country {
-  overall: number;     // 0..100, renormalised over present categories
+  overall: number;     // 0..100, renormalised over derivable categories
   rank: number;        // 1-based by overall desc
-  hasPending: boolean; // any cell status === "pending"
-  isComplete: boolean; // all categories present and scored
+  hasPending: boolean; // any category non-derivable (pending/incomplete factors)
+  isComplete: boolean; // all categories present and derivable
+  hasBlocker: boolean; // any con tagged severity:"blocker"
+  categoryScores: Record<string, number | null>; // derived per-category score lookup
   scored: ScoredCategory[];
 }
