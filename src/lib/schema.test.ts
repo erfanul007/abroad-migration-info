@@ -1,28 +1,49 @@
 // src/lib/schema.test.ts
 // Tests cover ONLY the cross-field rules we own — category weights summing to 100, unique
-// category ids, and a country referencing only known category ids. The full-shape checking
-// (required fields, status enum, integer 0..100 scores, link {title,url}) is Zod's job and
-// is intentionally not re-tested here.
+// category ids, factor weights summing to 100, unique factor ids, a mandatory "other" factor,
+// and a country referencing only known category ids. Full-shape checking (required fields,
+// status enum, integer 0..100 scores, link {title,url}) is Zod's job and is not re-tested here.
 import { describe, it, expect } from "vitest";
 import { validateCategories, validateCountry } from "@/lib/schema";
-import type { Category, Country } from "@/types";
+import type { Category, Country, Factor } from "@/types";
+
+const f = (id: string, weight: number): Factor => ({ id, label: id, description: "", weight });
 
 const cats: Category[] = [
-  { id: "a", name: "A", shortLabel: "A", weight: 60, description: "", factors: [] },
-  { id: "b", name: "B", shortLabel: "B", weight: 40, description: "", factors: [] },
+  { id: "a", name: "A", shortLabel: "A", weight: 60, description: "", factors: [f("a1", 50), f("other", 50)] },
+  { id: "b", name: "B", shortLabel: "B", weight: 40, description: "", factors: [f("b1", 60), f("other", 40)] },
 ];
 
 describe("validateCategories", () => {
-  it("passes when weights sum to 100 and ids are unique", () => {
+  it("passes when category weights sum to 100, ids unique, and factors are valid", () => {
     expect(validateCategories(cats)).toEqual([]);
   });
-  it("flags when weights do not sum to 100", () => {
+  it("flags when category weights do not sum to 100", () => {
     const bad = [{ ...cats[0], weight: 50 }, cats[1]];
     expect(validateCategories(bad)).toContainEqual(expect.stringContaining("sum to 100"));
   });
-  it("flags duplicate ids", () => {
+  it("flags duplicate category ids", () => {
     const dup = [cats[0], { ...cats[1], id: "a" }];
     expect(validateCategories(dup)).toContainEqual(expect.stringContaining("Duplicate"));
+  });
+});
+
+describe("factor validation", () => {
+  it("flags factor weights that do not sum to 100", () => {
+    const bad = [{ ...cats[0], factors: [f("a1", 50), f("other", 40)] }, cats[1]];
+    expect(validateCategories(bad).length).toBeGreaterThan(0);
+  });
+  it("flags duplicate factor ids within a category", () => {
+    const bad = [{ ...cats[0], factors: [f("a1", 50), f("a1", 30), f("other", 20)] }, cats[1]];
+    expect(validateCategories(bad).length).toBeGreaterThan(0);
+  });
+  it("flags a category with no 'other' factor", () => {
+    const bad = [{ ...cats[0], factors: [f("a1", 50), f("a2", 50)] }, cats[1]];
+    expect(validateCategories(bad).length).toBeGreaterThan(0);
+  });
+  it("rejects string factors (old shape)", () => {
+    const bad = [{ ...cats[0], factors: ["a1", "other"] }, cats[1]];
+    expect(validateCategories(bad as unknown as Category[]).length).toBeGreaterThan(0);
   });
 });
 

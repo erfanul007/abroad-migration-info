@@ -16,14 +16,35 @@ export const referenceLinkSchema = z.object({
   url: z.url(),
 });
 
-export const categorySchema = z.object({
+export const factorSchema = z.object({
   id: z.string().min(1),
-  name: z.string(),
-  shortLabel: z.string(),
-  weight: z.number().positive(),
+  label: z.string(),
   description: z.string(),
-  factors: z.array(z.string()),
+  weight: z.number().positive(),
 });
+
+// A category carries weighted, described factors (sub-categories). Our rules (not pure shape):
+// factor weights sum to 100, factor ids are unique, and every category has an "other"
+// catch-all factor. Expressed as refinements so a single parse enforces them.
+export const categorySchema = z
+  .object({
+    id: z.string().min(1),
+    name: z.string(),
+    shortLabel: z.string(),
+    weight: z.number().positive(),
+    description: z.string(),
+    factors: z.array(factorSchema),
+  })
+  .refine(
+    (c) => Math.abs(c.factors.reduce((a, f) => a + f.weight, 0) - 100) <= WEIGHT_TOLERANCE,
+    { message: "Factor weights must sum to 100." },
+  )
+  .refine((c) => new Set(c.factors.map((f) => f.id)).size === c.factors.length, {
+    message: "Duplicate factor id within category.",
+  })
+  .refine((c) => c.factors.some((f) => f.id === "other"), {
+    message: "Category must contain an 'other' factor.",
+  });
 
 export const cellStatusSchema = z.enum(["scored", "pending"]);
 
@@ -88,6 +109,7 @@ export const profileSchema = z.object({
 
 // Inferred types — the canonical data types for the whole app (re-exported from @/types).
 export type ReferenceLink = z.infer<typeof referenceLinkSchema>;
+export type Factor = z.infer<typeof factorSchema>;
 export type Category = z.infer<typeof categorySchema>;
 export type CellStatus = z.infer<typeof cellStatusSchema>;
 export type CategoryScore = z.infer<typeof categoryScoreSchema>;

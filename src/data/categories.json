@@ -6,11 +6,48 @@
     "weight": 12,
     "description": "Demand, salary, sponsorship, and market size for software/AI engineers.",
     "factors": [
-      "Demand for SW/AI engineers",
-      "Salary levels",
-      "Visa sponsorship norms",
-      "Remote acceptance",
-      "Market size for both spouses"
+      {
+        "id": "sw-demand-depth",
+        "label": "General software-engineer demand & market depth",
+        "description": "Research official shortage/priority-occupation lists (Germany Fachkraefte, UK Immigration Salary List, Australia Skills Priority List, Canada Express Entry categories) and national ICT vacancy/employment data for whether software developer is in shortage. Anchors: ~90 = on shortage list, large absorptive market, hubs hiring sub-seniors; ~50 = moderate demand, not specially privileged, picky market; ~20 = small/saturated, no shortage status.",
+        "weight": 22
+      },
+      {
+        "id": "ai-ml-specialisation",
+        "label": "AI / ML specialisation depth",
+        "description": "Assess the AI/ML ecosystem specifically: national AI strategy/funding, AI roles on bottleneck lists, density of AI labs/employers, Stanford AI Index talent/investment. Anchors: ~90 = top-tier AI hub absorbing two AI engineers; ~50 = growing AI sector in 1-2 cities; ~20 = thin AI scene.",
+        "weight": 14
+      },
+      {
+        "id": "salary-levels",
+        "label": "Software / AI salary levels (PPP-aware)",
+        "description": "Median and entry-to-mid software & AI salaries from national-statistics/OECD wage data plus reputable surveys, PPP-aware; flag whether pay clears visa salary thresholds. Gross pay scale only (cost-of-living lives in income-cost). Anchors: ~90 = high absolute+PPP pay with AI premium; ~50 = European-average tech pay; ~20 = low relative to peers.",
+        "weight": 16
+      },
+      {
+        "id": "sponsorship-work-authorisation",
+        "label": "Employer sponsorship & work-authorisation friction",
+        "description": "Gov-first skilled-work routes (EU Blue Card, UK Skilled Worker + licensed sponsors, Canada LMIA/PGWP, Australia streams), labour-market tests, salary floors gating sponsorship, employer willingness to sponsor non-citizens. Anchors: ~90 = no labour-market test for tech, low clear threshold, employers routinely sponsor; ~50 = sponsorship with thresholds/friction; ~20 = strict test, high floors, few sponsors.",
+        "weight": 20
+      },
+      {
+        "id": "foreign-grad-bd-hireability",
+        "label": "Foreign-graduate & BD-applicant real hireability",
+        "description": "BD-lens real hireability beyond legal demand: language-gating of roles, employer attitudes to non-EU/foreign hires, recognition of foreign degrees/online experience, international-graduate stay/retention rates, OECD migrant employment gap. Anchors: ~90 = English-workable, strong graduate retention; ~50 = English roles mainly in hubs/MNCs; ~20 = local-language-gated, weak retention.",
+        "weight": 12
+      },
+      {
+        "id": "dual-earner-depth",
+        "label": "Market capacity for two tech earners",
+        "description": "Market capacity to absorb BOTH spouses in tech (owns market placement of two earners; legal right-to-work lives in spouse-family). Breadth of employers/cities so both find roles. Anchors: ~90 = deep multi-hub market; ~50 = limited to 1-2 hubs; ~20 = thin, one spouse likely underplaced.",
+        "weight": 8
+      },
+      {
+        "id": "other",
+        "label": "Other / job-market-specific findings",
+        "description": "Researcher catch-all for material job-market findings not captured above (tech-layoff cycle, sector/employer concentration risk, startup-visa schemes). Score the net effect on hireability for two AI/software engineers; 50 = neutral/none.",
+        "weight": 8
+      }
     ]
   },
   {
@@ -20,13 +57,48 @@
     "weight": 10,
     "description": "Bangladeshi-national lens: acceptance vs refusal, Dhaka mission, processing, financial bars, diplomatic ties, bans.",
     "factors": [
-      "Acceptance vs refusal rate for BD applicants",
-      "Embassy in Dhaka vs travel (e.g. New Delhi)",
-      "Processing time & complexity",
-      "Financial-proof / blocked-account bars",
-      "Document scrutiny burden",
-      "Diplomatic ties BD <-> country",
-      "History of bans / heightened scrutiny"
+      {
+        "id": "approval-refusal-rate",
+        "label": "BD student-visa approval vs refusal rate",
+        "description": "Bangladeshi-national student-visa approval vs refusal rates from official/embassy/ICEF data, current year. Anchors: ~90 = high BD approval, low refusal; ~50 = mixed/moderate refusal; ~20 = majority refusal or sharply rising refusals for BD.",
+        "weight": 22
+      },
+      {
+        "id": "dhaka-mission-appointment-capacity",
+        "label": "Dhaka mission & appointment capacity",
+        "description": "Whether the country processes visas in Dhaka (vs travel to New Delhi/elsewhere) and current appointment wait/capacity. Anchors: ~90 = full mission in Dhaka, short waits; ~50 = VFS/limited or moderate waits; ~20 = no in-country processing, long backlog, or paused capacity.",
+        "weight": 20
+      },
+      {
+        "id": "in-queue-processing-schemes",
+        "label": "Processing time, complexity & fast-track schemes",
+        "description": "Processing time, complexity, and any fast-track/priority study schemes available to BD applicants. Anchors: ~90 = fast, simple, priority scheme; ~50 = standard multi-week; ~20 = slow, complex, no streamlining.",
+        "weight": 13
+      },
+      {
+        "id": "financial-bars",
+        "label": "Financial-proof / blocked-account bars",
+        "description": "Regulatory proof-of-funds / blocked-account requirements as a barrier for a BD applicant (owns the regulatory funds threshold; living-cost affordability lives in income-cost). Anchors: ~90 = modest, flexible funds proof; ~50 = significant blocked-account/GIC; ~20 = very high upfront funds bar.",
+        "weight": 13
+      },
+      {
+        "id": "credibility-genuineness-scrutiny",
+        "label": "Baseline document & genuine-student scrutiny",
+        "description": "Standard (baseline) document and genuine-student scrutiny burden for BD applicants. Anchors: ~90 = light, predictable documentation; ~50 = moderate scrutiny; ~20 = heavy interviews/credibility checks as standard.",
+        "weight": 12
+      },
+      {
+        "id": "heightened-scrutiny-policy-risk",
+        "label": "Above-baseline / nationality-targeted scrutiny & ban risk",
+        "description": "Above-baseline, nationality-targeted scrutiny, bans, or restriction trend for Bangladesh specifically (distinct from baseline credibility). Anchors: ~90 = none, stable ties; ~50 = some enhanced-scrutiny listing; ~20 = active ban/visa pause/heightened targeting of BD.",
+        "weight": 12
+      },
+      {
+        "id": "other",
+        "label": "Other / visa-access-specific findings",
+        "description": "Catch-all for material visa-access findings not captured above (diplomatic-ties shifts, fraud-pattern warnings affecting BD applicants). 50 = neutral.",
+        "weight": 8
+      }
     ]
   },
   {
@@ -36,10 +108,48 @@
     "weight": 10,
     "description": "Years to citizenship, dual citizenship, requirements, passport strength.",
     "factors": [
-      "Years to citizenship",
-      "Dual citizenship allowed",
-      "Residency/language requirements",
-      "Passport visa-free access"
+      {
+        "id": "time-to-citizenship",
+        "label": "Years to citizenship",
+        "description": "Years of residence/PR before naturalisation eligibility (faster is better for the goal). Anchors: ~90 = <=3-4 years; ~50 = ~6-8 years; ~20 = >=10 years.",
+        "weight": 26
+      },
+      {
+        "id": "naturalisation-requirements",
+        "label": "Naturalisation requirements",
+        "description": "Language level, civics test, residence/physical-presence, income/character conditions for naturalisation. Anchors: ~90 = modest language + simple test; ~50 = B1-B2 + civics; ~20 = high language (B2+/C1) plus onerous conditions.",
+        "weight": 22
+      },
+      {
+        "id": "dual-citizenship-retention",
+        "label": "Dual-citizenship retention (BD lens)",
+        "description": "Can a naturalising Bangladeshi RETAIN BD nationality (destination permits dual AND Bangladesh permits retention via Dual Nationality Certificate)? Owns the dual question. Anchors: ~90 = dual freely allowed both sides; ~50 = allowed with formalities/exceptions; 0-15 = renunciation required or BD not on the DNC list (mark as a blocker con).",
+        "weight": 13
+      },
+      {
+        "id": "citizenship-attainability",
+        "label": "Real-world attainability",
+        "description": "Real-world attainability of reaching citizenship for this profile, given upstream PR delivery, discretion, and queues. Anchors: ~90 = near-automatic once PR held; ~50 = attainable with effort; ~20 = discretionary/uncertain even after PR.",
+        "weight": 11
+      },
+      {
+        "id": "policy-stability",
+        "label": "Citizenship-stage policy stability",
+        "description": "Recent rule changes to the CITIZENSHIP stage only (residency/dual rules). The macro cross-stage trend lives in politics. Anchors: ~90 = stable/liberalising; ~50 = minor churn; ~20 = recent tightening (e.g. residency requirement doubled).",
+        "weight": 12
+      },
+      {
+        "id": "passport-strength",
+        "label": "Passport strength",
+        "description": "Henley 2026 visa-free count/rank of the country's passport (relevant only after naturalisation). Anchors: ~90 = top-10; ~50 = ~25th; ~20 = weak.",
+        "weight": 9
+      },
+      {
+        "id": "other",
+        "label": "Other / citizenship-specific findings",
+        "description": "Catch-all for citizenship findings not captured above. 50 = neutral.",
+        "weight": 7
+      }
     ]
   },
   {
@@ -49,11 +159,48 @@
     "weight": 9,
     "description": "PSW duration, eligibility, job-search window, transition to skilled work, spouse rights.",
     "factors": [
-      "PSW permit duration",
-      "Eligibility ease",
-      "Job-search window",
-      "Transition to skilled-work visa",
-      "Spouse work rights during PSW"
+      {
+        "id": "psw-duration-runway",
+        "label": "PSW duration / job-search runway",
+        "description": "Length of the post-study work/job-search runway to find skilled work. Anchors: ~90 = >=3 years open; ~50 = ~1 year; ~20 = none or a few months.",
+        "weight": 24
+      },
+      {
+        "id": "eligibility-openness-bd",
+        "label": "PSW eligibility openness (BD grad)",
+        "description": "Ease/openness of PSW eligibility for a Bangladeshi master's graduate (degree level/length, application window). Anchors: ~90 = automatic, generous window; ~50 = conditions/short window; ~20 = restrictive or excluded.",
+        "weight": 18
+      },
+      {
+        "id": "transition-to-skilled-work",
+        "label": "Transition to skilled-work visa",
+        "description": "How reliably the PSW converts to a long-term skilled-work visa (deterministic offer-based vs lottery, thresholds). Anchors: ~90 = deterministic offer-based conversion; ~50 = thresholds/some friction; ~20 = lottery-gated/uncertain.",
+        "weight": 18
+      },
+      {
+        "id": "work-freedom-during-psw",
+        "label": "Work freedom during PSW",
+        "description": "Freedom during PSW: any employer/role, full-time, self-employment allowed. Anchors: ~90 = fully open; ~50 = some restrictions; ~20 = employer-tied/limited.",
+        "weight": 16
+      },
+      {
+        "id": "dual-graduate-spouse-psw",
+        "label": "Dual-graduate spouse PSW",
+        "description": "Where BOTH spouses study, can each independently hold their own PSW (graduate-to-graduate case; the accompanying-dependant spouse case lives in spouse-family). Anchors: ~90 = each gets own PSW; ~50 = one strong, other limited; ~20 = principal only.",
+        "weight": 12
+      },
+      {
+        "id": "psw-policy-stability",
+        "label": "PSW-stage policy stability",
+        "description": "Recent changes to the PSW stage specifically. Anchors: ~90 = stable; ~50 = minor changes; ~20 = recent cuts.",
+        "weight": 7
+      },
+      {
+        "id": "other",
+        "label": "Other / PSW-specific findings",
+        "description": "Catch-all for post-study-work findings not captured above. 50 = neutral.",
+        "weight": 5
+      }
     ]
   },
   {
@@ -63,11 +210,36 @@
     "weight": 9,
     "description": "Dependent visa, spouse work rights during/after study, family reunification, schooling.",
     "factors": [
-      "Dependent visa availability",
-      "Spouse work permit during study",
-      "Spouse work permit after study/work",
-      "Family reunification",
-      "Children's schooling"
+      {
+        "id": "spouse-work-rights",
+        "label": "Spouse legal work rights",
+        "description": "Legal right of the accompanying spouse to work during study and during the principal's work phase (owns the legal/visa right to work; market placement lives in job-market dual-earner-depth; own PSW permit lives in post-study-work). Anchors: ~90 = unrestricted spouse work both phases; ~50 = work allowed with conditions/hours; ~20 = no spouse work (e.g. F-2/F-3).",
+        "weight": 30
+      },
+      {
+        "id": "dependent-visa-bd-access",
+        "label": "Dependant-visa access (BD principal)",
+        "description": "Availability/ease of a dependant visa for spouse and children for a Bangladeshi principal (income thresholds, who qualifies). Anchors: ~90 = easy, low threshold; ~50 = threshold/conditions; ~20 = hard/high salary floor or unavailable.",
+        "weight": 26
+      },
+      {
+        "id": "family-reunification-children",
+        "label": "Family reunification & children's schooling",
+        "description": "Family reunification rights plus children's schooling access and cost. Anchors: ~90 = full reunification, free schooling; ~50 = some limits/cost; ~20 = restricted.",
+        "weight": 20
+      },
+      {
+        "id": "spouse-path-to-independence",
+        "label": "Spouse path to independent status",
+        "description": "Path for the spouse to their own independent status (own work/study permit, own PR track) rather than remaining a dependant. Anchors: ~90 = clear independent route; ~50 = possible with effort; ~20 = dependant-only, no independence.",
+        "weight": 16
+      },
+      {
+        "id": "other",
+        "label": "Other / spouse-family-specific findings",
+        "description": "Catch-all for spouse/family findings not captured above. 50 = neutral.",
+        "weight": 8
+      }
     ]
   },
   {
@@ -77,13 +249,42 @@
     "weight": 8,
     "description": "English-taught programs, cost, scholarships, duration, student work rights, spouse accompany.",
     "factors": [
-      "English-taught program availability",
-      "Tuition/study cost",
-      "Scholarship availability",
-      "Typical program duration",
-      "Student part-time work rights (hrs/week)",
-      "Spouse can accompany",
-      "Intake flexibility"
+      {
+        "id": "affordability-funding",
+        "label": "Tuition affordability & funding",
+        "description": "Tuition cost plus scholarship/assistantship availability for a Bangladeshi MSc applicant (owns tuition + scholarships; living cost lives in income-cost). Anchors: ~90 = low/free tuition or strong funding; ~50 = moderate tuition, some scholarships; ~20 = high tuition, little funding.",
+        "weight": 28
+      },
+      {
+        "id": "english-program-depth",
+        "label": "English-taught CS/AI program depth",
+        "description": "Breadth and quality of English-taught CS/AI master's programmes. Anchors: ~90 = wide top-ranked English catalogue; ~50 = some English programmes; ~20 = mostly local-language.",
+        "weight": 24
+      },
+      {
+        "id": "admission-credential-access",
+        "label": "Admission & credential access",
+        "description": "Admissibility for a BD BSc-CSE applicant: degree recognition, GPA/test bars, English-proof requirements. Anchors: ~90 = directly admissible, simple; ~50 = meets bar with effort; ~20 = recognition/credential hurdles.",
+        "weight": 18
+      },
+      {
+        "id": "student-work-rights",
+        "label": "Student part-time work rights",
+        "description": "Student part-time work allowance (hours/week) during study. Anchors: ~90 = >=20 hrs/week; ~50 = ~15-20; ~20 = minimal/none.",
+        "weight": 14
+      },
+      {
+        "id": "study-pathway-fit",
+        "label": "Study-programme fit to PSW minimum",
+        "description": "Whether typical programme attributes (degree level/length) meet the country's PSW-eligibility minimum (study-programme attributes only; downstream PSW/PR are scored in their own categories). Anchors: ~90 = a standard MSc qualifies for max PSW; ~50 = some programmes qualify; ~20 = common programmes miss the threshold.",
+        "weight": 10
+      },
+      {
+        "id": "other",
+        "label": "Other / study-specific findings",
+        "description": "Catch-all for study findings not captured above (intake flexibility, recognition bodies, programme quality). 50 = neutral.",
+        "weight": 6
+      }
     ]
   },
   {
@@ -93,10 +294,48 @@
     "weight": 8,
     "description": "Years to PR, clarity of route, criteria difficulty, policy predictability.",
     "factors": [
-      "Years to PR eligibility",
-      "Clarity of route",
-      "Points/criteria difficulty",
-      "Predictability of policy"
+      {
+        "id": "years-to-pr",
+        "label": "Years to PR eligibility",
+        "description": "Years from study/work start to PR eligibility. Anchors: ~90 = <=3-4 years; ~50 = ~5-6; ~20 = >=8 or no realistic route.",
+        "weight": 24
+      },
+      {
+        "id": "route-clarity-accessibility",
+        "label": "Route clarity & accessibility",
+        "description": "Clarity and accessibility of the PR route for this profile. Anchors: ~90 = clear points/route, attainable; ~50 = workable but complex; ~20 = opaque/discretionary.",
+        "weight": 18
+      },
+      {
+        "id": "eligibility-bars",
+        "label": "Eligibility bars / criteria difficulty",
+        "description": "Difficulty of PR criteria (points cut-offs, salary floors, occupation lists) for two engineers. Anchors: ~90 = easily met; ~50 = competitive; ~20 = high bars/low odds.",
+        "weight": 17
+      },
+      {
+        "id": "language-integration-requirement",
+        "label": "Language / integration requirement",
+        "description": "Language and integration requirement for PR specifically. Anchors: ~90 = none/low; ~50 = B1; ~20 = B2+/integration exam.",
+        "weight": 13
+      },
+      {
+        "id": "continuity-retention",
+        "label": "Status continuity / retention risk",
+        "description": "Risk of losing status or breaking continuity before PR (probability of status loss to rule change; enforcement conduct lives in safety-law). Anchors: ~90 = secure continuity; ~50 = some risk; ~20 = fragile/at-risk.",
+        "weight": 12
+      },
+      {
+        "id": "policy-predictability",
+        "label": "PR policy predictability",
+        "description": "Predictability/stability of the PR policy itself. Anchors: ~90 = stable; ~50 = some churn; ~20 = volatile cuts.",
+        "weight": 11
+      },
+      {
+        "id": "other",
+        "label": "Other / PR-specific findings",
+        "description": "Catch-all for PR-pathway findings not captured above. 50 = neutral.",
+        "weight": 5
+      }
     ]
   },
   {
@@ -106,9 +345,42 @@
     "weight": 7,
     "description": "Net salary vs cost, savings potential, housing availability.",
     "factors": [
-      "Net salary vs rent & living cost",
-      "Savings potential",
-      "Housing availability"
+      {
+        "id": "household-net-surplus",
+        "label": "Household net surplus",
+        "description": "Net monthly surplus after tax and living costs for a dual-engineer household (owns the resulting cash; tax-system mechanics live in tax). Anchors: ~90 = large surplus; ~50 = comfortable; ~20 = little left after costs.",
+        "weight": 30
+      },
+      {
+        "id": "housing-cost-availability",
+        "label": "Housing cost & availability",
+        "description": "Housing cost and availability in the relevant tech cities. Anchors: ~90 = affordable and available; ~50 = pricey hubs; ~20 = severe squeeze.",
+        "weight": 20
+      },
+      {
+        "id": "savings-remittance",
+        "label": "Savings potential & remittance",
+        "description": "Savings potential and ability to remit funds to Bangladesh. Anchors: ~90 = strong savings + easy remittance; ~50 = moderate; ~20 = minimal.",
+        "weight": 18
+      },
+      {
+        "id": "student-phase-affordability",
+        "label": "Study-phase living affordability",
+        "description": "Living affordability during the study phase (living + relocation cash; tuition lives in msc-study; regulatory proof-of-funds lives in visa-access). Anchors: ~90 = manageable on student work/savings; ~50 = tight; ~20 = unaffordable without large reserves.",
+        "weight": 14
+      },
+      {
+        "id": "upfront-relocation-cash",
+        "label": "Upfront relocation cash",
+        "description": "Upfront relocation cash needed (flights, deposits, initial setup), excluding the visa proof-of-funds figure. Anchors: ~90 = low; ~50 = moderate; ~20 = high.",
+        "weight": 10
+      },
+      {
+        "id": "other",
+        "label": "Other / income-cost-specific findings",
+        "description": "Catch-all for income/cost findings not captured above. 50 = neutral.",
+        "weight": 8
+      }
     ]
   },
   {
@@ -118,11 +390,42 @@
     "weight": 6,
     "description": "Healthcare access/quality/cost & coverage, unemployment support, parental benefits, pensions.",
     "factors": [
-      "Healthcare access & quality",
-      "Cost & coverage for students/residents",
-      "Unemployment support",
-      "Parental benefits",
-      "Pensions / safety net"
+      {
+        "id": "newcomer-eligibility-barrier",
+        "label": "Newcomer eligibility / waiting barrier",
+        "description": "When newcomers (students/new workers) become eligible for public healthcare and any waiting period or barrier. Anchors: ~90 = immediate coverage; ~50 = short wait or mandatory insurance; ~20 = long exclusion or expensive-private-only.",
+        "weight": 24
+      },
+      {
+        "id": "health-quality-access",
+        "label": "Healthcare quality & access",
+        "description": "Healthcare quality and access (treatment waits, GP availability). Anchors: ~90 = high quality, short waits; ~50 = good but waits; ~20 = poor access/long waits.",
+        "weight": 22
+      },
+      {
+        "id": "cost-coverage-by-status",
+        "label": "Cost & coverage by immigration status",
+        "description": "Out-of-pocket cost and coverage by immigration status (student vs worker vs PR). Anchors: ~90 = low cost, broad coverage; ~50 = co-pays/insurance; ~20 = high out-of-pocket.",
+        "weight": 18
+      },
+      {
+        "id": "social-insurance-safety-net",
+        "label": "Safety net & parental cash benefits",
+        "description": "Unemployment support, pensions, and parental/maternity CASH benefits (owns parental/maternity cash; childcare access lives in family-childcare-benefits). Anchors: ~90 = strong net; ~50 = moderate; ~20 = weak.",
+        "weight": 16
+      },
+      {
+        "id": "family-childcare-benefits",
+        "label": "Childcare access & cost",
+        "description": "Childcare access and cost (childcare only; parental cash benefits live in the safety-net factor). Anchors: ~90 = subsidised, available; ~50 = costly/limited; ~20 = scarce/expensive.",
+        "weight": 12
+      },
+      {
+        "id": "other",
+        "label": "Other / healthcare-specific findings",
+        "description": "Catch-all for healthcare/welfare findings not captured above. 50 = neutral.",
+        "weight": 8
+      }
     ]
   },
   {
@@ -132,12 +435,48 @@
     "weight": 6,
     "description": "English usability, local-language requirements, integration, work-life balance, livability.",
     "factors": [
-      "English usability day-to-day",
-      "Local-language requirement for PR/citizenship",
-      "Integration support",
-      "Work-life balance",
-      "Openness/diversity",
-      "Climate & livability"
+      {
+        "id": "english-usability",
+        "label": "English usability day-to-day",
+        "description": "How far English works day-to-day for work, services and daily life. Anchors: ~90 = English fully usable; ~50 = English in hubs/work but local needed for daily life; ~20 = local language essential.",
+        "weight": 26
+      },
+      {
+        "id": "language-burden-citizenship",
+        "label": "Local-language burden for status",
+        "description": "Local-language level required for PR/citizenship and the effort to reach it (owns language-for-status; PR/citizenship language thresholds reference here). Anchors: ~90 = none/low; ~50 = B1; ~20 = B2+/C1.",
+        "weight": 24
+      },
+      {
+        "id": "integration-support",
+        "label": "Integration support",
+        "description": "Integration programmes and newcomer support. Anchors: ~90 = strong funded support; ~50 = some; ~20 = little.",
+        "weight": 16
+      },
+      {
+        "id": "social-acceptance-south-asian",
+        "label": "Social acceptance of South-Asian newcomers",
+        "description": "General social acceptance/attitude toward South-Asian newcomers (owns the general attitude; hate-crime lives in safety-law, religious sentiment in muslim-diaspora, state targeting in politics). Anchors: ~90 = welcoming/diverse; ~50 = mixed; ~20 = cool/hostile attitudes.",
+        "weight": 16
+      },
+      {
+        "id": "worklife-livability",
+        "label": "Work-life balance & livability",
+        "description": "Work-life balance, statutory leave, and general livability/climate. Anchors: ~90 = excellent balance and livability; ~50 = average; ~20 = long-hours culture or harsh conditions.",
+        "weight": 8
+      },
+      {
+        "id": "cultural-distance-adaptation",
+        "label": "Cultural distance & adaptation",
+        "description": "Cultural distance and ease of adaptation for a Bangladeshi couple. Anchors: ~90 = easy adaptation; ~50 = moderate; ~20 = large distance/hard.",
+        "weight": 4
+      },
+      {
+        "id": "other",
+        "label": "Other / culture-language-specific findings",
+        "description": "Catch-all for culture/language findings not captured above. 50 = neutral.",
+        "weight": 6
+      }
     ]
   },
   {
@@ -147,10 +486,48 @@
     "weight": 5,
     "description": "Crime, rule of law, treatment of immigrants, judicial fairness.",
     "factors": [
-      "Crime levels",
-      "Rule of law",
-      "Treatment of immigrants",
-      "Judicial fairness"
+      {
+        "id": "personal-crime-safety",
+        "label": "Personal crime & safety",
+        "description": "Personal crime and safety levels (Global Peace Index, crime indices). Anchors: ~90 = very safe; ~50 = moderate; ~20 = high crime.",
+        "weight": 18
+      },
+      {
+        "id": "lived-discrimination-hatecrime",
+        "label": "Lived discrimination & hate crime",
+        "description": "Lived discrimination and hate crime against migrants/minorities (owns hate-crime/lived bias; general attitude lives in culture-language). Anchors: ~90 = rare; ~50 = some incidents; ~20 = frequent/rising.",
+        "weight": 17
+      },
+      {
+        "id": "rule-of-law-corruption-civil-justice",
+        "label": "Rule of law, corruption & civil justice",
+        "description": "Rule of law, corruption levels, and civil-justice quality (WJP Rule of Law Index). Anchors: ~90 = top-tier; ~50 = mid; ~20 = weak.",
+        "weight": 17
+      },
+      {
+        "id": "women-safety-gbv",
+        "label": "Women's safety & GBV environment",
+        "description": "Women's safety and the gender-based-violence environment (relevant to the wife's day-to-day safety). Anchors: ~90 = high women's safety; ~50 = moderate; ~20 = poor.",
+        "weight": 14
+      },
+      {
+        "id": "immigration-enforcement-due-process",
+        "label": "Immigration enforcement & due process",
+        "description": "Quality and fairness of immigration enforcement conduct and due process (enforcement conduct only; probability of status loss lives in pr-pathway/politics). Anchors: ~90 = fair, due process; ~50 = mixed; ~20 = harsh/arbitrary enforcement.",
+        "weight": 14
+      },
+      {
+        "id": "antidiscrimination-law-enforcement",
+        "label": "Anti-discrimination law & enforcement",
+        "description": "Strength and actual enforcement of anti-discrimination law. Anchors: ~90 = strong and enforced; ~50 = exists but weak enforcement; ~20 = little protection.",
+        "weight": 13
+      },
+      {
+        "id": "other",
+        "label": "Other / safety-law-specific findings",
+        "description": "Catch-all for safety/rule-of-law findings not captured above. 50 = neutral.",
+        "weight": 7
+      }
     ]
   },
   {
@@ -160,9 +537,48 @@
     "weight": 4,
     "description": "Government stability, immigration-policy volatility, anti-immigrant sentiment trend.",
     "factors": [
-      "Government stability",
-      "Immigration-policy volatility",
-      "Anti-immigrant sentiment trend"
+      {
+        "id": "immigration-policy-volatility",
+        "label": "Immigration-policy volatility (macro)",
+        "description": "Macro volatility of immigration policy across stages (owns the cross-stage trend; per-stage rule changes live in their own stages). Anchors: ~90 = stable/predictable; ~50 = some churn; ~20 = highly volatile/cuts.",
+        "weight": 26
+      },
+      {
+        "id": "non-eu-skilled-policy-direction",
+        "label": "Direction toward non-EU skilled migrants",
+        "description": "Direction of policy specifically toward non-EU skilled migrants (opening vs closing). Anchors: ~90 = actively welcoming skilled non-EU; ~50 = neutral; ~20 = closing/restricting.",
+        "weight": 18
+      },
+      {
+        "id": "anti-immigration-electoral-power",
+        "label": "Anti-immigration electoral power",
+        "description": "Electoral strength of anti-immigration parties/coalitions. Anchors: ~90 = marginal; ~50 = significant minority; ~20 = governing/strong.",
+        "weight": 16
+      },
+      {
+        "id": "societal-sentiment-trend",
+        "label": "Public-opinion sentiment trend",
+        "description": "Public-opinion trend on immigration (direction of sentiment). Anchors: ~90 = positive/stable; ~50 = mixed; ~20 = hardening negative.",
+        "weight": 13
+      },
+      {
+        "id": "institutional-governance-stability",
+        "label": "Institutional / governance stability",
+        "description": "Government and institutional stability. Anchors: ~90 = very stable; ~50 = some instability; ~20 = crisis/turmoil.",
+        "weight": 11
+      },
+      {
+        "id": "targeted-risk-south-asian-muslim",
+        "label": "State targeting of South-Asian/Muslim migrants",
+        "description": "State/electoral targeting of South-Asian/Muslim migrants specifically (state-level targeting only; lived hate-crime lives in safety-law, day-to-day sentiment in muslim-diaspora/culture-language). Anchors: ~90 = none; ~50 = rhetoric; ~20 = policy targeting.",
+        "weight": 10
+      },
+      {
+        "id": "other",
+        "label": "Other / politics-specific findings",
+        "description": "Catch-all for political findings not captured above. 50 = neutral.",
+        "weight": 6
+      }
     ]
   },
   {
@@ -172,9 +588,42 @@
     "weight": 3,
     "description": "Income tax burden, treatment of students/foreign workers, take-home pay.",
     "factors": [
-      "Income tax burden",
-      "Treatment of students/foreign workers",
-      "Take-home pay"
+      {
+        "id": "effective-deduction-wedge",
+        "label": "Effective tax / social wedge",
+        "description": "Effective tax and social-contribution wedge on tech salaries (OECD tax wedge plus marginal rates) - system mechanics only; the resulting cash lives in income-cost. Anchors: ~90 = low wedge (<25%); ~50 = ~32%; ~20 = high (>45%).",
+        "weight": 30
+      },
+      {
+        "id": "expat-foreign-worker-relief",
+        "label": "Expat / foreign-worker tax relief",
+        "description": "Special tax reliefs/regimes for inbound foreign or skilled workers (e.g. 30-percent-style rulings, expat schemes). Anchors: ~90 = generous time-limited relief; ~50 = minor; ~20 = none.",
+        "weight": 22
+      },
+      {
+        "id": "household-dual-earner-treatment",
+        "label": "Dual-earner tax treatment (system)",
+        "description": "How the tax SYSTEM treats two earners (individual vs joint assessment, brackets) - system treatment only, not the cash. Anchors: ~90 = favourable for dual earners; ~50 = neutral; ~20 = penalises the second earner.",
+        "weight": 18
+      },
+      {
+        "id": "student-phase-tax-exposure",
+        "label": "Study-phase tax exposure",
+        "description": "Tax exposure during the study phase (on stipends and part-time work). Anchors: ~90 = exempt/low; ~50 = standard; ~20 = high.",
+        "weight": 10
+      },
+      {
+        "id": "bd-treaty-repatriation",
+        "label": "BD tax treaty & repatriation",
+        "description": "Bangladesh double-taxation treaty status and ease of repatriating funds. Anchors: ~90 = treaty plus easy repatriation; ~50 = partial; ~20 = none/double-taxed.",
+        "weight": 10
+      },
+      {
+        "id": "other",
+        "label": "Other / tax-specific findings",
+        "description": "Catch-all for tax findings not captured above. 50 = neutral.",
+        "weight": 10
+      }
     ]
   },
   {
@@ -184,11 +633,42 @@
     "weight": 3,
     "description": "Muslim & South-Asian community, halal food, mosques, religious accommodation, sentiment trend.",
     "factors": [
-      "Muslim & South-Asian community size",
-      "Halal food availability",
-      "Mosques/prayer facilities",
-      "Religious accommodation",
-      "Anti-Muslim sentiment trend"
+      {
+        "id": "bangladeshi-diaspora",
+        "label": "Bangladeshi community presence",
+        "description": "Size and establishment of the Bangladeshi community specifically (owns Bengali-specific presence; broader South-Asian presence lives in the ecosystem factor; acceptance lives in culture-language). Anchors: ~90 = large established BD community; ~50 = modest; ~20 = negligible.",
+        "weight": 24
+      },
+      {
+        "id": "religious-practice-infrastructure",
+        "label": "Mosques & halal infrastructure",
+        "description": "Mosques, prayer facilities, and halal food availability/certification. Anchors: ~90 = abundant halal and mosques; ~50 = available in cities; ~20 = scarce.",
+        "weight": 22
+      },
+      {
+        "id": "sentiment-safety",
+        "label": "Anti-Muslim sentiment & safety trend",
+        "description": "Day-to-day anti-Muslim sentiment and safety trend (religious sentiment; lived hate-crime lives in safety-law, state targeting in politics). Anchors: ~90 = welcoming/safe; ~50 = mixed; ~20 = rising hostility.",
+        "weight": 22
+      },
+      {
+        "id": "legal-religious-accommodation",
+        "label": "Legal religious accommodation",
+        "description": "Legal religious accommodation (workplace prayer, attire, halal provision, holidays). Anchors: ~90 = strong accommodation; ~50 = partial; ~20 = restrictive (e.g. attire bans).",
+        "weight": 14
+      },
+      {
+        "id": "south-asian-cultural-ecosystem",
+        "label": "Broader South-Asian cultural ecosystem",
+        "description": "Broader South-Asian cultural ecosystem (groceries, community organisations, cultural events) beyond the BD-specific community. Anchors: ~90 = rich ecosystem; ~50 = some; ~20 = sparse.",
+        "weight": 10
+      },
+      {
+        "id": "other",
+        "label": "Other / diaspora-specific findings",
+        "description": "Catch-all for Muslim/South-Asian diaspora findings not captured above. 50 = neutral.",
+        "weight": 8
+      }
     ]
   }
 ]

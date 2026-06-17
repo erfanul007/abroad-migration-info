@@ -4,6 +4,7 @@
 // re-exports them and adds the derived (runtime-only) types the schemas don't cover.
 export type {
   ReferenceLink,
+  Factor,
   Category,
   CellStatus,
   CategoryScore,
