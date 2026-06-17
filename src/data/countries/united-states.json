@@ -5,8 +5,8 @@
   "iso3": "USA",
   "flag": "🇺🇸",
   "region": "North America",
-  "summary": "Best-in-class software/AI job market (BLS SWE median USD 133,080) and full dual citizenship, but the PR→citizenship endpoint is currently obstructed for Bangladeshi nationals: from 21 Jan 2026 the US paused immigrant-visa issuance for nationals of 75 countries including Bangladesh, on top of H-1B-lottery dependency, a 2025 F-1 refusal surge with comprehensive social-media vetting, no spouse work on F-2/H-4, and volatile, restrictive immigration politics — leaving it borderline (~61) for a two-engineer Bangladeshi couple.",
-  "lastReviewed": "2026-06-17",
+  "summary": "",
+  "lastReviewed": "2026-06-18",
   "links": [
     {
       "title": "USCIS - working in the United States (official)",
@@ -19,312 +19,130 @@
   ],
   "categories": {
     "job-market": {
-      "status": "scored",
-      "score": 85,
-      "summary": "Deepest software/AI market globally: BLS software-developer median USD 133,080 (May 2024) and +15% projected growth 2024-34, though 2025-26 is selective hiring and non-citizens depend on H-1B sponsorship.",
-      "reasoning": "The US has the largest and highest-paying software/AI labour market in the world - the Bureau of Labor Statistics puts the median software-developer wage at USD 133,080 (May 2024, roughly 2.7x the all-occupations median) and projects 15% employment growth from 2024 to 2034, much faster than average, with AI demand intense. Both engineers are highly employable, but two frictions temper the score: 2025-26 tech hiring is selective after the 2023-24 layoff wave, and as non-citizens they need employer H-1B sponsorship (a capped lottery) to convert study into long-term work, so placement is strong but not frictionless.",
-      "evidence": [
-        "BLS: software-developer median wage USD 133,080 (May 2024); employment projected +15% 2024-2034 (much faster than average)",
-        "AI/ML demand strong into 2026, but hiring is selective after the 2023-24 layoffs",
-        "Non-citizen hires depend on employer H-1B sponsorship (annual lottery), unlike domestic candidates"
-      ],
-      "links": [
-        {
-          "title": "BLS Occupational Outlook Handbook - Software Developers",
-          "url": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm"
-        },
-        {
-          "title": "USCIS - H-1B specialty occupations (official)",
-          "url": "https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations"
-        }
-      ],
-      "lastReviewed": "2026-06-17"
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
+      "lastReviewed": "2026-06-18"
     },
     "visa-access": {
-      "status": "scored",
-      "score": 40,
-      "summary": "F-1 study route stays open via US Embassy Dhaka, but 2025-26 brought a refusal surge, mandatory social-media vetting, and Bangladesh's inclusion on a 75-country adverse immigrant-visa list plus a USD 15,000 B1/B2 bond.",
-      "reasoning": "Bangladeshi students still apply for F-1 visas at US Embassy Dhaka, and Bangladesh is not on the Proclamation 10998 full travel-ban tier, so the study pathway is technically open. But the climate turned sharply adverse in 2025-26: effective June 2025 the State Department conducts comprehensive vetting of all F/M/J applicants and requires social-media profiles set to public, F-1 refusals surged across key South-Asian markets, and from 21 Jan 2026 Bangladesh is on the 75-country list whose immigrant visas are paused and whose B1/B2 visitor applicants may face a bond of up to USD 15,000. The non-immigrant study route survives, but Bangladeshi applicants face heavy, discretionary 214(b) scrutiny.",
-      "evidence": [
-        "State Dept (June 2025): comprehensive vetting incl. social-media review of ALL F/M/J applicants; profiles must be set to 'public'",
-        "From 21 Jan 2026: Bangladesh among 75 countries with immigrant-visa issuance paused; B1/B2 bond up to USD 15,000 for Bangladeshi nationals",
-        "Bangladesh NOT on Proclamation 10998 full/partial travel-ban tiers; F-1 student visas remain available via US Embassy Dhaka"
-      ],
-      "links": [
-        {
-          "title": "State Dept - expanded screening and vetting for visa applicants (June 2025)",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2025/06/announcement-of-expanded-screening-and-vetting-for-visa-applicants"
-        },
-        {
-          "title": "US pauses immigrant visa issuances for Bangladesh, 74 other countries (The Daily Star)",
-          "url": "https://www.thedailystar.net/news/bangladesh/news/us-pauses-immigrant-visa-issuances-bangladesh-74-other-countries-4118566"
-        }
-      ],
-      "lastReviewed": "2026-06-17"
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
+      "lastReviewed": "2026-06-18"
     },
     "citizenship": {
-      "status": "scored",
-      "score": 72,
-      "summary": "Dual citizenship fully allowed and naturalisation after 5 years as a green-card holder (CLB-style English + civics), but the US passport slipped to 10th (179 destinations) on the 2026 Henley index.",
-      "reasoning": "Once permanent residency is held, the US offers a clean citizenship route the couple's goal needs: naturalisation after 5 years as a lawful permanent resident (continuous residence plus 30 months' physical presence), a basic English and civics test, and - crucially for this profile - the US permits dual citizenship, so they need not renounce Bangladeshi nationality (which Bangladesh also allows for the US via a Dual Nationality Certificate). The 2026 Henley Passport Index ranks the US 10th with visa-free access to 179 destinations. The catch is upstream: this route only opens after a green card, which is currently obstructed for Bangladeshi nationals (see PR pathway).",
-      "evidence": [
-        "Naturalisation after 5 years as an LPR: continuous residence + 30 months physical presence + English/civics (USCIS)",
-        "US allows dual citizenship; Bangladesh permits retention for the US via a Dual Nationality Certificate",
-        "Henley Passport Index 2026: US ranked 10th, visa-free access to 179 destinations"
-      ],
-      "links": [
-        {
-          "title": "USCIS - naturalisation for a lawful permanent resident of 5 years (official)",
-          "url": "https://www.uscis.gov/citizenship/learn-about-citizenship/citizenship-and-naturalization/i-am-a-lawful-permanent-resident-of-5-years"
-        },
-        {
-          "title": "Henley Global Mobility Report January 2026",
-          "url": "https://www.henleyglobal.com/newsroom/press-releases/henley-global-mobility-report-january-2026"
-        }
-      ],
-      "lastReviewed": "2026-06-17"
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
+      "lastReviewed": "2026-06-18"
     },
     "post-study-work": {
-      "status": "scored",
-      "score": 62,
-      "summary": "STEM grads get 12-month OPT + 24-month STEM extension = 36 months' work authorisation, but the bridge to long-term work is the capped H-1B lottery, and the spouse cannot work on F-2.",
-      "reasoning": "Master's graduates in CS/AI receive 12 months of Optional Practical Training plus a 24-month STEM OPT extension (36 months total), enough time to gain US experience and be sponsored. The weakness is the transition: long-term work requires an H-1B, allocated by an annual lottery with selection odds around 25-30%, so continuity is not guaranteed and a cap-gap risk exists. The accompanying spouse on an F-2 cannot work at all during study, and an H-4 spouse can only obtain a work permit once the principal reaches an approved I-140 stage - a multi-year wait - so 'both engineers working' is far from immediate.",
-      "evidence": [
-        "F-1: 12 months OPT + 24-month STEM OPT extension = up to 36 months (USCIS); employer must use E-Verify",
-        "Long-term work needs H-1B via annual lottery (selection ~25-30%); cap-gap risk between OPT and H-1B start",
-        "F-2 spouse cannot work; H-4 EAD only once principal H-1B holder has an approved I-140"
-      ],
-      "links": [
-        {
-          "title": "USCIS - STEM OPT extension (official)",
-          "url": "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-extension-for-stem-students-stem-opt"
-        },
-        {
-          "title": "USCIS - employment authorisation for certain H-4 dependent spouses (official)",
-          "url": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-1b-specialty-occupations/employment-authorization-for-certain-h-4-dependent-spouses"
-        }
-      ],
-      "lastReviewed": "2026-06-17"
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
+      "lastReviewed": "2026-06-18"
     },
     "spouse-family": {
-      "status": "scored",
-      "score": 45,
-      "summary": "Both can relocate, but the dependent spouse cannot work on an F-2 during study, and H-4 work authorisation only unlocks years later at the principal's approved-I-140 stage.",
-      "reasoning": "The dependant routes are weak for a two-engineer household that wants both working. During study the spouse holds an F-2 and is barred from any employment. In the work phase, an H-4 spouse can only apply for a work permit (EAD) once the H-1B principal has an approved I-140 immigrant petition - typically several years in - and even then must file and await USCIS approval. Children can attend school freely and family reunification for the immediate household is straightforward, but the extended period in which one spouse cannot legally earn is a material drawback versus points-based systems where both work on arrival.",
-      "evidence": [
-        "F-2 dependent spouse: no work authorisation permitted during the principal's studies",
-        "H-4 spouse work permit (EAD) only available once the H-1B principal reaches an approved I-140 (multi-year wait), and must be separately filed/approved",
-        "Children's schooling and immediate-family reunification are unrestricted"
-      ],
-      "links": [
-        {
-          "title": "USCIS - employment authorisation for certain H-4 dependent spouses (official)",
-          "url": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-1b-specialty-occupations/employment-authorization-for-certain-h-4-dependent-spouses"
-        },
-        {
-          "title": "USCIS - OPT for F-1 students (dependent context, official)",
-          "url": "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students"
-        }
-      ],
-      "lastReviewed": "2026-06-17"
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
+      "lastReviewed": "2026-06-18"
     },
     "msc-study": {
-      "status": "scored",
-      "score": 70,
-      "summary": "Unmatched breadth of world-class English MSc programmes with strong CS/AI assistantship funding, but high sticker tuition (~USD 30,000-60,000) and limited on-campus work during study.",
-      "reasoning": "The US hosts the deepest catalogue of top-ranked, English-taught master's programmes in computer science and AI, and research-track CS students frequently secure teaching/research assistantships that waive tuition and pay a stipend, materially offsetting the high posted cost (typically USD 30,000-60,000+/year). During study F-1 students may work on campus up to 20 hours/week and use CPT/OPT for off-campus practical training, and the spouse can accompany on an F-2. The funding lottery for assistantships and the high unfunded cost keep this strong rather than best-in-class.",
-      "evidence": [
-        "Largest pool of top-ranked English-taught CS/AI master's programmes; international tuition ~USD 30,000-60,000+/year",
-        "Research/teaching assistantships common in CS, often covering tuition + stipend",
-        "F-1: on-campus work up to 20 hrs/week during term; CPT/OPT for practical training; spouse accompanies on F-2"
-      ],
-      "links": [
-        {
-          "title": "USCIS - students and exchange visitors (F-1, official)",
-          "url": "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors"
-        },
-        {
-          "title": "U.S. Embassy in Bangladesh - student visas",
-          "url": "https://bd.usembassy.gov/visas/"
-        }
-      ],
-      "lastReviewed": "2026-06-17"
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
+      "lastReviewed": "2026-06-18"
     },
     "pr-pathway": {
-      "status": "scored",
-      "score": 38,
-      "summary": "On paper EB-2 is Current for Bangladesh (no India/China backlog), but from 21 Jan 2026 the US paused immigrant-visa issuance for Bangladeshi nationals, and the route still hinges on winning the H-1B lottery.",
-      "reasoning": "Structurally the employment green card is far better for Bangladeshis than for Indians or Chinese: the June 2026 Visa Bulletin shows EB-2 Current for the rest of the world (including Bangladesh) and EB-3 around June 2024, so there is no per-country decade-long queue. But two severe, current obstacles dominate: first, from 21 Jan 2026 the State Department paused immigrant-visa issuance for nationals of 75 countries including Bangladesh pending a 'public-charge' review, so even a Current priority date does not yield an issued green card right now; second, reaching that point requires sustaining H-1B status through the capped lottery. The route exists but is presently blocked and highly policy-dependent for this nationality.",
-      "evidence": [
-        "June 2026 Visa Bulletin: EB-2 Current for Rest of World (incl. Bangladesh); EB-3 RoW ~01 Jun 2024 (travel.state.gov)",
-        "From 21 Jan 2026: immigrant-visa issuance paused for nationals of 75 countries including Bangladesh ('public-charge' review)",
-        "Reaching the green card depends on sustaining H-1B status via the annual lottery (~25-30% selection)"
-      ],
-      "links": [
-        {
-          "title": "Visa Bulletin for June 2026 (U.S. Department of State)",
-          "url": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-june-2026.html"
-        },
-        {
-          "title": "US suspending immigrant visa processing from 75 countries (CNN)",
-          "url": "https://www.cnn.com/2026/01/14/politics/us-suspending-immigrant-visa-processing-75-countries"
-        }
-      ],
-      "lastReviewed": "2026-06-17"
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
+      "lastReviewed": "2026-06-18"
     },
     "income-cost": {
-      "status": "scored",
-      "score": 72,
-      "summary": "Very high tech pay (SWE median USD 133k, far higher in hubs) lifts a dual-engineer household well above costs outside the priciest metros, though SF/NYC/Seattle housing erodes savings.",
-      "reasoning": "US software salaries are the highest globally - a BLS median of USD 133,080 with senior pay in major hubs well into the USD 180,000-250,000+ range - so two engineers earn far more in nominal terms than in any other country assessed. Savings potential is strong outside the most expensive metros; in San Francisco, New York or Seattle, housing and the absence of universal services (healthcare, childcare) claw back a large share, and the lack of an employer-funded safety net adds risk. Net: excellent earning power, moderated by high-cost hubs and self-funded services.",
-      "evidence": [
-        "BLS software-developer median USD 133,080 (2024); senior/hub pay materially higher",
-        "Dual-engineer income yields strong savings outside top-tier metros",
-        "SF/NYC/Seattle housing plus self-funded healthcare/childcare erode net savings"
-      ],
-      "links": [
-        {
-          "title": "BLS Occupational Outlook Handbook - Software Developers (wages)",
-          "url": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm"
-        },
-        {
-          "title": "KFF 2025 Employer Health Benefits Survey (cost context)",
-          "url": "https://www.kff.org/health-costs/2025-employer-health-benefits-survey/"
-        }
-      ],
-      "lastReviewed": "2026-06-17"
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
+      "lastReviewed": "2026-06-18"
     },
     "healthcare": {
-      "status": "scored",
-      "score": 50,
-      "summary": "High clinical quality but no universal system: coverage is employer-tied and costly, students buy private plans, and the unemployment/parental safety net is weak versus peer countries.",
-      "reasoning": "US healthcare quality is high if you are insured, but there is no universal system: working residents rely on employer-sponsored insurance (with significant premiums, deductibles and co-pays per the 2025 KFF survey), international students must buy university/private health plans, and a gap in employment means a gap in coverage. Unemployment support is short and modest, federal paid parental leave is absent, and out-of-pocket exposure is high. For a profile used to (or comparing against) European-style universal cover, this is a clear weakness.",
-      "evidence": [
-        "No universal healthcare; coverage tied to employment (KFF 2025: substantial employee premiums and cost-sharing)",
-        "International students must purchase university/private student health insurance",
-        "Weak safety net: short/modest unemployment benefits; no federal paid parental leave"
-      ],
-      "links": [
-        {
-          "title": "KFF 2025 Employer Health Benefits Survey",
-          "url": "https://www.kff.org/health-costs/2025-employer-health-benefits-survey/"
-        },
-        {
-          "title": "USCIS - students and exchange visitors (insurance context)",
-          "url": "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors"
-        }
-      ],
-      "lastReviewed": "2026-06-17"
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
+      "lastReviewed": "2026-06-18"
     },
     "culture-language": {
-      "status": "scored",
-      "score": 78,
-      "summary": "English-native and highly diverse with large immigrant communities, so day-to-day integration is easy; work-life balance and 2025-26 social climate are the main caveats.",
-      "reasoning": "English is the working and daily language, removing the language barrier entirely for this couple, and the US is one of the most diverse societies in the world with very large South-Asian and immigrant populations that ease settlement and professional networking. The caveats are a long-hours work culture with limited statutory leave, and a 2025-26 social-political climate that is more hostile to immigrants than in prior years. Livability varies widely by city.",
-      "evidence": [
-        "English is the native working and daily language - no language barrier for PR/citizenship",
-        "Very large, established South-Asian/immigrant communities aid integration and networking",
-        "Long-hours work culture, limited statutory leave, and a tense 2025-26 immigration climate are the caveats"
-      ],
-      "links": [
-        {
-          "title": "Pew Research - Islam among Asian Americans (community context)",
-          "url": "https://www.pewresearch.org/religion/2023/10/11/islam-among-asian-americans/"
-        },
-        {
-          "title": "U.S. Embassy in Bangladesh - visas/living context",
-          "url": "https://bd.usembassy.gov/visas/"
-        }
-      ],
-      "lastReviewed": "2026-06-17"
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
+      "lastReviewed": "2026-06-18"
     },
     "safety-law": {
-      "status": "scored",
-      "score": 58,
-      "summary": "Strong courts but a declining rule-of-law trend (WJP 2025: 27th of 143, score -2.8%) and higher violent-crime levels than peer destinations.",
-      "reasoning": "The US ranks 27th of 143 on the 2025 WJP Rule of Law Index - respectable but well below the European and Commonwealth destinations in this set - and its score fell 2.8% in 2025, with documented declines in constraints on government powers, fundamental rights and open government. Violent-crime rates are higher than in peer countries, and treatment of immigrants under law has become less predictable in 2025-26. Courts remain independent and capable, which holds the score in the middle band rather than lower.",
-      "evidence": [
-        "WJP Rule of Law Index 2025: US 27th of 143; overall score down 2.8% year-on-year",
-        "Declines concentrated in constraints on government powers, fundamental rights and open government",
-        "Higher violent-crime levels than peer European/Commonwealth destinations; less predictable treatment of immigrants in 2025-26"
-      ],
-      "links": [
-        {
-          "title": "WJP Rule of Law Index 2025 - United States country report",
-          "url": "https://worldjusticeproject.org/sites/default/files/documents/United%20States_2.pdf"
-        },
-        {
-          "title": "WJP Rule of Law Index 2025 - global press release",
-          "url": "https://worldjusticeproject.org/news/wjp-rule-law-index-2025-global-press-release"
-        }
-      ],
-      "lastReviewed": "2026-06-17"
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
+      "lastReviewed": "2026-06-18"
     },
     "politics": {
-      "status": "scored",
-      "score": 36,
-      "summary": "Stable institutions but highly volatile, restrictive 2025-26 immigration policy: travel-ban proclamations, a 75-country immigrant-visa pause, visitor bonds and expanded vetting.",
-      "reasoning": "Core institutions are stable, but immigration policy is the most volatile and adverse in this set for 2025-26. The administration issued Proclamation 10998 restricting entry for nationals of dozens of countries (Bangladesh not on the full-ban tier), paused immigrant-visa issuance for 75 countries including Bangladesh from 21 Jan 2026, introduced visitor-visa bonds, expanded social-media vetting and paused student-visa appointment capacity at points in 2025. Public sentiment on immigration has hardened. The direction of travel directly and unpredictably threatens this couple's study-to-PR plan.",
-      "evidence": [
-        "Proclamation 10998 (eff. 1 Jan 2026) restricts entry for nationals of dozens of countries; Bangladesh not on the full-ban tier",
-        "21 Jan 2026: immigrant-visa pause for 75 countries incl. Bangladesh; B1/B2 bonds up to USD 15,000",
-        "2025: expanded F/M/J social-media vetting and periodic pauses to student-visa appointment capacity"
-      ],
-      "links": [
-        {
-          "title": "White House fact sheet - further restrictions on entry of foreign nationals (Dec 2025)",
-          "url": "https://www.whitehouse.gov/fact-sheets/2025/12/fact-sheet-president-donald-j-trump-further-restricts-and-limits-the-entry-of-foreign-nationals-to-protect-the-security-of-the-united-states/"
-        },
-        {
-          "title": "NAFSA - regulatory updates (Trump-Vance administration actions)",
-          "url": "https://www.nafsa.org/regulatory-information/past-updates-arising-out-trump-vance-administration"
-        }
-      ],
-      "lastReviewed": "2026-06-17"
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
+      "lastReviewed": "2026-06-18"
     },
     "tax": {
-      "status": "scored",
-      "score": 65,
-      "summary": "Moderate burden: OECD single-worker tax wedge 30.1% (2024), 28th lowest of 38 and below the 34.9% OECD average; total take-home varies by state.",
-      "reasoning": "The OECD single-worker tax wedge for the US was 30.1% in 2024 (up marginally from 30.0%), the 28th lowest of 38 OECD members and below the 34.9% OECD average, so the effective burden on tech salaries is moderate rather than high. Federal income tax is progressive and state income tax varies widely (zero in Texas/Washington/Florida; higher in California/New York), so take-home depends materially on location. Foreign workers are taxed the same as residents once tax-resident.",
-      "evidence": [
-        "OECD Taxing Wages: US single-worker tax wedge 30.1% (2024), 28th lowest of 38, below OECD avg 34.9%",
-        "Progressive federal income tax; state income tax ranges from 0% (TX/WA/FL) to high (CA/NY)",
-        "Foreign workers taxed as residents once tax-resident; no special surcharge"
-      ],
-      "links": [
-        {
-          "title": "OECD Taxing Wages 2025 - United States country note",
-          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/04/taxing-wages-2025-country-notes_16d47563/united-states_e44f6362/4a2a60b9-en.pdf"
-        },
-        {
-          "title": "IRS - taxation of nonresident/resident aliens (official)",
-          "url": "https://www.irs.gov/individuals/international-taxpayers/taxation-of-nonresident-aliens"
-        }
-      ],
-      "lastReviewed": "2026-06-17"
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
+      "lastReviewed": "2026-06-18"
     },
     "muslim-diaspora": {
-      "status": "scored",
-      "score": 70,
-      "summary": "Large Muslim (~3.45M) and sizeable Bangladeshi community (concentrated in New York), with widespread halal and many mosques in metros, but a rising-Islamophobia trend in the current climate.",
-      "reasoning": "The US has an estimated 3.45 million Muslims and one of the largest Bangladeshi-American communities (heavily concentrated in New York City, plus Michigan, New Jersey, Texas and California), so halal food, mosques and a familiar South-Asian community are readily available in major metros where the couple would work. The caveat is trend, not availability: anti-Muslim and anti-immigrant sentiment has risen in the 2025-26 climate, making the lived experience more variable than the raw community size suggests.",
-      "evidence": [
-        "Pew: US Muslim population ~3.45 million; South Asians a major component",
-        "Large Bangladeshi-American community concentrated in NYC (plus MI, NJ, TX, CA); widespread halal and mosques in metros",
-        "Rising anti-Muslim / anti-immigrant sentiment in the 2025-26 climate is the main downside"
-      ],
-      "links": [
-        {
-          "title": "Pew Research - Islam among Asian Americans",
-          "url": "https://www.pewresearch.org/religion/2023/10/11/islam-among-asian-americans/"
-        },
-        {
-          "title": "Pew Research - religious landscape (Muslim population)",
-          "url": "https://www.pewresearch.org/religion/2023/10/11/islam-among-asian-americans/"
-        }
-      ],
-      "lastReviewed": "2026-06-17"
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
+      "lastReviewed": "2026-06-18"
     }
   }
 }

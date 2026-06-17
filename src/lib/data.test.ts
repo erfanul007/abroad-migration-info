@@ -1,6 +1,7 @@
 // src/lib/data.test.ts
 import { describe, it, expect } from "vitest";
 import { categories, countries, getScoredCountry, profile, scoredCountries } from "@/lib/data";
+import { validateCountry } from "@/lib/schema";
 
 describe("data integrity", () => {
   it("loads 14 categories summing to 100", () => {
@@ -15,14 +16,9 @@ describe("data integrity", () => {
     expect(uk?.id).toBe("united-kingdom");
     expect(uk?.name).toBe("United Kingdom"); // must match world-atlas feature name or it won't shade
   });
-  it("every country references known category ids with in-range scores", () => {
-    const known = new Set(categories.map((c) => c.id));
+  it("every country validates against the category catalogue (known ids, factor membership, scored-completeness, in-range scores)", () => {
     for (const c of countries) {
-      for (const [id, cell] of Object.entries(c.categories)) {
-        expect(known.has(id)).toBe(true);
-        expect(cell.score).toBeGreaterThanOrEqual(0);
-        expect(cell.score).toBeLessThanOrEqual(100);
-      }
+      expect(validateCountry(c, categories)).toEqual([]);
     }
   });
   it("exposes ranked, scored countries with 1-based ranks", () => {

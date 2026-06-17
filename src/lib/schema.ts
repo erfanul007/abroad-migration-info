@@ -48,14 +48,30 @@ export const categorySchema = z
 
 export const cellStatusSchema = z.enum(["scored", "pending"]);
 
-export const categoryScoreSchema = z.object({
+// A pro or con bullet; a blocker is a con carrying severity:"blocker".
+export const proConSchema = z.object({
+  text: z.string(),
+  severity: z.enum(["normal", "blocker"]).optional(),
+  link: referenceLinkSchema.optional(),
+});
+
+// A single factor sub-score (0..100). Pending factors carry no meaningful score.
+export const factorScoreSchema = z.object({
   status: cellStatusSchema,
   score: z.number().int().min(0).max(100),
-  summary: z.string().optional(),
-  reasoning: z.string().optional(),
-  evidence: z.array(z.string()).optional(),
-  links: z.array(referenceLinkSchema).optional(),
-  lastReviewed: z.string().optional(),
+});
+
+// A category cell. The category score is DERIVED from these factor sub-scores
+// (see scoring.ts) — never stored here. A scored cell must score every factor of
+// its category (enforced in validateCountry, which needs the category list).
+export const categoryScoreSchema = z.object({
+  status: cellStatusSchema,
+  factors: z.record(z.string(), factorScoreSchema),
+  summary: z.string(),
+  pros: z.array(proConSchema),
+  cons: z.array(proConSchema),
+  links: z.array(referenceLinkSchema),
+  lastReviewed: z.string(),
 });
 
 export const countrySchema = z.object({
@@ -112,6 +128,8 @@ export type ReferenceLink = z.infer<typeof referenceLinkSchema>;
 export type Factor = z.infer<typeof factorSchema>;
 export type Category = z.infer<typeof categorySchema>;
 export type CellStatus = z.infer<typeof cellStatusSchema>;
+export type ProCon = z.infer<typeof proConSchema>;
+export type FactorScore = z.infer<typeof factorScoreSchema>;
 export type CategoryScore = z.infer<typeof categoryScoreSchema>;
 export type Country = z.infer<typeof countrySchema>;
 export type Person = z.infer<typeof personSchema>;
@@ -141,10 +159,31 @@ export function validateCountry(country: unknown, categories: Category[]): strin
     const id = (country as { id?: string })?.id ?? "country";
     return issues(result.error, `${id}: `);
   }
-  const known = new Set(categories.map((c) => c.id));
-  return Object.keys(result.data.categories)
-    .filter((id) => !known.has(id))
-    .map((id) => `${result.data.id}: Unknown category "${id}".`);
+  const byId = new Map(categories.map((c) => [c.id, c]));
+  const errors: string[] = [];
+  for (const [catId, cell] of Object.entries(result.data.categories)) {
+    const category = byId.get(catId);
+    if (!category) {
+      errors.push(`${result.data.id}: Unknown category "${catId}".`);
+      continue;
+    }
+    const known = new Set(category.factors.map((f) => f.id));
+    for (const fid of Object.keys(cell.factors)) {
+      if (!known.has(fid)) errors.push(`${result.data.id}.${catId}: Unknown factor "${fid}".`);
+    }
+    // Strict: a scored cell must score every one of its category's factors.
+    if (cell.status === "scored") {
+      for (const f of category.factors) {
+        const fs = cell.factors[f.id];
+        if (!fs || fs.status !== "scored") {
+          errors.push(
+            `${result.data.id}.${catId}: scored cell must score every factor ("${f.id}" missing or pending).`,
+          );
+        }
+      }
+    }
+  }
+  return errors;
 }
 
 /** Validate the applicant profile (full shape). */

@@ -47,17 +47,45 @@ describe("factor validation", () => {
   });
 });
 
+const cell = (
+  factors: Record<string, { status: "scored" | "pending"; score: number }>,
+  status: "scored" | "pending" = "scored",
+): Country["categories"][string] => ({
+  status, factors, summary: "s", pros: [], cons: [], links: [], lastReviewed: "2026-06-18",
+});
+
 describe("validateCountry", () => {
   const country: Country = {
     id: "x", name: "X", iso: "XX", iso3: "XXX", flag: "", region: "R",
-    summary: "", lastReviewed: "2026-06-16", links: [],
-    categories: { a: { status: "scored", score: 90 }, b: { status: "pending", score: 60 } },
+    summary: "", lastReviewed: "2026-06-18", links: [],
+    categories: {
+      a: cell({ a1: { status: "scored", score: 90 }, other: { status: "scored", score: 80 } }),
+      b: cell({}, "pending"),
+    },
   };
-  it("passes a well-formed country", () => {
+  it("passes a well-formed country (scored cell scores all its factors; pending cell may be empty)", () => {
     expect(validateCountry(country, cats)).toEqual([]);
   });
   it("flags category ids the country references but the catalogue does not define", () => {
-    const bad = { ...country, categories: { ...country.categories, zzz: { status: "scored" as const, score: 10 } } };
+    const bad = { ...country, categories: { ...country.categories, zzz: cell({ z1: { status: "scored", score: 10 } }) } };
     expect(validateCountry(bad, cats)).toContainEqual(expect.stringContaining('Unknown category "zzz"'));
+  });
+  it("flags a factor id the cell uses but the category does not define", () => {
+    const bad = { ...country, categories: { ...country.categories,
+      a: cell({ a1: { status: "scored", score: 90 }, other: { status: "scored", score: 80 }, ghost: { status: "scored", score: 50 } }) } };
+    expect(validateCountry(bad, cats)).toContainEqual(expect.stringContaining("ghost"));
+  });
+  it("flags a scored cell missing one of its category's factors", () => {
+    const bad = { ...country, categories: { ...country.categories, a: cell({ a1: { status: "scored", score: 90 } }) } };
+    expect(validateCountry(bad, cats).length).toBeGreaterThan(0);
+  });
+  it("flags a scored cell whose factor is itself pending", () => {
+    const bad = { ...country, categories: { ...country.categories,
+      a: cell({ a1: { status: "pending", score: 0 }, other: { status: "scored", score: 80 } }) } };
+    expect(validateCountry(bad, cats).length).toBeGreaterThan(0);
+  });
+  it("rejects the old flat-score cell shape", () => {
+    const bad = { ...country, categories: { ...country.categories, a: { status: "scored", score: 70 } } };
+    expect(validateCountry(bad as unknown as Country, cats).length).toBeGreaterThan(0);
   });
 });
