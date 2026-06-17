@@ -5,7 +5,7 @@
   "iso3": "NZL",
   "flag": "🇳🇿",
   "region": "Oceania",
-  "summary": "Strong settlement fit for a Bangladeshi dual-software-engineer couple: Software Engineer is a Green List Tier 1 straight-to-residence role, master's grads get up to 3y open post-study work, the partner of a Level 9 student works full-time, and dual citizenship comes in ~5y. Biggest lever is the clear study-to-residence pipeline; biggest drags are no NZ mission in Dhaka with ~45% BD student-visa success, high CS tuition, and a small, lower-paying tech market versus Australia/US.",
+  "summary": "Strong settlement fit for a Bangladeshi dual-software-engineer couple on study, work and residence: Software Engineer is a Green List Tier 1 straight-to-residence role, master's grads get up to 3y open post-study work, and the partner of a Level 9 student works full-time. BUT a key flag at the citizenship endpoint: although NZ permits dual citizenship, New Zealand is NOT on Bangladesh's Dual Nationality Certificate list, so a Bangladeshi naturalising here loses the BD passport - failing the couple's dual-citizenship goal. Other drags: no NZ mission in Dhaka with ~45% BD student-visa success, high CS tuition, and a small, lower-paying tech market versus Australia/US.",
   "lastReviewed": "2026-06-17",
   "links": [
     {
@@ -67,24 +67,23 @@
     },
     "citizenship": {
       "status": "scored",
-      "score": 70,
-      "summary": "Citizenship after ~5y residence (1,350 days, 240/yr), dual allowed; passport now 24th (Henley, 183 destinations); civics test H2 2027.",
-      "reasoning": "Citizenship by grant needs a resident visa held 5 years with 1,350 days present (min 240/yr), and both New Zealand and Bangladesh allow dual citizenship, so the couple keep their Bangladeshi passports - directly matching their dual-citizenship preference. English is assessed only as basic conversation, suiting fluent IT professionals. Two modest negatives keep it good-not-strong: a mandatory 20-question civics test (75% pass) from H2 2027, and the passport slipping to 24th on the 2026 Henley index (183 destinations, down from ~190).",
+      "score": 28,
+      "summary": "FLAG - no dual citizenship for Bangladeshis: NZ permits dual, but New Zealand is NOT on Bangladesh's Dual Nationality Certificate list, so a Bangladeshi naturalising here loses Bangladeshi nationality - failing the couple's keep-the-BD-passport goal.",
+      "reasoning": "On New Zealand's side citizenship is attractive - by grant after a resident visa held 5 years (1,350 days present, min 240/yr), only basic-conversation English, a 20-question civics test from H2 2027, and NZ imposes no renunciation. BUT through the mandatory Bangladeshi-applicant lens this is the disqualifier: Bangladesh permits dual nationality only for a gazetted list of countries (USA, Canada, all of Europe, UK, plus Hong Kong, Singapore, Malaysia, Brunei, South Korea and Japan), and New Zealand is NOT on the Dual Nationality Certificate (DNC) list - the 2023 expansion added Africa, South America, the Caribbean and only Fiji in Oceania. NZ and Australia appear on Bangladesh's separate 'No Visa Required' travel list, which is often conflated with the DNC but does not confer dual nationality. So a Bangladeshi who naturalises in NZ has no clear route to retain Bangladeshi citizenship and would lose the BD passport - directly contrary to the couple's dual-citizenship goal. Score severely flagged; would be ~70 were dual achievable. (Uncertainty: this could change if Bangladesh adds NZ to the DNC list.)",
       "evidence": [
-        "By grant: 5 years as a resident; 1,350 days total presence and 240 days minimum per 12-month period.",
-        "Dual citizenship allowed by New Zealand (and by Bangladesh) - no renunciation needed.",
-        "English assessed informally (basic conversation), no fixed test until the 2027 civics test.",
-        "From H2 2027: mandatory civics test, 20 questions, 75% pass (15/20).",
-        "Passport ranked 24th-equal on 2026 Henley index, 183 visa-free/visa-on-arrival destinations (down from ~190)."
+        "By grant: 5 years as a resident; 1,350 days total presence and 240 days minimum per 12-month period; NZ itself imposes no renunciation.",
+        "FLAG: New Zealand is NOT on Bangladesh's Dual Nationality Certificate (DNC) eligible-country list (US/Canada/Europe/UK + HK/SG/MY/BN/KR/JP; 2023 added only Fiji in Oceania) - a Bangladeshi naturalising in NZ loses Bangladeshi nationality.",
+        "NZ/Australia sit on Bangladesh's separate 'No Visa Required' travel list (not the DNC) - the two are frequently and wrongly conflated.",
+        "Passport ranked 24th-equal on 2026 Henley index, 183 visa-free/visa-on-arrival destinations (relevant only after losing the BD passport)."
       ],
       "links": [
         {
-          "title": "NZ citizenship presence requirements (govt.nz)",
-          "url": "https://www.govt.nz/browse/passports-citizenship-and-identity/nz-citizenship/requirements-for-nz-citizenship/presence-requirements/"
+          "title": "NZ dual citizenship (govt.nz) - NZ permits dual, subject to the other country's law",
+          "url": "https://www.govt.nz/browse/passports-citizenship-and-identity/nz-citizenship/changing-your-citizenship-status/dual-citizenship/"
         },
         {
-          "title": "Passport rankings 2026 - NZ 24th, 183 destinations (1News)",
-          "url": "https://www.1news.co.nz/2026/01/14/passport-rankings-revealed-where-does-nz-sit-for-2026/"
+          "title": "Bangladesh Dual Nationality Certificate eligible-country list (Embassy of Bangladesh, Washington DC)",
+          "url": "https://washington.mofa.gov.bd/pages/static-pages/695266b435ce18e1c05aadf1"
         }
       ],
       "lastReviewed": "2026-06-17"
