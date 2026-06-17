@@ -4,6 +4,7 @@ import { Link } from "react-router";
 import type { Category, ScoredCountry } from "@/types";
 import { ScoreBadge } from "@/components/common/ScoreBadge";
 import { PendingBadge } from "@/components/common/PendingBadge";
+import { categoryScore } from "@/lib/selectors";
 
 export function buildColumns(categories: Category[]): ColumnDef<ScoredCountry>[] {
   return [
@@ -36,7 +37,7 @@ export function buildColumns(categories: Category[]): ColumnDef<ScoredCountry>[]
     ...categories.map<ColumnDef<ScoredCountry>>((cat) => ({
       id: cat.id,
       header: cat.shortLabel,
-      accessorFn: (c) => c.categories[cat.id]?.score ?? undefined,
+      accessorFn: (c) => categoryScore(c, cat.id) ?? undefined,
       cell: ({ getValue }) => {
         const v = getValue<number | undefined>();
         return v == null ? <span className="text-muted-foreground">—</span> : <ScoreBadge score={v} />;

@@ -8,11 +8,13 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Button } from "@/components/ui/button";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { cn } from "@/lib/utils";
+import { topN, categoryScore } from "@/lib/selectors";
+import { TOP_N } from "@/lib/config";
 import { Radar, Table2 } from "lucide-react";
 
 export default function Compare() {
   const { countries, categories } = useData();
-  const [selected, setSelected] = useState<string[]>(countries.slice(0, 2).map((c) => c.iso));
+  const [selected, setSelected] = useState<string[]>(topN(countries, TOP_N.compare).map((c) => c.iso));
 
   const chosen = useMemo(
     () => selected.map((iso) => countries.find((c) => c.iso === iso)).filter((c): c is NonNullable<typeof c> => Boolean(c)),
@@ -61,7 +63,7 @@ export default function Compare() {
                     {chosen.map((c) => <TableCell key={c.iso} className="text-center"><ScoreBadge score={c.overall} /></TableCell>)}
                   </TableRow>
                   {categories.map((cat) => {
-                    const scores = chosen.map((c) => c.categories[cat.id]?.score ?? null);
+                    const scores = chosen.map((c) => categoryScore(c, cat.id));
                     const max = Math.max(...scores.map((s) => s ?? -1));
                     return (
                       <TableRow key={cat.id}>

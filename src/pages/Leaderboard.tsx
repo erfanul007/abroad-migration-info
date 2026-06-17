@@ -5,6 +5,7 @@ import { useData } from "@/hooks/useData";
 import { LeaderboardTable } from "@/components/leaderboard/LeaderboardTable";
 import { SearchBox } from "@/components/leaderboard/SearchBox";
 import { Filters } from "@/components/leaderboard/Filters";
+import { regionsOf, byRegion } from "@/lib/selectors";
 
 export default function Leaderboard() {
   const { countries, categories } = useData();
@@ -12,11 +13,8 @@ export default function Leaderboard() {
   const [region, setRegion] = useState("all");
   const [columnVisibility, setColumnVisibility] = useState<VisibilityState>({});
 
-  const regions = useMemo(() => [...new Set(countries.map((c) => c.region))].sort(), [countries]);
-  const filtered = useMemo(
-    () => (region === "all" ? countries : countries.filter((c) => c.region === region)),
-    [countries, region],
-  );
+  const regions = useMemo(() => regionsOf(countries), [countries]);
+  const filtered = useMemo(() => byRegion(countries, region), [countries, region]);
 
   return (
     <div className="space-y-8">

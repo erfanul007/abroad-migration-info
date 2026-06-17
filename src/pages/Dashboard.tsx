@@ -8,6 +8,8 @@ import { Choropleth } from "@/components/charts/Choropleth";
 import { ScoreBadge } from "@/components/common/ScoreBadge";
 import { Button } from "@/components/ui/button";
 import { formatDate } from "@/lib/formatters";
+import { topN } from "@/lib/selectors";
+import { TOP_N } from "@/lib/config";
 import { Globe, Scale, Trophy, CalendarClock, Map, ListOrdered, ArrowRight } from "lucide-react";
 
 export default function Dashboard() {
@@ -37,7 +39,7 @@ export default function Dashboard() {
 
       <Section title="Leaderboard" icon={ListOrdered} action={<Button asChild variant="outline" size="sm"><Link to="/leaderboard">Full leaderboard <ArrowRight className="size-4" /></Link></Button>}>
         <div className="divide-y rounded-lg border">
-          {countries.slice(0, 5).map((c) => (
+          {topN(countries, TOP_N.dashboard).map((c) => (
             <Link key={c.id} to={`/country/${c.iso}`} className="flex items-center justify-between px-4 py-2.5 hover:bg-muted">
               <span className="flex items-center gap-2"><span className="w-6 tabular-nums text-muted-foreground">{c.rank}</span><span aria-hidden>{c.flag}</span><span className="font-medium">{c.name}</span></span>
               <ScoreBadge score={c.overall} />

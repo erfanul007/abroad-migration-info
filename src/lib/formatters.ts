@@ -1,4 +1,6 @@
 // src/lib/formatters.ts
+import { TIER, CHOROPLETH } from "@/lib/config";
+
 const LOCALE = "en-GB"; // org default for user-facing en (point decimal, DD/MM/YYYY)
 
 export function formatScore(score: number): string {
@@ -24,9 +26,9 @@ export function formatDate(iso: string): string {
 export type Tier = "excellent" | "good" | "fair" | "weak";
 
 export function scoreTier(score: number): Tier {
-  if (score >= 80) return "excellent";
-  if (score >= 65) return "good";
-  if (score >= 45) return "fair";
+  if (score >= TIER.excellent) return "excellent";
+  if (score >= TIER.good) return "good";
+  if (score >= TIER.fair) return "fair";
   return "weak";
 }
 
@@ -42,8 +44,8 @@ export function scoreTierClasses(tier: Tier): string {
 
 /** Choropleth fill thresholds — a FIXED absolute scale (not data-relative), so a given
  *  score always maps to the same shade as the dataset grows. */
-export const FILL_MIN = 60; // below this → no fill (renders as neutral default land)
-export const FILL_MAX = 80; // at/above this → the single deepest green (capped)
+export const FILL_MIN = CHOROPLETH.min; // below this → no fill (renders as neutral default land)
+export const FILL_MAX = CHOROPLETH.max; // at/above this → the single deepest green (capped)
 // Ease-in exponent (>1, convex). Weights the ramp toward the deep end: equal score gaps
 // produce a SMALL shade step low down and a progressively LARGER step higher up (so 76 vs
 // 72 separates more than 66 vs 62). Tune this single knob to dial the effect.

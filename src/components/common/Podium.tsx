@@ -4,9 +4,11 @@ import { Crown, Medal } from "lucide-react";
 import type { ScoredCountry } from "@/types";
 import { Card, CardContent } from "@/components/ui/card";
 import { ScoreBadge } from "@/components/common/ScoreBadge";
+import { topN } from "@/lib/selectors";
+import { TOP_N } from "@/lib/config";
 
 export function Podium({ countries }: { countries: ScoredCountry[] }) {
-  const top = countries.slice(0, 3);
+  const top = topN(countries, TOP_N.podium);
   const order = [1, 0, 2]; // visual: 2nd, 1st, 3rd
   return (
     <div className="grid grid-cols-3 gap-3">

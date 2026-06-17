@@ -51,11 +51,17 @@ export default function CountryDetail() {
 
       <Section title="Category detail" icon={LayoutGrid}>
         <div className="grid gap-4 md:grid-cols-2">
-          {country.scored.map(({ category, cell }) => (
+          {country.scored.map(({ category, cell, score }) => (
             <Card key={category.id}>
               <CardHeader className="flex-row items-center justify-between space-y-0 pb-2">
                 <CardTitle className="text-base">{category.name}</CardTitle>
-                {cell ? (cell.status === "pending" ? <PendingBadge /> : <ScoreBadge score={cell.score} />) : <span className="text-muted-foreground">—</span>}
+                {cell && cell.status === "scored" && score !== null ? (
+                  <ScoreBadge score={score} />
+                ) : cell ? (
+                  <PendingBadge />
+                ) : (
+                  <span className="text-muted-foreground">—</span>
+                )}
               </CardHeader>
               <CardContent className="space-y-2 text-sm">
                 {!cell || cell.status === "pending" ? (
@@ -63,11 +69,24 @@ export default function CountryDetail() {
                 ) : (
                   <>
                     {cell.summary && <p>{cell.summary}</p>}
-                    {cell.reasoning && <p className="text-muted-foreground">{cell.reasoning}</p>}
-                    {cell.evidence && cell.evidence.length > 0 && (
-                      <ul className="list-inside list-disc text-muted-foreground">{cell.evidence.map((e) => <li key={e}>{e}</li>)}</ul>
+                    {cell.pros.length > 0 && (
+                      <ul className="list-inside list-disc text-emerald-700 dark:text-emerald-300">
+                        {cell.pros.map((p) => <li key={p.text}>{p.text}</li>)}
+                      </ul>
                     )}
-                    {cell.links && cell.links.length > 0 && (
+                    {cell.cons.length > 0 && (
+                      <ul className="list-inside list-disc text-muted-foreground">
+                        {cell.cons.map((co) => (
+                          <li key={co.text}>
+                            {co.text}
+                            {co.severity === "blocker" && (
+                              <span className="ml-1 font-semibold text-rose-600 dark:text-rose-400">(blocker)</span>
+                            )}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                    {cell.links.length > 0 && (
                       <div className="flex flex-wrap gap-2 pt-1">
                         {cell.links.map((l) => <a key={l.url} href={l.url} target="_blank" rel="noreferrer" className="text-primary hover:underline">{l.title} ↗</a>)}
                       </div>
