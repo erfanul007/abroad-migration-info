@@ -2,12 +2,13 @@
 import { useMemo } from "react";
 import { useData } from "@/hooks/useData";
 import { Section } from "@/components/common/Section";
+import { FeedbackForm } from "@/components/about/FeedbackForm";
 import { Card, CardContent } from "@/components/ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import {
   Users, Route, SlidersHorizontal, Calculator, Dot,
   GraduationCap, Briefcase, Home, BadgeCheck, Plane,
-  MapPin, Zap, Copy, type LucideIcon,
+  MapPin, Zap, Copy, MessageSquare, type LucideIcon,
 } from "lucide-react";
 
 // Icon per pathway step, aligned to profile.pathway order.
@@ -80,6 +81,10 @@ export default function About() {
             </TableBody>
           </Table>
         </div>
+      </Section>
+
+      <Section title="Feedback" icon={MessageSquare}>
+        <FeedbackForm />
       </Section>
     </div>
   );
