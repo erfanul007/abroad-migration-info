@@ -1,6 +1,7 @@
 // src/lib/formatters.test.ts
 import { describe, it, expect } from "vitest";
-import { formatScore, formatPercent, formatDate, scoreTier, scoreToGreen } from "@/lib/formatters";
+import { formatScore, formatPercent, formatDate, scoreTier, scoreToGreen, orderedTiers } from "@/lib/formatters";
+import { TIER } from "@/lib/config";
 
 describe("formatScore", () => {
   it("rounds to a whole number", () => {
@@ -25,17 +26,32 @@ describe("formatDate", () => {
 describe("scoreTier", () => {
   it("maps score to a tier label", () => {
     expect(scoreTier(90)).toBe("excellent");
-    expect(scoreTier(70)).toBe("good");
-    expect(scoreTier(50)).toBe("fair");
+    expect(scoreTier(75)).toBe("good");
+    expect(scoreTier(62)).toBe("fair");
     expect(scoreTier(30)).toBe("weak");
   });
   it("maps tier boundary values exactly", () => {
     expect(scoreTier(80)).toBe("excellent");
     expect(scoreTier(79)).toBe("good");
-    expect(scoreTier(65)).toBe("good");
-    expect(scoreTier(64)).toBe("fair");
-    expect(scoreTier(45)).toBe("fair");
-    expect(scoreTier(44)).toBe("weak");
+    expect(scoreTier(70)).toBe("good");
+    expect(scoreTier(69)).toBe("fair");
+    expect(scoreTier(60)).toBe("fair");
+    expect(scoreTier(59)).toBe("weak");
+  });
+});
+
+describe("orderedTiers", () => {
+  it("lists tiers high→low with floors from TIER and weak at 0", () => {
+    expect(orderedTiers()).toEqual([
+      { tier: "excellent", min: TIER.excellent },
+      { tier: "good", min: TIER.good },
+      { tier: "fair", min: TIER.fair },
+      { tier: "weak", min: 0 },
+    ]);
+  });
+  it("is strictly descending by min", () => {
+    const mins = orderedTiers().map((t) => t.min);
+    expect(mins).toEqual([...mins].sort((a, b) => b - a));
   });
 });
 

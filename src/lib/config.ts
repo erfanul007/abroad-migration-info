@@ -3,8 +3,9 @@
 // out of components and out of formatters — import from here so a policy change is
 // one edit. (Choropleth pixel/zoom presentation constants stay in their components.)
 
-/** Absolute score-tier cutoffs (0..100). ≥excellent / ≥good / ≥fair / else weak. */
-export const TIER = { excellent: 80, good: 65, fair: 45 } as const;
+/** Absolute score-tier cutoffs (0..100). ≥excellent / ≥good / ≥fair / else weak.
+ *  `fair` (60) is aligned with the choropleth fill floor below, so unfilled == weak. */
+export const TIER = { excellent: 80, good: 70, fair: 60 } as const;
 
 /** Choropleth fill band: below `min` → no fill; at/above `max` → deepest shade (capped). */
 export const CHOROPLETH = { min: 60, max: 80 } as const;

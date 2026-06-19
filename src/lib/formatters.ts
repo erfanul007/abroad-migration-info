@@ -32,6 +32,17 @@ export function scoreTier(score: number): Tier {
   return "weak";
 }
 
+/** The score tiers ordered by their lower bound (descending); `weak` floors at 0.
+ *  Derived from TIER so a tier legend can never drift from scoreTier. */
+export function orderedTiers(): { tier: Tier; min: number }[] {
+  return [
+    { tier: "excellent", min: TIER.excellent },
+    { tier: "good", min: TIER.good },
+    { tier: "fair", min: TIER.fair },
+    { tier: "weak", min: 0 },
+  ];
+}
+
 /** Tailwind classes for the score colour scale (used by ScoreBadge). */
 export function scoreTierClasses(tier: Tier): string {
   switch (tier) {

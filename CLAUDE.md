@@ -27,7 +27,7 @@ Applies to *every* change to a country/category score, evidence, summary, reason
 - **Source of truth:** `src/data/` — `profile.json`, `categories.json`, `countries/<id>.json` (one per country). Zod schemas live in `src/lib/schema.ts`; types are inferred via `z.infer` and re-exported from `@/types`. JSON is validated at load (throws in dev/test).
 - **Add a country/category = JSON only**, no component changes. New category → `categories.json`; new country → `countries/<id>.json`.
 - **Weights sum to 100** (±0.001), category ids are unique, and a country may only reference known category ids.
-- **Absolute 0–100 scale** (not data-relative): tiers ≥80 excellent, ≥65 good, ≥45 fair, else weak (`scoreTier`). Map fill: 60–80 green ramp, <60 unfilled.
+- **Absolute 0–100 scale** (not data-relative): tiers ≥80 excellent, ≥70 good, ≥60 fair, else weak (`scoreTier`). Map fill: 60–80 green ramp, <60 unfilled (the `fair` floor of 60 is aligned with the fill floor, so unfilled == weak).
 - **Overall is computed at runtime, never stored** in a source country JSON (weighted sum, renormalised over present categories, then `recalibrate`d for display). Do not add a precomputed `overall` field to a country file. The one sanctioned derived artifact is the generated, drift-tested `src/data/cache/scoreboard.json` (regenerate via `npm run cache:scores`; never hand-edit).
 - **Inclusion:** drop countries scoring <50% overall (surfaced, not auto-deleted).
 - **Cell standard:** a `scored` cell should carry `score`, `summary`, `reasoning`, `evidence[]`, `links[]`, `lastReviewed`. `pending` = placeholder, rendered muted; pending cells are excluded from the overall, not counted as zero.
