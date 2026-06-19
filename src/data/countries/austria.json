@@ -5,144 +5,356 @@
   "iso3": "AUT",
   "flag": "🇦🇹",
   "region": "Europe",
-  "summary": "",
-  "lastReviewed": "2026-06-18",
+  "summary": "A high-quality, very safe destination — near-free public tuition (~€1,453/yr), immediate compulsory health cover, Vienna's top-ranked livability and software on the 2026 shortage list — but structurally hostile to this couple's end-goal: Austria does NOT permit dual citizenship, so a naturalising Bangladeshi must renounce BD nationality (blocker), naturalisation needs 10 years plus B2 German, the OECD tax wedge is the 4th-highest (47.1%) with no Bangladesh tax treaty, German gates daily life and status, and the far-right FPÖ won the 2024 election (29.2%). Derived overall sits below the 60% inclusion line — flagged as a drop candidate.",
+  "lastReviewed": "2026-06-19",
   "links": [
-    {
-      "title": "migration.gv.at – Official Austrian migration portal",
-      "url": "https://www.migration.gv.at/en/"
-    },
-    {
-      "title": "OeAD – Study in Austria",
-      "url": "https://oead.at/en/to-austria/"
-    }
+    { "title": "migration.gv.at — Austria's official immigration portal", "url": "https://www.migration.gv.at/en/" },
+    { "title": "oesterreich.gv.at — Citizenship (official)", "url": "https://www.oesterreich.gv.at/en/themen/menschen_aus_anderen_staaten/staatsbuergerschaft.html" }
   ],
   "categories": {
     "job-market": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Software/data-processing engineers sit on Austria's 2026 shortage list amid a severe labour shortage (272,000 unfilled roles), but the market is Vienna-centric, salaries trail Canada/Germany, and many roles are German-gated.",
+      "factors": {
+        "sw-demand-depth": { "status": "scored", "score": 74 },
+        "ai-ml-specialisation": { "status": "scored", "score": 55 },
+        "salary-levels": { "status": "scored", "score": 60 },
+        "sponsorship-work-authorisation": { "status": "scored", "score": 68 },
+        "foreign-grad-bd-hireability": { "status": "scored", "score": 55 },
+        "dual-earner-depth": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Data-processing/software engineers are on Austria's 2026 nationwide shortage list (expanded to 64 occupations); WKO reports 78% of firms hit by labour shortages and ~272,000 unfilled positions, giving Red-White-Red Card bonus points and faster processing." },
+        { "text": "Software-engineer pay runs ~€53k–83k (Vienna avg ~€63k–69k) with an AI premium; Vienna alone lists 960+ software-engineering vacancies." }
+      ],
+      "cons": [
+        { "text": "The market is heavily Vienna-centric (Graz/Linz secondary) with no multi-hub depth, limiting placement for two earners simultaneously." },
+        { "text": "Outside Vienna MNCs and startups, German is commonly expected, narrowing roles realistically open to a newly arrived Bangladeshi graduate." }
+      ],
+      "links": [
+        { "title": "migration.gv.at — Austria-wide shortage occupations (official)", "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/austria-wide-shortage-occupations/" },
+        { "title": "workinaustria.com — Nationwide shortage occupations (ABA, official agency)", "url": "https://www.workinaustria.com/en/residence-employment/shortage-occupations/nationwide/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "visa-access": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Bangladeshi students lodge the D-visa/residence permit through VFS in Dhaka, but the decision is made by the Austrian Embassy in New Delhi (no decision-making mission in Dhaka); funds proof ~€12,000/yr and EU-standard scrutiny, with no Bangladesh-specific targeting.",
+      "factors": {
+        "approval-refusal-rate": { "status": "scored", "score": 52 },
+        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 48 },
+        "in-queue-processing-schemes": { "status": "scored", "score": 52 },
+        "financial-bars": { "status": "scored", "score": 58 },
+        "credibility-genuineness-scrutiny": { "status": "scored", "score": 55 },
+        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Applications can be lodged at the VFS Austria centre in Dhaka rather than requiring travel to New Delhi; proof of funds (~€12,000/yr) is lower than Canada or Australia." },
+        { "text": "No Bangladesh-specific visa ban or heightened-scrutiny listing; bilateral ties are normal and a Bangladesh embassy operates in Vienna." }
+      ],
+      "cons": [
+        { "text": "The student residence-permit decision is made by the Austrian Embassy in New Delhi (Austria has no decision-making mission in Dhaka), adding a routing step and potential delay." },
+        { "text": "There is no fast-track student scheme; processing is officially up to ~15 working days but lengthens in the July–September peak." }
+      ],
+      "links": [
+        { "title": "BMEIA (Austrian MFA) — Studying in Austria / how to apply (Embassy New Delhi, official)", "url": "https://www.bmeia.gv.at/en/austrian-embassy-new-delhi/travels-to-austria/studying-in-austria" },
+        { "title": "VFS Global — Austria visa information, Bangladesh", "url": "https://visa.vfsglobal.com/one-pager/austria/bangladesh/english/index.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "citizenship": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "The decisive failure for this profile: Austria does not permit dual citizenship, so a naturalising Bangladeshi must renounce BD nationality, and naturalisation requires 10 years' residence plus B2 German — despite a top-tier passport.",
+      "factors": {
+        "time-to-citizenship": { "status": "scored", "score": 25 },
+        "naturalisation-requirements": { "status": "scored", "score": 25 },
+        "dual-citizenship-retention": { "status": "scored", "score": 12 },
+        "citizenship-attainability": { "status": "scored", "score": 25 },
+        "policy-stability": { "status": "scored", "score": 30 },
+        "passport-strength": { "status": "scored", "score": 90 },
+        "other": { "status": "scored", "score": 25 }
+      },
+      "pros": [
+        { "text": "The Austrian passport ranks joint 4th on the Henley 2026 index with visa-free access to ~185 destinations." }
+      ],
+      "cons": [
+        { "text": "Austria does not recognise dual citizenship: standard naturalisation requires renouncing prior nationality within two years (waived only for 'extraordinary achievement', §10(6)), so a naturalising Bangladeshi loses BD nationality — failing the couple's core retain-BD goal.", "severity": "blocker" },
+        { "text": "Standard naturalisation needs 10 years' continuous residence (5 on a permanent permit) plus B2 German (raised from B1 under the 2025–29 government programme), a history/values exam, and 36 months of self-sufficient income in the last 6 years." }
+      ],
+      "links": [
+        { "title": "oesterreich.gv.at — Dual citizenship (official)", "url": "https://www.oesterreich.gv.at/en/themen/menschen_aus_anderen_staaten/staatsbuergerschaft/Seite.260430.html" },
+        { "title": "migration.gv.at — Integration and citizenship (official)", "url": "https://www.migration.gv.at/en/living-and-working-in-austria/integration-and-citizenship/citizenship/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "post-study-work": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Graduates can extend their student permit 12 months to find work, then move to a Red-White-Red Card for graduates (no points test, offer-based) — a deterministic but short runway versus Canada's 3 years.",
+      "factors": {
+        "psw-duration-runway": { "status": "scored", "score": 50 },
+        "eligibility-openness-bd": { "status": "scored", "score": 65 },
+        "transition-to-skilled-work": { "status": "scored", "score": 72 },
+        "work-freedom-during-psw": { "status": "scored", "score": 55 },
+        "dual-graduate-spouse-psw": { "status": "scored", "score": 72 },
+        "psw-policy-stability": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Graduates of Austrian universities may renew the 'Students' permit for 12 months to search for a job or start a business, then apply for a Red-White-Red Card for graduates with no points system — a clear, offer-based conversion." },
+        { "text": "Both graduating spouses can independently use the 12-month extension and graduate RWR route." }
+      ],
+      "cons": [
+        { "text": "The 12-month job-search runway is short next to Canada's 3-year PGWP or Germany's 18 months, compressing the window to land a qualifying offer." },
+        { "text": "The graduate RWR Card ties the holder to a specific qualifying employer/role initially, limiting work freedom during the transition." }
+      ],
+      "links": [
+        { "title": "migration.gv.at — Graduates of Austrian universities (official)", "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/graduates/" },
+        { "title": "workinaustria.com — Red-White-Red Card (ABA, official agency)", "url": "https://www.workinaustria.com/en/residence-employment/red-white-red-card/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "spouse-family": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Family reunification and free public schooling exist, and an RWR Card Plus grants family members labour-market access, but the accompanying spouse of a student faces restricted work rights and funds tests during the study phase.",
+      "factors": {
+        "spouse-work-rights": { "status": "scored", "score": 58 },
+        "dependent-visa-bd-access": { "status": "scored", "score": 55 },
+        "family-reunification-children": { "status": "scored", "score": 68 },
+        "spouse-path-to-independence": { "status": "scored", "score": 65 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Family members of a Red-White-Red Card holder can obtain an RWR Card Plus with free labour-market access during the work phase, and if both spouses study each holds their own permit." },
+        { "text": "Children attend public school free of charge and family reunification is available subject to means and housing." }
+      ],
+      "cons": [
+        { "text": "The dependent spouse of a student has restricted work rights during the study phase (own permit/work authorisation needed), and family reunification requires proving higher combined funds." }
+      ],
+      "links": [
+        { "title": "migration.gv.at — Family members (official)", "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/family-members/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "msc-study": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Near-free public tuition (~€1,453/yr for non-EU at TU Wien) and 350+ English-taught programmes make study highly affordable, but universities sit mid-table (QS ~150–200) and non-EU student work is bureaucratically restricted.",
+      "factors": {
+        "affordability-funding": { "status": "scored", "score": 82 },
+        "english-program-depth": { "status": "scored", "score": 75 },
+        "admission-credential-access": { "status": "scored", "score": 72 },
+        "student-work-rights": { "status": "scored", "score": 48 },
+        "study-pathway-fit": { "status": "scored", "score": 75 },
+        "other": { "status": "scored", "score": 58 }
+      },
+      "pros": [
+        { "text": "Public-university tuition for non-EU students is only ~€726.72/semester (~€1,453/yr) — near-free — and Austria offers 350+ English-taught programmes, with 32 universities running CS/IT master's (University of Vienna, TU Wien)." },
+        { "text": "A Bangladeshi BSc-CSE is admissible at the graduate level (IELTS/TOEFL), and a standard master's qualifies for the graduate Red-White-Red route." }
+      ],
+      "cons": [
+        { "text": "Non-EU students need an employer-applied work permit (Beschäftigungsbewilligung) to work, with a ~20 hrs/week cap and real bureaucracy — far more restrictive than Germany's free allowance." },
+        { "text": "Austrian universities rank mid-table globally (TU Wien ~QS 197, University of Vienna ~QS 152), below Canadian/UK peers for CS/AI prestige." }
+      ],
+      "links": [
+        { "title": "TU Wien — Tuition fee (official)", "url": "https://www.tuwien.at/en/studies/admission/students-union-fee-and-tuition-fee/tuition-fee" },
+        { "title": "studieren.univie.ac.at — Amount of the tuition fee (University of Vienna, official)", "url": "https://studieren.univie.ac.at/en/tuition-fee/amount-tuition-fee/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "pr-pathway": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Five years of continuous residence (RWR Card → RWR Card Plus after 21 months → long-term residence-EU) reaches PR, but it requires B1 German and strict absence limits.",
+      "factors": {
+        "years-to-pr": { "status": "scored", "score": 62 },
+        "route-clarity-accessibility": { "status": "scored", "score": 60 },
+        "eligibility-bars": { "status": "scored", "score": 60 },
+        "language-integration-requirement": { "status": "scored", "score": 50 },
+        "continuity-retention": { "status": "scored", "score": 58 },
+        "policy-predictability": { "status": "scored", "score": 48 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "After 5 years' continuous residence (RWR Card → RWR Card Plus after 21 months of qualifying work) one can obtain a long-term residence–EU permit, removing employer restrictions and annual renewals." },
+        { "text": "Shortage-list tech roles comfortably meet the income and qualification bars for the RWR sequence." }
+      ],
+      "cons": [
+        { "text": "PR requires Module 2 of the Integration Agreement — German at B1 — a real burden for English-first applicants." },
+        { "text": "Continuity rules are strict (no more than 10 months total, or 6 consecutive months, outside Austria over the 5 years)." }
+      ],
+      "links": [
+        { "title": "migration.gv.at — Long-term residence (official)", "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/" },
+        { "title": "workinaustria.com — Extending your residence permit (ABA, official agency)", "url": "https://www.workinaustria.com/en/residence-employment/extending-your-residence-permit-in-austria/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "income-cost": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Vienna's regulated housing keeps living costs more moderate than Toronto or Sydney, but a 47% tax wedge eats into two solid-but-not-stellar tech salaries.",
+      "factors": {
+        "household-net-surplus": { "status": "scored", "score": 58 },
+        "housing-cost-availability": { "status": "scored", "score": 62 },
+        "savings-remittance": { "status": "scored", "score": 60 },
+        "student-phase-affordability": { "status": "scored", "score": 55 },
+        "upfront-relocation-cash": { "status": "scored", "score": 52 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Vienna's large regulated/social-housing sector keeps rents notably more affordable than other Western capitals, easing the housing squeeze on a dual-earner household." }
+      ],
+      "cons": [
+        { "text": "Austria's 47.1% tax wedge (4th-highest OECD) compresses net surplus, and salaries trail Canadian/German levels, so savings potential is moderate rather than strong." },
+        { "text": "Restricted non-EU student work limits study-phase income, leaning on the ~€12,000/yr funds reserve." }
+      ],
+      "links": [
+        { "title": "Study.eu — Austria tuition fees & cost of living (2026)", "url": "https://www.study.eu/article/austria-tuition-fees-cost-of-living" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "healthcare": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A standout strength: compulsory insurance with no waiting periods — students self-insure at ~€78.84/month and employees are covered from day one, with high quality and free child co-insurance.",
+      "factors": {
+        "newcomer-eligibility-barrier": { "status": "scored", "score": 78 },
+        "health-quality-access": { "status": "scored", "score": 78 },
+        "cost-coverage-by-status": { "status": "scored", "score": 75 },
+        "social-insurance-safety-net": { "status": "scored", "score": 72 },
+        "family-childcare-benefits": { "status": "scored", "score": 65 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "Compulsory insurance (Pflichtversicherung) has no waiting periods and no pre-existing-condition underwriting: students self-insure with ÖGK at ~€78.84/month and employees are covered from the first day, contributions ~7.65% split with the employer." },
+        { "text": "High-quality care via the e-card/ELGA system, with children co-insured free with a working parent (to 26 while studying)." }
+      ],
+      "cons": [
+        { "text": "Student self-insurance is an out-of-pocket monthly cost until employment, and crossing the marginal-earnings threshold shifts a working student onto compulsory employee insurance." }
+      ],
+      "links": [
+        { "title": "ÖEAD — Health insurance / Gesundheitskasse (ÖGK), official agency", "url": "https://oead.at/en/to-austria/scholars/before-arrival/insurance/gebietskrankenkassen" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "culture-language": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Vienna ranks top globally for livability, but German is essential for daily life and status (B1 for PR, B2 for citizenship), and the social climate for South-Asian Muslim newcomers is cool under a strong far-right.",
+      "factors": {
+        "english-usability": { "status": "scored", "score": 45 },
+        "language-burden-citizenship": { "status": "scored", "score": 30 },
+        "integration-support": { "status": "scored", "score": 55 },
+        "social-acceptance-south-asian": { "status": "scored", "score": 48 },
+        "worklife-livability": { "status": "scored", "score": 82 },
+        "cultural-distance-adaptation": { "status": "scored", "score": 50 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Vienna repeatedly tops global livability and quality-of-life rankings, with excellent public services, transport and work-life balance." },
+        { "text": "A structured (mandatory) Integration Agreement provides funded German and orientation courses." }
+      ],
+      "cons": [
+        { "text": "German is required for daily life and for status (B1 for PR, B2 for citizenship); English works only in Vienna's international workplaces." },
+        { "text": "Social acceptance of visibly Muslim South-Asian newcomers is mixed amid a strong far-right presence and recurring headscarf/integration debates." }
+      ],
+      "links": [
+        { "title": "migration.gv.at — The Integration Agreement (official)", "url": "https://www.migration.gv.at/en/living-and-working-in-austria/integration-and-citizenship/the-integration-agreement/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "safety-law": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Among the safest countries on earth (GPI 2025: 4th) with top-tier rule of law (WJP 2025: 12th, 0.79), tempered by a cool climate toward Muslim migrants under the far-right.",
+      "factors": {
+        "personal-crime-safety": { "status": "scored", "score": 85 },
+        "lived-discrimination-hatecrime": { "status": "scored", "score": 50 },
+        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 80 },
+        "women-safety-gbv": { "status": "scored", "score": 75 },
+        "immigration-enforcement-due-process": { "status": "scored", "score": 68 },
+        "antidiscrimination-law-enforcement": { "status": "scored", "score": 60 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "Global Peace Index 2025: 4th of 163 (very low violent crime, political neutrality); WJP Rule of Law Index 2025: 12th of 143 (0.79), one of only five EU improvements." },
+        { "text": "Strong personal and women's safety with reliable, low-corruption civil justice." }
+      ],
+      "cons": [
+        { "text": "Anti-Muslim/anti-migrant sentiment is elevated under a strong far-right, with recurring headscarf and integration disputes shaping the lived climate for visible minorities." }
+      ],
+      "links": [
+        { "title": "Global Peace Index 2025 (Vision of Humanity)", "url": "https://www.visionofhumanity.org/10-most-peaceful-countries-in-the-world-in-2025/" },
+        { "title": "World Justice Project — Rule of Law Index 2025", "url": "https://worldjusticeproject.org/rule-of-law-index/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "politics": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Institutions are stable (an ÖVP–SPÖ–NEOS coalition formed in 2025), but the far-right FPÖ won the 2024 election outright (29.2%) on a 'Fortress Austria'/'remigration' platform, making the climate hostile to non-EU Muslim migrants.",
+      "factors": {
+        "immigration-policy-volatility": { "status": "scored", "score": 42 },
+        "non-eu-skilled-policy-direction": { "status": "scored", "score": 55 },
+        "anti-immigration-electoral-power": { "status": "scored", "score": 25 },
+        "societal-sentiment-trend": { "status": "scored", "score": 38 },
+        "institutional-governance-stability": { "status": "scored", "score": 75 },
+        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 38 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "Institutions are stable: despite the FPÖ win, the ÖVP, SPÖ and NEOS formed a three-party coalition in 2025 that excluded the far right, and the shortage-occupation list keeps skilled non-EU recruitment open." }
+      ],
+      "cons": [
+        { "text": "The far-right FPÖ won the September 2024 election (29.2%, the largest party) on a 'Fortress Austria' platform calling for 'remigration of uninvited foreigners' and asylum suspension — a powerful anti-immigration force." },
+        { "text": "The 2025–29 government programme tightened integration/language rules (B1→B2 for citizenship), signalling a restrictive direction." }
+      ],
+      "links": [
+        { "title": "2024 Austrian legislative election (overview)", "url": "https://en.wikipedia.org/wiki/2024_Austrian_legislative_election" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "tax": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Among the heaviest tax burdens in the OECD — a 47.1% average wedge (4th-highest) rising to a 58.3% marginal wedge for high earners — with no special expat relief and no Bangladesh tax treaty in force.",
+      "factors": {
+        "effective-deduction-wedge": { "status": "scored", "score": 32 },
+        "expat-foreign-worker-relief": { "status": "scored", "score": 30 },
+        "household-dual-earner-treatment": { "status": "scored", "score": 62 },
+        "student-phase-tax-exposure": { "status": "scored", "score": 65 },
+        "bd-treaty-repatriation": { "status": "scored", "score": 30 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Tax is assessed individually (no joint penalty on the second earner), and study-phase income is low and lightly taxed." }
+      ],
+      "cons": [
+        { "text": "The OECD average tax wedge is 47.1% (4th-highest, 2025), with a 58.3% marginal wedge on high earners and no general expat/inbound-worker relief regime." },
+        { "text": "There is no Austria–Bangladesh income-tax treaty in force — negotiations were only authorised in July 2024 — so no treaty relief on repatriation." }
+      ],
+      "links": [
+        { "title": "OECD — Taxing Wages 2025: Austria country note (PDF)", "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/04/taxing-wages-2025-country-notes_16d47563/austria_c1a885f9/54dd00e1-en.pdf" },
+        { "title": "PwC — Austria: foreign tax relief and tax treaties", "url": "https://taxsummaries.pwc.com/austria/individual/foreign-tax-relief-and-tax-treaties" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "muslim-diaspora": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Islam is Austria's largest minority religion (8.3%), legally recognised since 1912, with 200+ Vienna mosques and abundant halal — but the Bangladeshi community is small and day-to-day sentiment is strained under the far-right.",
+      "factors": {
+        "bangladeshi-diaspora": { "status": "scored", "score": 45 },
+        "religious-practice-infrastructure": { "status": "scored", "score": 80 },
+        "sentiment-safety": { "status": "scored", "score": 42 },
+        "legal-religious-accommodation": { "status": "scored", "score": 55 },
+        "south-asian-cultural-ecosystem": { "status": "scored", "score": 50 },
+        "other": { "status": "scored", "score": 42 }
+      },
+      "pros": [
+        { "text": "Islam has been legally recognised in Austria since 1912; Vienna has 200+ mosques and prayer rooms (incl. the Islamic Centre Vienna) and abundant halal food, within an 8.3% Muslim population." },
+        { "text": "An organised Bangladeshi presence exists in Vienna (embassy, community and sports clubs), easing landing for newcomers." }
+      ],
+      "cons": [
+        { "text": "The Bangladeshi community is small relative to Canada/UK, and day-to-day anti-Muslim sentiment is strained under FPÖ rhetoric, headscarf disputes and the 2015 Islam Law's restrictions on foreign mosque funding." }
+      ],
+      "links": [
+        { "title": "Islam in Austria (overview)", "url": "https://en.wikipedia.org/wiki/Islam_in_Austria" },
+        { "title": "Embassy & Permanent Mission of Bangladesh, Vienna (official)", "url": "https://bangladootvienna.gov.bd/" }
+      ],
+      "lastReviewed": "2026-06-19"
     }
   }
 }

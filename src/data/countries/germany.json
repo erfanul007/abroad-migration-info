@@ -5,143 +5,364 @@
   "iso3": "DEU",
   "flag": "🇩🇪",
   "region": "Europe",
-  "summary": "",
+  "summary": "Strong long-game: dual citizenship is retained both ways (Germany permits multiple nationality since 27 June 2024 and Bangladesh grants a Dual Nationality Certificate), five-year naturalisation, an unusually fast EU Blue Card → settlement-permit PR (21 months with B1 German, 27 with A1), tuition-free public master's and immediate statutory healthcare. The binding weaknesses are the entry stage and climate — a roughly 27-month student-visa appointment backlog at the German Embassy Dhaka, the second-highest tax wedge in the OECD with no expat relief, a B1-German burden for status, and a rising-Islamophobia / strong-AfD (20.8%, second place) political environment.",
   "lastReviewed": "2026-06-18",
   "links": [
-    {
-      "title": "Make it in Germany (official federal portal)",
-      "url": "https://www.make-it-in-germany.com/en/"
-    },
-    {
-      "title": "FAQ - Student Visa (German Embassy Dhaka, official)",
-      "url": "https://dhaka.diplo.de/bd-en/service/2689586-2689586"
-    }
+    { "title": "Make it in Germany (official federal portal)", "url": "https://www.make-it-in-germany.com/en/" },
+    { "title": "Student visa & finances — German Embassy Dhaka (official)", "url": "https://dhaka.diplo.de/bd-en/service/2685884-2685884" }
   ],
   "categories": {
     "job-market": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "summary": "Largest EU economy with a chronic IT skills shortage (software qualifies for the lower Blue Card threshold) and several tech hubs, but much of the market is German-language-gated and 2024–26 hiring softened.",
+      "factors": {
+        "sw-demand-depth": { "status": "scored", "score": 70 },
+        "ai-ml-specialisation": { "status": "scored", "score": 62 },
+        "salary-levels": { "status": "scored", "score": 64 },
+        "sponsorship-work-authorisation": { "status": "scored", "score": 72 },
+        "foreign-grad-bd-hireability": { "status": "scored", "score": 58 },
+        "dual-earner-depth": { "status": "scored", "score": 68 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "IT/software is a recognised shortage (bottleneck) occupation, so software roles qualify for the lower EU Blue Card salary threshold (€45,934.20 in 2026) — easily cleared by two engineers." },
+        { "text": "Median software-developer pay is ~€65,250 (StepStone 2025, ~€71,250 at firms >5,000 staff), with a ~15–25% premium for AI/ML skills." },
+        { "text": "Multiple hubs — Berlin, Munich, Hamburg, Frankfurt, Stuttgart, plus Tübingen/Cyber Valley and research institutes (Max Planck, Fraunhofer, DFKI) — can absorb both engineers." }
+      ],
+      "cons": [
+        { "text": "Outside English-friendly Berlin/startups and MNCs, much of the market still gates roles on German (B1–B2), limiting real hireability for a non-German-speaking Bangladeshi graduate." },
+        { "text": "Tech hiring softened over 2024–26 and absolute pay trails the US/Switzerland/Australia even after the AI premium." }
+      ],
+      "links": [
+        { "title": "Make it in Germany — EU Blue Card (official federal portal)", "url": "https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card" },
+        { "title": "heise online — Salary Report: what IT professionals earn (StepStone 2025)", "url": "https://www.heise.de/en/news/Salary-Report-What-IT-professionals-earn-11134457.html" }
+      ],
       "lastReviewed": "2026-06-18"
     },
     "visa-access": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "summary": "A full embassy in Dhaka, but the binding constraint is a ~27-month student-visa appointment backlog (still current June 2026); add the APS academic check, a ~€11,904 blocked-account proof and genuine-student scrutiny.",
+      "factors": {
+        "approval-refusal-rate": { "status": "scored", "score": 55 },
+        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 25 },
+        "in-queue-processing-schemes": { "status": "scored", "score": 32 },
+        "financial-bars": { "status": "scored", "score": 48 },
+        "credibility-genuineness-scrutiny": { "status": "scored", "score": 45 },
+        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 60 },
+        "other": { "status": "scored", "score": 38 }
+      },
+      "pros": [
+        { "text": "Visas are processed at a full German Embassy in Dhaka — no travel to New Delhi — and there is no Bangladesh-specific ban or visa pause; diplomatic ties are stable." },
+        { "text": "Genuine, well-documented students with admission and funds are routinely approved; the decision is rules-based rather than a high-refusal regime." }
+      ],
+      "cons": [
+        { "text": "Student-visa appointment waits at the German Embassy Dhaka run to roughly 27 months as of June 2026 — a severe entry bottleneck that can delay relocation by years.", "severity": "normal" },
+        { "text": "Bangladeshi applicants must clear an APS (Akademische Prüfstelle) certificate plus genuine-student scrutiny, and prove a blocked account of about €11,904 for one year before lodging." }
+      ],
+      "links": [
+        { "title": "German Embassy Dhaka — Student visa (official)", "url": "https://dhaka.diplo.de/bd-en/service/2685884-2685884" },
+        { "title": "German Embassy Dhaka — Student-visa checklist (official PDF)", "url": "https://dhaka.diplo.de/resource/blob/2685888/1826aadb06dfc6b0224e91583b6836cb/p-01-checklist-students-data.pdf" }
+      ],
       "lastReviewed": "2026-06-18"
     },
     "citizenship": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "summary": "Five years' residence, B1 German plus a civics test, dual citizenship retained both ways, and a top-tier passport; the only recent negative is the 2025 repeal of the three-year fast-track.",
+      "factors": {
+        "time-to-citizenship": { "status": "scored", "score": 68 },
+        "naturalisation-requirements": { "status": "scored", "score": 58 },
+        "dual-citizenship-retention": { "status": "scored", "score": 90 },
+        "citizenship-attainability": { "status": "scored", "score": 70 },
+        "policy-stability": { "status": "scored", "score": 55 },
+        "passport-strength": { "status": "scored", "score": 90 },
+        "other": { "status": "scored", "score": 55 }
+      },
+      "pros": [
+        { "text": "Dual citizenship works both ways: Germany's modernised nationality law permits multiple citizenship since 27 June 2024, and Bangladesh grants a Dual Nationality Certificate (Citizenship Act §2B(2)), so a naturalising Bangladeshi keeps BD nationality." },
+        { "text": "Standard naturalisation is reachable in five years' lawful residence, and the German passport ranks 4th on the Henley 2026 index (185 visa-free destinations)." }
+      ],
+      "cons": [
+        { "text": "The 2025 coalition repealed the three-year fast-track for the exceptionally well-integrated, so five years is now the floor for this profile." },
+        { "text": "Naturalisation requires B1 German plus an Einbürgerungstest and proof of self-sufficiency — a real language hurdle for two English-working engineers." }
+      ],
+      "links": [
+        { "title": "BMI — Modernisation of nationality law (official)", "url": "https://www.bmi.bund.de/SharedDocs/kurzmeldungen/EN/2024/06/mod-staatsangehoerigkeitsrecht.html" },
+        { "title": "Bangladesh MOFA — Dual Nationality Certificate (official)", "url": "https://washington.mofa.gov.bd/pages/static-pages/695266b435ce18e1c05aadf1" }
+      ],
       "lastReviewed": "2026-06-18"
     },
     "post-study-work": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "summary": "Graduates of German universities get an 18-month residence permit to seek qualified work, with unrestricted work while searching and a deterministic offer-based conversion to a Blue Card; both spouses qualify in their own right.",
+      "factors": {
+        "psw-duration-runway": { "status": "scored", "score": 58 },
+        "eligibility-openness-bd": { "status": "scored", "score": 80 },
+        "transition-to-skilled-work": { "status": "scored", "score": 78 },
+        "work-freedom-during-psw": { "status": "scored", "score": 82 },
+        "dual-graduate-spouse-psw": { "status": "scored", "score": 82 },
+        "psw-policy-stability": { "status": "scored", "score": 70 },
+        "other": { "status": "scored", "score": 55 }
+      },
+      "pros": [
+        { "text": "Graduates of a German university receive an 18-month residence permit to look for qualified employment, with unrestricted work allowed during the search." },
+        { "text": "Conversion is deterministic and offer-based: a job at the IT/shortage Blue Card threshold converts the permit straight into a Blue Card — no lottery — and each graduating spouse qualifies independently." }
+      ],
+      "cons": [
+        { "text": "The 18-month runway is shorter than the 2–3 years offered by English-native destinations, and finding qualified work fast can be gated by German for many roles." }
+      ],
+      "links": [
+        { "title": "BAMF — University graduates / job-seeking residence permit (official)", "url": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/ZuwandererDrittstaaten/Arbeit/Hochschulabsolvent/hochschulabsolvent-node.html" },
+        { "title": "Make it in Germany — EU Blue Card (official federal portal)", "url": "https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card" }
+      ],
       "lastReviewed": "2026-06-18"
     },
     "spouse-family": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "summary": "Spouses of Blue Card / skilled workers get unrestricted labour-market access with no German-language precondition, full family reunification and free public schooling, plus a clear path to independent status.",
+      "factors": {
+        "spouse-work-rights": { "status": "scored", "score": 82 },
+        "dependent-visa-bd-access": { "status": "scored", "score": 72 },
+        "family-reunification-children": { "status": "scored", "score": 80 },
+        "spouse-path-to-independence": { "status": "scored", "score": 78 },
+        "other": { "status": "scored", "score": 58 }
+      },
+      "pros": [
+        { "text": "The spouse of an EU Blue Card or skilled-worker holder may work without restriction, and — unusually — without first proving German-language skills." },
+        { "text": "Family reunification is privileged for Blue Card holders; children attend free public schools, and the spouse can move onto their own work/Blue Card and PR track." }
+      ],
+      "cons": [
+        { "text": "Bringing a spouse on the student phase requires extra proof of funds, and a spouse joining from Bangladesh faces the same severe Dhaka appointment backlog." }
+      ],
+      "links": [
+        { "title": "Make it in Germany — Family reunification (official federal portal)", "url": "https://www.make-it-in-germany.com/en/visa-residence/family-life/family-reunification" },
+        { "title": "Make it in Germany — EU Blue Card (official federal portal)", "url": "https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card" }
+      ],
       "lastReviewed": "2026-06-18"
     },
     "msc-study": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "summary": "Tuition-free public master's (only a ~€250–350 semester fee; Baden-Württemberg charges non-EU €1,500/sem) with a deep English-taught CS/AI catalogue; admission for a BD BSc-CSE graduate is attainable but gated by the APS check.",
+      "factors": {
+        "affordability-funding": { "status": "scored", "score": 88 },
+        "english-program-depth": { "status": "scored", "score": 85 },
+        "admission-credential-access": { "status": "scored", "score": 68 },
+        "student-work-rights": { "status": "scored", "score": 72 },
+        "study-pathway-fit": { "status": "scored", "score": 82 },
+        "other": { "status": "scored", "score": 55 }
+      },
+      "pros": [
+        { "text": "Public universities charge no tuition (only a ~€250–350 semester contribution), so a CS/AI master's is essentially free — a decisive cost advantage over Australia/UK/US." },
+        { "text": "Wide English-taught CS/AI offering (roughly 40–58 master's programmes at institutions such as TU Munich, RWTH Aachen and TU Darmstadt), and any German degree qualifies for the 18-month post-study permit." }
+      ],
+      "cons": [
+        { "text": "Bangladeshi applicants must obtain an APS certificate and clear degree recognition/uni-assist, and top programmes are competitive." },
+        { "text": "Students may work only ~140 full / 280 half days a year (~20 hrs/week), capping study-phase earnings." }
+      ],
+      "links": [
+        { "title": "DAAD — International Programmes in Germany (official)", "url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/" },
+        { "title": "German Embassy Dhaka — Student-visa checklist incl. APS (official PDF)", "url": "https://dhaka.diplo.de/resource/blob/2685888/1826aadb06dfc6b0224e91583b6836cb/p-01-checklist-students-data.pdf" }
+      ],
       "lastReviewed": "2026-06-18"
     },
     "pr-pathway": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "summary": "An unusually fast statutory PR: an EU Blue Card holder reaches a settlement permit in 21 months (B1 German) or 27 months (A1), with the IT salary bar easily met — the language level is the real gate, not the timeline.",
+      "factors": {
+        "years-to-pr": { "status": "scored", "score": 80 },
+        "route-clarity-accessibility": { "status": "scored", "score": 78 },
+        "eligibility-bars": { "status": "scored", "score": 68 },
+        "language-integration-requirement": { "status": "scored", "score": 62 },
+        "continuity-retention": { "status": "scored", "score": 70 },
+        "policy-predictability": { "status": "scored", "score": 62 },
+        "other": { "status": "scored", "score": 58 }
+      },
+      "pros": [
+        { "text": "EU Blue Card holders obtain a permanent settlement permit after just 21 months with B1 German (27 months with A1) — among the fastest skilled-PR timelines in Europe." },
+        { "text": "The route is statutory and clear (no points lottery); two engineers comfortably clear the salary and pension-contribution criteria." }
+      ],
+      "cons": [
+        { "text": "PR still requires at least A1 German (B1 for the 21-month track) plus continuous pension contributions, so the language requirement is the binding hurdle." },
+        { "text": "The 2025 government's broader migration tightening adds some policy uncertainty around the edges, even if the skilled route remains stable." }
+      ],
+      "links": [
+        { "title": "Make it in Germany — Settlement permit (official federal portal)", "url": "https://www.make-it-in-germany.com/en/visa-residence/living-permanently/settlement-permit" },
+        { "title": "Service Berlin — Settlement permit for EU Blue Card holders (official)", "url": "https://service.berlin.de/dienstleistung/326556/en/" }
+      ],
       "lastReviewed": "2026-06-18"
     },
     "income-cost": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "summary": "Two tech salaries leave a comfortable but not large surplus after Germany's heavy tax-and-contribution load, and Munich/Berlin housing is pricey and tight; tuition-free study eases the overall cost burden.",
+      "factors": {
+        "household-net-surplus": { "status": "scored", "score": 60 },
+        "housing-cost-availability": { "status": "scored", "score": 48 },
+        "savings-remittance": { "status": "scored", "score": 62 },
+        "student-phase-affordability": { "status": "scored", "score": 55 },
+        "upfront-relocation-cash": { "status": "scored", "score": 50 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "A dual tech household (~€120k–140k gross combined) supports a comfortable lifestyle and steady remittance to Bangladesh under the Germany–Bangladesh tax treaty." },
+        { "text": "Tuition-free public study materially lowers the total cost of the migration plan versus English-native destinations." }
+      ],
+      "cons": [
+        { "text": "Housing in the tech hubs is expensive and supply-tight: ~€1,300/month for a one-bed in Berlin and ~€1,500+ in Munich, with stiff competition for flats." },
+        { "text": "High taxes and social contributions trim net pay, so savings are solid rather than spectacular." }
+      ],
+      "links": [
+        { "title": "Studying in Germany — Cost of living (2026)", "url": "https://www.studying-in-germany.org/cost-of-living-in-germany/" },
+        { "title": "OECD — Taxing Wages 2025: Germany (country note, PDF)", "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/04/taxing-wages-2025-country-notes_16d47563/germany_59f2afde/510f880a-en.pdf" }
+      ],
       "lastReviewed": "2026-06-18"
     },
     "healthcare": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "summary": "High-quality statutory healthcare with immediate coverage for both students (~€140/month) and workers (auto-enrolled, contributions split with the employer), plus a strong welfare and parental-benefit safety net.",
+      "factors": {
+        "newcomer-eligibility-barrier": { "status": "scored", "score": 82 },
+        "health-quality-access": { "status": "scored", "score": 75 },
+        "cost-coverage-by-status": { "status": "scored", "score": 72 },
+        "social-insurance-safety-net": { "status": "scored", "score": 75 },
+        "family-childcare-benefits": { "status": "scored", "score": 65 },
+        "other": { "status": "scored", "score": 55 }
+      },
+      "pros": [
+        { "text": "Newcomers are covered immediately: students under 30 join statutory insurance at ~€140/month (2026), and employees are auto-enrolled in GKV from day one with contributions (~14.6% + ~1.7%) split with the employer." },
+        { "text": "Strong safety net — unemployment support after contributions, pensions, and generous parental cash benefits (Elterngeld)." }
+      ],
+      "cons": [
+        { "text": "Specialist and GP appointment waits can be long, and subsidised childcare (Kita) places are often scarce in big cities." }
+      ],
+      "links": [
+        { "title": "How to Germany — Statutory health insurance for students (2026)", "url": "https://www.how-to-germany.com/health-insurance/statutory-health-insurance/students/" },
+        { "title": "How to Germany — Statutory health insurance: eligibility & contributions", "url": "https://www.how-to-germany.com/health-insurance/statutory-health-insurance/eligibility-contribution/" }
+      ],
       "lastReviewed": "2026-06-18"
     },
     "culture-language": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "summary": "English works in tech hubs and the workplace but German is needed for daily life and for B1-level status; excellent work-life balance and funded integration courses, set against mixed social acceptance.",
+      "factors": {
+        "english-usability": { "status": "scored", "score": 52 },
+        "language-burden-citizenship": { "status": "scored", "score": 50 },
+        "integration-support": { "status": "scored", "score": 70 },
+        "social-acceptance-south-asian": { "status": "scored", "score": 52 },
+        "worklife-livability": { "status": "scored", "score": 80 },
+        "cultural-distance-adaptation": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Excellent work-life balance (28–30 days' leave is common) and high livability, with state-funded integration courses (language + civics) for newcomers." },
+        { "text": "English is workable in tech workplaces and English-friendly Berlin, easing the first years." }
+      ],
+      "cons": [
+        { "text": "German is needed for everyday life and bureaucracy, and B1 is required for PR/citizenship — a sustained language investment." },
+        { "text": "Social acceptance of South-Asian newcomers is mixed and the climate is hardening alongside the AfD's rise." }
+      ],
+      "links": [
+        { "title": "Make it in Germany — Learning German (official federal portal)", "url": "https://www.make-it-in-germany.com/en/living-in-germany/learning-german" },
+        { "title": "BAMF — Integration courses (official)", "url": "https://www.bamf.de/EN/Themen/Integration/ZugewanderteTeilnehmende/Integrationskurse/integrationskurse-node.html" }
+      ],
       "lastReviewed": "2026-06-18"
     },
     "safety-law": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "summary": "Top-tier rule of law (WJP 2025: 6th, 0.83) and broadly safe (GPI 2025: 20th), but anti-Muslim hate crime is rising sharply and anti-discrimination enforcement has documented gaps.",
+      "factors": {
+        "personal-crime-safety": { "status": "scored", "score": 68 },
+        "lived-discrimination-hatecrime": { "status": "scored", "score": 40 },
+        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 82 },
+        "women-safety-gbv": { "status": "scored", "score": 65 },
+        "immigration-enforcement-due-process": { "status": "scored", "score": 70 },
+        "antidiscrimination-law-enforcement": { "status": "scored", "score": 58 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "WJP Rule of Law Index 2025: 6th of 143 (0.83); fair, court-backed immigration due process and a stable legal order." },
+        { "text": "Global Peace Index 2025: 20th of 163 — broadly safe everyday environment." }
+      ],
+      "cons": [
+        { "text": "Anti-Muslim incidents are rising fast (CLAIM: 3,080 documented in 2024, +60% year-on-year; ~930 Islamophobic crimes recorded by police Jan–Sep 2025)." },
+        { "text": "Human Rights Watch flags under-enforcement of anti-Muslim racism, so anti-discrimination law is not always matched by protection on the ground." }
+      ],
+      "links": [
+        { "title": "World Justice Project — Rule of Law Index 2025 (Germany)", "url": "https://worldjusticeproject.org/rule-of-law-index/country/2025/Germany" },
+        { "title": "Global Peace Index 2025 (PDF)", "url": "https://www.visionofhumanity.org/wp-content/uploads/2025/06/Global-Peace-Index-2025-web.pdf" }
+      ],
       "lastReviewed": "2026-06-18"
     },
     "politics": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "summary": "Institutionally stable (CDU/CSU–SPD coalition under Chancellor Merz from May 2025) and still actively recruiting skilled non-EU workers, but the AfD's surge to 20.8% and second place and a hardening sentiment trend raise volatility.",
+      "factors": {
+        "immigration-policy-volatility": { "status": "scored", "score": 50 },
+        "non-eu-skilled-policy-direction": { "status": "scored", "score": 65 },
+        "anti-immigration-electoral-power": { "status": "scored", "score": 32 },
+        "societal-sentiment-trend": { "status": "scored", "score": 40 },
+        "institutional-governance-stability": { "status": "scored", "score": 80 },
+        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 42 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "Stable governance: a CDU/CSU–SPD coalition with Friedrich Merz elected Chancellor on 6 May 2025, and the Skilled Immigration Act keeps actively courting skilled non-EU workers (Blue Card, Opportunity Card, lower IT threshold)." }
+      ],
+      "cons": [
+        { "text": "The AfD took 20.8% and 151 seats (second largest party) in the February 2025 election, normalising anti-immigration and anti-Muslim politics." },
+        { "text": "The broader sentiment trend is hardening (asylum/family-migration tightening, repealed citizenship fast-track), even as the skilled route stays open." }
+      ],
+      "links": [
+        { "title": "2025 German federal election (results overview)", "url": "https://en.wikipedia.org/wiki/2025_German_federal_election" },
+        { "title": "deutschland.de — Federal election 2025 result & government (official)", "url": "https://www.deutschland.de/en/topic/politics/federal-election-2025-election-result-germany-election-government" }
+      ],
       "lastReviewed": "2026-06-18"
     },
     "tax": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "summary": "The second-highest tax wedge in the OECD (47.9% for a single average earner) with no special expat regime; offset by a Germany–Bangladesh double-tax treaty and low study-phase exposure.",
+      "factors": {
+        "effective-deduction-wedge": { "status": "scored", "score": 25 },
+        "expat-foreign-worker-relief": { "status": "scored", "score": 22 },
+        "household-dual-earner-treatment": { "status": "scored", "score": 48 },
+        "student-phase-tax-exposure": { "status": "scored", "score": 72 },
+        "bd-treaty-repatriation": { "status": "scored", "score": 62 },
+        "other": { "status": "scored", "score": 42 }
+      },
+      "pros": [
+        { "text": "A Germany–Bangladesh double-taxation treaty is in force, and study-phase earnings largely fall under the ~€12,096 tax-free allowance, keeping student tax exposure low." }
+      ],
+      "cons": [
+        { "text": "Germany's tax wedge is the second-highest in the OECD — 47.9% for a single average earner (Taxing Wages 2025) — heavily reducing net pay." },
+        { "text": "There is no 30%-style expat tax regime, and Ehegattensplitting gives little benefit to two roughly equal earners." }
+      ],
+      "links": [
+        { "title": "OECD — Taxing Wages 2025: Germany (country note, PDF)", "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/04/taxing-wages-2025-country-notes_16d47563/germany_59f2afde/510f880a-en.pdf" },
+        { "title": "PwC — Germany: foreign tax relief and tax treaties", "url": "https://taxsummaries.pwc.com/germany/individual/foreign-tax-relief-and-tax-treaties" }
+      ],
       "lastReviewed": "2026-06-18"
     },
     "muslim-diaspora": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "summary": "Western Europe's second-largest Muslim population (~5.5m) with abundant mosques and halal food, but the Bangladeshi-specific community is modest and anti-Muslim sentiment is rising sharply.",
+      "factors": {
+        "bangladeshi-diaspora": { "status": "scored", "score": 45 },
+        "religious-practice-infrastructure": { "status": "scored", "score": 80 },
+        "sentiment-safety": { "status": "scored", "score": 35 },
+        "legal-religious-accommodation": { "status": "scored", "score": 52 },
+        "south-asian-cultural-ecosystem": { "status": "scored", "score": 58 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "Around 5.5 million Muslims (second-largest in Western Europe) mean mosques, prayer facilities and halal food are abundant in every city." },
+        { "text": "A fast-growing South-Asian presence (e.g. ~41,000 Indian nationals in Berlin by 2024) supports groceries, community organisations and events." }
+      ],
+      "cons": [
+        { "text": "Anti-Muslim sentiment is rising sharply (CLAIM documented 3,080 incidents in 2024, +60%), and survey data shows widespread anti-Muslim attitudes." },
+        { "text": "The Bangladeshi-specific community is modest and Berlin-concentrated — far smaller than in the UK or Italy — and some Länder restrict headscarves for public-sector staff." }
+      ],
+      "links": [
+        { "title": "CLAIM — Anti-Muslim Racism Report 2024 (summary, PDF)", "url": "https://www.claim-organisation.de/content/uploads/2025/07/claim_lagebild25_summary_eng_250725.pdf" },
+        { "title": "Anadolu Agency — 930 Islamophobic crimes Jan–Sep 2025 (government data)", "url": "https://www.aa.com.tr/en/europe/930-islamophobic-crimes-committed-in-germany-from-january-to-september-government/3746427" }
+      ],
       "lastReviewed": "2026-06-18"
     }
   }

@@ -5,144 +5,355 @@
   "iso3": "BEL",
   "flag": "🇧🇪",
   "region": "Europe",
-  "summary": "",
-  "lastReviewed": "2026-06-18",
+  "summary": "A solid all-rounder with dual citizenship retained both ways (Belgium lifted its ban in 2008; Belgium is on Bangladesh's DNC list), 5-year naturalisation at a modest language bar, KU Leuven's strong AI master's, IT on the shortage list, excellent healthcare and a top-tier passport — but held back by the trilingual (Dutch/French/German) language burden, the OECD's highest labour-tax wedge (~52%, softened by a new expat regime), a powerful Flemish far-right (N-VA largest, Vlaams Belang surging), a short 12-month post-study search year, and Bangladeshi student visas decided out of New Delhi. Derived overall sits marginally above the 60% inclusion line.",
+  "lastReviewed": "2026-06-19",
   "links": [
-    {
-      "title": "Immigration Office (IBZ/DOFI, official)",
-      "url": "https://dofi.ibz.be/en"
-    },
-    {
-      "title": "Visa for Belgium if you live in Bangladesh (FPS Foreign Affairs, official)",
-      "url": "https://india.diplomatie.belgium.be/en/travel-belgium/visa-belgium/visa-belgium-if-you-live-bangladesh"
-    }
+    { "title": "IBZ (Immigration Office) — Third-country nationals / study (official)", "url": "https://dofi.ibz.be/en/themes/third-country-nationals/study" },
+    { "title": "justice.belgium.be — Citizenship & dual citizenship (official)", "url": "https://justice.belgium.be/en/themes_and_files/children_and_youth/citizenship" }
   ],
   "categories": {
     "job-market": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "IT/software roles are on the regional shortage lists amid a ~21,000-worker tech gap, with Brussels offering an English-friendly international market (EU/NATO/MNCs) alongside Flanders tech hubs, though salaries trail Canada and Flanders work is Dutch-gated.",
+      "factors": {
+        "sw-demand-depth": { "status": "scored", "score": 70 },
+        "ai-ml-specialisation": { "status": "scored", "score": 58 },
+        "salary-levels": { "status": "scored", "score": 62 },
+        "sponsorship-work-authorisation": { "status": "scored", "score": 62 },
+        "foreign-grad-bd-hireability": { "status": "scored", "score": 60 },
+        "dual-earner-depth": { "status": "scored", "score": 62 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Software/IT roles sit on Belgium's regional shortage lists (knelpuntberoepen; IT roles added July 2025) with a projected ~21,000-worker tech shortage by 2026 and 27% of firms citing IT/data as critical staffing needs." },
+        { "text": "AI engineers average ~€87k (Brussels ~€96k); Brussels is an unusually English-friendly hub (EU institutions, NATO, multinationals), with Flanders adding tech/pharma/biotech." }
+      ],
+      "cons": [
+        { "text": "Software-engineer base pay (~€42k–74k) trails Canadian/US levels in absolute terms." },
+        { "text": "Outside Brussels' international employers, Flemish roles commonly require Dutch, narrowing the realistic market for a newly arrived graduate." }
+      ],
+      "links": [
+        { "title": "Nucamp — Most in-demand tech jobs in Belgium 2025 (shortage context)", "url": "https://www.nucamp.co/blog/coding-bootcamp-belgium-bel-most-in-demand-tech-job-in-belgium-in-2025" },
+        { "title": "SalaryExpert — AI engineer salary, Brussels (2025)", "url": "https://www.salaryexpert.com/salary/job/engineer-ai/belgium/brussels" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "visa-access": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "There is no Belgian embassy in Bangladesh — students lodge the D-visa at VFS Dhaka but the decision is made by the Belgian Embassy in New Delhi; funds proof is a modest ~€730/month, with no Bangladesh-specific targeting.",
+      "factors": {
+        "approval-refusal-rate": { "status": "scored", "score": 52 },
+        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 48 },
+        "in-queue-processing-schemes": { "status": "scored", "score": 50 },
+        "financial-bars": { "status": "scored", "score": 60 },
+        "credibility-genuineness-scrutiny": { "status": "scored", "score": 55 },
+        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "The D-visa is lodged at VFS Global in Dhaka (no travel required), and proof of funds is a modest ~€730/month — lower than Canada, Germany or Australia." },
+        { "text": "No Bangladesh-specific visa ban or heightened-scrutiny listing; a Bangladesh embassy operates in Brussels." }
+      ],
+      "cons": [
+        { "text": "Belgium has no embassy in Bangladesh, so the student visa decision is made by the Belgian Embassy in New Delhi, adding a routing step and potential delay." },
+        { "text": "There is no fast-track student scheme; processing is standard and can lengthen in peak season." }
+      ],
+      "links": [
+        { "title": "FPS Foreign Affairs — Visa for Belgium if you live in Bangladesh (official)", "url": "https://india.diplomatie.belgium.be/en/travel-belgium/visa-belgium/visa-belgium-if-you-live-bangladesh" },
+        { "title": "VFS Global — Belgium visa information", "url": "https://visa.vfsglobal.com/one-pager/belgium/india/english/index.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "citizenship": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Five years' legal residence leads to nationality by declaration with only a modest national-language and social/economic-integration bar, dual citizenship retained both ways, and a top-tier passport.",
+      "factors": {
+        "time-to-citizenship": { "status": "scored", "score": 65 },
+        "naturalisation-requirements": { "status": "scored", "score": 60 },
+        "dual-citizenship-retention": { "status": "scored", "score": 88 },
+        "citizenship-attainability": { "status": "scored", "score": 70 },
+        "policy-stability": { "status": "scored", "score": 50 },
+        "passport-strength": { "status": "scored", "score": 90 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "Dual citizenship works both ways: Belgium fully lifted its ban on 28 April 2008 (no formalities), and Belgium is on Bangladesh's Dual Nationality Certificate list, so a naturalising Bangladeshi keeps BD nationality." },
+        { "text": "Nationality by declaration is available after 5 years' legal residence with knowledge of one national language (Dutch/French/German, ~A2/B1) plus social and economic participation; the Belgian passport ranks joint 4th on Henley 2026 (~185 destinations)." }
+      ],
+      "cons": [
+        { "text": "The 2026 reforms tighten language and social-integration proof and raised the application fee from €150 to €1,000." },
+        { "text": "The alternative 'naturalisation' route proper requires 10 years and is reserved for exceptional cases." }
+      ],
+      "links": [
+        { "title": "justice.belgium.be — Dual citizenship, adults (official)", "url": "https://justice.belgium.be/en/themes_and_files/children_and_youth/citizenship/dual_citizenship/adult" },
+        { "title": "AIDA/ECRE — Naturalisation in Belgium", "url": "https://asylumineurope.org/reports/country/belgium/content-international-protection/status-and-residence/naturalisation/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "post-study-work": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Graduates get a 12-month, non-renewable 'search year' (A card marked job-seeker) to find work or go self-employed — a short but workable runway, available to each graduating spouse.",
+      "factors": {
+        "psw-duration-runway": { "status": "scored", "score": 50 },
+        "eligibility-openness-bd": { "status": "scored", "score": 65 },
+        "transition-to-skilled-work": { "status": "scored", "score": 62 },
+        "work-freedom-during-psw": { "status": "scored", "score": 62 },
+        "dual-graduate-spouse-psw": { "status": "scored", "score": 72 },
+        "psw-policy-stability": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Non-EEA graduates of Belgian institutions can obtain a 12-month 'search year' residence permit (A card, job-seeker) to find a job or start a business, with both graduating spouses each eligible." },
+        { "text": "Transition to a work permit is eased where the role is on a regional shortage list." }
+      ],
+      "cons": [
+        { "text": "The search year is capped at 12 months and is non-renewable — a short window versus Canada's 3-year PGWP or Germany's 18 months." },
+        { "text": "By the end of the year the graduate must have secured a qualifying job or self-employment to convert to longer-term status." }
+      ],
+      "links": [
+        { "title": "IBZ — Search year after completion of studies (official)", "url": "https://dofi.ibz.be/en/themes/third-country-nationals/study/orientation-year-after-completion-studies" },
+        { "title": "KU Leuven — Working in Belgium after graduation (non-EEA)", "url": "https://www.kuleuven.be/english/stuvo/working-volunteering-career/transition-to-the-job-market/working-non-eea" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "spouse-family": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Family reunification, free schooling and labour-market access for the spouse of a worker exist, but the accompanying spouse of a student faces conditions, and if both spouses study each holds an independent track.",
+      "factors": {
+        "spouse-work-rights": { "status": "scored", "score": 60 },
+        "dependent-visa-bd-access": { "status": "scored", "score": 58 },
+        "family-reunification-children": { "status": "scored", "score": 70 },
+        "spouse-path-to-independence": { "status": "scored", "score": 65 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "The spouse of a worker (single-permit holder) can obtain labour-market access, and if both spouses study each holds their own permit and search-year route." },
+        { "text": "Children attend school free of charge and are covered by the mutuelle, with family reunification available subject to income and housing." }
+      ],
+      "cons": [
+        { "text": "Family reunification for a student principal carries income/housing conditions, and the dependent spouse's work access is not automatic during the study phase." }
+      ],
+      "links": [
+        { "title": "IBZ — Family reunification (official)", "url": "https://dofi.ibz.be/en/themes/third-country-nationals/family-reunification" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "msc-study": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Strong English-taught CS/AI options (KU Leuven's one-year Master of AI, Ghent) with 600+ English programmes and 20 hrs/week student work, at moderate non-EU tuition (~€4k–10k).",
+      "factors": {
+        "affordability-funding": { "status": "scored", "score": 60 },
+        "english-program-depth": { "status": "scored", "score": 80 },
+        "admission-credential-access": { "status": "scored", "score": 70 },
+        "student-work-rights": { "status": "scored", "score": 65 },
+        "study-pathway-fit": { "status": "scored", "score": 72 },
+        "other": { "status": "scored", "score": 55 }
+      },
+      "pros": [
+        { "text": "KU Leuven (top ~60–70 globally) runs a well-regarded one-year Master of Artificial Intelligence; Belgium offers 600+ English-taught programmes, mostly at master's level." },
+        { "text": "Non-EU tuition is moderate (KU Leuven ~€4,175–5,940; Ghent ~€6,000–10,000), and students may work ~20 hrs/week; a one-year master qualifies for the search year." }
+      ],
+      "cons": [
+        { "text": "Tuition is higher than near-free Germany/Austria, and scholarships for non-EU master's students are limited." }
+      ],
+      "links": [
+        { "title": "KU Leuven — Master of Artificial Intelligence (official)", "url": "https://www.kuleuven.be/programmes/master-artificial-intelligence" },
+        { "title": "KU Leuven — Tuition fee regulations 2025–2026 (official)", "url": "https://www.kuleuven.be/english/education/student/fees/regulation" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "pr-pathway": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Five years of continuous legal residence leads to EU long-term residence, a clear route eased by shortage-listed work, though regional integration (Flemish inburgering) adds language demands.",
+      "factors": {
+        "years-to-pr": { "status": "scored", "score": 62 },
+        "route-clarity-accessibility": { "status": "scored", "score": 62 },
+        "eligibility-bars": { "status": "scored", "score": 62 },
+        "language-integration-requirement": { "status": "scored", "score": 55 },
+        "continuity-retention": { "status": "scored", "score": 60 },
+        "policy-predictability": { "status": "scored", "score": 50 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "After 5 years' continuous legal residence one can obtain EU long-term residence, with study and work time building toward it via a clear sequence." },
+        { "text": "Shortage-listed tech roles comfortably meet the income/qualification bars." }
+      ],
+      "cons": [
+        { "text": "Flanders requires civic integration (inburgering, including Dutch), adding a regional language burden on top of federal conditions." },
+        { "text": "The N-VA-led government signals a more restrictive migration direction, reducing policy predictability." }
+      ],
+      "links": [
+        { "title": "IBZ — Long-term residence (official)", "url": "https://dofi.ibz.be/en/themes/third-country-nationals/long-term-residence" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "income-cost": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Housing is more affordable than Toronto or London, and a new expat tax regime can lift net pay, but Belgium's labour-tax wedge is the OECD's heaviest, keeping the surplus moderate.",
+      "factors": {
+        "household-net-surplus": { "status": "scored", "score": 58 },
+        "housing-cost-availability": { "status": "scored", "score": 65 },
+        "savings-remittance": { "status": "scored", "score": 60 },
+        "student-phase-affordability": { "status": "scored", "score": 55 },
+        "upfront-relocation-cash": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Housing is comparatively affordable for a Western European country, and the inbound-taxpayer (expat) regime — 35% cost-of-expatriation allowance, threshold lowered to €70k — can materially raise net pay for qualifying engineers." }
+      ],
+      "cons": [
+        { "text": "Belgium has the OECD's highest labour-tax burden (~52%), so without the expat regime the dual-earner surplus is only moderate." },
+        { "text": "Moderate tuition plus the study-phase living budget leans on the ~€730/month funds reserve." }
+      ],
+      "links": [
+        { "title": "Study.eu — Belgium tuition fees & cost of living", "url": "https://www.study.eu/article/belgium-tuition-fees-and-cost-of-living" },
+        { "title": "EY — Changes to the Belgian expat tax regime (2025)", "url": "https://www.ey.com/en_be/technical/tax/tax-alerts/2025/will-changes-to-belgian-expat-tax-rules-increase-beneficiaries" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "healthcare": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "High-quality universal cover via the compulsory mutuelle — non-EU students register if staying over three months and workers are covered from registration, with children co-insured to 25.",
+      "factors": {
+        "newcomer-eligibility-barrier": { "status": "scored", "score": 70 },
+        "health-quality-access": { "status": "scored", "score": 80 },
+        "cost-coverage-by-status": { "status": "scored", "score": 70 },
+        "social-insurance-safety-net": { "status": "scored", "score": 72 },
+        "family-childcare-benefits": { "status": "scored", "score": 68 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "Registration with a mutuelle (public health-insurance fund) is compulsory for all legal residents; workers are covered on registration and non-EU students enrol once staying beyond three months." },
+        { "text": "High-quality care with short waits and a reimbursement model; children are co-insured at no cost up to 25 while studying." }
+      ],
+      "cons": [
+        { "text": "The reimbursement model carries co-payments, and there is a short registration gap for new students before cover begins." }
+      ],
+      "links": [
+        { "title": "Expatica — The Belgian healthcare system (2026)", "url": "https://www.expatica.com/be/healthcare/healthcare-basics/the-belgian-healthcare-system-100097/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "culture-language": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Brussels is genuinely international and English-friendly, but Belgium's trilingual reality (Dutch/French/German) means daily life and regional integration demand a local language, amid a cool far-right climate.",
+      "factors": {
+        "english-usability": { "status": "scored", "score": 55 },
+        "language-burden-citizenship": { "status": "scored", "score": 50 },
+        "integration-support": { "status": "scored", "score": 58 },
+        "social-acceptance-south-asian": { "status": "scored", "score": 50 },
+        "worklife-livability": { "status": "scored", "score": 70 },
+        "cultural-distance-adaptation": { "status": "scored", "score": 52 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Brussels is one of the world's most international cities, where English works widely across institutions and multinational workplaces." },
+        { "text": "Funded civic-integration programmes (especially Flanders' inburgering) support newcomers, and work-life balance is good." }
+      ],
+      "cons": [
+        { "text": "Belgium is trilingual (Dutch/French/German); daily life and regional integration require the local language, and citizenship needs one national language." },
+        { "text": "Social acceptance of visibly Muslim South-Asian newcomers is mixed amid a strong far-right and the Molenbeek stigma." }
+      ],
+      "links": [
+        { "title": "Expatica — Citizenship in Belgium (language & integration)", "url": "https://www.expatica.com/be/moving/visas/belgian-citizenship-100133/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "safety-law": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Among the world's 20 most peaceful countries (GPI 2025: 16th, 1.492) with upper-tier EU rule of law, tempered by Brussels urban crime and a cool climate for Muslim minorities.",
+      "factors": {
+        "personal-crime-safety": { "status": "scored", "score": 72 },
+        "lived-discrimination-hatecrime": { "status": "scored", "score": 52 },
+        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 75 },
+        "women-safety-gbv": { "status": "scored", "score": 72 },
+        "immigration-enforcement-due-process": { "status": "scored", "score": 65 },
+        "antidiscrimination-law-enforcement": { "status": "scored", "score": 62 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Global Peace Index 2025: 16th of 163 (score 1.492) — among the world's 20 safest countries — with upper-tier EU rule of law and an active anti-discrimination body (Unia)." },
+        { "text": "Reliable civil justice and strong women's-safety environment." }
+      ],
+      "cons": [
+        { "text": "Brussels carries higher urban crime than the national average, and anti-migrant/anti-Muslim sentiment is elevated under a strong far-right." }
+      ],
+      "links": [
+        { "title": "Belga News Agency — Belgium among the world's 20 safest countries in 2025 (GPI)", "url": "https://www.belganewsagency.eu/belgium-among-the-worlds-20-safest-countries-in-2025" },
+        { "title": "World Justice Project — Rule of Law Index 2025", "url": "https://worldjusticeproject.org/rule-of-law-index/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "politics": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Institutions are stable but the right dominates — the Flemish nationalist N-VA is the largest federal party (De Wever government) and the far-right Vlaams Belang is surging — pushing a restrictive migration direction.",
+      "factors": {
+        "immigration-policy-volatility": { "status": "scored", "score": 45 },
+        "non-eu-skilled-policy-direction": { "status": "scored", "score": 55 },
+        "anti-immigration-electoral-power": { "status": "scored", "score": 32 },
+        "societal-sentiment-trend": { "status": "scored", "score": 42 },
+        "institutional-governance-stability": { "status": "scored", "score": 60 },
+        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 40 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "Despite a fragmented federal system, governance is institutionally stable and skilled-migration channels (shortage lists, single permit) remain open." }
+      ],
+      "cons": [
+        { "text": "The Flemish nationalist N-VA leads the federal government and the far-right Vlaams Belang is surging (largest in the European Parliament; first far-right Belgian mayor in Ninove, Dec 2024), pushing migration policy in a restrictive direction." },
+        { "text": "Anti-Islam rhetoric, the regional ritual-slaughter bans and mosque-funding restrictions signal targeted pressure on Muslim communities." }
+      ],
+      "links": [
+        { "title": "Vlaams Belang (overview)", "url": "https://en.wikipedia.org/wiki/Vlaams_Belang" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "tax": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "The OECD's heaviest labour-tax wedge (~52%), but a generous inbound-taxpayer (expat) regime and an existing Belgium–Bangladesh tax treaty soften the burden for qualifying engineers.",
+      "factors": {
+        "effective-deduction-wedge": { "status": "scored", "score": 28 },
+        "expat-foreign-worker-relief": { "status": "scored", "score": 65 },
+        "household-dual-earner-treatment": { "status": "scored", "score": 55 },
+        "student-phase-tax-exposure": { "status": "scored", "score": 65 },
+        "bd-treaty-repatriation": { "status": "scored", "score": 70 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "The inbound-taxpayer regime (since 2022) offers a 35% tax-free 'cost-of-expatriation' allowance for ~5+3 years, with the salary threshold lowered to €70,000 — real relief on Belgium's heavy tax." },
+        { "text": "A Belgium–Bangladesh double-taxation treaty exists within Belgium's 150+ treaty network, easing repatriation." }
+      ],
+      "cons": [
+        { "text": "Belgium has the highest labour-tax burden in the OECD (~52%); without the expat regime, take-home pay is heavily compressed." }
+      ],
+      "links": [
+        { "title": "PwC — Belgium: foreign tax relief and tax treaties", "url": "https://taxsummaries.pwc.com/belgium/individual/foreign-tax-relief-and-tax-treaties" },
+        { "title": "Deloitte — Belgian expat tax regime changes (2025)", "url": "https://www.deloitte.com/be/en/services/tax/blogs/belgian-expat-tax-regime-critical-changes-effective-1-january-2025-for-income-tax-no-adjustment-for-social-security.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "muslim-diaspora": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Brussels has dense mosque and halal infrastructure within a ~6–7% Muslim population (≈20% of the capital), and an organised Bangladeshi presence — but the BD community is small and accommodation is uneven (ritual-slaughter banned outside Brussels).",
+      "factors": {
+        "bangladeshi-diaspora": { "status": "scored", "score": 48 },
+        "religious-practice-infrastructure": { "status": "scored", "score": 78 },
+        "sentiment-safety": { "status": "scored", "score": 45 },
+        "legal-religious-accommodation": { "status": "scored", "score": 48 },
+        "south-asian-cultural-ecosystem": { "status": "scored", "score": 48 },
+        "other": { "status": "scored", "score": 42 }
+      },
+      "pros": [
+        { "text": "Brussels has ~77 mosques and 60+ halal restaurants within a Muslim population of ~6–7% nationally (≈20% of the capital), plus an organised Bangladeshi presence (Brussels embassy, ABSB students' association, Bangladesh Islamic Cultural Center)." }
+      ],
+      "cons": [
+        { "text": "The Bangladeshi community is small relative to Canada/UK, and accommodation is uneven: ritual (halal) slaughter is banned in Flanders and Wallonia (permitted only in Brussels), and Flemish rules restrict foreign mosque funding amid a strained sentiment climate." }
+      ],
+      "links": [
+        { "title": "Islam in Belgium (overview)", "url": "https://en.wikipedia.org/wiki/Islam_in_Belgium" },
+        { "title": "Embassy of Bangladesh, Brussels (official)", "url": "https://brussels.mofa.gov.bd/" }
+      ],
+      "lastReviewed": "2026-06-19"
     }
   }
 }

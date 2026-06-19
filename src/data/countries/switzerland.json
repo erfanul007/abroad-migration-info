@@ -5,144 +5,334 @@
   "iso3": "CHE",
   "flag": "🇨🇭",
   "region": "Europe",
-  "summary": "",
-  "lastReviewed": "2026-06-18",
+  "summary": "Home to world-leading study value (ETH Zürich/EPFL, top-10 CS, at ~CHF 1,460/yr tuition), the world's highest tech salaries (Google Zürich median ~CHF 292k), low tax, a top-3 passport and dual citizenship retained both ways — but the immigration PATH is the obstacle for this profile: only a 6-month post-study permit plus annual non-EU work quotas, ~10 years to a C-permit (PR) and a 10-year, multi-level, discretionary naturalisation, alongside the 2009 minaret ban, a domestic halal-slaughter ban and a small Bangladeshi community. Derived overall sits below the 60% inclusion line.",
+  "lastReviewed": "2026-06-19",
   "links": [
-    {
-      "title": "State Secretariat for Migration (SEM, official)",
-      "url": "https://www.sem.admin.ch/sem/en/home.html"
-    },
-    {
-      "title": "Embassy of Switzerland in Bangladesh (EDA, official)",
-      "url": "https://www.eda.admin.ch/dhaka"
-    }
+    { "title": "ch.ch — Swiss authorities: naturalisation (official)", "url": "https://www.ch.ch/en/foreign-nationals-in-switzerland/naturalisation/" },
+    { "title": "State Secretariat for Migration (SEM) — official", "url": "https://www.sem.admin.ch/sem/en/home.html" }
   ],
   "categories": {
     "job-market": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A premier AI hub (ETH, Google Zürich, IBM Research) with the world's highest salaries, but non-EU hiring is constrained by annual work-permit quotas and a labour-market test.",
+      "factors": {
+        "sw-demand-depth": { "status": "scored", "score": 68 },
+        "ai-ml-specialisation": { "status": "scored", "score": 75 },
+        "salary-levels": { "status": "scored", "score": 92 },
+        "sponsorship-work-authorisation": { "status": "scored", "score": 52 },
+        "foreign-grad-bd-hireability": { "status": "scored", "score": 58 },
+        "dual-earner-depth": { "status": "scored", "score": 62 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "A top global AI hub (ETH Zürich, Google Zürich, IBM Research) with the world's highest tech pay: Zürich software engineers ~CHF 112k–215k, AI/ML specialists ~CHF 167k–247k, Google Zürich median ~CHF 292k." }
+      ],
+      "cons": [
+        { "text": "Non-EU/EFTA hiring is capped by annual work-permit quotas and requires a labour-market test (employer must show no suitable EU candidate), a real barrier for Bangladeshi graduates." },
+        { "text": "German/French is commonly expected outside ETH/global-firm roles." }
+      ],
+      "links": [
+        { "title": "Levels.fyi — Google Software Engineer salary, Greater Zürich", "url": "https://www.levels.fyi/companies/google/salaries/software-engineer/locations/greater-zurich-area" },
+        { "title": "SalaryExpert — AI engineer salary, Zürich (2025)", "url": "https://www.salaryexpert.com/salary/job/ai-engineer/switzerland" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "visa-access": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A Swiss embassy in Dhaka and cantonal student approval, but processing is slow and the non-EU framework is quota-bound; living-cost funds proof is high.",
+      "factors": {
+        "approval-refusal-rate": { "status": "scored", "score": 52 },
+        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 58 },
+        "in-queue-processing-schemes": { "status": "scored", "score": 48 },
+        "financial-bars": { "status": "scored", "score": 50 },
+        "credibility-genuineness-scrutiny": { "status": "scored", "score": 55 },
+        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 50 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Switzerland has an embassy in Dhaka; student visas (via cantonal approval) are reliable for genuine admitted students, and ETH/EPFL admission carries weight." }
+      ],
+      "cons": [
+        { "text": "Cantonal processing is slow, funds proof for high-cost Switzerland is significant, and the broader non-EU framework is quota-managed." }
+      ],
+      "links": [
+        { "title": "SEM — entry & residence for study (official)", "url": "https://www.sem.admin.ch/sem/en/home/themen/aufenthalt.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "citizenship": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Dual citizenship is retained both ways and the passport is top-3, but naturalisation is among the hardest anywhere — 10 years' residence plus cantonal/communal residence, a national language and a multi-level discretionary review.",
+      "factors": {
+        "time-to-citizenship": { "status": "scored", "score": 28 },
+        "naturalisation-requirements": { "status": "scored", "score": 42 },
+        "dual-citizenship-retention": { "status": "scored", "score": 85 },
+        "citizenship-attainability": { "status": "scored", "score": 42 },
+        "policy-stability": { "status": "scored", "score": 55 },
+        "passport-strength": { "status": "scored", "score": 92 },
+        "other": { "status": "scored", "score": 40 }
+      },
+      "pros": [
+        { "text": "Switzerland permits dual citizenship without restriction (Bangladesh's 'all of Europe' DNC scope applies), so a naturalising Bangladeshi keeps BD nationality." },
+        { "text": "The Swiss passport ranks joint 3rd on Henley 2026 (~186 destinations)." }
+      ],
+      "cons": [
+        { "text": "Ordinary naturalisation needs 10 years' federal residence plus cantonal/communal residence (2–5 yrs), a C permit, a national language (B1 oral/A2 written), integration, financial independence and a clean record." },
+        { "text": "Decisions move through commune → canton → confederation with real local discretion (some communes vote), making the outcome uncertain even after 10 years." }
+      ],
+      "links": [
+        { "title": "ch.ch — ordinary naturalisation (official)", "url": "https://www.ch.ch/en/foreign-nationals-in-switzerland/naturalisation/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "post-study-work": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "The weakest PSW in the set: only a 6-month, non-renewable job-search permit (15 hrs/week), and conversion to work is quota-bound by a labour-market test.",
+      "factors": {
+        "psw-duration-runway": { "status": "scored", "score": 35 },
+        "eligibility-openness-bd": { "status": "scored", "score": 60 },
+        "transition-to-skilled-work": { "status": "scored", "score": 50 },
+        "work-freedom-during-psw": { "status": "scored", "score": 50 },
+        "dual-graduate-spouse-psw": { "status": "scored", "score": 62 },
+        "psw-policy-stability": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "Graduates of a Swiss university can get a 6-month residence permit to find work (15 hrs/week allowed during the search); each spouse qualifies." }
+      ],
+      "cons": [
+        { "text": "The permit is only 6 months and non-renewable — the shortest runway of any country here." },
+        { "text": "Converting to a skilled-work permit is capped by non-EU quotas and a labour-market test." }
+      ],
+      "links": [
+        { "title": "ETH Zürich — residence permit for job-seeking after graduation (official)", "url": "https://ethz.ch/en/studies/international/end-studies/residence-permit-job-seeking.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "spouse-family": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Family reunification with spouse work rights and free schooling, though subject to permit type and quota; if both spouses study, each holds an independent track.",
+      "factors": {
+        "spouse-work-rights": { "status": "scored", "score": 62 },
+        "dependent-visa-bd-access": { "status": "scored", "score": 58 },
+        "family-reunification-children": { "status": "scored", "score": 68 },
+        "spouse-path-to-independence": { "status": "scored", "score": 58 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Family members of a B-permit holder can join and work, children attend public school free, and if both spouses study each holds their own permit." }
+      ],
+      "cons": [
+        { "text": "Reunification and spouse work rights depend on permit type and income, and the non-EU quota constrains the independent route." }
+      ],
+      "links": [
+        { "title": "SEM — family reunification (official)", "url": "https://www.sem.admin.ch/sem/en/home/themen/aufenthalt/eu_efta/familiennachzug.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "msc-study": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A standout: ETH Zürich and EPFL (top-10 global CS/AI) at extraordinarily low tuition (~CHF 1,460/yr) — the best quality-to-cost study option in the set.",
+      "factors": {
+        "affordability-funding": { "status": "scored", "score": 80 },
+        "english-program-depth": { "status": "scored", "score": 85 },
+        "admission-credential-access": { "status": "scored", "score": 65 },
+        "student-work-rights": { "status": "scored", "score": 58 },
+        "study-pathway-fit": { "status": "scored", "score": 60 },
+        "other": { "status": "scored", "score": 70 }
+      },
+      "pros": [
+        { "text": "ETH Zürich and EPFL are top-10 global for CS/AI with English-taught master's at only ~CHF 1,460/yr — world-class quality at near-free public tuition." }
+      ],
+      "cons": [
+        { "text": "Admission is highly competitive, student work is capped at 15 hrs/week, and the downstream 6-month PSW limits the study-to-work bridge." }
+      ],
+      "links": [
+        { "title": "ETH Zürich — tuition fees (official)", "url": "https://ethz.ch/en/studies/registration-application/tuition-fees.html" },
+        { "title": "EPFL — studies & tuition (official)", "url": "https://www.epfl.ch/education/studies/en/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "pr-pathway": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Permanent residence (C permit) for non-EU nationals generally takes ~10 years, one of the longest routes in the set.",
+      "factors": {
+        "years-to-pr": { "status": "scored", "score": 35 },
+        "route-clarity-accessibility": { "status": "scored", "score": 50 },
+        "eligibility-bars": { "status": "scored", "score": 50 },
+        "language-integration-requirement": { "status": "scored", "score": 52 },
+        "continuity-retention": { "status": "scored", "score": 52 },
+        "policy-predictability": { "status": "scored", "score": 58 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Once a C permit is obtained, status is secure and stable in a predictable system." }
+      ],
+      "cons": [
+        { "text": "Non-EU nationals generally need ~10 years of residence for the C permit (PR), one of the longest routes here, with integration and language conditions." }
+      ],
+      "links": [
+        { "title": "SEM — settlement permit C (official)", "url": "https://www.sem.admin.ch/sem/en/home/themen/aufenthalt.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "income-cost": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "The world's highest salaries plus low tax yield an exceptional surplus, even against Switzerland's very high living and housing costs.",
+      "factors": {
+        "household-net-surplus": { "status": "scored", "score": 75 },
+        "housing-cost-availability": { "status": "scored", "score": 45 },
+        "savings-remittance": { "status": "scored", "score": 78 },
+        "student-phase-affordability": { "status": "scored", "score": 50 },
+        "upfront-relocation-cash": { "status": "scored", "score": 45 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "The combination of the world's highest tech salaries and low Swiss income tax produces an exceptional net surplus and remittance capacity — even after high living costs." },
+        { "text": "Near-free ETH/EPFL tuition keeps the study-phase fee burden low." }
+      ],
+      "cons": [
+        { "text": "Living and especially housing costs in Zürich/Geneva are among the world's highest, and mandatory health-insurance premiums add to fixed costs." }
+      ],
+      "links": [
+        { "title": "DevHire — Swiss software salary calculator (2025)", "url": "https://www.devhire.ch/salary-calculator" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "healthcare": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "World-class care via mandatory private insurance — excellent quality and short waits, but high monthly premiums and deductibles.",
+      "factors": {
+        "newcomer-eligibility-barrier": { "status": "scored", "score": 58 },
+        "health-quality-access": { "status": "scored", "score": 80 },
+        "cost-coverage-by-status": { "status": "scored", "score": 55 },
+        "social-insurance-safety-net": { "status": "scored", "score": 68 },
+        "family-childcare-benefits": { "status": "scored", "score": 50 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "World-class healthcare with short waits; all residents are covered via mandatory insurance taken out within 3 months of arrival." }
+      ],
+      "cons": [
+        { "text": "Premiums are high (~CHF 300+/month per adult) with deductibles, and childcare is very expensive." }
+      ],
+      "links": [
+        { "title": "ch.ch — compulsory health insurance (official)", "url": "https://www.ch.ch/en/health-insurance/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "culture-language": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "English works in Zürich's tech/finance and at ETH, but German/French/Italian is needed for daily life and status, and the climate is reserved with a notable anti-Islam vote history.",
+      "factors": {
+        "english-usability": { "status": "scored", "score": 55 },
+        "language-burden-citizenship": { "status": "scored", "score": 48 },
+        "integration-support": { "status": "scored", "score": 52 },
+        "social-acceptance-south-asian": { "status": "scored", "score": 48 },
+        "worklife-livability": { "status": "scored", "score": 78 },
+        "cultural-distance-adaptation": { "status": "scored", "score": 50 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "English works well in Zürich's tech/finance world and at ETH/EPFL, and quality of life/livability is among the world's highest." }
+      ],
+      "cons": [
+        { "text": "A Swiss national language (German/French/Italian) is needed for daily life and citizenship, and the society is reserved with a documented anti-Islam vote history (minaret ban)." }
+      ],
+      "links": [
+        { "title": "ch.ch — living in Switzerland (official)", "url": "https://www.ch.ch/en/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "safety-law": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Among the world's safest with top-tier rule of law, tempered by the constitutional minaret ban as an anti-discrimination carve-out.",
+      "factors": {
+        "personal-crime-safety": { "status": "scored", "score": 85 },
+        "lived-discrimination-hatecrime": { "status": "scored", "score": 52 },
+        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 85 },
+        "women-safety-gbv": { "status": "scored", "score": 80 },
+        "immigration-enforcement-due-process": { "status": "scored", "score": 62 },
+        "antidiscrimination-law-enforcement": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "Very low crime, top-tier rule of law and reliable institutions in a wealthy, stable direct democracy with strong women's safety." }
+      ],
+      "cons": [
+        { "text": "The 2009 constitutional minaret ban is an entrenched anti-discrimination carve-out targeting Muslim religious expression." }
+      ],
+      "links": [
+        { "title": "World Justice Project — Rule of Law Index 2025", "url": "https://worldjusticeproject.org/rule-of-law-index/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "politics": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A very stable direct democracy, but the SVP (largest party) drives restrictive, quota-based migration and an anti-Islam streak (the minaret ban came via referendum).",
+      "factors": {
+        "immigration-policy-volatility": { "status": "scored", "score": 48 },
+        "non-eu-skilled-policy-direction": { "status": "scored", "score": 48 },
+        "anti-immigration-electoral-power": { "status": "scored", "score": 35 },
+        "societal-sentiment-trend": { "status": "scored", "score": 42 },
+        "institutional-governance-stability": { "status": "scored", "score": 80 },
+        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 35 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "Institutions are exceptionally stable (consensus government, direct democracy), and skilled-talent recruitment for global firms continues." }
+      ],
+      "cons": [
+        { "text": "The SVP (largest party) drives quota-based restriction of non-EU migration, and direct-democracy votes have produced anti-Islam outcomes (the 2009 minaret ban)." }
+      ],
+      "links": [
+        { "title": "SWI swissinfo — the minaret ban, ten years on", "url": "https://www.swissinfo.ch/eng/society/political-history_the-controversial-minaret-ban-ten-years-on/45399822" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "tax": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A low overall tax burden (canton-dependent, ~20–30% effective) on the world's highest salaries; no special expat regime needed, with a Switzerland–Bangladesh treaty.",
+      "factors": {
+        "effective-deduction-wedge": { "status": "scored", "score": 72 },
+        "expat-foreign-worker-relief": { "status": "scored", "score": 45 },
+        "household-dual-earner-treatment": { "status": "scored", "score": 50 },
+        "student-phase-tax-exposure": { "status": "scored", "score": 62 },
+        "bd-treaty-repatriation": { "status": "scored", "score": 62 },
+        "other": { "status": "scored", "score": 60 }
+      },
+      "pros": [
+        { "text": "Switzerland has a low overall tax burden (canton-dependent, ~20–30% effective) on the world's highest salaries, and a Switzerland–Bangladesh double-taxation treaty supports repatriation." }
+      ],
+      "cons": [
+        { "text": "Joint spousal assessment can penalise the second earner, and there is a wealth tax; no special expat regime exists (though base rates are already low)." }
+      ],
+      "links": [
+        { "title": "ch.ch — taxes in Switzerland (official)", "url": "https://www.ch.ch/en/taxes-and-finances/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "muslim-diaspora": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A ~5–6% Muslim population (mostly Balkan/Turkish) with mosques and imported halal, but constrained by the minaret ban, a domestic halal-slaughter ban and a small Bangladeshi community.",
+      "factors": {
+        "bangladeshi-diaspora": { "status": "scored", "score": 38 },
+        "religious-practice-infrastructure": { "status": "scored", "score": 50 },
+        "sentiment-safety": { "status": "scored", "score": 42 },
+        "legal-religious-accommodation": { "status": "scored", "score": 40 },
+        "south-asian-cultural-ecosystem": { "status": "scored", "score": 42 },
+        "other": { "status": "scored", "score": 42 }
+      },
+      "pros": [
+        { "text": "Muslims number ~450,000 (~5–6%) with established mosques and prayer spaces in cities, and imported halal meat is legally available." }
+      ],
+      "cons": [
+        { "text": "New minarets are banned (2009 constitutional vote), domestic halal (ritual) slaughter is prohibited, and the Bangladeshi-specific community and South-Asian ecosystem are small." }
+      ],
+      "links": [
+        { "title": "US State Dept — 2023 Religious Freedom Report: Switzerland", "url": "https://www.state.gov/reports/2023-report-on-international-religious-freedom/switzerland/" }
+      ],
+      "lastReviewed": "2026-06-19"
     }
   }
 }

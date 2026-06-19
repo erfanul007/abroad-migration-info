@@ -5,144 +5,344 @@
   "iso3": "FIN",
   "flag": "🇫🇮",
   "region": "Europe",
-  "summary": "",
-  "lastReviewed": "2026-06-18",
+  "summary": "The world's happiest country with top-tier rule of law (WJP 3rd), a strong AI ecosystem (Aalto, Silo AI, Nokia, Supercell), a 2-year graduate job-search permit, residence-based universal healthcare, a top passport and dual citizenship retained both ways (allowed; Finland on Bangladesh's DNC list) — but tempered for this profile by a hard Finnish/Swedish language burden for status, a Finns-Party-driven restrictive turn (citizenship and PR tightened in 2025–26, PR now 6 years), high tuition (~€17k/yr at Aalto), high tax, a moderate Muslim community with no grand mosque, and Bangladeshi visa biometrics routed through New Delhi. Derived overall sits just below the 60% inclusion line.",
+  "lastReviewed": "2026-06-19",
   "links": [
-    {
-      "title": "Finnish Immigration Service (Migri)",
-      "url": "https://migri.fi/en/home"
-    },
-    {
-      "title": "Study in Finland (official)",
-      "url": "https://www.studyinfinland.fi/"
-    }
+    { "title": "Migri (Finnish Immigration Service) — official", "url": "https://migri.fi/en/home" },
+    { "title": "Study in Finland — official national portal", "url": "https://www.studyinfinland.fi/" }
   ],
   "categories": {
     "job-market": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A strong AI/ML ecosystem (Aalto, Silo AI, Nokia, Supercell) with good salaries and a 12,000-worker ICT gap, but entry-level roles are competitive and the market is Helsinki-centric.",
+      "factors": {
+        "sw-demand-depth": { "status": "scored", "score": 64 },
+        "ai-ml-specialisation": { "status": "scored", "score": 65 },
+        "salary-levels": { "status": "scored", "score": 68 },
+        "sponsorship-work-authorisation": { "status": "scored", "score": 64 },
+        "foreign-grad-bd-hireability": { "status": "scored", "score": 55 },
+        "dual-earner-depth": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "A genuine AI/ML hub (Aalto, Silo AI, Nokia network-AI, Supercell ML); the Helsinki ICT sector needs ~12,000 new workers by 2026 with 45% of roles hard to fill." },
+        { "text": "Solid pay: AI/ML engineers ~€56k (junior) to €121k+ (principal); software engineers ~€55k–75k in Helsinki." }
+      ],
+      "cons": [
+        { "text": "Entry-level roles are very competitive (200+ applicants each) and employers prefer experienced candidates with a local network." },
+        { "text": "The market is Helsinki-centric and has seen tech-sector job cuts despite record revenue." }
+      ],
+      "links": [
+        { "title": "Jobicy — AI Engineer salary, Finland (2025)", "url": "https://jobicy.com/salaries/fi/ai-engineer" },
+        { "title": "Nucamp — Most in-demand tech jobs in Finland (2025)", "url": "https://www.nucamp.co/blog/coding-bootcamp-finland-fin-most-in-demand-tech-job-in-finland-in-2025" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "visa-access": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Modest funds requirements and online application, but Bangladeshi applicants must give biometrics at VFS New Delhi (no Finland centre in Dhaka), and a 2026 rule lets study permits be revoked if a student claims social assistance.",
+      "factors": {
+        "approval-refusal-rate": { "status": "scored", "score": 52 },
+        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 38 },
+        "in-queue-processing-schemes": { "status": "scored", "score": 52 },
+        "financial-bars": { "status": "scored", "score": 62 },
+        "credibility-genuineness-scrutiny": { "status": "scored", "score": 50 },
+        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 48 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "Applications are filed online via Enter Finland and the proof-of-funds bar is low (~€560/month); processing is typically 1–3 months." },
+        { "text": "No Bangladesh-specific visa ban." }
+      ],
+      "cons": [
+        { "text": "Finland has no application centre in Bangladesh — biometrics and identity verification are done at VFS Global / the Finnish Embassy in New Delhi, requiring travel to India." },
+        { "text": "From 2026, a study-based residence permit can be revoked if the student is found to have received basic social assistance." }
+      ],
+      "links": [
+        { "title": "Finland abroad — Residence permits to Finland (Bangladesh, official)", "url": "https://finlandabroad.fi/web/bgd/residence-permits-to-finland" },
+        { "title": "Study in Finland — student residence permit (official)", "url": "https://www.studyinfinland.fi/admissions/student-residence-permit" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "citizenship": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Dual citizenship is retained both ways and the passport is elite (Henley 4th), with a 5-year path if you have B1 Finnish/Swedish — but the language is hard and the Finns-Party government tightened the rules in 2025.",
+      "factors": {
+        "time-to-citizenship": { "status": "scored", "score": 58 },
+        "naturalisation-requirements": { "status": "scored", "score": 48 },
+        "dual-citizenship-retention": { "status": "scored", "score": 88 },
+        "citizenship-attainability": { "status": "scored", "score": 60 },
+        "policy-stability": { "status": "scored", "score": 38 },
+        "passport-strength": { "status": "scored", "score": 90 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Dual citizenship works both ways: Finland imposes no renunciation and Finland is on Bangladesh's DNC list, so a naturalising Bangladeshi keeps BD nationality." },
+        { "text": "Naturalisation is possible after 5 years' residence if you hold B1 Finnish/Swedish (YKI level 3); the Finnish passport ranks joint 4th on Henley 2026 (~185)." }
+      ],
+      "cons": [
+        { "text": "The B1 requirement is in Finnish or Swedish — both difficult languages — and without it the residence requirement is 8 years (tightened from 1 Oct 2024)." },
+        { "text": "Finns-Party-driven reforms (in force 17 Dec 2025) added an income requirement, stricter conduct rules and expanded grounds for citizenship deprivation." }
+      ],
+      "links": [
+        { "title": "Migri — Finnish citizenship FAQ (official)", "url": "https://migri.fi/en/faq-finnish-citizenship" },
+        { "title": "Migri — Language skills requirement (official)", "url": "https://migri.fi/en/language-skills-requirement" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "post-study-work": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Graduates get a 2-year residence permit to look for work or start a business, continuous (A permit) if the prior permit was, and available to each graduating spouse.",
+      "factors": {
+        "psw-duration-runway": { "status": "scored", "score": 65 },
+        "eligibility-openness-bd": { "status": "scored", "score": 70 },
+        "transition-to-skilled-work": { "status": "scored", "score": 65 },
+        "work-freedom-during-psw": { "status": "scored", "score": 65 },
+        "dual-graduate-spouse-psw": { "status": "scored", "score": 72 },
+        "psw-policy-stability": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "After graduation, the permit can be extended to a 2-year residence permit to look for work or start a business (an A/continuous permit if the prior one was)." },
+        { "text": "Both graduating spouses can each hold their own, with full work rights during the search." }
+      ],
+      "cons": [
+        { "text": "Conversion to long-term skilled work still needs a qualifying job, and the broader migration climate has tightened." }
+      ],
+      "links": [
+        { "title": "Migri — Residence permit to look for work (official)", "url": "https://migri.fi/en/residence-permit-to-look-for-work" },
+        { "title": "Study in Finland — opportunities after graduation (official)", "url": "https://www.studyinfinland.fi/life-in-finland/opportunities-after-graduation" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "spouse-family": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Family members get residence with work rights and free schooling, and if both spouses study each holds an independent track.",
+      "factors": {
+        "spouse-work-rights": { "status": "scored", "score": 65 },
+        "dependent-visa-bd-access": { "status": "scored", "score": 60 },
+        "family-reunification-children": { "status": "scored", "score": 68 },
+        "spouse-path-to-independence": { "status": "scored", "score": 65 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Family members of a worker/student can obtain residence with the right to work, and children attend high-quality public school free of charge." },
+        { "text": "If both spouses study, each holds their own permit and 2-year PSW route." }
+      ],
+      "cons": [
+        { "text": "Family migration requires proving sufficient means, and the dependent spouse's work access during the study phase is conditional." }
+      ],
+      "links": [
+        { "title": "Migri — Family member of a person who has a residence permit (official)", "url": "https://migri.fi/en/family-member-of-a-person-who-has-been-granted-a-residence-permit" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "msc-study": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Top-tier English-taught CS/AI at Aalto and Helsinki with generous student work (30 hrs/week) and a master qualifying for PR without the year requirement, but non-EU tuition is high (~€17k/yr).",
+      "factors": {
+        "affordability-funding": { "status": "scored", "score": 50 },
+        "english-program-depth": { "status": "scored", "score": 80 },
+        "admission-credential-access": { "status": "scored", "score": 70 },
+        "student-work-rights": { "status": "scored", "score": 72 },
+        "study-pathway-fit": { "status": "scored", "score": 78 },
+        "other": { "status": "scored", "score": 58 }
+      },
+      "pros": [
+        { "text": "Aalto's Machine Learning, Data Science and AI MSc (and CS MSc) are top-tier in the Nordics; students may work ~30 hrs/week on average." },
+        { "text": "A Finnish master's qualifies for permanent residence without the standard years-of-residence requirement (with language and 2 years' work)." }
+      ],
+      "cons": [
+        { "text": "Non-EU tuition is high (~€17,000/yr at Aalto) with only a small number of Excellence Scholarship waivers." }
+      ],
+      "links": [
+        { "title": "Aalto University — ML, Data Science and AI MSc (tuition, official)", "url": "https://www.aalto.fi/en/study-options/machine-learning-data-science-and-artificial-intelligence-master-of-science-technology" },
+        { "title": "Aalto University — Tuition fees and scholarships (official)", "url": "https://www.aalto.fi/en/international-students/tuition-fees-and-scholarships" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "pr-pathway": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Permanent residence was extended to 6 years from January 2026 (Finnish-degree graduates may skip the year requirement) and requires Finnish/Swedish plus work — a tightened, language-heavy route.",
+      "factors": {
+        "years-to-pr": { "status": "scored", "score": 55 },
+        "route-clarity-accessibility": { "status": "scored", "score": 55 },
+        "eligibility-bars": { "status": "scored", "score": 55 },
+        "language-integration-requirement": { "status": "scored", "score": 45 },
+        "continuity-retention": { "status": "scored", "score": 52 },
+        "policy-predictability": { "status": "scored", "score": 42 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Graduates of a Finnish master's may obtain permanent residence without meeting the standard years-of-residence requirement, given Finnish/Swedish proficiency and 2 years' work." }
+      ],
+      "cons": [
+        { "text": "From January 2026 the continuous-residence requirement for PR rose from 4 to 6 years, plus a Finnish/Swedish-language condition." },
+        { "text": "The Finns-Party-led restrictive direction reduces predictability." }
+      ],
+      "links": [
+        { "title": "Migri — Amendments to Aliens Act on permanent residence permits 2026 (official)", "url": "https://migri.fi/en/amendments-to-aliens-act-regarding-permanent-residence-permits-2026" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "income-cost": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Good tech salaries are offset by a high tax wedge and high tuition; Helsinki living is moderate by Nordic standards, leaving a fair surplus.",
+      "factors": {
+        "household-net-surplus": { "status": "scored", "score": 58 },
+        "housing-cost-availability": { "status": "scored", "score": 58 },
+        "savings-remittance": { "status": "scored", "score": 58 },
+        "student-phase-affordability": { "status": "scored", "score": 52 },
+        "upfront-relocation-cash": { "status": "scored", "score": 52 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Two tech salaries net a fair surplus, and Helsinki housing is more moderate than Oslo or Copenhagen." }
+      ],
+      "cons": [
+        { "text": "A 42.5% tax wedge (56.4% marginal for high earners) and ~€17k/yr tuition compress the study and early-career budget." }
+      ],
+      "links": [
+        { "title": "OECD — Taxing Wages 2025: Finland country note (PDF)", "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/04/taxing-wages-2025-country-notes_16d47563/finland_4afd5846/3f52905b-en.pdf" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "healthcare": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Residence-based universal healthcare (Kela) once settled, with high quality and outstanding family benefits, though students need insurance and there can be access gaps early on.",
+      "factors": {
+        "newcomer-eligibility-barrier": { "status": "scored", "score": 62 },
+        "health-quality-access": { "status": "scored", "score": 70 },
+        "cost-coverage-by-status": { "status": "scored", "score": 70 },
+        "social-insurance-safety-net": { "status": "scored", "score": 72 },
+        "family-childcare-benefits": { "status": "scored", "score": 75 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "Residence-based universal healthcare (Kela/municipal) once settled, with strong Nordic welfare and outstanding family benefits (childcare, the maternity package)." }
+      ],
+      "cons": [
+        { "text": "Students must hold insurance and may face access gaps before full residence-based coverage applies; some treatment waits exist." }
+      ],
+      "links": [
+        { "title": "Study in Finland — life in Finland (healthcare, official)", "url": "https://www.studyinfinland.fi/life-in-finland" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "culture-language": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Finns have excellent English and livability is world-leading, but Finnish/Swedish is required for status and a hard language to master, in a society with a tightening tone on immigration.",
+      "factors": {
+        "english-usability": { "status": "scored", "score": 58 },
+        "language-burden-citizenship": { "status": "scored", "score": 38 },
+        "integration-support": { "status": "scored", "score": 58 },
+        "social-acceptance-south-asian": { "status": "scored", "score": 48 },
+        "worklife-livability": { "status": "scored", "score": 82 },
+        "cultural-distance-adaptation": { "status": "scored", "score": 45 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Finns have excellent English (work and daily life are largely workable in English in Helsinki), and Finland tops global happiness/livability rankings with funded integration (kotoutuminen) support." }
+      ],
+      "cons": [
+        { "text": "Finnish/Swedish is required for PR and citizenship and is genuinely hard to learn, and the social tone toward immigrants has hardened under the Finns Party." }
+      ],
+      "links": [
+        { "title": "InfoFinland — settling in Finland (official)", "url": "https://infofinland.fi/en/settling-in-finland" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "safety-law": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Among the world's best for rule of law (WJP 2025: 3rd) and very safe, though Finland has documented racism issues affecting some minorities.",
+      "factors": {
+        "personal-crime-safety": { "status": "scored", "score": 80 },
+        "lived-discrimination-hatecrime": { "status": "scored", "score": 50 },
+        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 90 },
+        "women-safety-gbv": { "status": "scored", "score": 78 },
+        "immigration-enforcement-due-process": { "status": "scored", "score": 58 },
+        "antidiscrimination-law-enforcement": { "status": "scored", "score": 62 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "WJP Rule of Law Index 2025: 3rd worldwide; very low crime and strong women's safety, with reliable, low-corruption institutions." }
+      ],
+      "cons": [
+        { "text": "Finland has documented racism/discrimination issues affecting some visible minorities, and immigration enforcement has tightened." }
+      ],
+      "links": [
+        { "title": "World Justice Project — Rule of Law Index 2025", "url": "https://worldjusticeproject.org/rule-of-law-index/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "politics": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Very stable institutions, but the radical-right Finns Party sits in the governing coalition and is driving a restrictive turn across citizenship, PR and welfare access.",
+      "factors": {
+        "immigration-policy-volatility": { "status": "scored", "score": 40 },
+        "non-eu-skilled-policy-direction": { "status": "scored", "score": 52 },
+        "anti-immigration-electoral-power": { "status": "scored", "score": 30 },
+        "societal-sentiment-trend": { "status": "scored", "score": 40 },
+        "institutional-governance-stability": { "status": "scored", "score": 80 },
+        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 40 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "Institutions are very stable, and skilled-talent attraction programmes remain in place." }
+      ],
+      "cons": [
+        { "text": "The radical-right Finns Party is in the governing coalition and is driving a restrictive paradigm shift (tighter citizenship, longer PR, welfare-linked permit revocation)." },
+        { "text": "Finns Party rhetoric includes anti-immigration and anti-Islam strands, raising targeted risk for Muslim newcomers." }
+      ],
+      "links": [
+        { "title": "GLOBALCIT — Restrictive citizenship reform in Finland driven by the radical right", "url": "https://globalcit.eu/restrictive-citizenship-reform-in-finland-in-three-acts-a-paradigm-shift-driven-by-the-radical-right/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "tax": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A high tax wedge (42.5%, 56.4% marginal) eased by a 32% flat foreign-expert regime for higher earners, but no confirmed Bangladesh treaty.",
+      "factors": {
+        "effective-deduction-wedge": { "status": "scored", "score": 42 },
+        "expat-foreign-worker-relief": { "status": "scored", "score": 52 },
+        "household-dual-earner-treatment": { "status": "scored", "score": 60 },
+        "student-phase-tax-exposure": { "status": "scored", "score": 62 },
+        "bd-treaty-repatriation": { "status": "scored", "score": 42 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "A foreign-expert tax-at-source regime offers a flat 32% for up to 4 years to qualifying higher earners (salary above ~€5,800/month)." }
+      ],
+      "cons": [
+        { "text": "The ordinary tax wedge is 42.5% (9th-highest OECD), 56.4% marginal for high earners, and no Finland–Bangladesh double-taxation treaty is confirmed." }
+      ],
+      "links": [
+        { "title": "OECD — Taxing Wages 2026: Finland country note (PDF)", "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/04/taxing-wages-2026-country-notes_491a0e97/finland_fd5780b2/9bc058eb-en.pdf" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "muslim-diaspora": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A ~3% Muslim population (Somali/Arab/Turkish) with Helsinki prayer facilities and some halal, but no grand mosque (a proposal was rejected in 2017) and a small Bangladeshi community.",
+      "factors": {
+        "bangladeshi-diaspora": { "status": "scored", "score": 40 },
+        "religious-practice-infrastructure": { "status": "scored", "score": 52 },
+        "sentiment-safety": { "status": "scored", "score": 42 },
+        "legal-religious-accommodation": { "status": "scored", "score": 50 },
+        "south-asian-cultural-ecosystem": { "status": "scored", "score": 42 },
+        "other": { "status": "scored", "score": 42 }
+      },
+      "pros": [
+        { "text": "Muslims are ~2.7–3% (~150,000–170,000); Helsinki has several mosques/Islamic centres (Masjid al-Iman, Helsinki Islamic Centre) and some halal food nearby." }
+      ],
+      "cons": [
+        { "text": "There is no grand mosque (a Helsinki proposal was rejected in 2017 amid politicised zoning and anti-Muslim opposition), the Bangladeshi community is small, and anti-Muslim sentiment is a documented concern." }
+      ],
+      "links": [
+        { "title": "HalalTrip — Guide to finding mosques in Finland", "url": "https://www.halaltrip.com/other/blog/a-guide-to-finding-mosques-in-finland/" },
+        { "title": "Islam / Somalis in Finland (overview)", "url": "https://en.wikipedia.org/wiki/Somalis_in_Finland" }
+      ],
+      "lastReviewed": "2026-06-19"
     }
   }
 }

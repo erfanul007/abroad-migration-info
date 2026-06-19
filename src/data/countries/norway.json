@@ -5,144 +5,329 @@
   "iso3": "NOR",
   "flag": "🇳🇴",
   "region": "Europe",
-  "summary": "",
-  "lastReviewed": "2026-06-18",
+  "summary": "An oil-wealthy Nordic state with very high tech salaries, the world's 2nd-best rule of law (WJP), a top passport, universal healthcare and dual citizenship retained both ways (Norway allows it since 2020 and sits within Bangladesh's 'all of Europe' DNC scope) — but constrained for this profile by an 8-year/B1-Norwegian citizenship path, newly introduced non-EEA tuition (from 2023), extreme living costs, a small Oslo-centric market, a domestic halal-slaughter ban and a small Bangladeshi community. Derived overall sits just below the 60% inclusion line.",
+  "lastReviewed": "2026-06-19",
   "links": [
-    {
-      "title": "UDI – Norwegian Directorate of Immigration",
-      "url": "https://www.udi.no/en/"
-    },
-    {
-      "title": "Study in Norway (official)",
-      "url": "https://studyinnorway.no/"
-    }
+    { "title": "UDI (Norwegian Directorate of Immigration) — official", "url": "https://www.udi.no/en/" },
+    { "title": "UDI — Norwegian citizenship (official)", "url": "https://www.udi.no/en/want-to-apply/citizenship/" }
   ],
   "categories": {
     "job-market": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Very high tech salaries in a growing Oslo market, but the market is small and Norwegian is often expected.",
+      "factors": {
+        "sw-demand-depth": { "status": "scored", "score": 64 },
+        "ai-ml-specialisation": { "status": "scored", "score": 55 },
+        "salary-levels": { "status": "scored", "score": 80 },
+        "sponsorship-work-authorisation": { "status": "scored", "score": 65 },
+        "foreign-grad-bd-hireability": { "status": "scored", "score": 55 },
+        "dual-earner-depth": { "status": "scored", "score": 52 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Very high pay: software engineers in Oslo earn ~NOK 760k–1.2m and AI engineers ~$126k average, with top AI/cloud packages reaching NOK 1.5–2.1m." }
+      ],
+      "cons": [
+        { "text": "The market is small and Oslo-centric, and Norwegian is commonly expected outside international firms." }
+      ],
+      "links": [
+        { "title": "Jobicy — AI Engineer salary, Norway (2025)", "url": "https://jobicy.com/salaries/no/ai-engineer" },
+        { "title": "Levels.fyi — Software Engineer salary, Oslo", "url": "https://www.levels.fyi/t/software-engineer/locations/oslo-nor" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "visa-access": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "No Norwegian mission in Dhaka and a high funds requirement (NOK 325,400/yr), though no Bangladesh-specific ban.",
+      "factors": {
+        "approval-refusal-rate": { "status": "scored", "score": 52 },
+        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 45 },
+        "in-queue-processing-schemes": { "status": "scored", "score": 50 },
+        "financial-bars": { "status": "scored", "score": 45 },
+        "credibility-genuineness-scrutiny": { "status": "scored", "score": 55 },
+        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 52 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "No Bangladesh-specific visa ban; the UDI process is transparent." }
+      ],
+      "cons": [
+        { "text": "Norway has no mission in Bangladesh (processed via a third country), and the funds requirement is high (NOK ~325,400/yr)." }
+      ],
+      "links": [
+        { "title": "UDI — student residence permit (official)", "url": "https://www.udi.no/en/want-to-apply/studies/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "citizenship": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Dual citizenship is retained both ways and the passport is elite (Henley 4th), but naturalisation requires 8 years plus a B1 Norwegian exam (raised from A2) and a citizenship test.",
+      "factors": {
+        "time-to-citizenship": { "status": "scored", "score": 32 },
+        "naturalisation-requirements": { "status": "scored", "score": 48 },
+        "dual-citizenship-retention": { "status": "scored", "score": 85 },
+        "citizenship-attainability": { "status": "scored", "score": 58 },
+        "policy-stability": { "status": "scored", "score": 48 },
+        "passport-strength": { "status": "scored", "score": 90 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Norway has allowed dual citizenship since 2020 (no renunciation), and as a European country it falls within Bangladesh's 'all of Europe' DNC scope, so a naturalising Bangladeshi keeps BD nationality." },
+        { "text": "The Norwegian passport ranks joint 4th on Henley 2026 (~185 destinations)." }
+      ],
+      "cons": [
+        { "text": "Naturalisation requires 8 years' residence (of the last 11) plus a B1 Norwegian oral exam (raised from A2) and a citizenship test — a long, language-heavy path." }
+      ],
+      "links": [
+        { "title": "UDI — citizenship requirements & language test (official)", "url": "https://www.udi.no/en/word-definitions/test-requirements-norwegian-citizenship/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "post-study-work": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A 12-month job-seeker permit (any job, non-extendable) converts to a skilled-worker permit; each spouse qualifies.",
+      "factors": {
+        "psw-duration-runway": { "status": "scored", "score": 50 },
+        "eligibility-openness-bd": { "status": "scored", "score": 65 },
+        "transition-to-skilled-work": { "status": "scored", "score": 65 },
+        "work-freedom-during-psw": { "status": "scored", "score": 80 },
+        "dual-graduate-spouse-psw": { "status": "scored", "score": 70 },
+        "psw-policy-stability": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Graduates can stay 12 months on a job-seeker permit, working any job during the search, then convert to a skilled-worker permit; each spouse qualifies." }
+      ],
+      "cons": [
+        { "text": "The job-seeker permit is one-time and non-extendable (12 months), and requires NOK ~325,400 of funds." }
+      ],
+      "links": [
+        { "title": "UDI — job seekers (official)", "url": "https://www.udi.no/en/want-to-apply/work-immigration/job-seekers/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "spouse-family": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Family of skilled workers get residence and work rights with free schooling; if both spouses study, each holds an independent track.",
+      "factors": {
+        "spouse-work-rights": { "status": "scored", "score": 68 },
+        "dependent-visa-bd-access": { "status": "scored", "score": 65 },
+        "family-reunification-children": { "status": "scored", "score": 70 },
+        "spouse-path-to-independence": { "status": "scored", "score": 68 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Family members of a skilled worker get residence with work rights, children attend school free, and if both spouses study/work each holds their own permit." }
+      ],
+      "cons": [
+        { "text": "Family immigration carries income requirements, demanding given Norway's living costs." }
+      ],
+      "links": [
+        { "title": "UDI — family immigration (official)", "url": "https://www.udi.no/en/want-to-apply/family-immigration/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "msc-study": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Good English-taught CS/AI at NTNU and Oslo, but Norway began charging non-EEA tuition in 2023 (previously free), and living costs are extreme.",
+      "factors": {
+        "affordability-funding": { "status": "scored", "score": 48 },
+        "english-program-depth": { "status": "scored", "score": 70 },
+        "admission-credential-access": { "status": "scored", "score": 68 },
+        "student-work-rights": { "status": "scored", "score": 62 },
+        "study-pathway-fit": { "status": "scored", "score": 70 },
+        "other": { "status": "scored", "score": 55 }
+      },
+      "pros": [
+        { "text": "NTNU and the University of Oslo offer strong English-taught CS/AI master's; a master qualifies for the job-seeker permit." }
+      ],
+      "cons": [
+        { "text": "Norway introduced tuition fees for non-EEA students from autumn 2023 (previously free), and the cost of living is among the world's highest." }
+      ],
+      "links": [
+        { "title": "Study in Norway — fees & funding (official)", "url": "https://www.studyinnorway.no/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "pr-pathway": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Permanent residence is reachable after ~3 years of skilled work, but requires Norwegian-language/integration completion.",
+      "factors": {
+        "years-to-pr": { "status": "scored", "score": 62 },
+        "route-clarity-accessibility": { "status": "scored", "score": 62 },
+        "eligibility-bars": { "status": "scored", "score": 58 },
+        "language-integration-requirement": { "status": "scored", "score": 48 },
+        "continuity-retention": { "status": "scored", "score": 60 },
+        "policy-predictability": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Permanent residence is reachable after ~3 years of continuous skilled-work residence, faster than many EU peers." }
+      ],
+      "cons": [
+        { "text": "PR requires completing Norwegian-language and social-studies/integration tuition, a real burden for English-first applicants." }
+      ],
+      "links": [
+        { "title": "UDI — permanent residence (official)", "url": "https://www.udi.no/en/want-to-apply/permanent-residence/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "income-cost": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Very high salaries leave a strong surplus despite extreme costs, but the study phase (now with tuition) and high housing bite.",
+      "factors": {
+        "household-net-surplus": { "status": "scored", "score": 62 },
+        "housing-cost-availability": { "status": "scored", "score": 50 },
+        "savings-remittance": { "status": "scored", "score": 64 },
+        "student-phase-affordability": { "status": "scored", "score": 42 },
+        "upfront-relocation-cash": { "status": "scored", "score": 42 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Very high tech salaries support strong savings and remittance even at Norwegian price levels." }
+      ],
+      "cons": [
+        { "text": "Living costs are among the world's highest, and the study phase now carries tuition plus a high funds requirement." }
+      ],
+      "links": [
+        { "title": "Study in Norway — cost of living (official)", "url": "https://www.studyinnorway.no/living-in-norway/cost-of-living" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "healthcare": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Universal national-insurance healthcare for residents/workers with strong oil-funded welfare and excellent subsidised childcare.",
+      "factors": {
+        "newcomer-eligibility-barrier": { "status": "scored", "score": 65 },
+        "health-quality-access": { "status": "scored", "score": 70 },
+        "cost-coverage-by-status": { "status": "scored", "score": 70 },
+        "social-insurance-safety-net": { "status": "scored", "score": 75 },
+        "family-childcare-benefits": { "status": "scored", "score": 72 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "Residents and workers (and students staying 12+ months) are covered by the National Insurance Scheme, with an oil-funded welfare net and excellent subsidised childcare." }
+      ],
+      "cons": [
+        { "text": "Some treatment waiting lists exist, and full coverage depends on registration/length of stay." }
+      ],
+      "links": [
+        { "title": "Helsenorge — health services for newcomers (official)", "url": "https://www.helsenorge.no/en/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "culture-language": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Norwegians' English is excellent and livability is world-leading, but Norwegian is required for status (B1) and a real daily-life barrier outside work.",
+      "factors": {
+        "english-usability": { "status": "scored", "score": 62 },
+        "language-burden-citizenship": { "status": "scored", "score": 45 },
+        "integration-support": { "status": "scored", "score": 55 },
+        "social-acceptance-south-asian": { "status": "scored", "score": 55 },
+        "worklife-livability": { "status": "scored", "score": 80 },
+        "cultural-distance-adaptation": { "status": "scored", "score": 50 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Norwegians have excellent English (Oslo work and daily life largely workable in English), with world-leading livability and work-life balance, and an established South-Asian (Pakistani) community." }
+      ],
+      "cons": [
+        { "text": "Norwegian is required for PR and citizenship (B1) and for full daily integration outside international workplaces." }
+      ],
+      "links": [
+        { "title": "Life in Norway — moving & integration", "url": "https://www.lifeinnorway.net/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "safety-law": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Among the safest countries with the world's 2nd-best rule of law (WJP), tempered by the legacy of the 2011 attack and a domestic halal-slaughter ban.",
+      "factors": {
+        "personal-crime-safety": { "status": "scored", "score": 82 },
+        "lived-discrimination-hatecrime": { "status": "scored", "score": 55 },
+        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 90 },
+        "women-safety-gbv": { "status": "scored", "score": 80 },
+        "immigration-enforcement-due-process": { "status": "scored", "score": 65 },
+        "antidiscrimination-law-enforcement": { "status": "scored", "score": 65 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "WJP Rule of Law Index 2025: 2nd worldwide; very low crime, strong women's safety and reliable, low-corruption institutions." }
+      ],
+      "cons": [
+        { "text": "The 2011 Utøya/Oslo far-right attack and subsequent anti-Muslim incidents remain reference points, and Norway bans domestic halal (and kosher) slaughter on animal-welfare grounds." }
+      ],
+      "links": [
+        { "title": "World Justice Project — Rule of Law Index 2025", "url": "https://worldjusticeproject.org/rule-of-law-index/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "politics": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A stable democracy where the right-populist Progress Party is a significant force pushing migration restriction, though skilled migration stays open.",
+      "factors": {
+        "immigration-policy-volatility": { "status": "scored", "score": 50 },
+        "non-eu-skilled-policy-direction": { "status": "scored", "score": 58 },
+        "anti-immigration-electoral-power": { "status": "scored", "score": 42 },
+        "societal-sentiment-trend": { "status": "scored", "score": 50 },
+        "institutional-governance-stability": { "status": "scored", "score": 80 },
+        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 48 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Institutions are very stable, and skilled-worker migration channels remain open and economically valued." }
+      ],
+      "cons": [
+        { "text": "The right-populist Progress Party (FrP) is a major force pushing migration restriction, and the halal-slaughter ban signals limited religious accommodation." }
+      ],
+      "links": [
+        { "title": "UDI — official", "url": "https://www.udi.no/en/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "tax": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A moderate-high wedge (marginal ~47%) on very high salaries, with no expat regime but a Norway–Bangladesh treaty.",
+      "factors": {
+        "effective-deduction-wedge": { "status": "scored", "score": 48 },
+        "expat-foreign-worker-relief": { "status": "scored", "score": 35 },
+        "household-dual-earner-treatment": { "status": "scored", "score": 58 },
+        "student-phase-tax-exposure": { "status": "scored", "score": 62 },
+        "bd-treaty-repatriation": { "status": "scored", "score": 60 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "High gross salaries cushion the burden, and a Norway–Bangladesh double-taxation treaty supports repatriation." }
+      ],
+      "cons": [
+        { "text": "The marginal tax/social wedge is ~47% with no special expat-relief regime." }
+      ],
+      "links": [
+        { "title": "Skatteetaten (Norwegian Tax Administration) — official", "url": "https://www.skatteetaten.no/en/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "muslim-diaspora": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A ~3–6% Muslim population with ~50 mosques (two-thirds in Oslo) and a large Pakistani community for South-Asian ecosystem, but imported-only halal (domestic slaughter banned) and a small Bangladeshi community.",
+      "factors": {
+        "bangladeshi-diaspora": { "status": "scored", "score": 40 },
+        "religious-practice-infrastructure": { "status": "scored", "score": 55 },
+        "sentiment-safety": { "status": "scored", "score": 48 },
+        "legal-religious-accommodation": { "status": "scored", "score": 50 },
+        "south-asian-cultural-ecosystem": { "status": "scored", "score": 58 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "Muslims are ~3–6% with around 50 mosques (two-thirds in the Oslo area), and a large Pakistani-Norwegian community (~39,000) provides a strong South-Asian ecosystem; imported halal food is available." }
+      ],
+      "cons": [
+        { "text": "Domestic halal slaughter is banned (halal meat is imported), the Bangladeshi-specific community is small, and the FrP-influenced climate is cool toward Muslim migration." }
+      ],
+      "links": [
+        { "title": "Islam in Norway (overview)", "url": "https://en.wikipedia.org/wiki/Islam_in_Norway" }
+      ],
+      "lastReviewed": "2026-06-19"
     }
   }
 }

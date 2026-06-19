@@ -5,144 +5,351 @@
   "iso3": "DNK",
   "flag": "🇩🇰",
   "region": "Europe",
-  "summary": "",
-  "lastReviewed": "2026-06-18",
+  "summary": "Structurally world-class — WJP rule of law #1, GPI 8th, Henley 3rd passport, a 3-year open post-study work permit, immediate free healthcare via CPR, strong tech salaries and dual citizenship retained both ways (allowed since 2015; Denmark on Bangladesh's DNC list) — yet a poor fit for a Muslim Bangladeshi couple targeting citizenship: Denmark runs Europe's most restrictive migration regime (Social-Democrat 'zero asylum', 'parallel society'/ghetto laws keyed to 'non-Western' origin, an expanding burqa/niqab ban, recurrent Quran-burnings), naturalisation takes 9 years with B2 Danish and self-sufficiency, permanent residence effectively 8 years, and tax is among the world's highest. Derived overall sits just below the 60% inclusion line.",
+  "lastReviewed": "2026-06-19",
   "links": [
-    {
-      "title": "New to Denmark (SIRI) – official immigration portal",
-      "url": "https://www.nyidanmark.dk/en-GB"
-    },
-    {
-      "title": "Study in Denmark – official",
-      "url": "https://studyindenmark.dk/"
-    }
+    { "title": "New to Denmark — official immigration portal (SIRI/nyidanmark)", "url": "https://www.nyidanmark.dk/en-GB" },
+    { "title": "Life in Denmark — Danish citizenship conditions (borger.dk, official)", "url": "https://lifeindenmark.borger.dk/settle-in-denmark/danish-citizenship/conditions-for-foreign-citizens--acquisition-of-danish-citizenship" }
   ],
   "categories": {
     "job-market": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "High absolute tech salaries in Copenhagen with AI/ML the fastest-rising specialty and skilled-migration channels open (Positive List, Pay Limit scheme), though the market is Copenhagen-centric.",
+      "factors": {
+        "sw-demand-depth": { "status": "scored", "score": 70 },
+        "ai-ml-specialisation": { "status": "scored", "score": 60 },
+        "salary-levels": { "status": "scored", "score": 78 },
+        "sponsorship-work-authorisation": { "status": "scored", "score": 68 },
+        "foreign-grad-bd-hireability": { "status": "scored", "score": 60 },
+        "dual-earner-depth": { "status": "scored", "score": 58 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "High tech pay: software engineers in Copenhagen earn ~DKK 600k–880k total comp and AI/ML engineers ~DKK 600k–1,000k+, with AI/ML the fastest-rising specialty." },
+        { "text": "Skilled migration channels (Positive List, Pay Limit scheme) keep employer routes open for qualified graduates." }
+      ],
+      "cons": [
+        { "text": "The market is Copenhagen-centric (Aarhus/Odense secondary), limiting depth for two simultaneous tech earners." },
+        { "text": "Danish is often expected outside international/MNC roles, and integration politics colour hiring sentiment for non-Western newcomers." }
+      ],
+      "links": [
+        { "title": "Levels.fyi — Software Engineer salary, Copenhagen", "url": "https://www.levels.fyi/t/software-engineer/locations/copenhagen-dnk" },
+        { "title": "Jobicy — AI Engineer salary, Denmark (2025)", "url": "https://jobicy.com/salaries/dk/ai-engineer" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "visa-access": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Bangladeshi students lodge at the VFS Denmark centre in Dhaka with SIRI deciding, but funds proof is significant (~DKK 100,000/yr plus tuition) and processing runs 2–3 months.",
+      "factors": {
+        "approval-refusal-rate": { "status": "scored", "score": 52 },
+        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 55 },
+        "in-queue-processing-schemes": { "status": "scored", "score": 48 },
+        "financial-bars": { "status": "scored", "score": 48 },
+        "credibility-genuineness-scrutiny": { "status": "scored", "score": 52 },
+        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 50 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Applications are lodged at the VFS Global Denmark centre in Dhaka (no travel to a third country), with SIRI deciding the residence permit." },
+        { "text": "No Bangladesh-specific student-visa ban; skilled/student channels remain open despite the harsh asylum regime." }
+      ],
+      "cons": [
+        { "text": "Proof of funds is significant — ~DKK 100,000/yr (~€13,400) plus full tuition — documented over 3 months of statements." },
+        { "text": "Processing typically takes 2–3 months with no student fast-track." }
+      ],
+      "links": [
+        { "title": "New to Denmark — apply as a student (official)", "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Study/Higher-Education" },
+        { "title": "Study in Denmark — residence permits (non-EU/EEA, official portal)", "url": "https://studyindenmark.dk/live-in-denmark/permits-visas-red-tape/residence-permits-non-eu-eea-citizens" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "citizenship": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Dual citizenship is retained both ways and the passport is elite (Henley 3rd), but naturalisation is one of Europe's hardest: 9 years' residence, B2 Danish, a citizenship test and 2 years of self-sufficiency, granted by parliamentary act.",
+      "factors": {
+        "time-to-citizenship": { "status": "scored", "score": 30 },
+        "naturalisation-requirements": { "status": "scored", "score": 30 },
+        "dual-citizenship-retention": { "status": "scored", "score": 88 },
+        "citizenship-attainability": { "status": "scored", "score": 40 },
+        "policy-stability": { "status": "scored", "score": 50 },
+        "passport-strength": { "status": "scored", "score": 90 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Dual citizenship works both ways: Denmark has allowed it since September 2015 and Denmark is on Bangladesh's DNC list, so a naturalising Bangladeshi keeps BD nationality." },
+        { "text": "The Danish passport ranks 3rd on Henley 2026 (~186 destinations)." }
+      ],
+      "cons": [
+        { "text": "Naturalisation requires ~9 years' residence, a B2 Danish exam (Prøve i Dansk 3), the citizenship test (indfødsretsprøven) and 2 years of self-sufficiency with no public benefits — among the strictest in Europe." },
+        { "text": "Citizenship is ultimately granted by parliamentary act, adding discretion on top of the statutory bars." }
+      ],
+      "links": [
+        { "title": "Life in Denmark — conditions for acquiring Danish citizenship (official)", "url": "https://lifeindenmark.borger.dk/settle-in-denmark/danish-citizenship/conditions-for-foreign-citizens--acquisition-of-danish-citizenship" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "post-study-work": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A standout strength: graduates of a Danish bachelor/master/PhD get a 3-year work permit without limitations and no job offer required, and family can accompany — matching Canada's best-in-class runway.",
+      "factors": {
+        "psw-duration-runway": { "status": "scored", "score": 88 },
+        "eligibility-openness-bd": { "status": "scored", "score": 82 },
+        "transition-to-skilled-work": { "status": "scored", "score": 68 },
+        "work-freedom-during-psw": { "status": "scored", "score": 88 },
+        "dual-graduate-spouse-psw": { "status": "scored", "score": 85 },
+        "psw-policy-stability": { "status": "scored", "score": 60 },
+        "other": { "status": "scored", "score": 58 }
+      },
+      "pros": [
+        { "text": "Since the 2023 reform, graduates of a Danish bachelor/master/PhD receive a 3-year residence-and-work permit without limitations and with no job offer required — among the most generous PSW windows anywhere." },
+        { "text": "The permit allows the family to accompany, and each graduating spouse can hold their own." }
+      ],
+      "cons": [
+        { "text": "Conversion to long-term skilled work still needs a qualifying job (Pay Limit/Positive List), and the route depends on Danish-market placement." }
+      ],
+      "links": [
+        { "title": "New to Denmark — establishment / graduate work permit (official)", "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work" },
+        { "title": "Study-Abroad — Working in Denmark 2026 (stay-back)", "url": "https://www.study-abroad.org/study-in-denmark/work-and-career/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "spouse-family": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "The graduate's 3-year permit lets family accompany with spouse work rights and free schooling, but integration/ghetto laws impose conditions, and Denmark is restrictive on family reunification generally.",
+      "factors": {
+        "spouse-work-rights": { "status": "scored", "score": 70 },
+        "dependent-visa-bd-access": { "status": "scored", "score": 58 },
+        "family-reunification-children": { "status": "scored", "score": 60 },
+        "spouse-path-to-independence": { "status": "scored", "score": 68 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "A graduate's 3-year work permit allows the spouse and children to accompany, with spouse work access; if both spouses study, each holds their own permit and PSW." },
+        { "text": "Public schooling is free and high quality." }
+      ],
+      "cons": [
+        { "text": "Denmark applies strict family-reunification rules generally, and 'parallel society'/ghetto laws impose integration conditions (e.g. mandatory daycare hours) on immigrant-background families." }
+      ],
+      "links": [
+        { "title": "New to Denmark — accompanying family members (official)", "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Accompanying-family-Work" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "msc-study": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Most master's are taught in English at strong universities (DTU, Copenhagen, Aarhus) and qualify for the 3-year PSW, but non-EU tuition is high (DTU ~€30k over two years) with limited waivers.",
+      "factors": {
+        "affordability-funding": { "status": "scored", "score": 48 },
+        "english-program-depth": { "status": "scored", "score": 80 },
+        "admission-credential-access": { "status": "scored", "score": 70 },
+        "student-work-rights": { "status": "scored", "score": 65 },
+        "study-pathway-fit": { "status": "scored", "score": 85 },
+        "other": { "status": "scored", "score": 58 }
+      },
+      "pros": [
+        { "text": "Most Danish master's are taught in English at strong universities (DTU, University of Copenhagen, Aarhus) with deep CS/AI offerings, and a master's qualifies for the 3-year PSW." },
+        { "text": "Students may work ~20 hrs/week during term (full-time in summer); a Bangladeshi BSc-CSE is admissible at the graduate level." }
+      ],
+      "cons": [
+        { "text": "Non-EU tuition is high (~€7,200–8,000/yr at Copenhagen/Aarhus; ~€30,000 over two years at DTU) with only a very limited number of tuition-fee waivers." }
+      ],
+      "links": [
+        { "title": "DTU — Fees and funding (official)", "url": "https://www.dtu.dk/english/education/graduate/fees-and-funding" },
+        { "title": "Study.eu — Master's in Denmark (2026)", "url": "https://www.study.eu/guide/masters-in-denmark" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "pr-pathway": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Permanent residence is demanding by EU standards — typically 8 years (reducible to 4 only with strong employment and integration), Danish-language and self-support conditions.",
+      "factors": {
+        "years-to-pr": { "status": "scored", "score": 48 },
+        "route-clarity-accessibility": { "status": "scored", "score": 52 },
+        "eligibility-bars": { "status": "scored", "score": 48 },
+        "language-integration-requirement": { "status": "scored", "score": 45 },
+        "continuity-retention": { "status": "scored", "score": 58 },
+        "policy-predictability": { "status": "scored", "score": 48 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "The 3-year graduate permit plus skilled employment build toward permanent residence, and the route is well documented." }
+      ],
+      "cons": [
+        { "text": "Permanent residence normally requires 8 years' residence (reducible to 4 only with strong employment and integration conditions) plus Danish-language and self-support tests — stricter than the typical EU 5-year route." },
+        { "text": "The restrictive policy direction reduces predictability for non-Western applicants." }
+      ],
+      "links": [
+        { "title": "New to Denmark — permanent residence permit (official)", "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Permanent-residence" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "income-cost": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "High salaries are offset by some of the world's highest taxes and expensive Copenhagen living, leaving a moderate surplus; the study phase is costly.",
+      "factors": {
+        "household-net-surplus": { "status": "scored", "score": 58 },
+        "housing-cost-availability": { "status": "scored", "score": 52 },
+        "savings-remittance": { "status": "scored", "score": 60 },
+        "student-phase-affordability": { "status": "scored", "score": 48 },
+        "upfront-relocation-cash": { "status": "scored", "score": 45 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "High gross tech salaries support a reasonable surplus and easy remittance once employed in skilled roles." }
+      ],
+      "cons": [
+        { "text": "Income tax reaches ~57% (60.5% with labour-market tax), and Copenhagen living and housing are expensive, compressing net surplus." },
+        { "text": "The study phase is costly — high tuition plus a ~DKK 100,000 funds requirement and limited part-time hours." }
+      ],
+      "links": [
+        { "title": "PwC — Denmark: taxes on personal income", "url": "https://taxsummaries.pwc.com/denmark/individual/taxes-on-personal-income" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "healthcare": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A clear strength: registering for a CPR number (stays over three months) gives immediate free access to the universal Danish health service, with strong welfare and childcare.",
+      "factors": {
+        "newcomer-eligibility-barrier": { "status": "scored", "score": 80 },
+        "health-quality-access": { "status": "scored", "score": 75 },
+        "cost-coverage-by-status": { "status": "scored", "score": 80 },
+        "social-insurance-safety-net": { "status": "scored", "score": 75 },
+        "family-childcare-benefits": { "status": "scored", "score": 75 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "Students and workers staying over three months get a CPR number giving immediate, free access to the universal national health service — no waiting period or private insurance needed once registered." },
+        { "text": "Strong Nordic welfare and heavily subsidised childcare." }
+      ],
+      "cons": [
+        { "text": "GP and elective-treatment waits exist, and full coverage begins only after CPR registration on arrival." }
+      ],
+      "links": [
+        { "title": "Study in Denmark — Healthcare (official portal)", "url": "https://studyindenmark.dk/live-in-denmark/health-safety/healthcare-1" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "culture-language": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Danes' English is excellent and Copenhagen is highly livable, but Danish is required for status (B2 for citizenship), and integration politics make the climate cool for non-Western Muslim newcomers.",
+      "factors": {
+        "english-usability": { "status": "scored", "score": 65 },
+        "language-burden-citizenship": { "status": "scored", "score": 35 },
+        "integration-support": { "status": "scored", "score": 52 },
+        "social-acceptance-south-asian": { "status": "scored", "score": 42 },
+        "worklife-livability": { "status": "scored", "score": 82 },
+        "cultural-distance-adaptation": { "status": "scored", "score": 45 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "Danes have excellent English, so daily life and work are largely workable in English in the cities, and livability/work-life balance are world-leading." }
+      ],
+      "cons": [
+        { "text": "Danish is required for permanent residence and at B2 for citizenship — a steep, long-term burden." },
+        { "text": "Assimilationist integration politics and the 'non-Western' framing make social acceptance cool for visibly Muslim South-Asian newcomers." }
+      ],
+      "links": [
+        { "title": "How to Live in Denmark — Muslims in Denmark", "url": "https://www.howtoliveindenmark.com/stories-about-life-in-denmark/muslims-in-denmark-2/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "safety-law": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Top of the world for rule of law (WJP 2025 #1) and among the safest (GPI 8th), but discriminatory-by-design laws (ghetto/parallel-society rules, burqa ban) and recurrent Quran-burnings undercut protection for Muslims.",
+      "factors": {
+        "personal-crime-safety": { "status": "scored", "score": 82 },
+        "lived-discrimination-hatecrime": { "status": "scored", "score": 42 },
+        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 92 },
+        "women-safety-gbv": { "status": "scored", "score": 80 },
+        "immigration-enforcement-due-process": { "status": "scored", "score": 50 },
+        "antidiscrimination-law-enforcement": { "status": "scored", "score": 45 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "WJP Rule of Law Index 2025: 1st of 143 worldwide; Global Peace Index 2025: 8th — extremely safe, low corruption, reliable courts and strong women's safety." }
+      ],
+      "cons": [
+        { "text": "Recurrent public Quran-burnings (170+ anti-Muslim protests in a single month) and a discriminatory legal posture — the burqa/niqab ban and 'non-Western'-keyed ghetto laws — undercut protection for Muslim residents." },
+        { "text": "Immigration enforcement is harsh (revocable permits, 95% removal of rejected claims)." }
+      ],
+      "links": [
+        { "title": "World Justice Project — Denmark ranks 1st (2025 profile)", "url": "https://worldjusticeproject.org/sites/default/files/documents/Denmark_3.pdf" },
+        { "title": "Vision of Humanity — Global Peace Index 2025", "url": "https://www.visionofhumanity.org/wp-content/uploads/2025/06/Global-Peace-Index-2025-web.pdf" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "politics": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Very stable institutions, but a Social-Democrat government runs Europe's most restrictive migration regime — 'zero asylum', revocable protection, and 'parallel society'/ghetto laws explicitly keyed to 'non-Western' origin.",
+      "factors": {
+        "immigration-policy-volatility": { "status": "scored", "score": 40 },
+        "non-eu-skilled-policy-direction": { "status": "scored", "score": 58 },
+        "anti-immigration-electoral-power": { "status": "scored", "score": 28 },
+        "societal-sentiment-trend": { "status": "scored", "score": 35 },
+        "institutional-governance-stability": { "status": "scored", "score": 82 },
+        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 25 },
+        "other": { "status": "scored", "score": 42 }
+      },
+      "pros": [
+        { "text": "Institutions are very stable, and skilled-worker/student channels (Positive List, Pay Limit scheme, graduate permit) remain open and functional." }
+      ],
+      "cons": [
+        { "text": "The mainstream Social-Democrat government has normalised the hardest migration line in Europe: a stated 'zero asylum seekers' goal, revocable temporary protection, and family-reunification restrictions." },
+        { "text": "'Parallel society'/ghetto laws use 'non-Western' origin as a legal category and the burqa/niqab ban targets Muslim practice — direct state-level pressure on Muslim South-Asian residents." }
+      ],
+      "links": [
+        { "title": "Immigration policy of Mette Frederiksen (overview)", "url": "https://en.wikipedia.org/wiki/Immigration_policy_of_Mette_Frederiksen" },
+        { "title": "Migration Policy Institute — Denmark, a pioneer in restrictive policy", "url": "https://www.migrationpolicy.org/article/denmark-migration-profile-pioneer" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "tax": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Among the world's highest taxes (~57%, 60.5% with labour-market tax); a 27% researcher scheme exists but its high salary threshold puts it largely out of reach for newly graduated engineers, and no Bangladesh treaty is confirmed.",
+      "factors": {
+        "effective-deduction-wedge": { "status": "scored", "score": 38 },
+        "expat-foreign-worker-relief": { "status": "scored", "score": 50 },
+        "household-dual-earner-treatment": { "status": "scored", "score": 55 },
+        "student-phase-tax-exposure": { "status": "scored", "score": 62 },
+        "bd-treaty-repatriation": { "status": "scored", "score": 42 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "A researcher/highly-paid expat scheme allows a flat 27% (32.84% with labour-market tax) for up to 7 years — substantial relief for those who qualify." }
+      ],
+      "cons": [
+        { "text": "Ordinary tax reaches ~57% (60.5% with labour-market tax), and the researcher scheme's high salary threshold (~DKK 65,400/month, ~€105k/yr) is largely out of reach for newly graduated engineers." },
+        { "text": "No Denmark–Bangladesh double-taxation treaty is confirmed, leaving repatriation relief uncertain." }
+      ],
+      "links": [
+        { "title": "Skat (Danish Tax Agency) — Tax scheme for researchers (official)", "url": "https://skat.dk/en-us/businesses/employees-and-pay/non-danish-labour/tax-scheme-for-researchers" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "muslim-diaspora": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A ~5% Muslim population with 150+ mosques and good halal infrastructure in Copenhagen/Aarhus, but a hostile sentiment and legal climate — recurrent Quran-burnings, a burqa/niqab ban and ghetto laws.",
+      "factors": {
+        "bangladeshi-diaspora": { "status": "scored", "score": 42 },
+        "religious-practice-infrastructure": { "status": "scored", "score": 72 },
+        "sentiment-safety": { "status": "scored", "score": 30 },
+        "legal-religious-accommodation": { "status": "scored", "score": 35 },
+        "south-asian-cultural-ecosystem": { "status": "scored", "score": 48 },
+        "other": { "status": "scored", "score": 38 }
+      },
+      "pros": [
+        { "text": "Muslims are ~5.1% (~300,000) with 150+ mosques and Islamic centres and good halal food/grocery/butcher availability in Copenhagen (Nørrebro), Aarhus and Odense." }
+      ],
+      "cons": [
+        { "text": "The sentiment climate is hostile — recurrent public Quran-burnings (Paludan; 170+ anti-Muslim protests in a month) drew formal Bangladeshi government condemnation." },
+        { "text": "Legal accommodation is poor: a public burqa/niqab ban (expanding to schools/universities) and 'ghetto' laws targeting non-Western communities; the specific Bangladeshi community is small." }
+      ],
+      "links": [
+        { "title": "Islam in Denmark (overview)", "url": "https://en.wikipedia.org/wiki/Islam_in_Denmark" },
+        { "title": "Dhaka Tribune — Bangladesh condemns Quran burning in Copenhagen", "url": "https://www.dhakatribune.com/foreign-affairs/2023/01/28/bangladesh-strongly-condemns-burning-of-holy-quran-in-denmark" }
+      ],
+      "lastReviewed": "2026-06-19"
     }
   }
 }

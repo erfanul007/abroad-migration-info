@@ -5,144 +5,370 @@
   "iso3": "CAN",
   "flag": "🇨🇦",
   "region": "North America",
-  "summary": "",
-  "lastReviewed": "2026-06-18",
+  "summary": "The textbook English-native study→3-year PGWP→Express Entry (CEC)→citizenship pipeline, with dual citizenship retained both ways (Canada is on Bangladesh's Dual Nationality Certificate list), five-year naturalisation at CLB 4, and a top-tier AI ecosystem (Vector, Mila, Amii); from 1 January 2026 a master's at a public DLI is exempt from both the study-permit cap and the PAL requirement. Tempered by a collapse in new study-permit approval rates (~30% in 2025 vs 51% in 2024) after the Student Direct Stream was cancelled, severe Toronto/Vancouver housing costs, a ~21% cut to permanent-resident targets (≈380,000/yr, 2026–28), and a cooling immigration-sentiment climate under Carney's minority Liberal government plus Quebec's Bill 21.",
+  "lastReviewed": "2026-06-19",
   "links": [
-    {
-      "title": "IRCC immigrate to Canada (official)",
-      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada.html"
-    },
-    {
-      "title": "IRCC study permit (official)",
-      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html"
-    }
+    { "title": "Immigration, Refugees and Citizenship Canada — official", "url": "https://www.canada.ca/en/immigration-refugees-citizenship.html" },
+    { "title": "EduCanada — Study in Canada (Government of Canada)", "url": "https://www.educanada.ca/index.aspx?lang=eng" }
   ],
   "categories": {
     "job-market": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Top-tier AI ecosystem (Vector, Mila, Amii) and a tech labour market at ~3.3% unemployment across Toronto/Vancouver/Montreal/Ottawa/Waterloo, with the PGWP open work permit removing LMIA friction for new graduates.",
+      "factors": {
+        "sw-demand-depth": { "status": "scored", "score": 76 },
+        "ai-ml-specialisation": { "status": "scored", "score": 82 },
+        "salary-levels": { "status": "scored", "score": 70 },
+        "sponsorship-work-authorisation": { "status": "scored", "score": 70 },
+        "foreign-grad-bd-hireability": { "status": "scored", "score": 70 },
+        "dual-earner-depth": { "status": "scored", "score": 78 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "Tech unemployment is ~3.3% (near full employment) and software/AI roles (NOC 21231/21232, TEER 1) are a confirmed Express Entry priority category for 2026; AI/ML skills are the fastest-growing demand in tech-hiring data." },
+        { "text": "Software-engineer pay in Toronto runs ~CAD 90,000–137,000 and AI/ML engineers ~CAD 85,000–150,000, with a ~35% machine-learning premium." },
+        { "text": "Multiple deep hubs (Toronto, Vancouver, Montreal, Ottawa, Waterloo, Calgary) can absorb both engineers, and the PGWP is an open work permit — no LMIA or employer tie." }
+      ],
+      "cons": [
+        { "text": "Direct employer sponsorship of a foreign worker still needs an LMIA; the smooth route runs through study→PGWP→Canadian-experience PR rather than offshore hiring." },
+        { "text": "A 2023–24 tech-layoff cycle and the 2025–26 immigration-cap climate have softened entry-level hiring at the margin." }
+      ],
+      "links": [
+        { "title": "Job Bank — AI (software) engineer wages, Canada (Government of Canada)", "url": "https://www.jobbank.gc.ca/marketreport/wages-occupation/297216/ca" },
+        { "title": "Robert Half — Software Engineer/Developer salary, Toronto (2026)", "url": "https://www.roberthalf.com/ca/en/job-details/software-engineerdeveloper/toronto-on" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "visa-access": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Lodgement and biometrics stay in Dhaka via VFS with ~8-week processing, and a master's at a public DLI is exempt from the 2026 cap and PAL — but new study-permit approval rates collapsed to ~30% in 2025 (from 51% in 2024) after the Student Direct Stream was cancelled.",
+      "factors": {
+        "approval-refusal-rate": { "status": "scored", "score": 38 },
+        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 62 },
+        "in-queue-processing-schemes": { "status": "scored", "score": 45 },
+        "financial-bars": { "status": "scored", "score": 45 },
+        "credibility-genuineness-scrutiny": { "status": "scored", "score": 42 },
+        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 45 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "Applications are lodged online with biometrics at the VFS Canada Visa Application Centre in Gulshan, Dhaka (CAD 85, valid 10 years) — no travel to New Delhi; study-permit processing runs ~8 weeks." },
+        { "text": "From 1 January 2026 master's and doctoral students at public DLIs are exempt from both the national study-permit cap and the Provincial Attestation Letter (PAL) requirement, removing the allocation bottleneck for this profile." }
+      ],
+      "cons": [
+        { "text": "New study-permit approval rates fell to ~30–31% in 2025 (from 51% in 2024) after SDS was cancelled (8 Nov 2024); the top refusal reasons are an officer being unconvinced the applicant will leave and unverified proof of funds.", "severity": "normal" },
+        { "text": "The cancelled SDS removed the only fast-track; all Bangladeshi applicants now go through the regular stream with full genuine-student and source-of-funds scrutiny." },
+        { "text": "Proof of funds rose to CAD 20,635 living costs (up from CAD 10,000) plus full first-year tuition and return airfare, typically evidenced via a Canadian-bank GIC." }
+      ],
+      "links": [
+        { "title": "IRCC — End of the Student Direct Stream and Nigeria Student Express (official)", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/end-student-direct-stream-nigeria-student-express.html" },
+        { "title": "VFS Global — Canada visa biometrics, Bangladesh", "url": "https://www.vfsglobal.ca/canada/bangladesh/biometrics.html" },
+        { "title": "IRCC — 2026 provincial and territorial allocations under the international student cap (official)", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/2026-provincial-territorial-allocations-under-international-student-cap.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "citizenship": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Five-year naturalisation (1,095 days' physical presence in 5 years) with a low CLB 4 language bar, dual citizenship retained both ways, and a top-10 passport.",
+      "factors": {
+        "time-to-citizenship": { "status": "scored", "score": 62 },
+        "naturalisation-requirements": { "status": "scored", "score": 80 },
+        "dual-citizenship-retention": { "status": "scored", "score": 90 },
+        "citizenship-attainability": { "status": "scored", "score": 78 },
+        "policy-stability": { "status": "scored", "score": 70 },
+        "passport-strength": { "status": "scored", "score": 86 },
+        "other": { "status": "scored", "score": 55 }
+      },
+      "pros": [
+        { "text": "Dual citizenship works both ways: Canada has allowed it since 1977, and Canada is on Bangladesh's Dual Nationality Certificate list, so a naturalising Bangladeshi keeps BD nationality (apply for the DNC to avoid losing it)." },
+        { "text": "Naturalisation needs 1,095 days of physical presence in the 5 years before applying (up to 365 pre-PR days count as half), language only at CLB 4, a knowledge test, and 3 years of tax filing — a trivial language bar for English-fluent engineers." },
+        { "text": "The Canadian passport ranks 9th on the Henley index with visa-free access to ~183 destinations." }
+      ],
+      "cons": [
+        { "text": "The 5-year/1,095-day clock effectively begins from PR (pre-PR time is capped at a 365-day half-credit), so citizenship trails PR by several years." },
+        { "text": "Reaching citizenship still depends on first securing PR through Express Entry, the binding gate (scored under PR Pathway)." }
+      ],
+      "links": [
+        { "title": "IRCC — Canadian citizenship: who can apply (official)", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/adult-minor/who.html" },
+        { "title": "Citizenship Act, RSC 1985, c. C-29, s. 5 (Justice Laws)", "url": "https://laws-lois.justice.gc.ca/eng/acts/c-29/section-5.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "post-study-work": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "The Post-Graduation Work Permit gives a master's graduate a 3-year open work permit regardless of programme length, with the field-of-study restriction lifted for degree graduates and each graduate spouse eligible for their own PGWP.",
+      "factors": {
+        "psw-duration-runway": { "status": "scored", "score": 88 },
+        "eligibility-openness-bd": { "status": "scored", "score": 82 },
+        "transition-to-skilled-work": { "status": "scored", "score": 62 },
+        "work-freedom-during-psw": { "status": "scored", "score": 88 },
+        "dual-graduate-spouse-psw": { "status": "scored", "score": 88 },
+        "psw-policy-stability": { "status": "scored", "score": 50 },
+        "other": { "status": "scored", "score": 55 }
+      },
+      "pros": [
+        { "text": "Master's graduates qualify for a 3-year PGWP regardless of programme length (since 15 Feb 2024), and the field-of-study restriction was lifted for bachelor's/master's/doctoral graduates in March 2025." },
+        { "text": "The PGWP is an open work permit — any employer, any role, full-time, self-employment allowed — and each graduating spouse can independently hold their own 3-year PGWP." },
+        { "text": "The 3-year runway plus one year of skilled Canadian work feeds directly into the Canadian Experience Class for PR." }
+      ],
+      "cons": [
+        { "text": "Degree graduates must prove language at CLB 7 in all four abilities to qualify for the PGWP (since 1 Nov 2024) — easy for English-fluent applicants but a hard gate for others." },
+        { "text": "Conversion to PR is not automatic: it runs through competitive Express Entry CRS draws, and the STEM category has no guaranteed dedicated draws in 2026." }
+      ],
+      "links": [
+        { "title": "IRCC — About the Post-Graduation Work Permit (official)", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/about.html" },
+        { "title": "IRCC — PGWP: who can apply (official)", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "spouse-family": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Where both spouses study they each hold their own permit and PGWP; otherwise a spousal open work permit is available because a master's of 16+ months qualifies, and children attend public school free.",
+      "factors": {
+        "spouse-work-rights": { "status": "scored", "score": 80 },
+        "dependent-visa-bd-access": { "status": "scored", "score": 80 },
+        "family-reunification-children": { "status": "scored", "score": 82 },
+        "spouse-path-to-independence": { "status": "scored", "score": 82 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "A master's programme of 16+ months keeps the spouse eligible for a Spousal Open Work Permit under the Jan-2025 rules; if both spouses study, each instead holds an independent study permit and 3-year PGWP." },
+        { "text": "Dependent children can accompany and attend public K-12 school free of charge during the study and work phases." },
+        { "text": "Each spouse has a self-contained study→PGWP→Express Entry route, so neither is locked into permanent dependant status." }
+      ],
+      "cons": [
+        { "text": "The Jan-2025 reform restricted spousal open work permits to spouses of master's (16+ months), doctoral or select professional students — shorter or college programmes no longer qualify." },
+        { "text": "From 4 March 2026 a spouse of a student in their final academic term is refused even on renewal, creating a tail-end gap." }
+      ],
+      "links": [
+        { "title": "IRCC — Changes to open work permits for family members of temporary residents (official)", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/changes-open-work-permits-family-members-temporary-residents.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "msc-study": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "World-class English-taught CS/AI master's (Toronto, Waterloo, UBC, McGill) with 24 hrs/week off-campus work and a standard programme qualifying for the maximum 3-year PGWP, though international tuition runs CAD 23k–35k/yr.",
+      "factors": {
+        "affordability-funding": { "status": "scored", "score": 45 },
+        "english-program-depth": { "status": "scored", "score": 88 },
+        "admission-credential-access": { "status": "scored", "score": 75 },
+        "student-work-rights": { "status": "scored", "score": 82 },
+        "study-pathway-fit": { "status": "scored", "score": 85 },
+        "other": { "status": "scored", "score": 60 }
+      },
+      "pros": [
+        { "text": "Deep, top-ranked English-taught CS/AI catalogue — Toronto, Waterloo, UBC, McGill — with research-stream master's frequently funded and Waterloo-style co-op embedding Canadian work experience." },
+        { "text": "Off-campus student work was raised to 24 hours/week (from 20) effective Nov 2024, and a 16+ month master's qualifies for the maximum 3-year PGWP." },
+        { "text": "A Bangladeshi BSc-CSE is directly admissible at the graduate level subject to GPA and IELTS/TOEFL." }
+      ],
+      "cons": [
+        { "text": "International master's CS tuition is high — ~CAD 23,088/yr at Waterloo and ~CAD 34,900/yr at Toronto — and coursework (non-research) master's are largely unfunded." }
+      ],
+      "links": [
+        { "title": "University of Toronto — Computer Science graduate funding & tuition", "url": "https://web.cs.toronto.edu/graduate/funding-tuition-awards" },
+        { "title": "IRCC — Work off campus as an international student (official)", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "pr-pathway": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A clear study→PGWP→Canadian Experience Class route reaches PR in ~3–4 years with only CLB 7 English, but Express Entry CRS draws are competitive and 2026–28 admission targets were cut ~21% to ≈380,000/yr.",
+      "factors": {
+        "years-to-pr": { "status": "scored", "score": 72 },
+        "route-clarity-accessibility": { "status": "scored", "score": 72 },
+        "eligibility-bars": { "status": "scored", "score": 58 },
+        "language-integration-requirement": { "status": "scored", "score": 80 },
+        "continuity-retention": { "status": "scored", "score": 70 },
+        "policy-predictability": { "status": "scored", "score": 48 },
+        "other": { "status": "scored", "score": 55 }
+      },
+      "pros": [
+        { "text": "Study (≈2 yrs) → PGWP → one year of skilled Canadian work → Canadian Experience Class can deliver PR in roughly 3–4 years, a transparent points-based route." },
+        { "text": "PR language sits at CLB 7 (easy for English-fluent engineers) with no separate integration exam, and Provincial Nominee streams provide a backup." },
+        { "text": "Over 40% of 2025 PR admissions came from in-Canada temporary residents, and the government has explicitly prioritised in-Canada transitions." }
+      ],
+      "cons": [
+        { "text": "Express Entry CRS cut-offs for Canadian Experience Class draws have run high (frequently ~520–540), so PR is competitive even for two engineers and may need a PNP." },
+        { "text": "The 2026–28 Immigration Levels Plan stabilises PR at ≈380,000/yr — about 21% below earlier targets — and 2025–26 saw category churn (STEM dropped dedicated draws, agriculture delisted)." }
+      ],
+      "links": [
+        { "title": "IRCC — Canada prioritizes top talent in 2026 Express Entry categories (official)", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/02/canada-prioritizes-top-talent-in-2026-immigration-express-entry-categories.html" },
+        { "title": "IRCC — Canadian Experience Class: who can apply (official)", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/eligibility/canadian-experience-class.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "income-cost": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Two tech salaries leave a comfortable surplus and remit easily, but Toronto and Vancouver are among the least affordable housing markets globally and the student phase is tight.",
+      "factors": {
+        "household-net-surplus": { "status": "scored", "score": 65 },
+        "housing-cost-availability": { "status": "scored", "score": 42 },
+        "savings-remittance": { "status": "scored", "score": 68 },
+        "student-phase-affordability": { "status": "scored", "score": 45 },
+        "upfront-relocation-cash": { "status": "scored", "score": 45 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "A dual tech household (~CAD 180k–220k gross) nets a comfortable surplus at ~25–28% effective tax, and CAD repatriation to Bangladesh is straightforward." }
+      ],
+      "cons": [
+        { "text": "Housing dominates costs: a 1-bedroom in Toronto runs ~CAD 1,800–2,700/month, with a couple budgeting ~CAD 3,800–4,100/month all-in; Toronto and Vancouver are the most expensive Canadian cities." },
+        { "text": "The study phase is tight — ~CAD 23k–35k tuition plus ~CAD 24k–30k living per year — surmountable only with reserves and the 24-hour student-work allowance." }
+      ],
+      "links": [
+        { "title": "Mastersportal — Living costs & tuition for international students in Canada (2026)", "url": "https://www.mastersportal.com/articles/1659/study-in-canada-living-costs-tuition-fees-for-international-students.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "healthcare": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Universal public healthcare once resident, with strong family benefits ($10/day childcare, generous parental leave), but newcomer coverage has gaps — Ontario students rely on mandatory UHIP and PGWP holders need a 6-month job for OHIP — and treatment waits are long.",
+      "factors": {
+        "newcomer-eligibility-barrier": { "status": "scored", "score": 48 },
+        "health-quality-access": { "status": "scored", "score": 55 },
+        "cost-coverage-by-status": { "status": "scored", "score": 62 },
+        "social-insurance-safety-net": { "status": "scored", "score": 70 },
+        "family-childcare-benefits": { "status": "scored", "score": 72 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Permanent residents and citizens get universal public coverage; EI and CPP plus up to ~18 months of parental leave provide a solid safety net." },
+        { "text": "The Canada-wide $10/day childcare programme and the Canada Child Benefit materially lower family costs once settled." }
+      ],
+      "cons": [
+        { "text": "Coverage is patchy for newcomers: Ontario international students rely on mandatory UHIP (~CAD 792/yr) rather than OHIP, and a PGWP holder needs a 6-month full-time job to qualify for OHIP (BC/Manitoba cover immediately)." },
+        { "text": "Treatment access is a known weakness — GP shortages and some of the longest specialist and surgical waits in the wealthy-OECD group." }
+      ],
+      "links": [
+        { "title": "Government of Canada — Health care in Canada (official)", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/new-immigrants/new-life-canada/health-care-card.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "culture-language": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "English-native and highly multicultural with no language barrier for status, strong settlement services, and a large South-Asian presence — though immigration sentiment has cooled since 2022.",
+      "factors": {
+        "english-usability": { "status": "scored", "score": 90 },
+        "language-burden-citizenship": { "status": "scored", "score": 88 },
+        "integration-support": { "status": "scored", "score": 75 },
+        "social-acceptance-south-asian": { "status": "scored", "score": 60 },
+        "worklife-livability": { "status": "scored", "score": 70 },
+        "cultural-distance-adaptation": { "status": "scored", "score": 70 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "English is the working and everyday language outside Quebec, so there is no separate language friction for work, PR or citizenship (only CLB 4–7)." },
+        { "text": "Highly multicultural with IRCC-funded settlement services and large established South-Asian communities that ease adaptation." }
+      ],
+      "cons": [
+        { "text": "Public opinion has hardened — the share saying there is 'too much immigration' more than doubled to ~58% by 2024 (stabilising at ~56% in 2025) — cooling the welcome for newcomers." },
+        { "text": "In Quebec, French is essential for daily life and provincial services, narrowing the English-only option." }
+      ],
+      "links": [
+        { "title": "CBC — Popular support for more immigration has cratered", "url": "https://www.cbc.ca/news/politics/popular-support-immigration-plummets-1.7631767" },
+        { "title": "Government of Canada — Improve your English/French (settlement services, official)", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/new-immigrants/new-life-canada/improve-english-french.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "safety-law": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Top-tier rule of law (WJP 2025: 13th, 0.79) and a peaceful, safe society (GPI 2025: 14th), tempered by rising hate-crime figures and Quebec's Bill 21 restricting religious symbols.",
+      "factors": {
+        "personal-crime-safety": { "status": "scored", "score": 75 },
+        "lived-discrimination-hatecrime": { "status": "scored", "score": 50 },
+        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 80 },
+        "women-safety-gbv": { "status": "scored", "score": 68 },
+        "immigration-enforcement-due-process": { "status": "scored", "score": 72 },
+        "antidiscrimination-law-enforcement": { "status": "scored", "score": 65 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "WJP Rule of Law Index 2025: 13th of 143 (0.79); Global Peace Index 2025: 14th of 163 — stable courts, low corruption and generally low everyday crime." },
+        { "text": "Immigration enforcement is rule-bound with IRB appeal rights, and federal/provincial human-rights codes are broadly enforced." }
+      ],
+      "cons": [
+        { "text": "Statistics Canada has recorded rising hate crime, with anti-Muslim and anti-South-Asian incidents elevated; the 2017 Quebec City mosque shooting (6 killed) and 2021 London, Ontario family attack (4 killed) remain reference points." },
+        { "text": "Quebec's Bill 21 bars some public-sector workers from wearing religious symbols — a notable anti-discrimination carve-out affecting visibly Muslim residents." }
+      ],
+      "links": [
+        { "title": "World Justice Project — Rule of Law Index 2025", "url": "https://worldjusticeproject.org/rule-of-law-index/" },
+        { "title": "Global Peace Index 2025 (PDF)", "url": "https://www.visionofhumanity.org/wp-content/uploads/2025/06/Global-Peace-Index-2025-web.pdf" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "politics": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Very stable institutions under Carney's minority Liberal government (elected April 2025), but a sustained 2024–26 immigration tightening (study caps, ~21% PR cut, SDS/SOWP changes) and a hardened public mood make policy volatile for newcomers.",
+      "factors": {
+        "immigration-policy-volatility": { "status": "scored", "score": 42 },
+        "non-eu-skilled-policy-direction": { "status": "scored", "score": 55 },
+        "anti-immigration-electoral-power": { "status": "scored", "score": 55 },
+        "societal-sentiment-trend": { "status": "scored", "score": 45 },
+        "institutional-governance-stability": { "status": "scored", "score": 82 },
+        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 50 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Institutions are very stable: the April 2025 federal election produced an orderly transition to a Carney-led Liberal government, and skilled migration (Express Entry) remains fully operative with in-Canada transitions prioritised." },
+        { "text": "No far-right party governs; immigration scepticism sits with the mainstream Conservative opposition rather than an extremist bloc." }
+      ],
+      "cons": [
+        { "text": "Immigration policy has tightened sharply across stages since 2024 — study-permit caps, SDS cancellation, spousal-OWP restrictions and a ~21% cut to PR targets — under Carney's pledge to cap admissions at 'sustainable levels'." },
+        { "text": "Quebec's Bill 21 is provincial state targeting of religious symbols, and a cooled public mood (56–58% 'too much immigration') pressures further restriction." }
+      ],
+      "links": [
+        { "title": "2025 Canadian federal election (overview)", "url": "https://en.wikipedia.org/wiki/2025_Canadian_federal_election" },
+        { "title": "CBC — Carney's immigration strategy amid a shift in public opinion", "url": "https://www.cbc.ca/news/politics/new-immigration-strategy-carney-9.6964494" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "tax": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A moderate OECD tax wedge (~31%) with individual assessment that doesn't penalise dual earners and an in-force Canada–Bangladesh double-tax treaty, offset by no special expat regime and a high ~53.5% top combined marginal rate in Ontario.",
+      "factors": {
+        "effective-deduction-wedge": { "status": "scored", "score": 52 },
+        "expat-foreign-worker-relief": { "status": "scored", "score": 25 },
+        "household-dual-earner-treatment": { "status": "scored", "score": 70 },
+        "student-phase-tax-exposure": { "status": "scored", "score": 68 },
+        "bd-treaty-repatriation": { "status": "scored", "score": 78 },
+        "other": { "status": "scored", "score": 55 }
+      },
+      "pros": [
+        { "text": "The Canada–Bangladesh double-taxation convention has been in force since 1985, giving credit relief and clean repatriation; the OECD single-worker tax wedge (~31%) is well below Germany's." },
+        { "text": "Tax is assessed individually (no joint penalty on the second earner), and the lowest federal rate was cut to 14% for 2026." }
+      ],
+      "cons": [
+        { "text": "Ontario's top combined marginal rate reaches ~53.5%, and there is no expat or inbound-worker tax relief regime of any kind." }
+      ],
+      "links": [
+        { "title": "Canada–Bangladesh income-tax convention (Treaty text, Government of Canada)", "url": "https://www.treaty-accord.gc.ca/text-texte.aspx?lang=eng&id=102233" },
+        { "title": "PwC — Canada: taxes on personal income", "url": "https://taxsummaries.pwc.com/canada/individual/taxes-on-personal-income" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "muslim-diaspora": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A large established Bangladeshi-Muslim community concentrated in the Greater Toronto Area, with abundant mosques, halal food and a rich South-Asian ecosystem — though rising Islamophobia and Quebec's Bill 21 temper the sentiment picture.",
+      "factors": {
+        "bangladeshi-diaspora": { "status": "scored", "score": 75 },
+        "religious-practice-infrastructure": { "status": "scored", "score": 82 },
+        "sentiment-safety": { "status": "scored", "score": 52 },
+        "legal-religious-accommodation": { "status": "scored", "score": 62 },
+        "south-asian-cultural-ecosystem": { "status": "scored", "score": 82 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "~75,400 Bangladeshis (2021 Census), the largest concentration in Toronto/GTA (Thorncliffe Park, Danforth, Mississauga), within a ~1.8m / 4.9% Muslim population — the second-largest religion in Canada." },
+        { "text": "Mosques and halal food are abundant across the GTA, set in a rich South-Asian ecosystem (Gerrard India Bazaar, Brampton) and federal multiculturalism/Charter religious-freedom protections." }
+      ],
+      "cons": [
+        { "text": "Anti-Muslim and anti-South-Asian incidents have risen (Statistics Canada hate-crime data), and Quebec's Bill 21 restricts religious attire in parts of the public sector — a localised but real accommodation gap." }
+      ],
+      "links": [
+        { "title": "Statistics Canada — Religion (2021 Census of Population)", "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm" },
+        { "title": "Bangladeshi Canadians (community overview)", "url": "https://en.wikipedia.org/wiki/Bangladeshi_Canadians" }
+      ],
+      "lastReviewed": "2026-06-19"
     }
   }
 }

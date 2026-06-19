@@ -5,144 +5,345 @@
   "iso3": "FRA",
   "flag": "🇫🇷",
   "region": "Europe",
-  "summary": "",
-  "lastReviewed": "2026-06-18",
+  "summary": "A top-3 European AI hub (Mistral AI, Meta FAIR Paris, Station F, Datadog) with dual citizenship retained both ways, a full Campus France/embassy pipeline in Dhaka, universal PUMA healthcare, a strong passport and Europe's largest Muslim community with abundant mosques and halal — but tempered for a visibly Muslim couple by France's laïcité regime (headscarf bans in schools/sport, the 2023 abaya ban, 700+ mosque closures), a powerful Rassemblement National (largest single party) amid a hung-parliament instability, a 58% marginal tax wedge, GPI-2025 unease (74th), and a B2-French citizenship bar raised in 2026. Derived overall sits just below the 60% inclusion line.",
+  "lastReviewed": "2026-06-19",
   "links": [
-    {
-      "title": "France-Visas – International talents",
-      "url": "https://france-visas.gouv.fr/en/talents-internationaux-et-attractivite-economique"
-    },
-    {
-      "title": "Campus France – Tuition fees in France",
-      "url": "https://www.campusfrance.org/en/tuition-fees-France"
-    }
+    { "title": "France-Visas — official visa portal (Bangladesh)", "url": "https://france-visas.gouv.fr/en/bangladesh" },
+    { "title": "Campus France — official (study in France)", "url": "https://www.campusfrance.org/en" }
   ],
   "categories": {
     "job-market": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Paris is a top-tier European AI hub (Mistral AI, Meta FAIR, Hugging Face roots, Station F, Datadog) within a large multi-city tech market, though French-HQ pay is moderate and French often helps.",
+      "factors": {
+        "sw-demand-depth": { "status": "scored", "score": 70 },
+        "ai-ml-specialisation": { "status": "scored", "score": 80 },
+        "salary-levels": { "status": "scored", "score": 66 },
+        "sponsorship-work-authorisation": { "status": "scored", "score": 70 },
+        "foreign-grad-bd-hireability": { "status": "scored", "score": 60 },
+        "dual-earner-depth": { "status": "scored", "score": 70 },
+        "other": { "status": "scored", "score": 55 }
+      },
+      "pros": [
+        { "text": "Paris is one of Europe's leading AI hubs — Mistral AI, Meta FAIR Paris, Station F, Datadog (~800 Paris engineers) — with deep demand in Python/MLOps/LLM." },
+        { "text": "Large multi-city market (Paris, Lyon, Toulouse, Grenoble); the Passeport Talent route favours qualified tech/AI hires, and US-HQ offices pay €120k–180k senior." }
+      ],
+      "cons": [
+        { "text": "French-HQ salaries are moderate (Paris SWE ~€52k, senior ~€75k–95k) versus US-HQ outliers." },
+        { "text": "French is commonly expected outside big-tech/startup roles, narrowing the market for a new arrival." }
+      ],
+      "links": [
+        { "title": "Jobicy — AI Engineer salary, France (2026)", "url": "https://jobicy.com/salaries/fr/ai-engineer" },
+        { "title": "Euro Top Tech — Software Engineer salary France (2026)", "url": "https://www.eurotoptech.com/blog/software-engineer-salary-france-2026" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "visa-access": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A clear strength versus other EU options: France runs a full Campus France pipeline plus an embassy and VFS in Dhaka, so Bangladeshi students apply and give biometrics in-country, with modest funds requirements.",
+      "factors": {
+        "approval-refusal-rate": { "status": "scored", "score": 55 },
+        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 72 },
+        "in-queue-processing-schemes": { "status": "scored", "score": 55 },
+        "financial-bars": { "status": "scored", "score": 60 },
+        "credibility-genuineness-scrutiny": { "status": "scored", "score": 50 },
+        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 50 },
+        "other": { "status": "scored", "score": 55 }
+      },
+      "pros": [
+        { "text": "France has a full embassy, an established Campus France office and a VFS centre in Dhaka — Bangladeshi students apply and give biometrics in-country (no travel to New Delhi), with processing ~30–60 days." },
+        { "text": "Funds proof is modest (~€615/month) and French is not required for the visa for English-taught programmes." }
+      ],
+      "cons": [
+        { "text": "The Campus France 'Études en France' process adds a mandatory academic interview plus embassy and visa-section interviews." },
+        { "text": "The broader French migration climate is tightening, raising discretion." }
+      ],
+      "links": [
+        { "title": "France-Visas — Bangladesh (official)", "url": "https://france-visas.gouv.fr/en/bangladesh" },
+        { "title": "Campus France — Études en France procedure (official)", "url": "https://www.campusfrance.org/en/how-to-apply-for-a-visa" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "citizenship": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Dual citizenship is retained both ways and the passport is elite (Henley 4th), with a 5-year path — but from 2026 naturalisation requires B2 French and a civics exam, and processing runs 18–24 months.",
+      "factors": {
+        "time-to-citizenship": { "status": "scored", "score": 62 },
+        "naturalisation-requirements": { "status": "scored", "score": 48 },
+        "dual-citizenship-retention": { "status": "scored", "score": 88 },
+        "citizenship-attainability": { "status": "scored", "score": 58 },
+        "policy-stability": { "status": "scored", "score": 42 },
+        "passport-strength": { "status": "scored", "score": 90 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "France recognises dual nationality with no renunciation, and France is on Bangladesh's DNC list, so a naturalising Bangladeshi keeps BD nationality." },
+        { "text": "Naturalisation is possible after 5 years' habitual residence; the French passport ranks joint 4th on Henley 2026 (~185)." }
+      ],
+      "cons": [
+        { "text": "From 1 January 2026 candidates must demonstrate B2 French (up from B1) plus pass a new civics/integration exam and show stable French-source income." },
+        { "text": "Processing typically runs 18–24 months with préfecture discretion." }
+      ],
+      "links": [
+        { "title": "Fragomen — France: civics and language tests now required (2026)", "url": "https://www.fragomen.com/insights/france-civics-and-language-tests-now-required-for-some-multi-year-residence-permits-residence-cards-and-french-citizenship.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "post-study-work": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Master's graduates get a 12-month APS with full work rights for any employer, converting to a Salarié or Passeport Talent permit — a short but open runway, available to each graduating spouse.",
+      "factors": {
+        "psw-duration-runway": { "status": "scored", "score": 50 },
+        "eligibility-openness-bd": { "status": "scored", "score": 68 },
+        "transition-to-skilled-work": { "status": "scored", "score": 68 },
+        "work-freedom-during-psw": { "status": "scored", "score": 80 },
+        "dual-graduate-spouse-psw": { "status": "scored", "score": 75 },
+        "psw-policy-stability": { "status": "scored", "score": 50 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "A master's from a French institution grants a 12-month APS with full-time work rights for any employer (no separate work permit), and each graduating spouse can hold their own." },
+        { "text": "The APS converts to a Salarié permit or the favourable Passeport Talent for higher-skilled tech/AI roles." }
+      ],
+      "cons": [
+        { "text": "The APS is only 12 months (shorter than Canada/Denmark), and 2026 rules require A2 French to convert and bar using the APS to remote-work for a non-French company." }
+      ],
+      "links": [
+        { "title": "IAS — France post-study work APS guide", "url": "https://iasservices.org.uk/france-immigration-lawyers/france-post-study-work-visa-aps-graduate-work-permit-after-studying-in-france/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "spouse-family": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "The Passeport Talent route gives family members work rights and children free schooling, and if both spouses study each holds an independent track.",
+      "factors": {
+        "spouse-work-rights": { "status": "scored", "score": 62 },
+        "dependent-visa-bd-access": { "status": "scored", "score": 60 },
+        "family-reunification-children": { "status": "scored", "score": 70 },
+        "spouse-path-to-independence": { "status": "scored", "score": 68 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "The Passeport Talent 'famille' permit gives the accompanying spouse work rights, and children attend public school free of charge." },
+        { "text": "If both spouses study, each holds their own permit and APS route." }
+      ],
+      "cons": [
+        { "text": "Family reunification for a student principal carries means conditions, and the dependent spouse's work access during the study phase is more limited than on the Talent route." }
+      ],
+      "links": [
+        { "title": "France-Visas — official portal", "url": "https://france-visas.gouv.fr/en/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "msc-study": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Deep English-taught CS/AI options (PSL, Polytechnique, Paris-Saclay, Sorbonne) at historically low public tuition, with 60% of priority grants reserved for AI — though non-EU fees rise from September 2026.",
+      "factors": {
+        "affordability-funding": { "status": "scored", "score": 62 },
+        "english-program-depth": { "status": "scored", "score": 78 },
+        "admission-credential-access": { "status": "scored", "score": 68 },
+        "student-work-rights": { "status": "scored", "score": 65 },
+        "study-pathway-fit": { "status": "scored", "score": 72 },
+        "other": { "status": "scored", "score": 58 }
+      },
+      "pros": [
+        { "text": "52 English-taught AI master's nationwide at top institutions (PSL, Polytechnique, Paris-Saclay, Sorbonne); public-university tuition has been low and 60% of priority grants are reserved for AI." },
+        { "text": "A Bangladeshi BSc-CSE is admissible via Campus France; students may work ~964 hrs/yr (~20 hrs/week), and a master qualifies for the APS." }
+      ],
+      "cons": [
+        { "text": "France is directing universities to charge higher non-EU tuition from September 2026, and elite grandes écoles are expensive." }
+      ],
+      "links": [
+        { "title": "Mastersportal — AI master's in France (2026)", "url": "https://www.mastersportal.com/study-options/268599626/artificial-intelligence-france.html" },
+        { "title": "ICEF Monitor — France to raise non-EU tuition from Sept 2026", "url": "https://monitor.icef.com/2026/04/france-directs-universities-to-charge-higher-tuition-fees-to-non-eu-students-starting-september-2026/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "pr-pathway": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Permanent residence (carte de résident) is reachable after 5 years, with the Passeport Talent easing the route, but 2026 added civic/language tests and préfecture friction is real.",
+      "factors": {
+        "years-to-pr": { "status": "scored", "score": 60 },
+        "route-clarity-accessibility": { "status": "scored", "score": 55 },
+        "eligibility-bars": { "status": "scored", "score": 55 },
+        "language-integration-requirement": { "status": "scored", "score": 48 },
+        "continuity-retention": { "status": "scored", "score": 52 },
+        "policy-predictability": { "status": "scored", "score": 45 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "A carte de résident (10-year) is reachable after 5 years, and the Passeport Talent provides a clearer multi-year track for skilled workers." }
+      ],
+      "cons": [
+        { "text": "2026 introduced civic and language tests for multi-year permits and resident cards, and préfecture processing is slow and discretionary." }
+      ],
+      "links": [
+        { "title": "Fragomen — France civics/language tests for residence cards (2026)", "url": "https://www.fragomen.com/insights/france-civics-and-language-tests-now-required-for-some-multi-year-residence-permits-residence-cards-and-french-citizenship.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "income-cost": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Decent Paris tech salaries are eaten by a heavy tax/social wedge and Paris housing, leaving a moderate surplus; provincial cities are cheaper.",
+      "factors": {
+        "household-net-surplus": { "status": "scored", "score": 56 },
+        "housing-cost-availability": { "status": "scored", "score": 52 },
+        "savings-remittance": { "status": "scored", "score": 56 },
+        "student-phase-affordability": { "status": "scored", "score": 54 },
+        "upfront-relocation-cash": { "status": "scored", "score": 52 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Low public tuition and CAF housing aid help the study phase, and provincial tech cities (Lyon, Toulouse, Grenoble) are markedly cheaper than Paris." }
+      ],
+      "cons": [
+        { "text": "A heavy tax/social wedge (58% marginal) and expensive Paris housing compress the dual-earner surplus." }
+      ],
+      "links": [
+        { "title": "OECD — Taxing Wages 2025: France country note (PDF)", "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/04/taxing-wages-2025-country-notes_16d47563/france_8b72cdaa/9cbae9b4-en.pdf" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "healthcare": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Universal PUMA coverage after a short qualifying period (students enrol in social security), high quality, with strong family benefits — a clear strength.",
+      "factors": {
+        "newcomer-eligibility-barrier": { "status": "scored", "score": 70 },
+        "health-quality-access": { "status": "scored", "score": 75 },
+        "cost-coverage-by-status": { "status": "scored", "score": 70 },
+        "social-insurance-safety-net": { "status": "scored", "score": 72 },
+        "family-childcare-benefits": { "status": "scored", "score": 72 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "Protection Universelle Maladie (PUMA) gives residents universal coverage after ~3 months; international students enrol in the French social-security health scheme (free)." },
+        { "text": "High-quality care plus strong family benefits (subsidised crèches, allocations familiales)." }
+      ],
+      "cons": [
+        { "text": "A mutuelle top-up is usual for full reimbursement, and there is a short qualifying period before PUMA applies." }
+      ],
+      "links": [
+        { "title": "Campus France — health insurance for students (official)", "url": "https://www.campusfrance.org/en/social-security-students" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "culture-language": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "French is essential for daily life and status (B2 for citizenship from 2026), and while big-tech works in English, the laïcité climate makes acceptance of visible Muslim practice difficult.",
+      "factors": {
+        "english-usability": { "status": "scored", "score": 48 },
+        "language-burden-citizenship": { "status": "scored", "score": 42 },
+        "integration-support": { "status": "scored", "score": 55 },
+        "social-acceptance-south-asian": { "status": "scored", "score": 48 },
+        "worklife-livability": { "status": "scored", "score": 72 },
+        "cultural-distance-adaptation": { "status": "scored", "score": 52 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Excellent work-life balance (35-hour week, long holidays) and a rich culture; big-tech/startup workplaces operate in English, and a large South-Asian/Maghrebi diaspora eases landing." }
+      ],
+      "cons": [
+        { "text": "French is essential for daily life and status (B2 for citizenship from 2026), with a mandatory integration contract (CIR)." },
+        { "text": "The laïcité framework restricts visible Muslim practice, complicating social acceptance for a hijab-wearing newcomer." }
+      ],
+      "links": [
+        { "title": "Campus France — official", "url": "https://www.campusfrance.org/en" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "safety-law": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Mid-tier rule of law (WJP 2025: 22nd), but France ranks low for peace in Western Europe (GPI 2025: 74th) given militarisation, civil unrest and urban crime, with laïcité carve-outs in anti-discrimination.",
+      "factors": {
+        "personal-crime-safety": { "status": "scored", "score": 52 },
+        "lived-discrimination-hatecrime": { "status": "scored", "score": 48 },
+        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 68 },
+        "women-safety-gbv": { "status": "scored", "score": 60 },
+        "immigration-enforcement-due-process": { "status": "scored", "score": 58 },
+        "antidiscrimination-law-enforcement": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "WJP Rule of Law Index 2025: 22nd of 143 — solid institutions and civil justice, with an active anti-discrimination ombudsman (Défenseur des droits)." }
+      ],
+      "cons": [
+        { "text": "Global Peace Index 2025: 74th — the lowest-ranked Western European state (driven by militarisation, external conflicts, civil unrest and urban crime)." },
+        { "text": "Anti-discrimination protection is undercut by laïcité carve-outs targeting religious dress, and banlieue marginalisation persists." }
+      ],
+      "links": [
+        { "title": "World Justice Project — France ranks 22nd (2025 profile)", "url": "https://worldjusticeproject.org/sites/default/files/documents/France_3.pdf" },
+        { "title": "Global Peace Index 2025 (PDF)", "url": "https://www.visionofhumanity.org/wp-content/uploads/2025/06/Global-Peace-Index-2025-web.pdf" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "politics": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A hung-parliament instability with the far-right Rassemblement National as the largest single party, and laïcité weaponised across the mainstream against visible Islam — a hostile climate for a Muslim newcomer.",
+      "factors": {
+        "immigration-policy-volatility": { "status": "scored", "score": 40 },
+        "non-eu-skilled-policy-direction": { "status": "scored", "score": 52 },
+        "anti-immigration-electoral-power": { "status": "scored", "score": 25 },
+        "societal-sentiment-trend": { "status": "scored", "score": 35 },
+        "institutional-governance-stability": { "status": "scored", "score": 50 },
+        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 25 },
+        "other": { "status": "scored", "score": 42 }
+      },
+      "pros": [
+        { "text": "Skilled migration channels (Passeport Talent) remain open and AI is a stated national priority." }
+      ],
+      "cons": [
+        { "text": "The Rassemblement National is the largest single party (142 seats, 2024) amid a hung parliament and rapid PM turnover, with immigration law in flux." },
+        { "text": "Laïcité is weaponised across the political mainstream against visible Islam — school hijab/abaya bans, proposals to ban the hijab for under-15s and in sport, and 700+ mosque closures." }
+      ],
+      "links": [
+        { "title": "2024 French legislative election (overview)", "url": "https://en.wikipedia.org/wiki/2024_French_legislative_election" },
+        { "title": "France 24 — politicians accused of weaponising laïcité against Muslims", "url": "https://www.france24.com/en/france/20251209-weaponising-secularism-french-politicians-accused-of-using-laïcité-to-target-muslims" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "tax": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A very heavy tax/social wedge (58% marginal, 3rd-highest OECD); the impatriate regime is generous but largely unavailable to graduates who became resident while studying, with a France–Bangladesh treaty in the broad French network.",
+      "factors": {
+        "effective-deduction-wedge": { "status": "scored", "score": 35 },
+        "expat-foreign-worker-relief": { "status": "scored", "score": 45 },
+        "household-dual-earner-treatment": { "status": "scored", "score": 65 },
+        "student-phase-tax-exposure": { "status": "scored", "score": 62 },
+        "bd-treaty-repatriation": { "status": "scored", "score": 62 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "The family-quotient (quotient familial) system can favour couples/families, and France's broad treaty network includes a France–Bangladesh double-taxation convention." }
+      ],
+      "cons": [
+        { "text": "The marginal tax/social wedge is 58.2% (3rd-highest OECD), and the generous impatriate regime generally requires recruitment from abroad — largely unavailable to a graduate who became resident while studying in France." }
+      ],
+      "links": [
+        { "title": "OECD — Taxing Wages 2026: France country note", "url": "https://www.oecd.org/en/publications/taxing-wages-2026_3a5169ef-en/full-report/france_ad2bf5c9.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "muslim-diaspora": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Europe's largest Muslim community with abundant mosques/halal and a real Bangladeshi quarter in Paris (La Chapelle) — but the worst legal climate in Europe for visible practice (school/sport hijab and abaya bans, mosque closures).",
+      "factors": {
+        "bangladeshi-diaspora": { "status": "scored", "score": 60 },
+        "religious-practice-infrastructure": { "status": "scored", "score": 82 },
+        "sentiment-safety": { "status": "scored", "score": 35 },
+        "legal-religious-accommodation": { "status": "scored", "score": 28 },
+        "south-asian-cultural-ecosystem": { "status": "scored", "score": 70 },
+        "other": { "status": "scored", "score": 38 }
+      },
+      "pros": [
+        { "text": "France has Europe's largest Muslim population (~6m, ~8–10%) with abundant mosques and halal everywhere, and a real Bangladeshi quarter in Paris (La Chapelle / 'Little Bangladesh') with a rich South-Asian ecosystem." }
+      ],
+      "cons": [
+        { "text": "The laïcité regime is the most restrictive in Europe for visible Muslim practice — hijab banned in schools/public sector and sport, the 2023 abaya ban, the niqab/burqa ban, halal-meal and slaughter targeting, and 700+ mosque closures since 2020." }
+      ],
+      "links": [
+        { "title": "Bridge Initiative — Timeline of France's targeting of Muslim women's dress", "url": "https://bridge.georgetown.edu/research/timeline-frances-targeting-of-muslim-womens-dress/" }
+      ],
+      "lastReviewed": "2026-06-19"
     }
   }
 }

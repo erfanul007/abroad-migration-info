@@ -5,144 +5,339 @@
   "iso3": "EST",
   "flag": "🇪🇪",
   "region": "Europe",
-  "summary": "",
-  "lastReviewed": "2026-06-18",
+  "summary": "A highly digital, low-tax, safe little tech state (Bolt, Wise, Skype heritage) with cheap study, a practical 9-month graduate job-search permit and a strong passport — but a poor fit for this couple's end-goal: Estonia does NOT permit dual citizenship for naturalised citizens, so a naturalising Bangladeshi must renounce BD nationality (blocker), citizenship takes 8 years with a B1 Estonian (Finno-Ugric) exam, and the Muslim/Bangladeshi community is negligible (~0.7%, no purpose-built mosque). Derived overall sits below the 60% inclusion line.",
+  "lastReviewed": "2026-06-19",
   "links": [
-    {
-      "title": "Study in Estonia (official portal)",
-      "url": "https://www.studyinestonia.ee/"
-    },
-    {
-      "title": "Estonian Police and Border Guard Board - migration (politsei.ee)",
-      "url": "https://www.politsei.ee/en/migration"
-    }
+    { "title": "Study in Estonia — official national portal", "url": "https://www.studyinestonia.ee/" },
+    { "title": "Police and Border Guard Board — Estonian citizenship (official)", "url": "https://www.politsei.ee/en/instructions/applying-for-estonian-citizenship" }
   ],
   "categories": {
     "job-market": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A vibrant, English-friendly startup scene for its size (Bolt, Wise) with decent salaries against low costs, but the market is essentially Tallinn-only and small.",
+      "factors": {
+        "sw-demand-depth": { "status": "scored", "score": 64 },
+        "ai-ml-specialisation": { "status": "scored", "score": 52 },
+        "salary-levels": { "status": "scored", "score": 60 },
+        "sponsorship-work-authorisation": { "status": "scored", "score": 66 },
+        "foreign-grad-bd-hireability": { "status": "scored", "score": 62 },
+        "dual-earner-depth": { "status": "scored", "score": 48 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "Punches above its weight in tech (Bolt, Wise, Skype heritage); software-engineer pay in Tallinn runs ~€48k–77k and AI roles ~€40k–72k, strong against low living costs." },
+        { "text": "Highly digital and English-friendly workplaces, and recent graduates are exempt from the standard foreign-worker salary threshold." }
+      ],
+      "cons": [
+        { "text": "The market is essentially Tallinn-only and small, limiting depth for two simultaneous tech earners." },
+        { "text": "Estonian helps for many non-startup roles and public-facing work." }
+      ],
+      "links": [
+        { "title": "Levels.fyi — Software Engineer salary, Tallinn", "url": "https://www.levels.fyi/t/software-engineer/locations/tallinn-est" },
+        { "title": "SalaryExpert — Software Engineer salary, Tallinn (2026)", "url": "https://www.salaryexpert.com/salary/job/software-engineer/estonia/tallinn" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "visa-access": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A modern, digital application process with modest funds bars, but Estonia has no mission in Bangladesh, so applications route via a third country, and there is no student fast-track.",
+      "factors": {
+        "approval-refusal-rate": { "status": "scored", "score": 52 },
+        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 45 },
+        "in-queue-processing-schemes": { "status": "scored", "score": 50 },
+        "financial-bars": { "status": "scored", "score": 58 },
+        "credibility-genuineness-scrutiny": { "status": "scored", "score": 55 },
+        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 52 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "Estonia's e-state makes the study residence-permit process unusually streamlined, with modest proof-of-funds requirements." },
+        { "text": "No Bangladesh-specific visa ban or heightened scrutiny." }
+      ],
+      "cons": [
+        { "text": "Estonia has no embassy in Bangladesh, so the long-stay visa/residence permit must be lodged/decided via a third-country mission (e.g. New Delhi), adding friction." },
+        { "text": "There is no student fast-track scheme." }
+      ],
+      "links": [
+        { "title": "Study in Estonia — visa & residence permit (official portal)", "url": "https://www.studyinestonia.ee/study/visas-residence-permits" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "citizenship": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "The decisive failure for this profile: Estonia does not allow dual citizenship for naturalised citizens, so a naturalising Bangladeshi must renounce BD nationality, and the path needs 8 years plus a B1 Estonian exam.",
+      "factors": {
+        "time-to-citizenship": { "status": "scored", "score": 32 },
+        "naturalisation-requirements": { "status": "scored", "score": 42 },
+        "dual-citizenship-retention": { "status": "scored", "score": 12 },
+        "citizenship-attainability": { "status": "scored", "score": 30 },
+        "policy-stability": { "status": "scored", "score": 55 },
+        "passport-strength": { "status": "scored", "score": 86 },
+        "other": { "status": "scored", "score": 30 }
+      },
+      "pros": [
+        { "text": "The Estonian passport is strong (Henley 2026: ~183 visa-free destinations, top-tier EU mobility)." }
+      ],
+      "cons": [
+        { "text": "Estonia does not permit dual citizenship for naturalised citizens — a naturalising Bangladeshi must renounce BD nationality, failing the couple's core retain-BD goal.", "severity": "blocker" },
+        { "text": "Naturalisation requires 8 years' residence (5 on a permanent permit), a B1 Estonian-language exam (a hard Finno-Ugric language), a Constitution/Citizenship-Act exam and an oath." }
+      ],
+      "links": [
+        { "title": "Police and Border Guard Board — applying for Estonian citizenship (official)", "url": "https://www.politsei.ee/en/instructions/applying-for-estonian-citizenship" },
+        { "title": "Estonian nationality law (overview)", "url": "https://en.wikipedia.org/wiki/Estonian_nationality_law" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "post-study-work": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Graduates get a 9-month (270-day) job-search extension with no employer needed, and recent graduates are exempt from the foreign-worker salary threshold — a short but practical runway.",
+      "factors": {
+        "psw-duration-runway": { "status": "scored", "score": 45 },
+        "eligibility-openness-bd": { "status": "scored", "score": 65 },
+        "transition-to-skilled-work": { "status": "scored", "score": 70 },
+        "work-freedom-during-psw": { "status": "scored", "score": 62 },
+        "dual-graduate-spouse-psw": { "status": "scored", "score": 70 },
+        "psw-policy-stability": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "On graduation the study permit can be extended 270 days (~9 months) to find work, with no employer required and the right to live and work during the search." },
+        { "text": "Recent graduates are exempt from the standard salary threshold and the Unemployment Insurance Fund permission, easing the move to a work permit; each spouse qualifies." }
+      ],
+      "cons": [
+        { "text": "The 9-month window is short next to Canada's 3-year PGWP or Germany's 18 months." }
+      ],
+      "links": [
+        { "title": "Study in Estonia — staying after studies (official portal)", "url": "https://www.studyinestonia.ee/career/working-after-graduation" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "spouse-family": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Family migration and free schooling exist, and if both spouses study each holds an independent track, though student-phase dependent work is conditional.",
+      "factors": {
+        "spouse-work-rights": { "status": "scored", "score": 60 },
+        "dependent-visa-bd-access": { "status": "scored", "score": 58 },
+        "family-reunification-children": { "status": "scored", "score": 65 },
+        "spouse-path-to-independence": { "status": "scored", "score": 62 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Family members can join, children attend public school free, and if both spouses study each holds their own permit and 9-month job-search route." }
+      ],
+      "cons": [
+        { "text": "The dependent spouse's work access during the study phase is conditional, and family migration requires proving means." }
+      ],
+      "links": [
+        { "title": "Study in Estonia — bringing family (official portal)", "url": "https://www.studyinestonia.ee/study/visas-residence-permits" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "msc-study": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Affordable English-taught CS/AI at TalTech and Tartu (~€3k–6k/yr) with generous student work rights, though Tartu is ending non-EU tuition waivers from 2026/27.",
+      "factors": {
+        "affordability-funding": { "status": "scored", "score": 62 },
+        "english-program-depth": { "status": "scored", "score": 62 },
+        "admission-credential-access": { "status": "scored", "score": 70 },
+        "student-work-rights": { "status": "scored", "score": 70 },
+        "study-pathway-fit": { "status": "scored", "score": 70 },
+        "other": { "status": "scored", "score": 55 }
+      },
+      "pros": [
+        { "text": "TalTech and the University of Tartu offer English-taught CS/AI master's at low non-EU tuition (~€3,000–6,000/yr), and students may work freely provided it doesn't hinder studies." },
+        { "text": "A Bangladeshi BSc-CSE is admissible, and a master's qualifies for the 9-month job-search permit." }
+      ],
+      "cons": [
+        { "text": "The English-taught catalogue is small, and the University of Tartu is ending non-EU tuition waivers from 2026/27." }
+      ],
+      "links": [
+        { "title": "TalTech — Tuition fee rates (official)", "url": "https://taltech.ee/en/tuition-fee-rates" },
+        { "title": "University of Tartu — Cost of tuition (official)", "url": "https://ut.ee/en/content/cost-tuition" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "pr-pathway": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Long-term residence is reachable after 5 years, a clear route, but it carries a B1 Estonian-language requirement.",
+      "factors": {
+        "years-to-pr": { "status": "scored", "score": 62 },
+        "route-clarity-accessibility": { "status": "scored", "score": 60 },
+        "eligibility-bars": { "status": "scored", "score": 58 },
+        "language-integration-requirement": { "status": "scored", "score": 48 },
+        "continuity-retention": { "status": "scored", "score": 58 },
+        "policy-predictability": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Long-term (permanent) residence is reachable after 5 years of continuous residence, with study and work time building the route." }
+      ],
+      "cons": [
+        { "text": "Permanent residence requires a B1 Estonian-language exam, a meaningful burden for English-first applicants." }
+      ],
+      "links": [
+        { "title": "Police and Border Guard Board — long-term residence (official)", "url": "https://www.politsei.ee/en/long-term-resident" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "income-cost": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A low ~20–22% flat tax and cheap living make decent Tallinn salaries go far, with affordable housing relative to Western Europe.",
+      "factors": {
+        "household-net-surplus": { "status": "scored", "score": 62 },
+        "housing-cost-availability": { "status": "scored", "score": 65 },
+        "savings-remittance": { "status": "scored", "score": 60 },
+        "student-phase-affordability": { "status": "scored", "score": 62 },
+        "upfront-relocation-cash": { "status": "scored", "score": 60 },
+        "other": { "status": "scored", "score": 55 }
+      },
+      "pros": [
+        { "text": "A flat ~20–22% income tax plus low living costs let two tech salaries net a solid surplus, with Tallinn housing affordable by Western-European standards." }
+      ],
+      "cons": [
+        { "text": "Absolute salaries are lower than in the larger Western markets, so savings/remittance potential is good rather than exceptional." }
+      ],
+      "links": [
+        { "title": "Study in Estonia — cost of living (official portal)", "url": "https://www.studyinestonia.ee/study/cost-living" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "healthcare": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Good e-health-enabled public care once employed (Estonian Health Insurance Fund), but non-EU students rely on private insurance during study.",
+      "factors": {
+        "newcomer-eligibility-barrier": { "status": "scored", "score": 55 },
+        "health-quality-access": { "status": "scored", "score": 62 },
+        "cost-coverage-by-status": { "status": "scored", "score": 58 },
+        "social-insurance-safety-net": { "status": "scored", "score": 58 },
+        "family-childcare-benefits": { "status": "scored", "score": 58 },
+        "other": { "status": "scored", "score": 55 }
+      },
+      "pros": [
+        { "text": "Employment triggers public health insurance (Estonian Health Insurance Fund) with strong e-health infrastructure; family members can be co-insured." }
+      ],
+      "cons": [
+        { "text": "Non-EU students are not automatically in the public system and must hold private insurance during study; the welfare net is smaller than in the Nordics." }
+      ],
+      "links": [
+        { "title": "Study in Estonia — health insurance (official portal)", "url": "https://www.studyinestonia.ee/study/health-insurance" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "culture-language": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "English works well in Tallinn's digital/startup world and the young are highly proficient, but Estonian (a hard Finno-Ugric language) is needed for daily life and status, in a small, homogeneous society.",
+      "factors": {
+        "english-usability": { "status": "scored", "score": 55 },
+        "language-burden-citizenship": { "status": "scored", "score": 38 },
+        "integration-support": { "status": "scored", "score": 50 },
+        "social-acceptance-south-asian": { "status": "scored", "score": 45 },
+        "worklife-livability": { "status": "scored", "score": 65 },
+        "cultural-distance-adaptation": { "status": "scored", "score": 45 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "English works well in Tallinn's startup/digital sphere and among younger Estonians, and livability (nature, digital convenience) is good." }
+      ],
+      "cons": [
+        { "text": "Estonian — a difficult Finno-Ugric language — is required for daily life and for status (B1 for PR and citizenship)." },
+        { "text": "Estonia is small and ethnically homogeneous with little exposure to South-Asian Muslim newcomers." }
+      ],
+      "links": [
+        { "title": "Study in Estonia — living in Estonia (official portal)", "url": "https://www.studyinestonia.ee/live" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "safety-law": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Safe and with upper-tier EU rule of law, though the very small Muslim presence means little track record of accommodating visible minorities.",
+      "factors": {
+        "personal-crime-safety": { "status": "scored", "score": 72 },
+        "lived-discrimination-hatecrime": { "status": "scored", "score": 55 },
+        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 78 },
+        "women-safety-gbv": { "status": "scored", "score": 70 },
+        "immigration-enforcement-due-process": { "status": "scored", "score": 62 },
+        "antidiscrimination-law-enforcement": { "status": "scored", "score": 58 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Low crime, upper-tier EU rule of law and reliable, low-corruption institutions; women's safety is good." }
+      ],
+      "cons": [
+        { "text": "With a very small Muslim/South-Asian population, there is little institutional track record of accommodating visible minorities, and some xenophobia exists." }
+      ],
+      "links": [
+        { "title": "World Justice Project — Rule of Law Index 2025", "url": "https://worldjusticeproject.org/rule-of-law-index/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "politics": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Stable, liberal and digitally minded toward skilled migration, with the far-right EKRE present but out of government; immigration is a low-salience issue given small numbers.",
+      "factors": {
+        "immigration-policy-volatility": { "status": "scored", "score": 52 },
+        "non-eu-skilled-policy-direction": { "status": "scored", "score": 58 },
+        "anti-immigration-electoral-power": { "status": "scored", "score": 45 },
+        "societal-sentiment-trend": { "status": "scored", "score": 48 },
+        "institutional-governance-stability": { "status": "scored", "score": 75 },
+        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 50 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Institutions are stable and the e-Residency-minded state is relatively open to skilled and digital workers." }
+      ],
+      "cons": [
+        { "text": "The far-right EKRE is a significant opposition force, and an immigration quota limits non-EU economic-migration numbers." }
+      ],
+      "links": [
+        { "title": "Study in Estonia — official portal", "url": "https://www.studyinestonia.ee/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "tax": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A simple, low flat income tax (~20–22%) with a famously easy digital system, offset by no expat regime and no confirmed Bangladesh tax treaty.",
+      "factors": {
+        "effective-deduction-wedge": { "status": "scored", "score": 55 },
+        "expat-foreign-worker-relief": { "status": "scored", "score": 32 },
+        "household-dual-earner-treatment": { "status": "scored", "score": 62 },
+        "student-phase-tax-exposure": { "status": "scored", "score": 65 },
+        "bd-treaty-repatriation": { "status": "scored", "score": 40 },
+        "other": { "status": "scored", "score": 58 }
+      },
+      "pros": [
+        { "text": "A flat ~20–22% income tax with a world-leading digital filing system; tax is individual with no second-earner penalty." }
+      ],
+      "cons": [
+        { "text": "There is no special expat tax regime, and no Estonia–Bangladesh double-taxation treaty is confirmed (BD has DTAs with only ~36 countries)." }
+      ],
+      "links": [
+        { "title": "Study in Estonia — taxes & working (official portal)", "url": "https://www.studyinestonia.ee/career" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "muslim-diaspora": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Among the weakest dimensions: Estonia's Muslim community is tiny (~0.7%, mostly Tatar/Azeri), there is no purpose-built mosque, halal is limited, and there is essentially no Bangladeshi community.",
+      "factors": {
+        "bangladeshi-diaspora": { "status": "scored", "score": 25 },
+        "religious-practice-infrastructure": { "status": "scored", "score": 35 },
+        "sentiment-safety": { "status": "scored", "score": 45 },
+        "legal-religious-accommodation": { "status": "scored", "score": 42 },
+        "south-asian-cultural-ecosystem": { "status": "scored", "score": 30 },
+        "other": { "status": "scored", "score": 40 }
+      },
+      "pros": [
+        { "text": "The Estonian Islamic Centre in Tallinn provides a worship space, and Tallinn's small Muslim community is generally well-integrated and low-conflict." }
+      ],
+      "cons": [
+        { "text": "Muslims are only ~0.7% (~10,000, mostly Tatar/Azeri) with no purpose-built mosque and limited halal, and essentially no established Bangladeshi community or South-Asian ecosystem." }
+      ],
+      "links": [
+        { "title": "Islam in Estonia (overview)", "url": "https://en.wikipedia.org/wiki/Islam_in_Estonia" },
+        { "title": "Estonian Islamic Centre (overview)", "url": "https://en.wikipedia.org/wiki/Estonian_Islamic_Centre" }
+      ],
+      "lastReviewed": "2026-06-19"
     }
   }
 }

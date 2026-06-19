@@ -5,144 +5,344 @@
   "iso3": "IRL",
   "flag": "🇮🇪",
   "region": "Europe",
-  "summary": "",
-  "lastReviewed": "2026-06-18",
+  "summary": "An English-native EU tech-HQ hub (Google, Meta, Apple, Microsoft, LinkedIn) with dual citizenship retained both ways, naturalisation that requires NO language or civics test, a 24-month graduate work permit, a fast Critical-Skills route to long-term residence, the world's 2nd-most-peaceful ranking and a real Dublin Bangladeshi community — but weighed down by a severe, structural housing crisis, a two-tier health system with out-of-pocket GP fees, and the fact that student years don't count toward citizenship/residence. Derived overall is comfortably above the 60% inclusion line.",
+  "lastReviewed": "2026-06-19",
   "links": [
-    {
-      "title": "Immigration Service Delivery (irishimmigration.ie)",
-      "url": "https://www.irishimmigration.ie/"
-    },
-    {
-      "title": "Critical Skills Employment Permit - DETE",
-      "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/"
-    }
+    { "title": "Irish Immigration Service Delivery (ISD) — official", "url": "https://www.irishimmigration.ie/" },
+    { "title": "Citizens Information — Irish citizenship & naturalisation (official)", "url": "https://www.citizensinformation.ie/en/moving-country/irish-citizenship/" }
   ],
   "categories": {
     "job-market": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Dublin is the European HQ hub for Big Tech (Google, Meta, Apple, Microsoft, LinkedIn) with high English-native salaries and a Critical-Skills route, though 2024–25 tech layoffs hit and the market is Dublin-centric.",
+      "factors": {
+        "sw-demand-depth": { "status": "scored", "score": 72 },
+        "ai-ml-specialisation": { "status": "scored", "score": 70 },
+        "salary-levels": { "status": "scored", "score": 76 },
+        "sponsorship-work-authorisation": { "status": "scored", "score": 75 },
+        "foreign-grad-bd-hireability": { "status": "scored", "score": 72 },
+        "dual-earner-depth": { "status": "scored", "score": 65 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "Dublin hosts the EMEA headquarters of Google, Meta, Apple, Microsoft and LinkedIn; software engineers earn ~€65k–140k and AI engineers ~€55k–103k, in an English-native market." },
+        { "text": "ICT roles are on the Critical Skills Occupation List, and the Stamp 1G graduate permission lets graduates work with no employment permit." }
+      ],
+      "cons": [
+        { "text": "Big Tech ran significant 2024–25 layoffs in Dublin, softening entry-level hiring." },
+        { "text": "The market is heavily Dublin-centric (Cork/Galway secondary)." }
+      ],
+      "links": [
+        { "title": "Morgan McKinley — AI software engineer salary, Ireland (2026)", "url": "https://www.morganmckinley.com/ie/salary-guide/data/ai-software-engineer/ireland" },
+        { "title": "Levels.fyi — Software Engineer salary, Dublin", "url": "https://www.levels.fyi/t/software-engineer/locations/greater-dublin-area" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "visa-access": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Bangladeshi students apply online (AVATS) with modest funds and no Schengen-style biometrics centre, though Ireland has no decision-making mission in Dhaka (routed via New Delhi).",
+      "factors": {
+        "approval-refusal-rate": { "status": "scored", "score": 55 },
+        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 52 },
+        "in-queue-processing-schemes": { "status": "scored", "score": 55 },
+        "financial-bars": { "status": "scored", "score": 60 },
+        "credibility-genuineness-scrutiny": { "status": "scored", "score": 55 },
+        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 55 }
+      },
+      "pros": [
+        { "text": "Ireland (outside Schengen) uses an online AVATS application with modest proof of funds (~€7,000/yr) and a €60 fee; an English-taught degree needs only IELTS ~6." },
+        { "text": "No Bangladesh-specific visa ban; processing is reasonable for genuine students." }
+      ],
+      "cons": [
+        { "text": "Ireland has no decision-making mission in Bangladesh — applications are handled via the Embassy in New Delhi." }
+      ],
+      "links": [
+        { "title": "Irish Immigration Service — study visa (official)", "url": "https://www.irishimmigration.ie/coming-to-study-in-ireland/" },
+        { "title": "Education in Ireland — Bangladesh (official agency)", "url": "https://educationireland.net/bangladesh/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "citizenship": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A standout: dual citizenship retained both ways, NO language or civics test, and a top passport — though only reckonable (work) residence counts, so student years don't, pushing the realistic clock to ~7 years.",
+      "factors": {
+        "time-to-citizenship": { "status": "scored", "score": 55 },
+        "naturalisation-requirements": { "status": "scored", "score": 85 },
+        "dual-citizenship-retention": { "status": "scored", "score": 90 },
+        "citizenship-attainability": { "status": "scored", "score": 68 },
+        "policy-stability": { "status": "scored", "score": 65 },
+        "passport-strength": { "status": "scored", "score": 90 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "Ireland allows dual citizenship (no renunciation) and is on Bangladesh's DNC list, and naturalisation requires NO language test and NO civics exam — uniquely low friction for English-fluent applicants." },
+        { "text": "The Irish passport ranks joint 4th on Henley 2026 (~185 destinations)." }
+      ],
+      "cons": [
+        { "text": "Naturalisation needs 5 years of reckonable residence in the prior 9 (plus 12 months continuous) — but Stamp 2 student time is NOT reckonable, so the realistic clock from arrival is ~7 years." },
+        { "text": "Grants remain at ministerial discretion, and processing averages ~19 months." }
+      ],
+      "links": [
+        { "title": "Citizens Information — your right to Irish citizenship (official)", "url": "https://www.citizensinformation.ie/en/moving-country/irish-citizenship/your-right-to-irish-citizenship/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "post-study-work": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "The Third Level Graduate Programme (Stamp 1G) gives master's graduates 24 months (12+12) of full work rights with no employment permit, feeding the Critical Skills route, and each spouse qualifies.",
+      "factors": {
+        "psw-duration-runway": { "status": "scored", "score": 68 },
+        "eligibility-openness-bd": { "status": "scored", "score": 78 },
+        "transition-to-skilled-work": { "status": "scored", "score": 75 },
+        "work-freedom-during-psw": { "status": "scored", "score": 85 },
+        "dual-graduate-spouse-psw": { "status": "scored", "score": 80 },
+        "psw-policy-stability": { "status": "scored", "score": 60 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "Master's (Level 9/10) graduates get a 24-month Stamp 1G (12+12) with full-time work rights and no employment permit needed; each graduating spouse qualifies." },
+        { "text": "Stamp 1G converts smoothly to a Critical Skills Employment Permit for ICT roles, a deterministic, in-demand route." }
+      ],
+      "cons": [
+        { "text": "The second 12-month block requires proof of active job search, and private medical insurance must be maintained." }
+      ],
+      "links": [
+        { "title": "Irish Immigration Service — Third Level Graduate Programme (official)", "url": "https://www.irishimmigration.ie/my-situation-has-changed-since-i-arrived-in-ireland/third-level-graduate-programme/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "spouse-family": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Critical-Skills holders can bring family with work rights immediately, children attend school free, and if both spouses study each holds an independent Stamp 1G track.",
+      "factors": {
+        "spouse-work-rights": { "status": "scored", "score": 65 },
+        "dependent-visa-bd-access": { "status": "scored", "score": 65 },
+        "family-reunification-children": { "status": "scored", "score": 70 },
+        "spouse-path-to-independence": { "status": "scored", "score": 70 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Critical Skills Employment Permit holders can have family join immediately, with the spouse able to work; if both spouses study, each holds their own Stamp 1G." },
+        { "text": "Children attend public school free of charge." }
+      ],
+      "cons": [
+        { "text": "During the student phase the dependent spouse's work access is more limited than on the Critical-Skills route." }
+      ],
+      "links": [
+        { "title": "Irish Immigration Service — join family in Ireland (official)", "url": "https://www.irishimmigration.ie/coming-to-join-family-in-ireland/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "msc-study": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "English-native CS/AI master's at Trinity and UCD with a smooth 24-month PSW, but non-EU tuition is high (~€15k–30k) and Dublin living costs bite.",
+      "factors": {
+        "affordability-funding": { "status": "scored", "score": 50 },
+        "english-program-depth": { "status": "scored", "score": 80 },
+        "admission-credential-access": { "status": "scored", "score": 72 },
+        "student-work-rights": { "status": "scored", "score": 65 },
+        "study-pathway-fit": { "status": "scored", "score": 78 },
+        "other": { "status": "scored", "score": 58 }
+      },
+      "pros": [
+        { "text": "Trinity College Dublin and UCD offer respected English-native CS/AI master's; a one-year master qualifies for the 24-month Stamp 1G." },
+        { "text": "A Bangladeshi BSc-CSE is admissible (IELTS ~6), students may work 20 hrs/week, and Government of Ireland scholarships (~€10k + waiver) exist." }
+      ],
+      "cons": [
+        { "text": "Non-EU tuition is high (~€15,000–30,000/yr) and scholarships are limited and competitive." }
+      ],
+      "links": [
+        { "title": "Trinity College Dublin — fees (overview)", "url": "https://dukesplus.com/guides/trinity-college-dublin-fees/" },
+        { "title": "Education in Ireland — Government of Ireland scholarships (official)", "url": "https://educationireland.net/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "pr-pathway": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A fast route: Critical Skills holders can reach Stamp 4 (long-term residence) after ~2 years of work, with no language requirement — though student years don't count toward the clock.",
+      "factors": {
+        "years-to-pr": { "status": "scored", "score": 65 },
+        "route-clarity-accessibility": { "status": "scored", "score": 68 },
+        "eligibility-bars": { "status": "scored", "score": 65 },
+        "language-integration-requirement": { "status": "scored", "score": 85 },
+        "continuity-retention": { "status": "scored", "score": 60 },
+        "policy-predictability": { "status": "scored", "score": 60 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "Critical Skills Employment Permit holders can apply for Stamp 4 (long-term residence with full labour-market access) after ~2 years, with no language requirement." },
+        { "text": "ICT roles clear the Critical-Skills salary threshold easily." }
+      ],
+      "cons": [
+        { "text": "Student (Stamp 2) time is not reckonable, so the residence clock effectively starts only at the work stage." }
+      ],
+      "links": [
+        { "title": "Irish Immigration Service — long-term residence / Stamp 4 (official)", "url": "https://www.irishimmigration.ie/registering-your-immigration-permission/information-on-registering/immigration-permission-stamps/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "income-cost": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "High salaries are gutted by Ireland's severe, structural housing crisis (rents and prices at record highs, projected to last 15+ years) — the worst cost drag among the strong English-speaking options.",
+      "factors": {
+        "household-net-surplus": { "status": "scored", "score": 56 },
+        "housing-cost-availability": { "status": "scored", "score": 32 },
+        "savings-remittance": { "status": "scored", "score": 58 },
+        "student-phase-affordability": { "status": "scored", "score": 42 },
+        "upfront-relocation-cash": { "status": "scored", "score": 42 },
+        "other": { "status": "scored", "score": 40 }
+      },
+      "pros": [
+        { "text": "High Big-Tech salaries support a reasonable surplus and easy remittance once in skilled work." }
+      ],
+      "cons": [
+        { "text": "Ireland's housing crisis is severe and structural — prices up 21 consecutive months, record homelessness, supply far below the ~52,000 units/yr needed, and the Department of Finance projects it lasting another 15 years." },
+        { "text": "Dublin rents make the study phase and early career very expensive." }
+      ],
+      "links": [
+        { "title": "Irish Times — housing crisis to last another 15 years (Dept of Finance)", "url": "https://www.irishtimes.com/business/2025/11/04/irelands-housing-crisis-to-last-another-15-years-department-of-finance-predicts/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "healthcare": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A two-tier system with long public waits and out-of-pocket GP fees (no universal free GP); students need private insurance — weaker than the Nordic/continental universal models.",
+      "factors": {
+        "newcomer-eligibility-barrier": { "status": "scored", "score": 52 },
+        "health-quality-access": { "status": "scored", "score": 52 },
+        "cost-coverage-by-status": { "status": "scored", "score": 50 },
+        "social-insurance-safety-net": { "status": "scored", "score": 60 },
+        "family-childcare-benefits": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Residents access public hospital care, and the social safety net (PRSI-based benefits, Child Benefit) is reasonable." }
+      ],
+      "cons": [
+        { "text": "GP visits are not free (means-tested medical card only), public waiting lists are long, and students must hold private insurance — a two-tier system weaker than continental universal models." },
+        { "text": "Childcare is among the most expensive in the OECD despite the NCS subsidy." }
+      ],
+      "links": [
+        { "title": "Citizens Information — health services in Ireland (official)", "url": "https://www.citizensinformation.ie/en/health/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "culture-language": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "English-native with no language barrier for work, study or status, and an established South-Asian presence, though anti-migrant tension rose in 2023–24.",
+      "factors": {
+        "english-usability": { "status": "scored", "score": 92 },
+        "language-burden-citizenship": { "status": "scored", "score": 90 },
+        "integration-support": { "status": "scored", "score": 58 },
+        "social-acceptance-south-asian": { "status": "scored", "score": 55 },
+        "worklife-livability": { "status": "scored", "score": 68 },
+        "cultural-distance-adaptation": { "status": "scored", "score": 65 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "English is the native language — no language friction for work, PR or citizenship (and no naturalisation language test at all)." },
+        { "text": "An established and growing South-Asian/Bangladeshi community eases adaptation." }
+      ],
+      "cons": [
+        { "text": "Anti-migrant sentiment rose in 2023–24 (including the November 2023 Dublin riot), and integration support is modest." }
+      ],
+      "links": [
+        { "title": "Citizens Information — moving to Ireland (official)", "url": "https://www.citizensinformation.ie/en/moving-country/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "safety-law": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "The world's 2nd-most-peaceful country (GPI 2025) with top-tier rule of law (WJP 8th, 0.82), tempered by a 2023–24 uptick in anti-migrant incidents.",
+      "factors": {
+        "personal-crime-safety": { "status": "scored", "score": 85 },
+        "lived-discrimination-hatecrime": { "status": "scored", "score": 52 },
+        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 85 },
+        "women-safety-gbv": { "status": "scored", "score": 72 },
+        "immigration-enforcement-due-process": { "status": "scored", "score": 65 },
+        "antidiscrimination-law-enforcement": { "status": "scored", "score": 65 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "Global Peace Index 2025: 2nd of 163 (score 1.260); WJP Rule of Law Index 2025: 8th of 143 (0.82) — very safe, low corruption, strong civil justice." },
+        { "text": "The Irish Human Rights and Equality Commission (IHREC) enforces anti-discrimination law." }
+      ],
+      "cons": [
+        { "text": "Anti-migrant incidents and protests rose in 2023–24 (notably the November 2023 Dublin riot), denting the lived-safety picture for visible minorities." }
+      ],
+      "links": [
+        { "title": "World Justice Project — Ireland ranks 8th (2025 profile)", "url": "https://worldjusticeproject.org/sites/default/files/documents/Ireland_2.pdf" },
+        { "title": "Vision of Humanity — Global Peace Index 2025", "url": "https://www.visionofhumanity.org/maps/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "politics": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Stable centrist coalition (Fianna Fáil/Fine Gael) that welcomes skilled migration, though asylum tensions and anti-migrant protests have risen; no far-right in government.",
+      "factors": {
+        "immigration-policy-volatility": { "status": "scored", "score": 52 },
+        "non-eu-skilled-policy-direction": { "status": "scored", "score": 65 },
+        "anti-immigration-electoral-power": { "status": "scored", "score": 58 },
+        "societal-sentiment-trend": { "status": "scored", "score": 48 },
+        "institutional-governance-stability": { "status": "scored", "score": 75 },
+        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 58 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "A stable centrist coalition (FF/FG) actively courts skilled migration (Critical Skills, tech FDI), with no far-right party in government." }
+      ],
+      "cons": [
+        { "text": "Asylum-related tensions and anti-migrant protests have risen since 2023, cooling the public mood, though state targeting of Muslims/South Asians is low." }
+      ],
+      "links": [
+        { "title": "Citizens Information — employment permits & immigration (official)", "url": "https://www.citizensinformation.ie/en/moving-country/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "tax": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A 40% higher rate that kicks in early (~€44k) plus USC and PRSI; no broad expat regime, but a Ireland–Bangladesh tax treaty and married-couple band-splitting help.",
+      "factors": {
+        "effective-deduction-wedge": { "status": "scored", "score": 50 },
+        "expat-foreign-worker-relief": { "status": "scored", "score": 35 },
+        "household-dual-earner-treatment": { "status": "scored", "score": 60 },
+        "student-phase-tax-exposure": { "status": "scored", "score": 62 },
+        "bd-treaty-repatriation": { "status": "scored", "score": 60 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "Married couples can transfer part of the standard-rate band, and an Ireland–Bangladesh double-taxation treaty supports clean repatriation." }
+      ],
+      "cons": [
+        { "text": "The 40% higher rate starts at a low ~€44,000, and USC + PRSI add on; the SARP expat relief is narrow (assignees only)." }
+      ],
+      "links": [
+        { "title": "KPMG — Budget 2026 Ireland: tax rates and bands", "url": "https://kpmg.com/ie/en/insights/tax/budget-2026/tables.html" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "muslim-diaspora": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A growing ~1.6% Muslim population with Dublin mosques (the Clondalkin mosque serves largely Bangladeshis) and a Parnell Street halal/South-Asian hub, with no legal restrictions on practice.",
+      "factors": {
+        "bangladeshi-diaspora": { "status": "scored", "score": 58 },
+        "religious-practice-infrastructure": { "status": "scored", "score": 65 },
+        "sentiment-safety": { "status": "scored", "score": 50 },
+        "legal-religious-accommodation": { "status": "scored", "score": 68 },
+        "south-asian-cultural-ecosystem": { "status": "scored", "score": 60 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "A growing Muslim community (~80,000–90,000); Dublin has multiple mosques (Clonskeagh ICCI, and a Clondalkin mosque serving largely Bangladeshis) and a Parnell Street halal/South-Asian hub, with no legal restrictions on dress or practice." }
+      ],
+      "cons": [
+        { "text": "The specific Bangladeshi community is modest in size, and anti-migrant sentiment has risen recently." }
+      ],
+      "links": [
+        { "title": "HalalSpy — Halal food in Ireland (Dublin & beyond)", "url": "https://halalspy.com/halal-food-guide/europe/ireland/" }
+      ],
+      "lastReviewed": "2026-06-19"
     }
   }
 }

@@ -5,144 +5,334 @@
   "iso3": "GBR",
   "flag": "🇬🇧",
   "region": "Europe",
-  "summary": "",
-  "lastReviewed": "2026-06-18",
+  "summary": "English-native with the world's largest, deepest British-Bangladeshi community (~652,000, centred on London's Tower Hamlets/Banglatown), a top global AI hub, dual citizenship retained both ways (UK is explicitly on Bangladesh's DNC list), a ~6-year citizenship path at native-English ease, NHS access via the health surcharge and world-class universities — but weighed down by very high tuition (£32k–45k for an AI MSc) and London costs, the Graduate Route being cut to 18 months (2027), a Reform-UK-driven anti-immigration/anti-Islam turn, and a 2025 White Paper proposing to double the settlement (ILR) wait to 10 years. Derived overall is comfortably above the 60% inclusion line.",
+  "lastReviewed": "2026-06-19",
   "links": [
-    {
-      "title": "UK visas and immigration (GOV.UK)",
-      "url": "https://www.gov.uk/browse/visas-immigration"
-    },
-    {
-      "title": "Changes to UK visa and settlement rules after the 2025 white paper (House of Commons Library)",
-      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10267/"
-    }
+    { "title": "GOV.UK — visas and immigration (official)", "url": "https://www.gov.uk/browse/visas-immigration" },
+    { "title": "GOV.UK — citizenship & living in the UK (official)", "url": "https://www.gov.uk/browse/citizenship" }
   ],
   "categories": {
     "job-market": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "London is a top global AI/tech hub with strong, English-native demand and high salaries, though entry-level hiring has tightened.",
+      "factors": {
+        "sw-demand-depth": { "status": "scored", "score": 74 },
+        "ai-ml-specialisation": { "status": "scored", "score": 80 },
+        "salary-levels": { "status": "scored", "score": 76 },
+        "sponsorship-work-authorisation": { "status": "scored", "score": 72 },
+        "foreign-grad-bd-hireability": { "status": "scored", "score": 74 },
+        "dual-earner-depth": { "status": "scored", "score": 72 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "London is a top global AI hub (≈80% of UK AI-skills demand; ~200% YoY growth in AI roles), with software engineers earning ~£73k–142k and AI engineers ~£64k–112k, in an English-native market." },
+        { "text": "Deep multi-city market (London, Manchester, Cambridge, Edinburgh) and a clear Skilled Worker sponsorship route." }
+      ],
+      "cons": [
+        { "text": "Entry-level hiring has tightened (AI tooling plus rigorous selection), and the immigration-restriction climate cools sponsorship appetite." }
+      ],
+      "links": [
+        { "title": "Levels.fyi — Software Engineer salary, London", "url": "https://www.levels.fyi/t/software-engineer/locations/london-metro-area" },
+        { "title": "IT Brief — UK developer pay & AI demand (2025)", "url": "https://itbrief.co.uk/story/uk-developer-pay-hits-record-levels-as-ai-skills-drive-demand" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "visa-access": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A deep, well-trodden Bangladeshi student pipeline via the UK High Commission/VFS in Dhaka, though tuition, maintenance funds, the IHS and a TB test raise the cash bar.",
+      "factors": {
+        "approval-refusal-rate": { "status": "scored", "score": 62 },
+        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 70 },
+        "in-queue-processing-schemes": { "status": "scored", "score": 62 },
+        "financial-bars": { "status": "scored", "score": 50 },
+        "credibility-genuineness-scrutiny": { "status": "scored", "score": 58 },
+        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 52 },
+        "other": { "status": "scored", "score": 58 }
+      },
+      "pros": [
+        { "text": "A very well-established Bangladeshi student pipeline via the UK High Commission and VFS in Dhaka, with efficient (often ~3-week priority) processing and high approval for genuine students." }
+      ],
+      "cons": [
+        { "text": "The cash bar is high — full tuition plus maintenance funds, the IHS (£1,035/yr) and a UKVI-approved TB test — and the overall migration climate is tightening." }
+      ],
+      "links": [
+        { "title": "GOV.UK — Student visa (official)", "url": "https://www.gov.uk/student-visa" },
+        { "title": "AIMS — UK student visa guide for Bangladeshi students (2026)", "url": "https://aimseducation.co.uk/bd/blog/uk-student-visa" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "citizenship": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Dual citizenship retained both ways, a ~6-year path with native-English ease (only the Life in the UK test), and a strong passport — but a 2025 White Paper proposes doubling the ILR wait to 10 years.",
+      "factors": {
+        "time-to-citizenship": { "status": "scored", "score": 62 },
+        "naturalisation-requirements": { "status": "scored", "score": 80 },
+        "dual-citizenship-retention": { "status": "scored", "score": 90 },
+        "citizenship-attainability": { "status": "scored", "score": 62 },
+        "policy-stability": { "status": "scored", "score": 42 },
+        "passport-strength": { "status": "scored", "score": 88 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "The UK allows dual citizenship and is explicitly on Bangladesh's DNC list, so a naturalising Bangladeshi keeps BD nationality; for English natives the only real hurdle is the Life in the UK test." },
+        { "text": "Citizenship currently follows ~5 years to ILR plus 12 months; the British passport ranks ~6th on Henley 2026 (~186)." }
+      ],
+      "cons": [
+        { "text": "The May-2025 Immigration White Paper proposes raising the ILR qualifying period from 5 to 10 years ('earned settlement'), which would push citizenship to ~11 years — a major, unresolved policy risk." }
+      ],
+      "links": [
+        { "title": "House of Commons Library — changes after the 2025 immigration White Paper", "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10267/" },
+        { "title": "GOV.UK — apply for citizenship (naturalisation, official)", "url": "https://www.gov.uk/apply-citizenship-indefinite-leave-to-remain" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "post-study-work": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "The Graduate Route gives master's graduates 2 years of unrestricted work (cut to 18 months from 2027), converting to a Skilled Worker visa; each spouse qualifies.",
+      "factors": {
+        "psw-duration-runway": { "status": "scored", "score": 62 },
+        "eligibility-openness-bd": { "status": "scored", "score": 78 },
+        "transition-to-skilled-work": { "status": "scored", "score": 65 },
+        "work-freedom-during-psw": { "status": "scored", "score": 85 },
+        "dual-graduate-spouse-psw": { "status": "scored", "score": 80 },
+        "psw-policy-stability": { "status": "scored", "score": 45 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "The Graduate Route gives master's graduates 2 years (PhDs 3) of fully unrestricted work — any job, self-employment, business — with a switch to Skilled Worker; each graduating spouse qualifies." }
+      ],
+      "cons": [
+        { "text": "From January 2027 the Graduate Route is cut from 2 years to 18 months for bachelor's/master's graduates, and Skilled Worker salary thresholds have risen." }
+      ],
+      "links": [
+        { "title": "GOV.UK — Graduate visa (official)", "url": "https://www.gov.uk/graduate-visa" },
+        { "title": "House of Commons Library — Graduate Route reduction (2027)", "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10267/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "spouse-family": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Strong spouse work rights on the Graduate/Skilled Worker routes and free state schooling — but master's-student dependants have been barred since 2024, so the study phase needs both spouses on their own student visas.",
+      "factors": {
+        "spouse-work-rights": { "status": "scored", "score": 78 },
+        "dependent-visa-bd-access": { "status": "scored", "score": 58 },
+        "family-reunification-children": { "status": "scored", "score": 70 },
+        "spouse-path-to-independence": { "status": "scored", "score": 75 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "Dependants of Graduate and Skilled Worker visa holders get unrestricted work rights, children attend state school free, and if both spouses study each holds their own visa and Graduate Route." }
+      ],
+      "cons": [
+        { "text": "Since January 2024 taught-master's students cannot bring dependants (only PhD/research students can), so during the study phase the couple must each hold a student visa rather than one accompanying the other." }
+      ],
+      "links": [
+        { "title": "GOV.UK — your partner and children (dependants, official)", "url": "https://www.gov.uk/skilled-worker-visa/your-partner-and-children" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "msc-study": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "World-class English-native CS/AI (Imperial, UCL, Oxbridge, Edinburgh) in a fast 1-year format, but international tuition is very high (£32k–45k for an AI MSc).",
+      "factors": {
+        "affordability-funding": { "status": "scored", "score": 40 },
+        "english-program-depth": { "status": "scored", "score": 88 },
+        "admission-credential-access": { "status": "scored", "score": 70 },
+        "student-work-rights": { "status": "scored", "score": 65 },
+        "study-pathway-fit": { "status": "scored", "score": 78 },
+        "other": { "status": "scored", "score": 60 }
+      },
+      "pros": [
+        { "text": "World-class English-native CS/AI master's (Imperial, UCL, Oxford, Cambridge, Edinburgh) in an efficient 1-year format that qualifies for the Graduate Route; students may work 20 hrs/week in term." }
+      ],
+      "cons": [
+        { "text": "International tuition is very high (£32,000–45,000 for an AI MSc), on top of the IHS and London living costs." }
+      ],
+      "links": [
+        { "title": "Imperial College London — MSc Artificial Intelligence (official)", "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/artificial-intelligence/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "pr-pathway": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "ILR via the Skilled Worker route at 5 years with only B1 English (native) — but the White Paper's proposed 10-year ILR and raised salary thresholds add real risk.",
+      "factors": {
+        "years-to-pr": { "status": "scored", "score": 60 },
+        "route-clarity-accessibility": { "status": "scored", "score": 65 },
+        "eligibility-bars": { "status": "scored", "score": 62 },
+        "language-integration-requirement": { "status": "scored", "score": 80 },
+        "continuity-retention": { "status": "scored", "score": 58 },
+        "policy-predictability": { "status": "scored", "score": 42 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "ILR via Skilled Worker is currently reachable at 5 years with only B1 English (native) and the Life in the UK test, and ICT salaries clear the threshold." }
+      ],
+      "cons": [
+        { "text": "The 2025 White Paper proposes doubling the ILR wait to 10 years (earned settlement), and Skilled Worker salary thresholds (£38,700) and conditions have been raised — a significant predictability hit." }
+      ],
+      "links": [
+        { "title": "Faegre Drinker — 'Earned Settlement' reshaping UK settlement", "url": "https://www.faegredrinker.com/en/insights/publications/2025/11/earned-settlement-reshaping-the-uks-settlement-system" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "income-cost": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "High salaries are eroded by very high tuition, the IHS and London housing, leaving a modest surplus in the early phase.",
+      "factors": {
+        "household-net-surplus": { "status": "scored", "score": 60 },
+        "housing-cost-availability": { "status": "scored", "score": 42 },
+        "savings-remittance": { "status": "scored", "score": 62 },
+        "student-phase-affordability": { "status": "scored", "score": 40 },
+        "upfront-relocation-cash": { "status": "scored", "score": 40 },
+        "other": { "status": "scored", "score": 48 }
+      },
+      "pros": [
+        { "text": "High London tech salaries support a reasonable surplus and remittance once in Skilled Worker employment." }
+      ],
+      "cons": [
+        { "text": "The study phase is very expensive (£32k–45k tuition plus IHS and London rent), and London housing keeps upfront and ongoing costs high." }
+      ],
+      "links": [
+        { "title": "Eduvisors — UK visa & IHS costs for Bangladeshi students", "url": "https://eduvisors.com.bd/complete-guide-to-uk-visa-ihs-costs-for-bangladeshi-students/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "healthcare": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Full NHS access from arrival via the Immigration Health Surcharge (£1,035/yr), though NHS waiting times are long.",
+      "factors": {
+        "newcomer-eligibility-barrier": { "status": "scored", "score": 70 },
+        "health-quality-access": { "status": "scored", "score": 58 },
+        "cost-coverage-by-status": { "status": "scored", "score": 72 },
+        "social-insurance-safety-net": { "status": "scored", "score": 62 },
+        "family-childcare-benefits": { "status": "scored", "score": 55 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Paying the IHS (£1,035/yr) gives students and workers full NHS access on the same basis as residents from arrival, free at the point of use." }
+      ],
+      "cons": [
+        { "text": "NHS waiting times for GPs, specialists and elective care are long, and childcare is expensive." }
+      ],
+      "links": [
+        { "title": "GOV.UK — Immigration Health Surcharge (official)", "url": "https://www.gov.uk/healthcare-immigration-application" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "culture-language": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "English-native with no language barrier for work, study or status, and the deepest South-Asian/Bangladeshi cultural fabric in the West — though Reform-UK-driven anti-migrant sentiment is rising.",
+      "factors": {
+        "english-usability": { "status": "scored", "score": 95 },
+        "language-burden-citizenship": { "status": "scored", "score": 92 },
+        "integration-support": { "status": "scored", "score": 60 },
+        "social-acceptance-south-asian": { "status": "scored", "score": 60 },
+        "worklife-livability": { "status": "scored", "score": 65 },
+        "cultural-distance-adaptation": { "status": "scored", "score": 72 },
+        "other": { "status": "scored", "score": 52 }
+      },
+      "pros": [
+        { "text": "English is the native language — no language friction for work, PR or citizenship — and the UK has the deepest established Bangladeshi/South-Asian community and cultural fabric in the West." }
+      ],
+      "cons": [
+        { "text": "Anti-immigration and anti-Muslim sentiment is rising with the surge of Reform UK, denting social acceptance despite the large diaspora." }
+      ],
+      "links": [
+        { "title": "British Bangladeshis (overview)", "url": "https://en.wikipedia.org/wiki/British_Bangladeshis" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "safety-law": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "Solid rule of law (WJP 14th) and a strong Equality Act, but with urban crime concerns and rising Islamophobia.",
+      "factors": {
+        "personal-crime-safety": { "status": "scored", "score": 62 },
+        "lived-discrimination-hatecrime": { "status": "scored", "score": 50 },
+        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 78 },
+        "women-safety-gbv": { "status": "scored", "score": 65 },
+        "immigration-enforcement-due-process": { "status": "scored", "score": 58 },
+        "antidiscrimination-law-enforcement": { "status": "scored", "score": 68 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "WJP Rule of Law Index 2025: 14th of 143, with a strong, enforced anti-discrimination framework (Equality Act 2010)." }
+      ],
+      "cons": [
+        { "text": "London has notable urban (incl. knife) crime, and Islamophobic incidents have risen amid the Reform UK surge." }
+      ],
+      "links": [
+        { "title": "World Justice Project — United Kingdom ranks 14th (2025 profile)", "url": "https://worldjusticeproject.org/sites/default/files/documents/United%20Kingdom_4.pdf" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "politics": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A stable democracy, but immigration policy is tightening sharply (White Paper) and Reform UK's surge is pushing an anti-immigration, anti-Islam agenda.",
+      "factors": {
+        "immigration-policy-volatility": { "status": "scored", "score": 38 },
+        "non-eu-skilled-policy-direction": { "status": "scored", "score": 50 },
+        "anti-immigration-electoral-power": { "status": "scored", "score": 30 },
+        "societal-sentiment-trend": { "status": "scored", "score": 40 },
+        "institutional-governance-stability": { "status": "scored", "score": 72 },
+        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 38 },
+        "other": { "status": "scored", "score": 45 }
+      },
+      "pros": [
+        { "text": "Institutions are stable, and skilled migration (Skilled Worker, Global Talent) remains operative with a clear framework." }
+      ],
+      "cons": [
+        { "text": "Immigration policy is tightening fast (10-year ILR proposal, Graduate Route cut, higher thresholds), and Reform UK's surge (leading several 2025–26 polls) is pushing anti-immigration and anti-Islam policy (e.g. proposing to ban church-to-mosque conversions)." }
+      ],
+      "links": [
+        { "title": "Hyphen — what Reform UK stands for (UK Muslims)", "url": "https://hyphenonline.com/2026/04/27/reform-uk-guide-uk-muslims-islam-nigel-farage-policies/" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "tax": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "A moderate-high burden (income tax to 45% + NI), with the non-dom regime abolished in 2025 (a narrow new-arrival FIG regime remains) and a UK–Bangladesh treaty.",
+      "factors": {
+        "effective-deduction-wedge": { "status": "scored", "score": 50 },
+        "expat-foreign-worker-relief": { "status": "scored", "score": 48 },
+        "household-dual-earner-treatment": { "status": "scored", "score": 58 },
+        "student-phase-tax-exposure": { "status": "scored", "score": 60 },
+        "bd-treaty-repatriation": { "status": "scored", "score": 65 },
+        "other": { "status": "scored", "score": 50 }
+      },
+      "pros": [
+        { "text": "Individual taxation with a tax-free personal allowance, a narrow 4-year FIG relief for new arrivals, and a UK–Bangladesh double-taxation treaty supporting repatriation." }
+      ],
+      "cons": [
+        { "text": "Income tax reaches 45% plus National Insurance, and the long-standing non-dom regime was abolished in 2025." }
+      ],
+      "links": [
+        { "title": "GOV.UK — income tax rates (official)", "url": "https://www.gov.uk/income-tax-rates" }
+      ],
+      "lastReviewed": "2026-06-19"
     },
     "muslim-diaspora": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
-      "lastReviewed": "2026-06-18"
+      "status": "scored",
+      "summary": "The strongest diaspora fit in the set: the world's largest British-Bangladeshi community (~652,000), abundant mosques and halal everywhere, and a rich South-Asian ecosystem — tempered by the Reform-UK climate.",
+      "factors": {
+        "bangladeshi-diaspora": { "status": "scored", "score": 92 },
+        "religious-practice-infrastructure": { "status": "scored", "score": 90 },
+        "sentiment-safety": { "status": "scored", "score": 48 },
+        "legal-religious-accommodation": { "status": "scored", "score": 62 },
+        "south-asian-cultural-ecosystem": { "status": "scored", "score": 90 },
+        "other": { "status": "scored", "score": 58 }
+      },
+      "pros": [
+        { "text": "The UK hosts the world's largest British-Bangladeshi community (~652,000; Tower Hamlets/Banglatown, Newham, Luton, Birmingham, Oldham) within a ~6.5% Muslim population, with abundant mosques (East London Mosque) and halal everywhere, and the richest South-Asian ecosystem in the West (Brick Lane, Southall)." }
+      ],
+      "cons": [
+        { "text": "Day-to-day sentiment is strained by Reform UK's rise and rising Islamophobia, even though legal accommodation (Equality Act) is strong." }
+      ],
+      "links": [
+        { "title": "British Bangladeshis (overview)", "url": "https://en.wikipedia.org/wiki/British_Bangladeshis" },
+        { "title": "Islam in the United Kingdom (overview)", "url": "https://en.wikipedia.org/wiki/Islam_in_the_United_Kingdom" }
+      ],
+      "lastReviewed": "2026-06-19"
     }
   }
 }
