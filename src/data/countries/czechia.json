@@ -722,12 +722,34 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "summary": "A workable direct-work route for a BD software engineer, with two paths of differing friction. The EU Blue Card is the clean primary route — no quota, the applicant books a New Delhi appointment and applies directly, needs a 3-year degree (both hold BSc-CSE) and salary ≥1.5× average (CZK 73,823/mo / ~€2,960 from 1 May 2026), which a Prague/Brno tech salary clears. The Employee Card via the Highly Qualified Worker Programme (open to all third countries, CZ-ISCO groups 1–3) is the employer-led alternative, but since Oct 2025 the Delhi embassy accepts it only through a government programme, the Delhi Employee-Card quota (1,560/yr) is shared across the whole subcontinent, BD documents need superlegalization, and the highly-skilled fast-track pilot excludes Bangladesh. The route links cleanly onward — Blue/Employee-Card time counts toward PR at 5 years (A2 Czech) and citizenship at ~10 years (B1), dual retained both ways. Direction is net-expanding for skilled labour despite the ANO win, but the BD track record is thin and the political climate hostile.",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 64 },
+        "overseas-direct-hire": { "status": "scored", "score": 58 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 40 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 60 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 72 },
+        "current-openness": { "status": "scored", "score": 62 }
+      },
+      "pros": [
+        { "text": "EU Blue Card is a clean direct-hire route from Dhaka: no quota, the applicant applies in person at New Delhi (no government-programme gate), needs only a 3-year university degree — both hold BSc-CSE — and a salary ≥1.5× average (CZK 73,823/mo / ~€2,960 from 1 May 2026) that a Prague/Brno tech wage clears; 90-day decision." },
+        { "text": "Clean onward linkage: Blue/Employee-Card residence counts toward permanent residence at 5 years (A2 Czech) and citizenship at ~10 years (B1 Czech), with dual citizenship retained both ways (Czechia allows it since 2014; Czechia on Bangladesh's DNC list)." },
+        { "text": "Direction is net-expanding for skilled labour: the 1 June 2026 MPO reform loosened paperwork and widened access to the Highly Qualified Employee and Key & Scientific Personnel programmes, +2,000 Qualified-Employee slots for 2026, and an EU Single-Permit 90-day processing cap — policy explicitly favours skilled over unskilled migration." }
+      ],
+      "cons": [
+        { "text": "The Employee Card route is friction-heavy for a BD national: since Oct 2025 the Delhi embassy accepts it only through a government economic-migration programme (no ad-hoc/courier filing), the Delhi Employee-Card quota (1,560/yr) is shared across India/Bangladesh/Nepal/Sri Lanka/Maldives/Bhutan, and BD public documents need superlegalization (heavier than India's apostille)." },
+        { "text": "Bangladesh is excluded from the accelerated highly-skilled / digital-nomad fast-track pilot (Australia/Canada/Japan/UK/US etc. only), and the July-2025 Delhi allocation gave just 24 visa slots for IT/science professionals — a tight subcontinent-wide cap." },
+        { "text": "The BD direct skilled-work track record to Czechia is thin and emerging rather than established (modest, partly transit/irregular flow; 'only half stay'), so the route is less proven for this nationality than the Indian/non-EU IT inflow that proxies it; the ANO/SPD government adds a hostile backdrop." }
+      ],
+      "links": [
+        { "title": "Czech Embassy New Delhi — Economic migration: programmes & quotas (official, eff. 01.07.2025)", "url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/economic_migration_programs_and_quotas.html" },
+        { "title": "Czech Embassy New Delhi — Employee Card application (BD eligible; superlegalization; programme-only) (official)", "url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/employee_card_application_2.html" },
+        { "title": "Czech Embassy New Delhi — Blue Card application (direct filing; no quota; 90-day decision) (official)", "url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/blue_card_application.html" },
+        { "title": "Ministry of Industry & Trade (MPO) — Economic migration & government programmes (official)", "url": "https://mpo.gov.cz/en/foreign-trade/economic-migration/economic-migration-and-government-programs--239491/" },
+        { "title": "VisaHQ — Czechia lifts EU Blue Card salary threshold to CZK 73,823 from 1 May 2026", "url": "https://www.visahq.com/news/2026-04-19/cz/czech-republic-lifts-eu-blue-card-salary-threshold-to-czk-73823-from-1-may-2026/" },
+        { "title": "Expats.cz — Czechia approves new foreign-worker quotas (Delhi 24 IT/science slots; skilled favoured)", "url": "https://www.expats.cz/czech-news/article/czechia-approves-new-foreign-worker-quotas-who-stands-to-benefit" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }

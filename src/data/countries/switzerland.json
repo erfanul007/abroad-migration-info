@@ -668,12 +668,30 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 28 },
+        "overseas-direct-hire": { "status": "scored", "score": 24 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 22 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 38 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 55 },
+        "current-openness": { "status": "scored", "score": 32 }
+      },
+      "summary": "World-class demand and pay, but a structurally hard door for a non-EU applicant. As a third-country national a Bangladeshi competes for a fixed annual quota (4,500 B + 4,000 L permits for all of Switzerland, frozen for 2026) and the employer must pass a labour-market test (priority to Swiss/EU/EFTA, documented RAV/EURES advertising) plus an economic-interest test — admission is limited to 'managers, specialists and qualified workers' (university degree + several years' experience), so a 2022 BSc-only profile sits at the lower edge. Salaries are high (Zürich SWE ~CHF 112–137k; far more at Google/IBM Research) and AI/IT demand is acute, but quota + test make non-EU direct hire selective, not routine. The onward chain is sound but long: C permit (PR) generally ~10 years for non-EU, citizenship ~10 years with cantonal/communal discretion; dual citizenship is allowed (Switzerland within Bangladesh's all-Europe DNC scope).",
+      "pros": [
+        { "text": "Acute IT/AI shortage (~117,000 additional specialists needed by 2028) and the world's highest tech salaries — strong pull for scarce/senior profiles; dual citizenship retained." },
+        { "text": "Once a B permit is secured the onward chain is well-trodden (B → C → citizenship), and both spouses can progress in parallel." }
+      ],
+      "cons": [
+        { "text": "Third-country direct hire is gated by a fixed annual quota (4,500 B + 4,000 L for all of Switzerland, frozen for 2026), a mandatory labour-market test (priority to Swiss/EU/EFTA) and an economic-interest test — selective, not routine, especially for a junior BSc profile." },
+        { "text": "Negligible BD track record (~3,000 community); PR (C permit) and citizenship each ~10 years for non-EU; direction flat-to-tightening (SVP 10%-cut initiative, Oct-2026 elections)." }
+      ],
+      "links": [
+        { "title": "Admission to the Swiss employment market (non-EU/EFTA) — SEM (official)", "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit/nicht-eu_efta-angehoerige/grundlagen_zur_arbeitsmarktzulassung.html" },
+        { "title": "Third-country quotas for 2026 left unchanged — Federal Council (official)", "url": "https://www.news.admin.ch/en/newnsb/7HwBjdg5HpBA" },
+        { "title": "Naturalisation (residence + language) — ch.ch federal portal (official)", "url": "https://www.ch.ch/en/foreign-nationals-in-switzerland/naturalisation/" },
+        { "title": "Dual Nationality Certificate — Embassy of Bangladesh (official)", "url": "https://washington.mofa.gov.bd/pages/static-pages/695266b435ce18e1c05aadf1" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }

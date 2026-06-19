@@ -370,11 +370,39 @@
       "hasHighlight": false
     },
     {
+      "id": "italy",
+      "name": "Italy",
+      "iso": "IT",
+      "flag": "🇮🇹",
+      "rank": 14,
+      "overall": 61.58,
+      "overallRaw": 59.11,
+      "categoryScores": {
+        "job-market": 58.65,
+        "visa-access": 58.57,
+        "citizenship": 53.1,
+        "post-study-work": 62.79,
+        "spouse-family": 68.31,
+        "msc-study": 83.4,
+        "pr-pathway": 53.02,
+        "income-cost": 56.25,
+        "healthcare": 67.37,
+        "culture-language": 48.09,
+        "safety-law": 55.83,
+        "politics": 36.89,
+        "tax": 50.6,
+        "muslim-diaspora": 64.06,
+        "direct-work-route": 82.9
+      },
+      "hasBlocker": false,
+      "hasHighlight": true
+    },
+    {
       "id": "denmark",
       "name": "Denmark",
       "iso": "DK",
       "flag": "🇩🇰",
-      "rank": 14,
+      "rank": 15,
       "overall": 60.56,
       "overallRaw": 58.48,
       "categoryScores": {
@@ -393,34 +421,6 @@
         "tax": 42.97,
         "muslim-diaspora": 40.49,
         "direct-work-route": 47.48
-      },
-      "hasBlocker": false,
-      "hasHighlight": false
-    },
-    {
-      "id": "switzerland",
-      "name": "Switzerland",
-      "iso": "CH",
-      "flag": "🇨🇭",
-      "rank": 15,
-      "overall": 60.22,
-      "overallRaw": 58.26,
-      "categoryScores": {
-        "job-market": 82.6,
-        "visa-access": 51.18,
-        "citizenship": 48.26,
-        "post-study-work": 47.1,
-        "spouse-family": 65.43,
-        "msc-study": 83.64,
-        "pr-pathway": 43.27,
-        "income-cost": 66.07,
-        "healthcare": 68.34,
-        "culture-language": 51.99,
-        "safety-law": 80.06,
-        "politics": 42.98,
-        "tax": 60.84,
-        "muslim-diaspora": 35.13,
-        "direct-work-route": null
       },
       "hasBlocker": false,
       "hasHighlight": false
@@ -454,45 +454,17 @@
       "hasHighlight": false
     },
     {
-      "id": "italy",
-      "name": "Italy",
-      "iso": "IT",
-      "flag": "🇮🇹",
-      "rank": 17,
-      "overall": 59.21,
-      "overallRaw": 57.63,
-      "categoryScores": {
-        "job-market": 58.65,
-        "visa-access": 58.57,
-        "citizenship": 53.1,
-        "post-study-work": 62.79,
-        "spouse-family": 68.31,
-        "msc-study": 83.4,
-        "pr-pathway": 53.02,
-        "income-cost": 56.25,
-        "healthcare": 67.37,
-        "culture-language": 48.09,
-        "safety-law": 55.83,
-        "politics": 36.89,
-        "tax": 50.6,
-        "muslim-diaspora": 64.06,
-        "direct-work-route": null
-      },
-      "hasBlocker": false,
-      "hasHighlight": false
-    },
-    {
       "id": "austria",
       "name": "Austria",
       "iso": "AT",
       "flag": "🇦🇹",
-      "rank": 18,
-      "overall": 57.1,
-      "overallRaw": 56.31,
+      "rank": 17,
+      "overall": 58.92,
+      "overallRaw": 57.45,
       "categoryScores": {
         "job-market": 66.18,
         "visa-access": 51.38,
-        "citizenship": 15.53,
+        "citizenship": 17.77,
         "post-study-work": 64.74,
         "spouse-family": 63.88,
         "msc-study": 82.97,
@@ -504,23 +476,23 @@
         "politics": 38.33,
         "tax": 32.46,
         "muslim-diaspora": 54.57,
-        "direct-work-route": null
+        "direct-work-route": 73.24
       },
-      "hasBlocker": true,
-      "hasHighlight": false
+      "hasBlocker": false,
+      "hasHighlight": true
     },
     {
       "id": "estonia",
       "name": "Estonia",
       "iso": "EE",
       "flag": "🇪🇪",
-      "rank": 19,
-      "overall": 55.84,
-      "overallRaw": 55.52,
+      "rank": 18,
+      "overall": 57.25,
+      "overallRaw": 56.41,
       "categoryScores": {
         "job-market": 60.98,
         "visa-access": 49.26,
-        "citizenship": 30.44,
+        "citizenship": 32.68,
         "post-study-work": 63.62,
         "spouse-family": 64.41,
         "msc-study": 71.96,
@@ -532,19 +504,19 @@
         "politics": 53.32,
         "tax": 47.16,
         "muslim-diaspora": 23.48,
-        "direct-work-route": null
+        "direct-work-route": 67.96
       },
-      "hasBlocker": true,
-      "hasHighlight": false
+      "hasBlocker": false,
+      "hasHighlight": true
     },
     {
       "id": "czechia",
       "name": "Czechia",
       "iso": "CZ",
       "flag": "🇨🇿",
-      "rank": 20,
-      "overall": 55.67,
-      "overallRaw": 55.42,
+      "rank": 19,
+      "overall": 56.27,
+      "overallRaw": 55.79,
       "categoryScores": {
         "job-market": 61.29,
         "visa-access": 46.78,
@@ -560,7 +532,35 @@
         "politics": 37.21,
         "tax": 46.36,
         "muslim-diaspora": 17.11,
-        "direct-work-route": null
+        "direct-work-route": 61.66
+      },
+      "hasBlocker": false,
+      "hasHighlight": false
+    },
+    {
+      "id": "switzerland",
+      "name": "Switzerland",
+      "iso": "CH",
+      "flag": "🇨🇭",
+      "rank": 20,
+      "overall": 56,
+      "overallRaw": 55.62,
+      "categoryScores": {
+        "job-market": 82.6,
+        "visa-access": 51.18,
+        "citizenship": 48.26,
+        "post-study-work": 47.1,
+        "spouse-family": 65.43,
+        "msc-study": 83.64,
+        "pr-pathway": 43.27,
+        "income-cost": 66.07,
+        "healthcare": 68.34,
+        "culture-language": 51.99,
+        "safety-law": 80.06,
+        "politics": 42.98,
+        "tax": 60.84,
+        "muslim-diaspora": 35.13,
+        "direct-work-route": 17.98
       },
       "hasBlocker": false,
       "hasHighlight": false

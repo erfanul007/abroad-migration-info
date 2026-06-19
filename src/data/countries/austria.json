@@ -5,7 +5,7 @@
   "iso3": "AUT",
   "flag": "🇦🇹",
   "region": "Europe",
-  "summary": "A high-quality, very safe destination — near-free public tuition (~€1,453/yr), immediate compulsory health cover, Vienna's top-ranked livability and software on the 2026 shortage list — but structurally hostile to this couple's end-goal: Austria does NOT permit dual citizenship, so a naturalising Bangladeshi must renounce BD nationality (blocker), naturalisation needs 10 years plus B2 German, the OECD tax wedge is the 4th-highest (47.1%) with no Bangladesh tax treaty, German gates daily life and status, and the far-right FPÖ won the 2024 election (29.2%). Derived overall sits below the 60% inclusion line — flagged as a drop candidate.",
+  "summary": "A high-quality, very safe destination — near-free public tuition (~€1,453/yr), immediate compulsory health cover, Vienna's top-ranked livability — and a genuinely open direct skilled-work route (software on the 2026 shortage list, a Red-White-Red Card with no labour-market test, being simplified in 2026). The catch is the citizenship terminus, not work: Austria does NOT permit dual citizenship, so naturalising forfeits BD nationality — the workaround is to hold permanent residence indefinitely and keep the BD passport, treating citizenship as optional. Tempered by a 10-year/B2-German citizenship path, the 4th-highest OECD tax wedge (47.1%) with no Bangladesh treaty, German gating daily life, and the far-right FPÖ's 2024 election win (29.2%).",
   "lastReviewed": "2026-06-19",
   "links": [
     {
@@ -142,7 +142,7 @@
         },
         "dual-citizenship-retention": {
           "status": "scored",
-          "score": 12
+          "score": 22
         },
         "citizenship-attainability": {
           "status": "scored",
@@ -164,8 +164,7 @@
       ],
       "cons": [
         {
-          "text": "Austria does not recognise dual citizenship: standard naturalisation requires renouncing prior nationality within two years (waived only for 'extraordinary achievement', §10(6)), so a naturalising Bangladeshi loses BD nationality — failing the couple's core retain-BD goal.",
-          "severity": "blocker"
+          "text": "Austria does not recognise dual citizenship: standard naturalisation requires renouncing prior nationality (waived only for 'extraordinary achievement', §10(6)), so naturalising would forfeit BD nationality. Workaround: hold Austrian PR (Long-Term Residence-EU, reachable at 5 years) indefinitely and keep the BD passport, treating citizenship as an optional final step."
         },
         {
           "text": "Standard naturalisation needs 10 years' continuous residence (5 on a permanent permit) plus B2 German (raised from B1 under the 2025–29 government programme), a history/values exam, and 36 months of self-sufficient income in the last 6 years."
@@ -742,12 +741,30 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 78 },
+        "overseas-direct-hire": { "status": "scored", "score": 70 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 52 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 65 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 58 },
+        "current-openness": { "status": "scored", "score": 68 }
+      },
+      "summary": "The direct skilled-work entry is the file's bright spot — it is the citizenship terminus, not work access, that fails this couple's retain-BD goal. Software/data-processing roles are explicitly on Austria's 2026 nationwide shortage list, where the Red-White-Red Card carries no labour-market test and the Skilled-Worker points bar (55/90) is easily cleared by a CS degree + age + English; the EU Blue Card (€55,678 in 2026) is the higher-salary alternative. The RWR Card is applied for from abroad (routed via the Austrian Embassy New Delhi, ~8 weeks) and the government is actively simplifying it in 2026; a 2024 Bangladesh–Austria mobility MoU explicitly targets ICT. RWR → RWR Plus → Long-Term Residence-EU (PR) at 5 years (B1 German) is clean, but citizenship is 10 years (6 with B2+) AND forces renunciation of BD nationality — so PR-indefinitely is the rational terminus.",
+      "pros": [
+        { "text": "Software/data roles on the 2026 nationwide shortage list: Red-White-Red Card with no labour-market test, a ~55-point bar a 2022 CS graduate clears easily, ~€160 fee and ~8-week from-abroad processing; the route is being simplified in 2026.", "severity": "highlight" },
+        { "text": "Acute labour shortage (~272,000 vacancies) and a 2024 Bangladesh–Austria mobility MoU explicitly targeting ICT; RWR → PR at 5 years is a clean onward chain." }
+      ],
+      "cons": [
+        { "text": "Citizenship requires renouncing BD nationality (Austria bars dual; no fitting exception) and takes 10 years (6 with B2+ German) — the work route is open but the citizenship end-goal fails; PR-indefinitely is the workaround." },
+        { "text": "Vienna-centric tech market where German is often expected outside MNCs; no decision-making Austrian mission in Dhaka (routed via New Delhi); FPÖ-shaped, family-reunification-restrictive climate." }
+      ],
+      "links": [
+        { "title": "Skilled Workers in Shortage Occupations (RWR Card, points grid) — migration.gv.at (official)", "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/skilled-workers-in-shortage-occupations/" },
+        { "title": "Nationwide shortage occupations 2026 (lists IT/software) — workinaustria.com (ABA, official)", "url": "https://www.workinaustria.com/en/residence-employment/shortage-occupations/nationwide/" },
+        { "title": "EU Blue Card Austria — European Commission (official)", "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-austria_en" },
+        { "title": "Dual citizenship (renunciation rule) — oesterreich.gv.at (official)", "url": "https://www.oesterreich.gv.at/en/themen/menschen_aus_anderen_staaten/staatsbuergerschaft/Seite.260430.html" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }

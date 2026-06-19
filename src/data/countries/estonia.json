@@ -5,7 +5,7 @@
   "iso3": "EST",
   "flag": "🇪🇪",
   "region": "Europe",
-  "summary": "A highly digital, low-tax, safe little tech state (Bolt, Wise, Skype heritage) with cheap study, a practical 9-month graduate job-search permit and a strong passport — but a poor fit for this couple's end-goal: Estonia does NOT permit dual citizenship for naturalised citizens, so a naturalising Bangladeshi must renounce BD nationality (blocker), citizenship takes 8 years with a B1 Estonian (Finno-Ugric) exam, and the Muslim/Bangladeshi community is negligible (~0.7%, no purpose-built mosque). Derived overall sits below the 60% inclusion line.",
+  "summary": "A highly digital, low-tax, safe little tech state (Bolt, Wise, Skype heritage) with cheap study, a practical 9-month graduate job-search permit, a strong passport — and a genuinely open direct-work route (ICT and the EU Blue Card are quota-exempt, both spouses qualify on a CS degree). The catch is the citizenship terminus: Estonia does NOT permit dual citizenship for naturalised citizens, so naturalising forfeits BD nationality — the workaround is to hold long-term residence indefinitely and keep the BD passport, treating citizenship as optional. Tempered by an 8-year citizenship path with a hard B1 Estonian (Finno-Ugric) exam and a negligible Muslim/Bangladeshi community (~0.7%, no purpose-built mosque).",
   "lastReviewed": "2026-06-19",
   "links": [
     {
@@ -138,7 +138,7 @@
         },
         "dual-citizenship-retention": {
           "status": "scored",
-          "score": 12
+          "score": 22
         },
         "citizenship-attainability": {
           "status": "scored",
@@ -160,8 +160,7 @@
       ],
       "cons": [
         {
-          "text": "Estonia does not permit dual citizenship for naturalised citizens — a naturalising Bangladeshi must renounce BD nationality, failing the couple's core retain-BD goal.",
-          "severity": "blocker"
+          "text": "Estonia does not permit dual citizenship for naturalised citizens — naturalising would forfeit BD nationality. Workaround: hold Estonian/EU long-term residence (reachable at 5 years) indefinitely and keep the BD passport, treating citizenship as an optional final step."
         },
         {
           "text": "Naturalisation requires 8 years' residence (5 on a permanent permit), a B1 Estonian-language exam (a hard Finno-Ugric language), a Constitution/Citizenship-Act exam and an oath."
@@ -686,12 +685,30 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 78 },
+        "overseas-direct-hire": { "status": "scored", "score": 70 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 30 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 68 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 55 },
+        "current-openness": { "status": "scored", "score": 70 }
+      },
+      "summary": "A genuinely open direct-work entry for two CS engineers, behind a citizenship terminus blocked by the no-dual rule. ICT roles and the EU Blue Card are explicitly exempt from Estonia's small annual immigration quota (1,292 for 2026, and heavily underfilled), a 3-year CS degree (or 3 years ICT experience since 2024) qualifies, and salary thresholds (Blue Card €37,152/yr; 'top specialist' €2,972/mo at 1.5× average) are comfortably cleared by Tallinn tech pay (Bolt/Wise/Pipedrive ecosystem). Permits are lodged from abroad (≤60-day target), and the 2024 Blue Card liberalisation plus underfilled quota make the direction a tailwind. The onward leg is gated by the B1 Estonian (Finno-Ugric) exam at both PR (5 years) and citizenship (8 years), and citizenship forces renunciation of BD nationality — so long-term residence is the rational terminus.",
+      "pros": [
+        { "text": "ICT roles and the EU Blue Card are quota-exempt; both spouses qualify on a CS degree, salary thresholds easily cleared, permits lodgeable from abroad, and the quota is underfilled — a genuinely open direct-work route.", "severity": "highlight" },
+        { "text": "Startup-friendly Tallinn tech market (Bolt/Wise/Pipedrive heritage) actively hires non-EU tech; 2024 Blue Card liberalisation (shorter contract, ICT-experience route) is a tailwind." }
+      ],
+      "cons": [
+        { "text": "Citizenship forces renunciation of BD nationality (Estonia bars dual for naturalised citizens) — the work route is open but the citizenship end-goal fails; long-term residence is the workaround." },
+        { "text": "Negligible BD community/track record (proxy-scored); no Estonian mission in Dhaka (third-country lodgement); a hard B1 Finno-Ugric language gate applies at both PR and citizenship." }
+      ],
+      "links": [
+        { "title": "EU Blue Card in Estonia — European Commission (official)", "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-estonia_en" },
+        { "title": "Residence permit for employment — Estonian Police and Border Guard Board (official)", "url": "https://www.politsei.ee/en/instructions/residence-permit-for-employment" },
+        { "title": "Estonian citizenship for an adult (conditions) — PPA (official)", "url": "https://www.politsei.ee/en/instructions/estonian-citizenship-for-an-adult" },
+        { "title": "Immigration quota for 2026 set at 1,292 — ERR News (Interior Ministry)", "url": "https://news.err.ee/1609853268/immigration-quota-for-2026-set-at-1-292-people" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }

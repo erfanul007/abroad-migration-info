@@ -5,7 +5,7 @@
   "iso3": "ITA",
   "flag": "🇮🇹",
   "region": "Europe",
-  "summary": "Home to continental Europe's largest Bangladeshi community (~150,000–200,000, centred on Rome) with abundant halal and a dense BD ecosystem, plus world-class affordable study (Politecnico di Milano at ~€1–4k tuition with generous scholarships), SSN healthcare, a full embassy in Dhaka and dual citizenship retained both ways — but held back for this profile by a 10-year naturalisation path (a 2025 referendum to cut it to 5 failed), low Italian tech salaries, heavy bureaucracy, the Meloni/League government's anti-Islam posture and Islam's lack of official religious recognition. Derived overall sits below the 60% inclusion line.",
+  "summary": "Home to continental Europe's largest Bangladeshi community (~150,000–200,000, centred on Rome) with abundant halal and a dense BD ecosystem, world-class affordable study (Politecnico di Milano at ~€1–4k tuition with generous scholarships), SSN healthcare, a full embassy in Dhaka, dual citizenship retained both ways — and, the strongest lever for this profile, a quota-exempt EU Blue Card direct-work route that sidesteps the oversubscribed Decreto Flussi click-day. Held back by a 10-year naturalisation path (a 2025 referendum to cut it to 5 failed), low Italian tech salaries, heavy Sportello Unico/Questura bureaucracy, and the Meloni/League government's anti-Islam posture.",
   "lastReviewed": "2026-06-19",
   "links": [
     {
@@ -691,12 +691,31 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 84 },
+        "overseas-direct-hire": { "status": "scored", "score": 82 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 62 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 55 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 72 },
+        "current-openness": { "status": "scored", "score": 68 }
+      },
+      "summary": "The decisive lever for a BD software engineer is the EU Blue Card (Carta Blu UE): it sits entirely OUTSIDE the annual Decreto Flussi quota, so an employer can sponsor a Dhaka-based engineer year-round rather than fighting an oversubscribed click-day. A recognised CS/IT degree (or 3 years' relevant IT experience in the prior 7) plus a 6-month+ contract above the salary floor (~1.5x the ISTAT average, ~€35,000–38,300 in 2025–26; a reduced ~1.2x ~€28,000 applies to ICT/shortage roles) — easily cleared by Milan software pay (mid ~€42–62k, senior ~€83k). The employer files the nulla osta at the Sportello Unico via the Ministry of Interior ALI portal; the worker collects the visa at the consulate in Bangladesh, then signs the contratto di soggiorno within 8 days of arrival. Route is a clear settlement track: Blue Card -> EU long-term residence after 5 years (min 2 in Italy) -> citizenship at 10 years + B1 Italian, with dual citizenship retained both ways (Italy on Bangladesh's DNC list). Headwinds: heavy Sportello Unico/Questura bureaucracy, a labour-market test that is often (not always) waived, low Blue Card uptake (only ~747 issued in 2023) so the direct-skilled-work track record is thin even though the overall BD community (~150,000+, continental Europe's largest) is enormous, and a slow 10-year citizenship clock.",
+      "pros": [
+        { "text": "EU Blue Card is QUOTA-EXEMPT — outside the oversubscribed Decreto Flussi click-day — so an Italian employer can sponsor and relocate a BD software engineer directly from Dhaka at any time of year; a recognised CS degree (or 3 yrs IT experience) plus a 6-month+ contract above ~€35,000–38,300 (reduced ~€28,000 for ICT/shortage roles) qualifies, and Milan software salaries clear it.", "severity": "highlight" },
+        { "text": "Complete, dual-retained settlement chain: Blue Card -> EU long-term residence after 5 years (min 2 in Italy) -> citizenship at 10 years + B1, with one of continental Europe's largest Bangladeshi communities (~150,000+, Bangladeshis now top-3 for new residence permits) as a deep landing network." }
+      ],
+      "cons": [
+        { "text": "Blue Card uptake is low (~747 issued in 2023), so the direct-skilled-work track record is thin (the huge BD community arrived mainly via Decreto Flussi/family/asylum, not highly-qualified routes); employers face Sportello Unico/Questura bureaucracy and a labour-market test that is only often, not always, waived — dampening sponsorship appetite outside Milan multinationals." },
+        { "text": "Citizenship is a slow 10-year clock (B1 Italian; a June-2025 referendum to cut it to 5 failed), and standard salaried hiring outside the Blue Card stays trapped in the quota lottery." }
+      ],
+      "links": [
+        { "title": "EU Blue Card in Italy — European Commission, Migration and Home Affairs (official)", "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-italy_en" },
+        { "title": "Ministero dell'Interno — ALI / Sportello Unico Immigrazione portal (nulla osta, official)", "url": "https://portaleservizi.dlci.interno.it/AliSortello/ali/home.htm" },
+        { "title": "Decreto Flussi 2026–2028 explainer (497,550 quota; Blue Card sits outside it) — InfoMigrants", "url": "https://www.infomigrants.net/en/post/68411/explainer-italys-20262028-flow-decree-decreto-flussi" },
+        { "title": "Italy work visas: Decreto Flussi vs EU Blue Card (quota-exempt comparison) — MarlowBray", "url": "https://www.marlowbray.com/resource-articles/italy-work-visas-decreto-flussi-vs-eu-blue-card" },
+        { "title": "The Bangladeshi community in Italy — annual report (Ministry of Labour, official)", "url": "https://integrazionemigranti.gov.it/AnteprimaPDF.aspx?id=6179" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }
