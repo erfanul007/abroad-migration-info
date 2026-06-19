@@ -702,12 +702,30 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 86 },
+        "overseas-direct-hire": { "status": "scored", "score": 84 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 58 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 80 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 66 },
+        "current-openness": { "status": "scored", "score": 78 }
+      },
+      "summary": "One of the cleaner EU direct-hire routes for entry, with a settlement leg that tightened in 2024–26. The Specialist permit / EU Blue Card share a salary floor (€3,937/mo in 2026) easily cleared by Finnish dev pay, carry no labour-market test, and offer a 14-day fast-track plus a D-visa so an approved hire flies in immediately — both spouses can hold independent specialist permits. Finland actively recruits IT (Talent Boost; ~130,000 skilled-worker need this decade). The catch is onward: PR is now effectively 6 years (4 only with income/master's/language conditions, from Jan 2026) and citizenship 8 years (5 if Finnish/Swedish ~A2 is met). Dual citizenship is clean both ways. BD-side processing routes via the Embassy in New Delhi, lengthening the real timeline beyond the 2-week headline.",
+      "pros": [
+        { "text": "Specialist permit / EU Blue Card with a 14-day fast-track + D-visa, no labour-market test; salary floor (€3,937/mo) easily cleared and both spouses can hold independent permits.", "severity": "highlight" },
+        { "text": "Finland actively recruits IT (Talent Boost; ~130,000 skilled-worker need this decade); dual citizenship retained both ways." }
+      ],
+      "cons": [
+        { "text": "Settlement leg tightened: PR effectively 6 years (4 only with income/master's/language gate, from Jan 2026); citizenship 8 years (5 only if Finnish/Swedish ~A2 met)." },
+        { "text": "BD residence-permit biometrics route via the Embassy in New Delhi (not full processing in Dhaka), lengthening the real timeline; BD not a named Talent-Boost priority source." }
+      ],
+      "links": [
+        { "title": "EU Blue Card — Migri (official)", "url": "https://migri.fi/en/eu-blue-card" },
+        { "title": "Fast-track for EU Blue Card / specialists — Migri (official)", "url": "https://migri.fi/en/fast-track-for-eu-blue-card" },
+        { "title": "Amendments to Aliens Act re permanent residence permits 2026 (4→6 yrs) — Migri (official)", "url": "https://migri.fi/en/amendments-to-aliens-act-regarding-permanent-residence-permits-2026" },
+        { "title": "Period of residence longer; Citizenship Act amendments (1 Oct 2024) — Finnish Government (official)", "url": "https://valtioneuvosto.fi/en/-//5202425/period-of-residence-becomes-longer-when-amendments-to-citizenship-act-enter-into-force-on-1-october-2024" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }

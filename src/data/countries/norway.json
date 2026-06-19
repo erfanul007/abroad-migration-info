@@ -652,12 +652,30 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 78 },
+        "overseas-direct-hire": { "status": "scored", "score": 75 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 45 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 72 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 70 },
+        "current-openness": { "status": "scored", "score": 62 }
+      },
+      "summary": "A strong, clean route that Bangladeshis underuse. The skilled-worker residence permit is quota-free with no labour-market test: a BSc software engineer with a full-time offer at/above the pay floor (NOK 522,600 bachelor / 599,200 master from Sept 2025, easily cleared by Oslo tech pay) qualifies, and skilled workers can request early-employment-start from the police. PR comes unusually fast — 3 years (+ A2 Norwegian + social-studies test) — and citizenship at ~7 years (B1 oral), with dual citizenship allowed since 2020 (Norway within Bangladesh's all-Europe DNC scope). The real frictions are practical, not legal: no Norwegian mission in Dhaka (apply via a third country) and documented name-based hiring bias. Note: Bangladesh's UDI 'heightened scrutiny' flag applies to vocational trades, not university-degree software roles.",
+      "pros": [
+        { "text": "Quota-free skilled-worker permit, no labour-market test, early-employment-start option, and PR in just 3 years → citizenship ~7 years; dual citizenship retained (since 2020).", "severity": "highlight" },
+        { "text": "Acute tech shortage (~16,000 openings 2025) with a light employer burden (no sponsor licence/levy)." }
+      ],
+      "cons": [
+        { "text": "No Norwegian visa mission in Dhaka — biometrics/submission via a third-country VFS adds cost and time; documented name-based hiring callback bias." },
+        { "text": "Small BD community (~3,080 background) and thin BD-tech track record; A2 Norwegian for PR and B1 oral for citizenship." }
+      ],
+      "links": [
+        { "title": "Skilled workers residence permit — UDI (official)", "url": "https://www.udi.no/en/want-to-apply/work-immigration/skilled-workers/" },
+        { "title": "New salary levels from 1 September 2025 — UDI (official)", "url": "https://www.udi.no/uk/important-messages/new-salary-levels-from-1-september-2025/" },
+        { "title": "Changes to permanent-residence requirements (A2 + social studies) — UDI (official)", "url": "https://www.udi.no/en/important-messages/changes-to-the-requirements-for-a-permanent-residence-permit/" },
+        { "title": "Immigrants and Norwegian-born to immigrant parents (Bangladesh figures) — SSB (official)", "url": "https://www.ssb.no/en/befolkning/innvandrere/statistikk/innvandrere-og-norskfodte-med-innvandrerforeldre" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }

@@ -724,12 +724,30 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 62 },
+        "overseas-direct-hire": { "status": "scored", "score": 55 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 30 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 60 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 38 },
+        "current-openness": { "status": "scored", "score": 45 }
+      },
+      "summary": "Open front door, slow climb. White-collar routes exist (Pay Limit, Positive List for Higher Education, Fast-Track, EU Blue Card) and IT roles are explicitly shortage-listed into 2026–27, with the Positive List carrying no fixed salary floor — a good fit for the couple's BSc + experience. But the salary bar is high and rising (2026 Pay Limit DKK 552,000; supplementary DKK 446,000), and crucially Bangladesh is NOT among the 16 favoured countries given the eased DKK 300,000 threshold (India/China/etc. are) — so a BD applicant pays the full bar peers escape. The onward path is among Europe's hardest: PR typically 8 years (4 only with all supplementary conditions) and citizenship ~9 years with Danish at B2 and tests. Dual citizenship is allowed (since 2015), so BD nationality is retained.",
+      "pros": [
+        { "text": "IT/software occupations are explicitly on the Positive List for Higher Education (no fixed salary floor) into 2026–27; Pay Limit/Fast-Track/Blue Card are nationality-blind; dual citizenship retained (since 2015)." },
+        { "text": "Copenhagen has a genuine tech/AI shortage and a streamlined Fast-Track for certified employers (≥10 staff)." }
+      ],
+      "cons": [
+        { "text": "Bangladesh is excluded from the 16-country DKK 300,000 threshold easing — a BD applicant must clear the full DKK 446,000–552,000 salary bar that India/China/etc. avoid." },
+        { "text": "Onward path among Europe's hardest: PR typically 8 years, citizenship ~9 years with Danish B2 + tests; negligible BD diaspora/track record in Denmark." }
+      ],
+      "links": [
+        { "title": "The Pay Limit Scheme — nyidanmark.dk (official)", "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Pay-limit-scheme" },
+        { "title": "The Positive List for People with a Higher Education — nyidanmark.dk (official)", "url": "https://www.nyidanmark.dk/en-GB/Applying/Work/Positive%20list%20higher%20education" },
+        { "title": "Fast-track Scheme — nyidanmark.dk (official)", "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Fast-track" },
+        { "title": "Permanent residence permit (8-year rule) — nyidanmark.dk (official)", "url": "https://nyidanmark.dk/en-GB/Applying/Permanent%20residence%20permit/Permanent%20residence" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }

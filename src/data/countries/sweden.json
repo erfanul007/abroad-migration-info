@@ -665,12 +665,30 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 68 },
+        "overseas-direct-hire": { "status": "scored", "score": 78 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 42 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 70 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 52 },
+        "current-openness": { "status": "scored", "score": 30 }
+      },
+      "summary": "A solid, accessible work entry inside a sharply restrictive trajectory. The work permit is genuinely offshore (apply from Dhaka after a job offer; biometrics via the Embassy of Sweden in Dhaka) with low employer burden (no UK-style sponsor licence). The June-2026 reform raised the general salary floor to 90% of median (SEK 34,470/mo), but IT occupations keep the reduced 75% exemption (SEK 28,725) — comfortably cleared by Stockholm dev pay, so the offer is the gate. The onward leg is the problem: PR (~4 yrs) now demands sustained self-sufficiency and citizenship jumped from 5 to 8 years (June 2026) with new income/language/civics tests phasing in, all assessed under rules at decision date. The Tidö/Sweden-Democrats government is tightening across the board (PR revocation planned 2027). Dual citizenship is allowed both ways.",
+      "pros": [
+        { "text": "Offshore work permit with biometrics handled in Dhaka; IT roles keep the reduced 75%-median salary floor (SEK 28,725), easily cleared by Stockholm tech pay; dual citizenship allowed." },
+        { "text": "Dense English-working tech market (Spotify, Klarna, King) with low employer admin (no sponsor-licence regime)." }
+      ],
+      "cons": [
+        { "text": "Sharply restrictive 2025–26 direction: citizenship raised 5→8 years (June 2026) with new income/language/civics tests; PR self-sufficiency tightened; PR revocation regime planned from 2027." },
+        { "text": "Thin BD-specific track record (no established corridor; company-led hiring only) and future-rule risk under the Sweden-Democrats-backed government." }
+      ],
+      "links": [
+        { "title": "Salary requirements for a work permit (90% median; 75% IT exemption) — Migrationsverket (official)", "url": "https://www.migrationsverket.se/en/word-explanations/salary-requirements-for-a-work-permit.html" },
+        { "title": "New rules for work permits now apply (1 June 2026) — Migrationsverket (official)", "url": "https://www.migrationsverket.se/nyheter/news-archive/2026-06-01-new-rules-for-work-permits-now-apply.html" },
+        { "title": "New rules for Swedish citizenship from 6 June 2026 (8-year rule) — Migrationsverket (official)", "url": "https://www.migrationsverket.se/nyheter/news-archive/2026-05-06-new-rules-for-swedish-citizenship-from-6-june-2026.html" },
+        { "title": "Apply for an EU Blue Card — Migrationsverket (official)", "url": "https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/eu-blue-cards.html" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }
