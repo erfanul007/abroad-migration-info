@@ -687,12 +687,30 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 28 },
+        "overseas-direct-hire": { "status": "scored", "score": 22 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 55 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 38 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 72 },
+        "current-openness": { "status": "scored", "score": 32 }
+      },
+      "summary": "High ceiling, hard front door. The main work-visa ENTRY (H-1B) is an annual lottery (FY2026 ~35% selection) and the Sept-2025 $100,000 supplemental fee lands squarely on the hire-from-abroad case (new petitions for beneficiaries outside the US) — so direct overseas hiring is the weak point and employers increasingly prefer candidates already on US soil (F-1/OPT → change of status). O-1/L-1 are niche. What rescues the route is the destination, not the entry: Bangladesh is NOT employment-based green-card backlogged (unlike India/China), and the EB-2 NIW lets a strong AI researcher self-petition with no employer, no PERM and no lottery — but that realistically needs the planned MSc (the 2022 BSc + ~4 years is short of the bachelor's+5-years EB-2 equivalence). Largest BD-American community (~600k, NYC). Net: study-first is the realistic US play, not direct work-visa entry.",
+      "pros": [
+        { "text": "PR ceiling is genuinely high: Bangladesh avoids the India/China EB green-card backlog, and EB-2 NIW allows self-petition with no employer/PERM/lottery (best unlocked by the planned MSc)." },
+        { "text": "Largest Bangladeshi-American community (~600k, two-thirds in NYC); dual citizenship retained both ways (US on Bangladesh's DNC list)." }
+      ],
+      "cons": [
+        { "text": "Direct entry is lottery-gated (H-1B ~35% selection) and the Sept-2025 $100,000 fee hits exactly the hire-from-Dhaka case — overseas direct hiring is weak." },
+        { "text": "Sponsorship appetite for overseas juniors is low (cost + lottery risk); Trump-era H-1B/F-1 tightening adds volatility (though Bangladesh is on no travel ban)." }
+      ],
+      "links": [
+        { "title": "H-1B Cap Season / Electronic Registration — USCIS (official)", "url": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-1b-specialty-occupations/h-1b-cap-season" },
+        { "title": "EB-2 (advanced degree / National Interest Waiver) — USCIS (official)", "url": "https://www.uscis.gov/working-in-the-united-states/permanent-workers/employment-based-immigration-second-preference-eb-2" },
+        { "title": "Visa Bulletin for June 2026 (Worldwide vs India/China EB) — U.S. Dept of State (official)", "url": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-june-2026.html" },
+        { "title": "FY2026 H-1B initial registration selection completed — USCIS (official)", "url": "https://www.uscis.gov/newsroom/alerts/fy-2026-h-1b-initial-registration-selection-process-completed" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }

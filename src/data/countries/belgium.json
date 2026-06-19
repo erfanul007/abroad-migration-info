@@ -738,12 +738,30 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 72 },
+        "overseas-direct-hire": { "status": "scored", "score": 80 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 35 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 65 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 80 },
+        "current-openness": { "status": "scored", "score": 55 }
+      },
+      "summary": "A genuinely open degree-based route, with federal complexity the main friction. A BD software engineer targets the highly-qualified single permit / EU Blue Card (salary-threshold tracks, no shortage-list or labour-market test): 2026 highly-skilled thresholds are moderate (Brussels ~€44k, Flanders ~€49k, Wallonia ~€53k; Blue Card higher) and attainable in tech. The employer files the single permit and the worker collects a Visa D from abroad (via the Belgian mission/VFS in New Delhi — no Dhaka post). A clean 5+5 ladder: long-term residence at 5 years, Belgian nationality by declaration at 5 years (A2 language + economic participation, easily met by two earners), with dual nationality permitted both ways. Flanders tightened medium-skilled access from 2026, but the degree-holder Blue Card track is unaffected.",
+      "pros": [
+        { "text": "Degree + qualifying salary opens the highly-qualified single permit / EU Blue Card (no shortage-list or labour-market test); employer-filed and fully offshore with a 90-day decision.", "severity": "highlight" },
+        { "text": "Aligned 5+5 ladder — long-term residence at 5 years, citizenship by declaration at 5 years — with dual nationality permitted (Belgium within Bangladesh's all-Europe DNC scope)." }
+      ],
+      "cons": [
+        { "text": "Small, emerging BD track record (~5,000 diaspora; no published BD-by-permit data) — a feasible but not well-trodden corridor." },
+        { "text": "Three-region federal complexity; no Belgian embassy in Dhaka (Visa D via New Delhi); Flanders raised friction for non-Blue-Card roles from 2026." }
+      ],
+      "links": [
+        { "title": "Highly-qualified worker, Belgium — EU Immigration Portal (official)", "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/highly-qualified-worker-belgium_en" },
+        { "title": "Nationality by declaration (Art. 12bis, 5-year route) — Justice Belgium (official)", "url": "https://justice.belgium.be/en/themes_and_files/children_and_youth/citizenship/become_belgian/declaration_of_acquisition" },
+        { "title": "Long-term resident status (PR after 5 years) — IBZ/DOFI (official)", "url": "https://dofi.ibz.be/en/themes/third-country-nationals/long-term-resident/acquisition-long-term-resident-status-belgium" },
+        { "title": "Dual citizenship (adults) — Justice Belgium (official)", "url": "https://justice.belgium.be/en/themes_and_files/children_and_youth/citizenship/dual_citizenship/adult" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }

@@ -207,8 +207,8 @@
       "iso": "BE",
       "flag": "🇧🇪",
       "rank": 8,
-      "overall": 64.43,
-      "overallRaw": 60.89,
+      "overall": 65.32,
+      "overallRaw": 61.45,
       "categoryScores": {
         "job-market": 68.41,
         "visa-access": 51.38,
@@ -224,47 +224,19 @@
         "politics": 39.91,
         "tax": 49.14,
         "muslim-diaspora": 54.17,
-        "direct-work-route": null
+        "direct-work-route": 73.37
       },
       "hasBlocker": false,
-      "hasHighlight": false
-    },
-    {
-      "id": "luxembourg",
-      "name": "Luxembourg",
-      "iso": "LU",
-      "flag": "🇱🇺",
-      "rank": 9,
-      "overall": 64.31,
-      "overallRaw": 60.82,
-      "categoryScores": {
-        "job-market": 61.98,
-        "visa-access": 48.82,
-        "citizenship": 78.01,
-        "post-study-work": 63.14,
-        "spouse-family": 68.07,
-        "msc-study": 69.88,
-        "pr-pathway": 62.84,
-        "income-cost": 53.02,
-        "healthcare": 77.9,
-        "culture-language": 60.98,
-        "safety-law": 81.08,
-        "politics": 70.17,
-        "tax": 49.58,
-        "muslim-diaspora": 46.49,
-        "direct-work-route": null
-      },
-      "hasBlocker": false,
-      "hasHighlight": false
+      "hasHighlight": true
     },
     {
       "id": "france",
       "name": "France",
       "iso": "FR",
       "flag": "🇫🇷",
-      "rank": 10,
-      "overall": 63.09,
-      "overallRaw": 60.06,
+      "rank": 9,
+      "overall": 65.26,
+      "overallRaw": 61.41,
       "categoryScores": {
         "job-market": 77.91,
         "visa-access": 60.02,
@@ -280,35 +252,35 @@
         "politics": 28.97,
         "tax": 46.1,
         "muslim-diaspora": 55.93,
-        "direct-work-route": null
+        "direct-work-route": 84.73
       },
       "hasBlocker": false,
-      "hasHighlight": false
+      "hasHighlight": true
     },
     {
-      "id": "united-states",
-      "name": "United States",
-      "iso": "US",
-      "flag": "🇺🇸",
-      "rank": 11,
-      "overall": 62.61,
-      "overallRaw": 59.76,
+      "id": "luxembourg",
+      "name": "Luxembourg",
+      "iso": "LU",
+      "flag": "🇱🇺",
+      "rank": 10,
+      "overall": 64.72,
+      "overallRaw": 61.07,
       "categoryScores": {
-        "job-market": 93.5,
-        "visa-access": 41.98,
-        "citizenship": 66.71,
-        "post-study-work": 73.48,
-        "spouse-family": 55.24,
-        "msc-study": 69.08,
-        "pr-pathway": 51.56,
-        "income-cost": 65.19,
-        "healthcare": 40.31,
-        "culture-language": 87.61,
-        "safety-law": 46.18,
-        "politics": 20.17,
-        "tax": 51.88,
-        "muslim-diaspora": 87.38,
-        "direct-work-route": null
+        "job-market": 61.98,
+        "visa-access": 48.82,
+        "citizenship": 78.01,
+        "post-study-work": 63.14,
+        "spouse-family": 68.07,
+        "msc-study": 69.88,
+        "pr-pathway": 62.84,
+        "income-cost": 53.02,
+        "healthcare": 77.9,
+        "culture-language": 60.98,
+        "safety-law": 81.08,
+        "politics": 70.17,
+        "tax": 49.58,
+        "muslim-diaspora": 46.49,
+        "direct-work-route": 68.38
       },
       "hasBlocker": false,
       "hasHighlight": false
@@ -318,7 +290,7 @@
       "name": "Denmark",
       "iso": "DK",
       "flag": "🇩🇰",
-      "rank": 12,
+      "rank": 11,
       "overall": 62.01,
       "overallRaw": 59.38,
       "categoryScores": {
@@ -346,7 +318,7 @@
       "name": "Norway",
       "iso": "NO",
       "flag": "🇳🇴",
-      "rank": 13,
+      "rank": 12,
       "overall": 62.01,
       "overallRaw": 59.38,
       "categoryScores": {
@@ -374,7 +346,7 @@
       "name": "Finland",
       "iso": "FI",
       "flag": "🇫🇮",
-      "rank": 14,
+      "rank": 13,
       "overall": 61.49,
       "overallRaw": 59.05,
       "categoryScores": {
@@ -402,7 +374,7 @@
       "name": "Sweden",
       "iso": "SE",
       "flag": "🇸🇪",
-      "rank": 15,
+      "rank": 14,
       "overall": 61.23,
       "overallRaw": 58.89,
       "categoryScores": {
@@ -430,7 +402,7 @@
       "name": "Switzerland",
       "iso": "CH",
       "flag": "🇨🇭",
-      "rank": 16,
+      "rank": 15,
       "overall": 60.22,
       "overallRaw": 58.26,
       "categoryScores": {
@@ -449,6 +421,34 @@
         "tax": 60.84,
         "muslim-diaspora": 35.13,
         "direct-work-route": null
+      },
+      "hasBlocker": false,
+      "hasHighlight": false
+    },
+    {
+      "id": "united-states",
+      "name": "United States",
+      "iso": "US",
+      "flag": "🇺🇸",
+      "rank": 16,
+      "overall": 59.3,
+      "overallRaw": 57.69,
+      "categoryScores": {
+        "job-market": 93.5,
+        "visa-access": 41.98,
+        "citizenship": 66.71,
+        "post-study-work": 73.48,
+        "spouse-family": 55.24,
+        "msc-study": 69.08,
+        "pr-pathway": 51.56,
+        "income-cost": 65.19,
+        "healthcare": 40.31,
+        "culture-language": 87.61,
+        "safety-law": 46.18,
+        "politics": 20.17,
+        "tax": 51.88,
+        "muslim-diaspora": 87.38,
+        "direct-work-route": 29.53
       },
       "hasBlocker": false,
       "hasHighlight": false

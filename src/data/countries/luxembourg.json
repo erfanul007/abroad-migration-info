@@ -671,12 +671,30 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 66 },
+        "overseas-direct-hire": { "status": "scored", "score": 72 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 28 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 64 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 88 },
+        "current-openness": { "status": "scored", "score": 58 }
+      },
+      "summary": "An excellent onward ladder behind a high entry bar. The EU Blue Card is labour-market-test-exempt (a major plus) but the salary floor is the highest of the EU peers — €65,652/yr from March 2026 — which a ~4-year-experience BSc engineer may not clear without a senior or finance-tech role. The route is filed from abroad (applications from inside Luxembourg are inadmissible), and BD biometrics are handled locally by the Swedish Embassy in Dhaka (no New Delhi trip — a real advantage). The onward path is exceptionally clean: EU long-term residence at 5 years and naturalisation at 5 years on overlapping clocks, with dual nationality permitted both ways — the binding citizenship gate is the Luxembourgish language test (A2 spoken/B1 listening). Getting in is harder than staying.",
+      "pros": [
+        { "text": "EU Blue Card is labour-market-test-exempt; overlapping 5-year PR and 5-year citizenship clocks with dual nationality permitted (Luxembourg within Bangladesh's all-Europe DNC scope) — one of the fastest EU onward ladders." },
+        { "text": "Visa filed from abroad with BD biometrics handled locally by the Swedish Embassy in Dhaka (no New Delhi trip); genuine ICT/fintech shortage demand." }
+      ],
+      "cons": [
+        { "text": "Highest EU salary floor (€65,652 from Mar 2026, rising twice in a year) — a ~4-year BSc profile may not clear it without a senior/finance-tech role; realistic play is one spouse on Blue Card + spouse on family reunification (work-permitted)." },
+        { "text": "Negligible BD track record (~hundreds of BD nationals; no skilled-migration pipeline) and a multilingual (FR/DE) market that narrows English-only appetite." }
+      ],
+      "links": [
+        { "title": "EU Blue Card — highly qualified salaried worker — guichet.lu (official)", "url": "https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/hautement-qualifie/salarie-hautement-qualifie.html" },
+        { "title": "EU long-term resident status (PR after 5 years) — guichet.lu (official)", "url": "https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/sejour-5-ans/statut-resident-longue-duree-ressortissant-pays-tiers.html" },
+        { "title": "Luxembourgish nationality by naturalisation (5 years + Sproochentest) — guichet.lu (official)", "url": "https://guichet.public.lu/en/citoyens/citoyennete/nationalite-luxembourgeoise/acquisition-recouvrement/naturalisation.html" },
+        { "title": "ADEM 2025 shortage-occupations list — ADEM (official)", "url": "https://adem.public.lu/en/actualites/adem/2025/03/metiers-penurie.html" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }

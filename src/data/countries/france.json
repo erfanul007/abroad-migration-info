@@ -704,12 +704,30 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 84 },
+        "overseas-direct-hire": { "status": "scored", "score": 85 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 38 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 80 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 80 },
+        "current-openness": { "status": "scored", "score": 58 }
+      },
+      "summary": "Among the most accessible skilled routes in the EU, driven by the Passeport Talent / French Tech Visa: a 4-year multi-year permit with no labour-market test and a salary threshold (~€39,582, ~1.5× average wage) well below the EU Blue Card bar (~€59,373) and below most peers. The employer's paperwork is light (an innovation certificate for the Tech Visa variant), processing is ~2–4 weeks, and family relocates together via the simplified 'Talent – Famille' route with unrestricted spouse work. Clean 5+5 ladder: carte de résident at 5 years, naturalisation at 5 years. Two caveats: French-language reality for hiring (English-first roles concentrate in startups/big tech) and B2 French at citizenship (loi 2024-42, from 2026); and the BSc-only profile sits below the formal Master requirement (open in practice via Blue Card/experience). BD skilled track record is thin (the BD presence is mostly asylum-route).",
+      "pros": [
+        { "text": "Passeport Talent / French Tech Visa: 4-year permit, no labour-market test, low ~€39,582 salary threshold, ~2–4 week processing, and simplified family accompaniment with unrestricted spouse work.", "severity": "highlight" },
+        { "text": "Light employer burden (Station F / Paris tech ecosystem actively sponsors); clean 5+5 path to carte de résident then citizenship, with dual nationality permitted (France within Bangladesh's all-Europe DNC scope)." }
+      ],
+      "cons": [
+        { "text": "Thin BD skilled track record — the French BD presence is overwhelmingly asylum-route, not skilled-work; Talent's leading nationalities are India/China/Morocco." },
+        { "text": "French-language reality narrows English-only hiring, and naturalisation now requires B2 French (loi 2024-42, from 2026); the 2022 BSc sits below the formal Master requirement (open via Blue Card/experience). RN electoral trajectory toward 2027 is a watch-item." }
+      ],
+      "links": [
+        { "title": "International talents & economic attractiveness — France-Visas (official)", "url": "https://france-visas.gouv.fr/en/talents-internationaux-et-attractivite-economique" },
+        { "title": "Talent card 'Salarié qualifié' (threshold, no work-authorisation) — Service-Public (official)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16922" },
+        { "title": "Carte de résident longue durée-UE (after 5 years) — Justice.fr (official)", "url": "https://www.justice.fr/fiche/carte-resident-longue-duree-ue-etranger-france-5-ans" },
+        { "title": "French Tech Visa for employees — Business France (official)", "url": "https://welcome.businessfrance.fr/en/setting-up-a-business/recruiting-international-talent/visas-and-residence-permits/hiring-foreign-employee/french-tech-visa-for-employees/" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }
