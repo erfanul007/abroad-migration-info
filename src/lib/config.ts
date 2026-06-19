@@ -12,5 +12,9 @@ export const CHOROPLETH = { min: 60, max: 80 } as const;
 /** Curation policy: countries scoring below this overall are dropped. */
 export const INCLUSION_MIN = 60;
 
+/** Display recalibration curve: contrast-stretch derived scores around a fixed pivot so
+ *  the aggregate scale uses the full tier range. display = clamp(pivot + (raw-pivot)*gain). */
+export const RECALIBRATE = { pivot: 55, gain: 1.6 } as const;
+
 /** Top-N sizes used across the UI (podium, dashboard preview, compare default slots). */
 export const TOP_N = { podium: 3, dashboard: 5, compare: 2 } as const;
