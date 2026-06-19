@@ -1,7 +1,7 @@
 // src/lib/schema.test.ts
 // Tests cover ONLY the cross-field rules we own — category weights summing to 100, unique
-// category ids, factor weights summing to 100, unique factor ids, a mandatory "other" factor,
-// and a country referencing only known category ids. Full-shape checking (required fields,
+// category ids, factor weights summing to 100, unique factor ids, and a country referencing
+// only known category ids. Full-shape checking (required fields,
 // status enum, integer 0..100 scores, link {title,url}) is Zod's job and is not re-tested here.
 import { describe, it, expect } from "vitest";
 import { validateCategories, validateCountry } from "@/lib/schema";
@@ -35,10 +35,6 @@ describe("factor validation", () => {
   });
   it("flags duplicate factor ids within a category", () => {
     const bad = [{ ...cats[0], factors: [f("a1", 50), f("a1", 30), f("other", 20)] }, cats[1]];
-    expect(validateCategories(bad).length).toBeGreaterThan(0);
-  });
-  it("flags a category with no 'other' factor", () => {
-    const bad = [{ ...cats[0], factors: [f("a1", 50), f("a2", 50)] }, cats[1]];
     expect(validateCategories(bad).length).toBeGreaterThan(0);
   });
   it("rejects string factors (old shape)", () => {

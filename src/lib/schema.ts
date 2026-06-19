@@ -24,8 +24,8 @@ export const factorSchema = z.object({
 });
 
 // A category carries weighted, described factors (sub-categories). Our rules (not pure shape):
-// factor weights sum to 100, factor ids are unique, and every category has an "other"
-// catch-all factor. Expressed as refinements so a single parse enforces them.
+// factor weights sum to 100 and factor ids are unique. Expressed as refinements so a single
+// parse enforces them.
 export const categorySchema = z
   .object({
     id: z.string().min(1),
@@ -41,17 +41,15 @@ export const categorySchema = z
   )
   .refine((c) => new Set(c.factors.map((f) => f.id)).size === c.factors.length, {
     message: "Duplicate factor id within category.",
-  })
-  .refine((c) => c.factors.some((f) => f.id === "other"), {
-    message: "Category must contain an 'other' factor.",
   });
 
 export const cellStatusSchema = z.enum(["scored", "pending"]);
 
-// A pro or con bullet; a blocker is a con carrying severity:"blocker".
+// A pro or con bullet; severity:"blocker" marks a con as a blocker, severity:"highlight"
+// marks a pro as a positive flag.
 export const proConSchema = z.object({
   text: z.string(),
-  severity: z.enum(["normal", "blocker"]).optional(),
+  severity: z.enum(["normal", "blocker", "highlight"]).optional(),
   link: referenceLinkSchema.optional(),
 });
 
