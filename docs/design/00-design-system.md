@@ -45,11 +45,11 @@ Drives `ScoreBadge` and contribution emphasis. Defined in `lib/formatters.ts` as
 | Tier | Range | Badge classes |
 |------|-------|---------------|
 | `excellent` | 80–100 | `bg-emerald-500/15 text-emerald-700 dark:text-emerald-300` |
-| `good` | 65–79 | `bg-lime-500/15 text-lime-700 dark:text-lime-300` |
-| `fair` | 45–64 | `bg-amber-500/15 text-amber-700 dark:text-amber-300` |
-| `weak` | 0–44 | `bg-rose-500/15 text-rose-700 dark:text-rose-300` |
+| `good` | 70–79 | `bg-lime-500/15 text-lime-700 dark:text-lime-300` |
+| `fair` | 60–69 | `bg-amber-500/15 text-amber-700 dark:text-amber-300` |
+| `weak` | 0–59 | `bg-rose-500/15 text-rose-700 dark:text-rose-300` |
 
-Thresholds live in code (`scoreTier()`), not scattered in components. Change them once.
+Thresholds live in code (`scoreTier()` / `TIER` in `lib/config.ts`), not scattered in components. Change them once. The `fair` floor (60) is intentionally aligned with the choropleth fill floor below, so **unfilled on the map == weak tier**.
 
 **Choropleth fill — fixed absolute single-hue green ramp.** The map does *not* use the discrete tiers (a score is an ordered quantity; tiers fake cliffs at the boundaries), nor a data-relative domain (a country's colour would then shift as the dataset grows). Instead `scoreToGreen(score)` maps an **absolute, constant** scale (OKLCH hue 150): `< 60` → `null` (unshaded, renders as neutral land `#c9ced6`); `60 → 80` → one distinct green shade **per whole percent** (21 fixed shades, pale → deep; lightness 0.90→0.36, chroma 0.06→0.21); `≥ 80` → the single deepest green. Whole-percent quantisation (`Math.round`) guarantees "1% = one shade" forever, so a country's colour is stable across future data and small gaps stay visible. An **ease-in curve** (`FILL_CURVE`, convex) weights the ramp toward the deep end, so an equal score gap reads as a wider shade difference at higher scores (76 vs 72 separates more than 66 vs 62). Thresholds (`FILL_MIN`/`FILL_MAX`) live in code. Legend = a neutral `<60` chip + an 8-stop gradient bar sampled from the fixed 60→80 ramp.
 
@@ -60,6 +60,8 @@ Thresholds live in code (`scoreTier()`), not scattered in components. Change the
 `["var(--primary)", "#16a34a", "#ea580c"]` — app primary (theme-aware, matches buttons/links), green, orange. Distinct in both themes and for common colour-blindness; never more than three.
 
 **Single source for chart/map literals.** Recharts and Leaflet need raw CSS colour strings (they can't read Tailwind classes), so the few literal colours they require live in **one place — `src/lib/palette.ts`** (`SERIES`, `MAP_LAND`, `MAP_BORDER`). No component hardcodes a hex. The choropleth's per-country fill comes from `scoreToGreen()` (§2.2); single-value charts (`ContributionBars`) use the `var(--primary)` token directly. Everything else uses theme tokens via Tailwind utilities.
+
+**Category identity palette (methodology pie) — a deliberate exception.** The methodology category-weight pie has 15 slices, more than the ≤3-series guideline above. `categoryColor(index, total)` (in `palette.ts`) generates evenly-spaced OKLCH hues (fixed mid lightness/chroma, legible in both themes) used **only** for that one chart. Sanctioned because the colour encodes category *identity*, not a good/bad value, and is always redundant with a visible text label (pie tooltip + the matching colour dot on each category tile) — colour is never the sole signal. Do not reuse this palette for value-encoding charts.
 
 ---
 
