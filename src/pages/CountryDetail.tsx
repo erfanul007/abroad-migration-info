@@ -4,6 +4,7 @@ import { useCountry, useData } from "@/hooks/useData";
 import { Section } from "@/components/common/Section";
 import { ScoreBadge } from "@/components/common/ScoreBadge";
 import { PendingBadge } from "@/components/common/PendingBadge";
+import { SeverityBadge } from "@/components/common/SeverityBadge";
 import { RadarProfile } from "@/components/charts/RadarProfile";
 import { ContributionBars } from "@/components/charts/ContributionBars";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -74,9 +75,7 @@ export default function CountryDetail() {
                         {cell.pros.map((p) => (
                           <li key={p.text}>
                             {p.text}
-                            {p.severity === "highlight" && (
-                              <span className="ml-1 font-semibold text-emerald-600 dark:text-emerald-400">(direct-work route)</span>
-                            )}
+                            {p.severity === "highlight" && <SeverityBadge severity="highlight" />}
                           </li>
                         ))}
                       </ul>
@@ -86,9 +85,7 @@ export default function CountryDetail() {
                         {cell.cons.map((co) => (
                           <li key={co.text}>
                             {co.text}
-                            {co.severity === "blocker" && (
-                              <span className="ml-1 font-semibold text-rose-600 dark:text-rose-400">(blocker)</span>
-                            )}
+                            {co.severity === "blocker" && <SeverityBadge severity="blocker" />}
                           </li>
                         ))}
                       </ul>
