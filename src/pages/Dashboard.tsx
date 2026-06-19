@@ -1,6 +1,7 @@
 // src/pages/Dashboard.tsx
 import { Link } from "react-router";
 import { useData } from "@/hooks/useData";
+import { useScoreboard } from "@/hooks/useScoreboard";
 import { Section } from "@/components/common/Section";
 import { Podium } from "@/components/common/Podium";
 import { StatCard } from "@/components/common/StatCard";
@@ -8,12 +9,12 @@ import { Choropleth } from "@/components/charts/Choropleth";
 import { ScoreBadge } from "@/components/common/ScoreBadge";
 import { Button } from "@/components/ui/button";
 import { formatDate } from "@/lib/formatters";
-import { topN } from "@/lib/selectors";
 import { TOP_N } from "@/lib/config";
 import { Globe, Scale, Trophy, CalendarClock, Map, ListOrdered, ArrowRight } from "lucide-react";
 
 export default function Dashboard() {
   const { countries, categories, profile } = useData();
+  const board = useScoreboard();
   const reviewedDates = countries.map((c) => c.lastReviewed).sort();
 
   return (
@@ -31,7 +32,7 @@ export default function Dashboard() {
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
         <StatCard label="Countries" value={String(countries.length)} icon={Globe} />
         <StatCard label="Categories" value={String(categories.length)} hint="weights total 100%" icon={Scale} />
-        <StatCard label="Top score" badge={<ScoreBadge score={countries[0]?.overall ?? 0} />} hint={countries[0]?.name} icon={Trophy} />
+        <StatCard label="Top score" badge={<ScoreBadge score={board.countries[0]?.overall ?? 0} />} hint={board.countries[0]?.name} icon={Trophy} />
         <StatCard label="Last reviewed" value={reviewedDates.length ? formatDate(reviewedDates[reviewedDates.length - 1]) : "—"} icon={CalendarClock} />
       </div>
 
@@ -39,7 +40,7 @@ export default function Dashboard() {
 
       <Section title="Leaderboard" icon={ListOrdered} action={<Button asChild variant="outline" size="sm"><Link to="/leaderboard">Full leaderboard <ArrowRight className="size-4" /></Link></Button>}>
         <div className="divide-y rounded-lg border">
-          {topN(countries, TOP_N.dashboard).map((c) => (
+          {board.countries.slice(0, TOP_N.dashboard).map((c) => (
             <Link key={c.id} to={`/country/${c.iso}`} className="flex items-center justify-between px-4 py-2.5 hover:bg-muted">
               <span className="flex items-center gap-2"><span className="w-6 tabular-nums text-muted-foreground">{c.rank}</span><span aria-hidden>{c.flag}</span><span className="font-medium">{c.name}</span></span>
               <ScoreBadge score={c.overall} />
