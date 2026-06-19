@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-Agent operating guide for **abroad-migration-info** — a static React SPA that ranks candidate migration countries against one fixed personal profile (MSc → post-study work → PR → citizenship → passport). A curated set of countries (currently 20) is scored 0–100 across 14 weighted categories; the overall score is a weighted sum computed at runtime. JSON is the data store and the only authoritative source for counts; the UI is read-only over it.
+Agent operating guide for **abroad-migration-info** — a static React SPA that ranks candidate migration countries against one fixed personal profile (MSc → post-study work → PR → citizenship → passport). A curated set of countries (currently 20) is scored 0–100 across 15 weighted categories; the overall score is a weighted sum computed at runtime, then passed through a display recalibration curve (`recalibrate`). JSON is the data store and the only authoritative source for counts; the UI is read-only over it.
 
 The applicants are **Bangladeshi nationals based in Dhaka** — assess every country through that lens. Visa accessibility, embassy/processing access, and diaspora are nationality-specific and must reflect the Bangladeshi-applicant reality, not a generic one.
 
@@ -28,10 +28,10 @@ Applies to *every* change to a country/category score, evidence, summary, reason
 - **Add a country/category = JSON only**, no component changes. New category → `categories.json`; new country → `countries/<id>.json`.
 - **Weights sum to 100** (±0.001), category ids are unique, and a country may only reference known category ids.
 - **Absolute 0–100 scale** (not data-relative): tiers ≥80 excellent, ≥65 good, ≥45 fair, else weak (`scoreTier`). Map fill: 60–80 green ramp, <60 unfilled.
-- **Overall is computed at runtime, never stored** (weighted sum, renormalised over present categories). Do not add a precomputed `overall` field.
-- **Inclusion:** drop countries scoring <60% overall (current curation policy).
+- **Overall is computed at runtime, never stored** in a source country JSON (weighted sum, renormalised over present categories, then `recalibrate`d for display). Do not add a precomputed `overall` field to a country file. The one sanctioned derived artifact is the generated, drift-tested `src/data/cache/scoreboard.json` (regenerate via `npm run cache:scores`; never hand-edit).
+- **Inclusion:** drop countries scoring <50% overall (surfaced, not auto-deleted).
 - **Cell standard:** a `scored` cell should carry `score`, `summary`, `reasoning`, `evidence[]`, `links[]`, `lastReviewed`. `pending` = placeholder, rendered muted; pending cells are excluded from the overall, not counted as zero.
-- **Categories** (`id` · weight, sum = 100): `job-market` 12 · `visa-access` 10 (BD lens) · `citizenship` 10 · `post-study-work` 9 · `spouse-family` 9 · `msc-study` 8 · `pr-pathway` 8 · `income-cost` 7 · `healthcare` 6 · `culture-language` 6 · `safety-law` 5 · `politics` 4 · `tax` 3 · `muslim-diaspora` 3. Rebalance the whole set if you change any weight — the sum must stay 100.
+- **Categories** (`id` · weight, sum = 100): `job-market` 10 · `visa-access` 9 (BD lens) · `citizenship` 9 · `post-study-work` 8 · `spouse-family` 8 · `msc-study` 7 · `pr-pathway` 7 · `income-cost` 6 · `healthcare` 5 · `culture-language` 6 · `safety-law` 5 · `politics` 4 · `tax` 3 · `muslim-diaspora` 3 · `direct-work-route` 10 (BD direct skilled-work entry route; owns sponsorship). Rebalance the whole set if you change any weight — the sum must stay 100. Categories have no `other` catch-all factor.
 
 ## Stack
 
@@ -56,6 +56,7 @@ React 19 · TypeScript (strict) · Vite 8 · React Router 7 · Tailwind CSS v4 +
 ## Quality gate & commits
 
 - **Before "done", all green:** `npm run lint && npm run typecheck && npm run test && npm run build`. Report results honestly; never claim passing unverified.
+- **Regenerate the score cache before committing any data/scoring change:** `npm run cache:scores` (rewrites `src/data/cache/scoreboard.json`); the drift test fails the gate if it is stale.
 - **Commits:** Conventional Commits, imperative mood (`data:`, `docs:`, `feat:`, `fix:`, `refactor:`, `ci:`). Branch off `main` for non-trivial work.
 - **Never commit or push without explicit approval** — including in auto-accept / auto-edit mode. Auto mode covers edits, not git history. Stage and propose; wait for the go-ahead.
 
@@ -66,7 +67,7 @@ React 19 · TypeScript (strict) · Vite 8 · React Router 7 · Tailwind CSS v4 +
 ## Never
 
 - Change a score/evidence/claim without deep research and citations.
-- Store a precomputed overall, or add a country/category via code instead of JSON.
+- Store a precomputed overall in a source country JSON (the generated `scoreboard.json` cache is the only exception), or add a country/category via code instead of JSON.
 - Fabricate statistics, sources, or `lastReviewed` dates.
 - Hardcode number/date separators, or bypass the Zod test gate.
 - Decide silently on ambiguity, or skip the simpler-approach debate.

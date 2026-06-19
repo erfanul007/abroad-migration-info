@@ -9,8 +9,8 @@ export const TIER = { excellent: 80, good: 65, fair: 45 } as const;
 /** Choropleth fill band: below `min` → no fill; at/above `max` → deepest shade (capped). */
 export const CHOROPLETH = { min: 60, max: 80 } as const;
 
-/** Curation policy: countries scoring below this overall are dropped. */
-export const INCLUSION_MIN = 60;
+/** Curation policy: countries scoring below this overall are dropped (surfaced, not auto-deleted). */
+export const INCLUSION_MIN = 50;
 
 /** Display recalibration curve: contrast-stretch derived scores around a fixed pivot so
  *  the aggregate scale uses the full tier range. display = clamp(pivot + (raw-pivot)*gain). */
