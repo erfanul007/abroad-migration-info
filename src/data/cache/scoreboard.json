@@ -11,8 +11,8 @@
       "iso": "CA",
       "flag": "🇨🇦",
       "rank": 1,
-      "overall": 76.01,
-      "overallRaw": 68.13,
+      "overall": 74.76,
+      "overallRaw": 67.35,
       "categoryScores": {
         "job-market": 87.03,
         "visa-access": 41.67,
@@ -28,7 +28,7 @@
         "politics": 51.32,
         "tax": 52.55,
         "muslim-diaspora": 78.97,
-        "direct-work-route": null
+        "direct-work-route": 63.48
       },
       "hasBlocker": false,
       "hasHighlight": false

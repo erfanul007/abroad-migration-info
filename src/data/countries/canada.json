@@ -787,12 +787,31 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 55 },
+        "overseas-direct-hire": { "status": "scored", "score": 70 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 50 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 60 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 75 },
+        "current-openness": { "status": "scored", "score": 45 }
+      },
+      "summary": "A real but no-longer-prioritised direct-work route. The Global Talent Stream issues work permits for software/data-science roles in ~2 weeks and a Canadian employer can hire and relocate directly from Dhaka, but converting that permit to PR now hinges on a high general/CEC Express Entry CRS (~485–547 in 2025): software engineer and data scientist were removed from the STEM category-based draws (Feb 2025, no STEM draw since Apr 2024) and arranged-employment CRS points were abolished (Mar 2025), so a job offer speeds the permit yet no longer boosts PR ranking. Work → Canadian experience → CEC → PR → citizenship remains a clear settlement track. Tempered by the reduced 2026–28 levels plan (~380k/yr) and TFWP/LMIA tightening; dual citizenship retained both ways.",
+      "pros": [
+        { "text": "Global Talent Stream gives ~2-week work-permit processing for software/data-science roles; a Canadian employer can name and relocate a candidate directly from Bangladesh." },
+        { "text": "Express Entry is itself the PR mechanism — work → Canadian experience → CEC → PR → citizenship is a clear settlement track, with dual citizenship retained both ways (Canada is on Bangladesh's DNC list)." }
+      ],
+      "cons": [
+        { "text": "Software engineer and data scientist were removed from the STEM category-based draws (Feb 2025) and no STEM draw has run since Apr 2024 — the headline tech fast-track no longer applies to this profile." },
+        { "text": "Arranged-employment CRS points were abolished (Mar 2025): a job offer speeds the work permit but not PR ranking, and the general/CEC CRS bar is high (~485–547)." },
+        { "text": "The 2026–28 levels plan cuts PR to ~380k/yr with TFWP/LMIA tightening, narrowing the door for fresh overseas applicants." }
+      ],
+      "links": [
+        { "title": "Express Entry: Rounds of invitations — IRCC (official)", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/rounds-invitations.html" },
+        { "title": "Global Talent Stream — Employment and Social Development Canada (official)", "url": "https://www.canada.ca/en/employment-social-development/services/foreign-workers/global-talent.html" },
+        { "title": "2026–2028 Immigration Levels Plan — Government of Canada (official)", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/corporate-initiatives/levels/supplementary-immigration-levels-2026-2028.html" },
+        { "title": "Dual Nationality Certificate — Embassy of Bangladesh (official)", "url": "https://washington.mofa.gov.bd/pages/static-pages/695266b435ce18e1c05aadf1" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }
