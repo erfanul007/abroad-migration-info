@@ -35,6 +35,7 @@ export interface ScoredCountry extends Country {
   hasPending: boolean; // any category non-derivable (pending/incomplete factors)
   isComplete: boolean; // all categories present and derivable
   hasBlocker: boolean; // any con tagged severity:"blocker"
+  hasHighlight: boolean; // any pro tagged severity:"highlight"
   categoryScores: Record<string, number | null>; // derived per-category score lookup
   scored: ScoredCategory[];
 }

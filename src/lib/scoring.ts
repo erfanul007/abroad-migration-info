@@ -61,6 +61,7 @@ export function scoreCountry(country: Country, categories: Category[]): ScoredCo
   const isComplete = present.length === categories.length && !hasPending;
   const categoryScores = Object.fromEntries(scored.map((s) => [s.category.id, s.score]));
   const hasBlocker = present.some((s) => (s.cell!.cons ?? []).some((c) => c.severity === "blocker"));
+  const hasHighlight = present.some((s) => (s.cell!.pros ?? []).some((p) => p.severity === "highlight"));
   return {
     ...country,
     overall: recalibrate(computeOverall(country, categories)),
@@ -68,6 +69,7 @@ export function scoreCountry(country: Country, categories: Category[]): ScoredCo
     hasPending,
     isComplete,
     hasBlocker,
+    hasHighlight,
     categoryScores,
     scored,
   };

@@ -85,6 +85,12 @@ describe("scoreCountry", () => {
     expect(scoreCountry(c, cats).hasBlocker).toBe(true);
     expect(scoreCountry(country("y", 80, 50), cats).hasBlocker).toBe(false);
   });
+  it("derives hasHighlight from any pro tagged severity:highlight", () => {
+    const c = country("x", 80, 50);
+    c.categories.a = { ...c.categories.a, pros: [{ text: "open direct work visa", severity: "highlight" }] };
+    expect(scoreCountry(c, cats).hasHighlight).toBe(true);
+    expect(scoreCountry(country("y", 80, 50), cats).hasHighlight).toBe(false);
+  });
 });
 
 describe("recalibrate", () => {

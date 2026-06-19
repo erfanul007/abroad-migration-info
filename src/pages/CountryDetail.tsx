@@ -71,7 +71,14 @@ export default function CountryDetail() {
                     {cell.summary && <p>{cell.summary}</p>}
                     {cell.pros.length > 0 && (
                       <ul className="list-inside list-disc text-emerald-700 dark:text-emerald-300">
-                        {cell.pros.map((p) => <li key={p.text}>{p.text}</li>)}
+                        {cell.pros.map((p) => (
+                          <li key={p.text}>
+                            {p.text}
+                            {p.severity === "highlight" && (
+                              <span className="ml-1 font-semibold text-emerald-600 dark:text-emerald-400">(direct-work route)</span>
+                            )}
+                          </li>
+                        ))}
                       </ul>
                     )}
                     {cell.cons.length > 0 && (
