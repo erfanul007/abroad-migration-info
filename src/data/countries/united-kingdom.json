@@ -671,12 +671,32 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 52 },
+        "overseas-direct-hire": { "status": "scored", "score": 70 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 62 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 50 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 65 },
+        "current-openness": { "status": "scored", "score": 35 }
+      },
+      "summary": "A legally valid direct-work route, but friction-heavy for this junior profile. The Skilled Worker visa effectively requires the software-developer going rate (~£54,700, occupation code 2134) — well above the £41,700 general threshold — unless the new-entrant discount applies; the RQF6 degree floor is met by the BSc. A UK employer can hire and relocate from Dhaka on a Certificate of Sponsorship, and Global Talent (Digital Technology) needs no sponsor, salary floor or English test but demands a strong endorsable portfolio. Skilled Worker → ILR (5 yrs) → citizenship, with dual retained (UK on Bangladesh's DNC list) — but the 2025 White Paper's proposed 10-year 'earned settlement' (consultation closed Feb 2026, not yet law) would roughly double the PR timeline. Sustained tightening: thresholds raised, ~36% fewer Skilled Worker grants YoY, rising sponsor costs.",
+      "pros": [
+        { "text": "Global Talent (Digital Technology) needs no sponsor, no salary floor and no English test — the lowest-friction door for a strong portfolio." },
+        { "text": "World's largest British-Bangladeshi community (~650k) eases networks; Skilled Worker → ILR (5 yrs) → citizenship with dual retained (UK on Bangladesh's DNC list)." }
+      ],
+      "cons": [
+        { "text": "The software-developer going rate (~£54,700) prices out a junior overseas hire on the standard Skilled Worker route; the new-entrant discount only partially mitigates." },
+        { "text": "Rising employer cost (Immigration Skills Charge up to £1,320/yr, CoS £525) and ~36% fewer Skilled Worker grants YoY signal falling sponsorship appetite." },
+        { "text": "2025 White Paper proposes 10-year ILR ('earned settlement') — if enacted, doubles the PR timeline; the High Potential Individual route is closed to BD applicants (no eligible university)." }
+      ],
+      "links": [
+        { "title": "Skilled Worker visa — GOV.UK (official)", "url": "https://www.gov.uk/skilled-worker-visa" },
+        { "title": "Skilled Worker visa: going rates for eligible occupation codes — GOV.UK (official)", "url": "https://www.gov.uk/government/publications/skilled-worker-visa-going-rates-for-eligible-occupations/skilled-worker-visa-going-rates-for-eligible-occupation-codes" },
+        { "title": "Immigration system statistics, year ending June 2025 — GOV.UK (official)", "url": "https://www.gov.uk/government/statistics/immigration-system-statistics-year-ending-june-2025/summary-of-latest-statistics" },
+        { "title": "Changes after the 2025 immigration White Paper — House of Commons Library", "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10267/" },
+        { "title": "Dual Nationality Certificate — Bangladesh High Commission London (official)", "url": "https://bhclondon.org.uk/dual-nationality-certificate" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }

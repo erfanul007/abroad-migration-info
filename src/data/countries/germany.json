@@ -774,12 +774,31 @@
       "lastReviewed": "2026-06-18"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 90 },
+        "overseas-direct-hire": { "status": "scored", "score": 90 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 60 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 85 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 88 },
+        "current-openness": { "status": "scored", "score": 78 }
+      },
+      "summary": "A textbook top-tier direct-work route for a degreed BD software/AI couple. The EU Blue Card has an IT-shortage reduced salary threshold (€45,934 in 2026 vs €50,700 general) that tech engineers clear easily, recognises a BD BSc via anabin/ZAB, and there is no sponsor-licence regime — the German Embassy Dhaka issues the visa directly (~3 weeks; §81a accelerated procedure ~4–6 weeks), with the Opportunity Card (Chancenkarte) as an in-country job-search alternative (+1 point if the spouse co-applies). Blue Card → settlement permit in 21 months (B1) / 27 (A1) — among the fastest PR anywhere → citizenship at 5 years with dual citizenship retained (StAG reform 2024; Germany within Bangladesh's all-Europe DNC scope). The 3-year fast-track was abolished (Oct 2025) but the 5-year route and the work track were untouched. Watch-item: the AfD's restriction agenda.",
+      "pros": [
+        { "text": "Top-tier open direct-work route: EU Blue Card with an IT-shortage salary threshold, no sponsor-licence regime, visa issued directly from Dhaka, settlement permit in 21 months, and dual citizenship retained.", "severity": "highlight" },
+        { "text": "Opportunity Card (Chancenkarte) job-search route with a couple bonus point; §18g no-degree IT fallback; acute Fachkräftemangel drives strong tech demand." }
+      ],
+      "cons": [
+        { "text": "No clean public breakdown of Bangladesh-specific Blue Card grants and a modest resident BD community — the channel is established (Germany issues ~72% of EU Blue Cards) but not yet large for BD." },
+        { "text": "The 3-year citizenship fast-track was abolished (Oct 2025); the AfD (~20%) pushes points-caps/quotas (a watch-item, not current policy); B1 German is needed for the fastest PR/citizenship." }
+      ],
+      "links": [
+        { "title": "Skilled workers / EU Blue Card visa — German Embassy Dhaka (official)", "url": "https://dhaka.diplo.de/bd-en/service/2679664-2679664" },
+        { "title": "Opportunity Card (Chancenkarte) — German Embassy Dhaka (official)", "url": "https://dhaka.diplo.de/bd-en/service/2685670-2685670" },
+        { "title": "The EU Blue Card (§18g, 21/27-month settlement) — BAMF (official)", "url": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/ZuwandererDrittstaaten/Migrathek/BlaueKarteEU/blauekarteeu.html" },
+        { "title": "EU Blue Card — Make it in Germany (Federal Government, official)", "url": "https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card" },
+        { "title": "Dual Nationality Certificate (all European states) — Embassy of Bangladesh (official)", "url": "https://washington.mofa.gov.bd/pages/static-pages/695266b435ce18e1c05aadf1" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }

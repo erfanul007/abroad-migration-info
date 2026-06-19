@@ -34,41 +34,13 @@
       "hasHighlight": false
     },
     {
-      "id": "united-kingdom",
-      "name": "United Kingdom",
-      "iso": "GB",
-      "flag": "🇬🇧",
-      "rank": 2,
-      "overall": 72.39,
-      "overallRaw": 65.87,
-      "categoryScores": {
-        "job-market": 87.58,
-        "visa-access": 63.42,
-        "citizenship": 79.1,
-        "post-study-work": 80.07,
-        "spouse-family": 79.21,
-        "msc-study": 72.01,
-        "pr-pathway": 65.99,
-        "income-cost": 48.95,
-        "healthcare": 69.74,
-        "culture-language": 93.4,
-        "safety-law": 68.46,
-        "politics": 36.25,
-        "tax": 53.16,
-        "muslim-diaspora": 88.98,
-        "direct-work-route": null
-      },
-      "hasBlocker": false,
-      "hasHighlight": false
-    },
-    {
       "id": "ireland",
       "name": "Ireland",
       "iso": "IE",
       "flag": "🇮🇪",
-      "rank": 3,
-      "overall": 71.48,
-      "overallRaw": 65.3,
+      "rank": 2,
+      "overall": 74.15,
+      "overallRaw": 66.97,
       "categoryScores": {
         "job-market": 81.77,
         "visa-access": 55.06,
@@ -84,19 +56,19 @@
         "politics": 60.26,
         "tax": 48.07,
         "muslim-diaspora": 62.17,
-        "direct-work-route": null
+        "direct-work-route": 98.2
       },
       "hasBlocker": false,
-      "hasHighlight": false
+      "hasHighlight": true
     },
     {
       "id": "germany",
       "name": "Germany",
       "iso": "DE",
       "flag": "🇩🇪",
-      "rank": 4,
-      "overall": 70.08,
-      "overallRaw": 64.43,
+      "rank": 3,
+      "overall": 73.08,
+      "overallRaw": 66.3,
       "categoryScores": {
         "job-market": 70.84,
         "visa-access": 36.68,
@@ -112,7 +84,35 @@
         "politics": 48.9,
         "tax": 27.94,
         "muslim-diaspora": 52.57,
-        "direct-work-route": null
+        "direct-work-route": 100
+      },
+      "hasBlocker": false,
+      "hasHighlight": true
+    },
+    {
+      "id": "united-kingdom",
+      "name": "United Kingdom",
+      "iso": "GB",
+      "flag": "🇬🇧",
+      "rank": 4,
+      "overall": 71.08,
+      "overallRaw": 65.05,
+      "categoryScores": {
+        "job-market": 87.58,
+        "visa-access": 63.42,
+        "citizenship": 79.1,
+        "post-study-work": 80.07,
+        "spouse-family": 79.21,
+        "msc-study": 72.01,
+        "pr-pathway": 65.99,
+        "income-cost": 48.95,
+        "healthcare": 69.74,
+        "culture-language": 93.4,
+        "safety-law": 68.46,
+        "politics": 36.25,
+        "tax": 53.16,
+        "muslim-diaspora": 88.98,
+        "direct-work-route": 59.32
       },
       "hasBlocker": false,
       "hasHighlight": false
@@ -123,8 +123,8 @@
       "iso": "AU",
       "flag": "🇦🇺",
       "rank": 5,
-      "overall": 69.36,
-      "overallRaw": 63.97,
+      "overall": 70.69,
+      "overallRaw": 64.81,
       "categoryScores": {
         "job-market": 74.25,
         "visa-access": 35.9,
@@ -140,10 +140,10 @@
         "politics": 46.46,
         "tax": 41.7,
         "muslim-diaspora": 69.18,
-        "direct-work-route": null
+        "direct-work-route": 82.68
       },
       "hasBlocker": false,
-      "hasHighlight": false
+      "hasHighlight": true
     },
     {
       "id": "new-zealand",

@@ -786,12 +786,31 @@
       "lastReviewed": "2026-06-18"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 62 },
+        "overseas-direct-hire": { "status": "scored", "score": 85 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 66 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 70 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 88 },
+        "current-openness": { "status": "scored", "score": 58 }
+      },
+      "summary": "A complete, well-documented direct-work chain for BD ICT engineers. Software Engineer (ANZSCO 261313) is on the Core Skills Occupation List; the Skills in Demand (482) Core Skills stream is open offshore (income threshold A$73,150, easily cleared by software pay) so an employer can sponsor and relocate directly from Dhaka — though the alternative points-tested Skilled Independent (189) route is intensely competitive for ICT (~90+ points). 482 → Employer Nomination Scheme 186 PR after 2 years (Temporary Residence Transition), or 189 = direct PR on grant → citizenship at 4 years, with dual citizenship retained (Australia is on Bangladesh's DNC list). Established, fast-growing BD community (~51,500 Bangladesh-born, 67% naturalised). Friction: ACS skills assessment, the Skilling Australians Fund levy (a small-employer deterrent), and a flat 2025–26 program.",
+      "pros": [
+        { "text": "Complete direct-work chain: offshore-eligible 482 on an open ICT occupation list, employer-sponsored from Dhaka, 186 PR after 2 years (or 189 direct PR), citizenship at 4 years, dual retained (Australia on Bangladesh's DNC list).", "severity": "highlight" },
+        { "text": "Established, fast-growing Bangladeshi community (~51,500 born, 67% citizens) shows the route works; software-engineer salaries clear the A$73,150 threshold easily." }
+      ],
+      "cons": [
+        { "text": "The no-sponsor 189 points route is intensely competitive for ICT (~90+ points); a skills assessment via ACS is required." },
+        { "text": "The Skilling Australians Fund levy (small business ~A$1,200/yr per worker, not passable to the worker) deters small employers; the 2025–26 program is flat (185,000)." }
+      ],
+      "links": [
+        { "title": "Skills in Demand visa (subclass 482) — Core Skills stream — Department of Home Affairs (official)", "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/core-skills-stream" },
+        { "title": "Skilled Independent visa (subclass 189) — points-tested — Department of Home Affairs (official)", "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-independent-189/points-tested" },
+        { "title": "Core Skills Occupation List (CSOL) — Department of Home Affairs (official)", "url": "https://immi.homeaffairs.gov.au/Documents/core-sol.pdf" },
+        { "title": "People in Australia born in Bangladesh — ABS 2021 Census (official)", "url": "https://www.abs.gov.au/census/find-census-data/quickstats/2021/7101_AUS" },
+        { "title": "Residence calculator (citizenship) — Department of Home Affairs (official)", "url": "https://immi.homeaffairs.gov.au/help-support/tools/residence-calculator" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }

@@ -700,12 +700,31 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 90 },
+        "overseas-direct-hire": { "status": "scored", "score": 90 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 45 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 90 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 90 },
+        "current-openness": { "status": "scored", "score": 80 }
+      },
+      "summary": "A flagship direct-work route for an English-speaking BD CS engineer. The Critical Skills Employment Permit covers ICT roles, has no Labour Market Needs Test, and its threshold (€40,904 from 1 Mar 2026; €36,848 recent-graduate) sits comfortably below Dublin tech pay. Ireland has no sponsor-licence regime, so an employer can hire and relocate directly from Dhaka (employment permit, then a D-visa). CSEP → Stamp 1 → Stamp 4 at 21 months → naturalisation at 5 years reckonable (work time counts, unlike study), with dual citizenship retained both ways (Ireland within Bangladesh's all-Europe DNC scope). Dublin is a European big-tech hub (Google/Meta/Microsoft/Amazon/Apple). Main reservations: thin BD-specific track record and acute Dublin housing cost.",
+      "pros": [
+        { "text": "Open direct skilled-work route: ICT on the Critical Skills list, no Labour Market Needs Test, no sponsor-licence regime — an employer can hire and relocate directly from Dhaka.", "severity": "highlight" },
+        { "text": "CSEP → Stamp 4 at 21 months → citizenship at 5 years reckonable (work time counts); dual retained both ways; Dublin big-tech hub hiring non-EEA ICT staff." }
+      ],
+      "cons": [
+        { "text": "Bangladesh is outside Ireland's top employment-permit nationalities (India dominates) — the established BD direct-hire channel is thin." },
+        { "text": "Acute Dublin housing/rental shortage and cost; the D-visa step adds processing time for BD nationals." }
+      ],
+      "links": [
+        { "title": "Critical Skills Employment Permit — DETE (official)", "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/" },
+        { "title": "Roadmap for gradual increase in permit salary thresholds (2 Dec 2025) — DETE (official)", "url": "https://enterprise.gov.ie/en/news-and-events/department-news/2025/december/20251202.html" },
+        { "title": "Becoming an Irish citizen through naturalisation — Citizens Information (official)", "url": "https://www.citizensinformation.ie/en/moving-country/irish-citizenship/becoming-an-irish-citizen-through-naturalisation/" },
+        { "title": "Immigration permission stamps (Stamp 1 / Stamp 4) — Immigration Service Delivery (official)", "url": "https://www.irishimmigration.ie/registering-your-immigration-permission/information-on-registering/immigration-permission-stamps/" },
+        { "title": "Dual Nationality Certificate (all European states) — Embassy of Bangladesh (official)", "url": "https://washington.mofa.gov.bd/pages/static-pages/695266b435ce18e1c05aadf1" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }
