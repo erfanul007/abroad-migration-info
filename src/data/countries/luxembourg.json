@@ -8,33 +8,66 @@
   "summary": "A wealthy, ultra-international micro-state with very high tech/AI salaries (AI ~€112–130k), a top-3 passport, dual citizenship retained both ways, a 5-year naturalisation path at a modest Luxembourgish-language bar, affordable study (~€0–5.2k tuition), universal healthcare and an open, stable, pro-migration politics — but constrained for this profile by a tiny single-university job market, a trilingual (Luxembourgish/French/German) reality, extreme housing costs, a small Muslim/Bangladeshi community and no in-country visa mission in Dhaka. Derived overall sits marginally above the 60% inclusion line.",
   "lastReviewed": "2026-06-19",
   "links": [
-    { "title": "Guichet.lu — official public-services portal (immigration & nationality)", "url": "https://guichet.public.lu/en/citoyens.html" },
-    { "title": "University of Luxembourg — official", "url": "https://www.uni.lu/en/" }
+    {
+      "title": "Guichet.lu — official public-services portal (immigration & nationality)",
+      "url": "https://guichet.public.lu/en/citoyens.html"
+    },
+    {
+      "title": "University of Luxembourg — official",
+      "url": "https://www.uni.lu/en/"
+    }
   ],
   "categories": {
     "job-market": {
       "status": "scored",
       "summary": "Among the highest tech/AI salaries in Europe in a fast-growing sector, but the domestic market is tiny and trilingual, with intense competition.",
       "factors": {
-        "sw-demand-depth": { "status": "scored", "score": 58 },
-        "ai-ml-specialisation": { "status": "scored", "score": 52 },
-        "salary-levels": { "status": "scored", "score": 82 },
-        "sponsorship-work-authorisation": { "status": "scored", "score": 65 },
-        "foreign-grad-bd-hireability": { "status": "scored", "score": 52 },
-        "dual-earner-depth": { "status": "scored", "score": 42 },
-        "other": { "status": "scored", "score": 50 }
+        "sw-demand-depth": {
+          "status": "scored",
+          "score": 58
+        },
+        "ai-ml-specialisation": {
+          "status": "scored",
+          "score": 52
+        },
+        "salary-levels": {
+          "status": "scored",
+          "score": 82
+        },
+        "foreign-grad-bd-hireability": {
+          "status": "scored",
+          "score": 52
+        },
+        "dual-earner-depth": {
+          "status": "scored",
+          "score": 42
+        }
       },
       "pros": [
-        { "text": "Very high pay: AI engineers ~€112k–130k and software engineers ~€85k–130k; tech contributes ~8% of GDP with 27,000+ high-skilled jobs created since 2020 (15% growth)." },
-        { "text": "EU Blue Card access is straightforward, and cross-border commuting to France/Germany/Belgium widens options." }
+        {
+          "text": "Very high pay: AI engineers ~€112k–130k and software engineers ~€85k–130k; tech contributes ~8% of GDP with 27,000+ high-skilled jobs created since 2020 (15% growth)."
+        },
+        {
+          "text": "EU Blue Card access is straightforward, and cross-border commuting to France/Germany/Belgium widens options."
+        }
       ],
       "cons": [
-        { "text": "The domestic market is tiny (population ~660k) — limited depth to place two tech earners." },
-        { "text": "Multilingualism (English/French/German) is commonly expected, and competition for roles is intense." }
+        {
+          "text": "The domestic market is tiny (population ~660k) — limited depth to place two tech earners."
+        },
+        {
+          "text": "Multilingualism (English/French/German) is commonly expected, and competition for roles is intense."
+        }
       ],
       "links": [
-        { "title": "Jobicy — AI Engineer salary, Luxembourg (2025)", "url": "https://jobicy.com/salaries/lu/ai-engineer" },
-        { "title": "Nucamp — most in-demand tech jobs in Luxembourg (2025)", "url": "https://www.nucamp.co/blog/coding-bootcamp-luxembourg-lux-most-in-demand-tech-job-in-luxembourg-in-2025" }
+        {
+          "title": "Jobicy — AI Engineer salary, Luxembourg (2025)",
+          "url": "https://jobicy.com/salaries/lu/ai-engineer"
+        },
+        {
+          "title": "Nucamp — most in-demand tech jobs in Luxembourg (2025)",
+          "url": "https://www.nucamp.co/blog/coding-bootcamp-luxembourg-lux-most-in-demand-tech-job-in-luxembourg-in-2025"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -42,22 +75,46 @@
       "status": "scored",
       "summary": "Modest funds and an open posture, but Luxembourg has no mission in Dhaka, so applications route via a neighbouring/third-country mission.",
       "factors": {
-        "approval-refusal-rate": { "status": "scored", "score": 52 },
-        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 42 },
-        "in-queue-processing-schemes": { "status": "scored", "score": 50 },
-        "financial-bars": { "status": "scored", "score": 58 },
-        "credibility-genuineness-scrutiny": { "status": "scored", "score": 55 },
-        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 55 },
-        "other": { "status": "scored", "score": 50 }
+        "approval-refusal-rate": {
+          "status": "scored",
+          "score": 52
+        },
+        "dhaka-mission-appointment-capacity": {
+          "status": "scored",
+          "score": 42
+        },
+        "in-queue-processing-schemes": {
+          "status": "scored",
+          "score": 50
+        },
+        "financial-bars": {
+          "status": "scored",
+          "score": 58
+        },
+        "credibility-genuineness-scrutiny": {
+          "status": "scored",
+          "score": 55
+        },
+        "heightened-scrutiny-policy-risk": {
+          "status": "scored",
+          "score": 55
+        }
       },
       "pros": [
-        { "text": "Funds requirements are modest and Luxembourg is an open, pro-migration country with no Bangladesh-specific restrictions." }
+        {
+          "text": "Funds requirements are modest and Luxembourg is an open, pro-migration country with no Bangladesh-specific restrictions."
+        }
       ],
       "cons": [
-        { "text": "Luxembourg has no embassy/visa centre in Bangladesh, so the long-stay visa must be processed via a neighbouring or third-country mission." }
+        {
+          "text": "Luxembourg has no embassy/visa centre in Bangladesh, so the long-stay visa must be processed via a neighbouring or third-country mission."
+        }
       ],
       "links": [
-        { "title": "Guichet.lu — third-country national student residence (official)", "url": "https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/etudiant.html" }
+        {
+          "title": "Guichet.lu — third-country national student residence (official)",
+          "url": "https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/etudiant.html"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -65,24 +122,53 @@
       "status": "scored",
       "summary": "A strong path: dual citizenship retained both ways, a top-3 passport, and a 5-year naturalisation requiring only a modest Luxembourgish-language test (A2 speaking / B1 listening) plus a civic course.",
       "factors": {
-        "time-to-citizenship": { "status": "scored", "score": 65 },
-        "naturalisation-requirements": { "status": "scored", "score": 60 },
-        "dual-citizenship-retention": { "status": "scored", "score": 88 },
-        "citizenship-attainability": { "status": "scored", "score": 65 },
-        "policy-stability": { "status": "scored", "score": 62 },
-        "passport-strength": { "status": "scored", "score": 92 },
-        "other": { "status": "scored", "score": 50 }
+        "time-to-citizenship": {
+          "status": "scored",
+          "score": 65
+        },
+        "naturalisation-requirements": {
+          "status": "scored",
+          "score": 60
+        },
+        "dual-citizenship-retention": {
+          "status": "scored",
+          "score": 88
+        },
+        "citizenship-attainability": {
+          "status": "scored",
+          "score": 65
+        },
+        "policy-stability": {
+          "status": "scored",
+          "score": 62
+        },
+        "passport-strength": {
+          "status": "scored",
+          "score": 92
+        }
       },
       "pros": [
-        { "text": "Dual citizenship is allowed (Luxembourg is on Bangladesh's DNC list), and naturalisation needs only 5 years' residence with a modest Sproochentest (A2 speaking / B1 listening) and the free 'Vivre ensemble' course." },
-        { "text": "The Luxembourg passport ranks joint 3rd on Henley 2026 (~186 destinations)." }
+        {
+          "text": "Dual citizenship is allowed (Luxembourg is on Bangladesh's DNC list), and naturalisation needs only 5 years' residence with a modest Sproochentest (A2 speaking / B1 listening) and the free 'Vivre ensemble' course."
+        },
+        {
+          "text": "The Luxembourg passport ranks joint 3rd on Henley 2026 (~186 destinations)."
+        }
       ],
       "cons": [
-        { "text": "Luxembourgish is a niche language with limited daily use, so the A2 speaking requirement still demands dedicated study." }
+        {
+          "text": "Luxembourgish is a niche language with limited daily use, so the A2 speaking requirement still demands dedicated study."
+        }
       ],
       "links": [
-        { "title": "Guichet.lu — naturalisation (official)", "url": "https://guichet.public.lu/en/citoyens/citoyennete/nationalite-luxembourgeoise/acquisition-recouvrement/naturalisation.html" },
-        { "title": "Étude — Luxembourg citizenship and the Sproochentest (2026)", "url": "https://etude.lu/article/how-to-get-luxembourg-citizenship-sproochentest" }
+        {
+          "title": "Guichet.lu — naturalisation (official)",
+          "url": "https://guichet.public.lu/en/citoyens/citoyennete/nationalite-luxembourgeoise/acquisition-recouvrement/naturalisation.html"
+        },
+        {
+          "title": "Étude — Luxembourg citizenship and the Sproochentest (2026)",
+          "url": "https://etude.lu/article/how-to-get-luxembourg-citizenship-sproochentest"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -90,22 +176,46 @@
       "status": "scored",
       "summary": "Graduates get a 9–12 month job-search/business permit (€10,000 funds, €80 fee) converting to a salaried/Blue Card permit, available to each spouse.",
       "factors": {
-        "psw-duration-runway": { "status": "scored", "score": 50 },
-        "eligibility-openness-bd": { "status": "scored", "score": 65 },
-        "transition-to-skilled-work": { "status": "scored", "score": 65 },
-        "work-freedom-during-psw": { "status": "scored", "score": 60 },
-        "dual-graduate-spouse-psw": { "status": "scored", "score": 68 },
-        "psw-policy-stability": { "status": "scored", "score": 55 },
-        "other": { "status": "scored", "score": 50 }
+        "psw-duration-runway": {
+          "status": "scored",
+          "score": 50
+        },
+        "eligibility-openness-bd": {
+          "status": "scored",
+          "score": 65
+        },
+        "transition-to-skilled-work": {
+          "status": "scored",
+          "score": 65
+        },
+        "work-freedom-during-psw": {
+          "status": "scored",
+          "score": 60
+        },
+        "dual-graduate-spouse-psw": {
+          "status": "scored",
+          "score": 68
+        },
+        "psw-policy-stability": {
+          "status": "scored",
+          "score": 55
+        }
       },
       "pros": [
-        { "text": "Graduates can stay 9–12 months to find a job or start a business (€10,000 funds, €80 fee), converting to a salaried/Blue Card permit via an ADEM declaration; each spouse qualifies." }
+        {
+          "text": "Graduates can stay 9–12 months to find a job or start a business (€10,000 funds, €80 fee), converting to a salaried/Blue Card permit via an ADEM declaration; each spouse qualifies."
+        }
       ],
       "cons": [
-        { "text": "The window is short and the tiny market limits placement options." }
+        {
+          "text": "The window is short and the tiny market limits placement options."
+        }
       ],
       "links": [
-        { "title": "Guichet.lu — staying after studies to find a job (official)", "url": "https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/etudiant/sejour-luxembourg-apres-etudes.html" }
+        {
+          "title": "Guichet.lu — staying after studies to find a job (official)",
+          "url": "https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/etudiant/sejour-luxembourg-apres-etudes.html"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -113,20 +223,38 @@
       "status": "scored",
       "summary": "Blue Card families get work rights and free multilingual schooling, and if both spouses study each holds an independent track.",
       "factors": {
-        "spouse-work-rights": { "status": "scored", "score": 62 },
-        "dependent-visa-bd-access": { "status": "scored", "score": 62 },
-        "family-reunification-children": { "status": "scored", "score": 65 },
-        "spouse-path-to-independence": { "status": "scored", "score": 65 },
-        "other": { "status": "scored", "score": 50 }
+        "spouse-work-rights": {
+          "status": "scored",
+          "score": 62
+        },
+        "dependent-visa-bd-access": {
+          "status": "scored",
+          "score": 62
+        },
+        "family-reunification-children": {
+          "status": "scored",
+          "score": 65
+        },
+        "spouse-path-to-independence": {
+          "status": "scored",
+          "score": 65
+        }
       },
       "pros": [
-        { "text": "EU Blue Card holders' families get labour-market access, children attend free multilingual public school, and if both spouses study each holds their own permit." }
+        {
+          "text": "EU Blue Card holders' families get labour-market access, children attend free multilingual public school, and if both spouses study each holds their own permit."
+        }
       ],
       "cons": [
-        { "text": "Family migration carries income/housing conditions, costly given Luxembourg's housing prices." }
+        {
+          "text": "Family migration carries income/housing conditions, costly given Luxembourg's housing prices."
+        }
       ],
       "links": [
-        { "title": "Guichet.lu — family reunification (official)", "url": "https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/membre-famille.html" }
+        {
+          "title": "Guichet.lu — family reunification (official)",
+          "url": "https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/membre-famille.html"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -134,22 +262,45 @@
       "status": "scored",
       "summary": "Affordable English-taught master's at the (single) highly international University of Luxembourg, but the catalogue is small.",
       "factors": {
-        "affordability-funding": { "status": "scored", "score": 68 },
-        "english-program-depth": { "status": "scored", "score": 58 },
-        "admission-credential-access": { "status": "scored", "score": 68 },
-        "student-work-rights": { "status": "scored", "score": 60 },
-        "study-pathway-fit": { "status": "scored", "score": 68 },
-        "other": { "status": "scored", "score": 50 }
+        "affordability-funding": {
+          "status": "scored",
+          "score": 68
+        },
+        "english-program-depth": {
+          "status": "scored",
+          "score": 58
+        },
+        "admission-credential-access": {
+          "status": "scored",
+          "score": 68
+        },
+        "student-work-rights": {
+          "status": "scored",
+          "score": 60
+        },
+        "study-pathway-fit": {
+          "status": "scored",
+          "score": 68
+        }
       },
       "pros": [
-        { "text": "University of Luxembourg master's tuition is low (~€0–5,200/yr), mostly English-taught, with over half of students international." },
-        { "text": "A Bangladeshi BSc-CSE is admissible, and a master qualifies for the post-study job-search permit." }
+        {
+          "text": "University of Luxembourg master's tuition is low (~€0–5,200/yr), mostly English-taught, with over half of students international."
+        },
+        {
+          "text": "A Bangladeshi BSc-CSE is admissible, and a master qualifies for the post-study job-search permit."
+        }
       ],
       "cons": [
-        { "text": "There is only one university with a small CS/AI catalogue, limiting programme choice." }
+        {
+          "text": "There is only one university with a small CS/AI catalogue, limiting programme choice."
+        }
       ],
       "links": [
-        { "title": "University of Luxembourg — bachelor & master admissions (official)", "url": "https://www.uni.lu/en/admissions/bachelor-master/" }
+        {
+          "title": "University of Luxembourg — bachelor & master admissions (official)",
+          "url": "https://www.uni.lu/en/admissions/bachelor-master/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -157,22 +308,46 @@
       "status": "scored",
       "summary": "Long-term residence is reachable after 5 years, eased by high salaries clearing income bars, with a modest language requirement.",
       "factors": {
-        "years-to-pr": { "status": "scored", "score": 62 },
-        "route-clarity-accessibility": { "status": "scored", "score": 60 },
-        "eligibility-bars": { "status": "scored", "score": 62 },
-        "language-integration-requirement": { "status": "scored", "score": 55 },
-        "continuity-retention": { "status": "scored", "score": 58 },
-        "policy-predictability": { "status": "scored", "score": 60 },
-        "other": { "status": "scored", "score": 50 }
+        "years-to-pr": {
+          "status": "scored",
+          "score": 62
+        },
+        "route-clarity-accessibility": {
+          "status": "scored",
+          "score": 60
+        },
+        "eligibility-bars": {
+          "status": "scored",
+          "score": 62
+        },
+        "language-integration-requirement": {
+          "status": "scored",
+          "score": 55
+        },
+        "continuity-retention": {
+          "status": "scored",
+          "score": 58
+        },
+        "policy-predictability": {
+          "status": "scored",
+          "score": 60
+        }
       },
       "pros": [
-        { "text": "Long-term residence is reachable after 5 years, and high tech salaries easily clear income requirements." }
+        {
+          "text": "Long-term residence is reachable after 5 years, and high tech salaries easily clear income requirements."
+        }
       ],
       "cons": [
-        { "text": "A modest language/integration requirement applies, and the route runs through standard EU long-term-residence conditions." }
+        {
+          "text": "A modest language/integration requirement applies, and the route runs through standard EU long-term-residence conditions."
+        }
       ],
       "links": [
-        { "title": "Guichet.lu — long-term resident status (official)", "url": "https://guichet.public.lu/en/citoyens/immigration/plus-5-ans.html" }
+        {
+          "title": "Guichet.lu — long-term resident status (official)",
+          "url": "https://guichet.public.lu/en/citoyens/immigration/plus-5-ans.html"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -180,21 +355,42 @@
       "status": "scored",
       "summary": "Europe's highest tech salaries are partly eaten by Europe's most expensive housing, leaving a strong but cost-squeezed surplus.",
       "factors": {
-        "household-net-surplus": { "status": "scored", "score": 62 },
-        "housing-cost-availability": { "status": "scored", "score": 40 },
-        "savings-remittance": { "status": "scored", "score": 65 },
-        "student-phase-affordability": { "status": "scored", "score": 48 },
-        "upfront-relocation-cash": { "status": "scored", "score": 45 },
-        "other": { "status": "scored", "score": 50 }
+        "household-net-surplus": {
+          "status": "scored",
+          "score": 62
+        },
+        "housing-cost-availability": {
+          "status": "scored",
+          "score": 40
+        },
+        "savings-remittance": {
+          "status": "scored",
+          "score": 65
+        },
+        "student-phase-affordability": {
+          "status": "scored",
+          "score": 48
+        },
+        "upfront-relocation-cash": {
+          "status": "scored",
+          "score": 45
+        }
       },
       "pros": [
-        { "text": "Very high salaries support strong savings and remittance, even after tax." }
+        {
+          "text": "Very high salaries support strong savings and remittance, even after tax."
+        }
       ],
       "cons": [
-        { "text": "Housing is among the most expensive in Europe, badly squeezing both the study phase and early career; many commute from cheaper neighbouring countries." }
+        {
+          "text": "Housing is among the most expensive in Europe, badly squeezing both the study phase and early career; many commute from cheaper neighbouring countries."
+        }
       ],
       "links": [
-        { "title": "Mastersportal — tuition & living costs in Luxembourg (2026)", "url": "https://www.mastersportal.com/articles/2880/tuition-fees-and-living-costs-in-luxembourg.html" }
+        {
+          "title": "Mastersportal — tuition & living costs in Luxembourg (2026)",
+          "url": "https://www.mastersportal.com/articles/2880/tuition-fees-and-living-costs-in-luxembourg.html"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -202,22 +398,45 @@
       "status": "scored",
       "summary": "Universal CNS coverage for workers/residents with high quality (and easy cross-border options), and a wealthy welfare net.",
       "factors": {
-        "newcomer-eligibility-barrier": { "status": "scored", "score": 68 },
-        "health-quality-access": { "status": "scored", "score": 72 },
-        "cost-coverage-by-status": { "status": "scored", "score": 70 },
-        "social-insurance-safety-net": { "status": "scored", "score": 70 },
-        "family-childcare-benefits": { "status": "scored", "score": 65 },
-        "other": { "status": "scored", "score": 52 }
+        "newcomer-eligibility-barrier": {
+          "status": "scored",
+          "score": 68
+        },
+        "health-quality-access": {
+          "status": "scored",
+          "score": 72
+        },
+        "cost-coverage-by-status": {
+          "status": "scored",
+          "score": 70
+        },
+        "social-insurance-safety-net": {
+          "status": "scored",
+          "score": 70
+        },
+        "family-childcare-benefits": {
+          "status": "scored",
+          "score": 65
+        }
       },
       "pros": [
-        { "text": "The CNS gives workers and residents universal coverage (students enrol), with high-quality care and easy access to top facilities in neighbouring countries." },
-        { "text": "A wealthy state underpins a strong welfare and family-benefit system." }
+        {
+          "text": "The CNS gives workers and residents universal coverage (students enrol), with high-quality care and easy access to top facilities in neighbouring countries."
+        },
+        {
+          "text": "A wealthy state underpins a strong welfare and family-benefit system."
+        }
       ],
       "cons": [
-        { "text": "Students must arrange enrolment/insurance on arrival before coverage begins." }
+        {
+          "text": "Students must arrange enrolment/insurance on arrival before coverage begins."
+        }
       ],
       "links": [
-        { "title": "Guichet.lu — health insurance (CNS, official)", "url": "https://guichet.public.lu/en/citoyens/sante-social/assurance-maladie-maternite.html" }
+        {
+          "title": "Guichet.lu — health insurance (CNS, official)",
+          "url": "https://guichet.public.lu/en/citoyens/sante-social/assurance-maladie-maternite.html"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -225,22 +444,46 @@
       "status": "scored",
       "summary": "Ultra-international (47% foreign-born) with English widely spoken and a tolerant climate, though the trilingual reality and niche Luxembourgish add friction.",
       "factors": {
-        "english-usability": { "status": "scored", "score": 62 },
-        "language-burden-citizenship": { "status": "scored", "score": 52 },
-        "integration-support": { "status": "scored", "score": 58 },
-        "social-acceptance-south-asian": { "status": "scored", "score": 60 },
-        "worklife-livability": { "status": "scored", "score": 70 },
-        "cultural-distance-adaptation": { "status": "scored", "score": 55 },
-        "other": { "status": "scored", "score": 50 }
+        "english-usability": {
+          "status": "scored",
+          "score": 62
+        },
+        "language-burden-citizenship": {
+          "status": "scored",
+          "score": 52
+        },
+        "integration-support": {
+          "status": "scored",
+          "score": 58
+        },
+        "social-acceptance-south-asian": {
+          "status": "scored",
+          "score": 60
+        },
+        "worklife-livability": {
+          "status": "scored",
+          "score": 70
+        },
+        "cultural-distance-adaptation": {
+          "status": "scored",
+          "score": 55
+        }
       },
       "pros": [
-        { "text": "One of the world's most international societies (~47% foreign-born) where English is widely usable, with a tolerant, diverse climate and strong livability." }
+        {
+          "text": "One of the world's most international societies (~47% foreign-born) where English is widely usable, with a tolerant, diverse climate and strong livability."
+        }
       ],
       "cons": [
-        { "text": "Daily life and administration juggle Luxembourgish/French/German, and citizenship needs the niche Luxembourgish language." }
+        {
+          "text": "Daily life and administration juggle Luxembourgish/French/German, and citizenship needs the niche Luxembourgish language."
+        }
       ],
       "links": [
-        { "title": "Just Arrived — living in Luxembourg (languages)", "url": "https://www.justarrived.lu/en/generalites-luxembourg/" }
+        {
+          "title": "Just Arrived — living in Luxembourg (languages)",
+          "url": "https://www.justarrived.lu/en/generalites-luxembourg/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -248,23 +491,49 @@
       "status": "scored",
       "summary": "Very safe with top-tier rule of law and a tolerant, well-governed environment.",
       "factors": {
-        "personal-crime-safety": { "status": "scored", "score": 80 },
-        "lived-discrimination-hatecrime": { "status": "scored", "score": 60 },
-        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 80 },
-        "women-safety-gbv": { "status": "scored", "score": 75 },
-        "immigration-enforcement-due-process": { "status": "scored", "score": 65 },
-        "antidiscrimination-law-enforcement": { "status": "scored", "score": 65 },
-        "other": { "status": "scored", "score": 52 }
+        "personal-crime-safety": {
+          "status": "scored",
+          "score": 80
+        },
+        "lived-discrimination-hatecrime": {
+          "status": "scored",
+          "score": 60
+        },
+        "rule-of-law-corruption-civil-justice": {
+          "status": "scored",
+          "score": 80
+        },
+        "women-safety-gbv": {
+          "status": "scored",
+          "score": 75
+        },
+        "immigration-enforcement-due-process": {
+          "status": "scored",
+          "score": 65
+        },
+        "antidiscrimination-law-enforcement": {
+          "status": "scored",
+          "score": 65
+        }
       },
       "pros": [
-        { "text": "Very low crime, top-tier rule of law and reliable, low-corruption institutions in a wealthy, well-run state." },
-        { "text": "A diverse, tolerant society with strong women's safety." }
+        {
+          "text": "Very low crime, top-tier rule of law and reliable, low-corruption institutions in a wealthy, well-run state."
+        },
+        {
+          "text": "A diverse, tolerant society with strong women's safety."
+        }
       ],
       "cons": [
-        { "text": "Limited track record of large visible-minority communities relative to bigger states." }
+        {
+          "text": "Limited track record of large visible-minority communities relative to bigger states."
+        }
       ],
       "links": [
-        { "title": "World Justice Project — Rule of Law Index 2025", "url": "https://worldjusticeproject.org/rule-of-law-index/" }
+        {
+          "title": "World Justice Project — Rule of Law Index 2025",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -272,22 +541,46 @@
       "status": "scored",
       "summary": "Stable, centrist and notably pro-migration (in a country that is ~47% foreign-born), with a marginal far-right — among the most welcoming climates in the set.",
       "factors": {
-        "immigration-policy-volatility": { "status": "scored", "score": 60 },
-        "non-eu-skilled-policy-direction": { "status": "scored", "score": 65 },
-        "anti-immigration-electoral-power": { "status": "scored", "score": 65 },
-        "societal-sentiment-trend": { "status": "scored", "score": 62 },
-        "institutional-governance-stability": { "status": "scored", "score": 80 },
-        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 60 },
-        "other": { "status": "scored", "score": 52 }
+        "immigration-policy-volatility": {
+          "status": "scored",
+          "score": 60
+        },
+        "non-eu-skilled-policy-direction": {
+          "status": "scored",
+          "score": 65
+        },
+        "anti-immigration-electoral-power": {
+          "status": "scored",
+          "score": 65
+        },
+        "societal-sentiment-trend": {
+          "status": "scored",
+          "score": 62
+        },
+        "institutional-governance-stability": {
+          "status": "scored",
+          "score": 80
+        },
+        "targeted-risk-south-asian-muslim": {
+          "status": "scored",
+          "score": 60
+        }
       },
       "pros": [
-        { "text": "Stable and centrist, with immigration structurally normal (≈47% of residents are foreign-born) and only a marginal far-right (ADR), making it one of the most welcoming climates in this set." }
+        {
+          "text": "Stable and centrist, with immigration structurally normal (≈47% of residents are foreign-born) and only a marginal far-right (ADR), making it one of the most welcoming climates in this set."
+        }
       ],
       "cons": [
-        { "text": "EU-wide migration tightening still shapes the broader policy environment." }
+        {
+          "text": "EU-wide migration tightening still shapes the broader policy environment."
+        }
       ],
       "links": [
-        { "title": "Just Arrived — Luxembourg society & migration", "url": "https://www.justarrived.lu/en/generalites-luxembourg/" }
+        {
+          "title": "Just Arrived — Luxembourg society & migration",
+          "url": "https://www.justarrived.lu/en/generalites-luxembourg/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -295,21 +588,42 @@
       "status": "scored",
       "summary": "Progressive personal tax (0–42% plus surtax and rising social contributions) on very high salaries, with an inpatriate regime and uncertain Bangladesh treaty.",
       "factors": {
-        "effective-deduction-wedge": { "status": "scored", "score": 48 },
-        "expat-foreign-worker-relief": { "status": "scored", "score": 52 },
-        "household-dual-earner-treatment": { "status": "scored", "score": 55 },
-        "student-phase-tax-exposure": { "status": "scored", "score": 62 },
-        "bd-treaty-repatriation": { "status": "scored", "score": 45 },
-        "other": { "status": "scored", "score": 50 }
+        "effective-deduction-wedge": {
+          "status": "scored",
+          "score": 48
+        },
+        "expat-foreign-worker-relief": {
+          "status": "scored",
+          "score": 52
+        },
+        "household-dual-earner-treatment": {
+          "status": "scored",
+          "score": 55
+        },
+        "student-phase-tax-exposure": {
+          "status": "scored",
+          "score": 62
+        },
+        "bd-treaty-repatriation": {
+          "status": "scored",
+          "score": 45
+        }
       },
       "pros": [
-        { "text": "An inpatriate (impatriés) tax regime offers relief to qualifying inbound employees, and very high gross salaries cushion the burden." }
+        {
+          "text": "An inpatriate (impatriés) tax regime offers relief to qualifying inbound employees, and very high gross salaries cushion the burden."
+        }
       ],
       "cons": [
-        { "text": "Personal tax is progressive to 42% plus a solidarity surtax and rising pension contributions (to 8.5% in 2026), and no Luxembourg–Bangladesh treaty is confirmed." }
+        {
+          "text": "Personal tax is progressive to 42% plus a solidarity surtax and rising pension contributions (to 8.5% in 2026), and no Luxembourg–Bangladesh treaty is confirmed."
+        }
       ],
       "links": [
-        { "title": "PwC — Luxembourg individual taxes", "url": "https://taxsummaries.pwc.com/luxembourg/individual/significant-developments" }
+        {
+          "title": "PwC — Luxembourg individual taxes",
+          "url": "https://taxsummaries.pwc.com/luxembourg/individual/significant-developments"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -317,22 +631,52 @@
       "status": "scored",
       "summary": "A small but officially recognised Muslim community (~3–6%) with six mosques and imported halal, but a negligible Bangladeshi-specific presence.",
       "factors": {
-        "bangladeshi-diaspora": { "status": "scored", "score": 38 },
-        "religious-practice-infrastructure": { "status": "scored", "score": 52 },
-        "sentiment-safety": { "status": "scored", "score": 58 },
-        "legal-religious-accommodation": { "status": "scored", "score": 60 },
-        "south-asian-cultural-ecosystem": { "status": "scored", "score": 40 },
-        "other": { "status": "scored", "score": 45 }
+        "bangladeshi-diaspora": {
+          "status": "scored",
+          "score": 38
+        },
+        "religious-practice-infrastructure": {
+          "status": "scored",
+          "score": 52
+        },
+        "sentiment-safety": {
+          "status": "scored",
+          "score": 58
+        },
+        "legal-religious-accommodation": {
+          "status": "scored",
+          "score": 60
+        },
+        "south-asian-cultural-ecosystem": {
+          "status": "scored",
+          "score": 40
+        }
       },
       "pros": [
-        { "text": "Islam is an officially recognised (and state-supported, via the Shoura) religion; there are six mosques and halal food is widely available (imported from France/Belgium)." }
+        {
+          "text": "Islam is an officially recognised (and state-supported, via the Shoura) religion; there are six mosques and halal food is widely available (imported from France/Belgium)."
+        }
       ],
       "cons": [
-        { "text": "The Muslim community is small (~3–6%) and the Bangladeshi-specific community and South-Asian ecosystem are negligible." }
+        {
+          "text": "The Muslim community is small (~3–6%) and the Bangladeshi-specific community and South-Asian ecosystem are negligible."
+        }
       ],
       "links": [
-        { "title": "Islam in Luxembourg (overview)", "url": "https://en.wikipedia.org/wiki/Islam_in_Luxembourg" }
+        {
+          "title": "Islam in Luxembourg (overview)",
+          "url": "https://en.wikipedia.org/wiki/Islam_in_Luxembourg"
+        }
       ],
+      "lastReviewed": "2026-06-19"
+    },
+    "direct-work-route": {
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
       "lastReviewed": "2026-06-19"
     }
   }

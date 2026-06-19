@@ -8,33 +8,66 @@
   "summary": "Home to continental Europe's largest Bangladeshi community (~150,000–200,000, centred on Rome) with abundant halal and a dense BD ecosystem, plus world-class affordable study (Politecnico di Milano at ~€1–4k tuition with generous scholarships), SSN healthcare, a full embassy in Dhaka and dual citizenship retained both ways — but held back for this profile by a 10-year naturalisation path (a 2025 referendum to cut it to 5 failed), low Italian tech salaries, heavy bureaucracy, the Meloni/League government's anti-Islam posture and Islam's lack of official religious recognition. Derived overall sits below the 60% inclusion line.",
   "lastReviewed": "2026-06-19",
   "links": [
-    { "title": "Universitaly — official portal for studying in Italy", "url": "https://www.universitaly.it/" },
-    { "title": "Polizia di Stato — residence permits (Permesso di soggiorno, official)", "url": "https://www.portaleimmigrazione.it/" }
+    {
+      "title": "Universitaly — official portal for studying in Italy",
+      "url": "https://www.universitaly.it/"
+    },
+    {
+      "title": "Polizia di Stato — residence permits (Permesso di soggiorno, official)",
+      "url": "https://www.portaleimmigrazione.it/"
+    }
   ],
   "categories": {
     "job-market": {
       "status": "scored",
       "summary": "AI/ML demand is surging in Milan/Rome/Turin, but Italian tech salaries are low by Northern-European standards, hiring is bureaucratic, and Italian is usually required.",
       "factors": {
-        "sw-demand-depth": { "status": "scored", "score": 62 },
-        "ai-ml-specialisation": { "status": "scored", "score": 60 },
-        "salary-levels": { "status": "scored", "score": 52 },
-        "sponsorship-work-authorisation": { "status": "scored", "score": 55 },
-        "foreign-grad-bd-hireability": { "status": "scored", "score": 52 },
-        "dual-earner-depth": { "status": "scored", "score": 58 },
-        "other": { "status": "scored", "score": 45 }
+        "sw-demand-depth": {
+          "status": "scored",
+          "score": 62
+        },
+        "ai-ml-specialisation": {
+          "status": "scored",
+          "score": 60
+        },
+        "salary-levels": {
+          "status": "scored",
+          "score": 52
+        },
+        "foreign-grad-bd-hireability": {
+          "status": "scored",
+          "score": 52
+        },
+        "dual-earner-depth": {
+          "status": "scored",
+          "score": 58
+        }
       },
       "pros": [
-        { "text": "AI/ML demand is surging (a reported 625% rise in ML job demand); AI engineers average ~€78k (Milan +11%), and hubs in Milan, Rome and Turin are integrating AI into finance/healthcare." },
-        { "text": "Hot AI/cloud/data skills command €10k–20k premiums." }
+        {
+          "text": "AI/ML demand is surging (a reported 625% rise in ML job demand); AI engineers average ~€78k (Milan +11%), and hubs in Milan, Rome and Turin are integrating AI into finance/healthcare."
+        },
+        {
+          "text": "Hot AI/cloud/data skills command €10k–20k premiums."
+        }
       ],
       "cons": [
-        { "text": "General software-engineer pay is low (~€46k average; entry ~€23–45k) versus Northern Europe." },
-        { "text": "Italian is usually required outside multinationals, and hiring/bureaucracy is slow." }
+        {
+          "text": "General software-engineer pay is low (~€46k average; entry ~€23–45k) versus Northern Europe."
+        },
+        {
+          "text": "Italian is usually required outside multinationals, and hiring/bureaucracy is slow."
+        }
       ],
       "links": [
-        { "title": "Nucamp — best-paid tech jobs in Italy (2025)", "url": "https://www.nucamp.co/blog/coding-bootcamp-italy-ita-top-10-best-paid-tech-job-in-italy-in-2025" },
-        { "title": "Levels.fyi — Software Engineer salary, Milan", "url": "https://www.levels.fyi/t/software-engineer/locations/milano-ita" }
+        {
+          "title": "Nucamp — best-paid tech jobs in Italy (2025)",
+          "url": "https://www.nucamp.co/blog/coding-bootcamp-italy-ita-top-10-best-paid-tech-job-in-italy-in-2025"
+        },
+        {
+          "title": "Levels.fyi — Software Engineer salary, Milan",
+          "url": "https://www.levels.fyi/t/software-engineer/locations/milano-ita"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -42,24 +75,53 @@
       "status": "scored",
       "summary": "A clear strength: Italy has a full embassy in Dhaka and a well-trodden Bangladeshi pipeline (Universitaly pre-enrolment), with modest funds — though Questura/embassy processing is slow.",
       "factors": {
-        "approval-refusal-rate": { "status": "scored", "score": 58 },
-        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 68 },
-        "in-queue-processing-schemes": { "status": "scored", "score": 45 },
-        "financial-bars": { "status": "scored", "score": 60 },
-        "credibility-genuineness-scrutiny": { "status": "scored", "score": 55 },
-        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 50 },
-        "other": { "status": "scored", "score": 58 }
+        "approval-refusal-rate": {
+          "status": "scored",
+          "score": 58
+        },
+        "dhaka-mission-appointment-capacity": {
+          "status": "scored",
+          "score": 68
+        },
+        "in-queue-processing-schemes": {
+          "status": "scored",
+          "score": 45
+        },
+        "financial-bars": {
+          "status": "scored",
+          "score": 60
+        },
+        "credibility-genuineness-scrutiny": {
+          "status": "scored",
+          "score": 55
+        },
+        "heightened-scrutiny-policy-risk": {
+          "status": "scored",
+          "score": 50
+        }
       },
       "pros": [
-        { "text": "Italy has a full embassy in Dhaka and an exceptionally well-established Bangladeshi migration pipeline; students pre-enrol via Universitaly with modest proof of funds." },
-        { "text": "Bangladesh features in Italy's decreto-flussi labour quotas, reflecting strong bilateral ties." }
+        {
+          "text": "Italy has a full embassy in Dhaka and an exceptionally well-established Bangladeshi migration pipeline; students pre-enrol via Universitaly with modest proof of funds."
+        },
+        {
+          "text": "Bangladesh features in Italy's decreto-flussi labour quotas, reflecting strong bilateral ties."
+        }
       ],
       "cons": [
-        { "text": "Italian visa and Questura processing is notoriously slow and bureaucratic, with significant 2026 backlogs." }
+        {
+          "text": "Italian visa and Questura processing is notoriously slow and bureaucratic, with significant 2026 backlogs."
+        }
       ],
       "links": [
-        { "title": "Universitaly — pre-enrolment for international students (official)", "url": "https://www.universitaly.it/" },
-        { "title": "Ministry of Labour — the Bangladeshi community in Italy (annual report)", "url": "https://integrazionemigranti.gov.it/AnteprimaPDF.aspx?id=6179" }
+        {
+          "title": "Universitaly — pre-enrolment for international students (official)",
+          "url": "https://www.universitaly.it/"
+        },
+        {
+          "title": "Ministry of Labour — the Bangladeshi community in Italy (annual report)",
+          "url": "https://integrazionemigranti.gov.it/AnteprimaPDF.aspx?id=6179"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -67,24 +129,52 @@
       "status": "scored",
       "summary": "Dual citizenship is retained both ways and the passport is elite (Henley 4th), but naturalisation requires 10 years' residence plus B1 Italian — and a June-2025 referendum to cut it to 5 failed.",
       "factors": {
-        "time-to-citizenship": { "status": "scored", "score": 28 },
-        "naturalisation-requirements": { "status": "scored", "score": 50 },
-        "dual-citizenship-retention": { "status": "scored", "score": 88 },
-        "citizenship-attainability": { "status": "scored", "score": 50 },
-        "policy-stability": { "status": "scored", "score": 55 },
-        "passport-strength": { "status": "scored", "score": 90 },
-        "other": { "status": "scored", "score": 48 }
+        "time-to-citizenship": {
+          "status": "scored",
+          "score": 28
+        },
+        "naturalisation-requirements": {
+          "status": "scored",
+          "score": 50
+        },
+        "dual-citizenship-retention": {
+          "status": "scored",
+          "score": 88
+        },
+        "citizenship-attainability": {
+          "status": "scored",
+          "score": 50
+        },
+        "policy-stability": {
+          "status": "scored",
+          "score": 55
+        },
+        "passport-strength": {
+          "status": "scored",
+          "score": 90
+        }
       },
       "pros": [
-        { "text": "Italy has permitted dual citizenship without restriction since 1992 and is on Bangladesh's DNC list, so a naturalising Bangladeshi keeps BD nationality." },
-        { "text": "The Italian passport ranks joint 4th on Henley 2026 (~185 destinations)." }
+        {
+          "text": "Italy has permitted dual citizenship without restriction since 1992 and is on Bangladesh's DNC list, so a naturalising Bangladeshi keeps BD nationality."
+        },
+        {
+          "text": "The Italian passport ranks joint 4th on Henley 2026 (~185 destinations)."
+        }
       ],
       "cons": [
-        { "text": "Naturalisation requires 10 years' legal residence (among the longest in the EU) plus a B1 Italian exam and tax/income history — a June-2025 referendum to cut it to 5 years failed on turnout." },
-        { "text": "Processing of residence-based citizenship applications is slow." }
+        {
+          "text": "Naturalisation requires 10 years' legal residence (among the longest in the EU) plus a B1 Italian exam and tax/income history — a June-2025 referendum to cut it to 5 years failed on turnout."
+        },
+        {
+          "text": "Processing of residence-based citizenship applications is slow."
+        }
       ],
       "links": [
-        { "title": "Bocca di Turi — Italian citizenship by residency (2025 updates)", "url": "https://www.boccadutri.com/italian-citizenship-by-residency-or-naturalization/" }
+        {
+          "title": "Bocca di Turi — Italian citizenship by residency (2025 updates)",
+          "url": "https://www.boccadutri.com/italian-citizenship-by-residency-or-naturalization/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -92,22 +182,46 @@
       "status": "scored",
       "summary": "Graduates get a 12-month job-search residence permit (any degree level, no offer needed) that converts to work/self-employment, though Questura processing is slow.",
       "factors": {
-        "psw-duration-runway": { "status": "scored", "score": 50 },
-        "eligibility-openness-bd": { "status": "scored", "score": 65 },
-        "transition-to-skilled-work": { "status": "scored", "score": 58 },
-        "work-freedom-during-psw": { "status": "scored", "score": 65 },
-        "dual-graduate-spouse-psw": { "status": "scored", "score": 70 },
-        "psw-policy-stability": { "status": "scored", "score": 55 },
-        "other": { "status": "scored", "score": 45 }
+        "psw-duration-runway": {
+          "status": "scored",
+          "score": 50
+        },
+        "eligibility-openness-bd": {
+          "status": "scored",
+          "score": 65
+        },
+        "transition-to-skilled-work": {
+          "status": "scored",
+          "score": 58
+        },
+        "work-freedom-during-psw": {
+          "status": "scored",
+          "score": 65
+        },
+        "dual-graduate-spouse-psw": {
+          "status": "scored",
+          "score": 70
+        },
+        "psw-policy-stability": {
+          "status": "scored",
+          "score": 55
+        }
       },
       "pros": [
-        { "text": "A 12-month job-search residence permit (permesso per attesa occupazione) is available to any Italian-degree graduate with no job offer required, allowing work or self-employment; each spouse qualifies." }
+        {
+          "text": "A 12-month job-search residence permit (permesso per attesa occupazione) is available to any Italian-degree graduate with no job offer required, allowing work or self-employment; each spouse qualifies."
+        }
       ],
       "cons": [
-        { "text": "The window is only 12 months, and Questura administrative backlogs can eat into it." }
+        {
+          "text": "The window is only 12 months, and Questura administrative backlogs can eat into it."
+        }
       ],
       "links": [
-        { "title": "Italy Handbook — post-graduation work permit options", "url": "https://italyhandbook.com/post-graduation-work-permit-options-in-italy/" }
+        {
+          "title": "Italy Handbook — post-graduation work permit options",
+          "url": "https://italyhandbook.com/post-graduation-work-permit-options-in-italy/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -115,21 +229,41 @@
       "status": "scored",
       "summary": "Italy has generous family-reunification (ricongiungimento) with spouse work rights and free schooling, reinforced by deep Bangladeshi family networks.",
       "factors": {
-        "spouse-work-rights": { "status": "scored", "score": 62 },
-        "dependent-visa-bd-access": { "status": "scored", "score": 62 },
-        "family-reunification-children": { "status": "scored", "score": 68 },
-        "spouse-path-to-independence": { "status": "scored", "score": 62 },
-        "other": { "status": "scored", "score": 52 }
+        "spouse-work-rights": {
+          "status": "scored",
+          "score": 62
+        },
+        "dependent-visa-bd-access": {
+          "status": "scored",
+          "score": 62
+        },
+        "family-reunification-children": {
+          "status": "scored",
+          "score": 68
+        },
+        "spouse-path-to-independence": {
+          "status": "scored",
+          "score": 62
+        }
       },
       "pros": [
-        { "text": "Family reunification (ricongiungimento familiare) is well established, the joining spouse can work, and children attend public school free; if both spouses study, each holds their own permit." },
-        { "text": "Deep Bangladeshi family/community networks ease settlement." }
+        {
+          "text": "Family reunification (ricongiungimento familiare) is well established, the joining spouse can work, and children attend public school free; if both spouses study, each holds their own permit."
+        },
+        {
+          "text": "Deep Bangladeshi family/community networks ease settlement."
+        }
       ],
       "cons": [
-        { "text": "Reunification carries income/housing-adequacy conditions and bureaucratic delays." }
+        {
+          "text": "Reunification carries income/housing-adequacy conditions and bureaucratic delays."
+        }
       ],
       "links": [
-        { "title": "Polizia di Stato — family reunification (official)", "url": "https://www.portaleimmigrazione.it/" }
+        {
+          "title": "Polizia di Stato — family reunification (official)",
+          "url": "https://www.portaleimmigrazione.it/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -137,23 +271,49 @@
       "status": "scored",
       "summary": "A standout: Politecnico di Milano (top-40 CS) and Bologna offer English-taught CS/AI at very low income-based tuition (~€1–4k) with generous scholarships.",
       "factors": {
-        "affordability-funding": { "status": "scored", "score": 75 },
-        "english-program-depth": { "status": "scored", "score": 78 },
-        "admission-credential-access": { "status": "scored", "score": 70 },
-        "student-work-rights": { "status": "scored", "score": 65 },
-        "study-pathway-fit": { "status": "scored", "score": 70 },
-        "other": { "status": "scored", "score": 65 }
+        "affordability-funding": {
+          "status": "scored",
+          "score": 75
+        },
+        "english-program-depth": {
+          "status": "scored",
+          "score": 78
+        },
+        "admission-credential-access": {
+          "status": "scored",
+          "score": 70
+        },
+        "student-work-rights": {
+          "status": "scored",
+          "score": 65
+        },
+        "study-pathway-fit": {
+          "status": "scored",
+          "score": 70
+        }
       },
       "pros": [
-        { "text": "Politecnico di Milano (top-~40 CS globally) runs ~45 English-taught MSc programmes; non-EU public tuition is income-based at only ~€1,000–4,000/yr, with generous PoliMi scholarships (up to €25k packages)." },
-        { "text": "University of Bologna (top-200 CS) adds depth; a Bangladeshi BSc-CSE is admissible via Universitaly and students may work ~20 hrs/week." }
+        {
+          "text": "Politecnico di Milano (top-~40 CS globally) runs ~45 English-taught MSc programmes; non-EU public tuition is income-based at only ~€1,000–4,000/yr, with generous PoliMi scholarships (up to €25k packages)."
+        },
+        {
+          "text": "University of Bologna (top-200 CS) adds depth; a Bangladeshi BSc-CSE is admissible via Universitaly and students may work ~20 hrs/week."
+        }
       ],
       "cons": [
-        { "text": "Italian-language daily life and bureaucracy add friction even for English-taught students." }
+        {
+          "text": "Italian-language daily life and bureaucracy add friction even for English-taught students."
+        }
       ],
       "links": [
-        { "title": "Politecnico di Milano — scholarships (official)", "url": "https://www.polimi.it/en/international-prospective-students/scholarships" },
-        { "title": "Politecnico di Torino — applicants with a non-Italian qualification (official)", "url": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-a-non-italian-qualification" }
+        {
+          "title": "Politecnico di Milano — scholarships (official)",
+          "url": "https://www.polimi.it/en/international-prospective-students/scholarships"
+        },
+        {
+          "title": "Politecnico di Torino — applicants with a non-Italian qualification (official)",
+          "url": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-a-non-italian-qualification"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -161,22 +321,46 @@
       "status": "scored",
       "summary": "EU long-term residence is reachable after 5 years, but it requires Italian-language proof and runs through slow, bureaucratic Questura processing.",
       "factors": {
-        "years-to-pr": { "status": "scored", "score": 60 },
-        "route-clarity-accessibility": { "status": "scored", "score": 52 },
-        "eligibility-bars": { "status": "scored", "score": 55 },
-        "language-integration-requirement": { "status": "scored", "score": 48 },
-        "continuity-retention": { "status": "scored", "score": 52 },
-        "policy-predictability": { "status": "scored", "score": 50 },
-        "other": { "status": "scored", "score": 45 }
+        "years-to-pr": {
+          "status": "scored",
+          "score": 60
+        },
+        "route-clarity-accessibility": {
+          "status": "scored",
+          "score": 52
+        },
+        "eligibility-bars": {
+          "status": "scored",
+          "score": 55
+        },
+        "language-integration-requirement": {
+          "status": "scored",
+          "score": 48
+        },
+        "continuity-retention": {
+          "status": "scored",
+          "score": 52
+        },
+        "policy-predictability": {
+          "status": "scored",
+          "score": 50
+        }
       },
       "pros": [
-        { "text": "The EU long-term residence permit (permesso di soggiorno UE per soggiornanti di lungo periodo) is reachable after 5 years with adequate income." }
+        {
+          "text": "The EU long-term residence permit (permesso di soggiorno UE per soggiornanti di lungo periodo) is reachable after 5 years with adequate income."
+        }
       ],
       "cons": [
-        { "text": "It requires an A2/B1 Italian-language test and is processed through slow, backlog-prone Questure." }
+        {
+          "text": "It requires an A2/B1 Italian-language test and is processed through slow, backlog-prone Questure."
+        }
       ],
       "links": [
-        { "title": "Polizia di Stato — long-term residence permit (official)", "url": "https://www.portaleimmigrazione.it/" }
+        {
+          "title": "Polizia di Stato — long-term residence permit (official)",
+          "url": "https://www.portaleimmigrazione.it/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -184,21 +368,42 @@
       "status": "scored",
       "summary": "Low salaries are partly offset by lower living costs (outside Milan) and very low tuition, leaving a modest surplus.",
       "factors": {
-        "household-net-surplus": { "status": "scored", "score": 54 },
-        "housing-cost-availability": { "status": "scored", "score": 56 },
-        "savings-remittance": { "status": "scored", "score": 54 },
-        "student-phase-affordability": { "status": "scored", "score": 60 },
-        "upfront-relocation-cash": { "status": "scored", "score": 58 },
-        "other": { "status": "scored", "score": 50 }
+        "household-net-surplus": {
+          "status": "scored",
+          "score": 54
+        },
+        "housing-cost-availability": {
+          "status": "scored",
+          "score": 56
+        },
+        "savings-remittance": {
+          "status": "scored",
+          "score": 54
+        },
+        "student-phase-affordability": {
+          "status": "scored",
+          "score": 60
+        },
+        "upfront-relocation-cash": {
+          "status": "scored",
+          "score": 58
+        }
       },
       "pros": [
-        { "text": "Very low tuition and lower living costs outside Milan make the study phase affordable, and a large BD community offers cheap settlement support." }
+        {
+          "text": "Very low tuition and lower living costs outside Milan make the study phase affordable, and a large BD community offers cheap settlement support."
+        }
       ],
       "cons": [
-        { "text": "Low Italian tech salaries cap the dual-earner surplus and savings/remittance potential; Milan housing is pricey." }
+        {
+          "text": "Low Italian tech salaries cap the dual-earner surplus and savings/remittance potential; Milan housing is pricey."
+        }
       ],
       "links": [
-        { "title": "Mastersportal — tuition & living costs in Italy", "url": "https://www.mastersportal.com/articles/405/tuition-fees-at-universities-in-europe-overview-and-comparison.html" }
+        {
+          "title": "Mastersportal — tuition & living costs in Italy",
+          "url": "https://www.mastersportal.com/articles/405/tuition-fees-at-universities-in-europe-overview-and-comparison.html"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -206,21 +411,42 @@
       "status": "scored",
       "summary": "The SSN gives registered residents/students low-cost universal care, with regional quality variation and longer waits in the south.",
       "factors": {
-        "newcomer-eligibility-barrier": { "status": "scored", "score": 65 },
-        "health-quality-access": { "status": "scored", "score": 62 },
-        "cost-coverage-by-status": { "status": "scored", "score": 68 },
-        "social-insurance-safety-net": { "status": "scored", "score": 60 },
-        "family-childcare-benefits": { "status": "scored", "score": 55 },
-        "other": { "status": "scored", "score": 50 }
+        "newcomer-eligibility-barrier": {
+          "status": "scored",
+          "score": 65
+        },
+        "health-quality-access": {
+          "status": "scored",
+          "score": 62
+        },
+        "cost-coverage-by-status": {
+          "status": "scored",
+          "score": 68
+        },
+        "social-insurance-safety-net": {
+          "status": "scored",
+          "score": 60
+        },
+        "family-childcare-benefits": {
+          "status": "scored",
+          "score": 55
+        }
       },
       "pros": [
-        { "text": "The Servizio Sanitario Nazionale (SSN) gives registered residents and students low-cost universal care (voluntary student enrolment is inexpensive)." }
+        {
+          "text": "The Servizio Sanitario Nazionale (SSN) gives registered residents and students low-cost universal care (voluntary student enrolment is inexpensive)."
+        }
       ],
       "cons": [
-        { "text": "Quality varies sharply by region, with longer waits in the south, and family/childcare benefits are modest." }
+        {
+          "text": "Quality varies sharply by region, with longer waits in the south, and family/childcare benefits are modest."
+        }
       ],
       "links": [
-        { "title": "Italy — Servizio Sanitario Nazionale (overview)", "url": "https://www.salute.gov.it/portale/home.html" }
+        {
+          "title": "Italy — Servizio Sanitario Nazionale (overview)",
+          "url": "https://www.salute.gov.it/portale/home.html"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -228,23 +454,49 @@
       "status": "scored",
       "summary": "Italian is essential for daily life and status, and English is limited — but an enormous established Bangladeshi community makes adaptation easier than the language barrier suggests.",
       "factors": {
-        "english-usability": { "status": "scored", "score": 45 },
-        "language-burden-citizenship": { "status": "scored", "score": 50 },
-        "integration-support": { "status": "scored", "score": 48 },
-        "social-acceptance-south-asian": { "status": "scored", "score": 52 },
-        "worklife-livability": { "status": "scored", "score": 72 },
-        "cultural-distance-adaptation": { "status": "scored", "score": 58 },
-        "other": { "status": "scored", "score": 48 }
+        "english-usability": {
+          "status": "scored",
+          "score": 45
+        },
+        "language-burden-citizenship": {
+          "status": "scored",
+          "score": 50
+        },
+        "integration-support": {
+          "status": "scored",
+          "score": 48
+        },
+        "social-acceptance-south-asian": {
+          "status": "scored",
+          "score": 52
+        },
+        "worklife-livability": {
+          "status": "scored",
+          "score": 72
+        },
+        "cultural-distance-adaptation": {
+          "status": "scored",
+          "score": 58
+        }
       },
       "pros": [
-        { "text": "Excellent lifestyle, climate and food, and an enormous established Bangladeshi community (Rome and beyond) that dramatically eases cultural adaptation." }
+        {
+          "text": "Excellent lifestyle, climate and food, and an enormous established Bangladeshi community (Rome and beyond) that dramatically eases cultural adaptation."
+        }
       ],
       "cons": [
-        { "text": "Italian is essential for daily life, work and status (B1 for citizenship); English is of limited everyday use." },
-        { "text": "The Meloni/League political climate cools acceptance, even if local diaspora life is strong." }
+        {
+          "text": "Italian is essential for daily life, work and status (B1 for citizenship); English is of limited everyday use."
+        },
+        {
+          "text": "The Meloni/League political climate cools acceptance, even if local diaspora life is strong."
+        }
       ],
       "links": [
-        { "title": "Bangladeshis in Italy (overview)", "url": "https://en.wikipedia.org/wiki/Bangladeshis_in_Italy" }
+        {
+          "title": "Bangladeshis in Italy (overview)",
+          "url": "https://en.wikipedia.org/wiki/Bangladeshis_in_Italy"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -252,23 +504,49 @@
       "status": "scored",
       "summary": "Mid-tier rule of law (WJP ~32nd) with regional crime and slow justice, and weak enforcement of anti-discrimination protections.",
       "factors": {
-        "personal-crime-safety": { "status": "scored", "score": 60 },
-        "lived-discrimination-hatecrime": { "status": "scored", "score": 50 },
-        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 58 },
-        "women-safety-gbv": { "status": "scored", "score": 60 },
-        "immigration-enforcement-due-process": { "status": "scored", "score": 52 },
-        "antidiscrimination-law-enforcement": { "status": "scored", "score": 52 },
-        "other": { "status": "scored", "score": 48 }
+        "personal-crime-safety": {
+          "status": "scored",
+          "score": 60
+        },
+        "lived-discrimination-hatecrime": {
+          "status": "scored",
+          "score": 50
+        },
+        "rule-of-law-corruption-civil-justice": {
+          "status": "scored",
+          "score": 58
+        },
+        "women-safety-gbv": {
+          "status": "scored",
+          "score": 60
+        },
+        "immigration-enforcement-due-process": {
+          "status": "scored",
+          "score": 52
+        },
+        "antidiscrimination-law-enforcement": {
+          "status": "scored",
+          "score": 52
+        }
       },
       "pros": [
-        { "text": "Generally safe day-to-day in most cities, with a strong passport and EU legal framework." }
+        {
+          "text": "Generally safe day-to-day in most cities, with a strong passport and EU legal framework."
+        }
       ],
       "cons": [
-        { "text": "Mid-tier rule of law (WJP ~32nd) with corruption, very slow civil justice and regional organised-crime issues." },
-        { "text": "Anti-discrimination protections are weakly enforced, and anti-migrant incidents occur." }
+        {
+          "text": "Mid-tier rule of law (WJP ~32nd) with corruption, very slow civil justice and regional organised-crime issues."
+        },
+        {
+          "text": "Anti-discrimination protections are weakly enforced, and anti-migrant incidents occur."
+        }
       ],
       "links": [
-        { "title": "World Justice Project — Rule of Law Index 2025", "url": "https://worldjusticeproject.org/rule-of-law-index/" }
+        {
+          "title": "World Justice Project — Rule of Law Index 2025",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -276,23 +554,49 @@
       "status": "scored",
       "summary": "A stable but hard-right government (Meloni's Fratelli d'Italia with the League) that is restrictive and anti-Islam in posture, even as Italy relies on migrant labour.",
       "factors": {
-        "immigration-policy-volatility": { "status": "scored", "score": 45 },
-        "non-eu-skilled-policy-direction": { "status": "scored", "score": 50 },
-        "anti-immigration-electoral-power": { "status": "scored", "score": 28 },
-        "societal-sentiment-trend": { "status": "scored", "score": 42 },
-        "institutional-governance-stability": { "status": "scored", "score": 62 },
-        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 35 },
-        "other": { "status": "scored", "score": 45 }
+        "immigration-policy-volatility": {
+          "status": "scored",
+          "score": 45
+        },
+        "non-eu-skilled-policy-direction": {
+          "status": "scored",
+          "score": 50
+        },
+        "anti-immigration-electoral-power": {
+          "status": "scored",
+          "score": 28
+        },
+        "societal-sentiment-trend": {
+          "status": "scored",
+          "score": 42
+        },
+        "institutional-governance-stability": {
+          "status": "scored",
+          "score": 62
+        },
+        "targeted-risk-south-asian-muslim": {
+          "status": "scored",
+          "score": 35
+        }
       },
       "pros": [
-        { "text": "Unusually for Italy the government is stable, and labour-migration quotas (decreto flussi) have been expanded because the economy needs migrant workers." }
+        {
+          "text": "Unusually for Italy the government is stable, and labour-migration quotas (decreto flussi) have been expanded because the economy needs migrant workers."
+        }
       ],
       "cons": [
-        { "text": "Giorgia Meloni's Fratelli d'Italia governs with the anti-immigration League, with a restrictive and anti-Islam posture." },
-        { "text": "The League has long obstructed mosque openings, and Islam lacks official religious recognition." }
+        {
+          "text": "Giorgia Meloni's Fratelli d'Italia governs with the anti-immigration League, with a restrictive and anti-Islam posture."
+        },
+        {
+          "text": "The League has long obstructed mosque openings, and Islam lacks official religious recognition."
+        }
       ],
       "links": [
-        { "title": "Free Press — Italy is Muslim-friendly, but its PM is not", "url": "https://freepress.org/article/italy-muslim-friendly-its-prime-minister-not-0" }
+        {
+          "title": "Free Press — Italy is Muslim-friendly, but its PM is not",
+          "url": "https://freepress.org/article/italy-muslim-friendly-its-prime-minister-not-0"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -300,21 +604,42 @@
       "status": "scored",
       "summary": "A heavy wedge (IRPEF to 43% plus regional and social contributions), softened by the impatriate regime (now 50% exemption after a 2024 cut) and an Italy–Bangladesh treaty.",
       "factors": {
-        "effective-deduction-wedge": { "status": "scored", "score": 42 },
-        "expat-foreign-worker-relief": { "status": "scored", "score": 55 },
-        "household-dual-earner-treatment": { "status": "scored", "score": 55 },
-        "student-phase-tax-exposure": { "status": "scored", "score": 62 },
-        "bd-treaty-repatriation": { "status": "scored", "score": 62 },
-        "other": { "status": "scored", "score": 50 }
+        "effective-deduction-wedge": {
+          "status": "scored",
+          "score": 42
+        },
+        "expat-foreign-worker-relief": {
+          "status": "scored",
+          "score": 55
+        },
+        "household-dual-earner-treatment": {
+          "status": "scored",
+          "score": 55
+        },
+        "student-phase-tax-exposure": {
+          "status": "scored",
+          "score": 62
+        },
+        "bd-treaty-repatriation": {
+          "status": "scored",
+          "score": 62
+        }
       },
       "pros": [
-        { "text": "The impatriate regime (regime impatriati) still offers a 50% income exemption for qualifying inbound workers, and an Italy–Bangladesh double-taxation treaty supports repatriation." }
+        {
+          "text": "The impatriate regime (regime impatriati) still offers a 50% income exemption for qualifying inbound workers, and an Italy–Bangladesh double-taxation treaty supports repatriation."
+        }
       ],
       "cons": [
-        { "text": "The overall tax/social wedge is heavy (IRPEF to 43% plus regional surtaxes and INPS), and the impatriate relief was cut from 70% to 50% and tightened in 2024." }
+        {
+          "text": "The overall tax/social wedge is heavy (IRPEF to 43% plus regional surtaxes and INPS), and the impatriate relief was cut from 70% to 50% and tightened in 2024."
+        }
       ],
       "links": [
-        { "title": "Italy — Agenzia delle Entrate (tax authority)", "url": "https://www.agenziaentrate.gov.it/portale/web/english" }
+        {
+          "title": "Italy — Agenzia delle Entrate (tax authority)",
+          "url": "https://www.agenziaentrate.gov.it/portale/web/english"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -322,23 +647,56 @@
       "status": "scored",
       "summary": "Continental Europe's largest Bangladeshi community (~150,000–200,000, centred on Rome) with a dense halal/BD-business ecosystem — but Islam lacks official recognition, so formal mosques are scarce and the climate is politically hostile.",
       "factors": {
-        "bangladeshi-diaspora": { "status": "scored", "score": 88 },
-        "religious-practice-infrastructure": { "status": "scored", "score": 55 },
-        "sentiment-safety": { "status": "scored", "score": 42 },
-        "legal-religious-accommodation": { "status": "scored", "score": 38 },
-        "south-asian-cultural-ecosystem": { "status": "scored", "score": 80 },
-        "other": { "status": "scored", "score": 55 }
+        "bangladeshi-diaspora": {
+          "status": "scored",
+          "score": 88
+        },
+        "religious-practice-infrastructure": {
+          "status": "scored",
+          "score": 55
+        },
+        "sentiment-safety": {
+          "status": "scored",
+          "score": 42
+        },
+        "legal-religious-accommodation": {
+          "status": "scored",
+          "score": 38
+        },
+        "south-asian-cultural-ecosystem": {
+          "status": "scored",
+          "score": 80
+        }
       },
       "pros": [
-        { "text": "Italy hosts ~150,000–200,000 Bangladeshis — continental Europe's largest BD community (Rome's is the biggest), with a dense ecosystem of BD groceries, eateries and halal food across Lazio, Lombardy and Veneto." }
+        {
+          "text": "Italy hosts ~150,000–200,000 Bangladeshis — continental Europe's largest BD community (Rome's is the biggest), with a dense ecosystem of BD groceries, eateries and halal food across Lazio, Lombardy and Veneto."
+        }
       ],
       "cons": [
-        { "text": "Islam is not among the 13 officially recognised religions, so there are fewer than 10 officially recognised mosques and prayer often happens in informal spaces — and the League/Meloni climate obstructs new mosques." }
+        {
+          "text": "Islam is not among the 13 officially recognised religions, so there are fewer than 10 officially recognised mosques and prayer often happens in informal spaces — and the League/Meloni climate obstructs new mosques."
+        }
       ],
       "links": [
-        { "title": "Bangladeshis in Italy (overview)", "url": "https://en.wikipedia.org/wiki/Bangladeshis_in_Italy" },
-        { "title": "France 24 — no place to pray for Muslim workers in an Italian city", "url": "https://www.france24.com/en/live-news/20240506-no-place-to-pray-for-muslim-workers-in-italian-city" }
+        {
+          "title": "Bangladeshis in Italy (overview)",
+          "url": "https://en.wikipedia.org/wiki/Bangladeshis_in_Italy"
+        },
+        {
+          "title": "France 24 — no place to pray for Muslim workers in an Italian city",
+          "url": "https://www.france24.com/en/live-news/20240506-no-place-to-pray-for-muslim-workers-in-italian-city"
+        }
       ],
+      "lastReviewed": "2026-06-19"
+    },
+    "direct-work-route": {
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
       "lastReviewed": "2026-06-19"
     }
   }

@@ -8,33 +8,66 @@
   "summary": "Very safe (GPI 2025: 11th), cheap to live in, with a strong passport, low 15% flat income tax, dual citizenship retained both ways (allowed since 2014; Czechia on Bangladesh's DNC list) and a growing Prague IT hub — but a poor fit for a Muslim Bangladeshi couple: the Muslim community is negligible (~0.2%, no purpose-built mosque, real Islamophobia), politics turned hostile (ANO/Babiš won the 2025 election and is courting the far-right SPD), citizenship takes ~10 years with B1 Czech, non-EU students are locked out of public health insurance, and Czech gates daily life. Derived overall sits below the 60% inclusion line — flagged as a drop candidate.",
   "lastReviewed": "2026-06-19",
   "links": [
-    { "title": "Study in Czechia — official national portal (DZS/MŠMT)", "url": "https://www.studyin.cz/" },
-    { "title": "Ministry of Interior — Citizenship of the Czech Republic (official)", "url": "https://www.mvcr.cz/mvcren/article/citizenship.aspx" }
+    {
+      "title": "Study in Czechia — official national portal (DZS/MŠMT)",
+      "url": "https://www.studyin.cz/"
+    },
+    {
+      "title": "Ministry of Interior — Citizenship of the Czech Republic (official)",
+      "url": "https://www.mvcr.cz/mvcren/article/citizenship.aspx"
+    }
   ],
   "categories": {
     "job-market": {
       "status": "scored",
       "summary": "Prague is a growing IT hub (Red Hat, Microsoft, Honeywell, Avast) amid a 200,000+ labour shortage with 63% of IT firms struggling to hire, but salaries are low in absolute terms (offset by low cost) and Czech often helps outside MNCs.",
       "factors": {
-        "sw-demand-depth": { "status": "scored", "score": 70 },
-        "ai-ml-specialisation": { "status": "scored", "score": 52 },
-        "salary-levels": { "status": "scored", "score": 52 },
-        "sponsorship-work-authorisation": { "status": "scored", "score": 62 },
-        "foreign-grad-bd-hireability": { "status": "scored", "score": 58 },
-        "dual-earner-depth": { "status": "scored", "score": 55 },
-        "other": { "status": "scored", "score": 48 }
+        "sw-demand-depth": {
+          "status": "scored",
+          "score": 70
+        },
+        "ai-ml-specialisation": {
+          "status": "scored",
+          "score": 52
+        },
+        "salary-levels": {
+          "status": "scored",
+          "score": 52
+        },
+        "foreign-grad-bd-hireability": {
+          "status": "scored",
+          "score": 58
+        },
+        "dual-earner-depth": {
+          "status": "scored",
+          "score": 55
+        }
       },
       "pros": [
-        { "text": "Strong tech demand: ICT employment is set to grow ~9.6% to 2030 (above the EU average), 63% of IT companies struggle to find skilled staff, and ~15,000 new tech jobs open yearly within a 200,000+ overall labour shortage." },
-        { "text": "Prague hosts major employers (Red Hat, Microsoft, Honeywell, Avast); a senior SDE at Microsoft Prague earns a median ~CZK 2.29m." }
+        {
+          "text": "Strong tech demand: ICT employment is set to grow ~9.6% to 2030 (above the EU average), 63% of IT companies struggle to find skilled staff, and ~15,000 new tech jobs open yearly within a 200,000+ overall labour shortage."
+        },
+        {
+          "text": "Prague hosts major employers (Red Hat, Microsoft, Honeywell, Avast); a senior SDE at Microsoft Prague earns a median ~CZK 2.29m."
+        }
       ],
       "cons": [
-        { "text": "Software-engineer pay is low in absolute terms (~€34k–48k in Prague; AI roles ~€40k–78k), though partly offset by low living costs." },
-        { "text": "The market is Prague-centric (Brno secondary), and Czech is commonly expected outside multinationals, limiting reach for a new arrival." }
+        {
+          "text": "Software-engineer pay is low in absolute terms (~€34k–48k in Prague; AI roles ~€40k–78k), though partly offset by low living costs."
+        },
+        {
+          "text": "The market is Prague-centric (Brno secondary), and Czech is commonly expected outside multinationals, limiting reach for a new arrival."
+        }
       ],
       "links": [
-        { "title": "Nucamp — Getting a job in tech in Czech Republic (2025)", "url": "https://www.nucamp.co/blog/coding-bootcamp-czech-republic-cze-getting-a-job-in-tech-in-czech-republic-in-2025-the-complete-guide" },
-        { "title": "Levels.fyi — Software Engineer salary, Prague", "url": "https://www.levels.fyi/t/software-engineer/locations/prague-cze" }
+        {
+          "title": "Nucamp — Getting a job in tech in Czech Republic (2025)",
+          "url": "https://www.nucamp.co/blog/coding-bootcamp-czech-republic-cze-getting-a-job-in-tech-in-czech-republic-in-2025-the-complete-guide"
+        },
+        {
+          "title": "Levels.fyi — Software Engineer salary, Prague",
+          "url": "https://www.levels.fyi/t/software-engineer/locations/prague-cze"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -42,25 +75,56 @@
       "status": "scored",
       "summary": "Bangladeshi students lodge at VFS Dhaka but the long-term visa is decided by the Czech Embassy in New Delhi via a capacity-constrained email-registration appointment system; funds proof is modest and the permit needs annual renewal.",
       "factors": {
-        "approval-refusal-rate": { "status": "scored", "score": 50 },
-        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 45 },
-        "in-queue-processing-schemes": { "status": "scored", "score": 45 },
-        "financial-bars": { "status": "scored", "score": 60 },
-        "credibility-genuineness-scrutiny": { "status": "scored", "score": 52 },
-        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 50 },
-        "other": { "status": "scored", "score": 45 }
+        "approval-refusal-rate": {
+          "status": "scored",
+          "score": 50
+        },
+        "dhaka-mission-appointment-capacity": {
+          "status": "scored",
+          "score": 45
+        },
+        "in-queue-processing-schemes": {
+          "status": "scored",
+          "score": 45
+        },
+        "financial-bars": {
+          "status": "scored",
+          "score": 60
+        },
+        "credibility-genuineness-scrutiny": {
+          "status": "scored",
+          "score": 52
+        },
+        "heightened-scrutiny-policy-risk": {
+          "status": "scored",
+          "score": 50
+        }
       },
       "pros": [
-        { "text": "Applications are lodged at VFS Global in Dhaka (Gulshan), and the proof-of-funds bar for students is modest; processing is typically 15–30 days." },
-        { "text": "No Bangladesh-specific visa ban; the EU degree and central location make it a low-cost base." }
+        {
+          "text": "Applications are lodged at VFS Global in Dhaka (Gulshan), and the proof-of-funds bar for students is modest; processing is typically 15–30 days."
+        },
+        {
+          "text": "No Bangladesh-specific visa ban; the EU degree and central location make it a low-cost base."
+        }
       ],
       "cons": [
-        { "text": "Czechia has no decision-making mission in Bangladesh — the long-term student visa is decided by the Embassy in New Delhi, and appointment slots are released via a constrained email-registration system on set dates." },
-        { "text": "The long-term student visa is valid only ~12 months and must be renewed annually for the whole degree." }
+        {
+          "text": "Czechia has no decision-making mission in Bangladesh — the long-term student visa is decided by the Embassy in New Delhi, and appointment slots are released via a constrained email-registration system on set dates."
+        },
+        {
+          "text": "The long-term student visa is valid only ~12 months and must be renewed annually for the whole degree."
+        }
       ],
       "links": [
-        { "title": "Embassy of the Czech Republic, New Delhi — long-term visa appointments for Bangladesh (official)", "url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/additional_appointments_for_long_term.html" },
-        { "title": "Czech Universities — How to apply for a Czech student visa", "url": "https://www.czechuniversities.com/article/how-to-apply-for-a-czech-student-visa-guide-for-international-students" }
+        {
+          "title": "Embassy of the Czech Republic, New Delhi — long-term visa appointments for Bangladesh (official)",
+          "url": "https://mzv.gov.cz/newdelhi/en/ko/visa_information/long_term_visa_long_term_residence/additional_appointments_for_long_term.html"
+        },
+        {
+          "title": "Czech Universities — How to apply for a Czech student visa",
+          "url": "https://www.czechuniversities.com/article/how-to-apply-for-a-czech-student-visa-guide-for-international-students"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -68,25 +132,56 @@
       "status": "scored",
       "summary": "Dual citizenship is retained both ways (allowed since 2014) and the passport is top-tier (Henley 7th), but naturalisation takes ~10 years and requires B1 Czech plus a Czech Life & Institutions exam.",
       "factors": {
-        "time-to-citizenship": { "status": "scored", "score": 28 },
-        "naturalisation-requirements": { "status": "scored", "score": 45 },
-        "dual-citizenship-retention": { "status": "scored", "score": 88 },
-        "citizenship-attainability": { "status": "scored", "score": 55 },
-        "policy-stability": { "status": "scored", "score": 65 },
-        "passport-strength": { "status": "scored", "score": 88 },
-        "other": { "status": "scored", "score": 50 }
+        "time-to-citizenship": {
+          "status": "scored",
+          "score": 28
+        },
+        "naturalisation-requirements": {
+          "status": "scored",
+          "score": 45
+        },
+        "dual-citizenship-retention": {
+          "status": "scored",
+          "score": 88
+        },
+        "citizenship-attainability": {
+          "status": "scored",
+          "score": 55
+        },
+        "policy-stability": {
+          "status": "scored",
+          "score": 65
+        },
+        "passport-strength": {
+          "status": "scored",
+          "score": 88
+        }
       },
       "pros": [
-        { "text": "Dual citizenship works both ways: Czechia has allowed multiple nationality since 1 January 2014 and Czechia is on Bangladesh's DNC list, so a naturalising Bangladeshi keeps BD nationality." },
-        { "text": "The Czech passport ranks 7th on Henley 2026 (~182–183 destinations), and the dual-citizenship framework has been stable since 2014." }
+        {
+          "text": "Dual citizenship works both ways: Czechia has allowed multiple nationality since 1 January 2014 and Czechia is on Bangladesh's DNC list, so a naturalising Bangladeshi keeps BD nationality."
+        },
+        {
+          "text": "The Czech passport ranks 7th on Henley 2026 (~182–183 destinations), and the dual-citizenship framework has been stable since 2014."
+        }
       ],
       "cons": [
-        { "text": "Naturalisation requires ~10 years of residence (including ~5 years of permanent residence)." },
-        { "text": "Applicants must pass a B1 Czech-language exam plus a Czech Life & Institutions test — a real burden for English-first applicants." }
+        {
+          "text": "Naturalisation requires ~10 years of residence (including ~5 years of permanent residence)."
+        },
+        {
+          "text": "Applicants must pass a B1 Czech-language exam plus a Czech Life & Institutions test — a real burden for English-first applicants."
+        }
       ],
       "links": [
-        { "title": "Ministry of Interior — Citizenship of the Czech Republic (official)", "url": "https://www.mvcr.cz/mvcren/article/citizenship.aspx" },
-        { "title": "GLOBALCIT — Czech dual-citizenship reform", "url": "https://globalcit.eu/czech-republic-sharp-rise-of-naturalisation-in-the-wake-of-dual-citizenship-reform/" }
+        {
+          "title": "Ministry of Interior — Citizenship of the Czech Republic (official)",
+          "url": "https://www.mvcr.cz/mvcren/article/citizenship.aspx"
+        },
+        {
+          "title": "GLOBALCIT — Czech dual-citizenship reform",
+          "url": "https://globalcit.eu/czech-republic-sharp-rise-of-naturalisation-in-the-wake-of-dual-citizenship-reform/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -94,25 +189,56 @@
       "status": "scored",
       "summary": "Graduates get a 9-month job-seeker residence permit, then an Employee Card or EU Blue Card on a qualifying offer — a short but workable runway, available to each graduating spouse.",
       "factors": {
-        "psw-duration-runway": { "status": "scored", "score": 45 },
-        "eligibility-openness-bd": { "status": "scored", "score": 62 },
-        "transition-to-skilled-work": { "status": "scored", "score": 65 },
-        "work-freedom-during-psw": { "status": "scored", "score": 58 },
-        "dual-graduate-spouse-psw": { "status": "scored", "score": 70 },
-        "psw-policy-stability": { "status": "scored", "score": 55 },
-        "other": { "status": "scored", "score": 50 }
+        "psw-duration-runway": {
+          "status": "scored",
+          "score": 45
+        },
+        "eligibility-openness-bd": {
+          "status": "scored",
+          "score": 62
+        },
+        "transition-to-skilled-work": {
+          "status": "scored",
+          "score": 65
+        },
+        "work-freedom-during-psw": {
+          "status": "scored",
+          "score": 58
+        },
+        "dual-graduate-spouse-psw": {
+          "status": "scored",
+          "score": 70
+        },
+        "psw-policy-stability": {
+          "status": "scored",
+          "score": 55
+        }
       },
       "pros": [
-        { "text": "Non-EU graduates can stay up to 9 months on a job-seeker residence permit to find work or start a business, with both graduating spouses eligible." },
-        { "text": "Conversion is offer-based and deterministic via the Employee Card (combined work-and-residence permit) or the EU Blue Card for higher-paid roles." }
+        {
+          "text": "Non-EU graduates can stay up to 9 months on a job-seeker residence permit to find work or start a business, with both graduating spouses eligible."
+        },
+        {
+          "text": "Conversion is offer-based and deterministic via the Employee Card (combined work-and-residence permit) or the EU Blue Card for higher-paid roles."
+        }
       ],
       "cons": [
-        { "text": "The 9-month job-search window is short next to Canada's 3-year PGWP or Germany's 18 months." },
-        { "text": "The Employee Card ties the holder to a specific qualified position initially." }
+        {
+          "text": "The 9-month job-search window is short next to Canada's 3-year PGWP or Germany's 18 months."
+        },
+        {
+          "text": "The Employee Card ties the holder to a specific qualified position initially."
+        }
       ],
       "links": [
-        { "title": "Study in Czechia — Work while or after studying (official portal)", "url": "https://www.studyin.cz/live-work/work/" },
-        { "title": "Study-Abroad — Graduate careers in Czech Republic 2026", "url": "https://www.study-abroad.org/blog/cz-graduate-career-guide/" }
+        {
+          "title": "Study in Czechia — Work while or after studying (official portal)",
+          "url": "https://www.studyin.cz/live-work/work/"
+        },
+        {
+          "title": "Study-Abroad — Graduate careers in Czech Republic 2026",
+          "url": "https://www.study-abroad.org/blog/cz-graduate-career-guide/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -120,21 +246,41 @@
       "status": "scored",
       "summary": "Family reunification and free schooling exist, and the spouse of an Employee Card holder can work, but the accompanying spouse of a student faces conditions; if both study, each holds an independent track.",
       "factors": {
-        "spouse-work-rights": { "status": "scored", "score": 58 },
-        "dependent-visa-bd-access": { "status": "scored", "score": 55 },
-        "family-reunification-children": { "status": "scored", "score": 65 },
-        "spouse-path-to-independence": { "status": "scored", "score": 62 },
-        "other": { "status": "scored", "score": 48 }
+        "spouse-work-rights": {
+          "status": "scored",
+          "score": 58
+        },
+        "dependent-visa-bd-access": {
+          "status": "scored",
+          "score": 55
+        },
+        "family-reunification-children": {
+          "status": "scored",
+          "score": 65
+        },
+        "spouse-path-to-independence": {
+          "status": "scored",
+          "score": 62
+        }
       },
       "pros": [
-        { "text": "The spouse of an Employee Card holder can obtain labour-market access, and if both spouses study each holds their own permit and job-seeker route." },
-        { "text": "Children attend public school free of charge; family reunification is available subject to income and housing." }
+        {
+          "text": "The spouse of an Employee Card holder can obtain labour-market access, and if both spouses study each holds their own permit and job-seeker route."
+        },
+        {
+          "text": "Children attend public school free of charge; family reunification is available subject to income and housing."
+        }
       ],
       "cons": [
-        { "text": "Family reunification for a student principal carries income/housing conditions, and the dependent spouse's work access is not automatic during the study phase." }
+        {
+          "text": "Family reunification for a student principal carries income/housing conditions, and the dependent spouse's work access is not automatic during the study phase."
+        }
       ],
       "links": [
-        { "title": "Study in Czechia — Living & family (official portal)", "url": "https://www.studyin.cz/live-work/" }
+        {
+          "title": "Study in Czechia — Living & family (official portal)",
+          "url": "https://www.studyin.cz/live-work/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -142,23 +288,49 @@
       "status": "scored",
       "summary": "Solid English-taught CS/AI options at CTU Prague and Charles University at moderate tuition, with low living costs and a one-year master qualifying for the job-seeker permit.",
       "factors": {
-        "affordability-funding": { "status": "scored", "score": 58 },
-        "english-program-depth": { "status": "scored", "score": 65 },
-        "admission-credential-access": { "status": "scored", "score": 70 },
-        "student-work-rights": { "status": "scored", "score": 62 },
-        "study-pathway-fit": { "status": "scored", "score": 70 },
-        "other": { "status": "scored", "score": 55 }
+        "affordability-funding": {
+          "status": "scored",
+          "score": 58
+        },
+        "english-program-depth": {
+          "status": "scored",
+          "score": 65
+        },
+        "admission-credential-access": {
+          "status": "scored",
+          "score": 70
+        },
+        "student-work-rights": {
+          "status": "scored",
+          "score": 62
+        },
+        "study-pathway-fit": {
+          "status": "scored",
+          "score": 70
+        }
       },
       "pros": [
-        { "text": "CTU Prague and Charles University offer respected English-taught CS/AI master's (≈7 AI master's nationally); English-programme tuition is moderate (broadly ~€2k–15k/yr) and Czech-taught study is tuition-free." },
-        { "text": "A Bangladeshi BSc-CSE is admissible at the graduate level, living costs are low, and a master's qualifies for the job-seeker permit." }
+        {
+          "text": "CTU Prague and Charles University offer respected English-taught CS/AI master's (≈7 AI master's nationally); English-programme tuition is moderate (broadly ~€2k–15k/yr) and Czech-taught study is tuition-free."
+        },
+        {
+          "text": "A Bangladeshi BSc-CSE is admissible at the graduate level, living costs are low, and a master's qualifies for the job-seeker permit."
+        }
       ],
       "cons": [
-        { "text": "The English-taught catalogue is narrower than Canada/UK, and well-funded scholarships for non-EU master's students are limited." }
+        {
+          "text": "The English-taught catalogue is narrower than Canada/UK, and well-funded scholarships for non-EU master's students are limited."
+        }
       ],
       "links": [
-        { "title": "Study.eu — Master's in the Czech Republic (2026)", "url": "https://www.study.eu/guide/masters-in-czech-republic" },
-        { "title": "Charles University — Tuition fees (official)", "url": "https://cuni.cz/UKEN-372.html" }
+        {
+          "title": "Study.eu — Master's in the Czech Republic (2026)",
+          "url": "https://www.study.eu/guide/masters-in-czech-republic"
+        },
+        {
+          "title": "Charles University — Tuition fees (official)",
+          "url": "https://cuni.cz/UKEN-372.html"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -166,23 +338,49 @@
       "status": "scored",
       "summary": "Five years of continuous residence leads to permanent residence, a clear Employee-Card-based route eased by labour shortages, with an A2-Czech requirement and a restrictive political backdrop.",
       "factors": {
-        "years-to-pr": { "status": "scored", "score": 62 },
-        "route-clarity-accessibility": { "status": "scored", "score": 62 },
-        "eligibility-bars": { "status": "scored", "score": 60 },
-        "language-integration-requirement": { "status": "scored", "score": 55 },
-        "continuity-retention": { "status": "scored", "score": 58 },
-        "policy-predictability": { "status": "scored", "score": 48 },
-        "other": { "status": "scored", "score": 50 }
+        "years-to-pr": {
+          "status": "scored",
+          "score": 62
+        },
+        "route-clarity-accessibility": {
+          "status": "scored",
+          "score": 62
+        },
+        "eligibility-bars": {
+          "status": "scored",
+          "score": 60
+        },
+        "language-integration-requirement": {
+          "status": "scored",
+          "score": 55
+        },
+        "continuity-retention": {
+          "status": "scored",
+          "score": 58
+        },
+        "policy-predictability": {
+          "status": "scored",
+          "score": 48
+        }
       },
       "pros": [
-        { "text": "Permanent residence is reachable after 5 years of continuous residence, with study and work time building the route via the Employee Card." },
-        { "text": "Acute labour shortages keep skilled-worker channels open and the income bars attainable for engineers." }
+        {
+          "text": "Permanent residence is reachable after 5 years of continuous residence, with study and work time building the route via the Employee Card."
+        },
+        {
+          "text": "Acute labour shortages keep skilled-worker channels open and the income bars attainable for engineers."
+        }
       ],
       "cons": [
-        { "text": "Permanent residence requires an A2 Czech-language exam, and the ANO-led government signals a more restrictive migration direction." }
+        {
+          "text": "Permanent residence requires an A2 Czech-language exam, and the ANO-led government signals a more restrictive migration direction."
+        }
       ],
       "links": [
-        { "title": "Study in Czechia — Long-term residence / staying after studies (official)", "url": "https://www.studyin.cz/live-work/work/getting-work-visa/" }
+        {
+          "title": "Study in Czechia — Long-term residence / staying after studies (official)",
+          "url": "https://www.studyin.cz/live-work/work/getting-work-visa/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -190,21 +388,42 @@
       "status": "scored",
       "summary": "Low living costs and a 15% flat income tax leave a workable surplus despite modest salaries, with housing cheaper than Western Europe though rising in Prague.",
       "factors": {
-        "household-net-surplus": { "status": "scored", "score": 60 },
-        "housing-cost-availability": { "status": "scored", "score": 60 },
-        "savings-remittance": { "status": "scored", "score": 58 },
-        "student-phase-affordability": { "status": "scored", "score": 60 },
-        "upfront-relocation-cash": { "status": "scored", "score": 60 },
-        "other": { "status": "scored", "score": 55 }
+        "household-net-surplus": {
+          "status": "scored",
+          "score": 60
+        },
+        "housing-cost-availability": {
+          "status": "scored",
+          "score": 60
+        },
+        "savings-remittance": {
+          "status": "scored",
+          "score": 58
+        },
+        "student-phase-affordability": {
+          "status": "scored",
+          "score": 60
+        },
+        "upfront-relocation-cash": {
+          "status": "scored",
+          "score": 60
+        }
       },
       "pros": [
-        { "text": "A 15% flat income tax (to ~CZK 1.76m) plus low living costs let two modest tech salaries net a workable surplus; relocation and study-phase costs are low." }
+        {
+          "text": "A 15% flat income tax (to ~CZK 1.76m) plus low living costs let two modest tech salaries net a workable surplus; relocation and study-phase costs are low."
+        }
       ],
       "cons": [
-        { "text": "Absolute salaries are low, so savings/remittance potential is moderate rather than strong, and Prague rents have been rising." }
+        {
+          "text": "Absolute salaries are low, so savings/remittance potential is moderate rather than strong, and Prague rents have been rising."
+        }
       ],
       "links": [
-        { "title": "Accace — 2026 Tax Guideline for the Czech Republic", "url": "https://www.accace.com/tax-guideline-for-the-czech-republic/" }
+        {
+          "title": "Accace — 2026 Tax Guideline for the Czech Republic",
+          "url": "https://www.accace.com/tax-guideline-for-the-czech-republic/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -212,22 +431,46 @@
       "status": "scored",
       "summary": "Good-quality care once employed (mandatory public insurance), but non-EU students are excluded from the public system and must buy gappy commercial insurance — a real newcomer barrier.",
       "factors": {
-        "newcomer-eligibility-barrier": { "status": "scored", "score": 45 },
-        "health-quality-access": { "status": "scored", "score": 65 },
-        "cost-coverage-by-status": { "status": "scored", "score": 55 },
-        "social-insurance-safety-net": { "status": "scored", "score": 62 },
-        "family-childcare-benefits": { "status": "scored", "score": 58 },
-        "other": { "status": "scored", "score": 50 }
+        "newcomer-eligibility-barrier": {
+          "status": "scored",
+          "score": 45
+        },
+        "health-quality-access": {
+          "status": "scored",
+          "score": 65
+        },
+        "cost-coverage-by-status": {
+          "status": "scored",
+          "score": 55
+        },
+        "social-insurance-safety-net": {
+          "status": "scored",
+          "score": 62
+        },
+        "family-childcare-benefits": {
+          "status": "scored",
+          "score": 58
+        }
       },
       "pros": [
-        { "text": "Employment triggers mandatory, good-quality public health insurance (VZP); from 1 January 2026 the state even covers contributions for unemployed Employee-Card holders, closing a long-standing gap." }
+        {
+          "text": "Employment triggers mandatory, good-quality public health insurance (VZP); from 1 January 2026 the state even covers contributions for unemployed Employee-Card holders, closing a long-standing gap."
+        }
       ],
       "cons": [
-        { "text": "Non-EU students cannot join public insurance and must buy commercial cover (PVZP/Maxima, ~€280–520/yr) that is known for exclusions and waiting periods — a genuine study-phase barrier." }
+        {
+          "text": "Non-EU students cannot join public insurance and must buy commercial cover (PVZP/Maxima, ~€280–520/yr) that is known for exclusions and waiting periods — a genuine study-phase barrier."
+        }
       ],
       "links": [
-        { "title": "Study in Czechia — Medical care and insurance (official)", "url": "https://www.studyin.cz/live-work/medical-care-and-insurance/" },
-        { "title": "VisaHQ — Czech state to pay health insurance for unemployed Employee-Card holders (2026)", "url": "https://www.visahq.com/news/2026-01-26/cz/czech-government-agrees-to-pay-health-insurance-for-unemployed-foreigners-holding-employee-cards/" }
+        {
+          "title": "Study in Czechia — Medical care and insurance (official)",
+          "url": "https://www.studyin.cz/live-work/medical-care-and-insurance/"
+        },
+        {
+          "title": "VisaHQ — Czech state to pay health insurance for unemployed Employee-Card holders (2026)",
+          "url": "https://www.visahq.com/news/2026-01-26/cz/czech-government-agrees-to-pay-health-insurance-for-unemployed-foreigners-holding-employee-cards/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -235,23 +478,49 @@
       "status": "scored",
       "summary": "Prague's IT sector is English-friendly and the city is highly livable, but Czech is essential for daily life and status, and the society is ethnically homogeneous with little exposure to South-Asian Muslims.",
       "factors": {
-        "english-usability": { "status": "scored", "score": 48 },
-        "language-burden-citizenship": { "status": "scored", "score": 42 },
-        "integration-support": { "status": "scored", "score": 48 },
-        "social-acceptance-south-asian": { "status": "scored", "score": 42 },
-        "worklife-livability": { "status": "scored", "score": 68 },
-        "cultural-distance-adaptation": { "status": "scored", "score": 45 },
-        "other": { "status": "scored", "score": 45 }
+        "english-usability": {
+          "status": "scored",
+          "score": 48
+        },
+        "language-burden-citizenship": {
+          "status": "scored",
+          "score": 42
+        },
+        "integration-support": {
+          "status": "scored",
+          "score": 48
+        },
+        "social-acceptance-south-asian": {
+          "status": "scored",
+          "score": 42
+        },
+        "worklife-livability": {
+          "status": "scored",
+          "score": 68
+        },
+        "cultural-distance-adaptation": {
+          "status": "scored",
+          "score": 45
+        }
       },
       "pros": [
-        { "text": "Prague is highly livable and its IT workplaces are English-friendly, with good work-life balance and a central European location." }
+        {
+          "text": "Prague is highly livable and its IT workplaces are English-friendly, with good work-life balance and a central European location."
+        }
       ],
       "cons": [
-        { "text": "Czech is required for daily life and for status (A2 for PR, B1 for citizenship), with a steep learning curve for English-first arrivals." },
-        { "text": "The society is ethnically homogeneous with little exposure to South-Asian Muslim newcomers, so social acceptance can be cool." }
+        {
+          "text": "Czech is required for daily life and for status (A2 for PR, B1 for citizenship), with a steep learning curve for English-first arrivals."
+        },
+        {
+          "text": "The society is ethnically homogeneous with little exposure to South-Asian Muslim newcomers, so social acceptance can be cool."
+        }
       ],
       "links": [
-        { "title": "Study in Czechia — Living in Czechia (official)", "url": "https://www.studyin.cz/live-work/" }
+        {
+          "title": "Study in Czechia — Living in Czechia (official)",
+          "url": "https://www.studyin.cz/live-work/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -259,24 +528,53 @@
       "status": "scored",
       "summary": "One of the world's safest countries (GPI 2025: 11th, 1.435) with upper-tier rule of law (WJP 2025: 20th), but with notable Islamophobic incidents and weak protection of Muslim minorities.",
       "factors": {
-        "personal-crime-safety": { "status": "scored", "score": 82 },
-        "lived-discrimination-hatecrime": { "status": "scored", "score": 45 },
-        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 68 },
-        "women-safety-gbv": { "status": "scored", "score": 72 },
-        "immigration-enforcement-due-process": { "status": "scored", "score": 62 },
-        "antidiscrimination-law-enforcement": { "status": "scored", "score": 55 },
-        "other": { "status": "scored", "score": 50 }
+        "personal-crime-safety": {
+          "status": "scored",
+          "score": 82
+        },
+        "lived-discrimination-hatecrime": {
+          "status": "scored",
+          "score": 45
+        },
+        "rule-of-law-corruption-civil-justice": {
+          "status": "scored",
+          "score": 68
+        },
+        "women-safety-gbv": {
+          "status": "scored",
+          "score": 72
+        },
+        "immigration-enforcement-due-process": {
+          "status": "scored",
+          "score": 62
+        },
+        "antidiscrimination-law-enforcement": {
+          "status": "scored",
+          "score": 55
+        }
       },
       "pros": [
-        { "text": "Global Peace Index 2025: 11th of 163 (score 1.435) — among the world's safest — with low violent crime and stable institutions; WJP Rule of Law Index 2025: 20th of 143." },
-        { "text": "Strong personal and women's safety with reliable civil justice." }
+        {
+          "text": "Global Peace Index 2025: 11th of 163 (score 1.435) — among the world's safest — with low violent crime and stable institutions; WJP Rule of Law Index 2025: 20th of 143."
+        },
+        {
+          "text": "Strong personal and women's safety with reliable civil justice."
+        }
       ],
       "cons": [
-        { "text": "Islamophobia is a documented problem (a Brno mosque defaced with death threats; ~31% of Muslim job-seekers report discrimination), and anti-discrimination protection for Muslims is weakly enforced." }
+        {
+          "text": "Islamophobia is a documented problem (a Brno mosque defaced with death threats; ~31% of Muslim job-seekers report discrimination), and anti-discrimination protection for Muslims is weakly enforced."
+        }
       ],
       "links": [
-        { "title": "Vision of Humanity — Global Peace Index 2025", "url": "https://www.visionofhumanity.org/maps/" },
-        { "title": "World Justice Project — Czech Republic country profile (2025)", "url": "https://worldjusticeproject.org/sites/default/files/documents/Czech%20Republic.pdf" }
+        {
+          "title": "Vision of Humanity — Global Peace Index 2025",
+          "url": "https://www.visionofhumanity.org/maps/"
+        },
+        {
+          "title": "World Justice Project — Czech Republic country profile (2025)",
+          "url": "https://worldjusticeproject.org/sites/default/files/documents/Czech%20Republic.pdf"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -284,23 +582,49 @@
       "status": "scored",
       "summary": "Institutions are stable, but politics turned hostile to migration: Andrej Babiš's ANO won the October 2025 election and is courting the far-right SPD, with a consistent anti-EU-migration line.",
       "factors": {
-        "immigration-policy-volatility": { "status": "scored", "score": 42 },
-        "non-eu-skilled-policy-direction": { "status": "scored", "score": 50 },
-        "anti-immigration-electoral-power": { "status": "scored", "score": 30 },
-        "societal-sentiment-trend": { "status": "scored", "score": 38 },
-        "institutional-governance-stability": { "status": "scored", "score": 70 },
-        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 38 },
-        "other": { "status": "scored", "score": 45 }
+        "immigration-policy-volatility": {
+          "status": "scored",
+          "score": 42
+        },
+        "non-eu-skilled-policy-direction": {
+          "status": "scored",
+          "score": 50
+        },
+        "anti-immigration-electoral-power": {
+          "status": "scored",
+          "score": 30
+        },
+        "societal-sentiment-trend": {
+          "status": "scored",
+          "score": 38
+        },
+        "institutional-governance-stability": {
+          "status": "scored",
+          "score": 70
+        },
+        "targeted-risk-south-asian-muslim": {
+          "status": "scored",
+          "score": 38
+        }
       },
       "pros": [
-        { "text": "Institutions are stable and democratic, and labour-shortage-driven skilled-worker channels (Employee Card, Blue Card) remain operational." }
+        {
+          "text": "Institutions are stable and democratic, and labour-shortage-driven skilled-worker channels (Employee Card, Blue Card) remain operational."
+        }
       ],
       "cons": [
-        { "text": "ANO (Babiš) won the October 2025 election and is seeking a government with the far-right SPD; both reject EU migration pacts and quotas, hardening the climate for non-EU newcomers." },
-        { "text": "Anti-Islam rhetoric features prominently in extremist and disinformation discourse, targeting Muslim migrants specifically." }
+        {
+          "text": "ANO (Babiš) won the October 2025 election and is seeking a government with the far-right SPD; both reject EU migration pacts and quotas, hardening the climate for non-EU newcomers."
+        },
+        {
+          "text": "Anti-Islam rhetoric features prominently in extremist and disinformation discourse, targeting Muslim migrants specifically."
+        }
       ],
       "links": [
-        { "title": "Expats.cz — Czech election 2025: where parties stand", "url": "https://www.expats.cz/czech-news/article/czech-election-2025-where-parties-stand-on-6-issues-that-could-reshape-daily-life" }
+        {
+          "title": "Expats.cz — Czech election 2025: where parties stand",
+          "url": "https://www.expats.cz/czech-news/article/czech-election-2025-where-parties-stand-on-6-issues-that-could-reshape-daily-life"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -308,21 +632,42 @@
       "status": "scored",
       "summary": "A low 15% flat income tax (23% above ~€70k) and moderate social wedge are attractive, though there is no expat regime and no confirmed Czech–Bangladesh tax treaty.",
       "factors": {
-        "effective-deduction-wedge": { "status": "scored", "score": 55 },
-        "expat-foreign-worker-relief": { "status": "scored", "score": 30 },
-        "household-dual-earner-treatment": { "status": "scored", "score": 62 },
-        "student-phase-tax-exposure": { "status": "scored", "score": 65 },
-        "bd-treaty-repatriation": { "status": "scored", "score": 40 },
-        "other": { "status": "scored", "score": 55 }
+        "effective-deduction-wedge": {
+          "status": "scored",
+          "score": 55
+        },
+        "expat-foreign-worker-relief": {
+          "status": "scored",
+          "score": 30
+        },
+        "household-dual-earner-treatment": {
+          "status": "scored",
+          "score": 62
+        },
+        "student-phase-tax-exposure": {
+          "status": "scored",
+          "score": 65
+        },
+        "bd-treaty-repatriation": {
+          "status": "scored",
+          "score": 40
+        }
       },
       "pros": [
-        { "text": "Income tax is a low 15% flat rate up to ~CZK 1.76m (23% above), assessed individually with no second-earner penalty — light by EU standards." }
+        {
+          "text": "Income tax is a low 15% flat rate up to ~CZK 1.76m (23% above), assessed individually with no second-earner penalty — light by EU standards."
+        }
       ],
       "cons": [
-        { "text": "There is no special expat/inbound-worker tax relief, and no Czech–Bangladesh double-taxation treaty is confirmed (Bangladesh has DTAs with only ~36 countries), so repatriation relief is uncertain." }
+        {
+          "text": "There is no special expat/inbound-worker tax relief, and no Czech–Bangladesh double-taxation treaty is confirmed (Bangladesh has DTAs with only ~36 countries), so repatriation relief is uncertain."
+        }
       ],
       "links": [
-        { "title": "PwC — Czech Republic: individual taxes", "url": "https://taxsummaries.pwc.com/czech-republic/individual/taxes-on-personal-income" }
+        {
+          "title": "PwC — Czech Republic: individual taxes",
+          "url": "https://taxsummaries.pwc.com/czech-republic/individual/taxes-on-personal-income"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -330,24 +675,59 @@
       "status": "scored",
       "summary": "The weakest dimension: Czechia's Muslim community is negligible (~0.2%, ~20,000 people), there is no purpose-built mosque, halal options are scarce, and Islamophobia is a documented problem with essentially no Bangladeshi community.",
       "factors": {
-        "bangladeshi-diaspora": { "status": "scored", "score": 25 },
-        "religious-practice-infrastructure": { "status": "scored", "score": 35 },
-        "sentiment-safety": { "status": "scored", "score": 30 },
-        "legal-religious-accommodation": { "status": "scored", "score": 38 },
-        "south-asian-cultural-ecosystem": { "status": "scored", "score": 32 },
-        "other": { "status": "scored", "score": 35 }
+        "bangladeshi-diaspora": {
+          "status": "scored",
+          "score": 25
+        },
+        "religious-practice-infrastructure": {
+          "status": "scored",
+          "score": 35
+        },
+        "sentiment-safety": {
+          "status": "scored",
+          "score": 30
+        },
+        "legal-religious-accommodation": {
+          "status": "scored",
+          "score": 38
+        },
+        "south-asian-cultural-ecosystem": {
+          "status": "scored",
+          "score": 32
+        }
       },
       "pros": [
-        { "text": "Prague has a couple of prayer rooms and a handful of halal restaurants in the centre, sufficient for basic practice." }
+        {
+          "text": "Prague has a couple of prayer rooms and a handful of halal restaurants in the centre, sufficient for basic practice."
+        }
       ],
       "cons": [
-        { "text": "Muslims are only ~0.2% of the population (~20,000, mostly Turkish/Arab) with no purpose-built mosque and scarce halal infrastructure, and essentially no established Bangladeshi community." },
-        { "text": "Islamophobia is documented (mosque death-threat graffiti in Brno; ~31% of Muslim job-seekers report discrimination) amid a 'phantom Muslim menace' disinformation climate." }
+        {
+          "text": "Muslims are only ~0.2% of the population (~20,000, mostly Turkish/Arab) with no purpose-built mosque and scarce halal infrastructure, and essentially no established Bangladeshi community."
+        },
+        {
+          "text": "Islamophobia is documented (mosque death-threat graffiti in Brno; ~31% of Muslim job-seekers report discrimination) amid a 'phantom Muslim menace' disinformation climate."
+        }
       ],
       "links": [
-        { "title": "Islam in the Czech Republic (overview)", "url": "https://kharchoufa.com/en/islam-in-the-czech-republic/" },
-        { "title": "Radio Prague International — Hidden Muslim communities in Prague", "url": "https://english.radio.cz/hidden-muslim-communities-basements-prague-8857205" }
+        {
+          "title": "Islam in the Czech Republic (overview)",
+          "url": "https://kharchoufa.com/en/islam-in-the-czech-republic/"
+        },
+        {
+          "title": "Radio Prague International — Hidden Muslim communities in Prague",
+          "url": "https://english.radio.cz/hidden-muslim-communities-basements-prague-8857205"
+        }
       ],
+      "lastReviewed": "2026-06-19"
+    },
+    "direct-work-route": {
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
       "lastReviewed": "2026-06-19"
     }
   }

@@ -8,32 +8,63 @@
   "summary": "A strong English-operating tech hub (Spotify, Klarna, Ericsson, King) with dual citizenship retained both ways, a top-3 passport, top-tier rule of law, universal healthcare and a real Stockholm Bangladeshi community — but turning markedly less welcoming: from June 2026 citizenship now needs 8 years (up from 5) plus new language, civics and self-sufficiency tests, the Sweden-Democrat-backed government abolished permanent residency for refugees and added a 'good behaviour' deportation regime, gang/gun violence has dented safety, and repeated Quran-burnings have inflamed the climate for Muslims. Derived overall sits below the 60% inclusion line.",
   "lastReviewed": "2026-06-19",
   "links": [
-    { "title": "Swedish Migration Agency (Migrationsverket) — official", "url": "https://www.migrationsverket.se/en/" },
-    { "title": "Study in Sweden — official national portal", "url": "https://studyinsweden.se/" }
+    {
+      "title": "Swedish Migration Agency (Migrationsverket) — official",
+      "url": "https://www.migrationsverket.se/en/"
+    },
+    {
+      "title": "Study in Sweden — official national portal",
+      "url": "https://studyinsweden.se/"
+    }
   ],
   "categories": {
     "job-market": {
       "status": "scored",
       "summary": "A deep, English-operating tech scene (Spotify, Klarna, Ericsson, King) with strong AI growth, though salaries are moderate in absolute terms and recent layoffs hit.",
       "factors": {
-        "sw-demand-depth": { "status": "scored", "score": 70 },
-        "ai-ml-specialisation": { "status": "scored", "score": 66 },
-        "salary-levels": { "status": "scored", "score": 68 },
-        "sponsorship-work-authorisation": { "status": "scored", "score": 62 },
-        "foreign-grad-bd-hireability": { "status": "scored", "score": 68 },
-        "dual-earner-depth": { "status": "scored", "score": 65 },
-        "other": { "status": "scored", "score": 48 }
+        "sw-demand-depth": {
+          "status": "scored",
+          "score": 70
+        },
+        "ai-ml-specialisation": {
+          "status": "scored",
+          "score": 66
+        },
+        "salary-levels": {
+          "status": "scored",
+          "score": 68
+        },
+        "foreign-grad-bd-hireability": {
+          "status": "scored",
+          "score": 68
+        },
+        "dual-earner-depth": {
+          "status": "scored",
+          "score": 65
+        }
       },
       "pros": [
-        { "text": "A leading European tech hub (Spotify, Klarna, Ericsson, King) with AI-engineer demand projected to grow ~28% by 2030; English operates fully in tech workplaces." },
-        { "text": "Software engineers earn ~SEK 384k–625k and AI engineers ~$94k, across Stockholm, Göteborg and Malmö." }
+        {
+          "text": "A leading European tech hub (Spotify, Klarna, Ericsson, King) with AI-engineer demand projected to grow ~28% by 2030; English operates fully in tech workplaces."
+        },
+        {
+          "text": "Software engineers earn ~SEK 384k–625k and AI engineers ~$94k, across Stockholm, Göteborg and Malmö."
+        }
       ],
       "cons": [
-        { "text": "Absolute salaries trail the US/Swiss, and recent fintech layoffs (e.g. Klarna) softened hiring; labour-immigration rules were tightened in 2025–26." }
+        {
+          "text": "Absolute salaries trail the US/Swiss, and recent fintech layoffs (e.g. Klarna) softened hiring; labour-immigration rules were tightened in 2025–26."
+        }
       ],
       "links": [
-        { "title": "Jobicy — AI Engineer salary, Sweden (2025)", "url": "https://jobicy.com/salaries/se/ai-engineer" },
-        { "title": "Nucamp — best-paid tech jobs in Sweden (2025)", "url": "https://www.nucamp.co/blog/coding-bootcamp-sweden-swe-top-10-best-paid-tech-job-in-sweden-in-2025" }
+        {
+          "title": "Jobicy — AI Engineer salary, Sweden (2025)",
+          "url": "https://jobicy.com/salaries/se/ai-engineer"
+        },
+        {
+          "title": "Nucamp — best-paid tech jobs in Sweden (2025)",
+          "url": "https://www.nucamp.co/blog/coding-bootcamp-sweden-swe-top-10-best-paid-tech-job-in-sweden-in-2025"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -41,22 +72,46 @@
       "status": "scored",
       "summary": "Sweden has an embassy in Dhaka and a transparent online Migrationsverket process with modest funds, though student-permit oversight tightened in 2026.",
       "factors": {
-        "approval-refusal-rate": { "status": "scored", "score": 56 },
-        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 62 },
-        "in-queue-processing-schemes": { "status": "scored", "score": 52 },
-        "financial-bars": { "status": "scored", "score": 58 },
-        "credibility-genuineness-scrutiny": { "status": "scored", "score": 55 },
-        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 50 },
-        "other": { "status": "scored", "score": 52 }
+        "approval-refusal-rate": {
+          "status": "scored",
+          "score": 56
+        },
+        "dhaka-mission-appointment-capacity": {
+          "status": "scored",
+          "score": 62
+        },
+        "in-queue-processing-schemes": {
+          "status": "scored",
+          "score": 52
+        },
+        "financial-bars": {
+          "status": "scored",
+          "score": 58
+        },
+        "credibility-genuineness-scrutiny": {
+          "status": "scored",
+          "score": 55
+        },
+        "heightened-scrutiny-policy-risk": {
+          "status": "scored",
+          "score": 50
+        }
       },
       "pros": [
-        { "text": "Sweden has an embassy in Dhaka and an online Migrationsverket application with modest funds requirements (~SEK 10k/month); no Bangladesh-specific ban." }
+        {
+          "text": "Sweden has an embassy in Dhaka and an online Migrationsverket application with modest funds requirements (~SEK 10k/month); no Bangladesh-specific ban."
+        }
       ],
       "cons": [
-        { "text": "Migrationsverket processing can be slow, and 2026 brought closer scrutiny of study permits and in-country conversions." }
+        {
+          "text": "Migrationsverket processing can be slow, and 2026 brought closer scrutiny of study permits and in-country conversions."
+        }
       ],
       "links": [
-        { "title": "Migrationsverket — study in Sweden (official)", "url": "https://www.migrationsverket.se/en/you-want-to-apply/study.html" }
+        {
+          "title": "Migrationsverket — study in Sweden (official)",
+          "url": "https://www.migrationsverket.se/en/you-want-to-apply/study.html"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -64,23 +119,49 @@
       "status": "scored",
       "summary": "Dual citizenship is retained both ways and the passport is top-3, but a June-2026 reform raised residence from 5 to 8 years and added new language, civics and self-sufficiency tests.",
       "factors": {
-        "time-to-citizenship": { "status": "scored", "score": 32 },
-        "naturalisation-requirements": { "status": "scored", "score": 48 },
-        "dual-citizenship-retention": { "status": "scored", "score": 85 },
-        "citizenship-attainability": { "status": "scored", "score": 52 },
-        "policy-stability": { "status": "scored", "score": 35 },
-        "passport-strength": { "status": "scored", "score": 92 },
-        "other": { "status": "scored", "score": 45 }
+        "time-to-citizenship": {
+          "status": "scored",
+          "score": 32
+        },
+        "naturalisation-requirements": {
+          "status": "scored",
+          "score": 48
+        },
+        "dual-citizenship-retention": {
+          "status": "scored",
+          "score": 85
+        },
+        "citizenship-attainability": {
+          "status": "scored",
+          "score": 52
+        },
+        "policy-stability": {
+          "status": "scored",
+          "score": 35
+        },
+        "passport-strength": {
+          "status": "scored",
+          "score": 92
+        }
       },
       "pros": [
-        { "text": "Sweden has allowed dual citizenship since 2001 (no renunciation) and is on Bangladesh's 'all of Europe' DNC scope, so a naturalising Bangladeshi keeps BD nationality." },
-        { "text": "The Swedish passport ranks joint 3rd on Henley 2026 (~186 destinations)." }
+        {
+          "text": "Sweden has allowed dual citizenship since 2001 (no renunciation) and is on Bangladesh's 'all of Europe' DNC scope, so a naturalising Bangladeshi keeps BD nationality."
+        },
+        {
+          "text": "The Swedish passport ranks joint 3rd on Henley 2026 (~186 destinations)."
+        }
       ],
       "cons": [
-        { "text": "From 6 June 2026 the residence requirement rose from 5 to 8 years, with new Swedish language and civics tests (from 2026–27) and a self-sufficiency requirement — a major recent tightening." }
+        {
+          "text": "From 6 June 2026 the residence requirement rose from 5 to 8 years, with new Swedish language and civics tests (from 2026–27) and a self-sufficiency requirement — a major recent tightening."
+        }
       ],
       "links": [
-        { "title": "Library of Congress — Sweden's new citizenship law (2026)", "url": "https://www.loc.gov/item/global-legal-monitor/2026-05-08/sweden-parliament-approves-new-citizenship-law-requiring-language-and-knowledge-tests/" }
+        {
+          "title": "Library of Congress — Sweden's new citizenship law (2026)",
+          "url": "https://www.loc.gov/item/global-legal-monitor/2026-05-08/sweden-parliament-approves-new-citizenship-law-requiring-language-and-knowledge-tests/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -88,22 +169,46 @@
       "status": "scored",
       "summary": "Graduates can apply for a ~12-month permit to look for work or start a business, converting to a work permit, though conditions tightened in 2026.",
       "factors": {
-        "psw-duration-runway": { "status": "scored", "score": 50 },
-        "eligibility-openness-bd": { "status": "scored", "score": 65 },
-        "transition-to-skilled-work": { "status": "scored", "score": 60 },
-        "work-freedom-during-psw": { "status": "scored", "score": 65 },
-        "dual-graduate-spouse-psw": { "status": "scored", "score": 70 },
-        "psw-policy-stability": { "status": "scored", "score": 48 },
-        "other": { "status": "scored", "score": 50 }
+        "psw-duration-runway": {
+          "status": "scored",
+          "score": 50
+        },
+        "eligibility-openness-bd": {
+          "status": "scored",
+          "score": 65
+        },
+        "transition-to-skilled-work": {
+          "status": "scored",
+          "score": 60
+        },
+        "work-freedom-during-psw": {
+          "status": "scored",
+          "score": 65
+        },
+        "dual-graduate-spouse-psw": {
+          "status": "scored",
+          "score": 70
+        },
+        "psw-policy-stability": {
+          "status": "scored",
+          "score": 48
+        }
       },
       "pros": [
-        { "text": "Graduates who completed ≥2 semesters can get a residence permit (~12 months) to look for work or start a business, converting to a work permit; each spouse qualifies." }
+        {
+          "text": "Graduates who completed ≥2 semesters can get a residence permit (~12 months) to look for work or start a business, converting to a work permit; each spouse qualifies."
+        }
       ],
       "cons": [
-        { "text": "The window is ~12 months and 2026 tightened conversion conditions and scrutiny." }
+        {
+          "text": "The window is ~12 months and 2026 tightened conversion conditions and scrutiny."
+        }
       ],
       "links": [
-        { "title": "Migrationsverket — look for work after studies (official)", "url": "https://www.migrationsverket.se/en/you-want-to-extend/study/look-for-work-after-completing-your-studies-in-sweden.html" }
+        {
+          "title": "Migrationsverket — look for work after studies (official)",
+          "url": "https://www.migrationsverket.se/en/you-want-to-extend/study/look-for-work-after-completing-your-studies-in-sweden.html"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -111,20 +216,38 @@
       "status": "scored",
       "summary": "Work-permit holders' families get residence and work rights with free schooling; if both spouses study/work, each holds an independent track.",
       "factors": {
-        "spouse-work-rights": { "status": "scored", "score": 65 },
-        "dependent-visa-bd-access": { "status": "scored", "score": 62 },
-        "family-reunification-children": { "status": "scored", "score": 68 },
-        "spouse-path-to-independence": { "status": "scored", "score": 65 },
-        "other": { "status": "scored", "score": 48 }
+        "spouse-work-rights": {
+          "status": "scored",
+          "score": 65
+        },
+        "dependent-visa-bd-access": {
+          "status": "scored",
+          "score": 62
+        },
+        "family-reunification-children": {
+          "status": "scored",
+          "score": 68
+        },
+        "spouse-path-to-independence": {
+          "status": "scored",
+          "score": 65
+        }
       },
       "pros": [
-        { "text": "Family members of a work-permit holder get residence with the right to work, children attend school free, and if both spouses study/work each holds their own permit." }
+        {
+          "text": "Family members of a work-permit holder get residence with the right to work, children attend school free, and if both spouses study/work each holds their own permit."
+        }
       ],
       "cons": [
-        { "text": "The 2026 shift toward temporary status (abolishing permanent residency for some categories) adds uncertainty to long-term family settlement." }
+        {
+          "text": "The 2026 shift toward temporary status (abolishing permanent residency for some categories) adds uncertainty to long-term family settlement."
+        }
       ],
       "links": [
-        { "title": "Migrationsverket — moving to family in Sweden (official)", "url": "https://www.migrationsverket.se/en/you-want-to-apply/moving-to-someone-in-sweden.html" }
+        {
+          "title": "Migrationsverket — moving to family in Sweden (official)",
+          "url": "https://www.migrationsverket.se/en/you-want-to-apply/moving-to-someone-in-sweden.html"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -132,21 +255,42 @@
       "status": "scored",
       "summary": "Top English-taught CS/AI at KTH, Lund and Chalmers with generous student work rights, but non-EU tuition is charged (~SEK 130k–300k).",
       "factors": {
-        "affordability-funding": { "status": "scored", "score": 50 },
-        "english-program-depth": { "status": "scored", "score": 78 },
-        "admission-credential-access": { "status": "scored", "score": 70 },
-        "student-work-rights": { "status": "scored", "score": 70 },
-        "study-pathway-fit": { "status": "scored", "score": 70 },
-        "other": { "status": "scored", "score": 58 }
+        "affordability-funding": {
+          "status": "scored",
+          "score": 50
+        },
+        "english-program-depth": {
+          "status": "scored",
+          "score": 78
+        },
+        "admission-credential-access": {
+          "status": "scored",
+          "score": 70
+        },
+        "student-work-rights": {
+          "status": "scored",
+          "score": 70
+        },
+        "study-pathway-fit": {
+          "status": "scored",
+          "score": 70
+        }
       },
       "pros": [
-        { "text": "KTH, Lund and Chalmers offer strong English-taught CS/AI master's; students have no formal weekly work-hour cap (provided studies progress), and a master qualifies for the job-seeking permit." }
+        {
+          "text": "KTH, Lund and Chalmers offer strong English-taught CS/AI master's; students have no formal weekly work-hour cap (provided studies progress), and a master qualifies for the job-seeking permit."
+        }
       ],
       "cons": [
-        { "text": "Non-EU tuition is charged (~SEK 130,000–300,000/yr); Swedish Institute scholarships are limited and competitive." }
+        {
+          "text": "Non-EU tuition is charged (~SEK 130,000–300,000/yr); Swedish Institute scholarships are limited and competitive."
+        }
       ],
       "links": [
-        { "title": "Study in Sweden — fees & scholarships (official)", "url": "https://studyinsweden.se/plan-your-studies/tuition-fees-and-scholarships/" }
+        {
+          "title": "Study in Sweden — fees & scholarships (official)",
+          "url": "https://studyinsweden.se/plan-your-studies/tuition-fees-and-scholarships/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -154,22 +298,46 @@
       "status": "scored",
       "summary": "Permanent residence via ~4 years of work permit, but the government is shifting toward temporary status and tightening, reducing predictability.",
       "factors": {
-        "years-to-pr": { "status": "scored", "score": 58 },
-        "route-clarity-accessibility": { "status": "scored", "score": 58 },
-        "eligibility-bars": { "status": "scored", "score": 58 },
-        "language-integration-requirement": { "status": "scored", "score": 60 },
-        "continuity-retention": { "status": "scored", "score": 52 },
-        "policy-predictability": { "status": "scored", "score": 42 },
-        "other": { "status": "scored", "score": 48 }
+        "years-to-pr": {
+          "status": "scored",
+          "score": 58
+        },
+        "route-clarity-accessibility": {
+          "status": "scored",
+          "score": 58
+        },
+        "eligibility-bars": {
+          "status": "scored",
+          "score": 58
+        },
+        "language-integration-requirement": {
+          "status": "scored",
+          "score": 60
+        },
+        "continuity-retention": {
+          "status": "scored",
+          "score": 52
+        },
+        "policy-predictability": {
+          "status": "scored",
+          "score": 42
+        }
       },
       "pros": [
-        { "text": "Skilled-worker permit holders can reach permanent residence after ~4 years, with no language test for PR (currently)." }
+        {
+          "text": "Skilled-worker permit holders can reach permanent residence after ~4 years, with no language test for PR (currently)."
+        }
       ],
       "cons": [
-        { "text": "The Sweden-Democrat-backed government is shifting toward temporary residence and tighter enforcement (a 'good behaviour' regime), reducing predictability." }
+        {
+          "text": "The Sweden-Democrat-backed government is shifting toward temporary residence and tighter enforcement (a 'good behaviour' regime), reducing predictability."
+        }
       ],
       "links": [
-        { "title": "Migrationsverket — permanent residence (official)", "url": "https://www.migrationsverket.se/en/you-want-to-apply/work/permanent-residence-permit.html" }
+        {
+          "title": "Migrationsverket — permanent residence (official)",
+          "url": "https://www.migrationsverket.se/en/you-want-to-apply/work/permanent-residence-permit.html"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -177,21 +345,42 @@
       "status": "scored",
       "summary": "Moderate net pay after high tax, with a difficult Stockholm housing-queue system and charged tuition during study.",
       "factors": {
-        "household-net-surplus": { "status": "scored", "score": 58 },
-        "housing-cost-availability": { "status": "scored", "score": 48 },
-        "savings-remittance": { "status": "scored", "score": 58 },
-        "student-phase-affordability": { "status": "scored", "score": 50 },
-        "upfront-relocation-cash": { "status": "scored", "score": 50 },
-        "other": { "status": "scored", "score": 50 }
+        "household-net-surplus": {
+          "status": "scored",
+          "score": 58
+        },
+        "housing-cost-availability": {
+          "status": "scored",
+          "score": 48
+        },
+        "savings-remittance": {
+          "status": "scored",
+          "score": 58
+        },
+        "student-phase-affordability": {
+          "status": "scored",
+          "score": 50
+        },
+        "upfront-relocation-cash": {
+          "status": "scored",
+          "score": 50
+        }
       },
       "pros": [
-        { "text": "Two tech salaries net a comfortable surplus, and remittance is straightforward." }
+        {
+          "text": "Two tech salaries net a comfortable surplus, and remittance is straightforward."
+        }
       ],
       "cons": [
-        { "text": "High tax compresses net pay, Stockholm's first-hand rental queue is notoriously hard for newcomers, and non-EU tuition adds study-phase cost." }
+        {
+          "text": "High tax compresses net pay, Stockholm's first-hand rental queue is notoriously hard for newcomers, and non-EU tuition adds study-phase cost."
+        }
       ],
       "links": [
-        { "title": "Study in Sweden — cost of living (official)", "url": "https://studyinsweden.se/plan-your-studies/living-costs/" }
+        {
+          "title": "Study in Sweden — cost of living (official)",
+          "url": "https://studyinsweden.se/plan-your-studies/living-costs/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -199,21 +388,42 @@
       "status": "scored",
       "summary": "Universal low-cost healthcare once you have a personnummer (1-year+ permit), with strong welfare and excellent subsidised childcare.",
       "factors": {
-        "newcomer-eligibility-barrier": { "status": "scored", "score": 65 },
-        "health-quality-access": { "status": "scored", "score": 68 },
-        "cost-coverage-by-status": { "status": "scored", "score": 70 },
-        "social-insurance-safety-net": { "status": "scored", "score": 70 },
-        "family-childcare-benefits": { "status": "scored", "score": 75 },
-        "other": { "status": "scored", "score": 52 }
+        "newcomer-eligibility-barrier": {
+          "status": "scored",
+          "score": 65
+        },
+        "health-quality-access": {
+          "status": "scored",
+          "score": 68
+        },
+        "cost-coverage-by-status": {
+          "status": "scored",
+          "score": 70
+        },
+        "social-insurance-safety-net": {
+          "status": "scored",
+          "score": 70
+        },
+        "family-childcare-benefits": {
+          "status": "scored",
+          "score": 75
+        }
       },
       "pros": [
-        { "text": "A personnummer (issued with a 1-year+ permit) unlocks universal low-cost healthcare, plus a strong welfare net and excellent subsidised childcare." }
+        {
+          "text": "A personnummer (issued with a 1-year+ permit) unlocks universal low-cost healthcare, plus a strong welfare net and excellent subsidised childcare."
+        }
       ],
       "cons": [
-        { "text": "Primary-care and specialist waiting times can be long, and full coverage depends on the personnummer/length of stay." }
+        {
+          "text": "Primary-care and specialist waiting times can be long, and full coverage depends on the personnummer/length of stay."
+        }
       ],
       "links": [
-        { "title": "Study in Sweden — healthcare (official)", "url": "https://studyinsweden.se/live/healthcare/" }
+        {
+          "title": "Study in Sweden — healthcare (official)",
+          "url": "https://studyinsweden.se/live/healthcare/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -221,22 +431,46 @@
       "status": "scored",
       "summary": "Among the world's best English usability — work and much of daily life run in English — but Swedish is now needed for citizenship, and the climate has cooled.",
       "factors": {
-        "english-usability": { "status": "scored", "score": 70 },
-        "language-burden-citizenship": { "status": "scored", "score": 48 },
-        "integration-support": { "status": "scored", "score": 52 },
-        "social-acceptance-south-asian": { "status": "scored", "score": 48 },
-        "worklife-livability": { "status": "scored", "score": 78 },
-        "cultural-distance-adaptation": { "status": "scored", "score": 52 },
-        "other": { "status": "scored", "score": 48 }
+        "english-usability": {
+          "status": "scored",
+          "score": 70
+        },
+        "language-burden-citizenship": {
+          "status": "scored",
+          "score": 48
+        },
+        "integration-support": {
+          "status": "scored",
+          "score": 52
+        },
+        "social-acceptance-south-asian": {
+          "status": "scored",
+          "score": 48
+        },
+        "worklife-livability": {
+          "status": "scored",
+          "score": 78
+        },
+        "cultural-distance-adaptation": {
+          "status": "scored",
+          "score": 52
+        }
       },
       "pros": [
-        { "text": "Swedes have among the highest English proficiency in the world — work and much of daily life run in English — with excellent work-life balance and livability." }
+        {
+          "text": "Swedes have among the highest English proficiency in the world — work and much of daily life run in English — with excellent work-life balance and livability."
+        }
       ],
       "cons": [
-        { "text": "Swedish is now required for citizenship (new test), and the Sweden-Democrat-influenced climate plus a polarised integration/segregation debate cool acceptance." }
+        {
+          "text": "Swedish is now required for citizenship (new test), and the Sweden-Democrat-influenced climate plus a polarised integration/segregation debate cool acceptance."
+        }
       ],
       "links": [
-        { "title": "Study in Sweden — living as a Muslim in Stockholm", "url": "https://studyinsweden.se/blogs/2016/01/22/living-as-a-muslim-in-stockholm/" }
+        {
+          "title": "Study in Sweden — living as a Muslim in Stockholm",
+          "url": "https://studyinsweden.se/blogs/2016/01/22/living-as-a-muslim-in-stockholm/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -244,23 +478,49 @@
       "status": "scored",
       "summary": "Top-tier rule of law (WJP 4th) but with a serious gang/gun-violence problem and Quran-burning-driven tension that dent everyday and minority safety.",
       "factors": {
-        "personal-crime-safety": { "status": "scored", "score": 52 },
-        "lived-discrimination-hatecrime": { "status": "scored", "score": 45 },
-        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 88 },
-        "women-safety-gbv": { "status": "scored", "score": 70 },
-        "immigration-enforcement-due-process": { "status": "scored", "score": 55 },
-        "antidiscrimination-law-enforcement": { "status": "scored", "score": 62 },
-        "other": { "status": "scored", "score": 45 }
+        "personal-crime-safety": {
+          "status": "scored",
+          "score": 52
+        },
+        "lived-discrimination-hatecrime": {
+          "status": "scored",
+          "score": 45
+        },
+        "rule-of-law-corruption-civil-justice": {
+          "status": "scored",
+          "score": 88
+        },
+        "women-safety-gbv": {
+          "status": "scored",
+          "score": 70
+        },
+        "immigration-enforcement-due-process": {
+          "status": "scored",
+          "score": 55
+        },
+        "antidiscrimination-law-enforcement": {
+          "status": "scored",
+          "score": 62
+        }
       },
       "pros": [
-        { "text": "WJP Rule of Law Index 2025: 4th worldwide — strong institutions, low corruption and good civil justice and women's safety." }
+        {
+          "text": "WJP Rule of Law Index 2025: 4th worldwide — strong institutions, low corruption and good civil justice and women's safety."
+        }
       ],
       "cons": [
-        { "text": "Sweden has Europe's most acute gang gun-violence/bombing problem, concentrated in some immigrant-background areas, denting everyday safety." },
-        { "text": "Repeated public Quran-burnings (2023 onward) inflamed anti-Muslim tension and international incidents." }
+        {
+          "text": "Sweden has Europe's most acute gang gun-violence/bombing problem, concentrated in some immigrant-background areas, denting everyday safety."
+        },
+        {
+          "text": "Repeated public Quran-burnings (2023 onward) inflamed anti-Muslim tension and international incidents."
+        }
       ],
       "links": [
-        { "title": "World Justice Project — Sweden (2025 profile)", "url": "https://worldjusticeproject.org/sites/default/files/documents/Sweden_2.pdf" }
+        {
+          "title": "World Justice Project — Sweden (2025 profile)",
+          "url": "https://worldjusticeproject.org/sites/default/files/documents/Sweden_2.pdf"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -268,23 +528,49 @@
       "status": "scored",
       "summary": "A Sweden-Democrat-backed government driving the sharpest migration restriction in Swedish history — ending refugee permanent residency, a 'good behaviour' regime, and tougher citizenship — in a tense climate for Muslims.",
       "factors": {
-        "immigration-policy-volatility": { "status": "scored", "score": 35 },
-        "non-eu-skilled-policy-direction": { "status": "scored", "score": 48 },
-        "anti-immigration-electoral-power": { "status": "scored", "score": 25 },
-        "societal-sentiment-trend": { "status": "scored", "score": 35 },
-        "institutional-governance-stability": { "status": "scored", "score": 75 },
-        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 32 },
-        "other": { "status": "scored", "score": 42 }
+        "immigration-policy-volatility": {
+          "status": "scored",
+          "score": 35
+        },
+        "non-eu-skilled-policy-direction": {
+          "status": "scored",
+          "score": 48
+        },
+        "anti-immigration-electoral-power": {
+          "status": "scored",
+          "score": 25
+        },
+        "societal-sentiment-trend": {
+          "status": "scored",
+          "score": 35
+        },
+        "institutional-governance-stability": {
+          "status": "scored",
+          "score": 75
+        },
+        "targeted-risk-south-asian-muslim": {
+          "status": "scored",
+          "score": 32
+        }
       },
       "pros": [
-        { "text": "Institutions remain stable, and skilled-worker channels still function." }
+        {
+          "text": "Institutions remain stable, and skilled-worker channels still function."
+        }
       ],
       "cons": [
-        { "text": "The Sweden Democrats (second-largest party) back the government via the Tidö agreement, which abolished refugee permanent residency (June 2026), introduced a 'good behaviour'/reporting deportation regime, and tightened citizenship." },
-        { "text": "Anti-Muslim rhetoric, an SD 'immigration map' and official tolerance of Quran-burnings raise targeted risk for Muslim migrants." }
+        {
+          "text": "The Sweden Democrats (second-largest party) back the government via the Tidö agreement, which abolished refugee permanent residency (June 2026), introduced a 'good behaviour'/reporting deportation regime, and tightened citizenship."
+        },
+        {
+          "text": "Anti-Muslim rhetoric, an SD 'immigration map' and official tolerance of Quran-burnings raise targeted risk for Muslim migrants."
+        }
       ],
       "links": [
-        { "title": "Government.se — migration and integration priorities", "url": "https://www.government.se/government-policy/the-governments-priorities/migration-and-integration/" }
+        {
+          "title": "Government.se — migration and integration priorities",
+          "url": "https://www.government.se/government-policy/the-governments-priorities/migration-and-integration/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -292,21 +578,42 @@
       "status": "scored",
       "summary": "A high wedge (~52% marginal) with a narrow expert-tax relief, softened by a Sweden–Bangladesh treaty.",
       "factors": {
-        "effective-deduction-wedge": { "status": "scored", "score": 42 },
-        "expat-foreign-worker-relief": { "status": "scored", "score": 50 },
-        "household-dual-earner-treatment": { "status": "scored", "score": 58 },
-        "student-phase-tax-exposure": { "status": "scored", "score": 62 },
-        "bd-treaty-repatriation": { "status": "scored", "score": 62 },
-        "other": { "status": "scored", "score": 50 }
+        "effective-deduction-wedge": {
+          "status": "scored",
+          "score": 42
+        },
+        "expat-foreign-worker-relief": {
+          "status": "scored",
+          "score": 50
+        },
+        "household-dual-earner-treatment": {
+          "status": "scored",
+          "score": 58
+        },
+        "student-phase-tax-exposure": {
+          "status": "scored",
+          "score": 62
+        },
+        "bd-treaty-repatriation": {
+          "status": "scored",
+          "score": 62
+        }
       },
       "pros": [
-        { "text": "An 'expert tax' relief (25% income reduction) is available to qualifying key foreign personnel, and a Sweden–Bangladesh double-taxation treaty supports repatriation." }
+        {
+          "text": "An 'expert tax' relief (25% income reduction) is available to qualifying key foreign personnel, and a Sweden–Bangladesh double-taxation treaty supports repatriation."
+        }
       ],
       "cons": [
-        { "text": "The overall tax/social wedge is high (~52% marginal), and the expert relief has high salary/qualification thresholds." }
+        {
+          "text": "The overall tax/social wedge is high (~52% marginal), and the expert relief has high salary/qualification thresholds."
+        }
       ],
       "links": [
-        { "title": "Skatteverket (Swedish Tax Agency) — official", "url": "https://www.skatteverket.se/servicelankar/otherlanguages/inenglish.4.12815e4f14a62bc048f4edc.html" }
+        {
+          "title": "Skatteverket (Swedish Tax Agency) — official",
+          "url": "https://www.skatteverket.se/servicelankar/otherlanguages/inenglish.4.12815e4f14a62bc048f4edc.html"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -314,23 +621,56 @@
       "status": "scored",
       "summary": "A ~6–8% Muslim population with mosques and supermarket halal, and a real organised Stockholm Bangladeshi community — but the Quran-burning and Sweden-Democrat climate sharply strains sentiment.",
       "factors": {
-        "bangladeshi-diaspora": { "status": "scored", "score": 58 },
-        "religious-practice-infrastructure": { "status": "scored", "score": 68 },
-        "sentiment-safety": { "status": "scored", "score": 38 },
-        "legal-religious-accommodation": { "status": "scored", "score": 55 },
-        "south-asian-cultural-ecosystem": { "status": "scored", "score": 55 },
-        "other": { "status": "scored", "score": 42 }
+        "bangladeshi-diaspora": {
+          "status": "scored",
+          "score": 58
+        },
+        "religious-practice-infrastructure": {
+          "status": "scored",
+          "score": 68
+        },
+        "sentiment-safety": {
+          "status": "scored",
+          "score": 38
+        },
+        "legal-religious-accommodation": {
+          "status": "scored",
+          "score": 55
+        },
+        "south-asian-cultural-ecosystem": {
+          "status": "scored",
+          "score": 55
+        }
       },
       "pros": [
-        { "text": "Muslims are ~6–8% with mosques in Stockholm/Göteborg/Malmö and halal widely sold in mainstream supermarkets; the Stockholm Bangladeshi community (~6,500) is organised with an embassy, community groups and restaurants." }
+        {
+          "text": "Muslims are ~6–8% with mosques in Stockholm/Göteborg/Malmö and halal widely sold in mainstream supermarkets; the Stockholm Bangladeshi community (~6,500) is organised with an embassy, community groups and restaurants."
+        }
       ],
       "cons": [
-        { "text": "Repeated Quran-burnings and the Sweden-Democrat climate, plus segregation stigma around some immigrant areas, sharply strain day-to-day sentiment for Muslims." }
+        {
+          "text": "Repeated Quran-burnings and the Sweden-Democrat climate, plus segregation stigma around some immigrant areas, sharply strain day-to-day sentiment for Muslims."
+        }
       ],
       "links": [
-        { "title": "Islam in Sweden (overview)", "url": "https://kharchoufa.com/en/islam-in-sweden/" },
-        { "title": "Embassy of Bangladesh, Stockholm (official)", "url": "https://stockholm.mofa.gov.bd/" }
+        {
+          "title": "Islam in Sweden (overview)",
+          "url": "https://kharchoufa.com/en/islam-in-sweden/"
+        },
+        {
+          "title": "Embassy of Bangladesh, Stockholm (official)",
+          "url": "https://stockholm.mofa.gov.bd/"
+        }
       ],
+      "lastReviewed": "2026-06-19"
+    },
+    "direct-work-route": {
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
       "lastReviewed": "2026-06-19"
     }
   }

@@ -8,32 +8,63 @@
   "summary": "One of the strongest tech destinations on paper — world-class English usability, deep AI/tech market (ASML, Booking, Adyen), the 30% (→27%) expat tax break, a fully open orientation-year permit, unrestricted spouse work and top universities (TU Delft, Eindhoven) — but it carries a decisive blocker for this couple: Dutch naturalisation generally requires renouncing prior nationality, and a Bangladeshi skilled migrant doesn't fit the narrow exemptions, so the goal of both spouses retaining BD nationality fails. Compounded by Wilders/PVV's extreme anti-Islam politics (proposed Quran ban, 'hijab tax', mosque closures), a tiny Bangladeshi community and high housing/tuition costs. Derived overall is above 60, but the renunciation blocker governs.",
   "lastReviewed": "2026-06-19",
   "links": [
-    { "title": "IND (Immigration and Naturalisation Service) — official", "url": "https://ind.nl/en" },
-    { "title": "Government.nl — Dutch citizenship & dual nationality (official)", "url": "https://www.government.nl/topics/dutch-citizenship/dual-citizenship" }
+    {
+      "title": "IND (Immigration and Naturalisation Service) — official",
+      "url": "https://ind.nl/en"
+    },
+    {
+      "title": "Government.nl — Dutch citizenship & dual nationality (official)",
+      "url": "https://www.government.nl/topics/dutch-citizenship/dual-citizenship"
+    }
   ],
   "categories": {
     "job-market": {
       "status": "scored",
       "summary": "A deep, English-operating tech and AI market (ASML/Eindhoven, Booking, Adyen) with high pay boosted by the 30% ruling and multiple hubs.",
       "factors": {
-        "sw-demand-depth": { "status": "scored", "score": 74 },
-        "ai-ml-specialisation": { "status": "scored", "score": 72 },
-        "salary-levels": { "status": "scored", "score": 76 },
-        "sponsorship-work-authorisation": { "status": "scored", "score": 76 },
-        "foreign-grad-bd-hireability": { "status": "scored", "score": 72 },
-        "dual-earner-depth": { "status": "scored", "score": 70 },
-        "other": { "status": "scored", "score": 55 }
+        "sw-demand-depth": {
+          "status": "scored",
+          "score": 74
+        },
+        "ai-ml-specialisation": {
+          "status": "scored",
+          "score": 72
+        },
+        "salary-levels": {
+          "status": "scored",
+          "score": 76
+        },
+        "foreign-grad-bd-hireability": {
+          "status": "scored",
+          "score": 72
+        },
+        "dual-earner-depth": {
+          "status": "scored",
+          "score": 70
+        }
       },
       "pros": [
-        { "text": "Deep tech/AI market — ASML and the Eindhoven Brainport, Booking, Adyen — with AI engineers at €72k–150k+ (Amsterdam €85k–175k) and the 30% ruling lifting take-home pay." },
-        { "text": "The Highly Skilled Migrant scheme via recognised sponsors is fast and low-friction, and English operates fully in tech workplaces." }
+        {
+          "text": "Deep tech/AI market — ASML and the Eindhoven Brainport, Booking, Adyen — with AI engineers at €72k–150k+ (Amsterdam €85k–175k) and the 30% ruling lifting take-home pay."
+        },
+        {
+          "text": "The Highly Skilled Migrant scheme via recognised sponsors is fast and low-friction, and English operates fully in tech workplaces."
+        }
       ],
       "cons": [
-        { "text": "Junior software pay (~€50k–58k) is moderate before the 30% ruling, and competition for entry roles is strong." }
+        {
+          "text": "Junior software pay (~€50k–58k) is moderate before the 30% ruling, and competition for entry roles is strong."
+        }
       ],
       "links": [
-        { "title": "Zen van Riel — AI engineer salary, Netherlands/Amsterdam (2026)", "url": "https://zenvanriel.com/job/ai-engineer-salary-amsterdam/" },
-        { "title": "DutchReview — the 30% ruling (2026)", "url": "https://dutchreview.com/expat/30-percent-ruling-netherlands/" }
+        {
+          "title": "Zen van Riel — AI engineer salary, Netherlands/Amsterdam (2026)",
+          "url": "https://zenvanriel.com/job/ai-engineer-salary-amsterdam/"
+        },
+        {
+          "title": "DutchReview — the 30% ruling (2026)",
+          "url": "https://dutchreview.com/expat/30-percent-ruling-netherlands/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -41,23 +72,49 @@
       "status": "scored",
       "summary": "A reliable recognised-sponsor route with an embassy and VFS in Dhaka — the university applies for the entry visa (MVV), making student access relatively smooth.",
       "factors": {
-        "approval-refusal-rate": { "status": "scored", "score": 60 },
-        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 65 },
-        "in-queue-processing-schemes": { "status": "scored", "score": 60 },
-        "financial-bars": { "status": "scored", "score": 55 },
-        "credibility-genuineness-scrutiny": { "status": "scored", "score": 60 },
-        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 52 },
-        "other": { "status": "scored", "score": 58 }
+        "approval-refusal-rate": {
+          "status": "scored",
+          "score": 60
+        },
+        "dhaka-mission-appointment-capacity": {
+          "status": "scored",
+          "score": 65
+        },
+        "in-queue-processing-schemes": {
+          "status": "scored",
+          "score": 60
+        },
+        "financial-bars": {
+          "status": "scored",
+          "score": 55
+        },
+        "credibility-genuineness-scrutiny": {
+          "status": "scored",
+          "score": 60
+        },
+        "heightened-scrutiny-policy-risk": {
+          "status": "scored",
+          "score": 52
+        }
       },
       "pros": [
-        { "text": "Dutch universities are recognised sponsors that apply for the student's entry visa (MVV) and residence permit together, a streamlined process; the Netherlands has an embassy and VFS in Dhaka." },
-        { "text": "No Bangladesh-specific visa ban." }
+        {
+          "text": "Dutch universities are recognised sponsors that apply for the student's entry visa (MVV) and residence permit together, a streamlined process; the Netherlands has an embassy and VFS in Dhaka."
+        },
+        {
+          "text": "No Bangladesh-specific visa ban."
+        }
       ],
       "cons": [
-        { "text": "Proof of high tuition plus living funds is required, and the political climate is hardening on migration." }
+        {
+          "text": "Proof of high tuition plus living funds is required, and the political climate is hardening on migration."
+        }
       ],
       "links": [
-        { "title": "IND — study in the Netherlands (official)", "url": "https://ind.nl/en/residence-permits/study" }
+        {
+          "title": "IND — study in the Netherlands (official)",
+          "url": "https://ind.nl/en/residence-permits/study"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -65,24 +122,54 @@
       "status": "scored",
       "summary": "The decisive failure: Dutch naturalisation generally requires renouncing prior nationality, and a Bangladeshi skilled migrant doesn't fit the narrow exemptions — so both spouses cannot retain BD nationality via the standard route.",
       "factors": {
-        "time-to-citizenship": { "status": "scored", "score": 65 },
-        "naturalisation-requirements": { "status": "scored", "score": 45 },
-        "dual-citizenship-retention": { "status": "scored", "score": 15 },
-        "citizenship-attainability": { "status": "scored", "score": 45 },
-        "policy-stability": { "status": "scored", "score": 48 },
-        "passport-strength": { "status": "scored", "score": 90 },
-        "other": { "status": "scored", "score": 35 }
+        "time-to-citizenship": {
+          "status": "scored",
+          "score": 65
+        },
+        "naturalisation-requirements": {
+          "status": "scored",
+          "score": 45
+        },
+        "dual-citizenship-retention": {
+          "status": "scored",
+          "score": 15
+        },
+        "citizenship-attainability": {
+          "status": "scored",
+          "score": 45
+        },
+        "policy-stability": {
+          "status": "scored",
+          "score": 48
+        },
+        "passport-strength": {
+          "status": "scored",
+          "score": 90
+        }
       },
       "pros": [
-        { "text": "Naturalisation is reachable after 5 years, and the Dutch passport ranks joint 4th on Henley 2026 (~185 destinations)." }
+        {
+          "text": "Naturalisation is reachable after 5 years, and the Dutch passport ranks joint 4th on Henley 2026 (~185 destinations)."
+        }
       ],
       "cons": [
-        { "text": "Dutch nationality law generally requires renouncing your original nationality on naturalisation; the exemptions (spouse of a Dutch national, refugee, born in NL, or a home country that refuses renunciation) don't fit a Bangladeshi skilled migrant — Bangladesh accepts renunciation — so the first naturalising spouse must give up BD nationality, failing the retain-BD goal.", "severity": "blocker" },
-        { "text": "Naturalisation also requires the Dutch civic-integration exam (A2 Dutch plus knowledge of society)." }
+        {
+          "text": "Dutch nationality law generally requires renouncing your original nationality on naturalisation; the exemptions (spouse of a Dutch national, refugee, born in NL, or a home country that refuses renunciation) don't fit a Bangladeshi skilled migrant — Bangladesh accepts renunciation — so the first naturalising spouse must give up BD nationality, failing the retain-BD goal.",
+          "severity": "blocker"
+        },
+        {
+          "text": "Naturalisation also requires the Dutch civic-integration exam (A2 Dutch plus knowledge of society)."
+        }
       ],
       "links": [
-        { "title": "IND — becoming Dutch through naturalisation (official)", "url": "https://ind.nl/en/dutch-citizenship/becoming-a-dutch-national-through-naturalisation" },
-        { "title": "Government.nl — dual citizenship rules & exemptions (official)", "url": "https://www.government.nl/topics/dutch-citizenship/dual-citizenship" }
+        {
+          "title": "IND — becoming Dutch through naturalisation (official)",
+          "url": "https://ind.nl/en/dutch-citizenship/becoming-a-dutch-national-through-naturalisation"
+        },
+        {
+          "title": "Government.nl — dual citizenship rules & exemptions (official)",
+          "url": "https://www.government.nl/topics/dutch-citizenship/dual-citizenship"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -90,23 +177,49 @@
       "status": "scored",
       "summary": "The orientation year (zoekjaar) gives graduates 12 months of fully unrestricted work (no permit, no salary threshold), with a lower threshold afterwards to convert — and each spouse qualifies.",
       "factors": {
-        "psw-duration-runway": { "status": "scored", "score": 52 },
-        "eligibility-openness-bd": { "status": "scored", "score": 75 },
-        "transition-to-skilled-work": { "status": "scored", "score": 75 },
-        "work-freedom-during-psw": { "status": "scored", "score": 88 },
-        "dual-graduate-spouse-psw": { "status": "scored", "score": 80 },
-        "psw-policy-stability": { "status": "scored", "score": 55 },
-        "other": { "status": "scored", "score": 52 }
+        "psw-duration-runway": {
+          "status": "scored",
+          "score": 52
+        },
+        "eligibility-openness-bd": {
+          "status": "scored",
+          "score": 75
+        },
+        "transition-to-skilled-work": {
+          "status": "scored",
+          "score": 75
+        },
+        "work-freedom-during-psw": {
+          "status": "scored",
+          "score": 88
+        },
+        "dual-graduate-spouse-psw": {
+          "status": "scored",
+          "score": 80
+        },
+        "psw-policy-stability": {
+          "status": "scored",
+          "score": 55
+        }
       },
       "pros": [
-        { "text": "The orientation-year permit lets graduates work any job full-time with no work-permit restriction and no salary threshold for the year; it is open to Dutch and top-200 global graduates." },
-        { "text": "Afterwards a reduced Highly Skilled Migrant salary threshold applies, and each graduating spouse can hold their own orientation year." }
+        {
+          "text": "The orientation-year permit lets graduates work any job full-time with no work-permit restriction and no salary threshold for the year; it is open to Dutch and top-200 global graduates."
+        },
+        {
+          "text": "Afterwards a reduced Highly Skilled Migrant salary threshold applies, and each graduating spouse can hold their own orientation year."
+        }
       ],
       "cons": [
-        { "text": "The window is only 12 months." }
+        {
+          "text": "The window is only 12 months."
+        }
       ],
       "links": [
-        { "title": "The Hague International Centre — orientation year permit", "url": "https://www.thehagueinternationalcentre.nl/orientation-year-permit" }
+        {
+          "title": "The Hague International Centre — orientation year permit",
+          "url": "https://www.thehagueinternationalcentre.nl/orientation-year-permit"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -114,21 +227,41 @@
       "status": "scored",
       "summary": "A standout: the partner of a Highly Skilled Migrant gets fully unrestricted work rights, family migration is straightforward, and children attend school free.",
       "factors": {
-        "spouse-work-rights": { "status": "scored", "score": 85 },
-        "dependent-visa-bd-access": { "status": "scored", "score": 78 },
-        "family-reunification-children": { "status": "scored", "score": 72 },
-        "spouse-path-to-independence": { "status": "scored", "score": 75 },
-        "other": { "status": "scored", "score": 52 }
+        "spouse-work-rights": {
+          "status": "scored",
+          "score": 85
+        },
+        "dependent-visa-bd-access": {
+          "status": "scored",
+          "score": 78
+        },
+        "family-reunification-children": {
+          "status": "scored",
+          "score": 72
+        },
+        "spouse-path-to-independence": {
+          "status": "scored",
+          "score": 75
+        }
       },
       "pros": [
-        { "text": "The partner of a Highly Skilled Migrant receives an unrestricted work permit (any employer, no separate authorisation) — among the best spouse-work regimes anywhere." },
-        { "text": "Family migration for HSM holders is easy, and children attend school free; if both spouses study/work, each holds their own track." }
+        {
+          "text": "The partner of a Highly Skilled Migrant receives an unrestricted work permit (any employer, no separate authorisation) — among the best spouse-work regimes anywhere."
+        },
+        {
+          "text": "Family migration for HSM holders is easy, and children attend school free; if both spouses study/work, each holds their own track."
+        }
       ],
       "cons": [
-        { "text": "During the student phase, dependent-spouse work is more limited than on the HSM route." }
+        {
+          "text": "During the student phase, dependent-spouse work is more limited than on the HSM route."
+        }
       ],
       "links": [
-        { "title": "IND — family member of a highly skilled migrant (official)", "url": "https://ind.nl/en/residence-permits/work/highly-skilled-migrant" }
+        {
+          "title": "IND — family member of a highly skilled migrant (official)",
+          "url": "https://ind.nl/en/residence-permits/work/highly-skilled-migrant"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -136,22 +269,46 @@
       "status": "scored",
       "summary": "World-class English-taught CS/AI (TU Delft, Eindhoven, UvA, Leiden) with 2,100+ English programmes, but non-EU tuition is high (~€22k–26k) and student work is restricted.",
       "factors": {
-        "affordability-funding": { "status": "scored", "score": 42 },
-        "english-program-depth": { "status": "scored", "score": 85 },
-        "admission-credential-access": { "status": "scored", "score": 70 },
-        "student-work-rights": { "status": "scored", "score": 52 },
-        "study-pathway-fit": { "status": "scored", "score": 78 },
-        "other": { "status": "scored", "score": 60 }
+        "affordability-funding": {
+          "status": "scored",
+          "score": 42
+        },
+        "english-program-depth": {
+          "status": "scored",
+          "score": 85
+        },
+        "admission-credential-access": {
+          "status": "scored",
+          "score": 70
+        },
+        "student-work-rights": {
+          "status": "scored",
+          "score": 52
+        },
+        "study-pathway-fit": {
+          "status": "scored",
+          "score": 78
+        }
       },
       "pros": [
-        { "text": "Top-tier English-taught CS/AI (TU Delft, TU Eindhoven, UvA, Leiden) within 2,100+ English programmes; a master qualifies for the orientation year." }
+        {
+          "text": "Top-tier English-taught CS/AI (TU Delft, TU Eindhoven, UvA, Leiden) within 2,100+ English programmes; a master qualifies for the orientation year."
+        }
       ],
       "cons": [
-        { "text": "Non-EU tuition is high (TU Delft ~€25,633; Leiden CS+AI ~€22,500 for 2026/27), and non-EU student work is restricted (≈16 hrs/week with a work permit)." }
+        {
+          "text": "Non-EU tuition is high (TU Delft ~€25,633; Leiden CS+AI ~€22,500 for 2026/27), and non-EU student work is restricted (≈16 hrs/week with a work permit)."
+        }
       ],
       "links": [
-        { "title": "Leiden University — CS/AI tuition fees (official)", "url": "https://www.universiteitleiden.nl/en/education/study-programmes/master/computer-science/artificial-intelligence/admission-and-application/tuition-fees" },
-        { "title": "Mastersportal — AI master's in the Netherlands (2026)", "url": "https://www.mastersportal.com/study-options/268452170/artificial-intelligence-netherlands.html" }
+        {
+          "title": "Leiden University — CS/AI tuition fees (official)",
+          "url": "https://www.universiteitleiden.nl/en/education/study-programmes/master/computer-science/artificial-intelligence/admission-and-application/tuition-fees"
+        },
+        {
+          "title": "Mastersportal — AI master's in the Netherlands (2026)",
+          "url": "https://www.mastersportal.com/study-options/268452170/artificial-intelligence-netherlands.html"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -159,22 +316,46 @@
       "status": "scored",
       "summary": "Permanent residence/EU long-term status is reachable after 5 years with the Highly Skilled Migrant route, requiring A2 Dutch civic integration.",
       "factors": {
-        "years-to-pr": { "status": "scored", "score": 62 },
-        "route-clarity-accessibility": { "status": "scored", "score": 65 },
-        "eligibility-bars": { "status": "scored", "score": 65 },
-        "language-integration-requirement": { "status": "scored", "score": 52 },
-        "continuity-retention": { "status": "scored", "score": 60 },
-        "policy-predictability": { "status": "scored", "score": 48 },
-        "other": { "status": "scored", "score": 50 }
+        "years-to-pr": {
+          "status": "scored",
+          "score": 62
+        },
+        "route-clarity-accessibility": {
+          "status": "scored",
+          "score": 65
+        },
+        "eligibility-bars": {
+          "status": "scored",
+          "score": 65
+        },
+        "language-integration-requirement": {
+          "status": "scored",
+          "score": 52
+        },
+        "continuity-retention": {
+          "status": "scored",
+          "score": 60
+        },
+        "policy-predictability": {
+          "status": "scored",
+          "score": 48
+        }
       },
       "pros": [
-        { "text": "Permanent residence (or EU long-term residence) is reachable after 5 years, with the Highly Skilled Migrant route building the time and ICT salaries clearing the bar." }
+        {
+          "text": "Permanent residence (or EU long-term residence) is reachable after 5 years, with the Highly Skilled Migrant route building the time and ICT salaries clearing the bar."
+        }
       ],
       "cons": [
-        { "text": "PR requires passing the civic-integration exam (A2 Dutch), and the PVV-driven climate has made migration policy less predictable." }
+        {
+          "text": "PR requires passing the civic-integration exam (A2 Dutch), and the PVV-driven climate has made migration policy less predictable."
+        }
       ],
       "links": [
-        { "title": "IND — permanent residence permit (official)", "url": "https://ind.nl/en/residence-permits/permanent-residence" }
+        {
+          "title": "IND — permanent residence permit (official)",
+          "url": "https://ind.nl/en/residence-permits/permanent-residence"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -182,21 +363,42 @@
       "status": "scored",
       "summary": "High salaries plus the 30% ruling give strong net pay, but Amsterdam's housing shortage and high tuition squeeze the budget.",
       "factors": {
-        "household-net-surplus": { "status": "scored", "score": 64 },
-        "housing-cost-availability": { "status": "scored", "score": 42 },
-        "savings-remittance": { "status": "scored", "score": 65 },
-        "student-phase-affordability": { "status": "scored", "score": 45 },
-        "upfront-relocation-cash": { "status": "scored", "score": 45 },
-        "other": { "status": "scored", "score": 50 }
+        "household-net-surplus": {
+          "status": "scored",
+          "score": 64
+        },
+        "housing-cost-availability": {
+          "status": "scored",
+          "score": 42
+        },
+        "savings-remittance": {
+          "status": "scored",
+          "score": 65
+        },
+        "student-phase-affordability": {
+          "status": "scored",
+          "score": 45
+        },
+        "upfront-relocation-cash": {
+          "status": "scored",
+          "score": 45
+        }
       },
       "pros": [
-        { "text": "High tech salaries plus the 30% (→27%) tax-free ruling produce a strong net surplus and easy remittance." }
+        {
+          "text": "High tech salaries plus the 30% (→27%) tax-free ruling produce a strong net surplus and easy remittance."
+        }
       ],
       "cons": [
-        { "text": "Amsterdam/Randstad housing is in severe shortage with high rents, and non-EU tuition is steep — squeezing the study phase and early career." }
+        {
+          "text": "Amsterdam/Randstad housing is in severe shortage with high rents, and non-EU tuition is steep — squeezing the study phase and early career."
+        }
       ],
       "links": [
-        { "title": "DutchReview — 30% ruling & take-home (2026)", "url": "https://dutchreview.com/expat/30-percent-ruling-netherlands/" }
+        {
+          "title": "DutchReview — 30% ruling & take-home (2026)",
+          "url": "https://dutchreview.com/expat/30-percent-ruling-netherlands/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -204,21 +406,42 @@
       "status": "scored",
       "summary": "High-quality care via mandatory private basic insurance (~€140/month) for residents/workers; students typically use international insurance — universal but premium-based.",
       "factors": {
-        "newcomer-eligibility-barrier": { "status": "scored", "score": 60 },
-        "health-quality-access": { "status": "scored", "score": 70 },
-        "cost-coverage-by-status": { "status": "scored", "score": 62 },
-        "social-insurance-safety-net": { "status": "scored", "score": 68 },
-        "family-childcare-benefits": { "status": "scored", "score": 60 },
-        "other": { "status": "scored", "score": 52 }
+        "newcomer-eligibility-barrier": {
+          "status": "scored",
+          "score": 60
+        },
+        "health-quality-access": {
+          "status": "scored",
+          "score": 70
+        },
+        "cost-coverage-by-status": {
+          "status": "scored",
+          "score": 62
+        },
+        "social-insurance-safety-net": {
+          "status": "scored",
+          "score": 68
+        },
+        "family-childcare-benefits": {
+          "status": "scored",
+          "score": 60
+        }
       },
       "pros": [
-        { "text": "High-quality care: residents/workers must take mandatory basic insurance (basisverzekering, ~€140/month) with broad coverage, and the welfare net is solid." }
+        {
+          "text": "High-quality care: residents/workers must take mandatory basic insurance (basisverzekering, ~€140/month) with broad coverage, and the welfare net is solid."
+        }
       ],
       "cons": [
-        { "text": "Coverage is premium-based with an annual deductible (~€385), and students generally rely on international/private insurance before becoming insurable." }
+        {
+          "text": "Coverage is premium-based with an annual deductible (~€385), and students generally rely on international/private insurance before becoming insurable."
+        }
       ],
       "links": [
-        { "title": "Government.nl — Dutch health insurance (official)", "url": "https://www.government.nl/topics/health-insurance" }
+        {
+          "title": "Government.nl — Dutch health insurance (official)",
+          "url": "https://www.government.nl/topics/health-insurance"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -226,22 +449,46 @@
       "status": "scored",
       "summary": "Among the world's best English usability — daily life and work run fully in English — though Dutch A2 is needed for status and the political tone has turned hostile.",
       "factors": {
-        "english-usability": { "status": "scored", "score": 80 },
-        "language-burden-citizenship": { "status": "scored", "score": 55 },
-        "integration-support": { "status": "scored", "score": 55 },
-        "social-acceptance-south-asian": { "status": "scored", "score": 50 },
-        "worklife-livability": { "status": "scored", "score": 78 },
-        "cultural-distance-adaptation": { "status": "scored", "score": 58 },
-        "other": { "status": "scored", "score": 48 }
+        "english-usability": {
+          "status": "scored",
+          "score": 80
+        },
+        "language-burden-citizenship": {
+          "status": "scored",
+          "score": 55
+        },
+        "integration-support": {
+          "status": "scored",
+          "score": 55
+        },
+        "social-acceptance-south-asian": {
+          "status": "scored",
+          "score": 50
+        },
+        "worklife-livability": {
+          "status": "scored",
+          "score": 78
+        },
+        "cultural-distance-adaptation": {
+          "status": "scored",
+          "score": 58
+        }
       },
       "pros": [
-        { "text": "The Netherlands has among the highest English proficiency in the world — daily life, services and work are fully workable in English, with excellent livability (cycling, work-life balance)." }
+        {
+          "text": "The Netherlands has among the highest English proficiency in the world — daily life, services and work are fully workable in English, with excellent livability (cycling, work-life balance)."
+        }
       ],
       "cons": [
-        { "text": "Dutch at A2 is required for PR and citizenship (civic integration), and the PVV-led political tone has cooled social acceptance for visible Muslims." }
+        {
+          "text": "Dutch at A2 is required for PR and citizenship (civic integration), and the PVV-led political tone has cooled social acceptance for visible Muslims."
+        }
       ],
       "links": [
-        { "title": "DutchNews — immigration, racism and discrimination (2025)", "url": "https://www.dutchnews.nl/2025/10/the-big-election-issues-immigration-racism-and-discrimination/" }
+        {
+          "title": "DutchNews — immigration, racism and discrimination (2025)",
+          "url": "https://www.dutchnews.nl/2025/10/the-big-election-issues-immigration-racism-and-discrimination/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -249,22 +496,46 @@
       "status": "scored",
       "summary": "Very safe with top-tier rule of law (WJP ~9th), tempered by a sharply anti-Muslim political climate.",
       "factors": {
-        "personal-crime-safety": { "status": "scored", "score": 78 },
-        "lived-discrimination-hatecrime": { "status": "scored", "score": 45 },
-        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 85 },
-        "women-safety-gbv": { "status": "scored", "score": 78 },
-        "immigration-enforcement-due-process": { "status": "scored", "score": 62 },
-        "antidiscrimination-law-enforcement": { "status": "scored", "score": 58 },
-        "other": { "status": "scored", "score": 50 }
+        "personal-crime-safety": {
+          "status": "scored",
+          "score": 78
+        },
+        "lived-discrimination-hatecrime": {
+          "status": "scored",
+          "score": 45
+        },
+        "rule-of-law-corruption-civil-justice": {
+          "status": "scored",
+          "score": 85
+        },
+        "women-safety-gbv": {
+          "status": "scored",
+          "score": 78
+        },
+        "immigration-enforcement-due-process": {
+          "status": "scored",
+          "score": 62
+        },
+        "antidiscrimination-law-enforcement": {
+          "status": "scored",
+          "score": 58
+        }
       },
       "pros": [
-        { "text": "Very low crime, top-tier rule of law (WJP ~9th) and strong civil justice and women's safety." }
+        {
+          "text": "Very low crime, top-tier rule of law (WJP ~9th) and strong civil justice and women's safety."
+        }
       ],
       "cons": [
-        { "text": "The Wilders/PVV-driven climate has elevated anti-Muslim rhetoric and incidents, denting lived safety for visible minorities." }
+        {
+          "text": "The Wilders/PVV-driven climate has elevated anti-Muslim rhetoric and incidents, denting lived safety for visible minorities."
+        }
       ],
       "links": [
-        { "title": "World Justice Project — Rule of Law Index 2025", "url": "https://worldjusticeproject.org/rule-of-law-index/" }
+        {
+          "title": "World Justice Project — Rule of Law Index 2025",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -272,23 +543,49 @@
       "status": "scored",
       "summary": "The most explicitly anti-Islam politics in the set: Geert Wilders's PVV won the 2023 election (the 2024 coalition collapsed in 2025), campaigning to ban the Quran, tax the hijab and close mosques.",
       "factors": {
-        "immigration-policy-volatility": { "status": "scored", "score": 38 },
-        "non-eu-skilled-policy-direction": { "status": "scored", "score": 52 },
-        "anti-immigration-electoral-power": { "status": "scored", "score": 22 },
-        "societal-sentiment-trend": { "status": "scored", "score": 35 },
-        "institutional-governance-stability": { "status": "scored", "score": 50 },
-        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 20 },
-        "other": { "status": "scored", "score": 40 }
+        "immigration-policy-volatility": {
+          "status": "scored",
+          "score": 38
+        },
+        "non-eu-skilled-policy-direction": {
+          "status": "scored",
+          "score": 52
+        },
+        "anti-immigration-electoral-power": {
+          "status": "scored",
+          "score": 22
+        },
+        "societal-sentiment-trend": {
+          "status": "scored",
+          "score": 35
+        },
+        "institutional-governance-stability": {
+          "status": "scored",
+          "score": 50
+        },
+        "targeted-risk-south-asian-muslim": {
+          "status": "scored",
+          "score": 20
+        }
       },
       "pros": [
-        { "text": "Skilled-migration channels (Highly Skilled Migrant, orientation year) remain operative and economically valued." }
+        {
+          "text": "Skilled-migration channels (Highly Skilled Migrant, orientation year) remain operative and economically valued."
+        }
       ],
       "cons": [
-        { "text": "Geert Wilders's PVV won the 2023 election and remains the dominant force; it has proposed banning the Quran, a 'head-rag tax' on the hijab and closing mosques and Islamic schools — extreme state-level targeting of Muslims." },
-        { "text": "The 2024 coalition collapsed in mid-2025, adding policy instability." }
+        {
+          "text": "Geert Wilders's PVV won the 2023 election and remains the dominant force; it has proposed banning the Quran, a 'head-rag tax' on the hijab and closing mosques and Islamic schools — extreme state-level targeting of Muslims."
+        },
+        {
+          "text": "The 2024 coalition collapsed in mid-2025, adding policy instability."
+        }
       ],
       "links": [
-        { "title": "TRT World — Wilders and the demonisation of Muslims", "url": "https://www.trtworld.com/article/54650cd1e759" }
+        {
+          "title": "TRT World — Wilders and the demonisation of Muslims",
+          "url": "https://www.trtworld.com/article/54650cd1e759"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -296,21 +593,42 @@
       "status": "scored",
       "summary": "High headline tax (to 49.5%) substantially offset by the 30% (→27% from 2027) expat ruling, with a Netherlands–Bangladesh tax treaty in force.",
       "factors": {
-        "effective-deduction-wedge": { "status": "scored", "score": 48 },
-        "expat-foreign-worker-relief": { "status": "scored", "score": 68 },
-        "household-dual-earner-treatment": { "status": "scored", "score": 58 },
-        "student-phase-tax-exposure": { "status": "scored", "score": 60 },
-        "bd-treaty-repatriation": { "status": "scored", "score": 65 },
-        "other": { "status": "scored", "score": 50 }
+        "effective-deduction-wedge": {
+          "status": "scored",
+          "score": 48
+        },
+        "expat-foreign-worker-relief": {
+          "status": "scored",
+          "score": 68
+        },
+        "household-dual-earner-treatment": {
+          "status": "scored",
+          "score": 58
+        },
+        "student-phase-tax-exposure": {
+          "status": "scored",
+          "score": 60
+        },
+        "bd-treaty-repatriation": {
+          "status": "scored",
+          "score": 65
+        }
       },
       "pros": [
-        { "text": "The 30% ruling (reducing to 27% from 2027) makes a large share of salary tax-free for up to 5 years for qualifying skilled migrants, and a Netherlands–Bangladesh double-taxation treaty supports repatriation." }
+        {
+          "text": "The 30% ruling (reducing to 27% from 2027) makes a large share of salary tax-free for up to 5 years for qualifying skilled migrants, and a Netherlands–Bangladesh double-taxation treaty supports repatriation."
+        }
       ],
       "cons": [
-        { "text": "Headline income tax reaches 49.5%, and the ruling's qualifying salary thresholds and percentage are being tightened." }
+        {
+          "text": "Headline income tax reaches 49.5%, and the ruling's qualifying salary thresholds and percentage are being tightened."
+        }
       ],
       "links": [
-        { "title": "Payroll.org — changes to the 30% ruling (2025)", "url": "https://payroll.org/news-resources/news/news-detail/2025/01/15/changes-to-the-30-ruling-in-the-netherlands-starting-in-2025" }
+        {
+          "title": "Payroll.org — changes to the 30% ruling (2025)",
+          "url": "https://payroll.org/news-resources/news/news-detail/2025/01/15/changes-to-the-30-ruling-in-the-netherlands-starting-in-2025"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -318,23 +636,56 @@
       "status": "scored",
       "summary": "A ~5.8% Muslim population with ~400 mosques and abundant urban halal, but a negligible Bangladeshi community and a politically hostile (PVV) climate.",
       "factors": {
-        "bangladeshi-diaspora": { "status": "scored", "score": 28 },
-        "religious-practice-infrastructure": { "status": "scored", "score": 75 },
-        "sentiment-safety": { "status": "scored", "score": 32 },
-        "legal-religious-accommodation": { "status": "scored", "score": 48 },
-        "south-asian-cultural-ecosystem": { "status": "scored", "score": 55 },
-        "other": { "status": "scored", "score": 38 }
+        "bangladeshi-diaspora": {
+          "status": "scored",
+          "score": 28
+        },
+        "religious-practice-infrastructure": {
+          "status": "scored",
+          "score": 75
+        },
+        "sentiment-safety": {
+          "status": "scored",
+          "score": 32
+        },
+        "legal-religious-accommodation": {
+          "status": "scored",
+          "score": 48
+        },
+        "south-asian-cultural-ecosystem": {
+          "status": "scored",
+          "score": 55
+        }
       },
       "pros": [
-        { "text": "Muslims are ~5.8% (~1m) with ~400 mosques and abundant halal in Amsterdam, Rotterdam, The Hague and Utrecht; a Surinamese South-Asian (Hindustani) community adds a cultural ecosystem." }
+        {
+          "text": "Muslims are ~5.8% (~1m) with ~400 mosques and abundant halal in Amsterdam, Rotterdam, The Hague and Utrecht; a Surinamese South-Asian (Hindustani) community adds a cultural ecosystem."
+        }
       ],
       "cons": [
-        { "text": "The Bangladeshi-specific community is tiny (~3,500), and the PVV's anti-Islam programme (Quran ban, hijab tax, mosque closures) makes the sentiment climate hostile." }
+        {
+          "text": "The Bangladeshi-specific community is tiny (~3,500), and the PVV's anti-Islam programme (Quran ban, hijab tax, mosque closures) makes the sentiment climate hostile."
+        }
       ],
       "links": [
-        { "title": "Minority Rights Group — Muslims in the Netherlands", "url": "https://minorityrights.org/communities/muslims-5/" },
-        { "title": "South Asians in the Netherlands (overview)", "url": "https://en.wikipedia.org/wiki/South_Asians_in_the_Netherlands" }
+        {
+          "title": "Minority Rights Group — Muslims in the Netherlands",
+          "url": "https://minorityrights.org/communities/muslims-5/"
+        },
+        {
+          "title": "South Asians in the Netherlands (overview)",
+          "url": "https://en.wikipedia.org/wiki/South_Asians_in_the_Netherlands"
+        }
       ],
+      "lastReviewed": "2026-06-19"
+    },
+    "direct-work-route": {
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
       "lastReviewed": "2026-06-19"
     }
   }

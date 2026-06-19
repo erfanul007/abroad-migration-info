@@ -8,31 +8,60 @@
   "summary": "English-native with the best post-study runway of the set (a 3-year open work visa), a fast Green-List 'straight-to-residence' route for AI/ICT, world-class safety (GPI 3rd, WJP 5th) and a strong passport — but it carries a decisive blocker: New Zealand is NOT on Bangladesh's Dual Nationality Certificate list, so a naturalising Bangladeshi loses BD nationality (the explicit contrast to Australia). Compounded by a small, remote Auckland-centric market, high tuition and a tiny Bangladeshi community. Derived overall is above 60, but the dual-retention blocker governs.",
   "lastReviewed": "2026-06-19",
   "links": [
-    { "title": "Immigration New Zealand — official", "url": "https://www.immigration.govt.nz/" },
-    { "title": "New Zealand Government — citizenship requirements (official)", "url": "https://www.govt.nz/browse/passports-citizenship-and-identity/nz-citizenship/" }
+    {
+      "title": "Immigration New Zealand — official",
+      "url": "https://www.immigration.govt.nz/"
+    },
+    {
+      "title": "New Zealand Government — citizenship requirements (official)",
+      "url": "https://www.govt.nz/browse/passports-citizenship-and-identity/nz-citizenship/"
+    }
   ],
   "categories": {
     "job-market": {
       "status": "scored",
       "summary": "ICT/AI roles are on the Green List with decent salaries, but the market is small, Auckland-centric and competes with Australia for talent.",
       "factors": {
-        "sw-demand-depth": { "status": "scored", "score": 62 },
-        "ai-ml-specialisation": { "status": "scored", "score": 55 },
-        "salary-levels": { "status": "scored", "score": 66 },
-        "sponsorship-work-authorisation": { "status": "scored", "score": 72 },
-        "foreign-grad-bd-hireability": { "status": "scored", "score": 62 },
-        "dual-earner-depth": { "status": "scored", "score": 52 },
-        "other": { "status": "scored", "score": 45 }
+        "sw-demand-depth": {
+          "status": "scored",
+          "score": 62
+        },
+        "ai-ml-specialisation": {
+          "status": "scored",
+          "score": 55
+        },
+        "salary-levels": {
+          "status": "scored",
+          "score": 66
+        },
+        "foreign-grad-bd-hireability": {
+          "status": "scored",
+          "score": 62
+        },
+        "dual-earner-depth": {
+          "status": "scored",
+          "score": 52
+        }
       },
       "pros": [
-        { "text": "ICT/AI roles are on the Green List (straight-to-residence eligible); AI engineers earn ~NZ$100k–170k and senior software engineers ~NZ$130k–175k in Auckland, in an English-native market." }
+        {
+          "text": "ICT/AI roles are on the Green List (straight-to-residence eligible); AI engineers earn ~NZ$100k–170k and senior software engineers ~NZ$130k–175k in Auckland, in an English-native market."
+        }
       ],
       "cons": [
-        { "text": "The market is small and Auckland-centric, with ongoing brain-drain of tech talent to Australia." }
+        {
+          "text": "The market is small and Auckland-centric, with ongoing brain-drain of tech talent to Australia."
+        }
       ],
       "links": [
-        { "title": "Jobicy — AI Engineer salary, New Zealand (2025)", "url": "https://jobicy.com/salaries/nz/ai-engineer" },
-        { "title": "Levels.fyi — Software Engineer salary, Auckland", "url": "https://www.levels.fyi/t/software-engineer/locations/new-zealand" }
+        {
+          "title": "Jobicy — AI Engineer salary, New Zealand (2025)",
+          "url": "https://jobicy.com/salaries/nz/ai-engineer"
+        },
+        {
+          "title": "Levels.fyi — Software Engineer salary, Auckland",
+          "url": "https://www.levels.fyi/t/software-engineer/locations/new-zealand"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -40,22 +69,46 @@
       "status": "scored",
       "summary": "An online application process with no Bangladesh-specific ban, but New Zealand has no mission in Dhaka and funds requirements (NZ$20,000/yr) plus distance add friction.",
       "factors": {
-        "approval-refusal-rate": { "status": "scored", "score": 55 },
-        "dhaka-mission-appointment-capacity": { "status": "scored", "score": 48 },
-        "in-queue-processing-schemes": { "status": "scored", "score": 55 },
-        "financial-bars": { "status": "scored", "score": 52 },
-        "credibility-genuineness-scrutiny": { "status": "scored", "score": 55 },
-        "heightened-scrutiny-policy-risk": { "status": "scored", "score": 55 },
-        "other": { "status": "scored", "score": 52 }
+        "approval-refusal-rate": {
+          "status": "scored",
+          "score": 55
+        },
+        "dhaka-mission-appointment-capacity": {
+          "status": "scored",
+          "score": 48
+        },
+        "in-queue-processing-schemes": {
+          "status": "scored",
+          "score": 55
+        },
+        "financial-bars": {
+          "status": "scored",
+          "score": 52
+        },
+        "credibility-genuineness-scrutiny": {
+          "status": "scored",
+          "score": 55
+        },
+        "heightened-scrutiny-policy-risk": {
+          "status": "scored",
+          "score": 55
+        }
       },
       "pros": [
-        { "text": "Student visas are filed online with no Bangladesh-specific ban; an English-taught degree needs no separate language friction." }
+        {
+          "text": "Student visas are filed online with no Bangladesh-specific ban; an English-taught degree needs no separate language friction."
+        }
       ],
       "cons": [
-        { "text": "New Zealand has no mission in Bangladesh (processed via New Delhi/online), funds proof is NZ$20,000/yr, and the distance raises relocation cost." }
+        {
+          "text": "New Zealand has no mission in Bangladesh (processed via New Delhi/online), funds proof is NZ$20,000/yr, and the distance raises relocation cost."
+        }
       ],
       "links": [
-        { "title": "Immigration New Zealand — student visa (official)", "url": "https://www.immigration.govt.nz/new-zealand-visas/options/study" }
+        {
+          "title": "Immigration New Zealand — student visa (official)",
+          "url": "https://www.immigration.govt.nz/new-zealand-visas/options/study"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -63,24 +116,54 @@
       "status": "scored",
       "summary": "The decisive failure: although New Zealand allows dual citizenship, New Zealand is NOT on Bangladesh's DNC list, so a naturalising Bangladeshi loses BD nationality — the explicit contrast to Australia.",
       "factors": {
-        "time-to-citizenship": { "status": "scored", "score": 55 },
-        "naturalisation-requirements": { "status": "scored", "score": 80 },
-        "dual-citizenship-retention": { "status": "scored", "score": 15 },
-        "citizenship-attainability": { "status": "scored", "score": 48 },
-        "policy-stability": { "status": "scored", "score": 62 },
-        "passport-strength": { "status": "scored", "score": 86 },
-        "other": { "status": "scored", "score": 35 }
+        "time-to-citizenship": {
+          "status": "scored",
+          "score": 55
+        },
+        "naturalisation-requirements": {
+          "status": "scored",
+          "score": 80
+        },
+        "dual-citizenship-retention": {
+          "status": "scored",
+          "score": 15
+        },
+        "citizenship-attainability": {
+          "status": "scored",
+          "score": 48
+        },
+        "policy-stability": {
+          "status": "scored",
+          "score": 62
+        },
+        "passport-strength": {
+          "status": "scored",
+          "score": 86
+        }
       },
       "pros": [
-        { "text": "Naturalisation needs only 5 years' residence (1,350 days) with basic English (native for this couple) and good character — low friction on New Zealand's side." },
-        { "text": "The New Zealand passport is strong (Henley 2026 ~183 visa-free destinations)." }
+        {
+          "text": "Naturalisation needs only 5 years' residence (1,350 days) with basic English (native for this couple) and good character — low friction on New Zealand's side."
+        },
+        {
+          "text": "The New Zealand passport is strong (Henley 2026 ~183 visa-free destinations)."
+        }
       ],
       "cons": [
-        { "text": "New Zealand is NOT on Bangladesh's Dual Nationality Certificate list (Australia is; NZ is the explicit contrast), so under Bangladeshi law acquiring NZ citizenship causes loss of BD nationality — failing the retain-BD goal. (Recommend confirming against the current Bangladesh MOHA DNC list before relying on this.)", "severity": "blocker" }
+        {
+          "text": "New Zealand is NOT on Bangladesh's Dual Nationality Certificate list (Australia is; NZ is the explicit contrast), so under Bangladeshi law acquiring NZ citizenship causes loss of BD nationality — failing the retain-BD goal. (Recommend confirming against the current Bangladesh MOHA DNC list before relying on this.)",
+          "severity": "blocker"
+        }
       ],
       "links": [
-        { "title": "New Zealand Government — NZ citizenship requirements (official)", "url": "https://www.govt.nz/browse/passports-citizenship-and-identity/nz-citizenship/requirements-for-nz-citizenship/" },
-        { "title": "Bangladesh MOFA — Dual Nationality Certificate (eligible-country basis)", "url": "https://washington.mofa.gov.bd/pages/static-pages/695266b435ce18e1c05aadf1" }
+        {
+          "title": "New Zealand Government — NZ citizenship requirements (official)",
+          "url": "https://www.govt.nz/browse/passports-citizenship-and-identity/nz-citizenship/requirements-for-nz-citizenship/"
+        },
+        {
+          "title": "Bangladesh MOFA — Dual Nationality Certificate (eligible-country basis)",
+          "url": "https://washington.mofa.gov.bd/pages/static-pages/695266b435ce18e1c05aadf1"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -88,22 +171,46 @@
       "status": "scored",
       "summary": "A standout: a master's (Level 9) graduate gets a 3-year open Post-Study Work Visa, feeding the Green-List straight-to-residence route, with each spouse eligible.",
       "factors": {
-        "psw-duration-runway": { "status": "scored", "score": 85 },
-        "eligibility-openness-bd": { "status": "scored", "score": 80 },
-        "transition-to-skilled-work": { "status": "scored", "score": 75 },
-        "work-freedom-during-psw": { "status": "scored", "score": 85 },
-        "dual-graduate-spouse-psw": { "status": "scored", "score": 80 },
-        "psw-policy-stability": { "status": "scored", "score": 55 },
-        "other": { "status": "scored", "score": 52 }
+        "psw-duration-runway": {
+          "status": "scored",
+          "score": 85
+        },
+        "eligibility-openness-bd": {
+          "status": "scored",
+          "score": 80
+        },
+        "transition-to-skilled-work": {
+          "status": "scored",
+          "score": 75
+        },
+        "work-freedom-during-psw": {
+          "status": "scored",
+          "score": 85
+        },
+        "dual-graduate-spouse-psw": {
+          "status": "scored",
+          "score": 80
+        },
+        "psw-policy-stability": {
+          "status": "scored",
+          "score": 55
+        }
       },
       "pros": [
-        { "text": "A Level-9 master's earns a 3-year open Post-Study Work Visa (any employer), and ICT/AI roles on the Green List offer a fast straight-to-residence path; each graduating spouse qualifies." }
+        {
+          "text": "A Level-9 master's earns a 3-year open Post-Study Work Visa (any employer), and ICT/AI roles on the Green List offer a fast straight-to-residence path; each graduating spouse qualifies."
+        }
       ],
       "cons": [
-        { "text": "Graduate-visa settings are being adjusted from November 2026 (a 6-month short-term variant added alongside the degree route)." }
+        {
+          "text": "Graduate-visa settings are being adjusted from November 2026 (a 6-month short-term variant added alongside the degree route)."
+        }
       ],
       "links": [
-        { "title": "Immigration New Zealand — Post Study Work Visa (official)", "url": "https://www.immigration.govt.nz/new-zealand-visas/options/work/get-a-work-visa-after-study" }
+        {
+          "title": "Immigration New Zealand — Post Study Work Visa (official)",
+          "url": "https://www.immigration.govt.nz/new-zealand-visas/options/work/get-a-work-visa-after-study"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -111,20 +218,38 @@
       "status": "scored",
       "summary": "Partners of skilled workers/students get work rights and children attend school free; if both spouses study, each holds an independent track.",
       "factors": {
-        "spouse-work-rights": { "status": "scored", "score": 70 },
-        "dependent-visa-bd-access": { "status": "scored", "score": 68 },
-        "family-reunification-children": { "status": "scored", "score": 68 },
-        "spouse-path-to-independence": { "status": "scored", "score": 70 },
-        "other": { "status": "scored", "score": 50 }
+        "spouse-work-rights": {
+          "status": "scored",
+          "score": 70
+        },
+        "dependent-visa-bd-access": {
+          "status": "scored",
+          "score": 68
+        },
+        "family-reunification-children": {
+          "status": "scored",
+          "score": 68
+        },
+        "spouse-path-to-independence": {
+          "status": "scored",
+          "score": 70
+        }
       },
       "pros": [
-        { "text": "Partners of skilled-work and accredited-employer visa holders can obtain open work rights, children attend school free for residents, and if both spouses study each holds their own visa and PSW." }
+        {
+          "text": "Partners of skilled-work and accredited-employer visa holders can obtain open work rights, children attend school free for residents, and if both spouses study each holds their own visa and PSW."
+        }
       ],
       "cons": [
-        { "text": "Some partner-of-student work rights are conditional on the principal's study level." }
+        {
+          "text": "Some partner-of-student work rights are conditional on the principal's study level."
+        }
       ],
       "links": [
-        { "title": "Immigration New Zealand — partner & family visas (official)", "url": "https://www.immigration.govt.nz/new-zealand-visas/options/join-or-bring-family-to-nz" }
+        {
+          "title": "Immigration New Zealand — partner & family visas (official)",
+          "url": "https://www.immigration.govt.nz/new-zealand-visas/options/join-or-bring-family-to-nz"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -132,22 +257,46 @@
       "status": "scored",
       "summary": "English-native CS/AI master's (Auckland, Waikato) with a 3-year PSW payoff, but international tuition is high (NZ$32k–64k).",
       "factors": {
-        "affordability-funding": { "status": "scored", "score": 42 },
-        "english-program-depth": { "status": "scored", "score": 70 },
-        "admission-credential-access": { "status": "scored", "score": 70 },
-        "student-work-rights": { "status": "scored", "score": 65 },
-        "study-pathway-fit": { "status": "scored", "score": 82 },
-        "other": { "status": "scored", "score": 55 }
+        "affordability-funding": {
+          "status": "scored",
+          "score": 42
+        },
+        "english-program-depth": {
+          "status": "scored",
+          "score": 70
+        },
+        "admission-credential-access": {
+          "status": "scored",
+          "score": 70
+        },
+        "student-work-rights": {
+          "status": "scored",
+          "score": 65
+        },
+        "study-pathway-fit": {
+          "status": "scored",
+          "score": 82
+        }
       },
       "pros": [
-        { "text": "Auckland and Waikato offer English-native Master of AI/CS programmes; a Level-9 master qualifies for the 3-year PSW and Green-List residence, and students may work 20 hrs/week." }
+        {
+          "text": "Auckland and Waikato offer English-native Master of AI/CS programmes; a Level-9 master qualifies for the 3-year PSW and Green-List residence, and students may work 20 hrs/week."
+        }
       ],
       "cons": [
-        { "text": "International master's tuition is high (NZ$32,000–64,000/yr) and the CS/AI catalogue is comparatively small." }
+        {
+          "text": "International master's tuition is high (NZ$32,000–64,000/yr) and the CS/AI catalogue is comparatively small."
+        }
       ],
       "links": [
-        { "title": "University of Waikato — Master of Artificial Intelligence (official)", "url": "https://www.waikato.ac.nz/int/study/qualifications/master-of-artificial-intelligence/" },
-        { "title": "University of Auckland — international postgraduate fees (official)", "url": "https://www.auckland.ac.nz/en/study/fees-and-money-matters/tuition-fees/international-student-fees/postgraduate-international-fees.html" }
+        {
+          "title": "University of Waikato — Master of Artificial Intelligence (official)",
+          "url": "https://www.waikato.ac.nz/int/study/qualifications/master-of-artificial-intelligence/"
+        },
+        {
+          "title": "University of Auckland — international postgraduate fees (official)",
+          "url": "https://www.auckland.ac.nz/en/study/fees-and-money-matters/tuition-fees/international-student-fees/postgraduate-international-fees.html"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -155,22 +304,46 @@
       "status": "scored",
       "summary": "A fast, clear route: ICT/AI roles on the Green List offer straight-to-residence, with English-only requirements.",
       "factors": {
-        "years-to-pr": { "status": "scored", "score": 70 },
-        "route-clarity-accessibility": { "status": "scored", "score": 72 },
-        "eligibility-bars": { "status": "scored", "score": 68 },
-        "language-integration-requirement": { "status": "scored", "score": 85 },
-        "continuity-retention": { "status": "scored", "score": 62 },
-        "policy-predictability": { "status": "scored", "score": 52 },
-        "other": { "status": "scored", "score": 52 }
+        "years-to-pr": {
+          "status": "scored",
+          "score": 70
+        },
+        "route-clarity-accessibility": {
+          "status": "scored",
+          "score": 72
+        },
+        "eligibility-bars": {
+          "status": "scored",
+          "score": 68
+        },
+        "language-integration-requirement": {
+          "status": "scored",
+          "score": 85
+        },
+        "continuity-retention": {
+          "status": "scored",
+          "score": 62
+        },
+        "policy-predictability": {
+          "status": "scored",
+          "score": 52
+        }
       },
       "pros": [
-        { "text": "ICT/AI occupations on the Green List provide a fast 'straight-to-residence' or work-to-residence path, with only English required and clear points criteria." }
+        {
+          "text": "ICT/AI occupations on the Green List provide a fast 'straight-to-residence' or work-to-residence path, with only English required and clear points criteria."
+        }
       ],
       "cons": [
-        { "text": "Immigration settings have been reset several times, adding some unpredictability, and continuity depends on Green-List stability." }
+        {
+          "text": "Immigration settings have been reset several times, adding some unpredictability, and continuity depends on Green-List stability."
+        }
       ],
       "links": [
-        { "title": "Immigration New Zealand — Green List & residence (official)", "url": "https://www.immigration.govt.nz/new-zealand-visas/options/work/tools-and-information/work-visa-and-jobs/green-list-occupations" }
+        {
+          "title": "Immigration New Zealand — Green List & residence (official)",
+          "url": "https://www.immigration.govt.nz/new-zealand-visas/options/work/tools-and-information/work-visa-and-jobs/green-list-occupations"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -178,21 +351,42 @@
       "status": "scored",
       "summary": "Decent salaries with no social-security tax, but Auckland housing is among the least affordable globally and relocation distance is costly.",
       "factors": {
-        "household-net-surplus": { "status": "scored", "score": 60 },
-        "housing-cost-availability": { "status": "scored", "score": 42 },
-        "savings-remittance": { "status": "scored", "score": 58 },
-        "student-phase-affordability": { "status": "scored", "score": 45 },
-        "upfront-relocation-cash": { "status": "scored", "score": 42 },
-        "other": { "status": "scored", "score": 48 }
+        "household-net-surplus": {
+          "status": "scored",
+          "score": 60
+        },
+        "housing-cost-availability": {
+          "status": "scored",
+          "score": 42
+        },
+        "savings-remittance": {
+          "status": "scored",
+          "score": 58
+        },
+        "student-phase-affordability": {
+          "status": "scored",
+          "score": 45
+        },
+        "upfront-relocation-cash": {
+          "status": "scored",
+          "score": 42
+        }
       },
       "pros": [
-        { "text": "No employee social-security tax and no capital-gains tax leave a reasonable net surplus on a dual tech income." }
+        {
+          "text": "No employee social-security tax and no capital-gains tax leave a reasonable net surplus on a dual tech income."
+        }
       ],
       "cons": [
-        { "text": "Auckland housing is among the least affordable in the world, and high tuition plus distance make the study and relocation phases expensive." }
+        {
+          "text": "Auckland housing is among the least affordable in the world, and high tuition plus distance make the study and relocation phases expensive."
+        }
       ],
       "links": [
-        { "title": "Mastersportal — tuition & living costs in New Zealand (2026)", "url": "https://www.mastersportal.com/articles/2867/tuition-fees-and-living-costs-in-new-zealand.html" }
+        {
+          "title": "Mastersportal — tuition & living costs in New Zealand (2026)",
+          "url": "https://www.mastersportal.com/articles/2867/tuition-fees-and-living-costs-in-new-zealand.html"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -200,21 +394,42 @@
       "status": "scored",
       "summary": "Publicly funded care for residents and 2-year+ work-visa holders; students need insurance and there are public waiting lists.",
       "factors": {
-        "newcomer-eligibility-barrier": { "status": "scored", "score": 58 },
-        "health-quality-access": { "status": "scored", "score": 62 },
-        "cost-coverage-by-status": { "status": "scored", "score": 65 },
-        "social-insurance-safety-net": { "status": "scored", "score": 60 },
-        "family-childcare-benefits": { "status": "scored", "score": 55 },
-        "other": { "status": "scored", "score": 50 }
+        "newcomer-eligibility-barrier": {
+          "status": "scored",
+          "score": 58
+        },
+        "health-quality-access": {
+          "status": "scored",
+          "score": 62
+        },
+        "cost-coverage-by-status": {
+          "status": "scored",
+          "score": 65
+        },
+        "social-insurance-safety-net": {
+          "status": "scored",
+          "score": 60
+        },
+        "family-childcare-benefits": {
+          "status": "scored",
+          "score": 55
+        }
       },
       "pros": [
-        { "text": "Publicly funded healthcare covers residents and holders of 2-year+ work visas at low cost, plus ACC accident cover for everyone." }
+        {
+          "text": "Publicly funded healthcare covers residents and holders of 2-year+ work visas at low cost, plus ACC accident cover for everyone."
+        }
       ],
       "cons": [
-        { "text": "International students must hold insurance, and the public system has notable waiting lists." }
+        {
+          "text": "International students must hold insurance, and the public system has notable waiting lists."
+        }
       ],
       "links": [
-        { "title": "Immigration New Zealand — health & insurance (official)", "url": "https://www.immigration.govt.nz/new-zealand-visas/preparing-a-visa-application/your-health" }
+        {
+          "title": "Immigration New Zealand — health & insurance (official)",
+          "url": "https://www.immigration.govt.nz/new-zealand-visas/preparing-a-visa-application/your-health"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -222,23 +437,49 @@
       "status": "scored",
       "summary": "English-native with no language barrier for status, a multicultural and (post-Christchurch) notably inclusive society — though remote.",
       "factors": {
-        "english-usability": { "status": "scored", "score": 92 },
-        "language-burden-citizenship": { "status": "scored", "score": 90 },
-        "integration-support": { "status": "scored", "score": 58 },
-        "social-acceptance-south-asian": { "status": "scored", "score": 65 },
-        "worklife-livability": { "status": "scored", "score": 78 },
-        "cultural-distance-adaptation": { "status": "scored", "score": 62 },
-        "other": { "status": "scored", "score": 50 }
+        "english-usability": {
+          "status": "scored",
+          "score": 92
+        },
+        "language-burden-citizenship": {
+          "status": "scored",
+          "score": 90
+        },
+        "integration-support": {
+          "status": "scored",
+          "score": 58
+        },
+        "social-acceptance-south-asian": {
+          "status": "scored",
+          "score": 65
+        },
+        "worklife-livability": {
+          "status": "scored",
+          "score": 78
+        },
+        "cultural-distance-adaptation": {
+          "status": "scored",
+          "score": 62
+        }
       },
       "pros": [
-        { "text": "English is the native language (no language friction for work, PR or citizenship), and the society is multicultural with strong, demonstrated inclusion of the Muslim community since 2019." },
-        { "text": "Excellent livability and work-life balance." }
+        {
+          "text": "English is the native language (no language friction for work, PR or citizenship), and the society is multicultural with strong, demonstrated inclusion of the Muslim community since 2019."
+        },
+        {
+          "text": "Excellent livability and work-life balance."
+        }
       ],
       "cons": [
-        { "text": "Geographic isolation makes travel to Bangladesh long and costly, and integration support is modest." }
+        {
+          "text": "Geographic isolation makes travel to Bangladesh long and costly, and integration support is modest."
+        }
       ],
       "links": [
-        { "title": "New Zealand Government — living in NZ (official)", "url": "https://www.govt.nz/browse/immigration-and-visas/" }
+        {
+          "title": "New Zealand Government — living in NZ (official)",
+          "url": "https://www.govt.nz/browse/immigration-and-visas/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -246,23 +487,50 @@
       "status": "scored",
       "summary": "Among the world's safest (GPI 3rd) with top-tier rule of law (WJP 5th) and strong, post-Christchurch anti-discrimination reforms.",
       "factors": {
-        "personal-crime-safety": { "status": "scored", "score": 85 },
-        "lived-discrimination-hatecrime": { "status": "scored", "score": 55 },
-        "rule-of-law-corruption-civil-justice": { "status": "scored", "score": 88 },
-        "women-safety-gbv": { "status": "scored", "score": 78 },
-        "immigration-enforcement-due-process": { "status": "scored", "score": 68 },
-        "antidiscrimination-law-enforcement": { "status": "scored", "score": 68 },
-        "other": { "status": "scored", "score": 52 }
+        "personal-crime-safety": {
+          "status": "scored",
+          "score": 85
+        },
+        "lived-discrimination-hatecrime": {
+          "status": "scored",
+          "score": 55
+        },
+        "rule-of-law-corruption-civil-justice": {
+          "status": "scored",
+          "score": 88
+        },
+        "women-safety-gbv": {
+          "status": "scored",
+          "score": 78
+        },
+        "immigration-enforcement-due-process": {
+          "status": "scored",
+          "score": 68
+        },
+        "antidiscrimination-law-enforcement": {
+          "status": "scored",
+          "score": 68
+        }
       },
       "pros": [
-        { "text": "Global Peace Index 2025: 3rd; WJP Rule of Law Index 2025: 5th — extremely safe, low corruption, with strengthened hate-speech/firearms and community-protection measures after the 2019 Christchurch attack." }
+        {
+          "text": "Global Peace Index 2025: 3rd; WJP Rule of Law Index 2025: 5th — extremely safe, low corruption, with strengthened hate-speech/firearms and community-protection measures after the 2019 Christchurch attack."
+        }
       ],
       "cons": [
-        { "text": "The 15 March 2019 Christchurch mosque attack remains the reference point, though the state and society responded with strong solidarity and reform." }
+        {
+          "text": "The 15 March 2019 Christchurch mosque attack remains the reference point, though the state and society responded with strong solidarity and reform."
+        }
       ],
       "links": [
-        { "title": "Vision of Humanity — Global Peace Index 2025", "url": "https://www.visionofhumanity.org/maps/" },
-        { "title": "World Justice Project — Rule of Law Index 2025", "url": "https://worldjusticeproject.org/rule-of-law-index/" }
+        {
+          "title": "Vision of Humanity — Global Peace Index 2025",
+          "url": "https://www.visionofhumanity.org/maps/"
+        },
+        {
+          "title": "World Justice Project — Rule of Law Index 2025",
+          "url": "https://worldjusticeproject.org/rule-of-law-index/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -270,22 +538,46 @@
       "status": "scored",
       "summary": "Stable democracy with a moderate populist (NZ First) coalition partner; immigration settings shift but the climate toward Muslims is notably inclusive post-2019.",
       "factors": {
-        "immigration-policy-volatility": { "status": "scored", "score": 52 },
-        "non-eu-skilled-policy-direction": { "status": "scored", "score": 68 },
-        "anti-immigration-electoral-power": { "status": "scored", "score": 55 },
-        "societal-sentiment-trend": { "status": "scored", "score": 58 },
-        "institutional-governance-stability": { "status": "scored", "score": 80 },
-        "targeted-risk-south-asian-muslim": { "status": "scored", "score": 62 },
-        "other": { "status": "scored", "score": 52 }
+        "immigration-policy-volatility": {
+          "status": "scored",
+          "score": 52
+        },
+        "non-eu-skilled-policy-direction": {
+          "status": "scored",
+          "score": 68
+        },
+        "anti-immigration-electoral-power": {
+          "status": "scored",
+          "score": 55
+        },
+        "societal-sentiment-trend": {
+          "status": "scored",
+          "score": 58
+        },
+        "institutional-governance-stability": {
+          "status": "scored",
+          "score": 80
+        },
+        "targeted-risk-south-asian-muslim": {
+          "status": "scored",
+          "score": 62
+        }
       },
       "pros": [
-        { "text": "Very stable institutions, a Green-List policy that actively courts skilled ICT/AI migrants, and a demonstrably inclusive posture toward Muslims since 2019." }
+        {
+          "text": "Very stable institutions, a Green-List policy that actively courts skilled ICT/AI migrants, and a demonstrably inclusive posture toward Muslims since 2019."
+        }
       ],
       "cons": [
-        { "text": "Immigration settings are reset relatively often, and NZ First adds a populist edge to the governing coalition." }
+        {
+          "text": "Immigration settings are reset relatively often, and NZ First adds a populist edge to the governing coalition."
+        }
       ],
       "links": [
-        { "title": "Immigration New Zealand — official", "url": "https://www.immigration.govt.nz/" }
+        {
+          "title": "Immigration New Zealand — official",
+          "url": "https://www.immigration.govt.nz/"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -293,21 +585,42 @@
       "status": "scored",
       "summary": "A relatively light burden — income tax to 39% with no employee social-security tax and no capital-gains tax — but no expat regime; an NZ–Bangladesh treaty exists.",
       "factors": {
-        "effective-deduction-wedge": { "status": "scored", "score": 60 },
-        "expat-foreign-worker-relief": { "status": "scored", "score": 35 },
-        "household-dual-earner-treatment": { "status": "scored", "score": 60 },
-        "student-phase-tax-exposure": { "status": "scored", "score": 62 },
-        "bd-treaty-repatriation": { "status": "scored", "score": 60 },
-        "other": { "status": "scored", "score": 52 }
+        "effective-deduction-wedge": {
+          "status": "scored",
+          "score": 60
+        },
+        "expat-foreign-worker-relief": {
+          "status": "scored",
+          "score": 35
+        },
+        "household-dual-earner-treatment": {
+          "status": "scored",
+          "score": 60
+        },
+        "student-phase-tax-exposure": {
+          "status": "scored",
+          "score": 62
+        },
+        "bd-treaty-repatriation": {
+          "status": "scored",
+          "score": 60
+        }
       },
       "pros": [
-        { "text": "No employee social-security tax and no capital-gains tax keep the effective burden moderate, and an NZ–Bangladesh double-taxation treaty supports repatriation." }
+        {
+          "text": "No employee social-security tax and no capital-gains tax keep the effective burden moderate, and an NZ–Bangladesh double-taxation treaty supports repatriation."
+        }
       ],
       "cons": [
-        { "text": "There is no special expat/inbound-worker tax relief regime." }
+        {
+          "text": "There is no special expat/inbound-worker tax relief regime."
+        }
       ],
       "links": [
-        { "title": "Inland Revenue (IRD) — income tax for individuals (official)", "url": "https://www.ird.govt.nz/income-tax/income-tax-for-individuals" }
+        {
+          "title": "Inland Revenue (IRD) — income tax for individuals (official)",
+          "url": "https://www.ird.govt.nz/income-tax/income-tax-for-individuals"
+        }
       ],
       "lastReviewed": "2026-06-19"
     },
@@ -315,22 +628,52 @@
       "status": "scored",
       "summary": "A ~1.5% Muslim population with abundant Auckland mosques and halal (NZ is a major halal-meat exporter), and a strongly accommodating legal posture since 2019 — but a tiny Bangladeshi community and geographic isolation.",
       "factors": {
-        "bangladeshi-diaspora": { "status": "scored", "score": 35 },
-        "religious-practice-infrastructure": { "status": "scored", "score": 65 },
-        "sentiment-safety": { "status": "scored", "score": 52 },
-        "legal-religious-accommodation": { "status": "scored", "score": 65 },
-        "south-asian-cultural-ecosystem": { "status": "scored", "score": 52 },
-        "other": { "status": "scored", "score": 48 }
+        "bangladeshi-diaspora": {
+          "status": "scored",
+          "score": 35
+        },
+        "religious-practice-infrastructure": {
+          "status": "scored",
+          "score": 65
+        },
+        "sentiment-safety": {
+          "status": "scored",
+          "score": 52
+        },
+        "legal-religious-accommodation": {
+          "status": "scored",
+          "score": 65
+        },
+        "south-asian-cultural-ecosystem": {
+          "status": "scored",
+          "score": 52
+        }
       },
       "pros": [
-        { "text": "Auckland has 30+ mosques and halal is abundant (New Zealand is a major halal-meat exporter); the legal/social posture toward Muslims is strongly accommodating after 2019." }
+        {
+          "text": "Auckland has 30+ mosques and halal is abundant (New Zealand is a major halal-meat exporter); the legal/social posture toward Muslims is strongly accommodating after 2019."
+        }
       ],
       "cons": [
-        { "text": "The Bangladeshi community is tiny (~3,550) and the country is geographically isolated from Bangladesh." }
+        {
+          "text": "The Bangladeshi community is tiny (~3,550) and the country is geographically isolated from Bangladesh."
+        }
       ],
       "links": [
-        { "title": "Bangladeshi New Zealanders (overview)", "url": "https://en.wikipedia.org/wiki/Bangladeshi_New_Zealanders" }
+        {
+          "title": "Bangladeshi New Zealanders (overview)",
+          "url": "https://en.wikipedia.org/wiki/Bangladeshi_New_Zealanders"
+        }
       ],
+      "lastReviewed": "2026-06-19"
+    },
+    "direct-work-route": {
+      "status": "pending",
+      "factors": {},
+      "summary": "",
+      "pros": [],
+      "cons": [],
+      "links": [],
       "lastReviewed": "2026-06-19"
     }
   }

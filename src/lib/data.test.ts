@@ -4,8 +4,8 @@ import { categories, countries, getScoredCountry, profile, scoredCountries } fro
 import { validateCountry } from "@/lib/schema";
 
 describe("data integrity", () => {
-  it("loads 14 categories summing to 100", () => {
-    expect(categories).toHaveLength(14);
+  it("loads 15 categories summing to 100", () => {
+    expect(categories).toHaveLength(15);
     expect(categories.reduce((a, c) => a + c.weight, 0)).toBe(100);
   });
   it("loads 20 countries", () => {
