@@ -90,11 +90,39 @@
       "hasHighlight": true
     },
     {
+      "id": "new-zealand",
+      "name": "New Zealand",
+      "iso": "NZ",
+      "flag": "🇳🇿",
+      "rank": 4,
+      "overall": 71.89,
+      "overallRaw": 65.56,
+      "categoryScores": {
+        "job-market": 63.72,
+        "visa-access": 51.86,
+        "citizenship": 67.03,
+        "post-study-work": 94.04,
+        "spouse-family": 77.4,
+        "msc-study": 66.47,
+        "pr-pathway": 77.56,
+        "income-cost": 49.29,
+        "healthcare": 63.5,
+        "culture-language": 93.06,
+        "safety-law": 85.66,
+        "politics": 64.2,
+        "tax": 53.35,
+        "muslim-diaspora": 51.24,
+        "direct-work-route": 93.14
+      },
+      "hasBlocker": false,
+      "hasHighlight": true
+    },
+    {
       "id": "united-kingdom",
       "name": "United Kingdom",
       "iso": "GB",
       "flag": "🇬🇧",
-      "rank": 4,
+      "rank": 5,
       "overall": 71.08,
       "overallRaw": 65.05,
       "categoryScores": {
@@ -122,7 +150,7 @@
       "name": "Australia",
       "iso": "AU",
       "flag": "🇦🇺",
-      "rank": 5,
+      "rank": 6,
       "overall": 70.69,
       "overallRaw": 64.81,
       "categoryScores": {
@@ -146,45 +174,17 @@
       "hasHighlight": true
     },
     {
-      "id": "new-zealand",
-      "name": "New Zealand",
-      "iso": "NZ",
-      "flag": "🇳🇿",
-      "rank": 6,
-      "overall": 68.86,
-      "overallRaw": 63.66,
-      "categoryScores": {
-        "job-market": 63.72,
-        "visa-access": 51.86,
-        "citizenship": 60.31,
-        "post-study-work": 94.04,
-        "spouse-family": 77.4,
-        "msc-study": 66.47,
-        "pr-pathway": 77.56,
-        "income-cost": 49.29,
-        "healthcare": 63.5,
-        "culture-language": 93.06,
-        "safety-law": 85.66,
-        "politics": 64.2,
-        "tax": 53.35,
-        "muslim-diaspora": 51.24,
-        "direct-work-route": null
-      },
-      "hasBlocker": true,
-      "hasHighlight": false
-    },
-    {
       "id": "netherlands",
       "name": "Netherlands",
       "iso": "NL",
       "flag": "🇳🇱",
       "rank": 7,
-      "overall": 66.82,
-      "overallRaw": 62.38,
+      "overall": 69.32,
+      "overallRaw": 63.95,
       "categoryScores": {
         "job-market": 84.25,
         "visa-access": 61.98,
-        "citizenship": 49.06,
+        "citizenship": 50.63,
         "post-study-work": 80.14,
         "spouse-family": 92.57,
         "msc-study": 68.65,
@@ -196,10 +196,10 @@
         "politics": 26.46,
         "tax": 60.1,
         "muslim-diaspora": 40.94,
-        "direct-work-route": null
+        "direct-work-route": 90.42
       },
-      "hasBlocker": true,
-      "hasHighlight": false
+      "hasBlocker": false,
+      "hasHighlight": true
     },
     {
       "id": "belgium",

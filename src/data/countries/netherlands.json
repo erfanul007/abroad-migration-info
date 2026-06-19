@@ -5,7 +5,7 @@
   "iso3": "NLD",
   "flag": "🇳🇱",
   "region": "Europe",
-  "summary": "One of the strongest tech destinations on paper — world-class English usability, deep AI/tech market (ASML, Booking, Adyen), the 30% (→27%) expat tax break, a fully open orientation-year permit, unrestricted spouse work and top universities (TU Delft, Eindhoven) — but it carries a decisive blocker for this couple: Dutch naturalisation generally requires renouncing prior nationality, and a Bangladeshi skilled migrant doesn't fit the narrow exemptions, so the goal of both spouses retaining BD nationality fails. Compounded by Wilders/PVV's extreme anti-Islam politics (proposed Quran ban, 'hijab tax', mosque closures), a tiny Bangladeshi community and high housing/tuition costs. Derived overall is above 60, but the renunciation blocker governs.",
+  "summary": "One of the strongest tech destinations on paper — world-class English usability, deep AI/tech market (ASML, Booking, Adyen), the 30% (→27%) expat tax break, a flagship salary-only Highly Skilled Migrant work route filed offshore from Dhaka, a fully open orientation-year permit, unrestricted spouse work and top universities (TU Delft, Eindhoven). The catch sits in citizenship, not work: Dutch naturalisation generally requires renouncing prior nationality and a Bangladeshi skilled migrant doesn't fit the narrow exemptions, so indefinite Dutch/EU long-term residence (keeping the BD passport) is the default and naturalisation an optional final step. Compounded by Wilders/PVV's extreme anti-Islam politics (proposed Quran ban, 'hijab tax', mosque closures), a tiny Bangladeshi community and high housing/tuition costs.",
   "lastReviewed": "2026-06-19",
   "links": [
     {
@@ -132,7 +132,7 @@
         },
         "dual-citizenship-retention": {
           "status": "scored",
-          "score": 15
+          "score": 22
         },
         "citizenship-attainability": {
           "status": "scored",
@@ -154,8 +154,7 @@
       ],
       "cons": [
         {
-          "text": "Dutch nationality law generally requires renouncing your original nationality on naturalisation; the exemptions (spouse of a Dutch national, refugee, born in NL, or a home country that refuses renunciation) don't fit a Bangladeshi skilled migrant — Bangladesh accepts renunciation — so the first naturalising spouse must give up BD nationality, failing the retain-BD goal.",
-          "severity": "blocker"
+          "text": "Dutch nationality law generally requires renouncing your original nationality on naturalisation, and the exemptions (spouse of a Dutch national, refugee, born in NL) don't fit a Bangladeshi skilled migrant — so naturalising would forfeit BD nationality. Workaround: hold the indefinite Dutch/EU long-term permanent-residence permit (granted at 5 years, keeping the BD passport) and treat the renunciation-bearing citizenship as an optional final step."
         },
         {
           "text": "Naturalisation also requires the Dutch civic-integration exam (A2 Dutch plus knowledge of society)."
@@ -680,12 +679,30 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 88 },
+        "overseas-direct-hire": { "status": "scored", "score": 90 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 45 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 82 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 85 },
+        "current-openness": { "status": "scored", "score": 50 }
+      },
+      "summary": "A flagship direct-work entry, tempered by a tightening trajectory. The Highly Skilled Migrant (kennismigrant) scheme is salary-only — no labour-market test, no points — with 2026 thresholds (€5,942/mo at 30+, €4,357 under-30) that an IND recognised sponsor files together with the MVV in one offshore procedure (≤2-week target) while the couple are still in Dhaka; the EU Blue Card is a parallel option. HSM → permanent residence and naturalisation both at 5 years; Amsterdam/Eindhoven tech demand plus the (shrinking) 30→27% expat ruling. Headwinds: a 2025 government proposal to raise the under-30 salary floor and tighten sponsor rules (not yet enacted) and a generally restrictive direction. The citizenship step forces renunciation (no BD-fitting exemption), so indefinite PR is the BD-passport-retaining default.",
+      "pros": [
+        { "text": "Highly Skilled Migrant scheme is salary-only (no labour-market test), filed offshore from Dhaka by a recognised sponsor with a ~2-week decision; clean HSM → PR/citizenship ladder at 5 years.", "severity": "highlight" },
+        { "text": "Deep Amsterdam/Eindhoven tech demand and a mature recognised-sponsor regime; the 30% (→27% from 2027) expat tax facility offsets the high salary floor." }
+      ],
+      "cons": [
+        { "text": "High under-30 salary floor (€4,357/mo in 2026) and a 2025 government proposal to raise it further and tighten sponsor rules (not yet enacted); thin BD-specific track record." },
+        { "text": "Naturalisation forces renunciation of BD nationality (no fitting exemption) — indefinite Dutch/EU long-term residence is the BD-passport-retaining default." }
+      ],
+      "links": [
+        { "title": "Highly skilled migrant — IND (official)", "url": "https://ind.nl/en/residence-permits/work/highly-skilled-migrant" },
+        { "title": "Required amounts / income requirements 2026 — IND (official)", "url": "https://ind.nl/en/required-amounts-income-requirements" },
+        { "title": "Government to tighten up highly skilled migrant scheme (4 Jul 2025) — Government.nl (official)", "url": "https://www.government.nl/latest/news/2025/07/04/government-to-tighten-up-highly-skilled-migrant-scheme" },
+        { "title": "Permanent residence permit (5-year route) — IND (official)", "url": "https://ind.nl/en/replace-extend-renew-and-change/permanent-residency/permanent-residence-permit" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }

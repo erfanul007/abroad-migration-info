@@ -5,7 +5,7 @@
   "iso3": "NZL",
   "flag": "🇳🇿",
   "region": "Oceania",
-  "summary": "English-native with the best post-study runway of the set (a 3-year open work visa), a fast Green-List 'straight-to-residence' route for AI/ICT, world-class safety (GPI 3rd, WJP 5th) and a strong passport — but it carries a decisive blocker: New Zealand is NOT on Bangladesh's Dual Nationality Certificate list, so a naturalising Bangladeshi loses BD nationality (the explicit contrast to Australia). Compounded by a small, remote Auckland-centric market, high tuition and a tiny Bangladeshi community. Derived overall is above 60, but the dual-retention blocker governs.",
+  "summary": "English-native with the best post-study runway of the set (a 3-year open work visa) and a strong direct skilled-work route — software/ICT sit on the Green List Tier 1 (straight-to-residence) and the AEWV median-wage barrier was removed (Mar 2025), with offshore applications from Dhaka — plus world-class safety (GPI 3rd, WJP 5th) and a strong passport. The one real catch sits in citizenship, not work: New Zealand is NOT on Bangladesh's Dual Nationality Certificate list, so naturalising forfeits BD nationality (the explicit contrast to Australia) — the rational default is indefinite NZ permanent residence, keeping the BD passport, with citizenship optional. Compounded by a small, remote Auckland-centric market, high tuition and a tiny Bangladeshi community.",
   "lastReviewed": "2026-06-19",
   "links": [
     {
@@ -126,7 +126,7 @@
         },
         "dual-citizenship-retention": {
           "status": "scored",
-          "score": 15
+          "score": 45
         },
         "citizenship-attainability": {
           "status": "scored",
@@ -151,8 +151,7 @@
       ],
       "cons": [
         {
-          "text": "New Zealand is NOT on Bangladesh's Dual Nationality Certificate list (Australia is; NZ is the explicit contrast), so under Bangladeshi law acquiring NZ citizenship causes loss of BD nationality — failing the retain-BD goal. (Recommend confirming against the current Bangladesh MOHA DNC list before relying on this.)",
-          "severity": "blocker"
+          "text": "New Zealand permits dual citizenship, but it is NOT on Bangladesh's Dual Nationality Certificate list (Australia is — the explicit contrast), so naturalising as a New Zealander would forfeit BD nationality. Workaround: hold the indefinite NZ permanent-resident visa (live, work and own property permanently, keeping the BD passport) and treat citizenship as an optional final step. Confirm against the current Bangladesh MOHA DNC list before relying on this."
         }
       ],
       "links": [
@@ -668,12 +667,30 @@
       "lastReviewed": "2026-06-19"
     },
     "direct-work-route": {
-      "status": "pending",
-      "factors": {},
-      "summary": "",
-      "pros": [],
-      "cons": [],
-      "links": [],
+      "status": "scored",
+      "factors": {
+        "work-visa-accessibility-bd": { "status": "scored", "score": 88 },
+        "overseas-direct-hire": { "status": "scored", "score": 88 },
+        "bd-direct-work-track-record": { "status": "scored", "score": 52 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 70 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 90 },
+        "current-openness": { "status": "scored", "score": 78 }
+      },
+      "summary": "One of the cleanest direct work→residence routes in scope. Software Engineer / Developer Programmer / ICT Security sit on the Green List Tier 1 (straight-to-residence), and from 10 March 2025 the Accredited Employer Work Visa dropped its median-wage requirement (market rate + minimum wage only). An accredited NZ employer can run the job check and the candidate applies for the AEWV from Dhaka — no prior NZ presence. AEWV/Green List → residence → citizenship at 5 years; the 2025–26 direction is expansionary (National Occupation List, +91 occupations, new residence pathways). The one caveat sits in citizenship, not work: NZ is not on Bangladesh's DNC list, so the rational default is to hold indefinite NZ permanent residence and treat naturalisation as optional.",
+      "pros": [
+        { "text": "Software/ICT roles are Green List Tier 1 = straight-to-residence; the AEWV median-wage barrier was removed (Mar 2025) and applications run offshore from Dhaka.", "severity": "highlight" },
+        { "text": "Cheap, standardised employer accreditation (NZD 775) and an expansionary 2025–26 direction (National Occupation List, +91 occupations) → residence → citizenship at 5 years." }
+      ],
+      "cons": [
+        { "text": "Bangladeshi community is small though fast-growing (~3,552 at the 2023 census, +57% in five years) — the BD-specific direct-work track record is thin." },
+        { "text": "Citizenship does not yield retained BD nationality (NZ not on Bangladesh's DNC list); indefinite permanent residence is the BD-passport-retaining default." }
+      ],
+      "links": [
+        { "title": "Changes to the Accredited Employer Work Visa & median wage — Immigration NZ (official)", "url": "https://www.immigration.govt.nz/about-us/news-centre/changes-to-the-accredited-employer-work-visa-aewv-and-median-wage/" },
+        { "title": "Skilled Migrant Category & Work-to-Residence changes — Immigration NZ (official)", "url": "https://www.immigration.govt.nz/about-us/news-centre/final-details-about-changes-to-the-skilled-migrant-category-resident-visa-and-work-to-residence-visa/" },
+        { "title": "Requirements for NZ citizenship — presence requirements — govt.nz (official)", "url": "https://www.govt.nz/browse/passports-citizenship-and-identity/nz-citizenship/requirements-for-nz-citizenship/presence-requirements/" },
+        { "title": "Dual Nationality Certificate eligible-country list — Embassy of Bangladesh (official)", "url": "https://washington.mofa.gov.bd/pages/static-pages/695266b435ce18e1c05aadf1" }
+      ],
       "lastReviewed": "2026-06-19"
     }
   }
