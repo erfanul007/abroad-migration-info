@@ -1,12 +1,10 @@
 // src/pages/About.tsx
-import { useMemo } from "react";
 import { useData } from "@/hooks/useData";
 import { Section } from "@/components/common/Section";
 import { FeedbackForm } from "@/components/about/FeedbackForm";
 import { Card, CardContent } from "@/components/ui/card";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import {
-  Users, Route, SlidersHorizontal, Calculator, Dot,
+  Users, Route, SlidersHorizontal, Dot,
   GraduationCap, Briefcase, Home, BadgeCheck, Plane,
   MapPin, Zap, Copy, MessageSquare, type LucideIcon,
 } from "lucide-react";
@@ -15,9 +13,8 @@ import {
 const PATHWAY_ICONS: LucideIcon[] = [GraduationCap, Briefcase, Home, BadgeCheck, Plane];
 
 export default function About() {
-  const { profile, categories } = useData();
+  const { profile } = useData();
   const p = profile;
-  const sortedCategories = useMemo(() => [...categories].sort((a, b) => b.weight - a.weight), [categories]);
 
   return (
     <div className="space-y-8">
@@ -67,20 +64,6 @@ export default function About() {
           <li className="flex items-center gap-2"><Copy className="size-4 shrink-0" aria-hidden />Dual citizenship: {p.preferences.dualCitizenship}</li>
           <li className="flex items-center gap-2"><Users className="size-4 shrink-0" aria-hidden />Relocate together: {p.preferences.relocateTogether ? "yes" : "no"}</li>
         </ul>
-      </Section>
-
-      <Section title="Scoring methodology" icon={Calculator}>
-        <p className="max-w-2xl text-sm text-muted-foreground">Each category carries a fixed weight (its percentage-point ceiling). A country's overall score is the weighted average of its category scores. Pending categories use a provisional placeholder score (flagged as not yet sourced) and are included in the overall — the country is then marked provisional. Categories entirely absent from the data are excluded and the remaining weights renormalised; nothing is silently counted as zero.</p>
-        <div className="overflow-x-auto rounded-lg border">
-          <Table>
-            <TableHeader><TableRow><TableHead>Category</TableHead><TableHead className="text-right">Weight</TableHead><TableHead>What it measures</TableHead></TableRow></TableHeader>
-            <TableBody>
-              {sortedCategories.map((c) => (
-                <TableRow key={c.id}><TableCell className="font-medium">{c.name}</TableCell><TableCell className="text-right tabular-nums">{c.weight}%</TableCell><TableCell className="text-muted-foreground">{c.description}</TableCell></TableRow>
-              ))}
-            </TableBody>
-          </Table>
-        </div>
       </Section>
 
       <Section title="Feedback" icon={MessageSquare}>

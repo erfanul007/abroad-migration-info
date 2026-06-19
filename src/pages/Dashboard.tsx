@@ -23,7 +23,7 @@ export default function Dashboard() {
         <h1 className="text-3xl font-bold tracking-tight">Migration Feasibility</h1>
         <p className="text-sm text-muted-foreground">
           Ranking countries for the goal: <span className="font-medium text-foreground">{profile.goal}</span>.{" "}
-          <Link to="/about" className="text-primary hover:underline">About the method →</Link>
+          <Link to="/methodology" className="text-primary hover:underline">How scoring works →</Link>
         </p>
       </div>
 
