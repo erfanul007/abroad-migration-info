@@ -1,7 +1,9 @@
 // src/components/charts/Choropleth.tsx
 // Plain world choropleth via Leaflet (react-leaflet). All countries rendered; scored ones
-// are shaded on a FIXED absolute green ramp (scoreToGreen: <60 unshaded, 60→80 one shade
-// per percent, ≥80 deepest). Each scored country carries a permanent ISO-code label
+// are shaded on a FIXED absolute green ramp (scoreToGreen: <50 unshaded, 50→80 one shade
+// per percent, ≥80 deepest). Deepest green = highest overall, faintest = lowest — a single-hue
+// sequential scale, deliberately NOT the tier palette used for badges/bars. Each scored country
+// carries a permanent ISO-code label
 // (Leaflet tooltip) shown only where its polygon is rendered large enough to read it
 // (LabelDeclutter) — Leaflet has no built-in label collision, so we gate on projected
 // pixel size. Click a country → popup overview with a "View <country>".
@@ -30,8 +32,8 @@ const INITIAL_ZOOM = 2;
 const LABEL_MIN_W = 26; // min polygon width in px to fit the code
 const LABEL_MIN_H = 16; // min polygon height in px to fit the code
 
-// Fixed legend gradient (8 stops sampled from the absolute 60→80 ramp). Computed once —
-// it never depends on the data, so the colour key is identical on every render.
+// Fixed legend gradient (8 stops sampled from the absolute 50→80 ramp). Computed once — it
+// never depends on the data, so the colour key is identical on every render.
 const LEGEND_GRADIENT = `linear-gradient(to right, ${Array.from({ length: 8 }, (_, i) => {
   const score = FILL_MIN + ((FILL_MAX - FILL_MIN) * i) / 7;
   return `${scoreToGreen(score)} ${((i / 7) * 100).toFixed(0)}%`;

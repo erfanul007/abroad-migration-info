@@ -9,12 +9,13 @@ import { CategoryTile } from "@/components/methodology/CategoryTile";
 import { RecalibrationCurve } from "@/components/methodology/RecalibrationCurve";
 import { RECALIBRATE, INCLUSION_MIN } from "@/lib/config";
 import { categoryColor } from "@/lib/palette";
+import { byWeightDesc } from "@/lib/selectors";
 import { formatPercent } from "@/lib/formatters";
 import { Calculator, SlidersHorizontal, Palette, Flag, Scale } from "lucide-react";
 
 export default function Methodology() {
   const { categories } = useData();
-  const sortedCategories = useMemo(() => [...categories].sort((a, b) => b.weight - a.weight), [categories]);
+  const sortedCategories = useMemo(() => [...categories].sort(byWeightDesc), [categories]);
   const colorById = useMemo(
     () => Object.fromEntries(categories.map((c, i) => [c.id, categoryColor(i, categories.length)])),
     [categories],
@@ -36,7 +37,7 @@ export default function Methodology() {
         <ol className="ml-4 list-decimal space-y-2 text-sm text-muted-foreground">
           <li><span className="font-medium text-foreground">Factor → category.</span> A category's score is the weighted mean of its factor sub-scores (factor weights sum to {formatPercent(100)} within the category). A category is scored only once all its factors are sourced; otherwise it stays pending.</li>
           <li><span className="font-medium text-foreground">Category → overall.</span> The overall is the weighted mean of category scores (category weights sum to {formatPercent(100)}). Pending or absent categories are excluded and the remaining weights renormalised — never counted as zero.</li>
-          <li><span className="font-medium text-foreground">Display recalibration.</span> The overall and each category score pass through a fixed contrast curve so the scale uses its full range (below). Display-only — it never changes the ranking order.</li>
+          <li><span className="font-medium text-foreground">Display recalibration.</span> The <span className="font-medium text-foreground">overall</span> score passes through a fixed contrast curve so the leaderboard uses its full range (below). Category and factor scores are left exact (rule-based). Display-only — it never changes the ranking order.</li>
           <li><span className="font-medium text-foreground">Tiering & inclusion.</span> Scores map to colour tiers (below). Countries scoring below {formatPercent(INCLUSION_MIN)} overall are surfaced for removal, not silently dropped.</li>
         </ol>
         <div className="rounded-lg border bg-muted/40 p-3 font-mono text-xs text-muted-foreground">
@@ -47,11 +48,12 @@ export default function Methodology() {
 
       <Section title="Display recalibration" icon={SlidersHorizontal}>
         <p className="max-w-2xl text-sm text-muted-foreground">
-          Raw weighted scores cluster toward the middle (an artifact of averaging many factors), so the shown
-          score is contrast-stretched around a fixed pivot of {formatPercent(pivot)}:{" "}
+          Raw overall scores cluster toward the middle (an artifact of averaging many categories), so the shown
+          overall is contrast-stretched around a fixed pivot of {formatPercent(pivot)}:{" "}
           <span className="font-mono text-foreground">shown = clamp(0–100, {pivot} + (raw − {pivot}) × {gain})</span>.
-          Scores above the pivot are pushed up, below are pulled down; the pivot is unchanged. The stretch is
-          monotonic, so the order of countries never changes.
+          Only the overall is recalibrated — category and factor scores are shown exactly. Scores above the pivot
+          are pushed up, below are pulled down; the pivot is unchanged. The stretch is monotonic, so the ranking
+          order never changes.
         </p>
         <RecalibrationCurve />
       </Section>

@@ -11,8 +11,9 @@
  */
 export const SERIES = ["var(--primary)", "#16a34a", "#ea580c"] as const;
 
-/** Choropleth (Leaflet) static fills. Land = neutral grey; borders = white hairline.
- *  Scored countries are filled on the green ramp via `scoreToGreen()` (formatters.ts). */
+/** Choropleth (Leaflet) static fills. Land = neutral grey (unscored / rest of world);
+ *  borders = white hairline. Scored countries are filled on the absolute green ramp via
+ *  `scoreToGreen()` (formatters.ts) — deepest green highest, faintest lowest. */
 export const MAP_LAND = "#c9ced6";
 export const MAP_BORDER = "#ffffff";
 

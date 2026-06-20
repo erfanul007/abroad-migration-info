@@ -5,7 +5,7 @@ import { useData } from "@/hooks/useData";
 import { LeaderboardTable } from "@/components/leaderboard/LeaderboardTable";
 import { SearchBox } from "@/components/leaderboard/SearchBox";
 import { Filters } from "@/components/leaderboard/Filters";
-import { regionsOf, byRegion } from "@/lib/selectors";
+import { regionsOf, byRegion, byWeightDesc } from "@/lib/selectors";
 
 export default function Leaderboard() {
   const { countries, categories } = useData();
@@ -15,6 +15,8 @@ export default function Leaderboard() {
 
   const regions = useMemo(() => regionsOf(countries), [countries]);
   const filtered = useMemo(() => byRegion(countries, region), [countries, region]);
+  // Heaviest categories first, so both the columns and the column-toggle list read by weight.
+  const orderedCategories = useMemo(() => [...categories].sort(byWeightDesc), [categories]);
 
   return (
     <div className="space-y-8">
@@ -26,12 +28,12 @@ export default function Leaderboard() {
         <SearchBox value={search} onChange={setSearch} />
         <Filters
           regions={regions} region={region} onRegionChange={setRegion}
-          categories={categories} columnVisibility={columnVisibility}
+          categories={orderedCategories} columnVisibility={columnVisibility}
           onToggleColumn={(id, visible) => setColumnVisibility((v) => ({ ...v, [id]: visible }))}
         />
       </div>
       <LeaderboardTable
-        countries={filtered} categories={categories}
+        countries={filtered} categories={orderedCategories}
         globalFilter={search} columnVisibility={columnVisibility}
         onColumnVisibilityChange={setColumnVisibility}
       />

@@ -29,7 +29,7 @@ export function Filters({ regions, region, onRegionChange, categories, columnVis
 
       <Popover>
         <PopoverTrigger asChild>
-          <Button variant="outline" size="sm"><SlidersHorizontal className="mr-2 size-4" />Columns</Button>
+          <Button variant="outline" size="sm"><SlidersHorizontal className="size-4" aria-hidden />Columns</Button>
         </PopoverTrigger>
         <PopoverContent className="w-56">
           <div className="max-h-72 space-y-2 overflow-y-auto">

@@ -3,12 +3,17 @@
 // out of components and out of formatters — import from here so a policy change is
 // one edit. (Choropleth pixel/zoom presentation constants stay in their components.)
 
-/** Absolute score-tier cutoffs (0..100). ≥excellent / ≥good / ≥fair / else weak.
- *  `fair` (60) is aligned with the choropleth fill floor below, so unfilled == weak. */
-export const TIER = { excellent: 80, good: 70, fair: 60 } as const;
-
-/** Choropleth fill band: below `min` → no fill; at/above `max` → deepest shade (capped). */
-export const CHOROPLETH = { min: 60, max: 80 } as const;
+/** Absolute score tiers (0..100), descending by floor. Five tiers, each a clearly-separable
+ *  colour (green → lime → yellow → orange → red) — finer "micro-tiers" blurred together to the
+ *  eye. Single source for thresholds, labels, and tier colours (badges derive Tailwind classes
+ *  from the `id`; the choropleth + bars fill with `color`). `poor` floors at 0 so every score maps. */
+export const TIERS = [
+  { id: "excellent", label: "Excellent", min: 80, color: "#15803D" }, // deep green
+  { id: "good", label: "Good", min: 70, color: "#84CC16" }, //            lime
+  { id: "average", label: "Average", min: 60, color: "#EAB308" }, //      yellow
+  { id: "weak", label: "Weak", min: 50, color: "#F97316" }, //           orange
+  { id: "poor", label: "Poor", min: 0, color: "#DC2626" }, //            red
+] as const;
 
 /** Curation policy: countries scoring below this overall are dropped (surfaced, not auto-deleted). */
 export const INCLUSION_MIN = 50;

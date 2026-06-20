@@ -1,12 +1,12 @@
 // src/lib/scoring.test.ts
 import { describe, it, expect } from "vitest";
-import { computeOverall, scoreCountry, rankCountries, deriveCategoryScore, recalibrate } from "@/lib/scoring";
+import { computeOverall, scoreCountry, rankCountries, deriveCategoryScore, deriveFactorBreakdown, deriveFactorComparison, recalibrate } from "@/lib/scoring";
 import type { Category, Country } from "@/types";
 
 const f = (id: string, weight: number) => ({ id, label: id, description: "", weight });
 const cats: Category[] = [
-  { id: "a", name: "A", shortLabel: "A", weight: 60, description: "", factors: [f("a1", 50), f("other", 50)] },
-  { id: "b", name: "B", shortLabel: "B", weight: 40, description: "", factors: [f("b1", 60), f("other", 40)] },
+  { id: "a", name: "A", shortLabel: "A", weight: 60, description: "", factors: [f("a1", 50), f("f2", 50)] },
+  { id: "b", name: "B", shortLabel: "B", weight: 40, description: "", factors: [f("b1", 60), f("f2", 40)] },
 ];
 
 const sc = (n: number) => ({ status: "scored" as const, score: n });
@@ -34,17 +34,57 @@ function country(id: string, a: number, b: number): Country {
 describe("deriveCategoryScore", () => {
   it("is the factor-weighted mean when all factors are scored", () => {
     // (80*50 + 60*50) / 100 = 70
-    expect(deriveCategoryScore(cell({ a1: sc(80), other: sc(60) }), cats[0])).toBe(70);
+    expect(deriveCategoryScore(cell({ a1: sc(80), f2: sc(60) }), cats[0])).toBe(70);
   });
   it("is null when a factor is missing", () => {
     expect(deriveCategoryScore(cell({ a1: sc(80) }), cats[0])).toBeNull();
   });
   it("is null when a factor is pending", () => {
-    expect(deriveCategoryScore(cell({ a1: { status: "pending", score: 0 }, other: sc(60) }), cats[0])).toBeNull();
+    expect(deriveCategoryScore(cell({ a1: { status: "pending", score: 0 }, f2: sc(60) }), cats[0])).toBeNull();
   });
   it("is null for a pending or absent cell", () => {
     expect(deriveCategoryScore(cell({}, "pending"), cats[0])).toBeNull();
     expect(deriveCategoryScore(null, cats[0])).toBeNull();
+  });
+});
+
+describe("deriveFactorBreakdown", () => {
+  it("returns one row per factor with points = score/100 * weight, summing to the category score", () => {
+    const bd = deriveFactorBreakdown(cell({ a1: sc(80), f2: sc(60) }), cats[0]);
+    expect(bd).not.toBeNull();
+    expect(bd!.rows).toHaveLength(2);
+    expect(bd!.rows[0]).toMatchObject({ id: "a1", label: "a1", weight: 50, score: 80, points: 40 });
+    expect(bd!.rows[1]).toMatchObject({ id: "f2", weight: 50, score: 60, points: 30 });
+    expect(bd!.total).toBe(70);
+  });
+  it("total equals deriveCategoryScore for a complete scored cell", () => {
+    const c = cell({ a1: sc(72), f2: sc(58) });
+    expect(deriveFactorBreakdown(c, cats[0])!.total).toBeCloseTo(deriveCategoryScore(c, cats[0])!);
+  });
+  it("is null when a factor is missing or pending, or the cell is pending/absent", () => {
+    expect(deriveFactorBreakdown(cell({ a1: sc(80) }), cats[0])).toBeNull();
+    expect(deriveFactorBreakdown(cell({ a1: { status: "pending", score: 0 }, f2: sc(60) }), cats[0])).toBeNull();
+    expect(deriveFactorBreakdown(cell({}, "pending"), cats[0])).toBeNull();
+    expect(deriveFactorBreakdown(null, cats[0])).toBeNull();
+  });
+});
+
+describe("deriveFactorComparison", () => {
+  it("one row per factor in source order, scores aligned to the cells", () => {
+    const rows = deriveFactorComparison(cats[0], [cell({ a1: sc(80), f2: sc(60) }), cell({ a1: sc(40), f2: sc(20) })]);
+    expect(rows.map((r) => r.id)).toEqual(["a1", "f2"]);
+    expect(rows[0]).toMatchObject({ label: "a1", weight: 50, scores: [80, 40] });
+    expect(rows[1].scores).toEqual([60, 20]);
+  });
+  it("null per country for a pending or absent cell", () => {
+    const rows = deriveFactorComparison(cats[0], [cell({ a1: sc(80), f2: sc(60) }), cell({}, "pending"), null]);
+    expect(rows[0].scores).toEqual([80, null, null]);
+    expect(rows[1].scores).toEqual([60, null, null]);
+  });
+  it("null when an individual factor is missing or pending", () => {
+    const rows = deriveFactorComparison(cats[0], [cell({ a1: sc(90) }), cell({ a1: { status: "pending", score: 0 }, f2: sc(50) })]);
+    expect(rows[0].scores).toEqual([90, null]); // a1: scored, then pending
+    expect(rows[1].scores).toEqual([null, 50]); // f2: missing in first, scored in second
   });
 });
 
@@ -76,8 +116,9 @@ describe("scoreCountry", () => {
     expect(scored.hasPending).toBe(true);
     expect(scored.isComplete).toBe(false);
     expect(scored.scored).toHaveLength(2);
-    expect(scored.categoryScores.a).toBe(recalibrate(80));
+    expect(scored.categoryScores.a).toBe(80); // category score is exact (raw), not recalibrated
     expect(scored.categoryScores.b).toBeNull();
+    expect(scored.overall).toBeCloseTo(recalibrate(80)); // only the overall is recalibrated for ranking
   });
   it("derives hasBlocker from any con tagged severity:blocker", () => {
     const c = country("x", 80, 50);

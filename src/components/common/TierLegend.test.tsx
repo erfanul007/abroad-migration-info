@@ -1,16 +1,14 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import { TierLegend } from "@/components/common/TierLegend";
-import { TIER } from "@/lib/config";
 
 describe("TierLegend", () => {
-  it("renders all four tiers with thresholds from TIER", () => {
+  it("renders all 5 tiers with their thresholds", () => {
     render(<TierLegend />);
-    expect(screen.getByText("Excellent")).toBeInTheDocument();
-    expect(screen.getByText("Good")).toBeInTheDocument();
-    expect(screen.getByText("Fair")).toBeInTheDocument();
-    expect(screen.getByText("Weak")).toBeInTheDocument();
-    expect(screen.getByText(`≥ ${TIER.excellent}%`)).toBeInTheDocument();
-    expect(screen.getByText(`< ${TIER.fair}%`)).toBeInTheDocument();
+    for (const label of ["Excellent", "Good", "Average", "Weak", "Poor"]) {
+      expect(screen.getByText(label)).toBeInTheDocument();
+    }
+    expect(screen.getByText("≥ 80%")).toBeInTheDocument(); // excellent floor
+    expect(screen.getByText("< 50%")).toBeInTheDocument(); // poor floor (below weak)
   });
 });

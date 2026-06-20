@@ -5,6 +5,8 @@ import { Section } from "@/components/common/Section";
 import { ScoreBadge } from "@/components/common/ScoreBadge";
 import { PendingBadge } from "@/components/common/PendingBadge";
 import { SeverityBadge } from "@/components/common/SeverityBadge";
+import { CategoryFactorDialog } from "@/components/country/CategoryFactorDialog";
+import { byWeightDesc } from "@/lib/selectors";
 import { RadarProfile } from "@/components/charts/RadarProfile";
 import { ContributionBars } from "@/components/charts/ContributionBars";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -18,12 +20,15 @@ export default function CountryDetail() {
 
   if (!country) {
     return (
-      <div className="space-y-3">
-        <h1 className="text-2xl font-bold">Country not found</h1>
+      <div className="space-y-8">
+        <h1 className="text-2xl font-bold tracking-tight">Country not found</h1>
         <Link to="/leaderboard" className="text-primary hover:underline">← Back to leaderboard</Link>
       </div>
     );
   }
+
+  // Category cards heaviest-weight first (matches the leaderboard column order).
+  const orderedScored = [...country.scored].sort((a, b) => byWeightDesc(a.category, b.category));
 
   return (
     <div className="space-y-8">
@@ -52,7 +57,7 @@ export default function CountryDetail() {
 
       <Section title="Category detail" icon={LayoutGrid}>
         <div className="grid gap-4 md:grid-cols-2">
-          {country.scored.map(({ category, cell, score }) => (
+          {orderedScored.map(({ category, cell, score }) => (
             <Card key={category.id}>
               <CardHeader className="flex-row items-center justify-between space-y-0 pb-2">
                 <CardTitle className="text-base">{category.name}</CardTitle>
@@ -71,24 +76,35 @@ export default function CountryDetail() {
                   <>
                     {cell.summary && <p>{cell.summary}</p>}
                     {cell.pros.length > 0 && (
-                      <ul className="list-inside list-disc text-emerald-700 dark:text-emerald-300">
-                        {cell.pros.map((p) => (
-                          <li key={p.text}>
-                            {p.text}
-                            {p.severity === "highlight" && <SeverityBadge severity="highlight" />}
-                          </li>
-                        ))}
-                      </ul>
+                      <div>
+                        <div className="mb-1 text-xs font-semibold uppercase tracking-wide text-emerald-700 dark:text-emerald-300">Pros</div>
+                        <ul className="list-inside list-disc space-y-0.5">
+                          {cell.pros.map((p) => (
+                            <li key={p.text}>
+                              {p.text}
+                              {p.severity === "highlight" && <SeverityBadge severity="highlight" />}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
                     )}
                     {cell.cons.length > 0 && (
-                      <ul className="list-inside list-disc text-muted-foreground">
-                        {cell.cons.map((co) => (
-                          <li key={co.text}>
-                            {co.text}
-                            {co.severity === "blocker" && <SeverityBadge severity="blocker" />}
-                          </li>
-                        ))}
-                      </ul>
+                      <div>
+                        <div className="mb-1 text-xs font-semibold uppercase tracking-wide text-rose-700 dark:text-rose-300">Cons</div>
+                        <ul className="list-inside list-disc space-y-0.5">
+                          {cell.cons.map((co) => (
+                            <li key={co.text}>
+                              {co.text}
+                              {co.severity === "blocker" && <SeverityBadge severity="blocker" />}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                    {score !== null && (
+                      <div className="pt-1">
+                        <CategoryFactorDialog category={category} cell={cell} score={score} />
+                      </div>
                     )}
                     {cell.links.length > 0 && (
                       <div className="flex flex-wrap gap-2 pt-1">

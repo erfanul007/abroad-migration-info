@@ -2,11 +2,12 @@
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer, Legend, Tooltip } from "recharts";
 import type { Category, ScoredCountry } from "@/types";
 import { formatPercent } from "@/lib/formatters";
-import { categoryScore } from "@/lib/selectors";
+import { categoryScore, byWeightDesc } from "@/lib/selectors";
 import { SERIES } from "@/lib/palette";
 
 export function RadarProfile({ countries, categories }: { countries: ScoredCountry[]; categories: Category[] }) {
-  const data = categories.map((cat) => {
+  // Heaviest category first, so the radar axes read in the same order as the tables/columns.
+  const data = [...categories].sort(byWeightDesc).map((cat) => {
     const row: Record<string, string | number> = { category: cat.shortLabel };
     for (const c of countries) row[c.name] = categoryScore(c, cat.id) ?? 0;
     return row;

@@ -16,7 +16,7 @@ export interface ScoreboardEntry {
   rank: number;
   overall: number; // recalibrated (display)
   overallRaw: number; // pre-curve, for transparency
-  categoryScores: Record<string, number | null>; // recalibrated (display)
+  categoryScores: Record<string, number | null>; // raw exact rule-based score (not recalibrated; only `overall` is)
   hasBlocker: boolean;
   hasHighlight: boolean;
 }

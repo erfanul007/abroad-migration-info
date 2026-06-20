@@ -1,6 +1,6 @@
 // src/lib/selectors.test.ts
 import { describe, it, expect } from "vitest";
-import { topN, regionsOf, byRegion, categoryScore } from "@/lib/selectors";
+import { topN, regionsOf, byRegion, categoryScore, byWeightDesc } from "@/lib/selectors";
 import type { ScoredCountry } from "@/types";
 
 const mk = (iso: string, region: string, scores: Record<string, number | null>) =>
@@ -27,5 +27,14 @@ describe("selectors", () => {
     expect(categoryScore(cs[0], "job-market")).toBe(70);
     expect(categoryScore(cs[1], "job-market")).toBeNull();
     expect(categoryScore(cs[2], "job-market")).toBeNull();
+  });
+  it("byWeightDesc orders heavier first, keeping input order for ties (stable)", () => {
+    const items = [
+      { id: "a", weight: 7 },
+      { id: "b", weight: 10 },
+      { id: "c", weight: 7 }, // ties with a; declared after → stays after
+      { id: "d", weight: 9 },
+    ];
+    expect([...items].sort(byWeightDesc).map((x) => x.id)).toEqual(["b", "d", "a", "c"]);
   });
 });

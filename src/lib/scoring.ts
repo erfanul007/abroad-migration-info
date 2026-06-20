@@ -1,5 +1,5 @@
 // src/lib/scoring.ts
-import type { Category, CategoryScore, Country, ScoredCategory, ScoredCountry } from "@/types";
+import type { Category, CategoryScore, Country, FactorBreakdown, FactorBreakdownRow, FactorComparisonRow, ScoredCategory, ScoredCountry } from "@/types";
 // Relative import (not @/) for the runtime config value: this module is loaded by the tsx
 // cache-build script (via scoreboard.ts), and tsx does not resolve the @/ alias at runtime
 // (the type-only @/types import above is fine — type imports are erased).
@@ -33,6 +33,48 @@ export function deriveCategoryScore(
   return (weightedSum / totalWeight) * 100;
 }
 
+/** Per-factor contribution breakdown for one category cell: each factor's obtained score and
+ *  its points (= score/100 × weight). Returns null on the same non-derivability rule as
+ *  deriveCategoryScore (pending/absent cell or any missing/pending factor). total = Σ points,
+ *  which equals deriveCategoryScore when the category's factor weights sum to 100. */
+export function deriveFactorBreakdown(
+  cell: CategoryScore | null | undefined,
+  category: Category,
+): FactorBreakdown | null {
+  if (!cell || cell.status !== "scored") return null;
+  const rows: FactorBreakdownRow[] = [];
+  let total = 0;
+  for (const factor of category.factors) {
+    const fs = cell.factors[factor.id];
+    if (!fs || fs.status !== "scored") return null;
+    const points = (fs.score / 100) * factor.weight;
+    rows.push({ id: factor.id, label: factor.label, weight: factor.weight, score: fs.score, points });
+    total += points;
+  }
+  if (rows.length === 0) return null;
+  return { rows, total };
+}
+
+/** Per-factor scores for one category across N countries (cells aligned to the caller's
+ *  country order). One row per factor in category source order; scores[i] is cells[i]'s raw
+ *  factor sub-score (0..100) or null when that cell is pending/absent or the factor is
+ *  missing/pending. Pure — max-per-row highlighting is the caller's concern. */
+export function deriveFactorComparison(
+  category: Category,
+  cells: (CategoryScore | null | undefined)[],
+): FactorComparisonRow[] {
+  return category.factors.map((factor) => ({
+    id: factor.id,
+    label: factor.label,
+    weight: factor.weight,
+    scores: cells.map((cell) => {
+      if (!cell || cell.status !== "scored") return null;
+      const fs = cell.factors[factor.id];
+      return fs && fs.status === "scored" ? fs.score : null;
+    }),
+  }));
+}
+
 /** Weighted sum of derived category scores, renormalised over categories that derive.
  *  Non-derivable categories are excluded (not treated as 0); result is 0..100. */
 export function computeOverall(country: Country, categories: Category[]): number {
@@ -53,7 +95,7 @@ export function scoreCountry(country: Country, categories: Category[]): ScoredCo
     const cell = country.categories[category.id] ?? null;
     const raw = deriveCategoryScore(cell, category);
     const contribution = raw === null ? 0 : (raw / 100) * category.weight; // raw weighted contribution
-    const score = raw === null ? null : recalibrate(raw); // display (curved)
+    const score = raw; // exact rule-based category score (raw); recalibration applies to the overall only
     return { category, cell, score, contribution };
   });
   const present = scored.filter((s) => s.cell !== null);

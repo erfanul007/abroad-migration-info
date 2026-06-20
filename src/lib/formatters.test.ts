@@ -1,7 +1,7 @@
 // src/lib/formatters.test.ts
 import { describe, it, expect } from "vitest";
-import { formatScore, formatPercent, formatDate, scoreTier, scoreToGreen, orderedTiers } from "@/lib/formatters";
-import { TIER } from "@/lib/config";
+import { formatScore, formatPercent, formatDate, scoreTier, orderedTiers, tierLabel, tierColor, scoreToGreen, FILL_MIN, FILL_MAX } from "@/lib/formatters";
+import { TIERS, INCLUSION_MIN } from "@/lib/config";
 
 describe("formatScore", () => {
   it("rounds to a whole number", () => {
@@ -24,30 +24,39 @@ describe("formatDate", () => {
 });
 
 describe("scoreTier", () => {
-  it("maps score to a tier label", () => {
+  it("maps scores across the 5-tier scale", () => {
     expect(scoreTier(90)).toBe("excellent");
-    expect(scoreTier(75)).toBe("good");
-    expect(scoreTier(62)).toBe("fair");
-    expect(scoreTier(30)).toBe("weak");
+    expect(scoreTier(72)).toBe("good");
+    expect(scoreTier(62)).toBe("average");
+    expect(scoreTier(55)).toBe("weak");
+    expect(scoreTier(20)).toBe("poor");
   });
-  it("maps tier boundary values exactly", () => {
+  it("maps boundary values exactly (>= floor wins the higher tier)", () => {
     expect(scoreTier(80)).toBe("excellent");
     expect(scoreTier(79)).toBe("good");
     expect(scoreTier(70)).toBe("good");
-    expect(scoreTier(69)).toBe("fair");
-    expect(scoreTier(60)).toBe("fair");
+    expect(scoreTier(69)).toBe("average");
+    expect(scoreTier(60)).toBe("average");
     expect(scoreTier(59)).toBe("weak");
+    expect(scoreTier(50)).toBe("weak");
+    expect(scoreTier(49)).toBe("poor");
+    expect(scoreTier(0)).toBe("poor");
+  });
+  it("tiers on the ROUNDED percent so colour matches the shown number", () => {
+    expect(scoreTier(79.6)).toBe("excellent"); // rounds to 80
+    expect(scoreTier(79.4)).toBe("good"); //      rounds to 79
+    expect(scoreTier(69.6)).toBe("good"); //      rounds to 70
+    expect(scoreTier(49.6)).toBe("weak"); //      rounds to 50
+    expect(scoreTier(49.4)).toBe("poor"); //      rounds to 49
   });
 });
 
 describe("orderedTiers", () => {
-  it("lists tiers high→low with floors from TIER and weak at 0", () => {
-    expect(orderedTiers()).toEqual([
-      { tier: "excellent", min: TIER.excellent },
-      { tier: "good", min: TIER.good },
-      { tier: "fair", min: TIER.fair },
-      { tier: "weak", min: 0 },
-    ]);
+  it("lists all 5 tiers high→low, mirroring config TIERS", () => {
+    expect(orderedTiers()).toEqual(TIERS.map((t) => ({ tier: t.id, min: t.min })));
+    expect(orderedTiers()).toHaveLength(5);
+    expect(orderedTiers()[0]).toEqual({ tier: "excellent", min: 80 });
+    expect(orderedTiers().at(-1)).toEqual({ tier: "poor", min: 0 });
   });
   it("is strictly descending by min", () => {
     const mins = orderedTiers().map((t) => t.min);
@@ -55,38 +64,38 @@ describe("orderedTiers", () => {
   });
 });
 
-describe("scoreToGreen", () => {
-  const L = (oklch: string) => Number(oklch.match(/oklch\(([\d.]+)/)![1]);
-  const C = (oklch: string) => Number(oklch.match(/oklch\([\d.]+ ([\d.]+)/)![1]);
+describe("tierLabel & tierColor", () => {
+  it("returns the configured label and colour per tier", () => {
+    expect(tierLabel("good")).toBe("Good");
+    expect(tierLabel("average")).toBe("Average");
+    expect(tierLabel("poor")).toBe("Poor");
+    expect(tierColor("excellent")).toBe("#15803D");
+    expect(tierColor("weak")).toBe("#F97316");
+    expect(tierColor("poor")).toBe("#DC2626");
+  });
+});
 
-  it("returns null below the fill threshold (< 60 → no colour)", () => {
-    expect(scoreToGreen(59)).toBeNull();
+describe("scoreToGreen (choropleth ramp)", () => {
+  it("anchors the ramp to policy: floor = INCLUSION_MIN, ceiling = excellent tier", () => {
+    expect(FILL_MIN).toBe(INCLUSION_MIN); // 50
+    expect(FILL_MAX).toBe(TIERS[0].min); // 80 (excellent)
+  });
+  it("returns null below the fill floor (renders as neutral land, not green)", () => {
+    expect(scoreToGreen(FILL_MIN - 1)).toBeNull();
     expect(scoreToGreen(0)).toBeNull();
   });
-  it("emits an oklch green (hue 150) at and above the threshold", () => {
-    expect(scoreToGreen(60)).toMatch(/^oklch\([\d.]+ [\d.]+ 150\)$/);
-    expect(scoreToGreen(80)).toMatch(/^oklch\([\d.]+ [\d.]+ 150\)$/);
+  it("greens every included country — the floor itself gets the palest green, not null", () => {
+    const palest = scoreToGreen(FILL_MIN);
+    expect(palest).not.toBeNull();
+    expect(palest).toMatch(/^oklch\([\d.]+ [\d.]+ 150\)$/); // fixed hue 150
   });
-  it("darkens and saturates as the score rises (pale 60 → deep 80)", () => {
-    expect(L(scoreToGreen(80)!)).toBeLessThan(L(scoreToGreen(60)!)); // deeper = lower lightness
-    expect(C(scoreToGreen(80)!)).toBeGreaterThan(C(scoreToGreen(60)!)); // deeper = more chroma
+  it("caps at the ceiling: scores at and above FILL_MAX share the single deepest green", () => {
+    expect(scoreToGreen(FILL_MAX)).toBe(scoreToGreen(FILL_MAX + 25));
+    expect(scoreToGreen(FILL_MAX)).toBe(scoreToGreen(100));
   });
-  it("caps at the single deepest green for any score >= 80", () => {
-    expect(scoreToGreen(85)).toBe(scoreToGreen(80));
-    expect(scoreToGreen(100)).toBe(scoreToGreen(80));
-  });
-  it("weights the ramp: an equal score gap steps the shade more at higher scores", () => {
-    const hiGap = L(scoreToGreen(72)!) - L(scoreToGreen(76)!); // top of the range
-    const loGap = L(scoreToGreen(62)!) - L(scoreToGreen(66)!); // bottom of the range
-    expect(hiGap).toBeGreaterThan(loGap); // same 4-pt gap, wider shade difference up top
-  });
-  it("gives a constant, distinct shade per whole percent (1% = one shade)", () => {
-    const shades = new Set<string>();
-    for (let s = 60; s <= 80; s++) shades.add(scoreToGreen(s)!);
-    expect(shades.size).toBe(21); // 60..80 inclusive, all distinct
-  });
-  it("quantises to whole percents so the mapping is stable (rounds)", () => {
-    expect(scoreToGreen(70.4)).toBe(scoreToGreen(70));
-    expect(scoreToGreen(69.5)).toBe(scoreToGreen(70));
+  it("darkens monotonically with score (lightness falls as the score rises)", () => {
+    const lightness = (s: number) => Number(/oklch\(([\d.]+)/.exec(scoreToGreen(s)!)![1]);
+    expect(lightness(FILL_MIN)).toBeGreaterThan(lightness(65));
+    expect(lightness(65)).toBeGreaterThan(lightness(FILL_MAX));
   });
 });

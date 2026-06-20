@@ -18,3 +18,8 @@ export const byRegion = (countries: readonly ScoredCountry[], region: string): S
 /** Derived category score for a country (null when non-derivable / category absent). */
 export const categoryScore = (country: ScoredCountry, categoryId: string): number | null =>
   country.categoryScores[categoryId] ?? null;
+
+/** Comparator: heavier weight first. Stable on ties — Array.prototype.sort preserves input
+ *  order for equal keys — so equal-weight categories keep their source order. Works on any
+ *  `{ weight }`-bearing item (e.g. Category, or a ScoredCategory's `.category`). */
+export const byWeightDesc = (a: { weight: number }, b: { weight: number }): number => b.weight - a.weight;

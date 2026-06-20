@@ -40,18 +40,23 @@ Values below mirror `src/index.css` exactly. Base colour is shadcn **neutral** (
 
 ### 2.2 Score-encoding colours (tier badge scale + choropleth green ramp)
 
-Drives `ScoreBadge` and contribution emphasis. Defined in `lib/formatters.ts` as the single source.
+Drives `ScoreBadge`, the tier legend, the contribution bars, and the choropleth. The **tier scale** is the single ordered `TIERS` in `lib/config.ts`; `lib/formatters.ts` derives `scoreTier`, `scoreTierClasses`, `tierLabel`, `tierColor`, and `orderedTiers` from it. The **choropleth is the one exception** — it uses a continuous single-hue green ramp (`scoreToGreen`), not the tier palette (see below).
 
-| Tier | Range | Badge classes |
-|------|-------|---------------|
-| `excellent` | 80–100 | `bg-emerald-500/15 text-emerald-700 dark:text-emerald-300` |
-| `good` | 70–79 | `bg-lime-500/15 text-lime-700 dark:text-lime-300` |
-| `fair` | 60–69 | `bg-amber-500/15 text-amber-700 dark:text-amber-300` |
-| `weak` | 0–59 | `bg-rose-500/15 text-rose-700 dark:text-rose-300` |
+An **optimistic, top-heavy** scale — 80 already earns "Excellent". **Five** tiers, each a clearly-separable colour (green → lime → yellow → orange → red); finer micro-tiers blurred together to the eye. Badges use a **subtle tint** of the tier colour (`bg-…/15` + coloured text) so dense tables and cards stay legible; the contribution bars fill **solid** with the same tier hue. Same tier scale throughout — the badge is just the lighter rendering — and the value is always shown alongside the colour.
 
-Thresholds live in code (`scoreTier()` / `TIER` in `lib/config.ts`), not scattered in components. Change them once. The `fair` floor (60) is intentionally aligned with the choropleth fill floor below, so **unfilled on the map == weak tier**.
+| Tier | Range | Colour (map / bar fill) | Badge tint classes |
+|------|-------|-------------------------|--------------------|
+| `excellent` | ≥ 80 | `#15803D` green | `bg-green-600/15 text-green-800 dark:text-green-300` |
+| `good` | 70–79 | `#84CC16` lime | `bg-lime-500/15 text-lime-700 dark:text-lime-300` |
+| `average` | 60–69 | `#EAB308` yellow | `bg-yellow-500/15 text-yellow-700 dark:text-yellow-300` |
+| `weak` | 50–59 | `#F97316` orange | `bg-orange-500/15 text-orange-700 dark:text-orange-300` |
+| `poor` | < 50 | `#DC2626` red | `bg-red-600/15 text-red-700 dark:text-red-300` |
 
-**Choropleth fill — fixed absolute single-hue green ramp.** The map does *not* use the discrete tiers (a score is an ordered quantity; tiers fake cliffs at the boundaries), nor a data-relative domain (a country's colour would then shift as the dataset grows). Instead `scoreToGreen(score)` maps an **absolute, constant** scale (OKLCH hue 150): `< 60` → `null` (unshaded, renders as neutral land `#c9ced6`); `60 → 80` → one distinct green shade **per whole percent** (21 fixed shades, pale → deep; lightness 0.90→0.36, chroma 0.06→0.21); `≥ 80` → the single deepest green. Whole-percent quantisation (`Math.round`) guarantees "1% = one shade" forever, so a country's colour is stable across future data and small gaps stay visible. An **ease-in curve** (`FILL_CURVE`, convex) weights the ramp toward the deep end, so an equal score gap reads as a wider shade difference at higher scores (76 vs 72 separates more than 66 vs 62). Thresholds (`FILL_MIN`/`FILL_MAX`) live in code. Legend = a neutral `<60` chip + an 8-stop gradient bar sampled from the fixed 60→80 ramp.
+Each contribution bar uses `tierColor` (solid `TIERS[].color`); badges use the tint classes above — same tier, lighter. Both render in the tier colour, just at badge-tint vs solid-fill intensity. `scoreTier` rounds to a whole percent first, so the colour always matches the displayed number.
+
+Thresholds, labels, and tier colours live in one place (`TIERS`), not scattered in components — change them once. `poor` floors at 0 so every score resolves to a tier. Inclusion (`INCLUSION_MIN` = 50) is independent of the tier scale.
+
+**Choropleth fill — absolute green ramp (not the tier palette).** The map is a single-hue sequential scale: scored countries are shaded by `scoreToGreen(overall)` — **deepest green = highest, faintest = lowest** — so the map reads at a glance as one "more green = better" gradient rather than five discrete bands. The ramp is **absolute** (a given score always maps to the same shade, regardless of the dataset) and policy-anchored: floor `FILL_MIN = INCLUSION_MIN` (50, so every *included* country gets at least the palest green — nothing surfaced renders unfilled), ceiling `FILL_MAX` = the excellent floor (80, the deepest green, capped). One distinct shade per whole percent (`Math.round`), with an ease-in curve (`FILL_CURVE`) widening shade gaps toward the top. Hue is fixed at 150; lightness/chroma carry the value (`oklch`). Countries outside the dataset (and any with no derivable overall, i.e. `< 50`) render as neutral land (`#c9ced6`). Leaflet needs raw colour strings, so this is a sanctioned inline-style exception (like the series literals in §2.3). Legend = a land swatch + the `< 50` cutoff + the 50→80+ gradient bar.
 
 **Choropleth labels — Leaflet permanent tooltips + size-aware declutter.** Each scored country gets a permanent Leaflet tooltip (`bindTooltip`, `direction: "center"`) showing its ISO-2 code, styled (`.country-label`) down to a bare white-haloed label. Leaflet 1.9 has **no built-in label collision** (unlike vector engines such as Mapbox GL / MapLibre / Google), so `LabelDeclutter` (a `useMap` child) gates each label on the polygon's **rendered pixel size**: on `zoomend` it projects the layer bounds with `latLngToContainerPoint` and `openTooltip`/`closeTooltip`s based on `LABEL_MIN_W`/`LABEL_MIN_H`. Big countries label early, small ones only when zoomed in (slippy-map behaviour). Size depends only on zoom (panning shifts both corners equally), so no recompute on pan. No plugin, no hand-rolled placement — Leaflet's projection does the measuring.
 
@@ -59,7 +64,7 @@ Thresholds live in code (`scoreTier()` / `TIER` in `lib/config.ts`), not scatter
 
 `["var(--primary)", "#16a34a", "#ea580c"]` — app primary (theme-aware, matches buttons/links), green, orange. Distinct in both themes and for common colour-blindness; never more than three.
 
-**Single source for chart/map literals.** Recharts and Leaflet need raw CSS colour strings (they can't read Tailwind classes), so the few literal colours they require live in **one place — `src/lib/palette.ts`** (`SERIES`, `MAP_LAND`, `MAP_BORDER`). No component hardcodes a hex. The choropleth's per-country fill comes from `scoreToGreen()` (§2.2); single-value charts (`ContributionBars`) use the `var(--primary)` token directly. Everything else uses theme tokens via Tailwind utilities.
+**Single source for chart/map literals.** Recharts and Leaflet need raw CSS colour strings (they can't read Tailwind classes), so the few literal colours they require live in **one place — `src/lib/palette.ts`** (`SERIES`, `MAP_LAND`, `MAP_BORDER`). No component hardcodes a hex. The choropleth's per-country fill comes from `tierColor(scoreTier())` (§2.2); single-value charts (`ContributionBars`) use the `var(--primary)` token directly. Everything else uses theme tokens via Tailwind utilities.
 
 **Category identity palette (methodology pie) — a deliberate exception.** The methodology category-weight pie has 15 slices, more than the ≤3-series guideline above. `categoryColor(index, total)` (in `palette.ts`) generates evenly-spaced OKLCH hues (fixed mid lightness/chroma, legible in both themes) used **only** for that one chart. Sanctioned because the colour encodes category *identity*, not a good/bad value, and is always redundant with a visible text label (pie tooltip + the matching colour dot on each category tile) — colour is never the sole signal. Do not reuse this palette for value-encoding charts.
 
@@ -149,7 +154,7 @@ Every score on every page renders through `ScoreBadge` (or the tier scale it use
 - Table fully keyboard-operable; sortable headers are buttons/clickable with visible focus.
 - Score tier never the *only* signal — the numeric value is always shown alongside the colour.
 - Charts (radar, bars) carry `role="img"` + `aria-label`. The map surfaces each country's score/region/rank via its **click popup** — and the same scores are reachable on the leaderboard and detail pages, so the map is never the sole path to a datum. **Known gap:** the Leaflet country shapes are mouse-only (not keyboard-focusable) and the map region has no `aria-label`; flagged for a follow-up a11y pass.
-- Contrast: tier badge text meets AA on its tint in both themes (verify emerald/lime/amber/rose `*-700` on `/15` light, `*-300` dark).
+- Contrast: tier badge text meets AA on its tint in both themes (coloured `*-700`/`*-800` text on the `/15` tint in light, `*-300` in dark).
 - Respect `prefers-color-scheme` for the initial theme before any saved choice.
 
 ---
