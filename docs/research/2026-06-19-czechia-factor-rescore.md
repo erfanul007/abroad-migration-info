@@ -2,7 +2,7 @@
 
 **Profile:** Bangladeshi (Dhaka) married couple, both ~2022 BSc-CSE / software-AI engineers; MSc → post-study work → PR → citizenship; relocating together.
 
-**Scope:** Sixth country re-scored under the factor model. All 14 categories, 91 factors, scored 0–100 against `categories.json`; derived in `scoring.ts`. Czechia was a full `pending` placeholder.
+**Scope:** Sixth country re-scored under the factor model. All 15 categories, 82 factors, scored 0–100 against `categories.json`; derived in `scoring.ts`. Czechia was a full `pending` placeholder.
 
 ## Method
 

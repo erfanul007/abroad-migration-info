@@ -60,8 +60,8 @@ The applicant's intended pathway is: **MSc studies → post-study work permit �
 
 ### 4.1 In scope (v1)
 - Personal profile/goal storage and an About page rendering it.
-- 14 weighted scoring categories (weights sum to 100), extendable via JSON.
-- 22 seed countries, extendable via JSON.
+- 15 weighted scoring categories (weights sum to 100), extendable via JSON.
+- 20 seed countries, extendable via JSON.
 - Per-country, per-category score (0–100) with reasoning, evidence, references, and review date.
 - Computed overall 0–100 score via weighted sum.
 - Dashboard home, interactive leaderboard, comparison view, country detail pages.
@@ -93,23 +93,24 @@ If a category is **entirely absent** from a country's data, it is excluded and t
 ### 5.3 Categories (v1) — weights sum to 100
 | # | Category | Short label | Weight | What it measures (documented factors) |
 |---|----------|-------------|--------|----------------------------------------|
-| 1 | Software & AI Job Market | Job Market | 12 | Demand for software/AI engineers, salary levels, visa sponsorship norms, remote acceptance, market size for both spouses. |
-| 2 | Visa Accessibility (Bangladesh) | Visa Access | 10 | _Bangladeshi-national lens:_ student/entry visa **acceptance vs. refusal rate for Bangladeshi applicants**, **embassy/consulate in Dhaka** vs. travel required (e.g. New Delhi) for biometrics/interview, processing time & procedural complexity, financial-proof / blocked-account / sponsorship bars, document verification & scrutiny burden, **diplomatic ties** Bangladesh ↔ country, history of **bans / restrictions / heightened scrutiny** for BD passport holders. |
-| 3 | Citizenship & Passport Strength | Citizenship | 10 | Years to citizenship, dual-citizenship allowed, residency/language requirements, passport strength (visa-free access). |
-| 4 | Post-Study Work Permit | Post-Study Work | 9 | **PSW permit duration**, eligibility ease, job-search window, transition to skilled-work visa, **spouse work rights during PSW**. |
-| 5 | Spouse Work & Family | Spouse & Family | 9 | Dependent visa availability, **spouse work permit during study**, **spouse work permit after study/work**, family reunification, children's schooling. |
-| 6 | Master's Study Access | MSc Study | 8 | English-taught program availability, tuition/study cost, scholarship availability, **typical program duration**, **student part-time work rights (hrs/week)**, spouse-can-accompany, intake flexibility. |
-| 7 | Permanent Residency Pathway | PR Pathway | 8 | Years to PR eligibility, clarity of route, points/criteria difficulty, predictability of policy. |
-| 8 | Income & Cost of Living | Income & Cost | 7 | Net salary vs. rent and living cost, savings potential, housing availability. |
-| 9 | Healthcare & Welfare | Healthcare | 6 | Healthcare access, quality, cost & coverage for students/residents; unemployment support; parental benefits; pensions; general safety net. |
+| 1 | Software & AI Job Market | Job Market | 10 | Demand for software/AI engineers, salary levels, visa sponsorship norms, remote acceptance, market size for both spouses. |
+| 2 | Direct Work-Visa Route (Bangladesh) | Direct Work | 10 | _New category._ _Bangladeshi direct skilled-work entry route:_ sponsorship availability and salary thresholds, route to take up skilled work from Bangladesh without first studying. |
+| 3 | Visa Accessibility (Bangladesh) | Visa Access | 9 | _Bangladeshi-national lens:_ student/entry visa **acceptance vs. refusal rate for Bangladeshi applicants**, **embassy/consulate in Dhaka** vs. travel required (e.g. New Delhi) for biometrics/interview, processing time & procedural complexity, financial-proof / blocked-account / sponsorship bars, document verification & scrutiny burden, **diplomatic ties** Bangladesh ↔ country, history of **bans / restrictions / heightened scrutiny** for BD passport holders. |
+| 4 | Citizenship & Passport Strength | Citizenship | 9 | Years to citizenship, dual-citizenship allowed, residency/language requirements, passport strength (visa-free access). |
+| 5 | Post-Study Work Permit | Post-Study Work | 8 | **PSW permit duration**, eligibility ease, job-search window, transition to skilled-work visa, **spouse work rights during PSW**. |
+| 6 | Spouse Work & Family | Spouse & Family | 8 | Dependent visa availability, **spouse work permit during study**, **spouse work permit after study/work**, family reunification, children's schooling. |
+| 7 | Master's Study Access | MSc Study | 7 | English-taught program availability, tuition/study cost, scholarship availability, **typical program duration**, **student part-time work rights (hrs/week)**, spouse-can-accompany, intake flexibility. |
+| 8 | Permanent Residency Pathway | PR Pathway | 7 | Years to PR eligibility, clarity of route, points/criteria difficulty, predictability of policy. |
+| 9 | Income & Cost of Living | Income & Cost | 6 | Net salary vs. rent and living cost, savings potential, housing availability. |
 | 10 | Culture & Language | Culture/Lang | 6 | English usability day-to-day, **local-language requirement for PR/citizenship**, integration support, work–life balance, openness/diversity, climate, general livability. |
-| 11 | Safety & Rule of Law | Safety & Law | 5 | Crime levels, rule of law, treatment of immigrants, judicial fairness. |
-| 12 | Political Stability | Politics | 4 | Government stability, immigration-policy volatility, anti-immigrant sentiment trend. |
-| 13 | Tax Burden | Tax | 3 | Income tax burden, treatment of students/foreign workers, take-home pay. |
-| 14 | Muslim Diaspora | Muslim | 3 | Muslim & South-Asian community size, halal food availability, mosques/prayer facilities, religious accommodation, anti-Muslim sentiment trend. |
+| 11 | Healthcare & Welfare | Healthcare | 5 | Healthcare access, quality, cost & coverage for students/residents; unemployment support; parental benefits; pensions; general safety net. |
+| 12 | Safety & Rule of Law | Safety & Law | 5 | Crime levels, rule of law, treatment of immigrants, judicial fairness. |
+| 13 | Political Stability | Politics | 4 | Government stability, immigration-policy volatility, anti-immigrant sentiment trend. |
+| 14 | Tax Burden | Tax | 3 | Income tax burden, treatment of students/foreign workers, take-home pay. |
+| 15 | Muslim Diaspora | Muslim | 3 | Muslim & South-Asian community size, halal food availability, mosques/prayer facilities, religious accommodation, anti-Muslim sentiment trend. |
 | | **Total** | | **100** | |
 
-_Ordered by weight, descending. Ties are listed pathway-stage first._
+_Ordered by weight, descending. Ties are listed pathway-stage first. **Direct Work-Visa Route (Bangladesh)** is the newly added category._
 
 > Weights and category set are **data**. They can be rebalanced or extended by editing `categories.json`; the only invariant the app enforces/validates is that weights sum to 100.
 >
@@ -117,10 +118,10 @@ _Ordered by weight, descending. Ties are listed pathway-stage first._
 >
 > **Scoring rigor:** scores are curated judgements, each backed by cited sources and a `lastReviewed` date. The high-weight, policy-volatile categories — Visa Accessibility, Post-Study Work, Citizenship, PR Pathway — must each carry at least one authoritative (ideally official/government) source, because they shift with policy and move rankings the most; thinly-sourced scores in these categories are the main credibility risk for the tool.
 
-### 5.4 Seed countries — 22, extendable
-Ordered by overall score: Germany, New Zealand, Norway, Canada, Netherlands, Luxembourg, Ireland, Denmark, Finland, Sweden, Belgium, France, Australia, United Kingdom, Switzerland, Czechia, Italy, Estonia, Spain, Austria, Poland, Portugal.
+### 5.4 Seed countries — 20, extendable
+The set (alphabetical): Australia, Austria, Belgium, Canada, Czechia, Denmark, Estonia, Finland, France, Germany, Ireland, Italy, Luxembourg, Netherlands, New Zealand, Norway, Sweden, Switzerland, United Kingdom, United States.
 
-**Curation (as-built):** all 22 countries are fully scored — every one of the 14 categories carries an integer score with summary, reasoning, evidence bullets, and official-first source links, each stamped with a `lastReviewed` date. Scores were validated against live 2025–26 official sources, anchored to the fixed applicant profile on a single absolute 0–100 scale (methodology: `docs/superpowers/research/score-validation-brief-2026-06-16.md`). No cell currently ships as `pending`; the `pending` status remains a supported state for any future not-yet-sourced category. Inclusion rule: a candidate is added only if it scores **≥ 50 overall** and its shape exists in the Natural Earth `countries-110m` geometry — so countries that fall below 50 or cannot render on the map (e.g. Singapore, Malta) are excluded.
+**Curation (as-built):** all 20 countries are fully scored — every one of the 15 categories carries an integer score with summary, reasoning, evidence bullets, and official-first source links, each stamped with a `lastReviewed` date. Scores were validated against live 2025–26 official sources, anchored to the fixed applicant profile on a single absolute 0–100 scale (methodology: `docs/superpowers/research/score-validation-brief-2026-06-16.md`). No cell currently ships as `pending`; the `pending` status remains a supported state for any future not-yet-sourced category. Inclusion rule: a candidate is added only if it scores **≥ 50 overall** and its shape exists in the Natural Earth `countries-110m` geometry — so countries that fall below 50 or cannot render on the map (e.g. Singapore, Malta) are excluded.
 
 ---
 
@@ -151,7 +152,7 @@ Ordered by overall score: Germany, New Zealand, Norway, Canada, Netherlands, Lux
 ### 6.3 Compare — route `/compare`
 | ID | Requirement | Priority |
 |----|-------------|----------|
-| FR-C1 | Select up to 3 countries to compare. | Must |
+| FR-C1 | Select up to 5 countries to compare (minimum 2). | Must |
 | FR-C2 | Show a side-by-side table of all category scores plus overall score. | Must |
 | FR-C3 | Show an overlaid radar chart of the selected countries' category profiles. | Should |
 | FR-C4 | Highlight the per-category winner among the selected countries. | Could |
@@ -195,7 +196,7 @@ Home (Dashboard)  /
 Leaderboard       /leaderboard
   └─ interactive table: search · per-category sort · filters · column toggle · expandable rows
 Compare           /compare
-  └─ up to 3 countries: side-by-side table · overlaid radar
+  └─ up to 5 countries: side-by-side table · overlaid radar
 Country detail    /country/:iso
   └─ header · radar · contribution bars · per-category evidence cards · references
 About             /about
@@ -252,11 +253,11 @@ JSON files under `src/data/`. Treated as the backend store; presentation-only co
     "id": "job-market",
     "name": "Software & AI Job Market",
     "shortLabel": "Job Market",
-    "weight": 12,
+    "weight": 10,
     "description": "Demand, salary, sponsorship, and market size for software/AI engineers.",
     "factors": ["Demand for SW/AI engineers", "Salary levels", "Visa sponsorship norms", "Remote acceptance", "Market size for both spouses"]
   }
-  // ... 14 entries, weights sum to 100
+  // ... 15 entries, weights sum to 100 (factors are now objects {id,label,description,weight}, not strings — see categories.json)
 ]
 ```
 
@@ -304,12 +305,12 @@ JSON files under `src/data/`. Treated as the backend store; presentation-only co
 - Data validation + types: **Zod 4** — schemas in `lib/schema.ts` validate every JSON file at load; the data TypeScript types are inferred from those schemas (`z.infer`), so runtime checks and compile-time types can't drift.
 - All dependencies installed via npm / component CLI — no hand-rolled equivalents of the above.
 
-> **Map library decision (as-built, deviation from v1.0):** the PRD originally named `react-simple-maps` (latest release 3.0.0, 2022, React `^16.8` peer range — outdated and React-19-incompatible; its React-19 community fork is thin). The build settled on **plain Leaflet via react-leaflet**, drawing our bundled GeoJSON as a tile-less `GeoJSON` layer (SVG renderer, no WebGL, no external tiles → fully offline). Leaflet provides robust pan/zoom, popups, and event handling out of the box, versus hand-rolling SVG projection and interaction code. Counter-risk: Leaflet does not clip at the antimeridian, so dateline-crossing rings (Russia, Fiji, Aleutians) need their longitudes **unwrapped** to avoid full-width bands, and Antarctica is omitted (it wraps the pole) — ~30 lines we own. Geometry join is by country name (Natural Earth `countries-110m` names are stable for the 22 seeds); `iso` is retained for flags and `/country/:iso` routing (`iso3` is retained for possible future use). Topojson is decoded with `topojson-client`'s `feature()`.
+> **Map library decision (as-built, deviation from v1.0):** the PRD originally named `react-simple-maps` (latest release 3.0.0, 2022, React `^16.8` peer range — outdated and React-19-incompatible; its React-19 community fork is thin). The build settled on **plain Leaflet via react-leaflet**, drawing our bundled GeoJSON as a tile-less `GeoJSON` layer (SVG renderer, no WebGL, no external tiles → fully offline). Leaflet provides robust pan/zoom, popups, and event handling out of the box, versus hand-rolling SVG projection and interaction code. Counter-risk: Leaflet does not clip at the antimeridian, so dateline-crossing rings (Russia, Fiji, Aleutians) need their longitudes **unwrapped** to avoid full-width bands, and Antarctica is omitted (it wraps the pole) — ~30 lines we own. Geometry join is by country name (Natural Earth `countries-110m` names are stable for the 20 seeds); `iso` is retained for flags and `/country/:iso` routing (`iso3` is retained for possible future use). Topojson is decoded with `topojson-client`'s `feature()`.
 
 ### 10.2 Folder structure (separation of concern)
 ```
 src/
-  data/        profile.json · categories.json · countries/<id>.json (22)
+  data/        profile.json · categories.json · countries/<id>.json (20)
   types/       data types re-exported from the Zod schemas + derived types (ScoredCountry, ScoredCategory)
   lib/         utils (cn) · schema (Zod schemas + inferred types, +test) · scoring (+test) · formatters (+test) · data (+test) · palette
   components/
@@ -331,7 +332,7 @@ Static build deployed to **GitHub Pages**. English only. No backend, no auth. JS
 ### 10.5 Locked implementation decisions (2026-06-16)
 | Decision | Choice |
 |----------|--------|
-| Data curation scope | All **22** countries fully scored and sourced against live 2025–26 data (see §5.4); `pending` retained as a supported state for future categories. |
+| Data curation scope | All **20** countries fully scored and sourced against live 2025–26 data (see §5.4); `pending` retained as a supported state for future categories. |
 | Visual direction | **Clean modern minimal** — shadcn neutral base + single accent, data-forward, generous whitespace, subtle motion; light/dark. |
 | Test runner | **Vitest** (Vite-native) for the scoring module and data validators. |
 | Map data | Bundled `world-atlas/countries-110m.json` (decoded with `topojson-client`); rendered via **Leaflet / react-leaflet** (tile-less GeoJSON layer); geometry join on **country name** (iso/iso3 retained in data). |
@@ -346,7 +347,7 @@ Static build deployed to **GitHub Pages**. English only. No backend, no auth. JS
 | ID | Requirement |
 |----|-------------|
 | NFR1 | Fully static; no runtime backend dependency. |
-| NFR2 | Initial load and leaderboard interaction feel instant for 22–40 countries × 14 categories. |
+| NFR2 | Initial load and leaderboard interaction feel instant for 20–40 countries × 15 categories. |
 | NFR3 | Accessible: keyboard-navigable table, sufficient colour contrast, chart fallbacks/labels. |
 | NFR4 | Maintainable: data edits never require touching components (FR-X3). |
 | NFR5 | Responsive, desktop-first. |

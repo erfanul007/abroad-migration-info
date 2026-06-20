@@ -2,7 +2,7 @@
 
 **Profile:** Bangladeshi (Dhaka) married couple, both ~2022 BSc-CSE / software-AI engineers; MSc → post-study work → PR → citizenship; relocating together.
 
-**Scope:** Second country re-scored under the factor model (Australia was the pilot). All 14 categories, 91 factors, each scored 0–100 against its rubric in `categories.json`; category and overall scores derived in `scoring.ts`. Germany previously sat as a full `pending` placeholder (no hand-set baseline to compare against).
+**Scope:** Second country re-scored under the factor model (Australia was the pilot). All 15 categories, 82 factors, each scored 0–100 against its rubric in `categories.json`; category and overall scores derived in `scoring.ts`. Germany previously sat as a full `pending` placeholder (no hand-set baseline to compare against).
 
 ## Method
 

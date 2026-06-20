@@ -1,6 +1,6 @@
 # Wireframes — Abroad Migration Feasibility
 
-> Low-fidelity layout reference for all five routes. Follows the shell, tokens, and components in `00-design-system.md`. Desktop-first; responsive rules per page. These are layout contracts, not pixel specs.
+> Low-fidelity layout reference for all six routes (Dashboard, Leaderboard, Compare, Country detail, About, Methodology). Follows the shell, tokens, and components in `00-design-system.md`. Desktop-first; responsive rules per page. These are layout contracts, not pixel specs.
 
 Legend: `[ ]` container/card · `▮▮` score badge (rendered as `%`, e.g. `84%`) · `◔` chart · `▼` select · `🔍` search.
 
@@ -9,14 +9,14 @@ Legend: `[ ]` container/card · `▮▮` score badge (rendered as `%`, e.g. `84%
 ## Shared shell (every page)
 
 ```
-┌──────────────────────────────────────────────────────────────────────┐
-│  Migration Feasibility   Dashboard · Leaderboard · Compare · About  ☾ │  sticky top nav (h-14), border-b, blur
-├──────────────────────────────────────────────────────────────────────┤
-│                                                                        │
-│   ┌────────────────────  max-w-6xl, px-4, py-8  ───────────────────┐   │
-│   │                       page content                             │   │
-│   └────────────────────────────────────────────────────────────────┘   │
-└──────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────────────┐
+│  Migration Feasibility   Dashboard · Leaderboard · Compare · Methodology · About  ☾ │  sticky top nav (h-14), border-b, blur
+├────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                      │
+│   ┌──────────────────────────  max-w-6xl, px-4, py-8  ───────────────────────────┐   │
+│   │                            page content                                      │   │
+│   └──────────────────────────────────────────────────────────────────────────────┘   │
+└────────────────────────────────────────────────────────────────────────────────────┘
 ```
 Active nav item: `bg-muted`. The **brand title** ("Migration Feasibility") links to the Dashboard (`/`). Theme toggle (☾/☀) far right. On **mobile (<`sm`)** the inline links collapse into a hamburger (☰) that toggles a stacked menu; brand + toggle + hamburger stay on one row. Country detail is **not** in nav — reached by clicking countries.
 

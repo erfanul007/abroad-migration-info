@@ -1,5 +1,7 @@
 # Design spec — factor-level scoring redesign (2026-06-17)
 
+> **Superseded** by `docs/superpowers/specs/2026-06-19-factor-scoring-recalibration-design.md` — tier cutoffs are now 80/70/60 and the inclusion cutoff 50% (not the 80/65/45 / 60 figures below).
+
 **Status:** approved design; phased build. Phase 1 (taxonomy) is the immediate scope.
 
 ## 1. Problem & goal

@@ -2,7 +2,7 @@
 
 **Profile:** Bangladeshi (Dhaka) couple, both ~2022 BSc-CSE / software-AI engineers; MSc → PSW → PR → citizenship; relocating together.
 
-**Scope:** 13th country under the factor model. 14 categories, 91 factors vs `categories.json`; derived in `scoring.ts`. Luxembourg was a full `pending` placeholder.
+**Scope:** 13th country under the factor model. 15 categories, 82 factors vs `categories.json`; derived in `scoring.ts`. Luxembourg was a full `pending` placeholder.
 
 ## Method
 

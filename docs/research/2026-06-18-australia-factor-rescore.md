@@ -2,7 +2,7 @@
 
 **Profile:** Bangladeshi (Dhaka) married couple, both ~2022 BSc-CSE / software-AI engineers; MSc → post-study work → PR → citizenship; relocating together.
 
-**Scope:** First country re-scored under the factor model (Phase 2 pilot). All 14 categories, 91 factors, each scored 0–100 against its rubric in `categories.json`, then category and overall scores derived in `scoring.ts`.
+**Scope:** First country re-scored under the factor model (Phase 2 pilot). All 15 categories, 82 factors, each scored 0–100 against its rubric in `categories.json`, then category and overall scores derived in `scoring.ts`.
 
 ## Method
 

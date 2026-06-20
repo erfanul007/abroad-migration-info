@@ -2,7 +2,7 @@
 
 **Profile:** Bangladeshi (Dhaka) married couple, both ~2022 BSc-CSE / software-AI engineers; MSc → post-study work → PR → citizenship; relocating together.
 
-**Scope:** Eleventh country under the factor model. 14 categories, 91 factors vs `categories.json`; derived in `scoring.ts`. Ireland was a full `pending` placeholder.
+**Scope:** Eleventh country under the factor model. 15 categories, 82 factors vs `categories.json`; derived in `scoring.ts`. Ireland was a full `pending` placeholder.
 
 ## Method
 
