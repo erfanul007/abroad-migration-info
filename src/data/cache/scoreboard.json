@@ -22,7 +22,7 @@
         "safety-law": 74.38,
         "politics": 61.18,
         "tax": 52.57,
-        "muslim-diaspora": 62.24,
+        "community-belonging": 62.24,
         "direct-work-route": 82.16
       },
       "hasBlocker": false,
@@ -49,7 +49,7 @@
         "safety-law": 70.31,
         "politics": 53.63,
         "tax": 54.86,
-        "muslim-diaspora": 70.76,
+        "community-belonging": 70.76,
         "direct-work-route": 61.38
       },
       "hasBlocker": false,
@@ -76,7 +76,7 @@
         "safety-law": 65.67,
         "politics": 52.7,
         "tax": 38.86,
-        "muslim-diaspora": 54.64,
+        "community-belonging": 54.64,
         "direct-work-route": 84.72
       },
       "hasBlocker": false,
@@ -103,7 +103,7 @@
         "safety-law": 78.66,
         "politics": 62.57,
         "tax": 55.73,
-        "muslim-diaspora": 53.82,
+        "community-belonging": 53.82,
         "direct-work-route": 81.08
       },
       "hasBlocker": false,
@@ -130,7 +130,7 @@
         "safety-law": 65.2,
         "politics": 50.02,
         "tax": 47.49,
-        "muslim-diaspora": 65.36,
+        "community-belonging": 65.36,
         "direct-work-route": 75.96
       },
       "hasBlocker": false,
@@ -157,7 +157,7 @@
         "safety-law": 69.12,
         "politics": 37.16,
         "tax": 59.42,
-        "muslim-diaspora": 47.26,
+        "community-belonging": 47.26,
         "direct-work-route": 80.04
       },
       "hasBlocker": false,
@@ -184,7 +184,7 @@
         "safety-law": 63.97,
         "politics": 43.52,
         "tax": 54.18,
-        "muslim-diaspora": 76.84,
+        "community-belonging": 76.84,
         "direct-work-route": 58.56
       },
       "hasBlocker": false,
@@ -211,7 +211,7 @@
         "safety-law": 73.74,
         "politics": 68.08,
         "tax": 53.89,
-        "muslim-diaspora": 51.96,
+        "community-belonging": 51.96,
         "direct-work-route": 65.64
       },
       "hasBlocker": false,
@@ -238,7 +238,7 @@
         "safety-law": 57.22,
         "politics": 39.49,
         "tax": 50.37,
-        "muslim-diaspora": 57.47,
+        "community-belonging": 57.47,
         "direct-work-route": 73.9
       },
       "hasBlocker": false,
@@ -265,7 +265,7 @@
         "safety-law": 67.36,
         "politics": 45.57,
         "tax": 52.09,
-        "muslim-diaspora": 54.96,
+        "community-belonging": 54.96,
         "direct-work-route": 67.2
       },
       "hasBlocker": false,
@@ -292,7 +292,7 @@
         "safety-law": 71.28,
         "politics": 45.38,
         "tax": 50.3,
-        "muslim-diaspora": 45.08,
+        "community-belonging": 45.08,
         "direct-work-route": 77.44
       },
       "hasBlocker": false,
@@ -319,7 +319,7 @@
         "safety-law": 55.52,
         "politics": 44.44,
         "tax": 53.5,
-        "muslim-diaspora": 62.12,
+        "community-belonging": 62.12,
         "direct-work-route": 74.44
       },
       "hasBlocker": false,
@@ -346,7 +346,7 @@
         "safety-law": 62.93,
         "politics": 40.27,
         "tax": 53.84,
-        "muslim-diaspora": 57.27,
+        "community-belonging": 57.27,
         "direct-work-route": 63.48
       },
       "hasBlocker": false,
@@ -373,7 +373,7 @@
         "safety-law": 73.35,
         "politics": 53.56,
         "tax": 49.61,
-        "muslim-diaspora": 49,
+        "community-belonging": 49,
         "direct-work-route": 69.84
       },
       "hasBlocker": false,
@@ -400,7 +400,7 @@
         "safety-law": 67.37,
         "politics": 45.34,
         "tax": 48.52,
-        "muslim-diaspora": 47.22,
+        "community-belonging": 47.22,
         "direct-work-route": 53.88
       },
       "hasBlocker": false,
@@ -427,7 +427,7 @@
         "safety-law": 71.96,
         "politics": 45.89,
         "tax": 40.91,
-        "muslim-diaspora": 56.92,
+        "community-belonging": 56.92,
         "direct-work-route": 71.22
       },
       "hasBlocker": false,
@@ -454,7 +454,7 @@
         "safety-law": 49.49,
         "politics": 33.23,
         "tax": 53.05,
-        "muslim-diaspora": 76.14,
+        "community-belonging": 76.14,
         "direct-work-route": 39.08
       },
       "hasBlocker": false,
@@ -481,7 +481,7 @@
         "safety-law": 72.7,
         "politics": 48.53,
         "tax": 60.52,
-        "muslim-diaspora": 43.54,
+        "community-belonging": 43.54,
         "direct-work-route": 33.68
       },
       "hasBlocker": false,
@@ -508,7 +508,7 @@
         "safety-law": 67.91,
         "politics": 55.74,
         "tax": 53.21,
-        "muslim-diaspora": 36.5,
+        "community-belonging": 36.5,
         "direct-work-route": 66.36
       },
       "hasBlocker": false,
@@ -535,7 +535,7 @@
         "safety-law": 65.86,
         "politics": 45.82,
         "tax": 52.38,
-        "muslim-diaspora": 32.34,
+        "community-belonging": 32.34,
         "direct-work-route": 62.72
       },
       "hasBlocker": false,

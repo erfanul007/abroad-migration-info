@@ -396,7 +396,7 @@
       {
         "id": "social-acceptance-south-asian",
         "label": "Social acceptance of South-Asian newcomers",
-        "description": "General social acceptance/attitude toward South-Asian newcomers (owns the general attitude; hate-crime lives in safety-law, religious sentiment in muslim-diaspora, state targeting in politics). Anchors: ~90 = welcoming/diverse; ~50 = mixed; ~20 = cool/hostile attitudes.",
+        "description": "General social acceptance/attitude toward South-Asian newcomers (owns the general attitude; hate-crime lives in safety-law, religious sentiment in community-belonging, state targeting in politics). Anchors: ~90 = welcoming/diverse; ~50 = mixed; ~20 = cool/hostile attitudes.",
         "weight": 17
       },
       {
@@ -498,7 +498,7 @@
       {
         "id": "targeted-risk-south-asian-muslim",
         "label": "State targeting of South-Asian/Muslim migrants",
-        "description": "State/electoral targeting of South-Asian/Muslim migrants specifically (state-level targeting only; lived hate-crime lives in safety-law, day-to-day sentiment in muslim-diaspora/culture-language). Anchors: ~90 = none; ~50 = rhetoric; ~20 = policy targeting.",
+        "description": "State/electoral targeting of South-Asian/Muslim migrants specifically (state-level targeting only; lived hate-crime lives in safety-law, day-to-day sentiment in community-belonging/culture-language). Anchors: ~90 = none; ~50 = rhetoric; ~20 = policy targeting.",
         "weight": 10
       }
     ]
@@ -543,11 +543,11 @@
     ]
   },
   {
-    "id": "muslim-diaspora",
-    "name": "Muslim Diaspora",
-    "shortLabel": "Muslim",
+    "id": "community-belonging",
+    "name": "Community & Belonging",
+    "shortLabel": "Community",
     "weight": 3,
-    "description": "Muslim & South-Asian community, halal food, mosques, religious accommodation, sentiment trend.",
+    "description": "Community and belonging for the applicant: Bangladeshi diaspora, religious-practice infrastructure (mosques, halal), religious accommodation, and the local sentiment/safety trend.",
     "factors": [
       {
         "id": "bangladeshi-diaspora",

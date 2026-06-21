@@ -107,7 +107,7 @@ If a category is **entirely absent** from a country's data, it is excluded and t
 | 12 | Safety & Rule of Law | Safety & Law | 5 | Crime levels, rule of law, treatment of immigrants, judicial fairness. |
 | 13 | Political Stability | Politics | 4 | Government stability, immigration-policy volatility, anti-immigrant sentiment trend. |
 | 14 | Tax Burden | Tax | 3 | Income tax burden, treatment of students/foreign workers, take-home pay. |
-| 15 | Muslim Diaspora | Muslim | 3 | Muslim & South-Asian community size, halal food availability, mosques/prayer facilities, religious accommodation, anti-Muslim sentiment trend. |
+| 15 | Community & Belonging | Community | 3 | Bangladeshi diaspora size, halal food availability, mosques/prayer facilities, religious accommodation, and local sentiment/safety trend. _Religion-neutral category label; the factors remain Bangladeshi/Muslim-specific._ |
 | | **Total** | | **100** | |
 
 _Ordered by weight, descending. Ties are listed pathway-stage first. **Direct Work-Visa Route (Bangladesh)** is the newly added category._
