@@ -56,7 +56,7 @@ export function FactorCompareTable({ category, countries }: { category: Category
         </Table>
       </div>
       <p className="text-xs text-muted-foreground">
-        Factor and category scores are exact rule-based values (0–100%); only the overall score is recalibrated for ranking (see Methodology).
+        Factor, category and overall scores are all exact rule-based values (0–100%) — no display curve is applied (see Methodology).
       </p>
     </div>
   );

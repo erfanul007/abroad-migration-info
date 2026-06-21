@@ -6,7 +6,7 @@
   "flag": "🇨🇭",
   "region": "Europe",
   "summary": "Home to world-leading study value (ETH Zürich/EPFL, top-10 CS, at ~CHF 1,460/yr tuition), the world's highest tech salaries (Google Zürich median ~CHF 292k), low tax, a top-3 passport and dual citizenship retained both ways — but the immigration PATH is the obstacle for this profile: only a 6-month post-study permit plus annual non-EU work quotas, ~10 years to a C-permit (PR) and a 10-year, multi-level, discretionary naturalisation, alongside the 2009 minaret ban, a domestic halal-slaughter ban and a small Bangladeshi community. Derived overall sits below the 60% inclusion line.",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "ch.ch — Swiss authorities: naturalisation (official)",
@@ -20,27 +20,27 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "summary": "A premier AI hub (ETH, Google Zürich, IBM Research) with the world's highest salaries, but non-EU hiring is constrained by annual work-permit quotas and a labour-market test.",
+      "summary": "A premier AI hub (ETH, Google Zürich, IBM Research) with the world's highest salaries and an acute IT/AI shortage (~117k specialists needed by 2028), so a well-placed graduate finds deep demand — though non-EU hiring is constrained by annual work-permit quotas and a labour-market test.",
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
-          "score": 68
+          "score": 73
         },
         "ai-ml-specialisation": {
           "status": "scored",
-          "score": 75
+          "score": 82
         },
         "salary-levels": {
           "status": "scored",
-          "score": 92
+          "score": 94
         },
         "foreign-grad-bd-hireability": {
           "status": "scored",
-          "score": 58
+          "score": 62
         },
         "dual-earner-depth": {
           "status": "scored",
-          "score": 62
+          "score": 66
         }
       },
       "pros": [
@@ -66,19 +66,19 @@
           "url": "https://www.salaryexpert.com/salary/job/ai-engineer/switzerland"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
-      "summary": "A Swiss embassy in Dhaka and cantonal student approval, but processing is slow and the non-EU framework is quota-bound; living-cost funds proof is high.",
+      "summary": "A Swiss embassy in Dhaka and cantonal student approval that is reliable for genuine ETH/EPFL-admitted students, but processing is slow and the non-EU framework is quota-bound; living-cost funds proof is high.",
       "factors": {
         "approval-refusal-rate": {
           "status": "scored",
-          "score": 52
+          "score": 58
         },
         "dhaka-mission-appointment-capacity": {
           "status": "scored",
-          "score": 58
+          "score": 62
         },
         "in-queue-processing-schemes": {
           "status": "scored",
@@ -90,11 +90,11 @@
         },
         "credibility-genuineness-scrutiny": {
           "status": "scored",
-          "score": 55
+          "score": 60
         },
         "heightened-scrutiny-policy-risk": {
           "status": "scored",
-          "score": 50
+          "score": 52
         }
       },
       "pros": [
@@ -113,7 +113,7 @@
           "url": "https://www.sem.admin.ch/sem/en/home/themen/aufenthalt.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
@@ -125,23 +125,23 @@
         },
         "naturalisation-requirements": {
           "status": "scored",
-          "score": 42
+          "score": 44
         },
         "dual-citizenship-retention": {
           "status": "scored",
-          "score": 85
+          "score": 88
         },
         "citizenship-attainability": {
           "status": "scored",
-          "score": 42
+          "score": 44
         },
         "policy-stability": {
           "status": "scored",
-          "score": 55
+          "score": 60
         },
         "passport-strength": {
           "status": "scored",
-          "score": 92
+          "score": 93
         }
       },
       "pros": [
@@ -166,7 +166,7 @@
           "url": "https://www.ch.ch/en/foreign-nationals-in-switzerland/naturalisation/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
@@ -174,27 +174,27 @@
       "factors": {
         "psw-duration-runway": {
           "status": "scored",
-          "score": 35
+          "score": 37
         },
         "eligibility-openness-bd": {
           "status": "scored",
-          "score": 60
+          "score": 66
         },
         "transition-to-skilled-work": {
           "status": "scored",
-          "score": 50
+          "score": 52
         },
         "work-freedom-during-psw": {
           "status": "scored",
-          "score": 50
+          "score": 54
         },
         "dual-graduate-spouse-psw": {
           "status": "scored",
-          "score": 62
+          "score": 68
         },
         "psw-policy-stability": {
           "status": "scored",
-          "score": 55
+          "score": 58
         }
       },
       "pros": [
@@ -216,7 +216,7 @@
           "url": "https://ethz.ch/en/studies/international/end-studies/residence-permit-job-seeking.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
@@ -224,19 +224,19 @@
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
-          "score": 62
+          "score": 68
         },
         "dependent-visa-bd-access": {
           "status": "scored",
-          "score": 58
+          "score": 62
         },
         "family-reunification-children": {
           "status": "scored",
-          "score": 68
+          "score": 72
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 58
+          "score": 64
         }
       },
       "pros": [
@@ -255,7 +255,7 @@
           "url": "https://www.sem.admin.ch/sem/en/home/themen/aufenthalt/eu_efta/familiennachzug.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
@@ -263,23 +263,23 @@
       "factors": {
         "affordability-funding": {
           "status": "scored",
-          "score": 80
+          "score": 88
         },
         "english-program-depth": {
           "status": "scored",
-          "score": 85
+          "score": 88
         },
         "admission-credential-access": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "student-work-rights": {
           "status": "scored",
-          "score": 58
+          "score": 60
         },
         "study-pathway-fit": {
           "status": "scored",
-          "score": 60
+          "score": 64
         }
       },
       "pros": [
@@ -302,7 +302,7 @@
           "url": "https://www.epfl.ch/education/studies/en/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
@@ -310,27 +310,27 @@
       "factors": {
         "years-to-pr": {
           "status": "scored",
-          "score": 35
+          "score": 37
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 50
+          "score": 55
         },
         "eligibility-bars": {
           "status": "scored",
-          "score": 50
+          "score": 52
         },
         "language-integration-requirement": {
           "status": "scored",
-          "score": 52
+          "score": 54
         },
         "continuity-retention": {
           "status": "scored",
-          "score": 52
+          "score": 58
         },
         "policy-predictability": {
           "status": "scored",
-          "score": 58
+          "score": 62
         }
       },
       "pros": [
@@ -349,7 +349,7 @@
           "url": "https://www.sem.admin.ch/sem/en/home/themen/aufenthalt.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
@@ -357,19 +357,19 @@
       "factors": {
         "household-net-surplus": {
           "status": "scored",
-          "score": 75
+          "score": 82
         },
         "housing-cost-availability": {
           "status": "scored",
-          "score": 45
+          "score": 46
         },
         "savings-remittance": {
           "status": "scored",
-          "score": 78
+          "score": 83
         },
         "student-phase-affordability": {
           "status": "scored",
-          "score": 50
+          "score": 52
         },
         "upfront-relocation-cash": {
           "status": "scored",
@@ -395,7 +395,7 @@
           "url": "https://www.devhire.ch/salary-calculator"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
@@ -403,19 +403,19 @@
       "factors": {
         "newcomer-eligibility-barrier": {
           "status": "scored",
-          "score": 58
+          "score": 64
         },
         "health-quality-access": {
           "status": "scored",
-          "score": 80
+          "score": 84
         },
         "cost-coverage-by-status": {
           "status": "scored",
-          "score": 55
+          "score": 57
         },
         "social-insurance-safety-net": {
           "status": "scored",
-          "score": 68
+          "score": 70
         },
         "family-childcare-benefits": {
           "status": "scored",
@@ -438,7 +438,7 @@
           "url": "https://www.ch.ch/en/health-insurance/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
@@ -446,7 +446,7 @@
       "factors": {
         "english-usability": {
           "status": "scored",
-          "score": 55
+          "score": 60
         },
         "language-burden-citizenship": {
           "status": "scored",
@@ -454,15 +454,15 @@
         },
         "integration-support": {
           "status": "scored",
-          "score": 52
+          "score": 55
         },
         "social-acceptance-south-asian": {
           "status": "scored",
-          "score": 48
+          "score": 50
         },
         "worklife-livability": {
           "status": "scored",
-          "score": 78
+          "score": 82
         },
         "cultural-distance-adaptation": {
           "status": "scored",
@@ -485,7 +485,7 @@
           "url": "https://www.ch.ch/en/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
@@ -493,7 +493,7 @@
       "factors": {
         "personal-crime-safety": {
           "status": "scored",
-          "score": 85
+          "score": 88
         },
         "lived-discrimination-hatecrime": {
           "status": "scored",
@@ -501,15 +501,15 @@
         },
         "rule-of-law-corruption-civil-justice": {
           "status": "scored",
-          "score": 85
+          "score": 88
         },
         "women-safety-gbv": {
           "status": "scored",
-          "score": 80
+          "score": 83
         },
         "immigration-enforcement-due-process": {
           "status": "scored",
-          "score": 62
+          "score": 65
         },
         "antidiscrimination-law-enforcement": {
           "status": "scored",
@@ -532,7 +532,7 @@
           "url": "https://worldjusticeproject.org/rule-of-law-index/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -540,7 +540,7 @@
       "factors": {
         "immigration-policy-volatility": {
           "status": "scored",
-          "score": 48
+          "score": 50
         },
         "non-eu-skilled-policy-direction": {
           "status": "scored",
@@ -556,7 +556,7 @@
         },
         "institutional-governance-stability": {
           "status": "scored",
-          "score": 80
+          "score": 84
         },
         "targeted-risk-south-asian-muslim": {
           "status": "scored",
@@ -579,7 +579,7 @@
           "url": "https://www.swissinfo.ch/eng/society/political-history_the-controversial-minaret-ban-ten-years-on/45399822"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
@@ -587,7 +587,7 @@
       "factors": {
         "effective-deduction-wedge": {
           "status": "scored",
-          "score": 72
+          "score": 76
         },
         "expat-foreign-worker-relief": {
           "status": "scored",
@@ -599,11 +599,11 @@
         },
         "student-phase-tax-exposure": {
           "status": "scored",
-          "score": 62
+          "score": 64
         },
         "bd-treaty-repatriation": {
           "status": "scored",
-          "score": 62
+          "score": 65
         }
       },
       "pros": [
@@ -622,7 +622,7 @@
           "url": "https://www.ch.ch/en/taxes-and-finances/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -634,7 +634,7 @@
         },
         "religious-practice-infrastructure": {
           "status": "scored",
-          "score": 50
+          "score": 54
         },
         "sentiment-safety": {
           "status": "scored",
@@ -665,16 +665,16 @@
           "url": "https://www.state.gov/reports/2023-report-on-international-religious-freedom/switzerland/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
       "factors": {
-        "work-visa-accessibility-bd": { "status": "scored", "score": 28 },
+        "work-visa-accessibility-bd": { "status": "scored", "score": 30 },
         "overseas-direct-hire": { "status": "scored", "score": 24 },
         "bd-direct-work-track-record": { "status": "scored", "score": 22 },
-        "employer-sponsorship-willingness": { "status": "scored", "score": 38 },
-        "route-onward-pr-citizenship": { "status": "scored", "score": 55 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 42 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 60 },
         "current-openness": { "status": "scored", "score": 32 }
       },
       "summary": "World-class demand and pay, but a structurally hard door for a non-EU applicant. As a third-country national a Bangladeshi competes for a fixed annual quota (4,500 B + 4,000 L permits for all of Switzerland, frozen for 2026) and the employer must pass a labour-market test (priority to Swiss/EU/EFTA, documented RAV/EURES advertising) plus an economic-interest test — admission is limited to 'managers, specialists and qualified workers' (university degree + several years' experience), so a 2022 BSc-only profile sits at the lower edge. Salaries are high (Zürich SWE ~CHF 112–137k; far more at Google/IBM Research) and AI/IT demand is acute, but quota + test make non-EU direct hire selective, not routine. The onward chain is sound but long: C permit (PR) generally ~10 years for non-EU, citizenship ~10 years with cantonal/communal discretion; dual citizenship is allowed (Switzerland within Bangladesh's all-Europe DNC scope).",
@@ -692,7 +692,7 @@
         { "title": "Naturalisation (residence + language) — ch.ch federal portal (official)", "url": "https://www.ch.ch/en/foreign-nationals-in-switzerland/naturalisation/" },
         { "title": "Dual Nationality Certificate — Embassy of Bangladesh (official)", "url": "https://washington.mofa.gov.bd/pages/static-pages/695266b435ce18e1c05aadf1" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }

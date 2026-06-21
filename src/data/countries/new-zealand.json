@@ -6,7 +6,7 @@
   "flag": "🇳🇿",
   "region": "Oceania",
   "summary": "English-native with the best post-study runway of the set (a 3-year open work visa) and a strong direct skilled-work route — software/ICT sit on the Green List Tier 1 (straight-to-residence) and the AEWV median-wage barrier was removed (Mar 2025), with offshore applications from Dhaka — plus world-class safety (GPI 3rd, WJP 5th) and a strong passport. The one real catch sits in citizenship, not work: New Zealand is NOT on Bangladesh's Dual Nationality Certificate list, so naturalising forfeits BD nationality (the explicit contrast to Australia) — the rational default is indefinite NZ permanent residence, keeping the BD passport, with citizenship optional. Compounded by a small, remote Auckland-centric market, high tuition and a tiny Bangladeshi community.",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "Immigration New Zealand — official",
@@ -24,7 +24,7 @@
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "ai-ml-specialisation": {
           "status": "scored",
@@ -32,11 +32,11 @@
         },
         "salary-levels": {
           "status": "scored",
-          "score": 66
+          "score": 74
         },
         "foreign-grad-bd-hireability": {
           "status": "scored",
-          "score": 62
+          "score": 72
         },
         "dual-earner-depth": {
           "status": "scored",
@@ -63,11 +63,11 @@
           "url": "https://www.levels.fyi/t/software-engineer/locations/new-zealand"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
-      "summary": "An online application process with no Bangladesh-specific ban, but New Zealand has no mission in Dhaka and funds requirements (NZ$20,000/yr) plus distance add friction.",
+      "summary": "An online application process with no Bangladesh-specific ban or nationality-targeted scrutiny and no language friction on an English-taught degree, though New Zealand has no mission in Dhaka and funds requirements (NZ$20,000/yr) plus distance add friction.",
       "factors": {
         "approval-refusal-rate": {
           "status": "scored",
@@ -87,11 +87,11 @@
         },
         "credibility-genuineness-scrutiny": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "heightened-scrutiny-policy-risk": {
           "status": "scored",
-          "score": 55
+          "score": 60
         }
       },
       "pros": [
@@ -110,7 +110,7 @@
           "url": "https://www.immigration.govt.nz/new-zealand-visas/options/study"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
@@ -118,7 +118,7 @@
       "factors": {
         "time-to-citizenship": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "naturalisation-requirements": {
           "status": "scored",
@@ -130,7 +130,7 @@
         },
         "citizenship-attainability": {
           "status": "scored",
-          "score": 48
+          "score": 54
         },
         "policy-stability": {
           "status": "scored",
@@ -164,31 +164,31 @@
           "url": "https://washington.mofa.gov.bd/pages/static-pages/695266b435ce18e1c05aadf1"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
-      "summary": "A standout: a master's (Level 9) graduate gets a 3-year open Post-Study Work Visa, feeding the Green-List straight-to-residence route, with each spouse eligible.",
+      "summary": "The best post-study runway in the set: a master's (Level 9) graduate gets a fully open 3-year Post-Study Work Visa, and the Green-List straight-to-residence route makes the conversion to skilled work essentially deterministic for an ICT/AI hire, with each spouse independently eligible.",
       "factors": {
         "psw-duration-runway": {
           "status": "scored",
-          "score": 85
+          "score": 90
         },
         "eligibility-openness-bd": {
           "status": "scored",
-          "score": 80
+          "score": 88
         },
         "transition-to-skilled-work": {
           "status": "scored",
-          "score": 75
+          "score": 88
         },
         "work-freedom-during-psw": {
           "status": "scored",
-          "score": 85
+          "score": 90
         },
         "dual-graduate-spouse-psw": {
           "status": "scored",
-          "score": 80
+          "score": 86
         },
         "psw-policy-stability": {
           "status": "scored",
@@ -211,27 +211,27 @@
           "url": "https://www.immigration.govt.nz/new-zealand-visas/options/work/get-a-work-visa-after-study"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
-      "summary": "Partners of skilled workers/students get work rights and children attend school free; if both spouses study, each holds an independent track.",
+      "summary": "Strong: partners of skilled-work/AEWV holders get open work rights and children attend school free as residents; if both spouses study, each holds a fully independent track to their own status.",
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
-          "score": 70
+          "score": 82
         },
         "dependent-visa-bd-access": {
           "status": "scored",
-          "score": 68
+          "score": 74
         },
         "family-reunification-children": {
           "status": "scored",
-          "score": 68
+          "score": 74
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 70
+          "score": 80
         }
       },
       "pros": [
@@ -250,7 +250,7 @@
           "url": "https://www.immigration.govt.nz/new-zealand-visas/options/join-or-bring-family-to-nz"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
@@ -262,19 +262,19 @@
         },
         "english-program-depth": {
           "status": "scored",
-          "score": 70
+          "score": 76
         },
         "admission-credential-access": {
           "status": "scored",
-          "score": 70
+          "score": 76
         },
         "student-work-rights": {
           "status": "scored",
-          "score": 65
+          "score": 70
         },
         "study-pathway-fit": {
           "status": "scored",
-          "score": 82
+          "score": 86
         }
       },
       "pros": [
@@ -297,27 +297,27 @@
           "url": "https://www.auckland.ac.nz/en/study/fees-and-money-matters/tuition-fees/international-student-fees/postgraduate-international-fees.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
-      "summary": "A fast, clear route: ICT/AI roles on the Green List offer straight-to-residence, with English-only requirements.",
+      "summary": "A fast, clear and largely deterministic route: ICT/AI roles on the Green List Tier 1 offer straight-to-residence on offer-based criteria two engineers comfortably clear, with English-only requirements; periodic setting resets remain the main caveat.",
       "factors": {
         "years-to-pr": {
           "status": "scored",
-          "score": 70
+          "score": 80
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 72
+          "score": 84
         },
         "eligibility-bars": {
           "status": "scored",
-          "score": 68
+          "score": 80
         },
         "language-integration-requirement": {
           "status": "scored",
-          "score": 85
+          "score": 88
         },
         "continuity-retention": {
           "status": "scored",
@@ -344,7 +344,7 @@
           "url": "https://www.immigration.govt.nz/new-zealand-visas/options/work/tools-and-information/work-visa-and-jobs/green-list-occupations"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
@@ -352,7 +352,7 @@
       "factors": {
         "household-net-surplus": {
           "status": "scored",
-          "score": 60
+          "score": 63
         },
         "housing-cost-availability": {
           "status": "scored",
@@ -387,7 +387,7 @@
           "url": "https://www.mastersportal.com/articles/2867/tuition-fees-and-living-costs-in-new-zealand.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
@@ -395,7 +395,7 @@
       "factors": {
         "newcomer-eligibility-barrier": {
           "status": "scored",
-          "score": 58
+          "score": 60
         },
         "health-quality-access": {
           "status": "scored",
@@ -403,7 +403,7 @@
         },
         "cost-coverage-by-status": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "social-insurance-safety-net": {
           "status": "scored",
@@ -430,7 +430,7 @@
           "url": "https://www.immigration.govt.nz/new-zealand-visas/preparing-a-visa-application/your-health"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
@@ -450,11 +450,11 @@
         },
         "social-acceptance-south-asian": {
           "status": "scored",
-          "score": 65
+          "score": 72
         },
         "worklife-livability": {
           "status": "scored",
-          "score": 78
+          "score": 82
         },
         "cultural-distance-adaptation": {
           "status": "scored",
@@ -480,35 +480,35 @@
           "url": "https://www.govt.nz/browse/immigration-and-visas/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
-      "summary": "Among the world's safest (GPI 3rd) with top-tier rule of law (WJP 5th) and strong, post-Christchurch anti-discrimination reforms.",
+      "summary": "Among the world's safest (GPI 3rd) with elite, top-tier rule of law (WJP 5th) and strengthened, post-Christchurch anti-discrimination protections.",
       "factors": {
         "personal-crime-safety": {
           "status": "scored",
-          "score": 85
+          "score": 90
         },
         "lived-discrimination-hatecrime": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "rule-of-law-corruption-civil-justice": {
           "status": "scored",
-          "score": 88
+          "score": 90
         },
         "women-safety-gbv": {
           "status": "scored",
-          "score": 78
+          "score": 82
         },
         "immigration-enforcement-due-process": {
           "status": "scored",
-          "score": 68
+          "score": 72
         },
         "antidiscrimination-law-enforcement": {
           "status": "scored",
-          "score": 68
+          "score": 78
         }
       },
       "pros": [
@@ -531,7 +531,7 @@
           "url": "https://worldjusticeproject.org/rule-of-law-index/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -543,7 +543,7 @@
         },
         "non-eu-skilled-policy-direction": {
           "status": "scored",
-          "score": 68
+          "score": 76
         },
         "anti-immigration-electoral-power": {
           "status": "scored",
@@ -559,7 +559,7 @@
         },
         "targeted-risk-south-asian-muslim": {
           "status": "scored",
-          "score": 62
+          "score": 65
         }
       },
       "pros": [
@@ -578,7 +578,7 @@
           "url": "https://www.immigration.govt.nz/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
@@ -586,7 +586,7 @@
       "factors": {
         "effective-deduction-wedge": {
           "status": "scored",
-          "score": 60
+          "score": 64
         },
         "expat-foreign-worker-relief": {
           "status": "scored",
@@ -602,7 +602,7 @@
         },
         "bd-treaty-repatriation": {
           "status": "scored",
-          "score": 60
+          "score": 64
         }
       },
       "pros": [
@@ -621,7 +621,7 @@
           "url": "https://www.ird.govt.nz/income-tax/income-tax-for-individuals"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -633,7 +633,7 @@
         },
         "religious-practice-infrastructure": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "sentiment-safety": {
           "status": "scored",
@@ -641,7 +641,7 @@
         },
         "legal-religious-accommodation": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "south-asian-cultural-ecosystem": {
           "status": "scored",
@@ -664,7 +664,7 @@
           "url": "https://en.wikipedia.org/wiki/Bangladeshi_New_Zealanders"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
@@ -672,9 +672,9 @@
         "work-visa-accessibility-bd": { "status": "scored", "score": 88 },
         "overseas-direct-hire": { "status": "scored", "score": 88 },
         "bd-direct-work-track-record": { "status": "scored", "score": 52 },
-        "employer-sponsorship-willingness": { "status": "scored", "score": 70 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 80 },
         "route-onward-pr-citizenship": { "status": "scored", "score": 90 },
-        "current-openness": { "status": "scored", "score": 78 }
+        "current-openness": { "status": "scored", "score": 86 }
       },
       "summary": "One of the cleanest direct work→residence routes in scope. Software Engineer / Developer Programmer / ICT Security sit on the Green List Tier 1 (straight-to-residence), and from 10 March 2025 the Accredited Employer Work Visa dropped its median-wage requirement (market rate + minimum wage only). An accredited NZ employer can run the job check and the candidate applies for the AEWV from Dhaka — no prior NZ presence. AEWV/Green List → residence → citizenship at 5 years; the 2025–26 direction is expansionary (National Occupation List, +91 occupations, new residence pathways). The one caveat sits in citizenship, not work: NZ is not on Bangladesh's DNC list, so the rational default is to hold indefinite NZ permanent residence and treat naturalisation as optional.",
       "pros": [
@@ -691,7 +691,7 @@
         { "title": "Requirements for NZ citizenship — presence requirements — govt.nz (official)", "url": "https://www.govt.nz/browse/passports-citizenship-and-identity/nz-citizenship/requirements-for-nz-citizenship/presence-requirements/" },
         { "title": "Dual Nationality Certificate eligible-country list — Embassy of Bangladesh (official)", "url": "https://washington.mofa.gov.bd/pages/static-pages/695266b435ce18e1c05aadf1" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }

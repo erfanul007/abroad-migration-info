@@ -20,9 +20,9 @@ describe("CategoryFactorScores", () => {
     expect(screen.getByText("37.9")).toBeInTheDocument(); // footer total (1 dp)
     expect(screen.getByText("Weighted mean")).toBeInTheDocument(); // footer label (exact: the note also says "weighted mean")
   });
-  it("notes the weighted mean is the exact category score (not recalibrated)", () => {
+  it("notes the weighted mean is the exact category score (no display curve)", () => {
     render(<CategoryFactorScores breakdown={breakdown} displayScore={70} />);
-    expect(screen.getByText(/the category score \(70%\)/i)).toBeInTheDocument();
-    expect(screen.getByText(/only the overall score is recalibrated/i)).toBeInTheDocument();
+    expect(screen.getByText(/the exact category score \(70%\)/i)).toBeInTheDocument();
+    expect(screen.getByText(/no display curve is applied/i)).toBeInTheDocument();
   });
 });

@@ -1,6 +1,6 @@
 // src/lib/scoring.test.ts
 import { describe, it, expect } from "vitest";
-import { computeOverall, scoreCountry, rankCountries, deriveCategoryScore, deriveFactorBreakdown, deriveFactorComparison, recalibrate } from "@/lib/scoring";
+import { computeOverall, scoreCountry, rankCountries, deriveCategoryScore, deriveFactorBreakdown, deriveFactorComparison } from "@/lib/scoring";
 import type { Category, Country } from "@/types";
 
 const f = (id: string, weight: number) => ({ id, label: id, description: "", weight });
@@ -116,9 +116,9 @@ describe("scoreCountry", () => {
     expect(scored.hasPending).toBe(true);
     expect(scored.isComplete).toBe(false);
     expect(scored.scored).toHaveLength(2);
-    expect(scored.categoryScores.a).toBe(80); // category score is exact (raw), not recalibrated
+    expect(scored.categoryScores.a).toBe(80); // category score is exact (raw)
     expect(scored.categoryScores.b).toBeNull();
-    expect(scored.overall).toBeCloseTo(recalibrate(80)); // only the overall is recalibrated for ranking
+    expect(scored.overall).toBeCloseTo(80); // raw weighted mean, renormalised over the one present category (b is pending)
   });
   it("derives hasBlocker from any con tagged severity:blocker", () => {
     const c = country("x", 80, 50);
@@ -131,23 +131,6 @@ describe("scoreCountry", () => {
     c.categories.a = { ...c.categories.a, pros: [{ text: "open direct work visa", severity: "highlight" }] };
     expect(scoreCountry(c, cats).hasHighlight).toBe(true);
     expect(scoreCountry(country("y", 80, 50), cats).hasHighlight).toBe(false);
-  });
-});
-
-describe("recalibrate", () => {
-  it("is the identity at the pivot", () => {
-    expect(recalibrate(55)).toBe(55);
-  });
-  it("stretches above and below the pivot", () => {
-    expect(recalibrate(65)).toBeCloseTo(71); // 55 + 10*1.6
-    expect(recalibrate(45)).toBeCloseTo(39); // 55 - 10*1.6
-  });
-  it("clamps to [0,100]", () => {
-    expect(recalibrate(95)).toBe(100); // 55 + 40*1.6 = 119 -> 100
-    expect(recalibrate(5)).toBe(0); //   55 - 50*1.6 = -25 -> 0
-  });
-  it("is monotonic", () => {
-    expect(recalibrate(60)).toBeLessThan(recalibrate(61));
   });
 });
 

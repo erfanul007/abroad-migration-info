@@ -6,7 +6,7 @@
   "flag": "🇦🇹",
   "region": "Europe",
   "summary": "A high-quality, very safe destination — near-free public tuition (~€1,453/yr), immediate compulsory health cover, Vienna's top-ranked livability — and a genuinely open direct skilled-work route (software on the 2026 shortage list, a Red-White-Red Card with no labour-market test, being simplified in 2026). The catch is the citizenship terminus, not work: Austria does NOT permit dual citizenship, so naturalising forfeits BD nationality — the workaround is to hold permanent residence indefinitely and keep the BD passport, treating citizenship as optional. Tempered by a 10-year/B2-German citizenship path, the 4th-highest OECD tax wedge (47.1%) with no Bangladesh treaty, German gating daily life, and the far-right FPÖ's 2024 election win (29.2%).",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "migration.gv.at — Austria's official immigration portal",
@@ -20,23 +20,23 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "summary": "Software/data-processing engineers sit on Austria's 2026 shortage list amid a severe labour shortage (272,000 unfilled roles), but the market is Vienna-centric, salaries trail Canada/Germany, and many roles are German-gated.",
+      "summary": "Software/data-processing engineers sit on Austria's 2026 nationwide shortage list amid a severe labour shortage (272,000 unfilled roles) — shortage status plus an Austrian degree make a well-prepared graduate genuinely hireable — though the market is Vienna-centric, salaries trail Canada/Germany, and many roles are German-gated.",
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
-          "score": 74
+          "score": 80
         },
         "ai-ml-specialisation": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "salary-levels": {
           "status": "scored",
-          "score": 60
+          "score": 64
         },
         "foreign-grad-bd-hireability": {
           "status": "scored",
-          "score": 55
+          "score": 60
         },
         "dual-earner-depth": {
           "status": "scored",
@@ -69,19 +69,19 @@
           "url": "https://www.workinaustria.com/en/residence-employment/shortage-occupations/nationwide/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
-      "summary": "Bangladeshi students lodge the D-visa/residence permit through VFS in Dhaka, but the decision is made by the Austrian Embassy in New Delhi (no decision-making mission in Dhaka); funds proof ~€12,000/yr and EU-standard scrutiny, with no Bangladesh-specific targeting.",
+      "summary": "Bangladeshi students lodge the D-visa/residence permit through VFS in Dhaka — no travel to Delhi to apply, lower funds proof (~€12,000/yr) than Canada/Australia, and no Bangladesh-specific targeting or ban on stable bilateral ties; the decision is still made by the Austrian Embassy in New Delhi (no decision-making mission in Dhaka) under EU-standard scrutiny.",
       "factors": {
         "approval-refusal-rate": {
           "status": "scored",
-          "score": 52
+          "score": 58
         },
         "dhaka-mission-appointment-capacity": {
           "status": "scored",
-          "score": 48
+          "score": 53
         },
         "in-queue-processing-schemes": {
           "status": "scored",
@@ -89,15 +89,15 @@
         },
         "financial-bars": {
           "status": "scored",
-          "score": 58
+          "score": 64
         },
         "credibility-genuineness-scrutiny": {
           "status": "scored",
-          "score": 55
+          "score": 60
         },
         "heightened-scrutiny-policy-risk": {
           "status": "scored",
-          "score": 55
+          "score": 62
         }
       },
       "pros": [
@@ -126,7 +126,7 @@
           "url": "https://visa.vfsglobal.com/one-pager/austria/bangladesh/english/index.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
@@ -180,31 +180,31 @@
           "url": "https://www.migration.gv.at/en/living-and-working-in-austria/integration-and-citizenship/citizenship/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
-      "summary": "Graduates can extend their student permit 12 months to find work, then move to a Red-White-Red Card for graduates (no points test, offer-based) — a deterministic but short runway versus Canada's 3 years.",
+      "summary": "Graduates can extend their student permit 12 months to find work, then convert deterministically to a Red-White-Red Card for graduates (no points test, purely offer-based) — a clean, reliable conversion that both spouses can use independently, tempered only by a short runway versus Canada's 3 years.",
       "factors": {
         "psw-duration-runway": {
           "status": "scored",
-          "score": 50
+          "score": 52
         },
         "eligibility-openness-bd": {
           "status": "scored",
-          "score": 65
+          "score": 70
         },
         "transition-to-skilled-work": {
           "status": "scored",
-          "score": 72
+          "score": 78
         },
         "work-freedom-during-psw": {
           "status": "scored",
-          "score": 55
+          "score": 60
         },
         "dual-graduate-spouse-psw": {
           "status": "scored",
-          "score": 72
+          "score": 76
         },
         "psw-policy-stability": {
           "status": "scored",
@@ -237,27 +237,27 @@
           "url": "https://www.workinaustria.com/en/residence-employment/red-white-red-card/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
-      "summary": "Family reunification and free public schooling exist, and an RWR Card Plus grants family members labour-market access, but the accompanying spouse of a student faces restricted work rights and funds tests during the study phase.",
+      "summary": "In the work phase an RWR Card Plus grants family members free labour-market access and each spouse can reach their own independent status, with full family reunification and free public schooling; the binding limit is the study phase, where the accompanying spouse of a student faces restricted work rights and combined-funds tests.",
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
-          "score": 58
+          "score": 63
         },
         "dependent-visa-bd-access": {
           "status": "scored",
-          "score": 55
+          "score": 62
         },
         "family-reunification-children": {
           "status": "scored",
-          "score": 68
+          "score": 72
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 65
+          "score": 70
         }
       },
       "pros": [
@@ -279,23 +279,23 @@
           "url": "https://www.migration.gv.at/en/types-of-immigration/permanent-immigration/family-members/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
-      "summary": "Near-free public tuition (~€1,453/yr for non-EU at TU Wien) and 350+ English-taught programmes make study highly affordable, but universities sit mid-table (QS ~150–200) and non-EU student work is bureaucratically restricted.",
+      "summary": "Near-free public tuition (~€1,453/yr for non-EU at TU Wien), 350+ English-taught programmes (32 CS/IT master's) and direct graduate-level admissibility for a BD BSc-CSE make study highly affordable and accessible; the limits are mid-table university rank (QS ~150–200) and bureaucratically restricted non-EU student work.",
       "factors": {
         "affordability-funding": {
           "status": "scored",
-          "score": 82
+          "score": 86
         },
         "english-program-depth": {
           "status": "scored",
-          "score": 75
+          "score": 78
         },
         "admission-credential-access": {
           "status": "scored",
-          "score": 72
+          "score": 76
         },
         "student-work-rights": {
           "status": "scored",
@@ -303,7 +303,7 @@
         },
         "study-pathway-fit": {
           "status": "scored",
-          "score": 75
+          "score": 78
         }
       },
       "pros": [
@@ -332,23 +332,23 @@
           "url": "https://studieren.univie.ac.at/en/tuition-fee/amount-tuition-fee/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
-      "summary": "Five years of continuous residence (RWR Card → RWR Card Plus after 21 months → long-term residence-EU) reaches PR, but it requires B1 German and strict absence limits.",
+      "summary": "A clear, sequential chain (RWR Card → RWR Card Plus after 21 months → long-term residence-EU) reaches PR at five years, with shortage-list tech roles comfortably clearing the income and qualification bars; the binding limits are B1 German (Integration Agreement Module 2) and strict absence rules.",
       "factors": {
         "years-to-pr": {
           "status": "scored",
-          "score": 62
+          "score": 67
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 60
+          "score": 66
         },
         "eligibility-bars": {
           "status": "scored",
-          "score": 60
+          "score": 66
         },
         "language-integration-requirement": {
           "status": "scored",
@@ -389,11 +389,11 @@
           "url": "https://www.workinaustria.com/en/residence-employment/extending-your-residence-permit-in-austria/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
-      "summary": "Vienna's regulated housing keeps living costs more moderate than Toronto or Sydney, but a 47% tax wedge eats into two solid-but-not-stellar tech salaries.",
+      "summary": "Vienna's large regulated/social-housing sector keeps rents notably more affordable than Toronto or Sydney, easing the squeeze on a dual-earner household, but a 47% tax wedge eats into two solid-but-not-stellar tech salaries.",
       "factors": {
         "household-net-surplus": {
           "status": "scored",
@@ -401,7 +401,7 @@
         },
         "housing-cost-availability": {
           "status": "scored",
-          "score": 62
+          "score": 67
         },
         "savings-remittance": {
           "status": "scored",
@@ -435,27 +435,27 @@
           "url": "https://www.study.eu/article/austria-tuition-fees-cost-of-living"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
-      "summary": "A standout strength: compulsory insurance with no waiting periods — students self-insure at ~€78.84/month and employees are covered from day one, with high quality and free child co-insurance.",
+      "summary": "A standout strength: compulsory insurance with no waiting periods and no pre-existing-condition underwriting — employees covered from day one, students self-insure at ~€78.84/month — delivering high-quality e-card/ELGA care and free child co-insurance; the only catch is the student out-of-pocket premium until employment.",
       "factors": {
         "newcomer-eligibility-barrier": {
           "status": "scored",
-          "score": 78
+          "score": 84
         },
         "health-quality-access": {
           "status": "scored",
-          "score": 78
+          "score": 82
         },
         "cost-coverage-by-status": {
           "status": "scored",
-          "score": 75
+          "score": 78
         },
         "social-insurance-safety-net": {
           "status": "scored",
-          "score": 72
+          "score": 75
         },
         "family-childcare-benefits": {
           "status": "scored",
@@ -481,7 +481,7 @@
           "url": "https://oead.at/en/to-austria/scholars/before-arrival/insurance/gebietskrankenkassen"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
@@ -497,7 +497,7 @@
         },
         "integration-support": {
           "status": "scored",
-          "score": 55
+          "score": 60
         },
         "social-acceptance-south-asian": {
           "status": "scored",
@@ -534,7 +534,7 @@
           "url": "https://www.migration.gv.at/en/living-and-working-in-austria/integration-and-citizenship/the-integration-agreement/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
@@ -542,7 +542,7 @@
       "factors": {
         "personal-crime-safety": {
           "status": "scored",
-          "score": 85
+          "score": 88
         },
         "lived-discrimination-hatecrime": {
           "status": "scored",
@@ -550,15 +550,15 @@
         },
         "rule-of-law-corruption-civil-justice": {
           "status": "scored",
-          "score": 80
+          "score": 82
         },
         "women-safety-gbv": {
           "status": "scored",
-          "score": 75
+          "score": 78
         },
         "immigration-enforcement-due-process": {
           "status": "scored",
-          "score": 68
+          "score": 70
         },
         "antidiscrimination-law-enforcement": {
           "status": "scored",
@@ -588,7 +588,7 @@
           "url": "https://worldjusticeproject.org/rule-of-law-index/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -600,7 +600,7 @@
         },
         "non-eu-skilled-policy-direction": {
           "status": "scored",
-          "score": 55
+          "score": 60
         },
         "anti-immigration-electoral-power": {
           "status": "scored",
@@ -612,7 +612,7 @@
         },
         "institutional-governance-stability": {
           "status": "scored",
-          "score": 75
+          "score": 78
         },
         "targeted-risk-south-asian-muslim": {
           "status": "scored",
@@ -638,7 +638,7 @@
           "url": "https://en.wikipedia.org/wiki/2024_Austrian_legislative_election"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
@@ -688,7 +688,7 @@
           "url": "https://taxsummaries.pwc.com/austria/individual/foreign-tax-relief-and-tax-treaties"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -696,11 +696,11 @@
       "factors": {
         "bangladeshi-diaspora": {
           "status": "scored",
-          "score": 45
+          "score": 48
         },
         "religious-practice-infrastructure": {
           "status": "scored",
-          "score": 80
+          "score": 84
         },
         "sentiment-safety": {
           "status": "scored",
@@ -708,7 +708,7 @@
         },
         "legal-religious-accommodation": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "south-asian-cultural-ecosystem": {
           "status": "scored",
@@ -738,19 +738,19 @@
           "url": "https://bangladootvienna.gov.bd/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
       "factors": {
-        "work-visa-accessibility-bd": { "status": "scored", "score": 78 },
-        "overseas-direct-hire": { "status": "scored", "score": 70 },
+        "work-visa-accessibility-bd": { "status": "scored", "score": 84 },
+        "overseas-direct-hire": { "status": "scored", "score": 77 },
         "bd-direct-work-track-record": { "status": "scored", "score": 52 },
-        "employer-sponsorship-willingness": { "status": "scored", "score": 65 },
-        "route-onward-pr-citizenship": { "status": "scored", "score": 58 },
-        "current-openness": { "status": "scored", "score": 68 }
+        "employer-sponsorship-willingness": { "status": "scored", "score": 70 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 62 },
+        "current-openness": { "status": "scored", "score": 74 }
       },
-      "summary": "The direct skilled-work entry is the file's bright spot — it is the citizenship terminus, not work access, that fails this couple's retain-BD goal. Software/data-processing roles are explicitly on Austria's 2026 nationwide shortage list, where the Red-White-Red Card carries no labour-market test and the Skilled-Worker points bar (55/90) is easily cleared by a CS degree + age + English; the EU Blue Card (€55,678 in 2026) is the higher-salary alternative. The RWR Card is applied for from abroad (routed via the Austrian Embassy New Delhi, ~8 weeks) and the government is actively simplifying it in 2026; a 2024 Bangladesh–Austria mobility MoU explicitly targets ICT. RWR → RWR Plus → Long-Term Residence-EU (PR) at 5 years (B1 German) is clean, but citizenship is 10 years (6 with B2+) AND forces renunciation of BD nationality — so PR-indefinitely is the rational terminus.",
+      "summary": "The direct skilled-work entry is the file's clear bright spot — it is the citizenship terminus, not work access, that fails this couple's retain-BD goal. Software/data-processing roles are explicitly on Austria's 2026 nationwide shortage list, where the Red-White-Red Card carries no labour-market test and the Skilled-Worker points bar (55/90) is comfortably cleared by a CS degree + age + English; the EU Blue Card (€55,678 in 2026) is the higher-salary alternative. The RWR Card is applied for from abroad (routed via the Austrian Embassy New Delhi, ~8 weeks, ~€160 fee), the government is actively simplifying it in 2026, and a 2024 Bangladesh–Austria mobility MoU explicitly targets ICT — a genuinely open, low-friction entry. RWR → RWR Plus → Long-Term Residence-EU (PR) at 5 years (B1 German) is clean, but citizenship is 10 years (6 with B2+) AND forces renunciation of BD nationality — so PR-indefinitely is the rational terminus.",
       "pros": [
         { "text": "Software/data roles on the 2026 nationwide shortage list: Red-White-Red Card with no labour-market test, a ~55-point bar a 2022 CS graduate clears easily, ~€160 fee and ~8-week from-abroad processing; the route is being simplified in 2026.", "severity": "highlight" },
         { "text": "Acute labour shortage (~272,000 vacancies) and a 2024 Bangladesh–Austria mobility MoU explicitly targeting ICT; RWR → PR at 5 years is a clean onward chain." }
@@ -765,7 +765,7 @@
         { "title": "EU Blue Card Austria — European Commission (official)", "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/eu-blue-card/eu-blue-card-austria_en" },
         { "title": "Dual citizenship (renunciation rule) — oesterreich.gv.at (official)", "url": "https://www.oesterreich.gv.at/en/themen/menschen_aus_anderen_staaten/staatsbuergerschaft/Seite.260430.html" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }

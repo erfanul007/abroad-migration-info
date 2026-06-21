@@ -6,7 +6,7 @@
   "flag": "🇸🇪",
   "region": "Europe",
   "summary": "A strong English-operating tech hub (Spotify, Klarna, Ericsson, King) with dual citizenship retained both ways, a top-3 passport, top-tier rule of law, universal healthcare and a real Stockholm Bangladeshi community — but turning markedly less welcoming: from June 2026 citizenship now needs 8 years (up from 5) plus new language, civics and self-sufficiency tests, the Sweden-Democrat-backed government abolished permanent residency for refugees and added a 'good behaviour' deportation regime, gang/gun violence has dented safety, and repeated Quran-burnings have inflamed the climate for Muslims. Derived overall sits below the 60% inclusion line.",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "Swedish Migration Agency (Migrationsverket) — official",
@@ -20,15 +20,15 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "summary": "A deep, English-operating tech scene (Spotify, Klarna, Ericsson, King) with strong AI growth, though salaries are moderate in absolute terms and recent layoffs hit.",
+      "summary": "A deep, English-operating tech scene (Spotify, Klarna, Ericsson, King) with strong AI growth (~28% by 2030) absorbing both engineers across Stockholm, Göteborg and Malmö, though salaries are moderate in absolute terms and recent layoffs hit.",
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
-          "score": 70
+          "score": 74
         },
         "ai-ml-specialisation": {
           "status": "scored",
-          "score": 66
+          "score": 72
         },
         "salary-levels": {
           "status": "scored",
@@ -36,11 +36,11 @@
         },
         "foreign-grad-bd-hireability": {
           "status": "scored",
-          "score": 68
+          "score": 72
         },
         "dual-earner-depth": {
           "status": "scored",
-          "score": 65
+          "score": 70
         }
       },
       "pros": [
@@ -66,7 +66,7 @@
           "url": "https://www.nucamp.co/blog/coding-bootcamp-sweden-swe-top-10-best-paid-tech-job-in-sweden-in-2025"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
@@ -78,7 +78,7 @@
         },
         "dhaka-mission-appointment-capacity": {
           "status": "scored",
-          "score": 62
+          "score": 68
         },
         "in-queue-processing-schemes": {
           "status": "scored",
@@ -86,7 +86,7 @@
         },
         "financial-bars": {
           "status": "scored",
-          "score": 58
+          "score": 64
         },
         "credibility-genuineness-scrutiny": {
           "status": "scored",
@@ -113,7 +113,7 @@
           "url": "https://www.migrationsverket.se/en/you-want-to-apply/study.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
@@ -133,7 +133,7 @@
         },
         "citizenship-attainability": {
           "status": "scored",
-          "score": 52
+          "score": 55
         },
         "policy-stability": {
           "status": "scored",
@@ -163,11 +163,11 @@
           "url": "https://www.loc.gov/item/global-legal-monitor/2026-05-08/sweden-parliament-approves-new-citizenship-law-requiring-language-and-knowledge-tests/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
-      "summary": "Graduates can apply for a ~12-month permit to look for work or start a business, converting to a work permit, though conditions tightened in 2026.",
+      "summary": "Graduates can apply for a ~12-month permit to look for work or start a business, converting on an offer-based work permit (the offer is the gate, easily cleared by Stockholm tech pay) with each spouse qualifying, though conditions tightened in 2026.",
       "factors": {
         "psw-duration-runway": {
           "status": "scored",
@@ -175,19 +175,19 @@
         },
         "eligibility-openness-bd": {
           "status": "scored",
-          "score": 65
+          "score": 70
         },
         "transition-to-skilled-work": {
           "status": "scored",
-          "score": 60
+          "score": 68
         },
         "work-freedom-during-psw": {
           "status": "scored",
-          "score": 65
+          "score": 72
         },
         "dual-graduate-spouse-psw": {
           "status": "scored",
-          "score": 70
+          "score": 74
         },
         "psw-policy-stability": {
           "status": "scored",
@@ -210,7 +210,7 @@
           "url": "https://www.migrationsverket.se/en/you-want-to-extend/study/look-for-work-after-completing-your-studies-in-sweden.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
@@ -218,19 +218,19 @@
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
-          "score": 65
+          "score": 72
         },
         "dependent-visa-bd-access": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "family-reunification-children": {
           "status": "scored",
-          "score": 68
+          "score": 72
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 65
+          "score": 72
         }
       },
       "pros": [
@@ -249,7 +249,7 @@
           "url": "https://www.migrationsverket.se/en/you-want-to-apply/moving-to-someone-in-sweden.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
@@ -261,19 +261,19 @@
         },
         "english-program-depth": {
           "status": "scored",
-          "score": 78
+          "score": 80
         },
         "admission-credential-access": {
           "status": "scored",
-          "score": 70
+          "score": 74
         },
         "student-work-rights": {
           "status": "scored",
-          "score": 70
+          "score": 78
         },
         "study-pathway-fit": {
           "status": "scored",
-          "score": 70
+          "score": 74
         }
       },
       "pros": [
@@ -292,27 +292,27 @@
           "url": "https://studyinsweden.se/plan-your-studies/tuition-fees-and-scholarships/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
-      "summary": "Permanent residence via ~4 years of work permit, but the government is shifting toward temporary status and tightening, reducing predictability.",
+      "summary": "Permanent residence reachable via ~4 years of work permit with no PR language test currently, but the government is shifting toward temporary status and tightening, reducing predictability.",
       "factors": {
         "years-to-pr": {
           "status": "scored",
-          "score": 58
+          "score": 66
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 58
+          "score": 62
         },
         "eligibility-bars": {
           "status": "scored",
-          "score": 58
+          "score": 62
         },
         "language-integration-requirement": {
           "status": "scored",
-          "score": 60
+          "score": 66
         },
         "continuity-retention": {
           "status": "scored",
@@ -339,7 +339,7 @@
           "url": "https://www.migrationsverket.se/en/you-want-to-apply/work/permanent-residence-permit.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
@@ -347,7 +347,7 @@
       "factors": {
         "household-net-surplus": {
           "status": "scored",
-          "score": 58
+          "score": 62
         },
         "housing-cost-availability": {
           "status": "scored",
@@ -355,7 +355,7 @@
         },
         "savings-remittance": {
           "status": "scored",
-          "score": 58
+          "score": 62
         },
         "student-phase-affordability": {
           "status": "scored",
@@ -382,7 +382,7 @@
           "url": "https://studyinsweden.se/plan-your-studies/living-costs/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
@@ -390,23 +390,23 @@
       "factors": {
         "newcomer-eligibility-barrier": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "health-quality-access": {
           "status": "scored",
-          "score": 68
+          "score": 72
         },
         "cost-coverage-by-status": {
           "status": "scored",
-          "score": 70
+          "score": 74
         },
         "social-insurance-safety-net": {
           "status": "scored",
-          "score": 70
+          "score": 74
         },
         "family-childcare-benefits": {
           "status": "scored",
-          "score": 75
+          "score": 78
         }
       },
       "pros": [
@@ -425,15 +425,15 @@
           "url": "https://studyinsweden.se/live/healthcare/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
-      "summary": "Among the world's best English usability — work and much of daily life run in English — but Swedish is now needed for citizenship, and the climate has cooled.",
+      "summary": "Among the world's best English usability — work and much of daily life run fully in English, with excellent work-life balance — but Swedish is now needed for citizenship, and the climate has cooled.",
       "factors": {
         "english-usability": {
           "status": "scored",
-          "score": 70
+          "score": 80
         },
         "language-burden-citizenship": {
           "status": "scored",
@@ -449,7 +449,7 @@
         },
         "worklife-livability": {
           "status": "scored",
-          "score": 78
+          "score": 82
         },
         "cultural-distance-adaptation": {
           "status": "scored",
@@ -472,7 +472,7 @@
           "url": "https://studyinsweden.se/blogs/2016/01/22/living-as-a-muslim-in-stockholm/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
@@ -492,7 +492,7 @@
         },
         "women-safety-gbv": {
           "status": "scored",
-          "score": 70
+          "score": 74
         },
         "immigration-enforcement-due-process": {
           "status": "scored",
@@ -500,7 +500,7 @@
         },
         "antidiscrimination-law-enforcement": {
           "status": "scored",
-          "score": 62
+          "score": 66
         }
       },
       "pros": [
@@ -522,7 +522,7 @@
           "url": "https://worldjusticeproject.org/sites/default/files/documents/Sweden_2.pdf"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -572,7 +572,7 @@
           "url": "https://www.government.se/government-policy/the-governments-priorities/migration-and-integration/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
@@ -584,11 +584,11 @@
         },
         "expat-foreign-worker-relief": {
           "status": "scored",
-          "score": 50
+          "score": 54
         },
         "household-dual-earner-treatment": {
           "status": "scored",
-          "score": 58
+          "score": 62
         },
         "student-phase-tax-exposure": {
           "status": "scored",
@@ -596,7 +596,7 @@
         },
         "bd-treaty-repatriation": {
           "status": "scored",
-          "score": 62
+          "score": 66
         }
       },
       "pros": [
@@ -615,7 +615,7 @@
           "url": "https://www.skatteverket.se/servicelankar/otherlanguages/inenglish.4.12815e4f14a62bc048f4edc.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -623,11 +623,11 @@
       "factors": {
         "bangladeshi-diaspora": {
           "status": "scored",
-          "score": 58
+          "score": 62
         },
         "religious-practice-infrastructure": {
           "status": "scored",
-          "score": 68
+          "score": 72
         },
         "sentiment-safety": {
           "status": "scored",
@@ -635,7 +635,7 @@
         },
         "legal-religious-accommodation": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "south-asian-cultural-ecosystem": {
           "status": "scored",
@@ -662,15 +662,15 @@
           "url": "https://stockholm.mofa.gov.bd/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
       "factors": {
-        "work-visa-accessibility-bd": { "status": "scored", "score": 68 },
+        "work-visa-accessibility-bd": { "status": "scored", "score": 74 },
         "overseas-direct-hire": { "status": "scored", "score": 78 },
         "bd-direct-work-track-record": { "status": "scored", "score": 42 },
-        "employer-sponsorship-willingness": { "status": "scored", "score": 70 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 76 },
         "route-onward-pr-citizenship": { "status": "scored", "score": 52 },
         "current-openness": { "status": "scored", "score": 30 }
       },
@@ -689,7 +689,7 @@
         { "title": "New rules for Swedish citizenship from 6 June 2026 (8-year rule) — Migrationsverket (official)", "url": "https://www.migrationsverket.se/nyheter/news-archive/2026-05-06-new-rules-for-swedish-citizenship-from-6-june-2026.html" },
         { "title": "Apply for an EU Blue Card — Migrationsverket (official)", "url": "https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed/eu-blue-cards.html" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }

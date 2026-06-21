@@ -6,7 +6,7 @@
   "flag": "🇨🇿",
   "region": "Europe",
   "summary": "Very safe (GPI 2025: 11th), cheap to live in, with a strong passport, low 15% flat income tax, dual citizenship retained both ways (allowed since 2014; Czechia on Bangladesh's DNC list) and a growing Prague IT hub — but a poor fit for a Muslim Bangladeshi couple: the Muslim community is negligible (~0.2%, no purpose-built mosque, real Islamophobia), politics turned hostile (ANO/Babiš won the 2025 election and is courting the far-right SPD), citizenship takes ~10 years with B1 Czech, non-EU students are locked out of public health insurance, and Czech gates daily life. Derived overall sits below the 60% inclusion line — flagged as a drop candidate.",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "Study in Czechia — official national portal (DZS/MŠMT)",
@@ -20,7 +20,7 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "summary": "Prague is a growing IT hub (Red Hat, Microsoft, Honeywell, Avast) amid a 200,000+ labour shortage with 63% of IT firms struggling to hire, but salaries are low in absolute terms (offset by low cost) and Czech often helps outside MNCs.",
+      "summary": "Prague is a growing IT hub (Red Hat, Microsoft, Honeywell, Avast) amid a 200,000+ labour shortage with 63% of IT firms struggling to hire — deep enough English-friendly MNC demand to place both engineers — though salaries are low in absolute terms (offset by low cost) and Czech often helps outside MNCs.",
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
@@ -28,7 +28,7 @@
         },
         "ai-ml-specialisation": {
           "status": "scored",
-          "score": 52
+          "score": 56
         },
         "salary-levels": {
           "status": "scored",
@@ -36,11 +36,11 @@
         },
         "foreign-grad-bd-hireability": {
           "status": "scored",
-          "score": 58
+          "score": 64
         },
         "dual-earner-depth": {
           "status": "scored",
-          "score": 55
+          "score": 60
         }
       },
       "pros": [
@@ -69,7 +69,7 @@
           "url": "https://www.levels.fyi/t/software-engineer/locations/prague-cze"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
@@ -89,15 +89,15 @@
         },
         "financial-bars": {
           "status": "scored",
-          "score": 60
+          "score": 66
         },
         "credibility-genuineness-scrutiny": {
           "status": "scored",
-          "score": 52
+          "score": 56
         },
         "heightened-scrutiny-policy-risk": {
           "status": "scored",
-          "score": 50
+          "score": 56
         }
       },
       "pros": [
@@ -126,7 +126,7 @@
           "url": "https://www.czechuniversities.com/article/how-to-apply-for-a-czech-student-visa-guide-for-international-students"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
@@ -146,11 +146,11 @@
         },
         "citizenship-attainability": {
           "status": "scored",
-          "score": 55
+          "score": 60
         },
         "policy-stability": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "passport-strength": {
           "status": "scored",
@@ -183,7 +183,7 @@
           "url": "https://globalcit.eu/czech-republic-sharp-rise-of-naturalisation-in-the-wake-of-dual-citizenship-reform/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
@@ -195,19 +195,19 @@
         },
         "eligibility-openness-bd": {
           "status": "scored",
-          "score": 62
+          "score": 68
         },
         "transition-to-skilled-work": {
           "status": "scored",
-          "score": 65
+          "score": 72
         },
         "work-freedom-during-psw": {
           "status": "scored",
-          "score": 58
+          "score": 62
         },
         "dual-graduate-spouse-psw": {
           "status": "scored",
-          "score": 70
+          "score": 76
         },
         "psw-policy-stability": {
           "status": "scored",
@@ -240,7 +240,7 @@
           "url": "https://www.study-abroad.org/blog/cz-graduate-career-guide/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
@@ -248,19 +248,19 @@
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
-          "score": 58
+          "score": 63
         },
         "dependent-visa-bd-access": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "family-reunification-children": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 62
+          "score": 70
         }
       },
       "pros": [
@@ -282,7 +282,7 @@
           "url": "https://www.studyin.cz/live-work/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
@@ -290,15 +290,15 @@
       "factors": {
         "affordability-funding": {
           "status": "scored",
-          "score": 58
+          "score": 64
         },
         "english-program-depth": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "admission-credential-access": {
           "status": "scored",
-          "score": 70
+          "score": 74
         },
         "student-work-rights": {
           "status": "scored",
@@ -306,7 +306,7 @@
         },
         "study-pathway-fit": {
           "status": "scored",
-          "score": 70
+          "score": 72
         }
       },
       "pros": [
@@ -332,7 +332,7 @@
           "url": "https://cuni.cz/UKEN-372.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
@@ -340,15 +340,15 @@
       "factors": {
         "years-to-pr": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 62
+          "score": 68
         },
         "eligibility-bars": {
           "status": "scored",
-          "score": 60
+          "score": 66
         },
         "language-integration-requirement": {
           "status": "scored",
@@ -382,7 +382,7 @@
           "url": "https://www.studyin.cz/live-work/work/getting-work-visa/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
@@ -390,7 +390,7 @@
       "factors": {
         "household-net-surplus": {
           "status": "scored",
-          "score": 60
+          "score": 65
         },
         "housing-cost-availability": {
           "status": "scored",
@@ -398,15 +398,15 @@
         },
         "savings-remittance": {
           "status": "scored",
-          "score": 58
+          "score": 60
         },
         "student-phase-affordability": {
           "status": "scored",
-          "score": 60
+          "score": 64
         },
         "upfront-relocation-cash": {
           "status": "scored",
-          "score": 60
+          "score": 62
         }
       },
       "pros": [
@@ -425,7 +425,7 @@
           "url": "https://www.accace.com/tax-guideline-for-the-czech-republic/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
@@ -433,19 +433,19 @@
       "factors": {
         "newcomer-eligibility-barrier": {
           "status": "scored",
-          "score": 45
+          "score": 50
         },
         "health-quality-access": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "cost-coverage-by-status": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "social-insurance-safety-net": {
           "status": "scored",
-          "score": 62
+          "score": 65
         },
         "family-childcare-benefits": {
           "status": "scored",
@@ -472,7 +472,7 @@
           "url": "https://www.visahq.com/news/2026-01-26/cz/czech-government-agrees-to-pay-health-insurance-for-unemployed-foreigners-holding-employee-cards/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
@@ -480,7 +480,7 @@
       "factors": {
         "english-usability": {
           "status": "scored",
-          "score": 48
+          "score": 52
         },
         "language-burden-citizenship": {
           "status": "scored",
@@ -496,7 +496,7 @@
         },
         "worklife-livability": {
           "status": "scored",
-          "score": 68
+          "score": 70
         },
         "cultural-distance-adaptation": {
           "status": "scored",
@@ -522,7 +522,7 @@
           "url": "https://www.studyin.cz/live-work/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
@@ -538,15 +538,15 @@
         },
         "rule-of-law-corruption-civil-justice": {
           "status": "scored",
-          "score": 68
+          "score": 72
         },
         "women-safety-gbv": {
           "status": "scored",
-          "score": 72
+          "score": 74
         },
         "immigration-enforcement-due-process": {
           "status": "scored",
-          "score": 62
+          "score": 64
         },
         "antidiscrimination-law-enforcement": {
           "status": "scored",
@@ -576,7 +576,7 @@
           "url": "https://worldjusticeproject.org/sites/default/files/documents/Czech%20Republic.pdf"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -584,11 +584,11 @@
       "factors": {
         "immigration-policy-volatility": {
           "status": "scored",
-          "score": 42
+          "score": 44
         },
         "non-eu-skilled-policy-direction": {
           "status": "scored",
-          "score": 50
+          "score": 56
         },
         "anti-immigration-electoral-power": {
           "status": "scored",
@@ -600,7 +600,7 @@
         },
         "institutional-governance-stability": {
           "status": "scored",
-          "score": 70
+          "score": 72
         },
         "targeted-risk-south-asian-muslim": {
           "status": "scored",
@@ -626,7 +626,7 @@
           "url": "https://www.expats.cz/czech-news/article/czech-election-2025-where-parties-stand-on-6-issues-that-could-reshape-daily-life"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
@@ -634,7 +634,7 @@
       "factors": {
         "effective-deduction-wedge": {
           "status": "scored",
-          "score": 55
+          "score": 60
         },
         "expat-foreign-worker-relief": {
           "status": "scored",
@@ -642,11 +642,11 @@
         },
         "household-dual-earner-treatment": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "student-phase-tax-exposure": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "bd-treaty-repatriation": {
           "status": "scored",
@@ -669,7 +669,7 @@
           "url": "https://taxsummaries.pwc.com/czech-republic/individual/taxes-on-personal-income"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -681,7 +681,7 @@
         },
         "religious-practice-infrastructure": {
           "status": "scored",
-          "score": 35
+          "score": 38
         },
         "sentiment-safety": {
           "status": "scored",
@@ -689,7 +689,7 @@
         },
         "legal-religious-accommodation": {
           "status": "scored",
-          "score": 38
+          "score": 40
         },
         "south-asian-cultural-ecosystem": {
           "status": "scored",
@@ -719,18 +719,18 @@
           "url": "https://english.radio.cz/hidden-muslim-communities-basements-prague-8857205"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
       "summary": "A workable direct-work route for a BD software engineer, with two paths of differing friction. The EU Blue Card is the clean primary route — no quota, the applicant books a New Delhi appointment and applies directly, needs a 3-year degree (both hold BSc-CSE) and salary ≥1.5× average (CZK 73,823/mo / ~€2,960 from 1 May 2026), which a Prague/Brno tech salary clears. The Employee Card via the Highly Qualified Worker Programme (open to all third countries, CZ-ISCO groups 1–3) is the employer-led alternative, but since Oct 2025 the Delhi embassy accepts it only through a government programme, the Delhi Employee-Card quota (1,560/yr) is shared across the whole subcontinent, BD documents need superlegalization, and the highly-skilled fast-track pilot excludes Bangladesh. The route links cleanly onward — Blue/Employee-Card time counts toward PR at 5 years (A2 Czech) and citizenship at ~10 years (B1), dual retained both ways. Direction is net-expanding for skilled labour despite the ANO win, but the BD track record is thin and the political climate hostile.",
       "factors": {
-        "work-visa-accessibility-bd": { "status": "scored", "score": 64 },
-        "overseas-direct-hire": { "status": "scored", "score": 58 },
+        "work-visa-accessibility-bd": { "status": "scored", "score": 70 },
+        "overseas-direct-hire": { "status": "scored", "score": 62 },
         "bd-direct-work-track-record": { "status": "scored", "score": 40 },
-        "employer-sponsorship-willingness": { "status": "scored", "score": 60 },
-        "route-onward-pr-citizenship": { "status": "scored", "score": 72 },
-        "current-openness": { "status": "scored", "score": 62 }
+        "employer-sponsorship-willingness": { "status": "scored", "score": 64 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 74 },
+        "current-openness": { "status": "scored", "score": 66 }
       },
       "pros": [
         { "text": "EU Blue Card is a clean direct-hire route from Dhaka: no quota, the applicant applies in person at New Delhi (no government-programme gate), needs only a 3-year university degree — both hold BSc-CSE — and a salary ≥1.5× average (CZK 73,823/mo / ~€2,960 from 1 May 2026) that a Prague/Brno tech wage clears; 90-day decision." },
@@ -750,7 +750,7 @@
         { "title": "VisaHQ — Czechia lifts EU Blue Card salary threshold to CZK 73,823 from 1 May 2026", "url": "https://www.visahq.com/news/2026-04-19/cz/czech-republic-lifts-eu-blue-card-salary-threshold-to-czk-73823-from-1-may-2026/" },
         { "title": "Expats.cz — Czechia approves new foreign-worker quotas (Delhi 24 IT/science slots; skilled favoured)", "url": "https://www.expats.cz/czech-news/article/czechia-approves-new-foreign-worker-quotas-who-stands-to-benefit" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }

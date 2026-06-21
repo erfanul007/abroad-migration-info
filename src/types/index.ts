@@ -25,7 +25,7 @@ export type CategoryId = string;
 export interface ScoredCategory {
   category: Category;
   cell: CategoryScore | null; // null = category missing for this country
-  score: number | null;       // exact factor-weighted mean (raw, NOT recalibrated); null = non-derivable
+  score: number | null;       // exact factor-weighted mean (raw); null = non-derivable
   contribution: number;       // (score/100) * weight, 0 if non-derivable
 }
 

@@ -6,7 +6,7 @@
   "flag": "🇧🇪",
   "region": "Europe",
   "summary": "A solid all-rounder with dual citizenship retained both ways (Belgium lifted its ban in 2008; Belgium is on Bangladesh's DNC list), 5-year naturalisation at a modest language bar, KU Leuven's strong AI master's, IT on the shortage list, excellent healthcare and a top-tier passport — but held back by the trilingual (Dutch/French/German) language burden, the OECD's highest labour-tax wedge (~52%, softened by a new expat regime), a powerful Flemish far-right (N-VA largest, Vlaams Belang surging), a short 12-month post-study search year, and Bangladeshi student visas decided out of New Delhi. Derived overall sits marginally above the 60% inclusion line.",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "IBZ (Immigration Office) — Third-country nationals / study (official)",
@@ -20,7 +20,7 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "summary": "IT/software roles are on the regional shortage lists amid a ~21,000-worker tech gap, with Brussels offering an English-friendly international market (EU/NATO/MNCs) alongside Flanders tech hubs, though salaries trail Canada and Flanders work is Dutch-gated.",
+      "summary": "IT/software roles are on the regional shortage lists amid a ~21,000-worker tech gap, with Brussels offering a genuinely English-friendly international market (EU/NATO/MNCs, AI engineers ~€96k) that supports both spouses alongside Flanders tech hubs, though salaries trail Canada and Flanders work is Dutch-gated.",
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
@@ -28,7 +28,7 @@
         },
         "ai-ml-specialisation": {
           "status": "scored",
-          "score": 58
+          "score": 63
         },
         "salary-levels": {
           "status": "scored",
@@ -36,11 +36,11 @@
         },
         "foreign-grad-bd-hireability": {
           "status": "scored",
-          "score": 60
+          "score": 65
         },
         "dual-earner-depth": {
           "status": "scored",
-          "score": 62
+          "score": 65
         }
       },
       "pros": [
@@ -69,15 +69,15 @@
           "url": "https://www.salaryexpert.com/salary/job/engineer-ai/belgium/brussels"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
-      "summary": "There is no Belgian embassy in Bangladesh — students lodge the D-visa at VFS Dhaka but the decision is made by the Belgian Embassy in New Delhi; funds proof is a modest ~€730/month, with no Bangladesh-specific targeting.",
+      "summary": "There is no Belgian embassy in Bangladesh — students lodge the D-visa at VFS Dhaka but the decision is made by the Belgian Embassy in New Delhi; funds proof is a modest ~€730/month (lower than Canada/Germany/Australia) and there is no Bangladesh-specific targeting or ban.",
       "factors": {
         "approval-refusal-rate": {
           "status": "scored",
-          "score": 52
+          "score": 55
         },
         "dhaka-mission-appointment-capacity": {
           "status": "scored",
@@ -89,7 +89,7 @@
         },
         "financial-bars": {
           "status": "scored",
-          "score": 60
+          "score": 66
         },
         "credibility-genuineness-scrutiny": {
           "status": "scored",
@@ -126,7 +126,7 @@
           "url": "https://visa.vfsglobal.com/one-pager/belgium/india/english/index.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
@@ -134,11 +134,11 @@
       "factors": {
         "time-to-citizenship": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "naturalisation-requirements": {
           "status": "scored",
-          "score": 60
+          "score": 64
         },
         "dual-citizenship-retention": {
           "status": "scored",
@@ -146,7 +146,7 @@
         },
         "citizenship-attainability": {
           "status": "scored",
-          "score": 70
+          "score": 73
         },
         "policy-stability": {
           "status": "scored",
@@ -183,11 +183,11 @@
           "url": "https://asylumineurope.org/reports/country/belgium/content-international-protection/status-and-residence/naturalisation/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
-      "summary": "Graduates get a 12-month, non-renewable 'search year' (A card marked job-seeker) to find work or go self-employed — a short but workable runway, available to each graduating spouse.",
+      "summary": "Graduates get a 12-month, non-renewable 'search year' (A card marked job-seeker) to find work or go self-employed — a short but workable runway, available to each graduating spouse, and conversion to a work permit is eased where the role sits on a regional shortage list.",
       "factors": {
         "psw-duration-runway": {
           "status": "scored",
@@ -195,11 +195,11 @@
         },
         "eligibility-openness-bd": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "transition-to-skilled-work": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "work-freedom-during-psw": {
           "status": "scored",
@@ -240,15 +240,15 @@
           "url": "https://www.kuleuven.be/english/stuvo/working-volunteering-career/transition-to-the-job-market/working-non-eea"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
-      "summary": "Family reunification, free schooling and labour-market access for the spouse of a worker exist, but the accompanying spouse of a student faces conditions, and if both spouses study each holds an independent track.",
+      "summary": "Family reunification, free schooling and labour-market access for the spouse of a worker exist, and where both spouses study each holds their own permit and independent search-year track, though the accompanying spouse of a student faces conditions during the study phase.",
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
-          "score": 60
+          "score": 64
         },
         "dependent-visa-bd-access": {
           "status": "scored",
@@ -260,7 +260,7 @@
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 65
+          "score": 68
         }
       },
       "pros": [
@@ -282,7 +282,7 @@
           "url": "https://dofi.ibz.be/en/themes/third-country-nationals/family-reunification"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
@@ -290,7 +290,7 @@
       "factors": {
         "affordability-funding": {
           "status": "scored",
-          "score": 60
+          "score": 63
         },
         "english-program-depth": {
           "status": "scored",
@@ -298,7 +298,7 @@
         },
         "admission-credential-access": {
           "status": "scored",
-          "score": 70
+          "score": 73
         },
         "student-work-rights": {
           "status": "scored",
@@ -306,7 +306,7 @@
         },
         "study-pathway-fit": {
           "status": "scored",
-          "score": 72
+          "score": 75
         }
       },
       "pros": [
@@ -332,23 +332,23 @@
           "url": "https://www.kuleuven.be/english/education/student/fees/regulation"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
-      "summary": "Five years of continuous legal residence leads to EU long-term residence, a clear route eased by shortage-listed work, though regional integration (Flemish inburgering) adds language demands.",
+      "summary": "Five years of continuous legal residence leads to EU long-term residence — a clear, attainable route that shortage-listed tech roles comfortably meet on income and qualification — though regional integration (Flemish inburgering) adds language demands and the N-VA-led government signals a more restrictive direction.",
       "factors": {
         "years-to-pr": {
           "status": "scored",
-          "score": 62
+          "score": 65
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 62
+          "score": 65
         },
         "eligibility-bars": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "language-integration-requirement": {
           "status": "scored",
@@ -385,7 +385,7 @@
           "url": "https://dofi.ibz.be/en/themes/third-country-nationals/long-term-residence"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
@@ -393,7 +393,7 @@
       "factors": {
         "household-net-surplus": {
           "status": "scored",
-          "score": 58
+          "score": 61
         },
         "housing-cost-availability": {
           "status": "scored",
@@ -401,7 +401,7 @@
         },
         "savings-remittance": {
           "status": "scored",
-          "score": 60
+          "score": 63
         },
         "student-phase-affordability": {
           "status": "scored",
@@ -435,7 +435,7 @@
           "url": "https://www.ey.com/en_be/technical/tax/tax-alerts/2025/will-changes-to-belgian-expat-tax-rules-increase-beneficiaries"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
@@ -451,11 +451,11 @@
         },
         "cost-coverage-by-status": {
           "status": "scored",
-          "score": 70
+          "score": 73
         },
         "social-insurance-safety-net": {
           "status": "scored",
-          "score": 72
+          "score": 74
         },
         "family-childcare-benefits": {
           "status": "scored",
@@ -481,7 +481,7 @@
           "url": "https://www.expatica.com/be/healthcare/healthcare-basics/the-belgian-healthcare-system-100097/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
@@ -489,7 +489,7 @@
       "factors": {
         "english-usability": {
           "status": "scored",
-          "score": 55
+          "score": 59
         },
         "language-burden-citizenship": {
           "status": "scored",
@@ -534,7 +534,7 @@
           "url": "https://www.expatica.com/be/moving/visas/belgian-citizenship-100133/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
@@ -558,11 +558,11 @@
         },
         "immigration-enforcement-due-process": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "antidiscrimination-law-enforcement": {
           "status": "scored",
-          "score": 62
+          "score": 65
         }
       },
       "pros": [
@@ -588,7 +588,7 @@
           "url": "https://worldjusticeproject.org/rule-of-law-index/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -638,7 +638,7 @@
           "url": "https://en.wikipedia.org/wiki/Vlaams_Belang"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
@@ -650,7 +650,7 @@
         },
         "expat-foreign-worker-relief": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "household-dual-earner-treatment": {
           "status": "scored",
@@ -688,7 +688,7 @@
           "url": "https://www.deloitte.com/be/en/services/tax/blogs/belgian-expat-tax-regime-critical-changes-effective-1-january-2025-for-income-tax-no-adjustment-for-social-security.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -700,7 +700,7 @@
         },
         "religious-practice-infrastructure": {
           "status": "scored",
-          "score": 78
+          "score": 80
         },
         "sentiment-safety": {
           "status": "scored",
@@ -735,7 +735,7 @@
           "url": "https://brussels.mofa.gov.bd/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
@@ -743,9 +743,9 @@
         "work-visa-accessibility-bd": { "status": "scored", "score": 72 },
         "overseas-direct-hire": { "status": "scored", "score": 80 },
         "bd-direct-work-track-record": { "status": "scored", "score": 35 },
-        "employer-sponsorship-willingness": { "status": "scored", "score": 65 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 68 },
         "route-onward-pr-citizenship": { "status": "scored", "score": 80 },
-        "current-openness": { "status": "scored", "score": 55 }
+        "current-openness": { "status": "scored", "score": 58 }
       },
       "summary": "A genuinely open degree-based route, with federal complexity the main friction. A BD software engineer targets the highly-qualified single permit / EU Blue Card (salary-threshold tracks, no shortage-list or labour-market test): 2026 highly-skilled thresholds are moderate (Brussels ~€44k, Flanders ~€49k, Wallonia ~€53k; Blue Card higher) and attainable in tech. The employer files the single permit and the worker collects a Visa D from abroad (via the Belgian mission/VFS in New Delhi — no Dhaka post). A clean 5+5 ladder: long-term residence at 5 years, Belgian nationality by declaration at 5 years (A2 language + economic participation, easily met by two earners), with dual nationality permitted both ways. Flanders tightened medium-skilled access from 2026, but the degree-holder Blue Card track is unaffected.",
       "pros": [
@@ -762,7 +762,7 @@
         { "title": "Long-term resident status (PR after 5 years) — IBZ/DOFI (official)", "url": "https://dofi.ibz.be/en/themes/third-country-nationals/long-term-resident/acquisition-long-term-resident-status-belgium" },
         { "title": "Dual citizenship (adults) — Justice Belgium (official)", "url": "https://justice.belgium.be/en/themes_and_files/children_and_youth/citizenship/dual_citizenship/adult" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }

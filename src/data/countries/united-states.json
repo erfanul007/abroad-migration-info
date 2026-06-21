@@ -6,7 +6,7 @@
   "flag": "🇺🇸",
   "region": "North America",
   "summary": "The highest ceiling and the highest variance: the world's best tech/AI salaries (FAANG $300k+), the #1 AI ecosystem, MIT/Stanford/CMU, English-native, dual citizenship retained (US is on Bangladesh's DNC list), a 3-year STEM-OPT runway, the largest Bangladeshi-American community (~600,000, NYC) — and, crucially, Bangladesh is NOT employment-green-card-backlogged (unlike India). But the access path is brutal and uncertain: the H-1B lottery (~25% odds, plus a new $100,000 fee), Trump-era F-1 social-media vetting and restriction, no universal healthcare, elevated gun-violence/safety concerns and a hostile immigration-politics climate. Derived overall sits below the 60% inclusion line — pulled down by the path, not the prize.",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "USCIS — official (immigration & naturalization)",
@@ -20,11 +20,11 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "summary": "The world's deepest tech/AI market with the highest salaries, but hiring is gated by the H-1B lottery and disrupted by 2025–26 layoffs.",
+      "summary": "The world's deepest tech/AI market with the highest salaries and strong English-native graduate retention via OPT, though long-term hiring is still gated by the H-1B lottery and disrupted by 2025–26 layoffs.",
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
-          "score": 72
+          "score": 80
         },
         "ai-ml-specialisation": {
           "status": "scored",
@@ -36,7 +36,7 @@
         },
         "foreign-grad-bd-hireability": {
           "status": "scored",
-          "score": 62
+          "score": 68
         },
         "dual-earner-depth": {
           "status": "scored",
@@ -69,7 +69,7 @@
           "url": "https://whatisthesalary.com/it-salaries/faang-software-engineer/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
@@ -123,7 +123,7 @@
           "url": "https://shorelight.com/student-stories/us-visa-social-media-vetting"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
@@ -143,7 +143,7 @@
         },
         "citizenship-attainability": {
           "status": "scored",
-          "score": 48
+          "score": 54
         },
         "policy-stability": {
           "status": "scored",
@@ -176,15 +176,15 @@
           "url": "https://www.uscis.gov/citizenship/learn-about-citizenship/citizenship-and-naturalization"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
-      "summary": "STEM graduates get a strong 3-year OPT runway (1 yr + 24-month STEM extension), but the conversion to H-1B is a lottery and OPT itself faces political threat.",
+      "summary": "STEM graduates get a strong, reliable 3-year OPT runway (1 yr + 24-month STEM extension) with broad in-field work freedom, but the conversion to H-1B is a lottery and OPT itself faces political threat.",
       "factors": {
         "psw-duration-runway": {
           "status": "scored",
-          "score": 80
+          "score": 85
         },
         "eligibility-openness-bd": {
           "status": "scored",
@@ -196,7 +196,7 @@
         },
         "work-freedom-during-psw": {
           "status": "scored",
-          "score": 65
+          "score": 70
         },
         "dual-graduate-spouse-psw": {
           "status": "scored",
@@ -226,11 +226,11 @@
           "url": "https://www.internationalstudent.com/immigration/opt-stem-opt-h1b-2026/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
-      "summary": "A relative weakness: an F-2 student spouse cannot work, and H-4 work authorisation is restricted to later green-card stages — so the couple effectively needs both on their own F-1/OPT.",
+      "summary": "A relative weakness on the dependant track — an F-2 spouse cannot work and H-4 work is restricted to later green-card stages — but both being engineers makes the realistic play each on their own F-1/OPT, a clear independent route.",
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
@@ -246,7 +246,7 @@
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 55
+          "score": 62
         }
       },
       "pros": [
@@ -265,7 +265,7 @@
           "url": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/employment-authorization-for-certain-h-4-dependent-spouses"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
@@ -281,7 +281,7 @@
         },
         "admission-credential-access": {
           "status": "scored",
-          "score": 65
+          "score": 70
         },
         "student-work-rights": {
           "status": "scored",
@@ -289,7 +289,7 @@
         },
         "study-pathway-fit": {
           "status": "scored",
-          "score": 80
+          "score": 86
         }
       },
       "pros": [
@@ -308,7 +308,7 @@
           "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
@@ -316,15 +316,15 @@
       "factors": {
         "years-to-pr": {
           "status": "scored",
-          "score": 55
+          "score": 60
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 52
+          "score": 58
         },
         "eligibility-bars": {
           "status": "scored",
-          "score": 45
+          "score": 52
         },
         "language-integration-requirement": {
           "status": "scored",
@@ -358,7 +358,7 @@
           "url": "https://arvian-immigration.com/from-f-1-opt-stem-opt-to-eb-2-or-eb-3/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
@@ -370,7 +370,7 @@
         },
         "housing-cost-availability": {
           "status": "scored",
-          "score": 50
+          "score": 54
         },
         "savings-remittance": {
           "status": "scored",
@@ -401,11 +401,11 @@
           "url": "https://whatisthesalary.com/it-salaries/software-engineer-salary-united-states/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
-      "summary": "A major weakness: no universal healthcare — coverage is employer-tied or expensive private, students pay $2k–5k/yr mandatory insurance, and out-of-pocket costs and gaps are high.",
+      "summary": "Care quality is top-tier and waits short for the well-insured (campus or tech-employer plan), but it remains a major weakness: no universal healthcare — coverage is employer-tied or expensive private, students pay $2k–5k/yr mandatory insurance, and out-of-pocket costs and gaps are high.",
       "factors": {
         "newcomer-eligibility-barrier": {
           "status": "scored",
@@ -413,7 +413,7 @@
         },
         "health-quality-access": {
           "status": "scored",
-          "score": 65
+          "score": 72
         },
         "cost-coverage-by-status": {
           "status": "scored",
@@ -447,7 +447,7 @@
           "url": "https://www.usa.gov/health-insurance"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
@@ -467,7 +467,7 @@
         },
         "social-acceptance-south-asian": {
           "status": "scored",
-          "score": 55
+          "score": 60
         },
         "worklife-livability": {
           "status": "scored",
@@ -494,7 +494,7 @@
           "url": "https://en.wikipedia.org/wiki/Bangladeshi_Americans"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
@@ -541,7 +541,7 @@
           "url": "https://worldjusticeproject.org/sites/default/files/documents/United%20States_2.pdf"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -591,7 +591,7 @@
           "url": "https://www.americanimmigrationcouncil.org/blog/president-trump-expands-his-travel-ban-what-you-need-to-know/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
@@ -634,7 +634,7 @@
           "url": "https://www.irs.gov/individuals/international-taxpayers"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -654,7 +654,7 @@
         },
         "legal-religious-accommodation": {
           "status": "scored",
-          "score": 60
+          "score": 66
         },
         "south-asian-cultural-ecosystem": {
           "status": "scored",
@@ -684,7 +684,7 @@
           "url": "https://nycreligion.info/161-mosques-york-city-counting/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
@@ -711,7 +711,7 @@
         { "title": "Visa Bulletin for June 2026 (Worldwide vs India/China EB) — U.S. Dept of State (official)", "url": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin/2026/visa-bulletin-for-june-2026.html" },
         { "title": "FY2026 H-1B initial registration selection completed — USCIS (official)", "url": "https://www.uscis.gov/newsroom/alerts/fy-2026-h-1b-initial-registration-selection-process-completed" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }

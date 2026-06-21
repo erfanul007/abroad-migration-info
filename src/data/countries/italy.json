@@ -6,7 +6,7 @@
   "flag": "🇮🇹",
   "region": "Europe",
   "summary": "Home to continental Europe's largest Bangladeshi community (~150,000–200,000, centred on Rome) with abundant halal and a dense BD ecosystem, world-class affordable study (Politecnico di Milano at ~€1–4k tuition with generous scholarships), SSN healthcare, a full embassy in Dhaka, dual citizenship retained both ways — and, the strongest lever for this profile, a quota-exempt EU Blue Card direct-work route that sidesteps the oversubscribed Decreto Flussi click-day. Held back by a 10-year naturalisation path (a 2025 referendum to cut it to 5 failed), low Italian tech salaries, heavy Sportello Unico/Questura bureaucracy, and the Meloni/League government's anti-Islam posture.",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "Universitaly — official portal for studying in Italy",
@@ -20,27 +20,27 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "summary": "AI/ML demand is surging in Milan/Rome/Turin, but Italian tech salaries are low by Northern-European standards, hiring is bureaucratic, and Italian is usually required.",
+      "summary": "AI/ML demand is surging in Milan/Rome/Turin (a reported 625% rise, AI engineers ~€78k) with €10k–20k premiums on hot skills, so a well-placed AI engineer hub-side is well absorbed; but general Italian tech salaries stay low by Northern-European standards, hiring is bureaucratic, and Italian is usually required.",
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
-          "score": 62
+          "score": 64
         },
         "ai-ml-specialisation": {
           "status": "scored",
-          "score": 60
+          "score": 66
         },
         "salary-levels": {
           "status": "scored",
-          "score": 52
+          "score": 54
         },
         "foreign-grad-bd-hireability": {
           "status": "scored",
-          "score": 52
+          "score": 54
         },
         "dual-earner-depth": {
           "status": "scored",
-          "score": 58
+          "score": 60
         }
       },
       "pros": [
@@ -69,7 +69,7 @@
           "url": "https://www.levels.fyi/t/software-engineer/locations/milano-ita"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
@@ -77,11 +77,11 @@
       "factors": {
         "approval-refusal-rate": {
           "status": "scored",
-          "score": 58
+          "score": 64
         },
         "dhaka-mission-appointment-capacity": {
           "status": "scored",
-          "score": 68
+          "score": 76
         },
         "in-queue-processing-schemes": {
           "status": "scored",
@@ -89,15 +89,15 @@
         },
         "financial-bars": {
           "status": "scored",
-          "score": 60
+          "score": 68
         },
         "credibility-genuineness-scrutiny": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "heightened-scrutiny-policy-risk": {
           "status": "scored",
-          "score": 50
+          "score": 52
         }
       },
       "pros": [
@@ -123,7 +123,7 @@
           "url": "https://integrazionemigranti.gov.it/AnteprimaPDF.aspx?id=6179"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
@@ -176,31 +176,31 @@
           "url": "https://www.boccadutri.com/italian-citizenship-by-residency-or-naturalization/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
-      "summary": "Graduates get a 12-month job-search residence permit (any degree level, no offer needed) that converts to work/self-employment, though Questura processing is slow.",
+      "summary": "Graduates get a 12-month job-search residence permit (permesso per attesa occupazione — any degree level, no offer needed) that allows work or self-employment and converts cleanly to a work permit (incl. the quota-exempt Blue Card), with each spouse qualifying independently; the 12-month cap and Questura backlogs are the real limits.",
       "factors": {
         "psw-duration-runway": {
           "status": "scored",
-          "score": 50
+          "score": 54
         },
         "eligibility-openness-bd": {
           "status": "scored",
-          "score": 65
+          "score": 74
         },
         "transition-to-skilled-work": {
           "status": "scored",
-          "score": 58
+          "score": 65
         },
         "work-freedom-during-psw": {
           "status": "scored",
-          "score": 65
+          "score": 75
         },
         "dual-graduate-spouse-psw": {
           "status": "scored",
-          "score": 70
+          "score": 78
         },
         "psw-policy-stability": {
           "status": "scored",
@@ -223,7 +223,7 @@
           "url": "https://italyhandbook.com/post-graduation-work-permit-options-in-italy/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
@@ -231,19 +231,19 @@
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
-          "score": 62
+          "score": 68
         },
         "dependent-visa-bd-access": {
           "status": "scored",
-          "score": 62
+          "score": 64
         },
         "family-reunification-children": {
           "status": "scored",
-          "score": 68
+          "score": 72
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 62
+          "score": 66
         }
       },
       "pros": [
@@ -265,31 +265,31 @@
           "url": "https://www.portaleimmigrazione.it/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
-      "summary": "A standout: Politecnico di Milano (top-40 CS) and Bologna offer English-taught CS/AI at very low income-based tuition (~€1–4k) with generous scholarships.",
+      "summary": "A clear standout: Politecnico di Milano (top-~40 CS, ~45 English-taught MSc) and Bologna offer English-taught CS/AI at very low income-based tuition (~€1–4k) with generous scholarships (up to €25k); a BD BSc-CSE is admissible via Universitaly and students may work ~20 hrs/week.",
       "factors": {
         "affordability-funding": {
           "status": "scored",
-          "score": 75
+          "score": 85
         },
         "english-program-depth": {
           "status": "scored",
-          "score": 78
+          "score": 84
         },
         "admission-credential-access": {
           "status": "scored",
-          "score": 70
+          "score": 76
         },
         "student-work-rights": {
           "status": "scored",
-          "score": 65
+          "score": 70
         },
         "study-pathway-fit": {
           "status": "scored",
-          "score": 70
+          "score": 78
         }
       },
       "pros": [
@@ -315,7 +315,7 @@
           "url": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/master-s-degree-programmes/applicants-with-a-non-italian-qualification"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
@@ -323,15 +323,15 @@
       "factors": {
         "years-to-pr": {
           "status": "scored",
-          "score": 60
+          "score": 62
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 52
+          "score": 56
         },
         "eligibility-bars": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "language-integration-requirement": {
           "status": "scored",
@@ -339,7 +339,7 @@
         },
         "continuity-retention": {
           "status": "scored",
-          "score": 52
+          "score": 54
         },
         "policy-predictability": {
           "status": "scored",
@@ -362,7 +362,7 @@
           "url": "https://www.portaleimmigrazione.it/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
@@ -370,11 +370,11 @@
       "factors": {
         "household-net-surplus": {
           "status": "scored",
-          "score": 54
+          "score": 56
         },
         "housing-cost-availability": {
           "status": "scored",
-          "score": 56
+          "score": 58
         },
         "savings-remittance": {
           "status": "scored",
@@ -382,11 +382,11 @@
         },
         "student-phase-affordability": {
           "status": "scored",
-          "score": 60
+          "score": 64
         },
         "upfront-relocation-cash": {
           "status": "scored",
-          "score": 58
+          "score": 62
         }
       },
       "pros": [
@@ -405,7 +405,7 @@
           "url": "https://www.mastersportal.com/articles/405/tuition-fees-at-universities-in-europe-overview-and-comparison.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
@@ -413,15 +413,15 @@
       "factors": {
         "newcomer-eligibility-barrier": {
           "status": "scored",
-          "score": 65
+          "score": 70
         },
         "health-quality-access": {
           "status": "scored",
-          "score": 62
+          "score": 64
         },
         "cost-coverage-by-status": {
           "status": "scored",
-          "score": 68
+          "score": 72
         },
         "social-insurance-safety-net": {
           "status": "scored",
@@ -448,7 +448,7 @@
           "url": "https://www.salute.gov.it/portale/home.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
@@ -468,15 +468,15 @@
         },
         "social-acceptance-south-asian": {
           "status": "scored",
-          "score": 52
+          "score": 55
         },
         "worklife-livability": {
           "status": "scored",
-          "score": 72
+          "score": 74
         },
         "cultural-distance-adaptation": {
           "status": "scored",
-          "score": 58
+          "score": 62
         }
       },
       "pros": [
@@ -498,7 +498,7 @@
           "url": "https://en.wikipedia.org/wiki/Bangladeshis_in_Italy"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
@@ -548,7 +548,7 @@
           "url": "https://worldjusticeproject.org/rule-of-law-index/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -560,7 +560,7 @@
         },
         "non-eu-skilled-policy-direction": {
           "status": "scored",
-          "score": 50
+          "score": 54
         },
         "anti-immigration-electoral-power": {
           "status": "scored",
@@ -598,7 +598,7 @@
           "url": "https://freepress.org/article/italy-muslim-friendly-its-prime-minister-not-0"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
@@ -610,7 +610,7 @@
         },
         "expat-foreign-worker-relief": {
           "status": "scored",
-          "score": 55
+          "score": 60
         },
         "household-dual-earner-treatment": {
           "status": "scored",
@@ -641,7 +641,7 @@
           "url": "https://www.agenziaentrate.gov.it/portale/web/english"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -649,11 +649,11 @@
       "factors": {
         "bangladeshi-diaspora": {
           "status": "scored",
-          "score": 88
+          "score": 90
         },
         "religious-practice-infrastructure": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "sentiment-safety": {
           "status": "scored",
@@ -665,7 +665,7 @@
         },
         "south-asian-cultural-ecosystem": {
           "status": "scored",
-          "score": 80
+          "score": 82
         }
       },
       "pros": [
@@ -688,17 +688,17 @@
           "url": "https://www.france24.com/en/live-news/20240506-no-place-to-pray-for-muslim-workers-in-italian-city"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
       "factors": {
-        "work-visa-accessibility-bd": { "status": "scored", "score": 84 },
-        "overseas-direct-hire": { "status": "scored", "score": 82 },
+        "work-visa-accessibility-bd": { "status": "scored", "score": 86 },
+        "overseas-direct-hire": { "status": "scored", "score": 84 },
         "bd-direct-work-track-record": { "status": "scored", "score": 62 },
-        "employer-sponsorship-willingness": { "status": "scored", "score": 55 },
-        "route-onward-pr-citizenship": { "status": "scored", "score": 72 },
-        "current-openness": { "status": "scored", "score": 68 }
+        "employer-sponsorship-willingness": { "status": "scored", "score": 58 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 74 },
+        "current-openness": { "status": "scored", "score": 72 }
       },
       "summary": "The decisive lever for a BD software engineer is the EU Blue Card (Carta Blu UE): it sits entirely OUTSIDE the annual Decreto Flussi quota, so an employer can sponsor a Dhaka-based engineer year-round rather than fighting an oversubscribed click-day. A recognised CS/IT degree (or 3 years' relevant IT experience in the prior 7) plus a 6-month+ contract above the salary floor (~1.5x the ISTAT average, ~€35,000–38,300 in 2025–26; a reduced ~1.2x ~€28,000 applies to ICT/shortage roles) — easily cleared by Milan software pay (mid ~€42–62k, senior ~€83k). The employer files the nulla osta at the Sportello Unico via the Ministry of Interior ALI portal; the worker collects the visa at the consulate in Bangladesh, then signs the contratto di soggiorno within 8 days of arrival. Route is a clear settlement track: Blue Card -> EU long-term residence after 5 years (min 2 in Italy) -> citizenship at 10 years + B1 Italian, with dual citizenship retained both ways (Italy on Bangladesh's DNC list). Headwinds: heavy Sportello Unico/Questura bureaucracy, a labour-market test that is often (not always) waived, low Blue Card uptake (only ~747 issued in 2023) so the direct-skilled-work track record is thin even though the overall BD community (~150,000+, continental Europe's largest) is enormous, and a slow 10-year citizenship clock.",
       "pros": [
@@ -716,7 +716,7 @@
         { "title": "Italy work visas: Decreto Flussi vs EU Blue Card (quota-exempt comparison) — MarlowBray", "url": "https://www.marlowbray.com/resource-articles/italy-work-visas-decreto-flussi-vs-eu-blue-card" },
         { "title": "The Bangladeshi community in Italy — annual report (Ministry of Labour, official)", "url": "https://integrazionemigranti.gov.it/AnteprimaPDF.aspx?id=6179" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }

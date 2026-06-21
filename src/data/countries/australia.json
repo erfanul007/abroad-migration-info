@@ -6,7 +6,7 @@
   "flag": "🇦🇺",
   "region": "Oceania",
   "summary": "English-native study→485→skilled/PR route with dual citizenship retained (Australia is on Bangladesh's Dual Nationality Certificate list) and unrestricted spouse work during a coursework master's; tempered by Bangladesh's January 2026 move to student-visa Evidence Level 3 (strictest), high independent-PR points for ICT, and a sharp post-Bondi (Dec 2025) Islamophobia surge.",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "Department of Home Affairs — Immigration and citizenship (official)",
@@ -20,7 +20,7 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "summary": "Deep English-language tech market across Sydney/Melbourne with strong pay and an AI premium, though software eased off the 2025 shortage list.",
+      "summary": "Deep, English-language tech market across Sydney/Melbourne/Brisbane/Perth with high pay (ABS ICT-professional median ~AUD 119,600 plus an AI wage premium) that two well-prepared engineers can capture across multiple hubs, though software eased off the 2025 shortage list so there is no across-the-board shortage tailwind.",
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
@@ -28,19 +28,19 @@
         },
         "ai-ml-specialisation": {
           "status": "scored",
-          "score": 60
+          "score": 70
         },
         "salary-levels": {
           "status": "scored",
-          "score": 78
+          "score": 88
         },
         "foreign-grad-bd-hireability": {
           "status": "scored",
-          "score": 72
+          "score": 86
         },
         "dual-earner-depth": {
           "status": "scored",
-          "score": 75
+          "score": 85
         }
       },
       "pros": [
@@ -72,7 +72,7 @@
           "url": "https://www.abs.gov.au/statistics/labour/earnings-and-working-conditions/average-weekly-earnings-australia/latest-release"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
@@ -84,7 +84,7 @@
         },
         "dhaka-mission-appointment-capacity": {
           "status": "scored",
-          "score": 62
+          "score": 68
         },
         "in-queue-processing-schemes": {
           "status": "scored",
@@ -136,19 +136,19 @@
           "url": "https://www.thedailystar.net/news/australia-tightens-visa-scrutiny-bangladeshi-students-citing-integrity-issues-4079141"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
-      "summary": "Four years' lawful residence (study/work time counts, only the last 12 months as PR), a modest English-only test, dual citizenship retained, and a top-tier passport.",
+      "summary": "Fast four-year route to citizenship — study and work time both count, with only the final 12 months required as PR — on a modest English-only test, with dual citizenship retained (Australia is on Bangladesh's DNC list) and a top-10 passport; the binding gate is upstream PR, scored under PR Pathway.",
       "factors": {
         "time-to-citizenship": {
           "status": "scored",
-          "score": 72
+          "score": 88
         },
         "naturalisation-requirements": {
           "status": "scored",
-          "score": 78
+          "score": 88
         },
         "dual-citizenship-retention": {
           "status": "scored",
@@ -156,15 +156,15 @@
         },
         "citizenship-attainability": {
           "status": "scored",
-          "score": 70
+          "score": 80
         },
         "policy-stability": {
           "status": "scored",
-          "score": 78
+          "score": 84
         },
         "passport-strength": {
           "status": "scored",
-          "score": 88
+          "score": 90
         }
       },
       "pros": [
@@ -196,31 +196,31 @@
           "url": "https://immi.homeaffairs.gov.au/citizenship/test-and-interview"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
-      "summary": "Temporary Graduate (subclass 485) gives a coursework master's 2–3 years of full-work-rights runway, and both graduate spouses can each hold their own 485.",
+      "summary": "Temporary Graduate (subclass 485) gives a coursework master's 2–3 years of fully unrestricted work-rights runway in any role, and both graduate spouses can each independently hold their own 485; conversion to long-term skilled/PR still depends on a sponsor or competitive points.",
       "factors": {
         "psw-duration-runway": {
           "status": "scored",
-          "score": 68
+          "score": 82
         },
         "eligibility-openness-bd": {
           "status": "scored",
-          "score": 66
+          "score": 74
         },
         "transition-to-skilled-work": {
           "status": "scored",
-          "score": 55
+          "score": 60
         },
         "work-freedom-during-psw": {
           "status": "scored",
-          "score": 85
+          "score": 90
         },
         "dual-graduate-spouse-psw": {
           "status": "scored",
-          "score": 82
+          "score": 90
         },
         "psw-policy-stability": {
           "status": "scored",
@@ -253,27 +253,27 @@
           "url": "https://www.studyaustralia.gov.au/en/plan-your-move/your-guide-to-visas/temporary-graduate-visa-subclass-485"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
-      "summary": "The dependant partner of a coursework master's student may work more than 48 hours a fortnight (effectively unrestricted), and full partner work continues on the 485 and skilled/PR visas.",
+      "summary": "The dependant partner of a coursework master's student may work more than 48 hours a fortnight (effectively unrestricted), partner and children under 18 are includable on the student application, and each spouse has a clear independent route via their own 485 and skilled/PR visa.",
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
-          "score": 88
+          "score": 92
         },
         "dependent-visa-bd-access": {
           "status": "scored",
-          "score": 82
+          "score": 88
         },
         "family-reunification-children": {
           "status": "scored",
-          "score": 75
+          "score": 82
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 78
+          "score": 88
         }
       },
       "pros": [
@@ -302,11 +302,11 @@
           "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500/temporary-relaxation-of-working-hours-for-student-visa-holders"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
-      "summary": "Broad English-taught CS/AI master's with accessible admission for a BD BSc-CSE graduate, but international CS/AI tuition runs high (~AUD 44k/yr).",
+      "summary": "Wide, well-ranked English-taught CS/AI master's catalogue with directly accessible admission for a BD BSc-CSE graduate and a standard coursework master's qualifying for the maximum 485 runway, though international CS/AI tuition runs high (~AUD 44k/yr).",
       "factors": {
         "affordability-funding": {
           "status": "scored",
@@ -314,19 +314,19 @@
         },
         "english-program-depth": {
           "status": "scored",
-          "score": 85
+          "score": 90
         },
         "admission-credential-access": {
           "status": "scored",
-          "score": 78
+          "score": 88
         },
         "student-work-rights": {
           "status": "scored",
-          "score": 72
+          "score": 86
         },
         "study-pathway-fit": {
           "status": "scored",
-          "score": 80
+          "score": 88
         }
       },
       "pros": [
@@ -355,19 +355,19 @@
           "url": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/increased-student-intake-for-australia-in-2026"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
-      "summary": "PR exists via employer-sponsored 482→186 (~2 years) or competitive points-based GSM, but ICT independent invitations ran at 85–100 points in late 2025.",
+      "summary": "A clear employer-sponsored PR route runs 482→186 in roughly 2 years with software engineer CSOL-eligible, a realistic target for two sponsored engineers; the independent points-based GSM is the harder fallback, with ICT invitations at 85–100 points in late 2025.",
       "factors": {
         "years-to-pr": {
           "status": "scored",
-          "score": 58
+          "score": 62
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 58
+          "score": 63
         },
         "eligibility-bars": {
           "status": "scored",
@@ -412,7 +412,7 @@
           "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skills-in-demand-visa-subclass-482/core-skills-stream"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
@@ -420,7 +420,7 @@
       "factors": {
         "household-net-surplus": {
           "status": "scored",
-          "score": 68
+          "score": 72
         },
         "housing-cost-availability": {
           "status": "scored",
@@ -428,7 +428,7 @@
         },
         "savings-remittance": {
           "status": "scored",
-          "score": 70
+          "score": 74
         },
         "student-phase-affordability": {
           "status": "scored",
@@ -462,7 +462,7 @@
           "url": "https://discover.cotality.com/hubfs/Article-Reports/COTALITY%20HVI%20APR%202026%20FINAL.pdf"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
@@ -474,7 +474,7 @@
         },
         "health-quality-access": {
           "status": "scored",
-          "score": 72
+          "score": 76
         },
         "cost-coverage-by-status": {
           "status": "scored",
@@ -512,7 +512,7 @@
           "url": "https://www.studyaustralia.gov.au/en/plan-your-move/overseas-student-health-cover-oshc"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
@@ -520,11 +520,11 @@
       "factors": {
         "english-usability": {
           "status": "scored",
-          "score": 92
+          "score": 94
         },
         "language-burden-citizenship": {
           "status": "scored",
-          "score": 88
+          "score": 92
         },
         "integration-support": {
           "status": "scored",
@@ -536,7 +536,7 @@
         },
         "worklife-livability": {
           "status": "scored",
-          "score": 78
+          "score": 86
         },
         "cultural-distance-adaptation": {
           "status": "scored",
@@ -569,7 +569,7 @@
           "url": "https://scanloninstitute.org.au/mapping-social-cohesion-2025/"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
@@ -577,7 +577,7 @@
       "factors": {
         "personal-crime-safety": {
           "status": "scored",
-          "score": 72
+          "score": 78
         },
         "lived-discrimination-hatecrime": {
           "status": "scored",
@@ -585,7 +585,7 @@
         },
         "rule-of-law-corruption-civil-justice": {
           "status": "scored",
-          "score": 80
+          "score": 86
         },
         "women-safety-gbv": {
           "status": "scored",
@@ -626,7 +626,7 @@
           "url": "https://www.visionofhumanity.org/wp-content/uploads/2025/06/Global-Peace-Index-2025-web.pdf"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -650,7 +650,7 @@
         },
         "institutional-governance-stability": {
           "status": "scored",
-          "score": 82
+          "score": 85
         },
         "targeted-risk-south-asian-muslim": {
           "status": "scored",
@@ -683,7 +683,7 @@
           "url": "https://www.studyaustralia.gov.au/en/tools-and-resources/news/increased-student-intake-for-australia-in-2026"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
@@ -699,7 +699,7 @@
         },
         "household-dual-earner-treatment": {
           "status": "scored",
-          "score": 68
+          "score": 72
         },
         "student-phase-tax-exposure": {
           "status": "scored",
@@ -733,7 +733,7 @@
           "url": "https://treasury.gov.au/tax-treaties/income-tax-treaties"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -741,11 +741,11 @@
       "factors": {
         "bangladeshi-diaspora": {
           "status": "scored",
-          "score": 70
+          "score": 73
         },
         "religious-practice-infrastructure": {
           "status": "scored",
-          "score": 82
+          "score": 85
         },
         "sentiment-safety": {
           "status": "scored",
@@ -783,17 +783,17 @@
           "url": "https://cityhub.com.au/horrifying-increase-in-islamophobia-since-bondi-attack/"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
       "factors": {
-        "work-visa-accessibility-bd": { "status": "scored", "score": 62 },
-        "overseas-direct-hire": { "status": "scored", "score": 85 },
+        "work-visa-accessibility-bd": { "status": "scored", "score": 72 },
+        "overseas-direct-hire": { "status": "scored", "score": 88 },
         "bd-direct-work-track-record": { "status": "scored", "score": 66 },
         "employer-sponsorship-willingness": { "status": "scored", "score": 70 },
-        "route-onward-pr-citizenship": { "status": "scored", "score": 88 },
-        "current-openness": { "status": "scored", "score": 58 }
+        "route-onward-pr-citizenship": { "status": "scored", "score": 90 },
+        "current-openness": { "status": "scored", "score": 62 }
       },
       "summary": "A complete, well-documented direct-work chain for BD ICT engineers. Software Engineer (ANZSCO 261313) is on the Core Skills Occupation List; the Skills in Demand (482) Core Skills stream is open offshore (income threshold A$73,150, easily cleared by software pay) so an employer can sponsor and relocate directly from Dhaka — though the alternative points-tested Skilled Independent (189) route is intensely competitive for ICT (~90+ points). 482 → Employer Nomination Scheme 186 PR after 2 years (Temporary Residence Transition), or 189 = direct PR on grant → citizenship at 4 years, with dual citizenship retained (Australia is on Bangladesh's DNC list). Established, fast-growing BD community (~51,500 Bangladesh-born, 67% naturalised). Friction: ACS skills assessment, the Skilling Australians Fund levy (a small-employer deterrent), and a flat 2025–26 program.",
       "pros": [
@@ -811,7 +811,7 @@
         { "title": "People in Australia born in Bangladesh — ABS 2021 Census (official)", "url": "https://www.abs.gov.au/census/find-census-data/quickstats/2021/7101_AUS" },
         { "title": "Residence calculator (citizenship) — Department of Home Affairs (official)", "url": "https://immi.homeaffairs.gov.au/help-support/tools/residence-calculator" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }

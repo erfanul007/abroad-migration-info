@@ -6,7 +6,7 @@
   "flag": "🇩🇪",
   "region": "Europe",
   "summary": "Strong long-game: dual citizenship is retained both ways (Germany permits multiple nationality since 27 June 2024 and Bangladesh grants a Dual Nationality Certificate), five-year naturalisation, an unusually fast EU Blue Card → settlement-permit PR (21 months with B1 German, 27 with A1), tuition-free public master's and immediate statutory healthcare. The binding weaknesses are the entry stage and climate — a roughly 27-month student-visa appointment backlog at the German Embassy Dhaka, the second-highest tax wedge in the OECD with no expat relief, a B1-German burden for status, and a rising-Islamophobia / strong-AfD (20.8%, second place) political environment.",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "Make it in Germany (official federal portal)",
@@ -20,27 +20,27 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "summary": "Largest EU economy with a chronic IT skills shortage (software qualifies for the lower Blue Card threshold) and several tech hubs, but much of the market is German-language-gated and 2024–26 hiring softened.",
+      "summary": "Largest EU economy with a chronic, officially-recognised IT skills shortage (software is a bottleneck occupation qualifying for the lower Blue Card threshold) and a deep multi-hub market (Berlin, Munich, Hamburg, Frankfurt, Stuttgart, Cyber Valley) that can absorb two engineers, with a 15–25% AI/ML pay premium; the offsets are German-language-gating outside hubs/MNCs and softened 2024–26 hiring.",
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
-          "score": 70
+          "score": 76
         },
         "ai-ml-specialisation": {
           "status": "scored",
-          "score": 62
+          "score": 68
         },
         "salary-levels": {
           "status": "scored",
-          "score": 64
+          "score": 67
         },
         "foreign-grad-bd-hireability": {
           "status": "scored",
-          "score": 58
+          "score": 60
         },
         "dual-earner-depth": {
           "status": "scored",
-          "score": 68
+          "score": 74
         }
       },
       "pros": [
@@ -72,15 +72,15 @@
           "url": "https://www.heise.de/en/news/Salary-Report-What-IT-professionals-earn-11134457.html"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
-      "summary": "A full embassy in Dhaka, but the binding constraint is a ~27-month student-visa appointment backlog (still current June 2026); add the APS academic check, a ~€11,904 blocked-account proof and genuine-student scrutiny.",
+      "summary": "A full embassy in Dhaka and a rules-based regime in which genuine, well-documented students with admission and funds are routinely approved, with no Bangladesh-specific ban and stable diplomatic ties; the binding constraint is the ~27-month student-visa appointment backlog (still current June 2026), alongside the APS academic check and a ~€11,904 blocked-account proof.",
       "factors": {
         "approval-refusal-rate": {
           "status": "scored",
-          "score": 55
+          "score": 62
         },
         "dhaka-mission-appointment-capacity": {
           "status": "scored",
@@ -92,15 +92,15 @@
         },
         "financial-bars": {
           "status": "scored",
-          "score": 48
+          "score": 50
         },
         "credibility-genuineness-scrutiny": {
           "status": "scored",
-          "score": 45
+          "score": 52
         },
         "heightened-scrutiny-policy-risk": {
           "status": "scored",
-          "score": 60
+          "score": 66
         }
       },
       "pros": [
@@ -130,7 +130,7 @@
           "url": "https://dhaka.diplo.de/resource/blob/2685888/1826aadb06dfc6b0224e91583b6836cb/p-01-checklist-students-data.pdf"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
@@ -138,11 +138,11 @@
       "factors": {
         "time-to-citizenship": {
           "status": "scored",
-          "score": 68
+          "score": 74
         },
         "naturalisation-requirements": {
           "status": "scored",
-          "score": 58
+          "score": 61
         },
         "dual-citizenship-retention": {
           "status": "scored",
@@ -150,7 +150,7 @@
         },
         "citizenship-attainability": {
           "status": "scored",
-          "score": 70
+          "score": 82
         },
         "policy-stability": {
           "status": "scored",
@@ -187,7 +187,7 @@
           "url": "https://washington.mofa.gov.bd/pages/static-pages/695266b435ce18e1c05aadf1"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
@@ -195,23 +195,23 @@
       "factors": {
         "psw-duration-runway": {
           "status": "scored",
-          "score": 58
+          "score": 62
         },
         "eligibility-openness-bd": {
           "status": "scored",
-          "score": 80
+          "score": 87
         },
         "transition-to-skilled-work": {
           "status": "scored",
-          "score": 78
+          "score": 90
         },
         "work-freedom-during-psw": {
           "status": "scored",
-          "score": 82
+          "score": 88
         },
         "dual-graduate-spouse-psw": {
           "status": "scored",
-          "score": 82
+          "score": 88
         },
         "psw-policy-stability": {
           "status": "scored",
@@ -241,7 +241,7 @@
           "url": "https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
@@ -249,19 +249,19 @@
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
-          "score": 82
+          "score": 90
         },
         "dependent-visa-bd-access": {
           "status": "scored",
-          "score": 72
+          "score": 74
         },
         "family-reunification-children": {
           "status": "scored",
-          "score": 80
+          "score": 88
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 78
+          "score": 88
         }
       },
       "pros": [
@@ -287,7 +287,7 @@
           "url": "https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
@@ -295,15 +295,15 @@
       "factors": {
         "affordability-funding": {
           "status": "scored",
-          "score": 88
+          "score": 90
         },
         "english-program-depth": {
           "status": "scored",
-          "score": 85
+          "score": 88
         },
         "admission-credential-access": {
           "status": "scored",
-          "score": 68
+          "score": 72
         },
         "student-work-rights": {
           "status": "scored",
@@ -311,7 +311,7 @@
         },
         "study-pathway-fit": {
           "status": "scored",
-          "score": 82
+          "score": 90
         }
       },
       "pros": [
@@ -340,7 +340,7 @@
           "url": "https://dhaka.diplo.de/resource/blob/2685888/1826aadb06dfc6b0224e91583b6836cb/p-01-checklist-students-data.pdf"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
@@ -348,15 +348,15 @@
       "factors": {
         "years-to-pr": {
           "status": "scored",
-          "score": 80
+          "score": 88
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 78
+          "score": 87
         },
         "eligibility-bars": {
           "status": "scored",
-          "score": 68
+          "score": 82
         },
         "language-integration-requirement": {
           "status": "scored",
@@ -364,7 +364,7 @@
         },
         "continuity-retention": {
           "status": "scored",
-          "score": 70
+          "score": 78
         },
         "policy-predictability": {
           "status": "scored",
@@ -397,7 +397,7 @@
           "url": "https://service.berlin.de/dienstleistung/326556/en/"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
@@ -405,7 +405,7 @@
       "factors": {
         "household-net-surplus": {
           "status": "scored",
-          "score": 60
+          "score": 64
         },
         "housing-cost-availability": {
           "status": "scored",
@@ -413,11 +413,11 @@
         },
         "savings-remittance": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "student-phase-affordability": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "upfront-relocation-cash": {
           "status": "scored",
@@ -450,7 +450,7 @@
           "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/04/taxing-wages-2025-country-notes_16d47563/germany_59f2afde/510f880a-en.pdf"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
@@ -458,19 +458,19 @@
       "factors": {
         "newcomer-eligibility-barrier": {
           "status": "scored",
-          "score": 82
+          "score": 90
         },
         "health-quality-access": {
           "status": "scored",
-          "score": 75
+          "score": 80
         },
         "cost-coverage-by-status": {
           "status": "scored",
-          "score": 72
+          "score": 80
         },
         "social-insurance-safety-net": {
           "status": "scored",
-          "score": 75
+          "score": 82
         },
         "family-childcare-benefits": {
           "status": "scored",
@@ -500,7 +500,7 @@
           "url": "https://www.how-to-germany.com/health-insurance/statutory-health-insurance/eligibility-contribution/"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
@@ -516,7 +516,7 @@
         },
         "integration-support": {
           "status": "scored",
-          "score": 70
+          "score": 74
         },
         "social-acceptance-south-asian": {
           "status": "scored",
@@ -524,7 +524,7 @@
         },
         "worklife-livability": {
           "status": "scored",
-          "score": 80
+          "score": 82
         },
         "cultural-distance-adaptation": {
           "status": "scored",
@@ -557,7 +557,7 @@
           "url": "https://www.bamf.de/EN/Themen/Integration/ZugewanderteTeilnehmende/Integrationskurse/integrationskurse-node.html"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
@@ -565,7 +565,7 @@
       "factors": {
         "personal-crime-safety": {
           "status": "scored",
-          "score": 68
+          "score": 71
         },
         "lived-discrimination-hatecrime": {
           "status": "scored",
@@ -573,7 +573,7 @@
         },
         "rule-of-law-corruption-civil-justice": {
           "status": "scored",
-          "score": 82
+          "score": 85
         },
         "women-safety-gbv": {
           "status": "scored",
@@ -581,7 +581,7 @@
         },
         "immigration-enforcement-due-process": {
           "status": "scored",
-          "score": 70
+          "score": 74
         },
         "antidiscrimination-law-enforcement": {
           "status": "scored",
@@ -614,7 +614,7 @@
           "url": "https://www.visionofhumanity.org/wp-content/uploads/2025/06/Global-Peace-Index-2025-web.pdf"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -622,11 +622,11 @@
       "factors": {
         "immigration-policy-volatility": {
           "status": "scored",
-          "score": 50
+          "score": 52
         },
         "non-eu-skilled-policy-direction": {
           "status": "scored",
-          "score": 65
+          "score": 70
         },
         "anti-immigration-electoral-power": {
           "status": "scored",
@@ -668,7 +668,7 @@
           "url": "https://www.deutschland.de/en/topic/politics/federal-election-2025-election-result-germany-election-government"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
@@ -688,11 +688,11 @@
         },
         "student-phase-tax-exposure": {
           "status": "scored",
-          "score": 72
+          "score": 75
         },
         "bd-treaty-repatriation": {
           "status": "scored",
-          "score": 62
+          "score": 66
         }
       },
       "pros": [
@@ -718,7 +718,7 @@
           "url": "https://taxsummaries.pwc.com/germany/individual/foreign-tax-relief-and-tax-treaties"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -730,7 +730,7 @@
         },
         "religious-practice-infrastructure": {
           "status": "scored",
-          "score": 80
+          "score": 83
         },
         "sentiment-safety": {
           "status": "scored",
@@ -742,7 +742,7 @@
         },
         "south-asian-cultural-ecosystem": {
           "status": "scored",
-          "score": 58
+          "score": 62
         }
       },
       "pros": [
@@ -771,7 +771,7 @@
           "url": "https://www.aa.com.tr/en/europe/930-islamophobic-crimes-committed-in-germany-from-january-to-september-government/3746427"
         }
       ],
-      "lastReviewed": "2026-06-18"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
@@ -779,9 +779,9 @@
         "work-visa-accessibility-bd": { "status": "scored", "score": 90 },
         "overseas-direct-hire": { "status": "scored", "score": 90 },
         "bd-direct-work-track-record": { "status": "scored", "score": 60 },
-        "employer-sponsorship-willingness": { "status": "scored", "score": 85 },
-        "route-onward-pr-citizenship": { "status": "scored", "score": 88 },
-        "current-openness": { "status": "scored", "score": 78 }
+        "employer-sponsorship-willingness": { "status": "scored", "score": 90 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 90 },
+        "current-openness": { "status": "scored", "score": 84 }
       },
       "summary": "A textbook top-tier direct-work route for a degreed BD software/AI couple. The EU Blue Card has an IT-shortage reduced salary threshold (€45,934 in 2026 vs €50,700 general) that tech engineers clear easily, recognises a BD BSc via anabin/ZAB, and there is no sponsor-licence regime — the German Embassy Dhaka issues the visa directly (~3 weeks; §81a accelerated procedure ~4–6 weeks), with the Opportunity Card (Chancenkarte) as an in-country job-search alternative (+1 point if the spouse co-applies). Blue Card → settlement permit in 21 months (B1) / 27 (A1) — among the fastest PR anywhere → citizenship at 5 years with dual citizenship retained (StAG reform 2024; Germany within Bangladesh's all-Europe DNC scope). The 3-year fast-track was abolished (Oct 2025) but the 5-year route and the work track were untouched. Watch-item: the AfD's restriction agenda.",
       "pros": [
@@ -799,7 +799,7 @@
         { "title": "EU Blue Card — Make it in Germany (Federal Government, official)", "url": "https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card" },
         { "title": "Dual Nationality Certificate (all European states) — Embassy of Bangladesh (official)", "url": "https://washington.mofa.gov.bd/pages/static-pages/695266b435ce18e1c05aadf1" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }

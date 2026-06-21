@@ -6,7 +6,7 @@
   "flag": "🇳🇴",
   "region": "Europe",
   "summary": "An oil-wealthy Nordic state with very high tech salaries, the world's 2nd-best rule of law (WJP), a top passport, universal healthcare and dual citizenship retained both ways (Norway allows it since 2020 and sits within Bangladesh's 'all of Europe' DNC scope) — but constrained for this profile by an 8-year/B1-Norwegian citizenship path, newly introduced non-EEA tuition (from 2023), extreme living costs, a small Oslo-centric market, a domestic halal-slaughter ban and a small Bangladeshi community. Derived overall sits just below the 60% inclusion line.",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "UDI (Norwegian Directorate of Immigration) — official",
@@ -24,7 +24,7 @@
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
-          "score": 64
+          "score": 67
         },
         "ai-ml-specialisation": {
           "status": "scored",
@@ -63,7 +63,7 @@
           "url": "https://www.levels.fyi/t/software-engineer/locations/oslo-nor"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
@@ -110,7 +110,7 @@
           "url": "https://www.udi.no/en/want-to-apply/studies/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
@@ -118,7 +118,7 @@
       "factors": {
         "time-to-citizenship": {
           "status": "scored",
-          "score": 32
+          "score": 40
         },
         "naturalisation-requirements": {
           "status": "scored",
@@ -130,7 +130,7 @@
         },
         "citizenship-attainability": {
           "status": "scored",
-          "score": 58
+          "score": 62
         },
         "policy-stability": {
           "status": "scored",
@@ -160,11 +160,11 @@
           "url": "https://www.udi.no/en/word-definitions/test-requirements-norwegian-citizenship/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
-      "summary": "A 12-month job-seeker permit (any job, non-extendable) converts to a skilled-worker permit; each spouse qualifies.",
+      "summary": "A 12-month job-seeker permit (any job, non-extendable) converts deterministically to a quota-free skilled-worker permit on a qualifying offer; each spouse qualifies.",
       "factors": {
         "psw-duration-runway": {
           "status": "scored",
@@ -176,7 +176,7 @@
         },
         "transition-to-skilled-work": {
           "status": "scored",
-          "score": 65
+          "score": 70
         },
         "work-freedom-during-psw": {
           "status": "scored",
@@ -207,7 +207,7 @@
           "url": "https://www.udi.no/en/want-to-apply/work-immigration/job-seekers/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
@@ -215,7 +215,7 @@
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
-          "score": 68
+          "score": 72
         },
         "dependent-visa-bd-access": {
           "status": "scored",
@@ -227,7 +227,7 @@
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 68
+          "score": 70
         }
       },
       "pros": [
@@ -246,7 +246,7 @@
           "url": "https://www.udi.no/en/want-to-apply/family-immigration/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
@@ -258,7 +258,7 @@
         },
         "english-program-depth": {
           "status": "scored",
-          "score": 70
+          "score": 73
         },
         "admission-credential-access": {
           "status": "scored",
@@ -289,19 +289,19 @@
           "url": "https://www.studyinnorway.no/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
-      "summary": "Permanent residence is reachable after ~3 years of skilled work, but requires Norwegian-language/integration completion.",
+      "summary": "Permanent residence is reachable after ~3 years of skilled work — fast by EU standards — though it requires Norwegian-language/integration completion.",
       "factors": {
         "years-to-pr": {
           "status": "scored",
-          "score": 62
+          "score": 70
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "eligibility-bars": {
           "status": "scored",
@@ -336,7 +336,7 @@
           "url": "https://www.udi.no/en/want-to-apply/permanent-residence/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
@@ -379,7 +379,7 @@
           "url": "https://www.studyinnorway.no/living-in-norway/cost-of-living"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
@@ -387,11 +387,11 @@
       "factors": {
         "newcomer-eligibility-barrier": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "health-quality-access": {
           "status": "scored",
-          "score": 70
+          "score": 73
         },
         "cost-coverage-by-status": {
           "status": "scored",
@@ -422,7 +422,7 @@
           "url": "https://www.helsenorge.no/en/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
@@ -430,7 +430,7 @@
       "factors": {
         "english-usability": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "language-burden-citizenship": {
           "status": "scored",
@@ -469,7 +469,7 @@
           "url": "https://www.lifeinnorway.net/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
@@ -516,7 +516,7 @@
           "url": "https://worldjusticeproject.org/rule-of-law-index/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -563,7 +563,7 @@
           "url": "https://www.udi.no/en/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
@@ -606,7 +606,7 @@
           "url": "https://www.skatteetaten.no/en/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -649,7 +649,7 @@
           "url": "https://en.wikipedia.org/wiki/Islam_in_Norway"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
@@ -657,9 +657,9 @@
         "work-visa-accessibility-bd": { "status": "scored", "score": 78 },
         "overseas-direct-hire": { "status": "scored", "score": 75 },
         "bd-direct-work-track-record": { "status": "scored", "score": 45 },
-        "employer-sponsorship-willingness": { "status": "scored", "score": 72 },
-        "route-onward-pr-citizenship": { "status": "scored", "score": 70 },
-        "current-openness": { "status": "scored", "score": 62 }
+        "employer-sponsorship-willingness": { "status": "scored", "score": 75 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 73 },
+        "current-openness": { "status": "scored", "score": 65 }
       },
       "summary": "A strong, clean route that Bangladeshis underuse. The skilled-worker residence permit is quota-free with no labour-market test: a BSc software engineer with a full-time offer at/above the pay floor (NOK 522,600 bachelor / 599,200 master from Sept 2025, easily cleared by Oslo tech pay) qualifies, and skilled workers can request early-employment-start from the police. PR comes unusually fast — 3 years (+ A2 Norwegian + social-studies test) — and citizenship at ~7 years (B1 oral), with dual citizenship allowed since 2020 (Norway within Bangladesh's all-Europe DNC scope). The real frictions are practical, not legal: no Norwegian mission in Dhaka (apply via a third country) and documented name-based hiring bias. Note: Bangladesh's UDI 'heightened scrutiny' flag applies to vocational trades, not university-degree software roles.",
       "pros": [
@@ -676,7 +676,7 @@
         { "title": "Changes to permanent-residence requirements (A2 + social studies) — UDI (official)", "url": "https://www.udi.no/en/important-messages/changes-to-the-requirements-for-a-permanent-residence-permit/" },
         { "title": "Immigrants and Norwegian-born to immigrant parents (Bangladesh figures) — SSB (official)", "url": "https://www.ssb.no/en/befolkning/innvandrere/statistikk/innvandrere-og-norskfodte-med-innvandrerforeldre" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }

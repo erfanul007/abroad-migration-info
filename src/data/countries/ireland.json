@@ -6,7 +6,7 @@
   "flag": "🇮🇪",
   "region": "Europe",
   "summary": "An English-native EU tech-HQ hub (Google, Meta, Apple, Microsoft, LinkedIn) with dual citizenship retained both ways, naturalisation that requires NO language or civics test, a 24-month graduate work permit, a fast Critical-Skills route to long-term residence, the world's 2nd-most-peaceful ranking and a real Dublin Bangladeshi community — but weighed down by a severe, structural housing crisis, a two-tier health system with out-of-pocket GP fees, and the fact that student years don't count toward citizenship/residence. Derived overall is comfortably above the 60% inclusion line.",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "Irish Immigration Service Delivery (ISD) — official",
@@ -24,23 +24,23 @@
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
-          "score": 72
+          "score": 81
         },
         "ai-ml-specialisation": {
           "status": "scored",
-          "score": 70
+          "score": 79
         },
         "salary-levels": {
           "status": "scored",
-          "score": 76
+          "score": 83
         },
         "foreign-grad-bd-hireability": {
           "status": "scored",
-          "score": 72
+          "score": 82
         },
         "dual-earner-depth": {
           "status": "scored",
-          "score": 65
+          "score": 68
         }
       },
       "pros": [
@@ -69,7 +69,7 @@
           "url": "https://www.levels.fyi/t/software-engineer/locations/greater-dublin-area"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
@@ -77,7 +77,7 @@
       "factors": {
         "approval-refusal-rate": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "dhaka-mission-appointment-capacity": {
           "status": "scored",
@@ -85,19 +85,19 @@
         },
         "in-queue-processing-schemes": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "financial-bars": {
           "status": "scored",
-          "score": 60
+          "score": 68
         },
         "credibility-genuineness-scrutiny": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "heightened-scrutiny-policy-risk": {
           "status": "scored",
-          "score": 55
+          "score": 62
         }
       },
       "pros": [
@@ -123,7 +123,7 @@
           "url": "https://educationireland.net/bangladesh/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
@@ -135,7 +135,7 @@
         },
         "naturalisation-requirements": {
           "status": "scored",
-          "score": 85
+          "score": 90
         },
         "dual-citizenship-retention": {
           "status": "scored",
@@ -143,11 +143,11 @@
         },
         "citizenship-attainability": {
           "status": "scored",
-          "score": 68
+          "score": 78
         },
         "policy-stability": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "passport-strength": {
           "status": "scored",
@@ -176,31 +176,31 @@
           "url": "https://www.citizensinformation.ie/en/moving-country/irish-citizenship/your-right-to-irish-citizenship/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
-      "summary": "The Third Level Graduate Programme (Stamp 1G) gives master's graduates 24 months (12+12) of full work rights with no employment permit, feeding the Critical Skills route, and each spouse qualifies.",
+      "summary": "The Third Level Graduate Programme (Stamp 1G) gives master's graduates 24 months (12+12) of full work rights with no employment permit, feeding a deterministic Critical Skills route for ICT, and each spouse independently qualifies — a strong, well-defined runway for two CS/AI engineers.",
       "factors": {
         "psw-duration-runway": {
           "status": "scored",
-          "score": 68
+          "score": 76
         },
         "eligibility-openness-bd": {
           "status": "scored",
-          "score": 78
+          "score": 85
         },
         "transition-to-skilled-work": {
           "status": "scored",
-          "score": 75
+          "score": 88
         },
         "work-freedom-during-psw": {
           "status": "scored",
-          "score": 85
+          "score": 88
         },
         "dual-graduate-spouse-psw": {
           "status": "scored",
-          "score": 80
+          "score": 90
         },
         "psw-policy-stability": {
           "status": "scored",
@@ -226,27 +226,27 @@
           "url": "https://www.irishimmigration.ie/my-situation-has-changed-since-i-arrived-in-ireland/third-level-graduate-programme/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
-      "summary": "Critical-Skills holders can bring family with work rights immediately, children attend school free, and if both spouses study each holds an independent Stamp 1G track.",
+      "summary": "Critical-Skills holders can bring family with spouse work rights immediately and children attend public school free; if both spouses study each holds an independent Stamp 1G, giving a clear route to the spouse's own status — though dependent-spouse work is more limited during the student phase.",
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
-          "score": 65
+          "score": 76
         },
         "dependent-visa-bd-access": {
           "status": "scored",
-          "score": 65
+          "score": 70
         },
         "family-reunification-children": {
           "status": "scored",
-          "score": 70
+          "score": 82
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 70
+          "score": 80
         }
       },
       "pros": [
@@ -268,7 +268,7 @@
           "url": "https://www.irishimmigration.ie/coming-to-join-family-in-ireland/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
@@ -280,19 +280,19 @@
         },
         "english-program-depth": {
           "status": "scored",
-          "score": 80
+          "score": 86
         },
         "admission-credential-access": {
           "status": "scored",
-          "score": 72
+          "score": 81
         },
         "student-work-rights": {
           "status": "scored",
-          "score": 65
+          "score": 80
         },
         "study-pathway-fit": {
           "status": "scored",
-          "score": 78
+          "score": 86
         }
       },
       "pros": [
@@ -318,35 +318,35 @@
           "url": "https://educationireland.net/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
-      "summary": "A fast route: Critical Skills holders can reach Stamp 4 (long-term residence) after ~2 years of work, with no language requirement — though student years don't count toward the clock.",
+      "summary": "One of the fastest, clearest routes among the strong English-speaking options: Critical Skills holders reach Stamp 4 (long-term residence with full labour-market access) after only ~2 years of work, with no language requirement, and ICT pay clears the salary bar easily — though student years don't count toward the clock.",
       "factors": {
         "years-to-pr": {
           "status": "scored",
-          "score": 65
+          "score": 80
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 68
+          "score": 80
         },
         "eligibility-bars": {
           "status": "scored",
-          "score": 65
+          "score": 78
         },
         "language-integration-requirement": {
           "status": "scored",
-          "score": 85
+          "score": 88
         },
         "continuity-retention": {
           "status": "scored",
-          "score": 60
+          "score": 64
         },
         "policy-predictability": {
           "status": "scored",
-          "score": 60
+          "score": 64
         }
       },
       "pros": [
@@ -368,7 +368,7 @@
           "url": "https://www.irishimmigration.ie/registering-your-immigration-permission/information-on-registering/immigration-permission-stamps/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
@@ -376,7 +376,7 @@
       "factors": {
         "household-net-surplus": {
           "status": "scored",
-          "score": 56
+          "score": 58
         },
         "housing-cost-availability": {
           "status": "scored",
@@ -384,7 +384,7 @@
         },
         "savings-remittance": {
           "status": "scored",
-          "score": 58
+          "score": 60
         },
         "student-phase-affordability": {
           "status": "scored",
@@ -414,7 +414,7 @@
           "url": "https://www.irishtimes.com/business/2025/11/04/irelands-housing-crisis-to-last-another-15-years-department-of-finance-predicts/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
@@ -434,7 +434,7 @@
         },
         "social-insurance-safety-net": {
           "status": "scored",
-          "score": 60
+          "score": 62
         },
         "family-childcare-benefits": {
           "status": "scored",
@@ -460,7 +460,7 @@
           "url": "https://www.citizensinformation.ie/en/health/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
@@ -484,11 +484,11 @@
         },
         "worklife-livability": {
           "status": "scored",
-          "score": 68
+          "score": 70
         },
         "cultural-distance-adaptation": {
           "status": "scored",
-          "score": 65
+          "score": 68
         }
       },
       "pros": [
@@ -510,7 +510,7 @@
           "url": "https://www.citizensinformation.ie/en/moving-country/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
@@ -518,7 +518,7 @@
       "factors": {
         "personal-crime-safety": {
           "status": "scored",
-          "score": 85
+          "score": 90
         },
         "lived-discrimination-hatecrime": {
           "status": "scored",
@@ -526,19 +526,19 @@
         },
         "rule-of-law-corruption-civil-justice": {
           "status": "scored",
-          "score": 85
+          "score": 90
         },
         "women-safety-gbv": {
           "status": "scored",
-          "score": 72
+          "score": 74
         },
         "immigration-enforcement-due-process": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "antidiscrimination-law-enforcement": {
           "status": "scored",
-          "score": 65
+          "score": 68
         }
       },
       "pros": [
@@ -564,7 +564,7 @@
           "url": "https://www.visionofhumanity.org/maps/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -572,15 +572,15 @@
       "factors": {
         "immigration-policy-volatility": {
           "status": "scored",
-          "score": 52
+          "score": 55
         },
         "non-eu-skilled-policy-direction": {
           "status": "scored",
-          "score": 65
+          "score": 70
         },
         "anti-immigration-electoral-power": {
           "status": "scored",
-          "score": 58
+          "score": 60
         },
         "societal-sentiment-trend": {
           "status": "scored",
@@ -588,11 +588,11 @@
         },
         "institutional-governance-stability": {
           "status": "scored",
-          "score": 75
+          "score": 78
         },
         "targeted-risk-south-asian-muslim": {
           "status": "scored",
-          "score": 58
+          "score": 62
         }
       },
       "pros": [
@@ -611,7 +611,7 @@
           "url": "https://www.citizensinformation.ie/en/moving-country/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
@@ -627,15 +627,15 @@
         },
         "household-dual-earner-treatment": {
           "status": "scored",
-          "score": 60
+          "score": 64
         },
         "student-phase-tax-exposure": {
           "status": "scored",
-          "score": 62
+          "score": 64
         },
         "bd-treaty-repatriation": {
           "status": "scored",
-          "score": 60
+          "score": 68
         }
       },
       "pros": [
@@ -654,7 +654,7 @@
           "url": "https://kpmg.com/ie/en/insights/tax/budget-2026/tables.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -662,11 +662,11 @@
       "factors": {
         "bangladeshi-diaspora": {
           "status": "scored",
-          "score": 58
+          "score": 60
         },
         "religious-practice-infrastructure": {
           "status": "scored",
-          "score": 65
+          "score": 70
         },
         "sentiment-safety": {
           "status": "scored",
@@ -674,11 +674,11 @@
         },
         "legal-religious-accommodation": {
           "status": "scored",
-          "score": 68
+          "score": 72
         },
         "south-asian-cultural-ecosystem": {
           "status": "scored",
-          "score": 60
+          "score": 64
         }
       },
       "pros": [
@@ -697,7 +697,7 @@
           "url": "https://halalspy.com/halal-food-guide/europe/ireland/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
@@ -707,7 +707,7 @@
         "bd-direct-work-track-record": { "status": "scored", "score": 45 },
         "employer-sponsorship-willingness": { "status": "scored", "score": 90 },
         "route-onward-pr-citizenship": { "status": "scored", "score": 90 },
-        "current-openness": { "status": "scored", "score": 80 }
+        "current-openness": { "status": "scored", "score": 82 }
       },
       "summary": "A flagship direct-work route for an English-speaking BD CS engineer. The Critical Skills Employment Permit covers ICT roles, has no Labour Market Needs Test, and its threshold (€40,904 from 1 Mar 2026; €36,848 recent-graduate) sits comfortably below Dublin tech pay. Ireland has no sponsor-licence regime, so an employer can hire and relocate directly from Dhaka (employment permit, then a D-visa). CSEP → Stamp 1 → Stamp 4 at 21 months → naturalisation at 5 years reckonable (work time counts, unlike study), with dual citizenship retained both ways (Ireland within Bangladesh's all-Europe DNC scope). Dublin is a European big-tech hub (Google/Meta/Microsoft/Amazon/Apple). Main reservations: thin BD-specific track record and acute Dublin housing cost.",
       "pros": [
@@ -725,7 +725,7 @@
         { "title": "Immigration permission stamps (Stamp 1 / Stamp 4) — Immigration Service Delivery (official)", "url": "https://www.irishimmigration.ie/registering-your-immigration-permission/information-on-registering/immigration-permission-stamps/" },
         { "title": "Dual Nationality Certificate (all European states) — Embassy of Bangladesh (official)", "url": "https://washington.mofa.gov.bd/pages/static-pages/695266b435ce18e1c05aadf1" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }

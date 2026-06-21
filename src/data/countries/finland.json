@@ -6,7 +6,7 @@
   "flag": "🇫🇮",
   "region": "Europe",
   "summary": "The world's happiest country with top-tier rule of law (WJP 3rd), a strong AI ecosystem (Aalto, Silo AI, Nokia, Supercell), a 2-year graduate job-search permit, residence-based universal healthcare, a top passport and dual citizenship retained both ways (allowed; Finland on Bangladesh's DNC list) — but tempered for this profile by a hard Finnish/Swedish language burden for status, a Finns-Party-driven restrictive turn (citizenship and PR tightened in 2025–26, PR now 6 years), high tuition (~€17k/yr at Aalto), high tax, a moderate Muslim community with no grand mosque, and Bangladeshi visa biometrics routed through New Delhi. Derived overall sits just below the 60% inclusion line.",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "Migri (Finnish Immigration Service) — official",
@@ -20,27 +20,27 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "summary": "A strong AI/ML ecosystem (Aalto, Silo AI, Nokia, Supercell) with good salaries and a 12,000-worker ICT gap, but entry-level roles are competitive and the market is Helsinki-centric.",
+      "summary": "A genuine AI/ML hub (Aalto, Silo AI, Nokia, Supercell) with strong salaries (AI €56–121k) and a 12,000-worker ICT gap where 45% of roles are hard to fill, though entry-level roles stay competitive and the market is Helsinki-centric.",
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
-          "score": 64
+          "score": 70
         },
         "ai-ml-specialisation": {
           "status": "scored",
-          "score": 65
+          "score": 74
         },
         "salary-levels": {
           "status": "scored",
-          "score": 68
+          "score": 75
         },
         "foreign-grad-bd-hireability": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "dual-earner-depth": {
           "status": "scored",
-          "score": 55
+          "score": 58
         }
       },
       "pros": [
@@ -69,7 +69,7 @@
           "url": "https://www.nucamp.co/blog/coding-bootcamp-finland-fin-most-in-demand-tech-job-in-finland-in-2025"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
@@ -85,11 +85,11 @@
         },
         "in-queue-processing-schemes": {
           "status": "scored",
-          "score": 52
+          "score": 54
         },
         "financial-bars": {
           "status": "scored",
-          "score": 62
+          "score": 64
         },
         "credibility-genuineness-scrutiny": {
           "status": "scored",
@@ -126,7 +126,7 @@
           "url": "https://www.studyinfinland.fi/admissions/student-residence-permit"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
@@ -134,7 +134,7 @@
       "factors": {
         "time-to-citizenship": {
           "status": "scored",
-          "score": 58
+          "score": 64
         },
         "naturalisation-requirements": {
           "status": "scored",
@@ -146,7 +146,7 @@
         },
         "citizenship-attainability": {
           "status": "scored",
-          "score": 60
+          "score": 63
         },
         "policy-stability": {
           "status": "scored",
@@ -183,7 +183,7 @@
           "url": "https://migri.fi/en/language-skills-requirement"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
@@ -191,23 +191,23 @@
       "factors": {
         "psw-duration-runway": {
           "status": "scored",
-          "score": 65
+          "score": 71
         },
         "eligibility-openness-bd": {
           "status": "scored",
-          "score": 70
+          "score": 73
         },
         "transition-to-skilled-work": {
           "status": "scored",
-          "score": 65
+          "score": 70
         },
         "work-freedom-during-psw": {
           "status": "scored",
-          "score": 65
+          "score": 70
         },
         "dual-graduate-spouse-psw": {
           "status": "scored",
-          "score": 72
+          "score": 75
         },
         "psw-policy-stability": {
           "status": "scored",
@@ -237,7 +237,7 @@
           "url": "https://www.studyinfinland.fi/life-in-finland/opportunities-after-graduation"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
@@ -245,7 +245,7 @@
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "dependent-visa-bd-access": {
           "status": "scored",
@@ -253,11 +253,11 @@
         },
         "family-reunification-children": {
           "status": "scored",
-          "score": 68
+          "score": 70
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 65
+          "score": 68
         }
       },
       "pros": [
@@ -279,7 +279,7 @@
           "url": "https://migri.fi/en/family-member-of-a-person-who-has-been-granted-a-residence-permit"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
@@ -291,19 +291,19 @@
         },
         "english-program-depth": {
           "status": "scored",
-          "score": 80
+          "score": 84
         },
         "admission-credential-access": {
           "status": "scored",
-          "score": 70
+          "score": 73
         },
         "student-work-rights": {
           "status": "scored",
-          "score": 72
+          "score": 75
         },
         "study-pathway-fit": {
           "status": "scored",
-          "score": 78
+          "score": 80
         }
       },
       "pros": [
@@ -329,7 +329,7 @@
           "url": "https://www.aalto.fi/en/international-students/tuition-fees-and-scholarships"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
@@ -341,7 +341,7 @@
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 55
+          "score": 57
         },
         "eligibility-bars": {
           "status": "scored",
@@ -379,7 +379,7 @@
           "url": "https://migri.fi/en/amendments-to-aliens-act-regarding-permanent-residence-permits-2026"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
@@ -387,7 +387,7 @@
       "factors": {
         "household-net-surplus": {
           "status": "scored",
-          "score": 58
+          "score": 60
         },
         "housing-cost-availability": {
           "status": "scored",
@@ -422,7 +422,7 @@
           "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/04/taxing-wages-2025-country-notes_16d47563/finland_4afd5846/3f52905b-en.pdf"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
@@ -430,23 +430,23 @@
       "factors": {
         "newcomer-eligibility-barrier": {
           "status": "scored",
-          "score": 62
+          "score": 64
         },
         "health-quality-access": {
           "status": "scored",
-          "score": 70
+          "score": 73
         },
         "cost-coverage-by-status": {
           "status": "scored",
-          "score": 70
+          "score": 72
         },
         "social-insurance-safety-net": {
           "status": "scored",
-          "score": 72
+          "score": 74
         },
         "family-childcare-benefits": {
           "status": "scored",
-          "score": 75
+          "score": 77
         }
       },
       "pros": [
@@ -465,7 +465,7 @@
           "url": "https://www.studyinfinland.fi/life-in-finland"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
@@ -473,7 +473,7 @@
       "factors": {
         "english-usability": {
           "status": "scored",
-          "score": 58
+          "score": 61
         },
         "language-burden-citizenship": {
           "status": "scored",
@@ -489,7 +489,7 @@
         },
         "worklife-livability": {
           "status": "scored",
-          "score": 82
+          "score": 84
         },
         "cultural-distance-adaptation": {
           "status": "scored",
@@ -512,7 +512,7 @@
           "url": "https://infofinland.fi/en/settling-in-finland"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
@@ -520,7 +520,7 @@
       "factors": {
         "personal-crime-safety": {
           "status": "scored",
-          "score": 80
+          "score": 82
         },
         "lived-discrimination-hatecrime": {
           "status": "scored",
@@ -532,7 +532,7 @@
         },
         "women-safety-gbv": {
           "status": "scored",
-          "score": 78
+          "score": 82
         },
         "immigration-enforcement-due-process": {
           "status": "scored",
@@ -559,7 +559,7 @@
           "url": "https://worldjusticeproject.org/rule-of-law-index/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -609,7 +609,7 @@
           "url": "https://globalcit.eu/restrictive-citizenship-reform-in-finland-in-three-acts-a-paradigm-shift-driven-by-the-radical-right/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
@@ -652,7 +652,7 @@
           "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/04/taxing-wages-2026-country-notes_491a0e97/finland_fd5780b2/9bc058eb-en.pdf"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -699,7 +699,7 @@
           "url": "https://en.wikipedia.org/wiki/Somalis_in_Finland"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
@@ -707,9 +707,9 @@
         "work-visa-accessibility-bd": { "status": "scored", "score": 86 },
         "overseas-direct-hire": { "status": "scored", "score": 84 },
         "bd-direct-work-track-record": { "status": "scored", "score": 58 },
-        "employer-sponsorship-willingness": { "status": "scored", "score": 80 },
-        "route-onward-pr-citizenship": { "status": "scored", "score": 66 },
-        "current-openness": { "status": "scored", "score": 78 }
+        "employer-sponsorship-willingness": { "status": "scored", "score": 82 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 68 },
+        "current-openness": { "status": "scored", "score": 80 }
       },
       "summary": "One of the cleaner EU direct-hire routes for entry, with a settlement leg that tightened in 2024–26. The Specialist permit / EU Blue Card share a salary floor (€3,937/mo in 2026) easily cleared by Finnish dev pay, carry no labour-market test, and offer a 14-day fast-track plus a D-visa so an approved hire flies in immediately — both spouses can hold independent specialist permits. Finland actively recruits IT (Talent Boost; ~130,000 skilled-worker need this decade). The catch is onward: PR is now effectively 6 years (4 only with income/master's/language conditions, from Jan 2026) and citizenship 8 years (5 if Finnish/Swedish ~A2 is met). Dual citizenship is clean both ways. BD-side processing routes via the Embassy in New Delhi, lengthening the real timeline beyond the 2-week headline.",
       "pros": [
@@ -726,7 +726,7 @@
         { "title": "Amendments to Aliens Act re permanent residence permits 2026 (4→6 yrs) — Migri (official)", "url": "https://migri.fi/en/amendments-to-aliens-act-regarding-permanent-residence-permits-2026" },
         { "title": "Period of residence longer; Citizenship Act amendments (1 Oct 2024) — Finnish Government (official)", "url": "https://valtioneuvosto.fi/en/-//5202425/period-of-residence-becomes-longer-when-amendments-to-citizenship-act-enter-into-force-on-1-october-2024" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }

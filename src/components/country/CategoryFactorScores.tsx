@@ -41,7 +41,7 @@ export function CategoryFactorScores({ breakdown, displayScore }: { breakdown: F
         </TableFooter>
       </Table>
       <p className="text-xs text-muted-foreground">
-        This factor-weighted mean is the category score ({formatPercent(displayScore)}); only the overall score is recalibrated for ranking (see Methodology).
+        This factor-weighted mean is the exact category score ({formatPercent(displayScore)}); the overall is the weighted mean of all categories — no display curve is applied (see Methodology).
       </p>
     </div>
   );

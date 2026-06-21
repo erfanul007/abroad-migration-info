@@ -6,7 +6,7 @@
   "flag": "🇬🇧",
   "region": "Europe",
   "summary": "English-native with the world's largest, deepest British-Bangladeshi community (~652,000, centred on London's Tower Hamlets/Banglatown), a top global AI hub, dual citizenship retained both ways (UK is explicitly on Bangladesh's DNC list), a ~6-year citizenship path at native-English ease, NHS access via the health surcharge and world-class universities — but weighed down by very high tuition (£32k–45k for an AI MSc) and London costs, the Graduate Route being cut to 18 months (2027), a Reform-UK-driven anti-immigration/anti-Islam turn, and a 2025 White Paper proposing to double the settlement (ILR) wait to 10 years. Derived overall is comfortably above the 60% inclusion line.",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "GOV.UK — visas and immigration (official)",
@@ -20,27 +20,27 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "summary": "London is a top global AI/tech hub with strong, English-native demand and high salaries, though entry-level hiring has tightened.",
+      "summary": "London is a top-tier global AI/tech hub — English-native, ~80% of UK AI-skills demand, ~200% YoY AI-role growth and high salaries (SWE ~£73k–142k, AI ~£64k–112k) — with a deep multi-city market (London, Manchester, Cambridge, Edinburgh) that readily absorbs two tech earners, though entry-level hiring has tightened.",
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
-          "score": 74
+          "score": 84
         },
         "ai-ml-specialisation": {
           "status": "scored",
-          "score": 80
+          "score": 88
         },
         "salary-levels": {
           "status": "scored",
-          "score": 76
+          "score": 86
         },
         "foreign-grad-bd-hireability": {
           "status": "scored",
-          "score": 74
+          "score": 82
         },
         "dual-earner-depth": {
           "status": "scored",
-          "score": 72
+          "score": 84
         }
       },
       "pros": [
@@ -66,23 +66,23 @@
           "url": "https://itbrief.co.uk/story/uk-developer-pay-hits-record-levels-as-ai-skills-drive-demand"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
-      "summary": "A deep, well-trodden Bangladeshi student pipeline via the UK High Commission/VFS in Dhaka, though tuition, maintenance funds, the IHS and a TB test raise the cash bar.",
+      "summary": "A deep, well-trodden Bangladeshi student pipeline via the UK High Commission/VFS in Dhaka with efficient (often ~3-week priority) processing and high approval for genuine students, though tuition, maintenance funds, the IHS and a TB test raise the cash bar.",
       "factors": {
         "approval-refusal-rate": {
           "status": "scored",
-          "score": 62
+          "score": 68
         },
         "dhaka-mission-appointment-capacity": {
           "status": "scored",
-          "score": 70
+          "score": 82
         },
         "in-queue-processing-schemes": {
           "status": "scored",
-          "score": 62
+          "score": 78
         },
         "financial-bars": {
           "status": "scored",
@@ -117,7 +117,7 @@
           "url": "https://aimseducation.co.uk/bd/blog/uk-student-visa"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
@@ -125,11 +125,11 @@
       "factors": {
         "time-to-citizenship": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "naturalisation-requirements": {
           "status": "scored",
-          "score": 80
+          "score": 86
         },
         "dual-citizenship-retention": {
           "status": "scored",
@@ -137,7 +137,7 @@
         },
         "citizenship-attainability": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "policy-stability": {
           "status": "scored",
@@ -145,7 +145,7 @@
         },
         "passport-strength": {
           "status": "scored",
-          "score": 88
+          "score": 90
         }
       },
       "pros": [
@@ -171,7 +171,7 @@
           "url": "https://www.gov.uk/apply-citizenship-indefinite-leave-to-remain"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
@@ -179,23 +179,23 @@
       "factors": {
         "psw-duration-runway": {
           "status": "scored",
-          "score": 62
+          "score": 64
         },
         "eligibility-openness-bd": {
           "status": "scored",
-          "score": 78
+          "score": 82
         },
         "transition-to-skilled-work": {
           "status": "scored",
-          "score": 65
+          "score": 70
         },
         "work-freedom-during-psw": {
           "status": "scored",
-          "score": 85
+          "score": 90
         },
         "dual-graduate-spouse-psw": {
           "status": "scored",
-          "score": 80
+          "score": 86
         },
         "psw-policy-stability": {
           "status": "scored",
@@ -222,7 +222,7 @@
           "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10267/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
@@ -230,7 +230,7 @@
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
-          "score": 78
+          "score": 88
         },
         "dependent-visa-bd-access": {
           "status": "scored",
@@ -242,7 +242,7 @@
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 75
+          "score": 84
         }
       },
       "pros": [
@@ -261,7 +261,7 @@
           "url": "https://www.gov.uk/skilled-worker-visa/your-partner-and-children"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
@@ -273,11 +273,11 @@
         },
         "english-program-depth": {
           "status": "scored",
-          "score": 88
+          "score": 92
         },
         "admission-credential-access": {
           "status": "scored",
-          "score": 70
+          "score": 74
         },
         "student-work-rights": {
           "status": "scored",
@@ -304,7 +304,7 @@
           "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/artificial-intelligence/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
@@ -312,15 +312,15 @@
       "factors": {
         "years-to-pr": {
           "status": "scored",
-          "score": 60
+          "score": 62
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "eligibility-bars": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "language-integration-requirement": {
           "status": "scored",
@@ -351,7 +351,7 @@
           "url": "https://www.faegredrinker.com/en/insights/publications/2025/11/earned-settlement-reshaping-the-uks-settlement-system"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
@@ -394,15 +394,15 @@
           "url": "https://eduvisors.com.bd/complete-guide-to-uk-visa-ihs-costs-for-bangladeshi-students/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
-      "summary": "Full NHS access from arrival via the Immigration Health Surcharge (£1,035/yr), though NHS waiting times are long.",
+      "summary": "Full NHS access from day one of arrival via the Immigration Health Surcharge (£1,035/yr), on the same basis as residents, though NHS waiting times are long.",
       "factors": {
         "newcomer-eligibility-barrier": {
           "status": "scored",
-          "score": 70
+          "score": 84
         },
         "health-quality-access": {
           "status": "scored",
@@ -437,7 +437,7 @@
           "url": "https://www.gov.uk/healthcare-immigration-application"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
@@ -465,7 +465,7 @@
         },
         "cultural-distance-adaptation": {
           "status": "scored",
-          "score": 72
+          "score": 84
         }
       },
       "pros": [
@@ -484,7 +484,7 @@
           "url": "https://en.wikipedia.org/wiki/British_Bangladeshis"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
@@ -512,7 +512,7 @@
         },
         "antidiscrimination-law-enforcement": {
           "status": "scored",
-          "score": 68
+          "score": 72
         }
       },
       "pros": [
@@ -531,7 +531,7 @@
           "url": "https://worldjusticeproject.org/sites/default/files/documents/United%20Kingdom_4.pdf"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -555,7 +555,7 @@
         },
         "institutional-governance-stability": {
           "status": "scored",
-          "score": 72
+          "score": 74
         },
         "targeted-risk-south-asian-muslim": {
           "status": "scored",
@@ -578,7 +578,7 @@
           "url": "https://hyphenonline.com/2026/04/27/reform-uk-guide-uk-muslims-islam-nigel-farage-policies/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
@@ -602,7 +602,7 @@
         },
         "bd-treaty-repatriation": {
           "status": "scored",
-          "score": 65
+          "score": 68
         }
       },
       "pros": [
@@ -621,7 +621,7 @@
           "url": "https://www.gov.uk/income-tax-rates"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -641,7 +641,7 @@
         },
         "legal-religious-accommodation": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "south-asian-cultural-ecosystem": {
           "status": "scored",
@@ -668,16 +668,16 @@
           "url": "https://en.wikipedia.org/wiki/Islam_in_the_United_Kingdom"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
       "factors": {
         "work-visa-accessibility-bd": { "status": "scored", "score": 52 },
-        "overseas-direct-hire": { "status": "scored", "score": 70 },
+        "overseas-direct-hire": { "status": "scored", "score": 72 },
         "bd-direct-work-track-record": { "status": "scored", "score": 62 },
         "employer-sponsorship-willingness": { "status": "scored", "score": 50 },
-        "route-onward-pr-citizenship": { "status": "scored", "score": 65 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 68 },
         "current-openness": { "status": "scored", "score": 35 }
       },
       "summary": "A legally valid direct-work route, but friction-heavy for this junior profile. The Skilled Worker visa effectively requires the software-developer going rate (~£54,700, occupation code 2134) — well above the £41,700 general threshold — unless the new-entrant discount applies; the RQF6 degree floor is met by the BSc. A UK employer can hire and relocate from Dhaka on a Certificate of Sponsorship, and Global Talent (Digital Technology) needs no sponsor, salary floor or English test but demands a strong endorsable portfolio. Skilled Worker → ILR (5 yrs) → citizenship, with dual retained (UK on Bangladesh's DNC list) — but the 2025 White Paper's proposed 10-year 'earned settlement' (consultation closed Feb 2026, not yet law) would roughly double the PR timeline. Sustained tightening: thresholds raised, ~36% fewer Skilled Worker grants YoY, rising sponsor costs.",
@@ -697,7 +697,7 @@
         { "title": "Changes after the 2025 immigration White Paper — House of Commons Library", "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10267/" },
         { "title": "Dual Nationality Certificate — Bangladesh High Commission London (official)", "url": "https://bhclondon.org.uk/dual-nationality-certificate" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }

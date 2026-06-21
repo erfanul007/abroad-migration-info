@@ -6,7 +6,7 @@
   "flag": "🇩🇰",
   "region": "Europe",
   "summary": "Structurally world-class — WJP rule of law #1, GPI 8th, Henley 3rd passport, a 3-year open post-study work permit, immediate free healthcare via CPR, strong tech salaries and dual citizenship retained both ways (allowed since 2015; Denmark on Bangladesh's DNC list) — yet a poor fit for a Muslim Bangladeshi couple targeting citizenship: Denmark runs Europe's most restrictive migration regime (Social-Democrat 'zero asylum', 'parallel society'/ghetto laws keyed to 'non-Western' origin, an expanding burqa/niqab ban, recurrent Quran-burnings), naturalisation takes 9 years with B2 Danish and self-sufficiency, permanent residence effectively 8 years, and tax is among the world's highest. Derived overall sits just below the 60% inclusion line.",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "New to Denmark — official immigration portal (SIRI/nyidanmark)",
@@ -20,23 +20,23 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "summary": "High absolute tech salaries in Copenhagen with AI/ML the fastest-rising specialty and skilled-migration channels open (Positive List, Pay Limit scheme), though the market is Copenhagen-centric.",
+      "summary": "High absolute tech salaries in Copenhagen with AI/ML the fastest-rising specialty in a genuine shortage market and skilled-migration channels open (Positive List, Pay Limit scheme), though the market is Copenhagen-centric.",
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
-          "score": 70
+          "score": 74
         },
         "ai-ml-specialisation": {
           "status": "scored",
-          "score": 60
+          "score": 68
         },
         "salary-levels": {
           "status": "scored",
-          "score": 78
+          "score": 80
         },
         "foreign-grad-bd-hireability": {
           "status": "scored",
-          "score": 60
+          "score": 64
         },
         "dual-earner-depth": {
           "status": "scored",
@@ -69,7 +69,7 @@
           "url": "https://jobicy.com/salaries/dk/ai-engineer"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
@@ -77,11 +77,11 @@
       "factors": {
         "approval-refusal-rate": {
           "status": "scored",
-          "score": 52
+          "score": 55
         },
         "dhaka-mission-appointment-capacity": {
           "status": "scored",
-          "score": 55
+          "score": 60
         },
         "in-queue-processing-schemes": {
           "status": "scored",
@@ -93,11 +93,11 @@
         },
         "credibility-genuineness-scrutiny": {
           "status": "scored",
-          "score": 52
+          "score": 55
         },
         "heightened-scrutiny-policy-risk": {
           "status": "scored",
-          "score": 50
+          "score": 56
         }
       },
       "pros": [
@@ -126,7 +126,7 @@
           "url": "https://studyindenmark.dk/live-in-denmark/permits-visas-red-tape/residence-permits-non-eu-eea-citizens"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
@@ -146,7 +146,7 @@
         },
         "citizenship-attainability": {
           "status": "scored",
-          "score": 40
+          "score": 45
         },
         "policy-stability": {
           "status": "scored",
@@ -179,11 +179,11 @@
           "url": "https://lifeindenmark.borger.dk/settle-in-denmark/danish-citizenship/conditions-for-foreign-citizens--acquisition-of-danish-citizenship"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
-      "summary": "A standout strength: graduates of a Danish bachelor/master/PhD get a 3-year work permit without limitations and no job offer required, and family can accompany — matching Canada's best-in-class runway.",
+      "summary": "A standout strength: graduates of a Danish bachelor/master/PhD get a 3-year work permit without limitations and no job offer required, and family can accompany — matching Canada's best-in-class runway, with the Positive List (no fixed salary floor for IT) giving a realistic offer-based conversion to skilled work.",
       "factors": {
         "psw-duration-runway": {
           "status": "scored",
@@ -191,11 +191,11 @@
         },
         "eligibility-openness-bd": {
           "status": "scored",
-          "score": 82
+          "score": 86
         },
         "transition-to-skilled-work": {
           "status": "scored",
-          "score": 68
+          "score": 74
         },
         "work-freedom-during-psw": {
           "status": "scored",
@@ -233,7 +233,7 @@
           "url": "https://www.study-abroad.org/study-in-denmark/work-and-career/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
@@ -241,7 +241,7 @@
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
-          "score": 70
+          "score": 76
         },
         "dependent-visa-bd-access": {
           "status": "scored",
@@ -249,11 +249,11 @@
         },
         "family-reunification-children": {
           "status": "scored",
-          "score": 60
+          "score": 62
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 68
+          "score": 74
         }
       },
       "pros": [
@@ -275,7 +275,7 @@
           "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Accompanying-family-Work"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
@@ -291,11 +291,11 @@
         },
         "admission-credential-access": {
           "status": "scored",
-          "score": 70
+          "score": 74
         },
         "student-work-rights": {
           "status": "scored",
-          "score": 65
+          "score": 70
         },
         "study-pathway-fit": {
           "status": "scored",
@@ -325,7 +325,7 @@
           "url": "https://www.study.eu/guide/masters-in-denmark"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
@@ -337,7 +337,7 @@
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 52
+          "score": 56
         },
         "eligibility-bars": {
           "status": "scored",
@@ -349,7 +349,7 @@
         },
         "continuity-retention": {
           "status": "scored",
-          "score": 58
+          "score": 60
         },
         "policy-predictability": {
           "status": "scored",
@@ -375,7 +375,7 @@
           "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Permanent-residence"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
@@ -383,7 +383,7 @@
       "factors": {
         "household-net-surplus": {
           "status": "scored",
-          "score": 58
+          "score": 62
         },
         "housing-cost-availability": {
           "status": "scored",
@@ -391,7 +391,7 @@
         },
         "savings-remittance": {
           "status": "scored",
-          "score": 60
+          "score": 63
         },
         "student-phase-affordability": {
           "status": "scored",
@@ -421,7 +421,7 @@
           "url": "https://taxsummaries.pwc.com/denmark/individual/taxes-on-personal-income"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
@@ -429,23 +429,23 @@
       "factors": {
         "newcomer-eligibility-barrier": {
           "status": "scored",
-          "score": 80
+          "score": 84
         },
         "health-quality-access": {
           "status": "scored",
-          "score": 75
+          "score": 78
         },
         "cost-coverage-by-status": {
           "status": "scored",
-          "score": 80
+          "score": 82
         },
         "social-insurance-safety-net": {
           "status": "scored",
-          "score": 75
+          "score": 80
         },
         "family-childcare-benefits": {
           "status": "scored",
-          "score": 75
+          "score": 80
         }
       },
       "pros": [
@@ -467,7 +467,7 @@
           "url": "https://studyindenmark.dk/live-in-denmark/health-safety/healthcare-1"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
@@ -475,7 +475,7 @@
       "factors": {
         "english-usability": {
           "status": "scored",
-          "score": 65
+          "score": 72
         },
         "language-burden-citizenship": {
           "status": "scored",
@@ -491,7 +491,7 @@
         },
         "worklife-livability": {
           "status": "scored",
-          "score": 82
+          "score": 85
         },
         "cultural-distance-adaptation": {
           "status": "scored",
@@ -517,7 +517,7 @@
           "url": "https://www.howtoliveindenmark.com/stories-about-life-in-denmark/muslims-in-denmark-2/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
@@ -525,7 +525,7 @@
       "factors": {
         "personal-crime-safety": {
           "status": "scored",
-          "score": 82
+          "score": 85
         },
         "lived-discrimination-hatecrime": {
           "status": "scored",
@@ -537,7 +537,7 @@
         },
         "women-safety-gbv": {
           "status": "scored",
-          "score": 80
+          "score": 83
         },
         "immigration-enforcement-due-process": {
           "status": "scored",
@@ -571,7 +571,7 @@
           "url": "https://www.visionofhumanity.org/wp-content/uploads/2025/06/Global-Peace-Index-2025-web.pdf"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -583,7 +583,7 @@
         },
         "non-eu-skilled-policy-direction": {
           "status": "scored",
-          "score": 58
+          "score": 62
         },
         "anti-immigration-electoral-power": {
           "status": "scored",
@@ -595,7 +595,7 @@
         },
         "institutional-governance-stability": {
           "status": "scored",
-          "score": 82
+          "score": 85
         },
         "targeted-risk-south-asian-muslim": {
           "status": "scored",
@@ -625,7 +625,7 @@
           "url": "https://www.migrationpolicy.org/article/denmark-migration-profile-pioneer"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
@@ -641,11 +641,11 @@
         },
         "household-dual-earner-treatment": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "student-phase-tax-exposure": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "bd-treaty-repatriation": {
           "status": "scored",
@@ -671,7 +671,7 @@
           "url": "https://skat.dk/en-us/businesses/employees-and-pay/non-danish-labour/tax-scheme-for-researchers"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -683,7 +683,7 @@
         },
         "religious-practice-infrastructure": {
           "status": "scored",
-          "score": 72
+          "score": 76
         },
         "sentiment-safety": {
           "status": "scored",
@@ -695,7 +695,7 @@
         },
         "south-asian-cultural-ecosystem": {
           "status": "scored",
-          "score": 48
+          "score": 51
         }
       },
       "pros": [
@@ -721,17 +721,17 @@
           "url": "https://www.dhakatribune.com/foreign-affairs/2023/01/28/bangladesh-strongly-condemns-burning-of-holy-quran-in-denmark"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
       "factors": {
-        "work-visa-accessibility-bd": { "status": "scored", "score": 62 },
-        "overseas-direct-hire": { "status": "scored", "score": 55 },
+        "work-visa-accessibility-bd": { "status": "scored", "score": 68 },
+        "overseas-direct-hire": { "status": "scored", "score": 60 },
         "bd-direct-work-track-record": { "status": "scored", "score": 30 },
-        "employer-sponsorship-willingness": { "status": "scored", "score": 60 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 64 },
         "route-onward-pr-citizenship": { "status": "scored", "score": 38 },
-        "current-openness": { "status": "scored", "score": 45 }
+        "current-openness": { "status": "scored", "score": 50 }
       },
       "summary": "Open front door, slow climb. White-collar routes exist (Pay Limit, Positive List for Higher Education, Fast-Track, EU Blue Card) and IT roles are explicitly shortage-listed into 2026–27, with the Positive List carrying no fixed salary floor — a good fit for the couple's BSc + experience. But the salary bar is high and rising (2026 Pay Limit DKK 552,000; supplementary DKK 446,000), and crucially Bangladesh is NOT among the 16 favoured countries given the eased DKK 300,000 threshold (India/China/etc. are) — so a BD applicant pays the full bar peers escape. The onward path is among Europe's hardest: PR typically 8 years (4 only with all supplementary conditions) and citizenship ~9 years with Danish at B2 and tests. Dual citizenship is allowed (since 2015), so BD nationality is retained.",
       "pros": [
@@ -748,7 +748,7 @@
         { "title": "Fast-track Scheme — nyidanmark.dk (official)", "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/Fast-track" },
         { "title": "Permanent residence permit (8-year rule) — nyidanmark.dk (official)", "url": "https://nyidanmark.dk/en-GB/Applying/Permanent%20residence%20permit/Permanent%20residence" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }

@@ -6,7 +6,7 @@
   "flag": "🇨🇦",
   "region": "North America",
   "summary": "The textbook English-native study→3-year PGWP→Express Entry (CEC)→citizenship pipeline, with dual citizenship retained both ways (Canada is on Bangladesh's Dual Nationality Certificate list), five-year naturalisation at CLB 4, and a top-tier AI ecosystem (Vector, Mila, Amii); from 1 January 2026 a master's at a public DLI is exempt from both the study-permit cap and the PAL requirement. Tempered by a collapse in new study-permit approval rates (~30% in 2025 vs 51% in 2024) after the Student Direct Stream was cancelled, severe Toronto/Vancouver housing costs, a ~21% cut to permanent-resident targets (≈380,000/yr, 2026–28), and a cooling immigration-sentiment climate under Carney's minority Liberal government plus Quebec's Bill 21.",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "Immigration, Refugees and Citizenship Canada — official",
@@ -20,27 +20,27 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "summary": "Top-tier AI ecosystem (Vector, Mila, Amii) and a tech labour market at ~3.3% unemployment across Toronto/Vancouver/Montreal/Ottawa/Waterloo, with the PGWP open work permit removing LMIA friction for new graduates.",
+      "summary": "A top-tier global AI ecosystem (Vector, Mila, Amii) and a deep multi-hub tech labour market at ~3.3% unemployment across Toronto/Vancouver/Montreal/Ottawa/Waterloo that can absorb both engineers, with software/AI confirmed an Express Entry priority for 2026, strong AI-premium pay (SWE ~CAD 90–137k, AI/ML ~CAD 85–150k), and the PGWP open work permit removing LMIA friction for new graduates.",
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
-          "score": 76
+          "score": 86
         },
         "ai-ml-specialisation": {
           "status": "scored",
-          "score": 82
+          "score": 90
         },
         "salary-levels": {
           "status": "scored",
-          "score": 70
+          "score": 82
         },
         "foreign-grad-bd-hireability": {
           "status": "scored",
-          "score": 70
+          "score": 80
         },
         "dual-earner-depth": {
           "status": "scored",
-          "score": 78
+          "score": 86
         }
       },
       "pros": [
@@ -72,15 +72,15 @@
           "url": "https://www.roberthalf.com/ca/en/job-details/software-engineerdeveloper/toronto-on"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
-      "summary": "Lodgement and biometrics stay in Dhaka via VFS with ~8-week processing, and a master's at a public DLI is exempt from the 2026 cap and PAL — but new study-permit approval rates collapsed to ~30% in 2025 (from 51% in 2024) after the Student Direct Stream was cancelled.",
+      "summary": "Lodgement and biometrics stay in Dhaka via VFS with ~8-week processing, and a master's at a public DLI is exempt from the 2026 cap and PAL, so this profile fares better than the system-wide headline; the tightening is broad, not Bangladesh-targeted — but new study-permit approval rates still collapsed to ~30% in 2025 (from 51% in 2024) after the Student Direct Stream was cancelled, so entry remains the binding friction.",
       "factors": {
         "approval-refusal-rate": {
           "status": "scored",
-          "score": 38
+          "score": 42
         },
         "dhaka-mission-appointment-capacity": {
           "status": "scored",
@@ -100,7 +100,7 @@
         },
         "heightened-scrutiny-policy-risk": {
           "status": "scored",
-          "score": 45
+          "score": 50
         }
       },
       "pros": [
@@ -137,7 +137,7 @@
           "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/2026-provincial-territorial-allocations-under-international-student-cap.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
@@ -145,19 +145,19 @@
       "factors": {
         "time-to-citizenship": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "naturalisation-requirements": {
           "status": "scored",
-          "score": 80
+          "score": 86
         },
         "dual-citizenship-retention": {
           "status": "scored",
-          "score": 90
+          "score": 92
         },
         "citizenship-attainability": {
           "status": "scored",
-          "score": 78
+          "score": 84
         },
         "policy-stability": {
           "status": "scored",
@@ -165,7 +165,7 @@
         },
         "passport-strength": {
           "status": "scored",
-          "score": 86
+          "score": 88
         }
       },
       "pros": [
@@ -197,7 +197,7 @@
           "url": "https://laws-lois.justice.gc.ca/eng/acts/c-29/section-5.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
@@ -205,23 +205,23 @@
       "factors": {
         "psw-duration-runway": {
           "status": "scored",
-          "score": 88
+          "score": 92
         },
         "eligibility-openness-bd": {
           "status": "scored",
-          "score": 82
+          "score": 88
         },
         "transition-to-skilled-work": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "work-freedom-during-psw": {
           "status": "scored",
-          "score": 88
+          "score": 92
         },
         "dual-graduate-spouse-psw": {
           "status": "scored",
-          "score": 88
+          "score": 92
         },
         "psw-policy-stability": {
           "status": "scored",
@@ -257,7 +257,7 @@
           "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
@@ -265,19 +265,19 @@
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
-          "score": 80
+          "score": 88
         },
         "dependent-visa-bd-access": {
           "status": "scored",
-          "score": 80
+          "score": 84
         },
         "family-reunification-children": {
           "status": "scored",
-          "score": 82
+          "score": 86
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 82
+          "score": 88
         }
       },
       "pros": [
@@ -305,7 +305,7 @@
           "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/changes-open-work-permits-family-members-temporary-residents.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
@@ -317,19 +317,19 @@
         },
         "english-program-depth": {
           "status": "scored",
-          "score": 88
+          "score": 92
         },
         "admission-credential-access": {
           "status": "scored",
-          "score": 75
+          "score": 82
         },
         "student-work-rights": {
           "status": "scored",
-          "score": 82
+          "score": 85
         },
         "study-pathway-fit": {
           "status": "scored",
-          "score": 85
+          "score": 90
         }
       },
       "pros": [
@@ -358,7 +358,7 @@
           "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
@@ -366,11 +366,11 @@
       "factors": {
         "years-to-pr": {
           "status": "scored",
-          "score": 72
+          "score": 80
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 72
+          "score": 80
         },
         "eligibility-bars": {
           "status": "scored",
@@ -378,7 +378,7 @@
         },
         "language-integration-requirement": {
           "status": "scored",
-          "score": 80
+          "score": 84
         },
         "continuity-retention": {
           "status": "scored",
@@ -418,7 +418,7 @@
           "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/eligibility/canadian-experience-class.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
@@ -426,7 +426,7 @@
       "factors": {
         "household-net-surplus": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "housing-cost-availability": {
           "status": "scored",
@@ -434,7 +434,7 @@
         },
         "savings-remittance": {
           "status": "scored",
-          "score": 68
+          "score": 70
         },
         "student-phase-affordability": {
           "status": "scored",
@@ -464,7 +464,7 @@
           "url": "https://www.mastersportal.com/articles/1659/study-in-canada-living-costs-tuition-fees-for-international-students.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
@@ -472,7 +472,7 @@
       "factors": {
         "newcomer-eligibility-barrier": {
           "status": "scored",
-          "score": 48
+          "score": 52
         },
         "health-quality-access": {
           "status": "scored",
@@ -513,7 +513,7 @@
           "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/new-immigrants/new-life-canada/health-care-card.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
@@ -521,15 +521,15 @@
       "factors": {
         "english-usability": {
           "status": "scored",
-          "score": 90
+          "score": 94
         },
         "language-burden-citizenship": {
           "status": "scored",
-          "score": 88
+          "score": 92
         },
         "integration-support": {
           "status": "scored",
-          "score": 75
+          "score": 82
         },
         "social-acceptance-south-asian": {
           "status": "scored",
@@ -570,7 +570,7 @@
           "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/new-immigrants/new-life-canada/improve-english-french.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
@@ -578,7 +578,7 @@
       "factors": {
         "personal-crime-safety": {
           "status": "scored",
-          "score": 75
+          "score": 80
         },
         "lived-discrimination-hatecrime": {
           "status": "scored",
@@ -586,7 +586,7 @@
         },
         "rule-of-law-corruption-civil-justice": {
           "status": "scored",
-          "score": 80
+          "score": 82
         },
         "women-safety-gbv": {
           "status": "scored",
@@ -594,7 +594,7 @@
         },
         "immigration-enforcement-due-process": {
           "status": "scored",
-          "score": 72
+          "score": 75
         },
         "antidiscrimination-law-enforcement": {
           "status": "scored",
@@ -627,7 +627,7 @@
           "url": "https://www.visionofhumanity.org/wp-content/uploads/2025/06/Global-Peace-Index-2025-web.pdf"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -639,7 +639,7 @@
         },
         "non-eu-skilled-policy-direction": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "anti-immigration-electoral-power": {
           "status": "scored",
@@ -651,7 +651,7 @@
         },
         "institutional-governance-stability": {
           "status": "scored",
-          "score": 82
+          "score": 85
         },
         "targeted-risk-south-asian-muslim": {
           "status": "scored",
@@ -684,7 +684,7 @@
           "url": "https://www.cbc.ca/news/politics/new-immigration-strategy-carney-9.6964494"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
@@ -692,7 +692,7 @@
       "factors": {
         "effective-deduction-wedge": {
           "status": "scored",
-          "score": 52
+          "score": 55
         },
         "expat-foreign-worker-relief": {
           "status": "scored",
@@ -700,7 +700,7 @@
         },
         "household-dual-earner-treatment": {
           "status": "scored",
-          "score": 70
+          "score": 72
         },
         "student-phase-tax-exposure": {
           "status": "scored",
@@ -734,7 +734,7 @@
           "url": "https://taxsummaries.pwc.com/canada/individual/taxes-on-personal-income"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -742,7 +742,7 @@
       "factors": {
         "bangladeshi-diaspora": {
           "status": "scored",
-          "score": 75
+          "score": 78
         },
         "religious-practice-infrastructure": {
           "status": "scored",
@@ -784,16 +784,16 @@
           "url": "https://en.wikipedia.org/wiki/Bangladeshi_Canadians"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
       "factors": {
         "work-visa-accessibility-bd": { "status": "scored", "score": 55 },
-        "overseas-direct-hire": { "status": "scored", "score": 70 },
+        "overseas-direct-hire": { "status": "scored", "score": 73 },
         "bd-direct-work-track-record": { "status": "scored", "score": 50 },
         "employer-sponsorship-willingness": { "status": "scored", "score": 60 },
-        "route-onward-pr-citizenship": { "status": "scored", "score": 75 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 78 },
         "current-openness": { "status": "scored", "score": 45 }
       },
       "summary": "A real but no-longer-prioritised direct-work route. The Global Talent Stream issues work permits for software/data-science roles in ~2 weeks and a Canadian employer can hire and relocate directly from Dhaka, but converting that permit to PR now hinges on a high general/CEC Express Entry CRS (~485–547 in 2025): software engineer and data scientist were removed from the STEM category-based draws (Feb 2025, no STEM draw since Apr 2024) and arranged-employment CRS points were abolished (Mar 2025), so a job offer speeds the permit yet no longer boosts PR ranking. Work → Canadian experience → CEC → PR → citizenship remains a clear settlement track. Tempered by the reduced 2026–28 levels plan (~380k/yr) and TFWP/LMIA tightening; dual citizenship retained both ways.",
@@ -812,7 +812,7 @@
         { "title": "2026–2028 Immigration Levels Plan — Government of Canada (official)", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/corporate-initiatives/levels/supplementary-immigration-levels-2026-2028.html" },
         { "title": "Dual Nationality Certificate — Embassy of Bangladesh (official)", "url": "https://washington.mofa.gov.bd/pages/static-pages/695266b435ce18e1c05aadf1" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }

@@ -1,17 +1,5 @@
 // src/lib/scoring.ts
 import type { Category, CategoryScore, Country, FactorBreakdown, FactorBreakdownRow, FactorComparisonRow, ScoredCategory, ScoredCountry } from "@/types";
-// Relative import (not @/) for the runtime config value: this module is loaded by the tsx
-// cache-build script (via scoreboard.ts), and tsx does not resolve the @/ alias at runtime
-// (the type-only @/types import above is fine — type imports are erased).
-import { RECALIBRATE } from "./config";
-
-/** Display-only contrast stretch around a fixed pivot (see config.RECALIBRATE). Monotonic,
- *  clamped to 0..100. Applied to the values the UI shows/ranks; the raw factor→category→overall
- *  means in deriveCategoryScore/computeOverall are left untouched. */
-export function recalibrate(raw: number): number {
-  const { pivot, gain } = RECALIBRATE;
-  return Math.max(0, Math.min(100, pivot + (raw - pivot) * gain));
-}
 
 /** Strict factor-weighted mean over a category's factors. Returns null (non-derivable)
  *  when the cell is pending/absent or any one of the category's factors is missing or
@@ -95,7 +83,7 @@ export function scoreCountry(country: Country, categories: Category[]): ScoredCo
     const cell = country.categories[category.id] ?? null;
     const raw = deriveCategoryScore(cell, category);
     const contribution = raw === null ? 0 : (raw / 100) * category.weight; // raw weighted contribution
-    const score = raw; // exact rule-based category score (raw); recalibration applies to the overall only
+    const score = raw; // exact rule-based category score (raw)
     return { category, cell, score, contribution };
   });
   const present = scored.filter((s) => s.cell !== null);
@@ -106,7 +94,7 @@ export function scoreCountry(country: Country, categories: Category[]): ScoredCo
   const hasHighlight = present.some((s) => (s.cell!.pros ?? []).some((p) => p.severity === "highlight"));
   return {
     ...country,
-    overall: recalibrate(computeOverall(country, categories)),
+    overall: computeOverall(country, categories), // raw weighted mean over present categories
     rank: 0,
     hasPending,
     isComplete,

@@ -6,7 +6,7 @@ import { categories } from "@/lib/data";
 describe("Methodology page", () => {
   it("renders all section headings (no standalone factor breakdown)", () => {
     render(<Methodology />);
-    for (const h of ["How the score is built", "Display recalibration", "Score tiers", "Flags", "Category weights"]) {
+    for (const h of ["How the score is built", "Score tiers", "Flags", "Category weights"]) {
       expect(screen.getByText(h)).toBeInTheDocument();
     }
     expect(screen.queryByText("Factor breakdown")).not.toBeInTheDocument();

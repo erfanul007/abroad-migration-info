@@ -6,7 +6,7 @@
   "flag": "🇳🇱",
   "region": "Europe",
   "summary": "One of the strongest tech destinations on paper — world-class English usability, deep AI/tech market (ASML, Booking, Adyen), the 30% (→27%) expat tax break, a flagship salary-only Highly Skilled Migrant work route filed offshore from Dhaka, a fully open orientation-year permit, unrestricted spouse work and top universities (TU Delft, Eindhoven). The catch sits in citizenship, not work: Dutch naturalisation generally requires renouncing prior nationality and a Bangladeshi skilled migrant doesn't fit the narrow exemptions, so indefinite Dutch/EU long-term residence (keeping the BD passport) is the default and naturalisation an optional final step. Compounded by Wilders/PVV's extreme anti-Islam politics (proposed Quran ban, 'hijab tax', mosque closures), a tiny Bangladeshi community and high housing/tuition costs.",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "IND (Immigration and Naturalisation Service) — official",
@@ -20,27 +20,27 @@
   "categories": {
     "job-market": {
       "status": "scored",
-      "summary": "A deep, English-operating tech and AI market (ASML/Eindhoven, Booking, Adyen) with high pay boosted by the 30% ruling and multiple hubs.",
+      "summary": "A deep, English-operating tech and AI market across multiple hubs (ASML/Eindhoven, Booking, Adyen) — a top-tier European AI cluster with high pay boosted by the 30% ruling and easy capacity for two tech earners; strong international-graduate retention.",
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
-          "score": 74
+          "score": 84
         },
         "ai-ml-specialisation": {
           "status": "scored",
-          "score": 72
+          "score": 82
         },
         "salary-levels": {
           "status": "scored",
-          "score": 76
+          "score": 83
         },
         "foreign-grad-bd-hireability": {
           "status": "scored",
-          "score": 72
+          "score": 82
         },
         "dual-earner-depth": {
           "status": "scored",
-          "score": 70
+          "score": 82
         }
       },
       "pros": [
@@ -66,23 +66,23 @@
           "url": "https://dutchreview.com/expat/30-percent-ruling-netherlands/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
-      "summary": "A reliable recognised-sponsor route with an embassy and VFS in Dhaka — the university applies for the entry visa (MVV), making student access relatively smooth.",
+      "summary": "A reliable recognised-sponsor route with an embassy and VFS in Dhaka — the university applies for the entry visa (MVV) and residence permit together, making student access relatively smooth and predictable, with no Bangladesh-specific ban.",
       "factors": {
         "approval-refusal-rate": {
           "status": "scored",
-          "score": 60
+          "score": 66
         },
         "dhaka-mission-appointment-capacity": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "in-queue-processing-schemes": {
           "status": "scored",
-          "score": 60
+          "score": 66
         },
         "financial-bars": {
           "status": "scored",
@@ -90,7 +90,7 @@
         },
         "credibility-genuineness-scrutiny": {
           "status": "scored",
-          "score": 60
+          "score": 65
         },
         "heightened-scrutiny-policy-risk": {
           "status": "scored",
@@ -116,7 +116,7 @@
           "url": "https://ind.nl/en/residence-permits/study"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
@@ -170,11 +170,11 @@
           "url": "https://www.government.nl/topics/dutch-citizenship/dual-citizenship"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
-      "summary": "The orientation year (zoekjaar) gives graduates 12 months of fully unrestricted work (no permit, no salary threshold), with a lower threshold afterwards to convert — and each spouse qualifies.",
+      "summary": "The orientation year (zoekjaar) gives graduates 12 months of fully unrestricted work (no permit, no salary threshold), with a reduced Highly Skilled Migrant threshold afterwards making the offer-based conversion to skilled work near-deterministic — and each spouse independently holds their own orientation year.",
       "factors": {
         "psw-duration-runway": {
           "status": "scored",
@@ -182,19 +182,19 @@
         },
         "eligibility-openness-bd": {
           "status": "scored",
-          "score": 75
+          "score": 86
         },
         "transition-to-skilled-work": {
           "status": "scored",
-          "score": 75
+          "score": 88
         },
         "work-freedom-during-psw": {
           "status": "scored",
-          "score": 88
+          "score": 92
         },
         "dual-graduate-spouse-psw": {
           "status": "scored",
-          "score": 80
+          "score": 90
         },
         "psw-policy-stability": {
           "status": "scored",
@@ -220,7 +220,7 @@
           "url": "https://www.thehagueinternationalcentre.nl/orientation-year-permit"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
@@ -228,19 +228,19 @@
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
-          "score": 85
+          "score": 92
         },
         "dependent-visa-bd-access": {
           "status": "scored",
-          "score": 78
+          "score": 86
         },
         "family-reunification-children": {
           "status": "scored",
-          "score": 72
+          "score": 84
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 75
+          "score": 86
         }
       },
       "pros": [
@@ -262,7 +262,7 @@
           "url": "https://ind.nl/en/residence-permits/work/highly-skilled-migrant"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
@@ -274,11 +274,11 @@
         },
         "english-program-depth": {
           "status": "scored",
-          "score": 85
+          "score": 93
         },
         "admission-credential-access": {
           "status": "scored",
-          "score": 70
+          "score": 80
         },
         "student-work-rights": {
           "status": "scored",
@@ -286,7 +286,7 @@
         },
         "study-pathway-fit": {
           "status": "scored",
-          "score": 78
+          "score": 88
         }
       },
       "pros": [
@@ -309,23 +309,23 @@
           "url": "https://www.mastersportal.com/study-options/268452170/artificial-intelligence-netherlands.html"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
-      "summary": "Permanent residence/EU long-term status is reachable after 5 years with the Highly Skilled Migrant route, requiring A2 Dutch civic integration.",
+      "summary": "Permanent residence/EU long-term status is reachable on a clear route after 5 years with the Highly Skilled Migrant route — ICT salaries comfortably clear the bar — requiring A2 Dutch civic integration.",
       "factors": {
         "years-to-pr": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 65
+          "score": 76
         },
         "eligibility-bars": {
           "status": "scored",
-          "score": 65
+          "score": 78
         },
         "language-integration-requirement": {
           "status": "scored",
@@ -333,7 +333,7 @@
         },
         "continuity-retention": {
           "status": "scored",
-          "score": 60
+          "score": 64
         },
         "policy-predictability": {
           "status": "scored",
@@ -356,7 +356,7 @@
           "url": "https://ind.nl/en/residence-permits/permanent-residence"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
@@ -364,7 +364,7 @@
       "factors": {
         "household-net-surplus": {
           "status": "scored",
-          "score": 64
+          "score": 74
         },
         "housing-cost-availability": {
           "status": "scored",
@@ -372,7 +372,7 @@
         },
         "savings-remittance": {
           "status": "scored",
-          "score": 65
+          "score": 75
         },
         "student-phase-affordability": {
           "status": "scored",
@@ -399,7 +399,7 @@
           "url": "https://dutchreview.com/expat/30-percent-ruling-netherlands/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
@@ -407,19 +407,19 @@
       "factors": {
         "newcomer-eligibility-barrier": {
           "status": "scored",
-          "score": 60
+          "score": 66
         },
         "health-quality-access": {
           "status": "scored",
-          "score": 70
+          "score": 80
         },
         "cost-coverage-by-status": {
           "status": "scored",
-          "score": 62
+          "score": 64
         },
         "social-insurance-safety-net": {
           "status": "scored",
-          "score": 68
+          "score": 70
         },
         "family-childcare-benefits": {
           "status": "scored",
@@ -442,7 +442,7 @@
           "url": "https://www.government.nl/topics/health-insurance"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
@@ -450,7 +450,7 @@
       "factors": {
         "english-usability": {
           "status": "scored",
-          "score": 80
+          "score": 92
         },
         "language-burden-citizenship": {
           "status": "scored",
@@ -466,7 +466,7 @@
         },
         "worklife-livability": {
           "status": "scored",
-          "score": 78
+          "score": 88
         },
         "cultural-distance-adaptation": {
           "status": "scored",
@@ -489,7 +489,7 @@
           "url": "https://www.dutchnews.nl/2025/10/the-big-election-issues-immigration-racism-and-discrimination/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
@@ -497,7 +497,7 @@
       "factors": {
         "personal-crime-safety": {
           "status": "scored",
-          "score": 78
+          "score": 80
         },
         "lived-discrimination-hatecrime": {
           "status": "scored",
@@ -509,11 +509,11 @@
         },
         "women-safety-gbv": {
           "status": "scored",
-          "score": 78
+          "score": 80
         },
         "immigration-enforcement-due-process": {
           "status": "scored",
-          "score": 62
+          "score": 64
         },
         "antidiscrimination-law-enforcement": {
           "status": "scored",
@@ -536,7 +536,7 @@
           "url": "https://worldjusticeproject.org/rule-of-law-index/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -586,7 +586,7 @@
           "url": "https://www.trtworld.com/article/54650cd1e759"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
@@ -598,11 +598,11 @@
         },
         "expat-foreign-worker-relief": {
           "status": "scored",
-          "score": 68
+          "score": 70
         },
         "household-dual-earner-treatment": {
           "status": "scored",
-          "score": 58
+          "score": 60
         },
         "student-phase-tax-exposure": {
           "status": "scored",
@@ -610,7 +610,7 @@
         },
         "bd-treaty-repatriation": {
           "status": "scored",
-          "score": 65
+          "score": 68
         }
       },
       "pros": [
@@ -629,7 +629,7 @@
           "url": "https://payroll.org/news-resources/news/news-detail/2025/01/15/changes-to-the-30-ruling-in-the-netherlands-starting-in-2025"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -641,7 +641,7 @@
         },
         "religious-practice-infrastructure": {
           "status": "scored",
-          "score": 75
+          "score": 78
         },
         "sentiment-safety": {
           "status": "scored",
@@ -653,7 +653,7 @@
         },
         "south-asian-cultural-ecosystem": {
           "status": "scored",
-          "score": 55
+          "score": 58
         }
       },
       "pros": [
@@ -676,16 +676,16 @@
           "url": "https://en.wikipedia.org/wiki/South_Asians_in_the_Netherlands"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
       "factors": {
-        "work-visa-accessibility-bd": { "status": "scored", "score": 88 },
-        "overseas-direct-hire": { "status": "scored", "score": 90 },
+        "work-visa-accessibility-bd": { "status": "scored", "score": 90 },
+        "overseas-direct-hire": { "status": "scored", "score": 92 },
         "bd-direct-work-track-record": { "status": "scored", "score": 45 },
-        "employer-sponsorship-willingness": { "status": "scored", "score": 82 },
-        "route-onward-pr-citizenship": { "status": "scored", "score": 85 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 90 },
+        "route-onward-pr-citizenship": { "status": "scored", "score": 90 },
         "current-openness": { "status": "scored", "score": 50 }
       },
       "summary": "A flagship direct-work entry, tempered by a tightening trajectory. The Highly Skilled Migrant (kennismigrant) scheme is salary-only — no labour-market test, no points — with 2026 thresholds (€5,942/mo at 30+, €4,357 under-30) that an IND recognised sponsor files together with the MVV in one offshore procedure (≤2-week target) while the couple are still in Dhaka; the EU Blue Card is a parallel option. HSM → permanent residence and naturalisation both at 5 years; Amsterdam/Eindhoven tech demand plus the (shrinking) 30→27% expat ruling. Headwinds: a 2025 government proposal to raise the under-30 salary floor and tighten sponsor rules (not yet enacted) and a generally restrictive direction. The citizenship step forces renunciation (no BD-fitting exemption), so indefinite PR is the BD-passport-retaining default.",
@@ -703,7 +703,7 @@
         { "title": "Government to tighten up highly skilled migrant scheme (4 Jul 2025) — Government.nl (official)", "url": "https://www.government.nl/latest/news/2025/07/04/government-to-tighten-up-highly-skilled-migrant-scheme" },
         { "title": "Permanent residence permit (5-year route) — IND (official)", "url": "https://ind.nl/en/replace-extend-renew-and-change/permanent-residency/permanent-residence-permit" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }

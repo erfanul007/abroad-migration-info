@@ -6,7 +6,7 @@
   "flag": "🇪🇪",
   "region": "Europe",
   "summary": "A highly digital, low-tax, safe little tech state (Bolt, Wise, Skype heritage) with cheap study, a practical 9-month graduate job-search permit, a strong passport — and a genuinely open direct-work route (ICT and the EU Blue Card are quota-exempt, both spouses qualify on a CS degree). The catch is the citizenship terminus: Estonia does NOT permit dual citizenship for naturalised citizens, so naturalising forfeits BD nationality — the workaround is to hold long-term residence indefinitely and keep the BD passport, treating citizenship as optional. Tempered by an 8-year citizenship path with a hard B1 Estonian (Finno-Ugric) exam and a negligible Muslim/Bangladeshi community (~0.7%, no purpose-built mosque).",
-  "lastReviewed": "2026-06-19",
+  "lastReviewed": "2026-06-21",
   "links": [
     {
       "title": "Study in Estonia — official national portal",
@@ -24,7 +24,7 @@
       "factors": {
         "sw-demand-depth": {
           "status": "scored",
-          "score": 64
+          "score": 67
         },
         "ai-ml-specialisation": {
           "status": "scored",
@@ -32,11 +32,11 @@
         },
         "salary-levels": {
           "status": "scored",
-          "score": 60
+          "score": 64
         },
         "foreign-grad-bd-hireability": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "dual-earner-depth": {
           "status": "scored",
@@ -69,7 +69,7 @@
           "url": "https://www.salaryexpert.com/salary/job/software-engineer/estonia/tallinn"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "visa-access": {
       "status": "scored",
@@ -85,19 +85,19 @@
         },
         "in-queue-processing-schemes": {
           "status": "scored",
-          "score": 50
+          "score": 55
         },
         "financial-bars": {
           "status": "scored",
-          "score": 58
+          "score": 63
         },
         "credibility-genuineness-scrutiny": {
           "status": "scored",
-          "score": 55
+          "score": 58
         },
         "heightened-scrutiny-policy-risk": {
           "status": "scored",
-          "score": 52
+          "score": 58
         }
       },
       "pros": [
@@ -122,7 +122,7 @@
           "url": "https://www.studyinestonia.ee/study/visas-residence-permits"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "citizenship": {
       "status": "scored",
@@ -176,11 +176,11 @@
           "url": "https://en.wikipedia.org/wiki/Estonian_nationality_law"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "post-study-work": {
       "status": "scored",
-      "summary": "Graduates get a 9-month (270-day) job-search extension with no employer needed, and recent graduates are exempt from the foreign-worker salary threshold — a short but practical runway.",
+      "summary": "Graduates get a 9-month (270-day) job-search extension with no employer needed, and recent graduates are exempt from the foreign-worker salary threshold and UIF permission — making the move to a work permit reliable for each spouse, a short but genuinely practical runway.",
       "factors": {
         "psw-duration-runway": {
           "status": "scored",
@@ -188,19 +188,19 @@
         },
         "eligibility-openness-bd": {
           "status": "scored",
-          "score": 65
+          "score": 70
         },
         "transition-to-skilled-work": {
           "status": "scored",
-          "score": 70
+          "score": 76
         },
         "work-freedom-during-psw": {
           "status": "scored",
-          "score": 62
+          "score": 68
         },
         "dual-graduate-spouse-psw": {
           "status": "scored",
-          "score": 70
+          "score": 74
         },
         "psw-policy-stability": {
           "status": "scored",
@@ -226,7 +226,7 @@
           "url": "https://www.studyinestonia.ee/career/working-after-graduation"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "spouse-family": {
       "status": "scored",
@@ -234,7 +234,7 @@
       "factors": {
         "spouse-work-rights": {
           "status": "scored",
-          "score": 60
+          "score": 64
         },
         "dependent-visa-bd-access": {
           "status": "scored",
@@ -242,11 +242,11 @@
         },
         "family-reunification-children": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "spouse-path-to-independence": {
           "status": "scored",
-          "score": 62
+          "score": 68
         }
       },
       "pros": [
@@ -265,7 +265,7 @@
           "url": "https://www.studyinestonia.ee/study/visas-residence-permits"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "msc-study": {
       "status": "scored",
@@ -273,7 +273,7 @@
       "factors": {
         "affordability-funding": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "english-program-depth": {
           "status": "scored",
@@ -281,11 +281,11 @@
         },
         "admission-credential-access": {
           "status": "scored",
-          "score": 70
+          "score": 73
         },
         "student-work-rights": {
           "status": "scored",
-          "score": 70
+          "score": 75
         },
         "study-pathway-fit": {
           "status": "scored",
@@ -315,7 +315,7 @@
           "url": "https://ut.ee/en/content/cost-tuition"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "pr-pathway": {
       "status": "scored",
@@ -323,15 +323,15 @@
       "factors": {
         "years-to-pr": {
           "status": "scored",
-          "score": 62
+          "score": 65
         },
         "route-clarity-accessibility": {
           "status": "scored",
-          "score": 60
+          "score": 64
         },
         "eligibility-bars": {
           "status": "scored",
-          "score": 58
+          "score": 62
         },
         "language-integration-requirement": {
           "status": "scored",
@@ -362,7 +362,7 @@
           "url": "https://www.politsei.ee/en/long-term-resident"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "income-cost": {
       "status": "scored",
@@ -370,15 +370,15 @@
       "factors": {
         "household-net-surplus": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "housing-cost-availability": {
           "status": "scored",
-          "score": 65
+          "score": 69
         },
         "savings-remittance": {
           "status": "scored",
-          "score": 60
+          "score": 62
         },
         "student-phase-affordability": {
           "status": "scored",
@@ -405,7 +405,7 @@
           "url": "https://www.studyinestonia.ee/study/cost-living"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "healthcare": {
       "status": "scored",
@@ -417,11 +417,11 @@
         },
         "health-quality-access": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "cost-coverage-by-status": {
           "status": "scored",
-          "score": 58
+          "score": 61
         },
         "social-insurance-safety-net": {
           "status": "scored",
@@ -448,7 +448,7 @@
           "url": "https://www.studyinestonia.ee/study/health-insurance"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "culture-language": {
       "status": "scored",
@@ -456,7 +456,7 @@
       "factors": {
         "english-usability": {
           "status": "scored",
-          "score": 55
+          "score": 60
         },
         "language-burden-citizenship": {
           "status": "scored",
@@ -472,7 +472,7 @@
         },
         "worklife-livability": {
           "status": "scored",
-          "score": 65
+          "score": 68
         },
         "cultural-distance-adaptation": {
           "status": "scored",
@@ -498,7 +498,7 @@
           "url": "https://www.studyinestonia.ee/live"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "safety-law": {
       "status": "scored",
@@ -506,7 +506,7 @@
       "factors": {
         "personal-crime-safety": {
           "status": "scored",
-          "score": 72
+          "score": 75
         },
         "lived-discrimination-hatecrime": {
           "status": "scored",
@@ -518,11 +518,11 @@
         },
         "women-safety-gbv": {
           "status": "scored",
-          "score": 70
+          "score": 73
         },
         "immigration-enforcement-due-process": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "antidiscrimination-law-enforcement": {
           "status": "scored",
@@ -545,7 +545,7 @@
           "url": "https://worldjusticeproject.org/rule-of-law-index/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "politics": {
       "status": "scored",
@@ -553,11 +553,11 @@
       "factors": {
         "immigration-policy-volatility": {
           "status": "scored",
-          "score": 52
+          "score": 55
         },
         "non-eu-skilled-policy-direction": {
           "status": "scored",
-          "score": 58
+          "score": 63
         },
         "anti-immigration-electoral-power": {
           "status": "scored",
@@ -592,15 +592,15 @@
           "url": "https://www.studyinestonia.ee/"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "tax": {
       "status": "scored",
-      "summary": "A simple, low flat income tax (~20–22%) with a famously easy digital system, offset by no expat regime and no confirmed Bangladesh tax treaty.",
+      "summary": "A simple, low flat income tax (~20–22%) — a low wedge by EU standards — with a famously easy digital system and individual assessment that favours two earners, offset by no expat regime and no confirmed Bangladesh tax treaty.",
       "factors": {
         "effective-deduction-wedge": {
           "status": "scored",
-          "score": 55
+          "score": 62
         },
         "expat-foreign-worker-relief": {
           "status": "scored",
@@ -608,7 +608,7 @@
         },
         "household-dual-earner-treatment": {
           "status": "scored",
-          "score": 62
+          "score": 66
         },
         "student-phase-tax-exposure": {
           "status": "scored",
@@ -635,7 +635,7 @@
           "url": "https://www.studyinestonia.ee/career"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "muslim-diaspora": {
       "status": "scored",
@@ -651,7 +651,7 @@
         },
         "sentiment-safety": {
           "status": "scored",
-          "score": 45
+          "score": 50
         },
         "legal-religious-accommodation": {
           "status": "scored",
@@ -682,17 +682,17 @@
           "url": "https://en.wikipedia.org/wiki/Estonian_Islamic_Centre"
         }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     },
     "direct-work-route": {
       "status": "scored",
       "factors": {
-        "work-visa-accessibility-bd": { "status": "scored", "score": 78 },
-        "overseas-direct-hire": { "status": "scored", "score": 70 },
+        "work-visa-accessibility-bd": { "status": "scored", "score": 82 },
+        "overseas-direct-hire": { "status": "scored", "score": 75 },
         "bd-direct-work-track-record": { "status": "scored", "score": 30 },
-        "employer-sponsorship-willingness": { "status": "scored", "score": 68 },
+        "employer-sponsorship-willingness": { "status": "scored", "score": 73 },
         "route-onward-pr-citizenship": { "status": "scored", "score": 55 },
-        "current-openness": { "status": "scored", "score": 70 }
+        "current-openness": { "status": "scored", "score": 75 }
       },
       "summary": "A genuinely open direct-work entry for two CS engineers, behind a citizenship terminus blocked by the no-dual rule. ICT roles and the EU Blue Card are explicitly exempt from Estonia's small annual immigration quota (1,292 for 2026, and heavily underfilled), a 3-year CS degree (or 3 years ICT experience since 2024) qualifies, and salary thresholds (Blue Card €37,152/yr; 'top specialist' €2,972/mo at 1.5× average) are comfortably cleared by Tallinn tech pay (Bolt/Wise/Pipedrive ecosystem). Permits are lodged from abroad (≤60-day target), and the 2024 Blue Card liberalisation plus underfilled quota make the direction a tailwind. The onward leg is gated by the B1 Estonian (Finno-Ugric) exam at both PR (5 years) and citizenship (8 years), and citizenship forces renunciation of BD nationality — so long-term residence is the rational terminus.",
       "pros": [
@@ -709,7 +709,7 @@
         { "title": "Estonian citizenship for an adult (conditions) — PPA (official)", "url": "https://www.politsei.ee/en/instructions/estonian-citizenship-for-an-adult" },
         { "title": "Immigration quota for 2026 set at 1,292 — ERR News (Interior Ministry)", "url": "https://news.err.ee/1609853268/immigration-quota-for-2026-set-at-1-292-people" }
       ],
-      "lastReviewed": "2026-06-19"
+      "lastReviewed": "2026-06-21"
     }
   }
 }
