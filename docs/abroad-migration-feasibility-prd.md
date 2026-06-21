@@ -176,7 +176,15 @@ The set (alphabetical): Australia, Austria, Belgium, Canada, Czechia, Denmark, E
 | FR-A4 | Explain the scoring methodology and list categories with their weights. | Must |
 | FR-A5 | Link to the portfolio and LinkedIn profile. | Could |
 
-### 6.6 Cross-cutting
+### 6.6 Methodology — route `/methodology`
+| ID | Requirement | Priority |
+|----|-------------|----------|
+| FR-M1 | Explain how a score is built: factor → category (weighted mean of factor sub-scores) → overall (weighted mean of present categories), raw with no display curve. | Must |
+| FR-M2 | Show the absolute tier scale (Excellent ≥80 · Good ≥70 · Average ≥60 · Weak ≥50 · Poor <50) and its colours, read live from `config.ts`. | Must |
+| FR-M3 | Explain the two country flags (positive highlight; blocker tradeoff). | Should |
+| FR-M4 | Show category weights (chart + per-category tiles, read live from data); open any category for its factor table. | Must |
+
+### 6.7 Cross-cutting
 | ID | Requirement | Priority |
 |----|-------------|----------|
 | FR-X1 | All scores and totals derive from JSON data; no scores hard-coded in components. | Must |
@@ -199,11 +207,13 @@ Compare           /compare
   └─ up to 5 countries: side-by-side table · overlaid radar
 Country detail    /country/:iso
   └─ header · radar · contribution bars · per-category evidence cards · references
+Methodology       /methodology
+  └─ how the score is built · tier scale · flags · category weights (chart + tiles)
 About             /about
   └─ profile · goal · pathway · preferences · scoring methodology · links
 ```
 
-Navigation: persistent top nav — Dashboard · Leaderboard · Compare · About — plus theme toggle. Country detail pages are reached from the leaderboard, map, and podium (not the top nav).
+Navigation: persistent top nav — Dashboard · Leaderboard · Compare · Methodology · About — plus theme toggle. Country detail pages are reached from the leaderboard, map, and podium (not the top nav).
 
 ---
 

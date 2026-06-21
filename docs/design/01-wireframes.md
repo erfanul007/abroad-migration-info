@@ -4,6 +4,8 @@
 
 Legend: `[ ]` container/card · `▮▮` score badge (rendered as `%`, e.g. `84%`) · `◔` chart · `▼` select · `🔍` search.
 
+> **Illustrative figures only.** Scores, ranks, and the country list in these mockups are placeholder examples from an earlier dataset — live values come from the JSON data store (`src/data`) and the generated scoreboard cache. The layout is the contract, not the numbers.
+
 ---
 
 ## Shared shell (every page)
@@ -37,16 +39,16 @@ Ranking countries for the goal: MSc studies → post-study work → … → pass
         └─────────┘   └─────────┘   └─────────┘
 
 ┌─ Countries ─┐ ┌─ Categories ──┐ ┌─ Top score ──┐ ┌ Last reviewed ┐   ← 4 StatCards
-│     22      │ │ 14 · wts 100% │ │ ▮76%▮ Germany │ │  16/06/2026   │
+│     20      │ │ 15 · wts 100% │ │ ▮71%▮ Ireland │ │  21/06/2026   │
 └─────────────┘ └───────────────┘ └──────────────┘ └───────────────┘
 
 ── World view ────────────────────────────────────────────────
 ┌──────────────────────────────────────────────────────────┐
 │ [+]  🗺️ full-world choropleth (Leaflet/SVG)               │  drag→pan · scroll/btn→zoom
 │ [−]  all countries; scored ones green-shaded; north-up    │
-│  ▢ <60%   60% ░▒▓█ 80%+   (fixed absolute scale)          │  click→popup overview → "View <country>"
+│  ▢ <50%   50% ░▒▓█ 80%+   (fixed absolute scale)          │  click→popup overview → "View <country>"
 └──────────────────────────────────────────────────────────┘
-Plain Leaflet map, **all countries** from our GeoJSON (no external tiles → offline); scored ones shaded on a **fixed absolute green ramp** via `scoreToGreen()` — `<60%` unshaded (neutral land) · `60→80%` one green shade per whole percent (pale→deep) · `≥80%` deepest green — others neutral grey. The scale is constant (not data-relative), so a country's colour is stable as the dataset grows. Reliable SVG rendering (no WebGL). Longitudes unwrapped so dateline-crossing countries (Russia, Fiji) don't draw full-width bands; Antarctica omitted. Each scored country carries a permanent ISO-code label, shown only where its polygon renders large enough to read (size-aware declutter). Default world `center`/`zoom`. Default interactions only: **pan + zoom** (top-left control); always north-up. Clicking a country opens the **default Leaflet popup** with a basic overview (flag · name · score · region · rank · summary) + one *View &lt;country&gt;* button → navigates; ✕ / click-elsewhere closes. Legend = a neutral `<60%` chip + an 8-stop gradient bar over the fixed `60→80%+` ramp. Ocean theme-aware (`bg-muted`); minimal — no custom theming/hover/controls.
+Plain Leaflet map, **all countries** from our GeoJSON (no external tiles → offline); scored ones shaded on a **fixed absolute green ramp** via `scoreToGreen()` — `<50%` unshaded (neutral land) · `50→80%` one green shade per whole percent (pale→deep) · `≥80%` deepest green — others neutral grey. The scale is constant (not data-relative), so a country's colour is stable as the dataset grows. Reliable SVG rendering (no WebGL). Longitudes unwrapped so dateline-crossing countries (Russia, Fiji) don't draw full-width bands; Antarctica omitted. Each scored country carries a permanent ISO-code label, shown only where its polygon renders large enough to read (size-aware declutter). Default world `center`/`zoom`. Default interactions only: **pan + zoom** (top-left control); always north-up. Clicking a country opens the **default Leaflet popup** with a basic overview (flag · name · score · region · rank · summary) + one *View &lt;country&gt;* button → navigates; ✕ / click-elsewhere closes. Legend = a neutral `<50%` chip + an 8-stop gradient bar over the fixed `50→80%+` ramp. Ocean theme-aware (`bg-muted`); minimal — no custom theming/hover/controls.
 
 ── Leaderboard ──────────────────────────  [ Full leaderboard → ]
 ┌──────────────────────────────────────────────────────────┐
@@ -88,7 +90,7 @@ Countries ranked by overall feasibility. Sort any column; search & filter.
 
 ```
 Compare                                                      (h1)
-Compare up to three countries side by side.
+Compare 2–5 countries side by side (dynamic slots), with a per-category factor-comparison modal.
 
 ▼ Germany     ▼ Canada      ▼ Country 3        [ Reset to 2 ]
 

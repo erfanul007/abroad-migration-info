@@ -92,8 +92,8 @@ const FILL_CURVE = 2;
  * fixed at 150 (green); lightness/chroma carry the value. Returns `oklch()` or `null`.
  */
 export function scoreToGreen(score: number): string | null {
-  if (score < FILL_MIN) return null;
-  const pct = Math.min(FILL_MAX, Math.round(score));
+  const pct = Math.min(FILL_MAX, Math.round(score)); // round first, like scoreTier, so fill matches the shown %
+  if (pct < FILL_MIN) return null;
   const t = (pct - FILL_MIN) / (FILL_MAX - FILL_MIN); // 0..1
   const w = Math.pow(t, FILL_CURVE); // ease-in: bigger shade steps at higher scores
   const lightness = 0.9 - w * 0.54; // 0.90 (pale floor) → 0.36 (deep ceiling)

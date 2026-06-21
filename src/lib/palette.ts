@@ -5,11 +5,13 @@
 // chart/map colours are defined, so no component guesses a hex. See design-system §2.
 
 /**
- * Compare / radar overlay series, ≤3 countries.
- * [0] is the app primary (theme-aware, matches buttons/links); [1]/[2] are fixed,
- * distinct from each other in both themes and for common colour-blindness.
+ * Compare / radar overlay series, up to 5 countries (Compare allows 2–5 slots).
+ * [0] is the app primary (theme-aware, matches buttons/links); [1]–[4] are fixed, distinct
+ * from each other in both themes and chosen to stay separable for common colour-blindness
+ * (green / orange / purple / cyan). Always paired with a country label, so colour is never the
+ * sole signal.
  */
-export const SERIES = ["var(--primary)", "#16a34a", "#ea580c"] as const;
+export const SERIES = ["var(--primary)", "#16a34a", "#ea580c", "#9333ea", "#0891b2"] as const;
 
 /** Choropleth (Leaflet) static fills. Land = neutral grey (unscored / rest of world);
  *  borders = white hairline. Scored countries are filled on the absolute green ramp via

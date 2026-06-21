@@ -6,7 +6,8 @@ import { formatNumber, formatPercent } from "@/lib/formatters";
 
 /** This country's obtained factor scores for one category and how they sum to the score:
  *  points = score/100 × weight (out of the factor's weight); the footer totals to the raw
- *  weighted mean — which is the category score (displayScore). Recalibration applies to the overall only. */
+ *  weighted mean — which is the category score (displayScore). No display curve is applied; the
+ *  overall is likewise the exact weighted mean of category scores. */
 export function CategoryFactorScores({ breakdown, displayScore }: { breakdown: FactorBreakdown; displayScore: number }) {
   return (
     <div className="space-y-2">
