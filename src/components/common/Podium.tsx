@@ -1,4 +1,3 @@
-// src/components/common/Podium.tsx
 import { Link } from "react-router";
 import { Crown, Medal } from "lucide-react";
 import type { ScoredCountry } from "@/types";

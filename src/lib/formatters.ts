@@ -1,4 +1,3 @@
-// src/lib/formatters.ts
 import { TIERS, INCLUSION_MIN } from "@/lib/config";
 
 const LOCALE = "en-GB"; // org default for user-facing en (point decimal, DD/MM/YYYY)
@@ -25,38 +24,34 @@ export function formatDate(iso: string): string {
 
 export type Tier = (typeof TIERS)[number]["id"];
 
-/** Map a 0..100 score to its tier id — the first tier whose floor it clears. Rounds to a whole
- *  percent FIRST so the tier matches the number actually shown (`formatPercent` rounds too): a
- *  74.6 score displays as "75%" and must colour as the 75 tier, not 74. Without this, two badges
- *  showing the same "%" could differ in colour at a boundary. TIERS is descending, `poor`
- *  floors at 0, so every score resolves. */
+/** Score (0..100) → tier id (first tier whose floor it clears). Rounds to a whole percent FIRST
+ *  so the tier colour matches the shown number (74.6 displays "75%", must colour as 75): without
+ *  it, two badges showing the same "%" could differ in colour at a boundary. */
 export function scoreTier(score: number): Tier {
   const pct = Math.round(score);
   for (const t of TIERS) if (pct >= t.min) return t.id;
   return "poor";
 }
 
-/** The tiers ordered by their lower bound (descending); `poor` floors at 0. Derived from
- *  TIERS so a legend can never drift from scoreTier. */
+/** Tiers ordered by lower bound (descending); `poor` floors at 0. Derived from TIERS so a
+ *  legend can never drift from scoreTier. */
 export function orderedTiers(): { tier: Tier; min: number }[] {
   return TIERS.map((t) => ({ tier: t.id, min: t.min }));
 }
 
-/** Human label for a tier (e.g. "Average"). Single source: config TIERS. */
+/** Human label for a tier. Single source: config TIERS. */
 export function tierLabel(tier: Tier): string {
   return TIERS.find((t) => t.id === tier)!.label;
 }
 
-/** Representative solid colour (hex) for a tier — used for the choropleth fill and legend. */
+/** Solid colour (hex) for a tier — choropleth fill and legend. */
 export function tierColor(tier: Tier): string {
   return TIERS.find((t) => t.id === tier)!.color;
 }
 
-/** Tailwind TINT classes per tier for ScoreBadge (subtle `bg-…/15` + coloured text). The
- *  contribution bars fill SOLID with the same tier hue (tierColor); badges use the lighter
- *  tint so dense tables/cards stay legible. (The choropleth is the one exception — it uses a
- *  continuous green ramp, `scoreToGreen`, not the tier scale.) Literal strings so the Tailwind
- *  JIT keeps them. */
+/** Tailwind tint classes per tier for ScoreBadge (subtle `bg-…/15` + coloured text); bars fill
+ *  solid with the same hue (tierColor), badges use the lighter tint so dense tables stay legible.
+ *  Literal strings so the Tailwind JIT keeps them. */
 export function scoreTierClasses(tier: Tier): string {
   switch (tier) {
     case "excellent": return "bg-green-600/15 text-green-800 dark:text-green-300";
@@ -67,29 +62,23 @@ export function scoreTierClasses(tier: Tier): string {
   }
 }
 
-// Choropleth green-ramp bounds. The map (unlike badges/bars) is a single-hue sequential scale,
-// not the tier palette: deepest green = highest, faintest = lowest. Both are ABSOLUTE (a given
-// score always maps to the same shade as the dataset grows) and derived from policy, not magic:
-//   • FILL_MIN = INCLUSION_MIN (50) — the curation floor; every *included* country is ≥50, so
-//     every country on the map gets at least the palest green (nothing surfaced renders unfilled).
-//   • FILL_MAX = excellent floor (80) — the deepest green is reserved for "excellent", aligning
-//     the map's top shade with the tier scale used everywhere else.
-export const FILL_MIN = INCLUSION_MIN; // ramp floor: pale green
-export const FILL_MAX = TIERS[0].min; //  ramp ceiling (80, "excellent"): deepest green; capped
-// Ease-in exponent (>1, convex). Weights the ramp toward the deep end: equal score gaps produce
-// a SMALL shade step low down and a progressively LARGER one higher up (so 76 vs 72 separates
-// more than 56 vs 52). One knob to dial the effect.
+// Choropleth green-ramp bounds — a single-hue sequential scale (not the tier palette): deepest
+// green = highest. Both ABSOLUTE (a score always maps to the same shade as data grows) and policy-
+// derived: FILL_MIN = INCLUSION_MIN (50, curation floor, so every included country gets ≥ palest
+// green); FILL_MAX = excellent floor (80, deepest green) to align the top shade with the tiers.
+export const FILL_MIN = INCLUSION_MIN;
+export const FILL_MAX = TIERS[0].min;
+// Ease-in exponent (>1, convex): weights the ramp toward the deep end so equal score gaps
+// separate more at the top (76 vs 72 > 56 vs 52). One knob to dial the effect.
 const FILL_CURVE = 2;
 
 /**
- * Absolute single-hue green ramp for the choropleth (design-system §2.2). Fixed scale:
- *   • score < FILL_MIN (50) → `null` (no fill; country shows the neutral land colour). Included
- *     countries are all ≥50, so this only ever hits genuinely sub-floor / non-derivable values.
+ * Absolute single-hue green ramp for the choropleth (design-system §2.2):
+ *   • score < FILL_MIN (50) → `null` (no fill, neutral land); only hit by sub-floor/non-derivable.
  *   • FILL_MIN ≤ score < FILL_MAX → green, one distinct shade per whole percent (pale → deep).
- *   • score ≥ FILL_MAX (80) → the deepest green (capped).
- * Quantising to whole percents (`Math.round`) gives a stable "1% = one shade" mapping across
- * future data. The ease-in curve (`FILL_CURVE`) widens shade gaps toward higher scores. Hue is
- * fixed at 150 (green); lightness/chroma carry the value. Returns `oklch()` or `null`.
+ *   • score ≥ FILL_MAX (80) → deepest green (capped).
+ * Rounding to whole percents gives a stable "1% = one shade" mapping; FILL_CURVE widens gaps at
+ * higher scores. Hue fixed at 150; lightness/chroma carry the value. Returns `oklch()` or `null`.
  */
 export function scoreToGreen(score: number): string | null {
   const pct = Math.min(FILL_MAX, Math.round(score)); // round first, like scoreTier, so fill matches the shown %

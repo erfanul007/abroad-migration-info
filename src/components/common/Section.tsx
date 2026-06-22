@@ -1,4 +1,3 @@
-// src/components/common/Section.tsx
 import { type ReactNode } from "react";
 import { type LucideIcon } from "lucide-react";
 

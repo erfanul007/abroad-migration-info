@@ -1,9 +1,8 @@
-// src/lib/scoring.ts
 import type { Category, CategoryScore, Country, FactorBreakdown, FactorBreakdownRow, FactorComparisonRow, ScoredCategory, ScoredCountry } from "@/types";
 
-/** Strict factor-weighted mean over a category's factors. Returns null (non-derivable)
- *  when the cell is pending/absent or any one of the category's factors is missing or
- *  pending — mirroring how a missing category is excluded from the overall. Result is 0..100. */
+/** Strict factor-weighted mean over a category's factors (0..100). Returns null (non-derivable)
+ *  when the cell is pending/absent or any factor is missing/pending — mirroring how a missing
+ *  category is excluded from the overall. */
 export function deriveCategoryScore(
   cell: CategoryScore | null | undefined,
   category: Category,
@@ -21,10 +20,9 @@ export function deriveCategoryScore(
   return (weightedSum / totalWeight) * 100;
 }
 
-/** Per-factor contribution breakdown for one category cell: each factor's obtained score and
- *  its points (= score/100 × weight). Returns null on the same non-derivability rule as
- *  deriveCategoryScore (pending/absent cell or any missing/pending factor). total = Σ points,
- *  which equals deriveCategoryScore when the category's factor weights sum to 100. */
+/** Per-factor contribution breakdown for one category cell: each factor's score and points
+ *  (= score/100 × weight). Null on the same non-derivability rule as deriveCategoryScore.
+ *  total = Σ points, which equals deriveCategoryScore when factor weights sum to 100. */
 export function deriveFactorBreakdown(
   cell: CategoryScore | null | undefined,
   category: Category,
@@ -43,10 +41,9 @@ export function deriveFactorBreakdown(
   return { rows, total };
 }
 
-/** Per-factor scores for one category across N countries (cells aligned to the caller's
- *  country order). One row per factor in category source order; scores[i] is cells[i]'s raw
- *  factor sub-score (0..100) or null when that cell is pending/absent or the factor is
- *  missing/pending. Pure — max-per-row highlighting is the caller's concern. */
+/** Per-factor scores for one category across N countries (cells aligned to caller's country
+ *  order). One row per factor in source order; scores[i] is cells[i]'s raw sub-score (0..100)
+ *  or null when pending/absent/missing. Max-per-row highlighting is the caller's concern. */
 export function deriveFactorComparison(
   category: Category,
   cells: (CategoryScore | null | undefined)[],
@@ -63,8 +60,8 @@ export function deriveFactorComparison(
   }));
 }
 
-/** Weighted sum of derived category scores, renormalised over categories that derive.
- *  Non-derivable categories are excluded (not treated as 0); result is 0..100. */
+/** Weighted mean of derived category scores, renormalised over categories that derive (0..100).
+ *  Non-derivable categories are excluded, not treated as 0. */
 export function computeOverall(country: Country, categories: Category[]): number {
   let weightedSum = 0;
   let totalWeight = 0;

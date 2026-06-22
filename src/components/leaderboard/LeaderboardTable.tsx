@@ -1,4 +1,3 @@
-// src/components/leaderboard/LeaderboardTable.tsx
 import { useMemo, useState } from "react";
 import {
   flexRender, getCoreRowModel, getFilteredRowModel, getSortedRowModel,

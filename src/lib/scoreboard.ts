@@ -1,7 +1,5 @@
-// src/lib/scoreboard.ts
-// Pure projection of the ranked countries into the cached scoreboard shape. Uses RELATIVE
-// imports (not @/) so this module loads identically under Vite (app/tests) and under tsx
-// (the cache build script), which does not resolve the @/ alias at runtime.
+// Projects ranked countries into the cached scoreboard shape. Uses RELATIVE imports (not @/) so it
+// loads identically under Vite (app/tests) and tsx (the cache build script, which can't resolve @/).
 import type { Category, Country } from "./schema";
 import { rankCountries } from "./scoring";
 

@@ -1,4 +1,3 @@
-// src/components/charts/RadarProfile.tsx
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer, Legend, Tooltip } from "recharts";
 import type { Category, ScoredCountry } from "@/types";
 import { formatPercent } from "@/lib/formatters";
@@ -6,7 +5,7 @@ import { categoryScore, byWeightDesc } from "@/lib/selectors";
 import { SERIES } from "@/lib/palette";
 
 export function RadarProfile({ countries, categories }: { countries: ScoredCountry[]; categories: Category[] }) {
-  // Heaviest category first, so the radar axes read in the same order as the tables/columns.
+  // Heaviest category first, so axes match the tables/columns order.
   const data = [...categories].sort(byWeightDesc).map((cat) => {
     const row: Record<string, string | number> = { category: cat.shortLabel };
     for (const c of countries) row[c.name] = categoryScore(c, cat.id) ?? 0;

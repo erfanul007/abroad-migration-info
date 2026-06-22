@@ -1,8 +1,6 @@
-// src/components/about/FeedbackForm.tsx
-// Feedback form for the About page. Submits via EmailJS (same service/template
-// as the portfolio site, so it lands in the same inbox). The EmailJS public key
-// is safe to ship client-side by design. A hidden honeypot field ("company")
-// silently drops bot submissions; visible fields are validated with Zod.
+// Submits via EmailJS (same service/template as the portfolio site → same inbox).
+// Public key is safe client-side by design. Honeypot field ("company") drops bots;
+// visible fields validated with Zod.
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Send } from "lucide-react";
@@ -13,8 +11,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 
-// EmailJS config (public key is intentionally client-side; recipient is fixed in
-// the EmailJS dashboard template, not here).
+// Public key intentionally client-side; recipient is fixed in the EmailJS template.
 const EMAILJS_SERVICE_ID = "service_f8zzzlo";
 const EMAILJS_TEMPLATE_ID = "template_ixduwrm";
 const EMAILJS_PUBLIC_KEY = "t3hK8u9U_TEfQmpi0";
@@ -33,7 +30,7 @@ export function FeedbackForm() {
 
   function update(field: Field, value: string) {
     setValues((v) => ({ ...v, [field]: value }));
-    // Clear the per-field error and any prior result the moment the user edits.
+    // Clear the field error and any prior result on edit.
     if (errors[field]) setErrors((e) => ({ ...e, [field]: undefined }));
     if (status === "success" || status === "error") setStatus("idle");
   }
@@ -148,7 +145,7 @@ export function FeedbackForm() {
             {errors.message && <p id="feedback-message-error" className="text-xs text-destructive">{errors.message}</p>}
           </div>
 
-          {/* Honeypot: hidden from users, irresistible to bots. */}
+          {/* Honeypot: hidden from users, bots fill it. */}
           <div className="absolute left-[-9999px] top-[-9999px]" aria-hidden>
             <Label htmlFor="feedback-company">Company</Label>
             <Input

@@ -1,4 +1,3 @@
-// src/components/common/ScoreBadge.tsx
 import { cn } from "@/lib/utils";
 import { formatPercent, scoreTier, scoreTierClasses } from "@/lib/formatters";
 

@@ -1,12 +1,8 @@
-// src/lib/schema.ts
-// Single source of truth for the DATA shapes. Zod schemas validate every JSON file
-// (categories, countries, profile) at load and `z.infer` produces the TypeScript types
-// (re-exported from @/types), so the runtime check and the compile-time type can never
-// drift. Schemas cover the FULL shape (status enum, required fields, link {title,url},
-// integer 0..100 scores). The two cross-field rules we actually own — category weights
-// summing to 100 and a country only referencing known category ids — live here as
-// refinements / a helper and are the only things our tests assert (library shape-checking
-// is Zod's job, not ours to test).
+// Single source of truth for the DATA shapes. Zod schemas validate every JSON file at load and
+// `z.infer` produces the TS types (re-exported from @/types), so runtime check and compile-time
+// type can't drift. The cross-field rules we own — weights summing to 100, integer 0..100 scores,
+// countries referencing only known category ids — live here and are the only things our tests
+// assert (shape-checking is Zod's job).
 import { z } from "zod";
 
 const WEIGHT_TOLERANCE = 0.001;
@@ -23,9 +19,8 @@ export const factorSchema = z.object({
   weight: z.number().positive(),
 });
 
-// A category carries weighted, described factors (sub-categories). Our rules (not pure shape):
-// factor weights sum to 100 and factor ids are unique. Expressed as refinements so a single
-// parse enforces them.
+// Our rules (not pure shape), as refinements so a single parse enforces them: factor weights
+// sum to 100 and factor ids are unique.
 export const categorySchema = z
   .object({
     id: z.string().min(1),
@@ -45,23 +40,22 @@ export const categorySchema = z
 
 export const cellStatusSchema = z.enum(["scored", "pending"]);
 
-// A pro or con bullet; severity:"blocker" marks a con as a blocker, severity:"highlight"
-// marks a pro as a positive flag.
+// A pro/con bullet; severity "blocker" flags a con, "highlight" flags a pro.
 export const proConSchema = z.object({
   text: z.string(),
   severity: z.enum(["normal", "blocker", "highlight"]).optional(),
   link: referenceLinkSchema.optional(),
 });
 
-// A single factor sub-score (0..100). Pending factors carry no meaningful score.
+// A factor sub-score (0..100); pending factors carry no meaningful score.
 export const factorScoreSchema = z.object({
   status: cellStatusSchema,
   score: z.number().int().min(0).max(100),
 });
 
-// A category cell. The category score is DERIVED from these factor sub-scores
-// (see scoring.ts) — never stored here. A scored cell must score every factor of
-// its category (enforced in validateCountry, which needs the category list).
+// A category cell. The category score is DERIVED from these factor sub-scores (scoring.ts),
+// never stored here. A scored cell must score every factor of its category (enforced in
+// validateCountry, which needs the category list).
 export const categoryScoreSchema = z.object({
   status: cellStatusSchema,
   factors: z.record(z.string(), factorScoreSchema),
@@ -85,8 +79,8 @@ export const countrySchema = z.object({
   categories: z.record(z.string(), categoryScoreSchema),
 });
 
-// Our rule (not pure shape): every category weight is positive AND they sum to 100,
-// with no duplicate ids. Expressed as refinements so a single parse enforces them.
+// Our rules (not pure shape), as refinements: category weights are positive and sum to 100,
+// with no duplicate ids.
 export const categoriesSchema = z
   .array(categorySchema)
   .refine(
@@ -121,7 +115,7 @@ export const profileSchema = z.object({
   preferences: preferencesSchema,
 });
 
-// Inferred types — the canonical data types for the whole app (re-exported from @/types).
+// Inferred types — the canonical data types for the app (re-exported from @/types).
 export type ReferenceLink = z.infer<typeof referenceLinkSchema>;
 export type Factor = z.infer<typeof factorSchema>;
 export type Category = z.infer<typeof categorySchema>;
@@ -148,9 +142,8 @@ export function validateCategories(data: unknown): string[] {
   return result.success ? [] : issues(result.error);
 }
 
-/** Validate one country (full shape) and cross-check it only references known category
- *  ids — the one rule that needs the categories list, so it can't be a self-contained
- *  schema refinement. */
+/** Validate one country (full shape) and cross-check it references only known category ids —
+ *  the one rule needing the categories list, so it can't be a self-contained refinement. */
 export function validateCountry(country: unknown, categories: Category[]): string[] {
   const result = countrySchema.safeParse(country);
   if (!result.success) {

@@ -1,4 +1,3 @@
-// src/lib/data.test.ts
 import { describe, it, expect } from "vitest";
 import { categories, countries, getScoredCountry, profile, scoredCountries } from "@/lib/data";
 import { validateCountry } from "@/lib/schema";
@@ -14,7 +13,7 @@ describe("data integrity", () => {
   it("includes the United Kingdom with the exact Natural Earth name (for the map join) and GB iso", () => {
     const uk = getScoredCountry("GB");
     expect(uk?.id).toBe("united-kingdom");
-    expect(uk?.name).toBe("United Kingdom"); // must match world-atlas feature name or it won't shade
+    expect(uk?.name).toBe("United Kingdom"); // must match world-atlas feature name or map won't shade
   });
   it("every country validates against the category catalogue (known ids, factor membership, scored-completeness, in-range scores)", () => {
     for (const c of countries) {

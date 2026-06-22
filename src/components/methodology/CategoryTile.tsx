@@ -1,4 +1,3 @@
-// src/components/methodology/CategoryTile.tsx
 import type { Category } from "@/types";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -8,8 +7,7 @@ import { FactorTable } from "@/components/methodology/FactorTable";
 import { formatPercent } from "@/lib/formatters";
 import { Table2 } from "lucide-react";
 
-/** Compact, drill-down tile for one category: identity dot + name + weight, what it measures,
- *  factor names (labels only), and a button that opens the full factor table in a modal. */
+/** Drill-down tile for one category; factor labels only, with a modal for the full factor table. */
 export function CategoryTile({ category, color }: { category: Category; color: string }) {
   return (
     <Card className="flex flex-col">

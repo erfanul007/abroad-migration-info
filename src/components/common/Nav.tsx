@@ -1,4 +1,3 @@
-// src/components/common/Nav.tsx
 import { useState } from "react";
 import { Link, NavLink } from "react-router";
 import { Compass, Menu, X } from "lucide-react";
@@ -34,7 +33,6 @@ export function Nav() {
           >
             <Compass className="size-5 text-primary" aria-hidden />Migration Feasibility
           </Link>
-          {/* Inline links on tablet/desktop */}
           <nav aria-label="Main" className="hidden items-center gap-1 sm:flex">
             {links.map((l) => (
               <NavLink key={l.to} to={l.to} end={l.end} className={linkClass}>
@@ -59,7 +57,6 @@ export function Nav() {
         </div>
       </div>
 
-      {/* Collapsible menu on mobile */}
       {open && (
         <nav aria-label="Mobile" className="border-t sm:hidden">
           <div className="mx-auto flex max-w-6xl flex-col gap-1 px-4 py-2">

@@ -1,4 +1,3 @@
-// src/routes/index.tsx
 import { createBrowserRouter } from "react-router";
 import { Layout } from "@/components/common/Layout";
 import Dashboard from "@/pages/Dashboard";

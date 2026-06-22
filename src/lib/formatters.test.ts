@@ -1,4 +1,3 @@
-// src/lib/formatters.test.ts
 import { describe, it, expect } from "vitest";
 import { formatScore, formatPercent, formatDate, scoreTier, orderedTiers, tierLabel, tierColor, scoreToGreen, FILL_MIN, FILL_MAX } from "@/lib/formatters";
 import { TIERS, INCLUSION_MIN } from "@/lib/config";
@@ -44,10 +43,10 @@ describe("scoreTier", () => {
   });
   it("tiers on the ROUNDED percent so colour matches the shown number", () => {
     expect(scoreTier(79.6)).toBe("excellent"); // rounds to 80
-    expect(scoreTier(79.4)).toBe("good"); //      rounds to 79
-    expect(scoreTier(69.6)).toBe("good"); //      rounds to 70
-    expect(scoreTier(49.6)).toBe("weak"); //      rounds to 50
-    expect(scoreTier(49.4)).toBe("poor"); //      rounds to 49
+    expect(scoreTier(79.4)).toBe("good"); // rounds to 79
+    expect(scoreTier(69.6)).toBe("good"); // rounds to 70
+    expect(scoreTier(49.6)).toBe("weak"); // rounds to 50
+    expect(scoreTier(49.4)).toBe("poor"); // rounds to 49
   });
 });
 
@@ -77,8 +76,8 @@ describe("tierLabel & tierColor", () => {
 
 describe("scoreToGreen (choropleth ramp)", () => {
   it("anchors the ramp to policy: floor = INCLUSION_MIN, ceiling = excellent tier", () => {
-    expect(FILL_MIN).toBe(INCLUSION_MIN); // 50
-    expect(FILL_MAX).toBe(TIERS[0].min); // 80 (excellent)
+    expect(FILL_MIN).toBe(INCLUSION_MIN);
+    expect(FILL_MAX).toBe(TIERS[0].min); // = excellent-tier floor
   });
   it("returns null below the fill floor (renders as neutral land, not green)", () => {
     expect(scoreToGreen(FILL_MIN - 1)).toBeNull();

@@ -1,4 +1,3 @@
-// src/pages/CountryDetail.tsx
 import { Link, useParams } from "react-router";
 import { useCountry, useData } from "@/hooks/useData";
 import { Section } from "@/components/common/Section";
@@ -27,7 +26,7 @@ export default function CountryDetail() {
     );
   }
 
-  // Category cards heaviest-weight first (matches the leaderboard column order).
+  // Heaviest-weight first, matching leaderboard column order.
   const orderedScored = [...country.scored].sort((a, b) => byWeightDesc(a.category, b.category));
 
   return (

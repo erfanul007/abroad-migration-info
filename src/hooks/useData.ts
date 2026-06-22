@@ -1,4 +1,3 @@
-// src/hooks/useData.ts
 import { useMemo } from "react";
 import { categories, profile, scoredCountries, getScoredCountry } from "@/lib/data";
 

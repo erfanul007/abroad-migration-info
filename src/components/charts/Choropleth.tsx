@@ -1,12 +1,7 @@
-// src/components/charts/Choropleth.tsx
-// Plain world choropleth via Leaflet (react-leaflet). All countries rendered; scored ones
-// are shaded on a FIXED absolute green ramp (scoreToGreen: <50 unshaded, 50→80 one shade
-// per percent, ≥80 deepest). Deepest green = highest overall, faintest = lowest — a single-hue
-// sequential scale, deliberately NOT the tier palette used for badges/bars. Each scored country
-// carries a permanent ISO-code label
-// (Leaflet tooltip) shown only where its polygon is rendered large enough to read it
-// (LabelDeclutter) — Leaflet has no built-in label collision, so we gate on projected
-// pixel size. Click a country → popup overview with a "View <country>".
+// World choropleth on a FIXED absolute green ramp (scoreToGreen: <50 unshaded, 50→80 one
+// shade per percent, ≥80 deepest) — a single-hue sequential scale, deliberately NOT the tier
+// palette. Labels are gated on projected pixel size (LabelDeclutter) since Leaflet has no
+// built-in label collision.
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router";
 import { MapContainer, GeoJSON, Popup, useMap } from "react-leaflet";
@@ -25,23 +20,19 @@ import { PendingBadge } from "@/components/common/PendingBadge";
 import { Button } from "@/components/ui/button";
 
 const INITIAL_ZOOM = 2;
-// A country's label shows only once its polygon is rendered big enough to read the 2-char
-// code — so big countries label early and small ones only when zoomed in (slippy-map feel).
-// On-screen size depends only on zoom (panning shifts both corners equally), so we recompute
-// on zoomend. Tune these to trade label density for legibility.
+// On-screen size depends only on zoom (panning shifts both corners equally), so recompute on
+// zoomend. Tune to trade label density for legibility.
 const LABEL_MIN_W = 26; // min polygon width in px to fit the code
 const LABEL_MIN_H = 16; // min polygon height in px to fit the code
 
-// Fixed legend gradient (8 stops sampled from the absolute 50→80 ramp). Computed once — it
-// never depends on the data, so the colour key is identical on every render.
+// 8 stops sampled from the absolute 50→80 ramp; data-independent, so computed once.
 const LEGEND_GRADIENT = `linear-gradient(to right, ${Array.from({ length: 8 }, (_, i) => {
   const score = FILL_MIN + ((FILL_MAX - FILL_MIN) * i) / 7;
   return `${scoreToGreen(score)} ${((i / 7) * 100).toFixed(0)}%`;
 }).join(", ")})`;
 
-// Size-aware label declutter: show/hide each country's permanent tooltip by how big its
-// polygon renders on screen, using Leaflet's own projection (latLngToContainerPoint). No
-// collision plugin needed. Must live inside <MapContainer>; renders nothing.
+// Show/hide each country's permanent tooltip by its on-screen polygon size (Leaflet's own
+// projection) — no collision plugin needed. Must live inside <MapContainer>; renders nothing.
 function LabelDeclutter({ layers }: { layers: React.RefObject<Map<string, Polygon>> }) {
   const map = useMap();
   useEffect(() => {
@@ -65,9 +56,8 @@ function LabelDeclutter({ layers }: { layers: React.RefObject<Map<string, Polygo
   return null;
 }
 
-// Leaflet doesn't clip at the antimeridian, so a ring that crosses ±180°
-// (Russia, Fiji, Aleutians…) draws a full-width band. Keeping longitudes continuous
-// (unwrapped) keeps each polygon on one side, so no band — without dropping countries.
+// Leaflet doesn't clip at the antimeridian, so a ring crossing ±180° (Russia, Fiji…) draws a
+// full-width band. Keeping longitudes continuous (unwrapped) keeps each polygon on one side.
 function unwrapRing(ring: Position[]): Position[] {
   let offset = 0, prev = ring[0]?.[0] ?? 0;
   return ring.map(([lng, lat]) => {
@@ -86,7 +76,7 @@ function unwrapGeometry(geom: Geometry): Geometry {
 export function Choropleth({ countries }: { countries: ScoredCountry[] }) {
   const navigate = useNavigate();
   const [selected, setSelected] = useState<{ country: ScoredCountry; latlng: LatLng } | null>(null);
-  // Scored-country polygon layers, keyed by ISO, for the size-aware label declutter.
+  // Scored-country layers keyed by ISO, for the label declutter.
   const labelLayers = useRef<Map<string, Polygon>>(new Map());
   const byName = useMemo(() => new Map(countries.map((c) => [c.name, c])), [countries]);
 
@@ -116,8 +106,7 @@ export function Choropleth({ countries }: { countries: ScoredCountry[] }) {
     const country = byName.get((feat.properties as { name: string })?.name);
     if (!country) return;
     layer.on("click", (e: LeafletMouseEvent) => setSelected({ country, latlng: e.latlng }));
-    // Native Leaflet permanent tooltip at the polygon centre = the country's ISO code.
-    // Bound here; LabelDeclutter opens/closes it by on-screen size (Leaflet has no collision).
+    // Permanent ISO-code tooltip; LabelDeclutter opens/closes it by on-screen size.
     layer.bindTooltip(country.iso, { permanent: true, direction: "center", className: "country-label" });
     labelLayers.current.set(country.iso, layer as Polygon);
   };

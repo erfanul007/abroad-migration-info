@@ -1,4 +1,3 @@
-// src/pages/Leaderboard.tsx
 import { useMemo, useState } from "react";
 import { type VisibilityState } from "@tanstack/react-table";
 import { useData } from "@/hooks/useData";
@@ -15,7 +14,7 @@ export default function Leaderboard() {
 
   const regions = useMemo(() => regionsOf(countries), [countries]);
   const filtered = useMemo(() => byRegion(countries, region), [countries, region]);
-  // Heaviest categories first, so both the columns and the column-toggle list read by weight.
+  // Heaviest first, so columns and the toggle list read by weight.
   const orderedCategories = useMemo(() => [...categories].sort(byWeightDesc), [categories]);
 
   return (

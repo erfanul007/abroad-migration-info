@@ -1,4 +1,3 @@
-// src/pages/Methodology.tsx
 import { useMemo } from "react";
 import { useData } from "@/hooks/useData";
 import { Section } from "@/components/common/Section";

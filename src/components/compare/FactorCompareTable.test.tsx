@@ -35,16 +35,14 @@ describe("FactorCompareTable", () => {
         countries={[mk("DE", "Germany", 80, 50, 72), mk("NL", "Netherlands", 60, null, 68)]}
       />,
     );
-    // factor labels + country headers
     expect(screen.getByText("Approval rate")).toBeInTheDocument();
     expect(screen.getByText("Processing")).toBeInTheDocument();
     expect(screen.getByText(/Germany/)).toBeInTheDocument();
     expect(screen.getByText(/Netherlands/)).toBeInTheDocument();
-    // raw factor score + footer category score
     expect(screen.getByText("80%")).toBeInTheDocument();
     expect(screen.getByText("Category score")).toBeInTheDocument();
     expect(screen.getByText("72%")).toBeInTheDocument();
-    // NL f2 pending → em dash present
+    // NL f2 pending renders as em dash
     expect(screen.getAllByText("—").length).toBeGreaterThan(0);
   });
 
@@ -52,8 +50,7 @@ describe("FactorCompareTable", () => {
     const { container } = render(
       <FactorCompareTable category={CAT} countries={[mk("DE", "Germany", 80, 50, 72), mk("NL", "Netherlands", 60, 90, 68)]} />,
     );
-    // f1 row: DE 80 is max → its cell carries the highlight class
     const highlighted = container.querySelectorAll("td.bg-primary\\/5");
-    expect(highlighted.length).toBe(2); // one max per factor row (f1: DE, f2: NL)
+    expect(highlighted.length).toBe(2); // one row-max highlight per factor (f1: DE, f2: NL)
   });
 });

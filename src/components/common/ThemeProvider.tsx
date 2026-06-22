@@ -1,4 +1,3 @@
-// src/components/common/ThemeProvider.tsx
 import { createContext, useEffect, useState, type ReactNode } from "react";
 
 type Theme = "light" | "dark";

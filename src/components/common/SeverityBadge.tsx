@@ -1,9 +1,8 @@
-// src/components/common/SeverityBadge.tsx
 import { cn } from "@/lib/utils";
 
 export type Severity = "blocker" | "highlight";
 
-// Single source for the wording + colour used on country cells and the methodology page.
+// Single source for wording + colour across country cells and the methodology page.
 const LABEL: Record<Severity, string> = { blocker: "blocker", highlight: "direct-work route" };
 const CLASS: Record<Severity, string> = {
   blocker: "text-rose-600 dark:text-rose-400",

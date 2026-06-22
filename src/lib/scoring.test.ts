@@ -1,4 +1,3 @@
-// src/lib/scoring.test.ts
 import { describe, it, expect } from "vitest";
 import { computeOverall, scoreCountry, rankCountries, deriveCategoryScore, deriveFactorBreakdown, deriveFactorComparison } from "@/lib/scoring";
 import type { Category, Country } from "@/types";
@@ -17,7 +16,7 @@ const cell = (
   status, factors, summary: "", pros: [], cons: [], links: [], lastReviewed: "2026-06-18",
 });
 
-// A cell whose every factor scores `n`, so the derived category score is exactly `n`.
+// Every factor scores `n`, so the derived category score is exactly `n`.
 const flat = (catId: string, n: number) => {
   const cat = cats.find((c) => c.id === catId)!;
   return cell(Object.fromEntries(cat.factors.map((fc) => [fc.id, sc(n)])));

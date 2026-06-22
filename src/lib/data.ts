@@ -1,4 +1,3 @@
-// src/lib/data.ts
 import type { Category, Country, Profile, ScoredCountry } from "@/types";
 import { validateCategories, validateCountry, validateProfile } from "@/lib/schema";
 import { rankCountries } from "@/lib/scoring";
@@ -8,7 +7,6 @@ import profileJson from "@/data/profile.json";
 export const categories = categoriesJson as Category[];
 export const profile = profileJson as Profile;
 
-// Eagerly import every country JSON file.
 const modules = import.meta.glob<{ default: Country }>("@/data/countries/*.json", { eager: true });
 export const countries: Country[] = Object.values(modules)
   .map((m) => m.default)

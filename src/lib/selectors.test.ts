@@ -1,4 +1,3 @@
-// src/lib/selectors.test.ts
 import { describe, it, expect } from "vitest";
 import { topN, regionsOf, byRegion, categoryScore, byWeightDesc } from "@/lib/selectors";
 import type { ScoredCountry } from "@/types";

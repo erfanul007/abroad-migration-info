@@ -15,10 +15,10 @@ describe("CategoryFactorScores", () => {
   it("renders a row per factor with weight, score badge and points, plus the weighted-mean footer", () => {
     render(<CategoryFactorScores breakdown={breakdown} displayScore={70} />);
     expect(screen.getByText("Visa approval rate")).toBeInTheDocument();
-    expect(screen.getByText("72%")).toBeInTheDocument(); // ScoreBadge
-    expect(screen.getByText("21.6")).toBeInTheDocument(); // points
-    expect(screen.getByText("37.9")).toBeInTheDocument(); // footer total (1 dp)
-    expect(screen.getByText("Weighted mean")).toBeInTheDocument(); // footer label (exact: the note also says "weighted mean")
+    expect(screen.getByText("72%")).toBeInTheDocument(); // via ScoreBadge
+    expect(screen.getByText("21.6")).toBeInTheDocument();
+    expect(screen.getByText("37.9")).toBeInTheDocument(); // 37.85 total rounded to 1 dp
+    expect(screen.getByText("Weighted mean")).toBeInTheDocument(); // footer label; the note also says "weighted mean"
   });
   it("notes the weighted mean is the exact category score (no display curve)", () => {
     render(<CategoryFactorScores breakdown={breakdown} displayScore={70} />);

@@ -1,7 +1,5 @@
-// src/lib/selectors.ts
-// Reusable, pure derived selectors over already-scored countries. These keep
-// ranking/top-N/region/category-score logic out of page & component code so it is
-// derived once and shared (no duplicated slices or inline `.categories[id].score`).
+// Reusable pure selectors over already-scored countries — keeps ranking/top-N/region/category
+// logic out of components so it's derived once and shared, not duplicated inline.
 import type { ScoredCountry } from "@/types";
 
 /** First `n` items (countries are already ranked, so this is the top N). */
@@ -19,7 +17,6 @@ export const byRegion = (countries: readonly ScoredCountry[], region: string): S
 export const categoryScore = (country: ScoredCountry, categoryId: string): number | null =>
   country.categoryScores[categoryId] ?? null;
 
-/** Comparator: heavier weight first. Stable on ties — Array.prototype.sort preserves input
- *  order for equal keys — so equal-weight categories keep their source order. Works on any
- *  `{ weight }`-bearing item (e.g. Category, or a ScoredCategory's `.category`). */
+/** Comparator: heavier weight first. Relies on sort's stability so equal-weight categories keep
+ *  source order. Works on any `{ weight }`-bearing item (Category, or a ScoredCategory's `.category`). */
 export const byWeightDesc = (a: { weight: number }, b: { weight: number }): number => b.weight - a.weight;

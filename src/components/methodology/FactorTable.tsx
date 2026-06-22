@@ -1,11 +1,9 @@
-// src/components/methodology/FactorTable.tsx
 import type { Factor } from "@/types";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { WeightBar } from "@/components/common/WeightBar";
 import { formatPercent } from "@/lib/formatters";
 
-/** Factor sub-table for one category: each factor's label, weight (with a proportional bar
- *  relative to the category's heaviest factor) and description. Data-driven. */
+/** Per-category factor table; weight bar is proportional to the category's heaviest factor. */
 export function FactorTable({ factors }: { factors: Factor[] }) {
   const max = Math.max(...factors.map((f) => f.weight));
   return (

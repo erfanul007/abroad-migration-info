@@ -1,8 +1,5 @@
-// src/lib/schema.test.ts
-// Tests cover ONLY the cross-field rules we own — category weights summing to 100, unique
-// category ids, factor weights summing to 100, unique factor ids, and a country referencing
-// only known category ids. Full-shape checking (required fields,
-// status enum, integer 0..100 scores, link {title,url}) is Zod's job and is not re-tested here.
+// Covers only the cross-field rules we own (category/factor weight sums, unique ids,
+// known category refs); full-shape checks are Zod's job and not re-tested here.
 import { describe, it, expect } from "vitest";
 import { validateCategories, validateCountry } from "@/lib/schema";
 import type { Category, Country, Factor } from "@/types";

@@ -1,4 +1,3 @@
-// src/components/country/CategoryFactorDialog.tsx
 import type { Category, CategoryScore } from "@/types";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
@@ -7,8 +6,7 @@ import { CategoryFactorScores } from "@/components/country/CategoryFactorScores"
 import { deriveFactorBreakdown } from "@/lib/scoring";
 import { Table2 } from "lucide-react";
 
-/** "View factor details" button that opens this country's factor-contribution breakdown for
- *  one (scored) category in a modal. Renders nothing if the breakdown is non-derivable. */
+/** Modal factor-contribution breakdown for one scored category; renders nothing if non-derivable. */
 export function CategoryFactorDialog({ category, cell, score }: { category: Category; cell: CategoryScore; score: number }) {
   const breakdown = deriveFactorBreakdown(cell, category);
   if (!breakdown) return null;

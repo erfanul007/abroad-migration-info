@@ -1,4 +1,3 @@
-// src/pages/About.tsx
 import { useData } from "@/hooks/useData";
 import { Section } from "@/components/common/Section";
 import { FeedbackForm } from "@/components/about/FeedbackForm";
@@ -9,7 +8,7 @@ import {
   MapPin, Zap, Copy, MessageSquare, type LucideIcon,
 } from "lucide-react";
 
-// Icon per pathway step, aligned to profile.pathway order.
+// Aligned to profile.pathway order.
 const PATHWAY_ICONS: LucideIcon[] = [GraduationCap, Briefcase, Home, BadgeCheck, Plane];
 
 export default function About() {

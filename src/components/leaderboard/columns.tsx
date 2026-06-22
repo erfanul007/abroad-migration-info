@@ -1,4 +1,3 @@
-// src/components/leaderboard/columns.tsx
 import { type ColumnDef } from "@tanstack/react-table";
 import { Link } from "react-router";
 import type { Category, ScoredCountry } from "@/types";

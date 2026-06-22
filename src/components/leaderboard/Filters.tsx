@@ -1,4 +1,3 @@
-// src/components/leaderboard/Filters.tsx
 import { type VisibilityState } from "@tanstack/react-table";
 import type { Category } from "@/types";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";

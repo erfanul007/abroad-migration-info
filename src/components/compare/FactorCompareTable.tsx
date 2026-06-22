@@ -1,4 +1,3 @@
-// src/components/compare/FactorCompareTable.tsx
 import type { Category, ScoredCountry } from "@/types";
 import { Table, TableBody, TableCell, TableFooter, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { ScoreBadge } from "@/components/common/ScoreBadge";
@@ -7,9 +6,7 @@ import { categoryScore } from "@/lib/selectors";
 import { formatPercent } from "@/lib/formatters";
 import { cn } from "@/lib/utils";
 
-/** Compares one category's factor sub-scores across the chosen countries. Factor scores are
- *  absolute (raw 0–100); the footer category-score row is the exact rule-based category score. The
- *  highest non-null score in each row is highlighted (same idiom as the main category table). */
+/** Factor sub-scores per country: raw 0–100; footer is the exact category score; highest non-null score per row is highlighted. */
 export function FactorCompareTable({ category, countries }: { category: Category; countries: ScoredCountry[] }) {
   const cells = countries.map((c) => c.categories[category.id] ?? null);
   const rows = deriveFactorComparison(category, cells);

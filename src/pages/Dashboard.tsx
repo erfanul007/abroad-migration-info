@@ -1,4 +1,3 @@
-// src/pages/Dashboard.tsx
 import { Link } from "react-router";
 import { useData } from "@/hooks/useData";
 import { useScoreboard } from "@/hooks/useScoreboard";

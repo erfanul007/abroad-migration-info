@@ -1,7 +1,6 @@
-// src/types/index.ts
-// Data-shape types are inferred from the Zod schemas (src/lib/schema.ts) so the runtime
-// validation and the compile-time types share one definition and can't drift. This file
-// re-exports them and adds the derived (runtime-only) types the schemas don't cover.
+// Data-shape types are inferred from the Zod schemas (src/lib/schema.ts) so runtime
+// validation and compile-time types share one definition and can't drift. Re-exports
+// them plus the derived (runtime-only) types the schemas don't cover.
 export type {
   ReferenceLink,
   Factor,

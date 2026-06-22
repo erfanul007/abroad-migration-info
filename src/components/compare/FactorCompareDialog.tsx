@@ -1,4 +1,3 @@
-// src/components/compare/FactorCompareDialog.tsx
 import type { Category, ScoredCountry } from "@/types";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
@@ -6,8 +5,7 @@ import { FactorCompareTable } from "@/components/compare/FactorCompareTable";
 import { formatPercent } from "@/lib/formatters";
 import { Table2 } from "lucide-react";
 
-/** Per-category "Compare factors" trigger → modal comparing that category's factor sub-scores
- *  across the chosen countries. Compact icon button; the label is its accessible name. */
+/** Modal comparing one category's factor sub-scores across countries; icon-button label is its accessible name. */
 export function FactorCompareDialog({ category, countries }: { category: Category; countries: ScoredCountry[] }) {
   return (
     <Dialog>

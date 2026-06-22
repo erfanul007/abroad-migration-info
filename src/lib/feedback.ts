@@ -1,8 +1,5 @@
-// src/lib/feedback.ts
-// Validation for the About-page feedback form. The visible fields are trimmed
-// then checked; the form's hidden honeypot ("company") is handled in the
-// component (a non-empty value means a bot and the submission is silently
-// dropped), so it is intentionally not part of this schema.
+// Validates the About-page feedback form's visible fields. The hidden honeypot ("company")
+// is intentionally excluded — the component drops bot submissions where it is non-empty.
 import { z } from "zod";
 
 const MESSAGE_MAX = 5000;

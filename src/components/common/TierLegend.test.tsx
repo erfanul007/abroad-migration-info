@@ -8,7 +8,7 @@ describe("TierLegend", () => {
     for (const label of ["Excellent", "Good", "Average", "Weak", "Poor"]) {
       expect(screen.getByText(label)).toBeInTheDocument();
     }
-    expect(screen.getByText("≥ 80%")).toBeInTheDocument(); // excellent floor
-    expect(screen.getByText("< 50%")).toBeInTheDocument(); // poor floor (below weak)
+    expect(screen.getByText("≥ 80%")).toBeInTheDocument();
+    expect(screen.getByText("< 50%")).toBeInTheDocument();
   });
 });
