@@ -5,6 +5,7 @@ import { ScoreBadge } from "@/components/common/ScoreBadge";
 import { PendingBadge } from "@/components/common/PendingBadge";
 import { SeverityBadge } from "@/components/common/SeverityBadge";
 import { CategoryFactorDialog } from "@/components/country/CategoryFactorDialog";
+import { CountryDatasets } from "@/components/dataset/CountryDatasets";
 import { byWeightDesc } from "@/lib/selectors";
 import { RadarProfile } from "@/components/charts/RadarProfile";
 import { ContributionBars } from "@/components/charts/ContributionBars";
@@ -46,6 +47,7 @@ export default function CountryDetail() {
         <div className="text-right">
           <div className="text-xs uppercase tracking-wide text-muted-foreground">Overall</div>
           <ScoreBadge score={country.overall} className="mt-1 text-lg" />
+          <CountryDatasets iso={country.iso} className="mt-3 justify-end" />
         </div>
       </div>
 

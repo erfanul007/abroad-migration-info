@@ -1,7 +1,7 @@
 // Covers only the cross-field rules we own (category/factor weight sums, unique ids,
 // known category refs); full-shape checks are Zod's job and not re-tested here.
 import { describe, it, expect } from "vitest";
-import { validateCategories, validateCountry } from "@/lib/schema";
+import { validateCategories, validateCountry, validateDataset } from "@/lib/schema";
 import type { Category, Country, Factor } from "@/types";
 
 const f = (id: string, weight: number): Factor => ({ id, label: id, description: "", weight });
@@ -80,5 +80,77 @@ describe("validateCountry", () => {
   it("rejects the old flat-score cell shape", () => {
     const bad = { ...country, categories: { ...country.categories, a: { status: "scored", score: 70 } } };
     expect(validateCountry(bad as unknown as Country, cats).length).toBeGreaterThan(0);
+  });
+});
+
+describe("validateDataset", () => {
+  const validCities = {
+    kind: "cities",
+    countryId: "germany",
+    title: "Germany cities",
+    scale: "score",
+    lastReviewed: "2026-07-13",
+    columns: [
+      { id: "conv", label: "Conv", kind: "score", weight: 60, betterWhen: "high" },
+      { id: "jobs", label: "Jobs", kind: "score", weight: 40, betterWhen: "high" },
+      { id: "pop", label: "Population", kind: "number", betterWhen: "high" },
+      { id: "note", label: "Note", kind: "text" },
+    ],
+    rows: [
+      { id: "munich", label: "Munich", values: { conv: 68, jobs: 92, pop: 1510000, note: "hub" } },
+    ],
+  };
+
+  it("accepts a well-formed cities dataset", () => {
+    expect(validateDataset(validCities, ["germany"])).toEqual([]);
+  });
+  it("rejects score-column weights that do not sum to 100", () => {
+    const bad = {
+      ...validCities,
+      columns: [{ id: "conv", label: "C", kind: "score", weight: 10, betterWhen: "high" }],
+      rows: [{ id: "m", label: "M", values: { conv: 50 } }],
+    };
+    expect(validateDataset(bad, ["germany"]).join()).toMatch(/weight/i);
+  });
+  it("rejects a row value referencing an unknown column", () => {
+    const bad = { ...validCities, rows: [{ id: "m", label: "M", values: { nope: 1 } }] };
+    expect(validateDataset(bad, ["germany"]).join()).toMatch(/unknown column/i);
+  });
+  it("rejects an unknown countryId", () => {
+    expect(validateDataset(validCities, ["france"]).join()).toMatch(/countryId/i);
+  });
+  it("rejects a numeric column carrying a string value", () => {
+    const bad = { ...validCities, rows: [{ id: "m", label: "M", values: { conv: "x", jobs: 1 } }] };
+    expect(validateDataset(bad, ["germany"]).join()).toMatch(/number/i);
+  });
+  it("rejects duplicate column ids", () => {
+    const bad = {
+      ...validCities,
+      columns: [
+        { id: "conv", label: "C", kind: "score", weight: 50, betterWhen: "high" },
+        { id: "conv", label: "C2", kind: "score", weight: 50, betterWhen: "high" },
+      ],
+      rows: [{ id: "m", label: "M", values: { conv: 50 } }],
+    };
+    expect(validateDataset(bad, ["germany"]).join()).toMatch(/duplicate column/i);
+  });
+  it("enforces cities => score scale and universities => rank scale", () => {
+    const bad = { ...validCities, scale: "rank" };
+    expect(validateDataset(bad, ["germany"]).join()).toMatch(/scale/i);
+  });
+  it("accepts a well-formed universities (rank) dataset", () => {
+    const uni = {
+      kind: "universities",
+      countryId: "germany",
+      title: "Germany universities",
+      scale: "rank",
+      lastReviewed: "2026-07-13",
+      columns: [
+        { id: "cse", label: "CSE", kind: "rank", betterWhen: "low" },
+        { id: "city", label: "City", kind: "text" },
+      ],
+      rows: [{ id: "tum", label: "TUM", values: { cse: 71, city: "Munich" } }],
+    };
+    expect(validateDataset(uni, ["germany"])).toEqual([]);
   });
 });

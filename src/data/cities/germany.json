@@ -1,0 +1,311 @@
+{
+  "kind": "cities",
+  "countryId": "germany",
+  "title": "German Cities — Opportunity-Card (Chancenkarte) Relocation Scoreboard",
+  "subtitle": "Scored for a Bangladeshi software engineer on a 1-year job-seeking visa: register → rent → job → EU Blue Card conversion",
+  "scale": "score",
+  "lastReviewed": "2026-07-13",
+  "columns": [
+    { "id": "conv", "label": "Blue Card conversion speed", "shortLabel": "Conv", "kind": "score", "weight": 16, "betterWhen": "high", "description": "Ausländerbehörde processing speed / backlog for the in-country Blue Card switch — the make-or-break gate on a 12-month clock." },
+    { "id": "jobs", "label": "Job availability & sponsors", "shortLabel": "Jobs", "kind": "score", "weight": 14, "betterWhen": "high", "description": "Volume of software/AI roles plus density of large, visa-sponsoring employers." },
+    { "id": "rent", "label": "Housing + rent affordability", "shortLabel": "Rent", "kind": "score", "weight": 13, "betterWhen": "high", "description": "New-lease rent level and how findable a flat is for a newcomer with no SCHUFA." },
+    { "id": "anm", "label": "Anmeldung ease", "shortLabel": "Anm", "kind": "score", "weight": 10, "betterWhen": "high", "description": "Bürgeramt appointment availability and registration-friendliness (gates bank, tax ID, everything)." },
+    { "id": "eng", "label": "English usability", "shortLabel": "Eng", "kind": "score", "weight": 9, "betterWhen": "high", "description": "How far English gets you across job market, bureaucracy and daily life." },
+    { "id": "comp", "label": "Competition / your odds", "shortLabel": "Comp", "kind": "score", "weight": 8, "betterWhen": "high", "description": "Applicant saturation for the English-OK roles you can realistically land (higher = better odds)." },
+    { "id": "safe", "label": "Safety & xenophobia climate", "shortLabel": "Safe", "kind": "score", "weight": 8, "betterWhen": "high", "description": "Physical safety plus far-right / anti-Muslim risk for a visible-minority Muslim." },
+    { "id": "cost", "label": "Cost of living", "shortLabel": "Cost", "kind": "score", "weight": 6, "betterWhen": "high", "description": "Non-rent burn rate — higher score = cheaper, longer runway." },
+    { "id": "pt", "label": "Part-time / side-income", "shortLabel": "PT", "kind": "score", "weight": 6, "betterWhen": "high", "description": "Availability of the ≤20 h/week gigs the Chancenkarte permits, English-OK slice." },
+    { "id": "conn", "label": "Connectivity & facilities", "shortLabel": "Conn", "kind": "score", "weight": 6, "betterWhen": "high", "description": "Air links to Dhaka (all 1-stop at best) plus public transport." },
+    { "id": "comm", "label": "BD/Muslim community + halal", "shortLabel": "Comm", "kind": "score", "weight": 4, "betterWhen": "high", "description": "Bangladeshi/South-Asian diaspora, mosques, halal food." },
+    { "id": "population", "label": "Population (city proper)", "shortLabel": "Pop.", "kind": "number", "betterWhen": "high" },
+    { "id": "rentCentre", "label": "1-bed rent, centre", "shortLabel": "1-bed €/mo", "kind": "text" },
+    { "id": "rentM2", "label": "New-lease rent", "shortLabel": "€/m²", "kind": "number", "betterWhen": "low", "unit": "€/m²" },
+    { "id": "salary", "label": "Tech salary (junior / mid, gross)", "shortLabel": "Salary", "kind": "text" },
+    { "id": "bdCommunity", "label": "Bangladeshi community", "shortLabel": "BD community", "kind": "text" },
+    { "id": "embassy", "label": "Bangladesh embassy access", "shortLabel": "BD embassy", "kind": "text" }
+  ],
+  "rows": [
+    {
+      "id": "hamburg",
+      "label": "Hamburg",
+      "sublabel": "Hamburg (city-state)",
+      "values": { "conv": 76, "jobs": 74, "rent": 66, "anm": 62, "eng": 72, "comp": 60, "safe": 78, "cost": 60, "pt": 70, "conn": 70, "comm": 82, "population": 1860000, "rentCentre": "€700–950", "rentM2": 14, "salary": "Junior €47–53k · Mid €58–72k", "bdCommunity": "Indian ~9,900 (2024); BD <1,500 (in 'other'); Bangladesh Islamic Center on Adenauerallee", "embassy": "Full service: Berlin embassy (~290 km, nearest of the set); honorary consulate in Hamburg" },
+      "detail": {
+        "summary": "The best all-rounder for this plan — no weak link in the land-and-convert core.",
+        "note": "Blue Card runs through the Hamburg Welcome Center, a dedicated English-friendly skilled-worker channel (~8–12 weeks), not a general Ausländerbehörde queue.",
+        "pros": [
+          { "text": "Welcome Center conversion is faster + more English-friendly than Berlin/Munich's general offices." },
+          { "text": "Sponsor-heavy market (Airbus, Otto/About You, Google, gaming, growing AI/climatetech); rents well below Munich/Frankfurt." },
+          { "text": "Diverse, western, low far-right risk; real Bangladeshi anchor (Steindamm South-Asian strip)." }
+        ],
+        "cons": [
+          { "text": "Deep-tech/AI-research depth trails Berlin/Munich." },
+          { "text": "Entry-level saturated (300–400 applications/role); Anmeldung slots go fast." }
+        ],
+        "links": [
+          { "title": "Hamburg Welcome Portal — EU Blue Card", "url": "https://www.hamburg.com/welcome/entry-residence/work/11749182/eu-blue-card/" },
+          { "title": "Hamburger Mietenspiegel 2025 (official)", "url": "https://www.hamburg.de/politik-und-verwaltung/senat/presseservice-des-senats/landespressekonferenz/mietenspiegel-2025-1126144" }
+        ]
+      }
+    },
+    {
+      "id": "karlsruhe",
+      "label": "Karlsruhe",
+      "sublabel": "Baden-Württemberg",
+      "values": { "conv": 78, "jobs": 60, "rent": 74, "anm": 82, "eng": 64, "comp": 56, "safe": 72, "cost": 72, "pt": 60, "conn": 58, "comm": 56, "population": 309000, "rentCentre": "~€880", "rentM2": 13.7, "salary": "Junior €47–53k · Mid €55–70k", "bdCommunity": "Small BD; KIT-driven South-Asian student presence", "embassy": "Full service: Berlin embassy (~625 km); honorary consulate Frankfurt (~145 km)" },
+      "detail": {
+        "summary": "The under-the-radar pick — fastest, cheapest, calmest admin of the serious tech towns.",
+        "note": "Ausländerbehörde quotes ~4–8 weeks for the Blue Card and takes online submissions; online Anmeldung exists (rare) — the smoothest bureaucracy in the set.",
+        "pros": [
+          { "text": "Low case-load + digital intake = your 12-month clock is least at risk here." },
+          { "text": "Genuine 'hidden tech powerhouse' (KIT, FZI/Fraunhofer, CyberForum, IONOS, CAS, dm; SAP an hour away); affordable; safe liberal university city." }
+        ],
+        "cons": [
+          { "text": "Modest absolute job volume vs the big hubs; KIT graduate pipeline sharpens junior competition." },
+          { "text": "Thin Bangladeshi-specific community; no long-haul airport (Frankfurt ~1 h by ICE)." }
+        ],
+        "links": [
+          { "title": "Blaue Karte EU beantragen — Stadt Karlsruhe", "url": "https://web1.karlsruhe.de/service/Buergerdienste/leistung.php?id=6004479" },
+          { "title": "Karlsruher Mietspiegel 2025 (qualified)", "url": "https://web6.karlsruhe.de/Stadtentwicklung/statistik/pdf/mietspiegel/karlsruher-mietspiegel-2025.pdf" }
+        ]
+      }
+    },
+    {
+      "id": "munich",
+      "label": "Munich",
+      "sublabel": "Bavaria",
+      "values": { "conv": 68, "jobs": 92, "rent": 34, "anm": 68, "eng": 74, "comp": 66, "safe": 78, "cost": 44, "pt": 70, "conn": 80, "comm": 74, "population": 1510000, "rentCentre": "€1,400–1,800", "rentM2": 22, "salary": "Junior €50–62k · Mid €65–85k (highest in DE)", "bdCommunity": "1,007 Bangladeshi (2024), 17,946 Indian; small BD, Indian-led; Masjid An-Nur (Bangladeshi-founded)", "embassy": "Full service: Berlin embassy (~585 km); honorary consulate in Munich" },
+      "detail": {
+        "summary": "The strongest job market in Germany, taxed hard by cost.",
+        "note": "Conversion is decent (~12–14 weeks total) and much faster via a Munich Expat Center–enrolled employer (BMW, Siemens, Allianz…).",
+        "pros": [
+          { "text": "~19% of all German software openings; Big Tech R&D + corporate + unicorns; high salaries clear the Blue Card bar easily." },
+          { "text": "Safe, cosmopolitan; excellent transport and MUC air links." }
+        ],
+        "cons": [
+          { "text": "Germany's most expensive city — rent (~€22/m²) and fierce flat competition are brutal on Chancenkarte funds; this is what drags the overall down." }
+        ],
+        "links": [
+          { "title": "EU Blue Card — Servicestelle für Zuwanderung, München", "url": "https://stadt.muenchen.de/service/en-GB/info/hauptabteilung-ii-buergerangelegenheiten-auslaenderangelegenheiten-service-center-fuer-internationale-fachkraefte/10422541/" },
+          { "title": "Statistisches Amt München — Bevölkerung nach Staatsangehörigkeit", "url": "https://stadt.muenchen.de/dam/jcr:89a2dcdb-76bb-427d-8930-61a956092c08/jt210115.pdf" }
+        ]
+      }
+    },
+    {
+      "id": "leipzig",
+      "label": "Leipzig",
+      "sublabel": "Saxony (eastern Germany)",
+      "values": { "conv": 82, "jobs": 54, "rent": 88, "anm": 78, "eng": 56, "comp": 52, "safe": 52, "cost": 84, "pt": 66, "conn": 54, "comm": 44, "population": 634000, "rentCentre": "~€700", "rentM2": 10, "salary": "Junior €42–50k · Mid €50–62k (below avg, east)", "bdCommunity": "Small BD; growing international/student population; halal mainly via Turkish/Arab shops", "embassy": "Full service: Berlin embassy (~190 km, nearest); honorary consulate Potsdam" },
+      "detail": {
+        "summary": "The value play — cheapest big city plus the fastest-evidenced eastern bureaucracy — held back by the eastern safety question and thinner jobs/community.",
+        "note": "Leipzig's foreigners' authority decides Blue Card cases ~4 weeks after complete submission and works largely online; Anmeldung allows walk-ins.",
+        "pros": [
+          { "text": "Cheapest rents and cost of living in the set — huge runway extension." },
+          { "text": "Rising ecosystem (BMW, Porsche, DHL, ScaDS.AI); on-paper the fastest Blue Card decision here." }
+        ],
+        "cons": [
+          { "text": "Saxony carries elevated far-right risk; Leipzig city is a progressive enclave but caution rises in outer districts and at night." },
+          { "text": "Smaller English-role pool; very small Bangladeshi community and limited halal." }
+        ],
+        "links": [
+          { "title": "Blaue Karte EU beantragen — Stadt Leipzig", "url": "https://www.leipzig.de/service-portal/dienstleistung/blaue-karte-eu" },
+          { "title": "Mietspiegel — Stadt Leipzig (qualified 2025–2027)", "url": "https://www.leipzig.de/bauen-und-wohnen/wohnen/mietspiegel" }
+        ]
+      }
+    },
+    {
+      "id": "duesseldorf",
+      "label": "Düsseldorf",
+      "sublabel": "North Rhine-Westphalia",
+      "values": { "conv": 74, "jobs": 62, "rent": 58, "anm": 64, "eng": 74, "comp": 54, "safe": 70, "cost": 58, "pt": 68, "conn": 74, "comm": 66, "population": 659000, "rentCentre": "~€1,080", "rentM2": 13, "salary": "Junior €47–52k · Mid €55–70k (avg ~€63k)", "bdCommunity": "Small BD (Oberbilk South-Asian quarter); large Japanese community; halal widely available", "embassy": "Full service: Berlin embassy (~560 km); honorary consulate Grefrath (~40 km)" },
+      "detail": {
+        "summary": "Corporate, English-friendly, efficient — a quietly strong operational choice.",
+        "note": "Electronic Blue Card ~3–5 weeks after a positive decision; city added Anmeldung capacity (pop-up offices, extra slots).",
+        "pros": [
+          { "text": "One of Germany's most English-friendly job markets (Vodafone, Henkel, Metro, Trivago, Amazon)." },
+          { "text": "Doha nonstop from DUS eases Dhaka trips; South-Asian quarter in Oberbilk." }
+        ],
+        "cons": [
+          { "text": "Startup/AI depth is mid-sized (~405 IT roles); many 'English' employers still expect working German." },
+          { "text": "Upper-mid cost; no dedicated Bangladeshi association found." }
+        ],
+        "links": [
+          { "title": "Blaue Karte EU — Landeshauptstadt Düsseldorf", "url": "https://www.duesseldorf.de/auslaenderamt/aufenthalt/beschaeftigung-und-selbststaendigkeit/blaue-karte-eu" },
+          { "title": "Mietspiegel Düsseldorf — ImmoScout24", "url": "https://www.immobilienscout24.de/immobilienpreise/nordrhein-westfalen/duesseldorf/mietspiegel" }
+        ]
+      }
+    },
+    {
+      "id": "nuremberg",
+      "label": "Nuremberg",
+      "sublabel": "Bavaria",
+      "values": { "conv": 68, "jobs": 56, "rent": 80, "anm": 76, "eng": 48, "comp": 54, "safe": 72, "cost": 78, "pt": 64, "conn": 58, "comm": 58, "population": 531000, "rentCentre": "~€780", "rentM2": 10.3, "salary": "Junior €45–52k · Mid €55–65k (Bavaria, below Munich)", "bdCommunity": "246 Bangladeshi (2024), 4,212 Indian; small but growing BD; wide Muslim/halal infrastructure", "embassy": "Full service: Berlin embassy (~380 km); honorary consulates Munich (~170 km)/Frankfurt" },
+      "detail": {
+        "summary": "Bavarian quality of life without Munich prices — but a small English job pool.",
+        "note": "Blue Card applied online, office schedules the appointment by letter; no published SLA — plan conservatively.",
+        "pros": [
+          { "text": "Affordable for the south (~18–25% cheaper than Munich), safe and very diverse ('City of Human Rights'); findable Anmeldung slots." },
+          { "text": "Solid enterprise/industrial tech (DATEV, Siemens, Fraunhofer IIS applied AI)." }
+        ],
+        "cons": [
+          { "text": "Smallest English-first tech pool in the set (~6 English dev roles at a time); Mittelstand strongly prefers German." },
+          { "text": "No dedicated Bangladeshi mosque/centre (wide general Muslim/halal infra)." }
+        ],
+        "links": [
+          { "title": "Aufenthaltstitel Blaue Karte EU — Stadt Nürnberg", "url": "https://www.nuernberg.de/internet/stadtportal/behoerdenwegweiser/dienstleistung/aufenthaltstitel_blaue_karte_eu.html" },
+          { "title": "Nürnberg in Zahlen 2025 (population/nationalities)", "url": "https://www.nuernberg.de/imperia/md/statistik/dokumente/veroeffentlichungen/berichte/niz/niz_2025_online_v_1_0.pdf" }
+        ]
+      }
+    },
+    {
+      "id": "stuttgart",
+      "label": "Stuttgart",
+      "sublabel": "Baden-Württemberg",
+      "values": { "conv": 60, "jobs": 76, "rent": 56, "anm": 74, "eng": 58, "comp": 60, "safe": 72, "cost": 54, "pt": 58, "conn": 62, "comm": 72, "population": 606000, "rentCentre": "~€990", "rentM2": 15, "salary": "Junior €48–55k · Mid €60–80k (avg ~€77k, auto premium)", "bdCommunity": "Small BD; large Indian IT community; dedicated Bangladeshi mosque; halal easy", "embassy": "Full service: Berlin embassy (~630 km); honorary consulates Frankfurt/Munich" },
+      "detail": {
+        "summary": "Deep automotive/industrial tech, but expensive and German-leaning.",
+        "note": "The Ausländerbehörde warns of longer Blue Card processing; plan for several weeks to a few months.",
+        "pros": [
+          { "text": "Big sponsors (Bosch, Mercedes, Porsche, IBM, HPE); ~4,000+ IT roles; good Anmeldung availability; safe western BW." }
+        ],
+        "cons": [
+          { "text": "High southern cost; longer Blue Card processing." },
+          { "text": "English-only role pool modest; much of the Mittelstand wants B1–B2 German." }
+        ],
+        "links": [
+          { "title": "Apply for an EU Blue Card — Stadt Stuttgart", "url": "https://www.stuttgart.de/en/organigramm/leistungen/blaue-karte-zur-ausuebung-einer-hochqualifizierten-beschaeftigung-beantragen-blue-card-" },
+          { "title": "Qualifizierter Mietspiegel 2025/2026 — Stadt Stuttgart", "url": "https://www.stuttgart.de/medien/ibs/mietspiegel_2025_2026.pdf" }
+        ]
+      }
+    },
+    {
+      "id": "berlin",
+      "label": "Berlin",
+      "sublabel": "Berlin (city-state)",
+      "values": { "conv": 46, "jobs": 90, "rent": 46, "anm": 42, "eng": 84, "comp": 62, "safe": 64, "cost": 62, "pt": 78, "conn": 72, "comm": 84, "population": 3700000, "rentCentre": "€1,200–1,500", "rentM2": 15.8, "salary": "Junior €48–55k · Mid €60–80k (avg ~€73k)", "bdCommunity": "Bangladesh embassy city; visible BD diaspora (Kreuzberg/Neukölln); ~80 mosques, 380+ halal spots", "embassy": "Embassy of Bangladesh, Berlin — in-city, the only full-service mission (passport, visa, attestation)" },
+      "detail": {
+        "summary": "The tech capital — and the biggest cautionary tale for a time-boxed visa.",
+        "note": "Best job market, worst conversion logistics: the LEA's multi-month Blue Card backlog + weeks-long Bürgeramt Anmeldung waits are exactly what you cannot afford on a 12-month clock.",
+        "pros": [
+          { "text": "Deepest, most diverse market (startups, fintech, AI/ML near full employment) and the most English-navigable city in Germany." },
+          { "text": "Strongest Muslim infrastructure + real Bangladeshi presence; the only in-city Bangladesh embassy." }
+        ],
+        "cons": [
+          { "text": "LEA multi-month Blue Card backlog (OTV appointment system decommissioned); Bürgeramt slots booked out for weeks." },
+          { "text": "Scarce, competitive housing; junior generalist roles saturated (an AI/ML edge changes the picture)." }
+        ],
+        "links": [
+          { "title": "Making appointments — Berlin.de (Immigration/LEA)", "url": "https://www.berlin.de/einwanderung/en/services/appointments/" },
+          { "title": "Embassy of Bangladesh, Berlin (official)", "url": "https://berlin.mofa.gov.bd/" }
+        ]
+      }
+    },
+    {
+      "id": "frankfurt",
+      "label": "Frankfurt",
+      "sublabel": "Hesse",
+      "values": { "conv": 52, "jobs": 80, "rent": 48, "anm": 46, "eng": 74, "comp": 62, "safe": 76, "cost": 52, "pt": 70, "conn": 84, "comm": 82, "population": 781000, "rentCentre": "~€1,200", "rentM2": 18, "salary": "Junior €48–55k · Mid €60–75k (fintech premium)", "bdCommunity": "Indian 11,393 (2024); BD small; Baitul Hamd (Bangladesh Islamic Centre); halal easy", "embassy": "Full service: Berlin embassy (~550 km); honorary consulate in Frankfurt (upgrade planned 2025)" },
+      "detail": {
+        "summary": "Best global connectivity and finance-tech depth; slow admin and high cost.",
+        "note": "Ausländerbehörde appointments run up to ~4 months out; Bürgeramt slots vanish in seconds — secure the Anmeldung slot on arrival.",
+        "pros": [
+          { "text": "FRA is Germany's largest hub — the best Dhaka 1-stop options; finance/fintech jobs frequently in English; strong pay-to-cost ratio." },
+          { "text": "Direct Bangladeshi anchor (Baitul Hamd / Bangladesh Islamic Centre)." }
+        ],
+        "cons": [
+          { "text": "Ausländerbehörde appointments up to ~4 months; Bürgeramt slots vanish instantly." },
+          { "text": "Germany's 2nd-costliest city; hiring skews mid-senior (few entry roles)." }
+        ],
+        "links": [
+          { "title": "EU Blue Card Frankfurt — RT & Partner", "url": "https://www.rtpartner.de/en/immigration/eu-blue-card-frankfurt/" },
+          { "title": "Mietspiegel Frankfurt am Main 2026 — ImmoScout24", "url": "https://www.immobilienscout24.de/immobilienpreise/hessen/frankfurt-am-main/mietspiegel" }
+        ]
+      }
+    },
+    {
+      "id": "cologne",
+      "label": "Cologne",
+      "sublabel": "North Rhine-Westphalia",
+      "values": { "conv": 62, "jobs": 70, "rent": 52, "anm": 52, "eng": 62, "comp": 58, "safe": 74, "cost": 60, "pt": 68, "conn": 70, "comm": 74, "population": 1100000, "rentCentre": "~€1,040", "rentM2": 14.8, "salary": "Junior €48–53k · Mid €58–70k", "bdCommunity": "Small BD; DITIB Central Mosque; Rhine-Ruhr South-Asian community; halal easy", "embassy": "Full service: Berlin embassy (~575 km); honorary consulate Grefrath NRW (~60 km)" },
+      "detail": {
+        "summary": "Diversified and welcoming, but middling on the operational gates.",
+        "note": "Blue Card runs to the 90-day benchmark (no fast published figure); apply online, then an invitation for the in-person appointment.",
+        "pros": [
+          { "text": "Broad market (DeepL, REWE, Ford, RTL, AXA; 2,000+ SWE postings); large, diverse, low-far-right city." },
+          { "text": "DITIB central mosque + Rhine-Ruhr South-Asian community; DUS/FRA close." }
+        ],
+        "cons": [
+          { "text": "No fast published Blue Card figure; Anmeldung booked weeks ahead." },
+          { "text": "Very tight flat supply — finding one is harder than affording it." }
+        ],
+        "links": [
+          { "title": "Blaue Karte EU — Stadt Köln", "url": "https://www.stadt-koeln.de/service/produkte/20321/index.html" },
+          { "title": "Mietspiegel Köln 2025/2026", "url": "https://www.koeln.de/leben/mietspiegel/" }
+        ]
+      }
+    },
+    {
+      "id": "dresden",
+      "label": "Dresden",
+      "sublabel": "Saxony (eastern Germany)",
+      "values": { "conv": 64, "jobs": 54, "rent": 86, "anm": 80, "eng": 54, "comp": 52, "safe": 42, "cost": 82, "pt": 58, "conn": 48, "comm": 50, "population": 572000, "rentCentre": "~€800", "rentM2": 9.2, "salary": "Junior €42–48k · Mid €52–62k (below avg, east)", "bdCommunity": "Small BD; TU Dresden international students; halal via Turkish/Arab shops + Islamic centres", "embassy": "Full service: Berlin embassy (~195 km); honorary consulate Potsdam (~175 km)" },
+      "detail": {
+        "summary": "Cheap and administratively relaxed, but the weakest safety profile for this profile.",
+        "note": "Blue Card appointment often ~3 months out, decision then ~6–8 weeks; a Fiktionsbescheinigung bridges legal stay.",
+        "pros": [
+          { "text": "Very affordable; relaxed Anmeldung (walk-ins)." },
+          { "text": "World-class semiconductor cluster ('Silicon Saxony': Infineon, GlobalFoundries, Bosch, ESMC) — strong if you have embedded/chip skills." }
+        ],
+        "cons": [
+          { "text": "Birthplace of PEGIDA, in AfD-stronghold Saxony — the highest far-right/anti-Muslim risk in the set." },
+          { "text": "Effectively 2-stop to Dhaka (small airport); small diaspora; thin web/SaaS depth." }
+        ],
+        "links": [
+          { "title": "Blaue Karte EU — Landeshauptstadt Dresden", "url": "https://www.dresden.de/de/rathaus/dienstleistungen/abh/ba/blaue-karte.php" },
+          { "title": "Mietspiegel Dresden 2025 (official)", "url": "https://www.dresden.de/media/pdf/sozialamt/Mietspiegel_Dresden_2025.pdf" }
+        ]
+      }
+    },
+    {
+      "id": "aachen",
+      "label": "Aachen",
+      "sublabel": "North Rhine-Westphalia",
+      "values": { "conv": 58, "jobs": 48, "rent": 80, "anm": 56, "eng": 66, "comp": 46, "safe": 70, "cost": 78, "pt": 56, "conn": 50, "comm": 56, "population": 261000, "rentCentre": "~€740", "rentM2": 10.5, "salary": "Junior €44–50k · Mid €50–60k (RWTH-heavy market)", "bdCommunity": "Small BD; large RWTH international student body (BD reportedly 3rd-largest group); halal via Turkish/Arab shops", "embassy": "Full service: Berlin embassy (~640 km); honorary consulate Grefrath (~90 km)" },
+      "detail": {
+        "summary": "A superb research town — but the weakest job-seeker market of the twelve.",
+        "note": "Blue Card via the StädteRegion Aachen office with limited hours and competitive appointments — apply 8–12 weeks ahead.",
+        "pros": [
+          { "text": "Above-average English (RWTH international scene); affordable border city; safe western NRW." },
+          { "text": "Strong for embedded/industrial/research roles and spin-offs." }
+        ],
+        "cons": [
+          { "text": "Thinnest job volume and worst competition — RWTH floods junior roles (you compete with your own cohort)." },
+          { "text": "No airport (DUS/CGN ~1 h, then 1-stop); limited-hours Ausländeramt." }
+        ],
+        "links": [
+          { "title": "Blaue Karte EU — StädteRegion Aachen", "url": "https://bportal.staedteregion-aachen.de/staedteregion-a-z/-/egov-bis-detail/dienstleistung/15003/show" },
+          { "title": "Mietspiegel Aachen 2026 — ImmoScout24", "url": "https://www.immobilienscout24.de/immobilienpreise/nordrhein-westfalen/aachen/mietspiegel" }
+        ]
+      }
+    }
+  ],
+  "methodology": "Overall is the weighted mean of the 11 scored criteria (weights shown), computed live over the criteria present — raw, no display curve. Scores are evidence-backed 0–100 expert synthesis: no single index ranks e.g. 'Blue Card conversion speed by city', so each cell is built from official processing-time statements, rent indices (GREIX Q4 2025 + city Mietspiegel), job-posting counts, election results and hate-crime statistics. The land-and-convert cluster — Conversion (16) + Jobs (14) + Anmeldung (10) + English (9) = 49 — plus Competition (8) reflects the stated priority: land a full-time tech job and convert the EU Blue Card inside the 12-month Chancenkarte window. Context columns (population, rent, salary, community, embassy) are descriptive, not scored. Chancenkarte basics: up to 12 months, part-time work ≤20 h/week + 2-week trials, proof of funds €1,091/month (€13,092/year, 2026); Blue Card IT/shortage salary bar €43,759.80 (2025); settlement in 21 months with B1 German (27 with A1).",
+  "caveats": [
+    "The spread is narrow (60.5–70.1) — a tie-break among viable cities, not a quality gap. Your specialisation, savings and how fast you land an offer move the needle more than the city choice.",
+    "Bureaucracy speed is the highest-variance input; only Leipzig and Berlin publish clear signals. Verify your target office's current Ausländerbehörde/Bürgeramt waits before committing.",
+    "Rents are new-lease/asking figures (GREIX Q4 2025 for the big cities; ImmoScout24/Numbeo/Mietspiegel elsewhere), re-accelerating at end-2025 (~+4.5% YoY) — budget upward.",
+    "Safety is national/regional, not street-level: anti-Islamic hate crimes rose ~140% in 2023; the east/west split (Saxony's Dresden/Leipzig higher-risk) is the main per-city differentiator.",
+    "Salary bands are cross-checked market aggregates (Glassdoor/Levels.fyi/StepStone), not official; most mid-level offers clear the 2025 Blue Card IT bar (€43,759.80). Bangladeshi community sizes are dual-sourced only where a city register publishes them (Munich, Nuremberg); elsewhere they are qualitative."
+  ],
+  "sources": [
+    { "title": "BAMF — Opportunity Card / EU Blue Card", "url": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/ZuwandererDrittstaaten/Migrathek/BlaueKarteEU/blauekarteeu-node.html" },
+    { "title": "Auswärtiges Amt — Chancenkarte (proof of funds €1,091/mo, 20 h/week)", "url": "https://eriwan.diplo.de/am-de/service/visa/chancenkarte-2721494" },
+    { "title": "Make it in Germany — Opportunity Card Q&A", "url": "https://www.make-it-in-germany.com/en/visa-residence/opportunity-card/questions-answers" },
+    { "title": "Kiel Institute GREIX Rental Price Index Q4 2025", "url": "https://www.kielinstitut.de/fileadmin/Dateiverwaltung/IfW-Publications/fis-import/e521f10a-7baa-4543-9a9d-57a1b8a330a4-GREIX_Rental_Price_Index_update_doc_25q4_en1.pdf" },
+    { "title": "appliedAI — German AI Startup Landscape 2025", "url": "https://www.appliedai-institute.de/en/publications/ai-startup-landscape-2025/" },
+    { "title": "Bitkom — Germany still lacks 100,000+ IT specialists (Aug 2025)", "url": "https://silicon-saxony.de/en/bitkom-germany-still-lacks-more-than-100000-it-specialists/" },
+    { "title": "Human Rights Watch — World Report 2025: Germany", "url": "https://www.hrw.org/world-report/2025/country-chapters/germany" },
+    { "title": "DeZIM — NaDiRa Racism Monitor 2025", "url": "https://www.rassismusmonitor.de/en/publications/monitoring-racism-and-discrimination-in-germany/" },
+    { "title": "Embassy of Bangladesh, Berlin (official)", "url": "https://berlin.mofa.gov.bd/" }
+  ]
+}

@@ -13,6 +13,13 @@ export type {
   Preferences,
   Person,
   Profile,
+  DatasetKind,
+  DatasetScale,
+  ColumnKind,
+  BetterWhen,
+  DatasetColumn,
+  DatasetRow,
+  ComparativeDataset,
 } from "@/lib/schema";
 
 import type { Category, CategoryScore, Country } from "@/lib/schema";

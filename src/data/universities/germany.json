@@ -1,0 +1,62 @@
+{
+  "kind": "universities",
+  "countryId": "germany",
+  "title": "German Universities — Computer-Science Master Shortlist",
+  "subtitle": "EduRank world subject ranks (lower = better) + English-taught CS/AI master, non-EU tuition and application route",
+  "scale": "rank",
+  "lastReviewed": "2026-07-13",
+  "columns": [
+    { "id": "cse", "label": "Computer Science", "shortLabel": "CSE", "kind": "rank", "betterWhen": "low" },
+    { "id": "ai", "label": "Artificial Intelligence", "shortLabel": "AI", "kind": "rank", "betterWhen": "low" },
+    { "id": "ml", "label": "Machine Learning", "shortLabel": "ML", "kind": "rank", "betterWhen": "low" },
+    { "id": "ds", "label": "Data Science", "shortLabel": "DS", "kind": "rank", "betterWhen": "low" },
+    { "id": "swe", "label": "Software Engineering", "shortLabel": "SWE", "kind": "rank", "betterWhen": "low" },
+    { "id": "city", "label": "City", "shortLabel": "City", "kind": "text" },
+    { "id": "englishMsc", "label": "English-taught CS/AI master", "shortLabel": "English MSc", "kind": "text" },
+    { "id": "tuition", "label": "Non-EU master tuition", "shortLabel": "Tuition", "kind": "text" },
+    { "id": "apply", "label": "Application route", "shortLabel": "Apply", "kind": "text" }
+  ],
+  "rows": [
+    { "id": "tum", "label": "Technical University of Munich (TUM)", "sublabel": "Munich, Bavaria", "values": { "cse": 71, "ai": 54, "ml": 81, "ds": 89, "swe": 17, "city": "Munich", "englishMsc": "Yes — M.Sc. Informatics", "tuition": "€4,000–6,000/sem (non-EU master)", "apply": "Mixed (TUMonline + uni-assist VPD)" },
+      "detail": { "note": "Germany's top CS school and the standout tuition charger: Bavaria reintroduced optional non-EU fees from winter 2024/25 and TUM applies €4,000–6,000/sem for master's. Waivers for 5+ years' prior residence.", "links": [{ "title": "TUM — M.Sc. Informatics", "url": "https://www.cit.tum.de/en/cit/studies/degree-programs/master-informatics/" }] } },
+    { "id": "heidelberg", "label": "Heidelberg University", "sublabel": "Heidelberg, Baden-Württemberg", "values": { "cse": 80, "ai": 155, "ml": 164, "ds": 151, "swe": 341, "city": "Heidelberg", "englishMsc": "Yes — M.Sc. Data & Computer Science", "tuition": "€1,500/sem (non-EU)", "apply": "Direct (heiCO portal)" } },
+    { "id": "lmu", "label": "University of Munich (LMU)", "sublabel": "Munich, Bavaria", "values": { "cse": 116, "ai": 135, "ml": 127, "ds": 178, "swe": 163, "city": "Munich", "englishMsc": "Yes — M.Sc. Data Science (core Informatics mostly German)", "tuition": "Free 2025-26 + ~€150 sem fee", "apply": "Direct (LMU portal)" },
+      "detail": { "note": "Bavaria's non-EU tuition is optional per university; LMU was not charging as of 2025-26 (unlike TUM). Verify before applying.", "links": [{ "title": "LMU — M.Sc. Data Science", "url": "https://www.datascience.stat.uni-muenchen.de/" }] } },
+    { "id": "rwth-aachen", "label": "RWTH Aachen University", "sublabel": "Aachen, North Rhine-Westphalia", "values": { "cse": 131, "ai": 88, "ml": 123, "ds": 169, "swe": 35, "city": "Aachen", "englishMsc": "Yes — M.Sc. Software Systems Engineering", "tuition": "Free + ~€305 sem fee", "apply": "Direct (RWTHonline)" } },
+    { "id": "hamburg", "label": "University of Hamburg", "sublabel": "Hamburg", "values": { "cse": 155, "ai": 195, "ml": 198, "ds": 258, "swe": 164, "city": "Hamburg", "englishMsc": "Yes — M.Sc. Intelligent Adaptive Systems", "tuition": "Free + ~€380 sem fee", "apply": "Direct (programme portal / STiNE)" } },
+    { "id": "freiburg", "label": "University of Freiburg", "sublabel": "Freiburg, Baden-Württemberg", "values": { "cse": 161, "ai": 120, "ml": 155, "ds": 306, "swe": 237, "city": "Freiburg im Breisgau", "englishMsc": "Yes — M.Sc. Computer Science (AI/ML track)", "tuition": "€1,500/sem (non-EU)", "apply": "Direct (HISinOne)" } },
+    { "id": "kit", "label": "Karlsruhe Institute of Technology (KIT)", "sublabel": "Karlsruhe, Baden-Württemberg", "values": { "cse": 173, "ai": 118, "ml": 229, "ds": 142, "swe": 44, "city": "Karlsruhe", "englishMsc": "Yes — M.Sc. Computer Science (INT)", "tuition": "€1,500/sem (non-EU)", "apply": "Direct (KIT portal)" } },
+    { "id": "fau", "label": "University of Erlangen–Nuremberg (FAU)", "sublabel": "Erlangen, Bavaria", "values": { "cse": 181, "ai": 209, "ml": 287, "ds": 364, "swe": 178, "city": "Erlangen", "englishMsc": "Yes — M.Sc. Artificial Intelligence", "tuition": "Free now; €2,000–6,000/sem from 2027", "apply": "Direct (campo)" },
+      "detail": { "note": "Tuition-free for non-EU master's in 2025-26, but FAU plans Bavarian non-EU fees of €2,000–6,000/sem from summer semester 2027.", "links": [{ "title": "FAU — M.Sc. Artificial Intelligence", "url": "https://www.fau.eu/education/what-can-i-study/degree-programs/artificial-intelligence-master-of-science/" }] } },
+    { "id": "tuebingen", "label": "University of Tübingen", "sublabel": "Tübingen, Baden-Württemberg", "values": { "cse": 188, "ai": 221, "ml": 300, "ds": 288, "swe": 339, "city": "Tübingen", "englishMsc": "Yes — M.Sc. Machine Learning", "tuition": "€1,500/sem (non-EU)", "apply": "Direct (university portal)" } },
+    { "id": "bonn", "label": "University of Bonn", "sublabel": "Bonn, North Rhine-Westphalia", "values": { "cse": 204, "ai": 213, "ml": 265, "ds": 295, "swe": 452, "city": "Bonn", "englishMsc": "Yes — M.Sc. Computer Science (English-only studyable)", "tuition": "Free + sem fee", "apply": "Direct (university portal)" } },
+    { "id": "goethe-frankfurt", "label": "Goethe University Frankfurt", "sublabel": "Frankfurt, Hesse", "values": { "cse": 228, "ai": 403, "ml": 359, "ds": 418, "swe": 531, "city": "Frankfurt", "englishMsc": "German-only (core CS master)", "tuition": "Free + ~€381 sem fee", "apply": "uni-assist" } },
+    { "id": "goettingen", "label": "University of Göttingen", "sublabel": "Göttingen, Lower Saxony", "values": { "cse": 229, "ai": 418, "ml": 420, "ds": 473, "swe": 198, "city": "Göttingen", "englishMsc": "Yes — M.Sc. Applied Data Science", "tuition": "Free + sem fee", "apply": "Direct (university portal)" } },
+    { "id": "tu-berlin", "label": "Technical University of Berlin (TU Berlin)", "sublabel": "Berlin", "values": { "cse": 240, "ai": 183, "ml": 208, "ds": 241, "swe": 96, "city": "Berlin", "englishMsc": "Yes — M.Sc. Computer Science (from SS 2026)", "tuition": "Free + ~€360 sem fee", "apply": "Mixed (uni-assist VPD + TU portal)" } },
+    { "id": "tu-dresden", "label": "Dresden University of Technology (TU Dresden)", "sublabel": "Dresden, Saxony", "values": { "cse": 250, "ai": 253, "ml": 431, "ds": 233, "swe": 140, "city": "Dresden", "englishMsc": "Yes — M.Sc. Computer Science (from WS 2025/26)", "tuition": "Free + ~€338 sem fee", "apply": "uni-assist (+ aptitude portal)" } },
+    { "id": "tu-darmstadt", "label": "Darmstadt University of Technology (TU Darmstadt)", "sublabel": "Darmstadt, Hesse", "values": { "cse": 251, "ai": 177, "ml": 312, "ds": 305, "swe": 67, "city": "Darmstadt", "englishMsc": "Yes — M.Sc. Computer Science (Data Science track)", "tuition": "Free + sem fee", "apply": "Direct (TUCaN)" } },
+    { "id": "charite-berlin", "label": "Charité – Medical University of Berlin", "sublabel": "Berlin", "values": { "cse": 264, "ai": 613, "ml": 505, "ds": 396, "swe": 1219, "city": "Berlin", "englishMsc": "No — medical university (health masters only)", "tuition": "Free + sem fee", "apply": "n/a (no CS/AI/DS master)" },
+      "detail": { "note": "Charité is a medical university with no CS/AI/Data-Science master; EduRank ranks it via medical-informatics / bioinformatics output. Kept for source fidelity — for an all-general-university list, the next entry in is Heinrich Heine University Düsseldorf (CSE #305)." } },
+    { "id": "ruhr-bochum", "label": "Ruhr University Bochum", "sublabel": "Bochum, North Rhine-Westphalia", "values": { "cse": 271, "ai": 295, "ml": 407, "ds": 521, "swe": 291, "city": "Bochum", "englishMsc": "Yes — M.Sc. Computer Science (fully English)", "tuition": "Free + sem fee", "apply": "Direct (apply.cs.rub.de)" } },
+    { "id": "stuttgart", "label": "University of Stuttgart", "sublabel": "Stuttgart, Baden-Württemberg", "values": { "cse": 273, "ai": 193, "ml": 341, "ds": 194, "swe": 66, "city": "Stuttgart", "englishMsc": "Yes — M.Sc. INFOTECH / Computer Science", "tuition": "€1,500/sem (non-EU)", "apply": "Direct (C@MPUS)" } },
+    { "id": "fu-berlin", "label": "Free University of Berlin (FU Berlin)", "sublabel": "Berlin", "values": { "cse": 274, "ai": 306, "ml": 396, "ds": 286, "swe": 446, "city": "Berlin", "englishMsc": "Yes — M.Sc. Data Science", "tuition": "Free + sem fee", "apply": "uni-assist" } },
+    { "id": "humboldt-berlin", "label": "Humboldt University of Berlin", "sublabel": "Berlin", "values": { "cse": 301, "ai": 330, "ml": 291, "ds": 268, "swe": 355, "city": "Berlin", "englishMsc": "German-only (core CS master)", "tuition": "Free + sem fee", "apply": "uni-assist (mixed)" } }
+  ],
+  "methodology": "Ranks are EduRank.org world subject ranks (lower = better) as displayed on 2026-07-13 — a citation/bibliometric aggregator, not an official or accreditation body; treat each as one indicator, not ground truth. Rows are ordered by Computer Science (CSE) world rank; sorting by another subject reorders the list materially (e.g. TUM #17, RWTH #35, KIT #44 lead on Software Engineering). English-taught master availability, non-EU tuition and the application route were separately verified against each university's admissions pages, DAAD and state ministries for 2025–26. Tuition: only Baden-Württemberg (€1,500/semester, non-EU) and Bavaria charge non-EU master fees — and Bavaria's is optional per university, so TUM charges €4,000–6,000/sem and FAU follows from 2027 while LMU and most others stay tuition-free; every other state is tuition-free apart from a ~€150–384 administrative semester fee (often including a transport ticket).",
+  "caveats": [
+    "EduRank is bibliometric, not a government/accreditation body — these are ordinal positions, not quality scores; a 10-rank gap is not a fixed quality gap.",
+    "Charité is a medical university with no CS/AI/Data master; EduRank ranks it via medical-informatics/bioinformatics output — kept for source fidelity.",
+    "English-master availability, tuition and application route were current at 2026-07; verify on the university's admissions page before applying — Bavaria's tuition rules and programme intakes are changing.",
+    "'Free' means no non-EU tuition; every student still pays the administrative Semesterbeitrag (~€150–384/semester, often including a transport ticket)."
+  ],
+  "sources": [
+    { "title": "EduRank — Computer Science, Germany", "url": "https://edurank.org/cs/de/" },
+    { "title": "EduRank — Artificial Intelligence, Germany", "url": "https://edurank.org/cs/ai/de/" },
+    { "title": "EduRank — Machine Learning, Germany", "url": "https://edurank.org/cs/machine-learning/de/" },
+    { "title": "EduRank — Data Science, Germany", "url": "https://edurank.org/cs/data-science/de/" },
+    { "title": "EduRank — Software Engineering, Germany", "url": "https://edurank.org/cs/software-engineering/de/" },
+    { "title": "DAAD — International Programmes in Germany (English master search)", "url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/" },
+    { "title": "DAAD — Tuition fees in Germany (only BW and Bavaria charge non-EU)", "url": "https://www.daad.de/en/studying-in-germany/plan-your-studies/tuition-fees/" },
+    { "title": "TUM — Tuition fees for international students", "url": "https://www.tum.de/en/studies/fees" }
+  ]
+}

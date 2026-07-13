@@ -79,6 +79,56 @@ export const countrySchema = z.object({
   categories: z.record(z.string(), categoryScoreSchema),
 });
 
+// --- Supplementary per-country datasets (cities scoreboard, university ranking) ---------------
+// Optional, generic tabular datasets attached to a country by id and rendered in a modal. One
+// shape serves both kinds; `kind`/`scale` discriminate. Column weights (for score datasets) and
+// the runtime overall follow the same "no stored overall" rule as country categories.
+export const datasetKindSchema = z.enum(["cities", "universities"]);
+export const datasetScaleSchema = z.enum(["score", "rank"]);
+export const columnKindSchema = z.enum(["score", "rank", "number", "text"]);
+export const betterWhenSchema = z.enum(["high", "low"]);
+
+export const datasetColumnSchema = z.object({
+  id: z.string().min(1),
+  label: z.string().min(1),
+  shortLabel: z.string().optional(),
+  kind: columnKindSchema,
+  weight: z.number().nonnegative().optional(),
+  betterWhen: betterWhenSchema.default("high"),
+  unit: z.string().optional(),
+  description: z.string().optional(),
+});
+
+export const datasetRowSchema = z.object({
+  id: z.string().min(1),
+  label: z.string().min(1),
+  sublabel: z.string().optional(),
+  values: z.record(z.string(), z.union([z.number(), z.string()])),
+  detail: z
+    .object({
+      summary: z.string().optional(),
+      pros: z.array(proConSchema).optional(),
+      cons: z.array(proConSchema).optional(),
+      note: z.string().optional(),
+      links: z.array(referenceLinkSchema).optional(),
+    })
+    .optional(),
+});
+
+export const comparativeDatasetSchema = z.object({
+  kind: datasetKindSchema,
+  countryId: z.string().min(1),
+  title: z.string().min(1),
+  subtitle: z.string().optional(),
+  scale: datasetScaleSchema,
+  lastReviewed: z.string(),
+  columns: z.array(datasetColumnSchema).min(1),
+  rows: z.array(datasetRowSchema).min(1),
+  methodology: z.string().optional(),
+  caveats: z.array(z.string()).optional(),
+  sources: z.array(referenceLinkSchema).optional(),
+});
+
 // Our rules (not pure shape), as refinements: category weights are positive and sum to 100,
 // with no duplicate ids.
 export const categoriesSchema = z
@@ -127,6 +177,13 @@ export type Country = z.infer<typeof countrySchema>;
 export type Person = z.infer<typeof personSchema>;
 export type Preferences = z.infer<typeof preferencesSchema>;
 export type Profile = z.infer<typeof profileSchema>;
+export type DatasetKind = z.infer<typeof datasetKindSchema>;
+export type DatasetScale = z.infer<typeof datasetScaleSchema>;
+export type ColumnKind = z.infer<typeof columnKindSchema>;
+export type BetterWhen = z.infer<typeof betterWhenSchema>;
+export type DatasetColumn = z.infer<typeof datasetColumnSchema>;
+export type DatasetRow = z.infer<typeof datasetRowSchema>;
+export type ComparativeDataset = z.infer<typeof comparativeDatasetSchema>;
 
 /** Flatten a failed parse into `path: message` lines (joined path for nested fields). */
 function issues(error: z.ZodError, prefix = ""): string[] {
@@ -181,4 +238,58 @@ export function validateCountry(country: unknown, categories: Category[]): strin
 export function validateProfile(data: unknown): string[] {
   const result = profileSchema.safeParse(data);
   return result.success ? [] : issues(result.error, "profile: ");
+}
+
+/** Validate a supplementary dataset (full shape) plus the cross-field rules we own: unique
+ *  column/row ids, kind↔scale agreement, score-weight sum, value types match column kind, and
+ *  the join key referencing a known country id (needs the catalogue, like validateCountry). */
+export function validateDataset(data: unknown, knownCountryIds: string[]): string[] {
+  const result = comparativeDatasetSchema.safeParse(data);
+  if (!result.success) {
+    const id = (data as { countryId?: string })?.countryId ?? "dataset";
+    return issues(result.error, `${id}: `);
+  }
+  const ds = result.data;
+  const out: string[] = [];
+
+  if (!knownCountryIds.includes(ds.countryId)) {
+    out.push(`${ds.countryId}: countryId does not match a known country.`);
+  }
+
+  const colIds = ds.columns.map((c) => c.id);
+  if (new Set(colIds).size !== colIds.length) out.push(`${ds.countryId}.${ds.kind}: duplicate column id.`);
+  const rowIds = ds.rows.map((r) => r.id);
+  if (new Set(rowIds).size !== rowIds.length) out.push(`${ds.countryId}.${ds.kind}: duplicate row id.`);
+
+  if (ds.kind === "cities" && ds.scale !== "score") out.push(`${ds.countryId}.cities: scale must be "score".`);
+  if (ds.kind === "universities" && ds.scale !== "rank") out.push(`${ds.countryId}.universities: scale must be "rank".`);
+
+  const colById = new Map(ds.columns.map((c) => [c.id, c]));
+  if (ds.scale === "score") {
+    const scoreCols = ds.columns.filter((c) => c.kind === "score");
+    const missing = scoreCols.filter((c) => c.weight == null).map((c) => c.id);
+    if (missing.length) out.push(`${ds.countryId}.${ds.kind}: score column(s) missing weight: ${missing.join(", ")}.`);
+    const sum = scoreCols.reduce((a, c) => a + (c.weight ?? 0), 0);
+    if (Math.abs(sum - 100) > WEIGHT_TOLERANCE) {
+      out.push(`${ds.countryId}.${ds.kind}: score column weights must sum to 100 (got ${sum}).`);
+    }
+  }
+
+  for (const row of ds.rows) {
+    for (const [key, value] of Object.entries(row.values)) {
+      const col = colById.get(key);
+      if (!col) {
+        out.push(`${ds.countryId}.${ds.kind}.${row.id}: unknown column "${key}".`);
+        continue;
+      }
+      const wantsNumber = col.kind === "score" || col.kind === "rank" || col.kind === "number";
+      if (wantsNumber && typeof value !== "number") {
+        out.push(`${ds.countryId}.${ds.kind}.${row.id}.${key}: expected number for ${col.kind} column.`);
+      }
+      if (col.kind === "text" && typeof value !== "string") {
+        out.push(`${ds.countryId}.${ds.kind}.${row.id}.${key}: expected string for text column.`);
+      }
+    }
+  }
+  return out;
 }
