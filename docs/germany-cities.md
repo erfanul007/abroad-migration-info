@@ -1,52 +1,61 @@
 # German Cities — Opportunity-Card (Chancenkarte) Relocation Scoreboard
 
 **Purpose:** A decision aid for one specific plan — arriving in Germany on the **Opportunity
-Card (Chancenkarte)** for up to a year, then running the sequence *city registration
-(Anmeldung) → rent → job search → full-time tech job → convert to an EU Blue Card / §18b
-skilled-worker permit from inside Germany*. Twelve candidate cities are scored 0–100 across
-11 weighted criteria and ranked by a weighted overall, in the same spirit as the country
-scoreboard.
+Card (Chancenkarte, §20a AufenthG)** for up to a year, then running the sequence *city
+registration (Anmeldung) → job search → qualifying full-time tech job → switch, from inside
+Germany, to an **EU Blue Card (§18g AufenthG)***. Sixteen candidate cities are scored 0–100
+across 11 weighted criteria and ranked by a weighted overall, computed live over the app dataset
+(the JSON is the single source of truth; this document mirrors it).
 
-**Profile lens:** Bangladeshi software engineer (BSc CSE, a few years' experience), applying
-solo first — spouse joins later via family reunification once the Blue Card is in hand. Every
-criterion is read through the *Bangladeshi-applicant* reality: visa/embassy access, English-only
-job odds, diaspora, halal, and the far-right/xenophobia climate for a visible-minority Muslim.
+**Profile lens:** Bangladeshi mid-level software engineer (4y+ .NET/C#, Python, distributed
+systems, AI/RAG, enterprise integration), applying solo first — spouse joins later via family
+reunification once the Blue Card is in hand. Every criterion is read through the
+*Bangladeshi-applicant* reality: visa/embassy access, English-only job odds, diaspora, halal, and
+the far-right/xenophobia climate for a visible-minority Muslim.
 
-**Snapshot date (reviewed):** 2026-07-13
+**Snapshot date (reviewed):** 2026-07-14 (full conversion/Anmeldung/job-market audit)
 **Scale:** absolute 0–100, five tiers — **≥80 excellent · ≥70 good · ≥60 average · ≥50 weak ·
 <50 poor**. Overall = weighted mean of the 11 criteria (weights sum to 100), shown to one
-decimal; the tier uses the rounded whole number.
+decimal; the tier uses the rounded whole number. No display curve.
 
 ---
 
 ## The visa this is built around (Chancenkarte, §20a AufenthG)
 
-Confirmed against the Federal Foreign Office, *Make it in Germany* and Handbook Germany
-(2026):
+- **Duration:** a residence permit *to look for work*, issued for **up to 1 year** initially.
+- **Part-time work:** **up to 20 hours/week** average allowed while you search, plus a **2-week**
+  trial employment (*Probebeschäftigung*) per employer.
+- **Proof of funds (2026):** **€1,091/month** via a blocked account (*Sperrkonto*), a
+  *Verpflichtungserklärung*, or a part-time contract.
+- **Points route:** minimum **6 points** (qualification + language + experience + age + shortage
+  occupation + prior stay). IT is a recognised shortage field.
 
-- **Duration:** a residence permit *to look for work*, issued for **up to 1 year** initially
-  (a follow-up card can extend the search up to two further years under conditions).
-- **Part-time work:** **up to 20 hours/week** allowed while you search — earnings can count
-  toward your proof of funds.
-- **Trial work:** **2-week** trial employment (*Probebeschäftigung*) per employer, repeatable —
-  a genuine foot-in-the-door mechanism (must be qualification-relevant).
-- **Proof of funds (2026):** **€1,091/month = €13,092/year** in a blocked account
-  (*Sperrkonto*), a *Verpflichtungserklärung*, or a part-time contract; withdrawals capped at
-  €1,091/month. (The older €1,027/month figure is legacy 2024–25 and no longer what visa posts
-  publish.) *Living on savings is the norm during the search — so a lower burn rate directly
-  buys more runway, which is why cost/rent carry real weight below.*
-- **Points route:** minimum **6 points** (degree/qualification + language + experience + age +
-  shortage occupation + prior stay). IT is a recognised shortage field.
+## The conversion (why it is the single heaviest criterion)
 
-**The conversion (why "Blue Card conversion speed" is the single heaviest criterion):** once
-you sign a qualifying contract you switch, *from inside Germany*, to an **EU Blue Card / §18b**
-permit at the local **Ausländerbehörde**. That requires (1) a recognised degree (Anabin H+ or a
-ZAB *Statement of Comparability*) and (2) a concrete qualified job offer. The bottleneck is
-rarely the law — it is **how fast that specific city's foreigners' authority actually processes
-you** before your 12-month clock runs out. Blue Card salary bars (national, re-indexed yearly):
-**€48,300** general and **€43,759.80** for IT/shortage occupations & recent graduates in **2025**;
-**€50,700** general in **2026** — most mid-level software offers clear the IT bar. The reward for
-converting: a **settlement permit in 21 months** (with B1 German) or **27 months** (A1).
+Once you sign a qualifying contract you apply, *from inside Germany*, for the **EU Blue Card
+(§18g)** at the responsible foreigners' authority (Ausländerbehörde). The bottleneck is rarely
+the law — it is **how fast that specific authority processes you** before the 12-month clock runs
+out.
+
+**Blue Card salary thresholds (2026, confirmed federal):**
+- **Standard: €50,700/year** (€4,225/month — 50% of the 2026 pension-contribution ceiling).
+- **Shortage/bottleneck occupations incl. IT: €45,934.20/year** (€3,827.85/month — 45.3%).
+- IT specialists can qualify **without a degree** via 3+ years of academic-level IT experience in
+  the last 7 years (ISCO-08 groups 133/25), subject to Federal Employment Agency (BA) approval.
+- A Blue Card **at the general threshold needs no BA approval**; the reduced/IT route does.
+- *Most mid-level software offers in this set clear at least the IT/shortage threshold; the
+  strong-market cities clear the general threshold comfortably.*
+
+> **July 2026 legal correction (verified against §81 AufenthG and Land guidance).** A timely
+> application filed *before* the Chancenkarte expires triggers the **§81(4) Fortgeltungsfiktion**
+> — lawful residence continues automatically — **but it carries forward only the old title's work
+> scope, i.e. the 20-hour/week cap persists**. Full-time Blue Card work becomes legal only under
+> the separate **§81(5a)** mechanism: the future title's employment counts as permitted **"ab
+> Veranlassung der Ausstellung"** (from the moment the authority *initiates* eAT issuance, after a
+> positive decision) and **must be recorded on the Fiktionsbescheinigung**. So: **filing protects
+> residence, not the right to work full-time.** The physical eAT card then takes ~4–6 weeks to
+> produce — **card production is never the same as authority processing/decision time**, and the
+> scores keep the two separate.
 
 ---
 
@@ -54,312 +63,196 @@ converting: a **settlement permit in 21 months** (with B1 German) or **27 months
 
 | # | Criterion (abbrev.) | Weight | What it measures |
 |---|---------------------|-------:|------------------|
-| 1 | **Blue Card conversion speed** (Conv) | 16 | Ausländerbehörde processing speed / backlog for the in-country Blue Card switch — the make-or-break gate on a 12-month clock |
-| 2 | **Job availability & sponsors** (Jobs) | 14 | Volume of software/AI roles + density of large, visa-sponsoring employers |
-| 3 | **Housing + rent affordability** (Rent) | 13 | New-lease rent level *and* how findable a flat is for a newcomer with no SCHUFA |
-| 4 | **Anmeldung ease** (Anm) | 10 | Bürgeramt appointment availability + registration-friendliness (gates bank, tax ID, everything) |
-| 5 | **English usability** (Eng) | 9 | How far English gets you across job market + bureaucracy + daily life |
-| 6 | **Competition / your odds** (Comp) | 8 | Applicant saturation for the English-OK roles you can realistically land |
-| 7 | **Safety & xenophobia climate** (Safe) | 8 | Physical safety + far-right/anti-Muslim risk for a visible-minority Muslim |
-| 8 | **Cost of living** (Cost) | 6 | Non-rent burn rate (groceries, transport, insurance) — runway preservation |
-| 9 | **Part-time / side-income** (PT) | 6 | Availability of the ≤20 h/week gigs the Chancenkarte permits, English-OK slice |
-| 10 | **Connectivity & facilities** (Conn) | 6 | Air links to Dhaka (all 1-stop at best) + public transport |
-| 11 | **BD/Muslim community + halal** (Comm) | 4 | Bangladeshi/South-Asian diaspora, mosques, halal food |
+| 1 | **Chancenkarte → Blue Card conversion** (Conv) | 22 | Documented local risk from complete application to *lawful full-time* Blue Card employment; stage and evidence confidence are explicit |
+| 2 | **Job availability & sponsors** (Jobs) | 18 | Mid-level .NET/Python/AI and enterprise-integration demand + qualifying-salary availability |
+| 3 | **City registration (Anmeldung)** (Anm) | 12 | Registration availability; establishes jurisdiction and residence evidence |
+| 4 | **Part-time / any-field odd jobs** (PT) | 10 | Availability of ≤20 h/week gastro, logistics, delivery and retail work |
+| 5 | **Housing + rent affordability** (Rent) | 6 | New-lease rent and availability for a newcomer without SCHUFA |
+| 6 | **English usability** (Eng) | 7 | English across professional work, administration and daily life |
+| 7 | **Safety & xenophobia climate** (Safe) | 7 | Physical safety + far-right/anti-Muslim risk |
+| 8 | **Competition / your odds** (Comp) | 6 | Applicant saturation for suitable mid-level roles |
+| 9 | **Cost of living** (Cost) | 5 | Non-rent burn rate and runway preservation |
+| 10 | **Connectivity & facilities** (Conn) | 4 | Dhaka access and public transport |
+| 11 | **BD/Muslim community + halal** (Comm) | 3 | Diaspora, mosques and halal food |
 
-The top four (Conv 16 + Jobs 14 + Anm 10 + Eng 9 = **49%**), plus Competition (8), form the
-"land-a-job-and-convert" core the priority asked for. Affordability (Rent 13 + Cost 6 + PT 6 =
-25%) is the second axis. **Scoring is evidence-backed expert synthesis** on the 0–100 scale — no
-single index ranks "conversion speed by city," so each cell is built from official
-processing-time/backlog statements, rent indices, job-posting counts and safety statistics, all
-cited below.
+The immediate decision core (Conversion 22 + Jobs 18 + Anmeldung 12 = **52%**) governs the
+ranking. Naturalisation and settlement-permit queues are **descriptive context only and
+unscored** — a naturalisation backlog is never used as a proxy for Blue Card processing.
+
+**Conversion-scoring rubric (recalibrated 2026-07-14 — transparency is not penalised):** the
+score reflects the *documented* duration and channel design (digital intake, dedicated
+skilled-worker unit, §81(5a) work-bridge), weighted by evidence confidence. An authority that
+honestly publishes a slow official time is scored on that real duration — **not** ranked below an
+authority that publishes nothing. Non-publication paired with disclosed pressure is scored
+conservatively (mid/low), never rewarded for opacity. eAT printing time is never treated as total
+processing.
 
 ---
 
-## Scoreboard
+## Scoreboard (audited, 16 cities)
 
 Ranked by weighted overall. Higher is better in **every** column (affordability/cost/competition
 are scored so that cheaper / less-saturated = higher).
 
-| Rank | City | Overall | Tier | Conv | Jobs | Rent | Anm | Eng | Comp | Safe | Cost | PT | Conn | Comm |
-|-----:|------|--------:|------|----:|----:|----:|---:|---:|----:|----:|----:|---:|----:|----:|
-| 1 | **Hamburg** | 70.1 | Good | 76 | 74 | 66 | 62 | 72 | 60 | 78 | 60 | 70 | 70 | 82 |
-| 2 | **Karlsruhe** | 68.3 | Average | 78 | 60 | 74 | 82 | 64 | 56 | 72 | 72 | 60 | 58 | 56 |
-| 3 | **Munich** | 67.8 | Average | 68 | 92 | 34 | 68 | 74 | 66 | 78 | 44 | 70 | 80 | 74 |
-| 4 | **Leipzig** | 67.3 | Average | 82 | 54 | 88 | 78 | 56 | 52 | 52 | 84 | 66 | 54 | 44 |
-| 5 | **Düsseldorf** | 65.7 | Average | 74 | 62 | 58 | 64 | 74 | 54 | 70 | 58 | 68 | 74 | 66 |
-| 6 | **Nuremberg** | 65.4 | Average | 68 | 56 | 80 | 76 | 48 | 54 | 72 | 78 | 64 | 58 | 58 |
-| 7 | **Stuttgart** | 64.0 | Average | 60 | 76 | 56 | 74 | 58 | 60 | 72 | 54 | 58 | 62 | 72 |
-| 8 | **Berlin** | 63.9 | Average | 46 | 90 | 46 | 42 | 84 | 62 | 64 | 62 | 78 | 72 | 84 |
-| 9 | **Frankfurt** | 63.7 | Average | 52 | 80 | 48 | 46 | 74 | 62 | 76 | 52 | 70 | 84 | 82 |
-| 10 | **Cologne** | 62.7 | Average | 62 | 70 | 52 | 52 | 62 | 58 | 74 | 60 | 68 | 70 | 74 |
-| 11 | **Dresden** | 62.6 | Average | 64 | 54 | 86 | 80 | 54 | 52 | 42 | 82 | 58 | 48 | 50 |
-| 12 | **Aachen** | 60.5 | Average | 58 | 48 | 80 | 56 | 66 | 46 | 70 | 78 | 56 | 50 | 56 |
+| Rank | City | Overall | Tier | Conv | Jobs | Anm | PT | Rent | Eng | Safe | Comp | Cost | Conn | Comm |
+|-----:|------|--------:|------|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1 | **Hamburg** | 70.7 | Good | 70 | 74 | 62 | 80 | 66 | 72 | 78 | 64 | 60 | 70 | 82 |
+| 2 | **Munich** | 66.9 | Average | 46 | 90 | 68 | 80 | 34 | 74 | 78 | 68 | 44 | 80 | 74 |
+| 3 | **Karlsruhe** | 66.4 | Average | 63 | 66 | 82 | 58 | 74 | 64 | 72 | 58 | 72 | 58 | 56 |
+| 4 | **Nuremberg** | 66.3 | Average | 61 | 68 | 76 | 66 | 80 | 48 | 72 | 62 | 78 | 58 | 58 |
+| 5 | **Berlin** | 66.0 | Average | 50 | 88 | 42 | 85 | 46 | 84 | 64 | 66 | 62 | 72 | 84 |
+| 6 | **Frankfurt** | 65.6 | Average | 52 | 80 | 50 | 80 | 48 | 74 | 76 | 66 | 52 | 84 | 82 |
+| 7 | **Leipzig** | 64.9 | Average | 62 | 57 | 78 | 78 | 88 | 56 | 52 | 56 | 84 | 54 | 44 |
+| 8 | **Dortmund** | 64.3 | Average | 55 | 64 | 58 | 80 | 82 | 58 | 66 | 60 | 78 | 64 | 68 |
+| 9 | **Hannover** | 64.1 | Average | 62 | 62 | 64 | 70 | 70 | 58 | 72 | 60 | 68 | 62 | 60 |
+| 10 | **Cologne** | 63.5 | Average | 56 | 70 | 55 | 76 | 52 | 62 | 74 | 62 | 60 | 70 | 74 |
+| 11 | **Stuttgart** | 63.5 | Average | 46 | 78 | 74 | 68 | 56 | 58 | 72 | 64 | 54 | 62 | 72 |
+| 12 | **Düsseldorf** | 62.9 | Average | 54 | 62 | 64 | 72 | 58 | 74 | 70 | 60 | 58 | 74 | 66 |
+| 13 | **Potsdam** | 61.2 | Average | 60 | 64 | 64 | 66 | 48 | 62 | 62 | 58 | 58 | 68 | 52 |
+| 14 | **Darmstadt** | 60.4 | Average | 42 | 70 | 66 | 64 | 50 | 66 | 74 | 58 | 58 | 82 | 58 |
+| 15 | **Dresden** | 58.3 | Weak | 48 | 52 | 80 | 60 | 86 | 54 | 42 | 56 | 82 | 48 | 50 |
+| 16 | **Aachen** | 56.9 | Weak | 50 | 48 | 56 | 56 | 80 | 66 | 70 | 50 | 78 | 50 | 56 |
 
-**How to read it:** the spread is tight (60–70) — all twelve are viable; the ranking is about
-*fit to this exact plan*, not city quality. The headline story is that the two "obvious" tech
-capitals, **Berlin (#8)** and **Munich (#3)**, are pulled down by the very things a time-boxed
-job-seeker cares about most — Berlin by a multi-month Ausländerbehörde/Bürgeramt backlog and
-brutal housing, Munich by cost — while **balanced (Hamburg)** and **fast-and-cheap
-(Karlsruhe, Leipzig)** cities rise.
-
-### Context columns (descriptive, not scored)
-
-| City | Population (city proper) | ~1-bed rent, centre | New-lease €/m² (net cold) |
-|------|-------------------------:|--------------------:|--------------------------:|
-| Berlin | ~3,700,000 | €1,200–1,500 | ~15.8 |
-| Hamburg | ~1,860,000 | €700–950 | ~13–15 |
-| Munich | ~1,510,000 | €1,400–1,800 | ~22–23 |
-| Cologne | ~1,100,000 | ~€1,040 | ~14.8 |
-| Frankfurt | ~781,000 | ~€1,200 | ~18 |
-| Düsseldorf | ~659,000 | ~€1,080 | ~13 |
-| Leipzig | ~634,000 | ~€700 | ~10 |
-| Stuttgart | ~606,000 | ~€990 | ~15 |
-| Dresden | ~572,000 | ~€800 | ~9.2 |
-| Nuremberg | ~531,000 | ~€780 | ~10.3 |
-| Karlsruhe | ~309,000 | ~€880 | ~13.7 |
-| Aachen | ~261,000 | ~€740 | ~10.5 |
-
-*Rents are new-lease/asking figures (what a newcomer actually pays), which run well above the
-regulated Mietspiegel that sitting tenants enjoy.*
+**How to read it:** the spread is tight (57–71) — every city is viable; the ranking is about
+*fit to this exact plan*, not city quality. **Hamburg leads** on a no-weak-link land-and-convert
+core with a published ~4–8-week decision and a dedicated Welcome Center. **Munich rises to #2**
+after the audit: its honest official "up to 7 months" ceiling is a genuine negative but no longer
+crushes the score below opaque peers, and its elite job market carries it despite brutal cost.
+The fast/cheap-admin cities (**Karlsruhe, Nuremberg, Leipzig**) cluster just behind, while
+**Berlin (#5)** and **Frankfurt (#6)** are held back by registration/appointment friction despite
+top-tier jobs — though Frankfurt's appointment wait has been cut from ~20 months to ~3.
 
 ---
 
-## City profiles (ranked)
+## Per-city conversion evidence (what each authority actually publishes)
 
-### 1. Hamburg — 70.1 (Good)
-The best all-rounder for *this* plan: no single weakness in the land-and-convert core.
-- **Pros:** Blue Card handled by the **Hamburg Welcome Center** — English-friendly and faster
-  (~8–12 weeks) than Berlin/Munich's general offices. Solid, sponsor-heavy job market (Airbus,
-  Otto/About You, Google, gaming, growing AI/climatetech). Rents materially below Munich/
-  Frankfurt. Diverse, western, low far-right risk; a real Bangladeshi anchor (Bangladesh Islamic
-  Center on Adenauerallee, South-Asian strip at Steindamm).
-- **Cons:** Deep-tech/AI-research depth trails Berlin/Munich; entry-level is saturated
-  (300–400 applications/role) — mid/senior with a niche fares far better. Anmeldung slots go
-  fast (07:00/10:00 daily drops).
-- **Conversion note:** Welcome Center is the differentiator — a dedicated skilled-worker channel,
-  not a general Ausländerbehörde queue.
+| City | Conv | Published time (and what it covers) | Confidence |
+|------|----:|-------------------------------------|------------|
+| Hamburg | 70 | Circa 4–8 weeks (authority decision) | medium |
+| Munich | 46 | Up to 7 months (authority decision, worst-case ceiling) | high |
+| Karlsruhe | 63 | Circa 4–8 weeks (authority decision) | medium |
+| Nuremberg | 61 | Not published (online self-service; invitation-based intake) | low |
+| Berlin | 50 | Not published before appointment; 4–6 weeks for eAT (card production) | medium |
+| Frankfurt | 52 | ~3 months (average *appointment* wait, Jan 2026; decision unpublished) | medium |
+| Leipzig | 62 | About 4 weeks (authority decision, after complete docs) | medium |
+| Dortmund | 55 | Not published (appointment-based work-migration team) | low |
+| Hannover | 62 | Up to 3 months (authority decision, after complete docs) | medium |
+| Cologne | 56 | Not published (dedicated Arbeitsmigration unit; online) | low |
+| Stuttgart | 46 | "Longer processing times" (official volume warning; no number) | medium |
+| Düsseldorf | 54 | Not published (single online portal; AI completeness pre-check) | low |
+| Potsdam | 60 | Not published Blue-Card-specific (2–3-mo figure is a university caseload warning) | low |
+| Darmstadt | 42 | Not published (prior "six-month" claim unverified, removed) | low |
+| Dresden | 48 | ~3 months to appointment + 6–8 weeks decision (email-only intake) | medium |
+| Aachen | 50 | Not published (student-context proxy ~6 weeks; paper form) | low |
 
-### 2. Karlsruhe — 68.3 (Average, top end)
-The under-the-radar pick: fastest, cheapest, calmest admin of the serious tech towns.
-- **Pros:** Ausländerbehörde quotes **~4–8 weeks** for the Blue Card and takes online
-  submissions; **online Anmeldung** exists (rare) — the smoothest bureaucracy in the set. Genuine
-  "hidden tech powerhouse" (KIT, FZI/Fraunhofer, CyberForum, IONOS, CAS, dm; SAP an hour away).
-  Affordable; safe liberal university city.
-- **Cons:** Absolute job volume is modest vs the big hubs, and KIT's graduate pipeline sharpens
-  junior competition. Bangladeshi-specific community is thin (present, student-adjacent). No
-  long-haul airport (Frankfurt ~1 h by ICE).
-- **Conversion note:** low case-load + digital intake = your 12-month clock is least at risk here.
-
-### 3. Munich — 67.8 (Average)
-The strongest job market in Germany, taxed hard by cost.
-- **Pros:** ~19% of all German software openings; Big Tech R&D (Google, Apple silicon,
-  Microsoft) + corporate (BMW, Siemens, Allianz) + unicorns (Personio, Celonis). High salaries
-  clear the Blue Card bar easily. The **Munich Expat Center** fast-tracks KVR appointments for
-  enrolled employers. Safe, cosmopolitan.
-- **Cons:** **Germany's most expensive city** — rent (~€22–23/m²) and fierce flat competition
-  are brutal on Chancenkarte funds; this is what drags the overall down despite elite jobs.
-- **Conversion note:** decent (~12–14 weeks total) — much better via an Expat-Center employer.
-
-### 4. Leipzig — 67.3 (Average)
-The value play: cheapest big city + fastest-evidenced eastern bureaucracy — held back only by
-the eastern safety question and thinner jobs/community.
-- **Pros:** Cheapest rents and cost of living in the set (huge runway extension). Leipzig's
-  foreigners' authority decides Blue Card cases **~4 weeks** after complete submission and works
-  largely online; Anmeldung allows walk-ins. Rising ecosystem (BMW, Porsche, DHL, ScaDS.AI).
-- **Cons:** Saxony carries **elevated far-right risk**; Leipzig city itself is a progressive
-  enclave (AfD's worst Saxony result) but caution rises in outer districts and at night. Smaller
-  English-role pool; very small Bangladeshi community and limited halal beyond Turkish/Arab shops.
-- **Conversion note:** on paper the fastest decision of any city here — strong for a 12-month clock.
-
-### 5. Düsseldorf — 65.7 (Average)
-Corporate, English-friendly, efficient — a quietly strong operational choice.
-- **Pros:** One of Germany's most English-friendly job markets (Vodafone, Henkel, Metro, Trivago,
-  Amazon); electronic Blue Card ~3–5 weeks after a positive decision; city added Anmeldung
-  capacity (pop-up offices, extra slots). Doha nonstop from DUS eases Dhaka trips. South-Asian
-  quarter in Oberbilk.
-- **Cons:** Startup/AI depth is mid-sized (~405 IT roles); many "English" employers still expect
-  working German. Upper-mid cost. No dedicated Bangladeshi association found.
-
-### 6. Nuremberg — 65.4 (Average)
-Bavarian quality of life without Munich prices — but a small English job pool.
-- **Pros:** Affordable for the south (~18–25% cheaper than Munich), safe and very diverse
-  ("City of Human Rights"), findable Anmeldung slots. Solid enterprise/industrial tech (DATEV,
-  Siemens, Fraunhofer IIS applied AI).
-- **Cons:** **Smallest English-first tech pool** here (~6 English dev roles at a time); Mittelstand
-  strongly prefers German. No dedicated Bangladeshi mosque/centre (wide general Muslim/halal infra).
-- **Conversion note:** online application, no published SLA — plan conservatively.
-
-### 7. Stuttgart — 64.0 (Average)
-Deep automotive/industrial tech, but expensive and German-leaning.
-- **Pros:** Big sponsors (Bosch, Mercedes, Porsche, IBM, HPE); ~4,000+ IT roles; good Anmeldung
-  availability; safe western BW.
-- **Cons:** High southern cost; the office warns of **longer Blue Card processing**; English-only
-  role pool is modest and much of the Mittelstand wants B1–B2 German.
-
-### 8. Berlin — 63.9 (Average)
-The tech capital — and the biggest cautionary tale for a *time-boxed* visa.
-- **Pros:** Deepest, most diverse market (startups, fintech, AI/ML near full employment) and the
-  **most English-navigable** city in Germany; strongest Muslim infrastructure and a real
-  Bangladeshi presence (Kreuzberg/Neukölln). Cheapest of the big four on cost.
-- **Cons:** The killers for this plan — the LEA's **multi-month Blue Card backlog** (OTV
-  appointment system decommissioned) and **Bürgeramt Anmeldung slots booked out for weeks** —
-  exactly what you cannot afford on a 12-month clock. Housing is scarce and competitive; junior
-  generalist roles are saturated (an AI/ML edge changes the picture).
-- **Conversion note:** best job market, worst conversion logistics. Viable only if you land fast
-  and manage the bureaucracy aggressively (early document submission, outer-district offices).
-
-### 9. Frankfurt — 63.7 (Average)
-Best global connectivity and finance-tech depth; slow admin and high cost.
-- **Pros:** FRA is Germany's largest hub — the best Dhaka 1-stop options; finance/fintech jobs
-  frequently run in English; strong pay-to-cost ratio; direct Bangladeshi anchor (Baitul Hamd /
-  Bangladesh Islamic Centre).
-- **Cons:** Ausländerbehörde appointments up to **~4 months** out; Bürgeramt slots vanish in
-  seconds; Germany's 2nd-costliest city; hiring skews mid-senior (few entry roles).
-
-### 10. Cologne — 62.7 (Average)
-Diversified and welcoming, but middling on the operational gates.
-- **Pros:** Broad market (DeepL, REWE, Ford, RTL, AXA; 2,000+ SWE postings); large, diverse,
-  low-far-right city; DITIB central mosque + Rhine-Ruhr South-Asian community; DUS/FRA close.
-- **Cons:** Blue Card runs to the 90-day benchmark (no fast published figure); Anmeldung booked
-  weeks ahead; very tight flat supply (finding one is harder than affording it).
-
-### 11. Dresden — 62.6 (Average)
-Cheap and administratively relaxed, but the weakest safety profile for this profile.
-- **Pros:** Very affordable; relaxed Anmeldung (walk-ins); world-class semiconductor cluster
-  ("Silicon Saxony": Infineon, GlobalFoundries, Bosch, ESMC) — strong if you have embedded/chip
-  skills.
-- **Cons:** **Birthplace of PEGIDA**, in AfD-stronghold Saxony — the highest far-right/anti-Muslim
-  risk here; effectively **2-stop** to Dhaka (small airport); small diaspora; web/SaaS depth thin.
-- **Conversion note:** appointment ~3 months out, but a *Fiktionsbescheinigung* bridges legal stay.
-
-### 12. Aachen — 60.5 (Average, low end)
-A superb research town — but the weakest *job-seeker* market of the twelve.
-- **Pros:** Above-average English (RWTH international scene); affordable border city; safe western
-  NRW; strong for embedded/industrial/research roles and spin-offs.
-- **Cons:** **Thinnest job volume and worst competition** — RWTH floods junior roles (Bangladeshi
-  students are reportedly the 3rd-largest international group, i.e. you compete with your own
-  cohort); no airport (DUS/CGN ~1 h, then 1-stop); limited-hours Ausländeramt.
+In every case the published figure covers the stage stated above only; the appointment/intake
+wait and the ~4–6-week Bundesdruckerei eAT production are separate and, where relevant, extra.
 
 ---
 
 ## Recommendation (consultant view)
 
-For the stated priority — **land a full-time tech job and convert the Blue Card inside 12
-months** — the shortlist is **Hamburg, Munich, and Karlsruhe/Leipzig**, chosen for different risk
-appetites:
+For the stated priority — **land a full-time tech job and convert to a Blue Card inside 12
+months** — the shortlist by risk appetite:
 
-- **Safest bet — Hamburg.** No weak link in the land-and-convert core, a genuinely faster
-  English-friendly conversion channel (Welcome Center), and liveable rents. Best expected outcome
-  for a mid-level engineer who wants odds, not extremes.
-- **Max job market, accept the cost — Munich.** Take it only if your savings comfortably absorb
-  the highest rents in Germany and you target Expat-Center employers to speed the KVR switch.
-- **Max runway / fastest admin — Karlsruhe (west) or Leipzig (east).** Both stretch your funds
-  and process the Blue Card fastest; Karlsruhe wins on safety and community, Leipzig on price.
-  Choose these if minimising burn rate and bureaucratic risk matters more than sheer job volume.
+- **Safest all-rounder — Hamburg.** No weak link in the core, a published ~4–8-week decision, a
+  dedicated English-friendly Welcome Center for Professionals, and liveable rents.
+- **Max job market, accept the cost — Munich.** Deepest, highest-paying market for this exact
+  stack; the honest "up to 7 months" ceiling is real, so target employers and file early. Only
+  with savings that absorb Germany's highest rents.
+- **Fast/cheap admin — Karlsruhe, Nuremberg or Leipzig.** Published or well-designed conversion
+  channels, strong Anmeldung access, and long runway; accept smaller absolute job volume.
 
-**Counter-argument to weigh:** the ranking deliberately penalises Berlin and Munich for
-operational friction, but if you have an **AI/ML or platform specialisation** and strong savings,
-Berlin's and Munich's job depth can outweigh their bureaucracy/cost — a *fast* offer resets the
-whole calculus, because landing the job early defuses the 12-month-clock risk that drives half
-this model. The scores answer "where do the *odds* favour me?"; a specialist with a warm lead
-should still follow the offer.
+**Counter-argument to weigh:** the model rewards operational certainty, so it discounts Berlin
+and Frankfurt despite their superior job depth and English access. If you have a strong AI/ML or
+platform specialisation and savings, a *fast offer* in Berlin/Frankfurt resets the whole
+calculus — landing the job early defuses the 12-month-clock risk that drives half this model.
+A specialist with a warm lead should follow the offer.
 
 ---
 
 ## Methodology
 
-- **Overall** = Σ(criterion score × weight) ÷ 100, computed over all 11 criteria (weights sum to
-  100). Shown to one decimal; tier from the rounded whole number. No display curve.
-- **Scores are expert synthesis on an absolute 0–100 scale**, not a relative ranking — each cell
-  reflects the documented evidence for that city on that criterion (processing-time statements,
-  rent indices, job-posting counts, election/hate-crime data), calibrated so cheaper / safer /
-  faster / less-saturated = higher.
-- **Bangladeshi lens throughout:** English-only job odds, 1-stop-to-Dhaka air links, diaspora/
-  halal, and far-right risk to a visible-minority Muslim are treated as first-class criteria, not
-  afterthoughts.
+- **Overall** = Σ(criterion score × weight) ÷ 100 over all 11 criteria (weights sum to 100),
+  computed live from the app dataset; shown to one decimal, tier from the rounded whole number.
+- **Scores are evidence-backed expert synthesis on an absolute 0–100 scale** — each cell is built
+  from official processing-time/channel statements, rent indices, job-posting counts and safety
+  statistics, all cited in the app dataset. No single index ranks "conversion speed by city".
+- **Conversion** separates application intake, authority decision/employment authorisation, and
+  physical eAT production; a published printing time is never treated as the total wait. Official
+  end-to-end timings earn the highest confidence; official vague warnings or partial-stage
+  timings earn medium; unpublished timing earns low and a conservative score.
+- **Bangladeshi lens throughout:** English-only job odds, 1-stop-to-Dhaka air links,
+  diaspora/halal, and far-right risk to a visible-minority Muslim are first-class criteria.
 
 ---
 
 ## Caveats & provenance
 
-- **The spread is narrow (60.5–70.1).** Treat this as a tie-break among viable cities, not a
-  quality gap. Your specialisation, savings, and how fast you land an offer will move the needle
-  more than the city choice itself.
-- **Bureaucracy speed is unevenly evidenced.** Only Leipzig and Berlin publish clear signals;
-  Munich, Hamburg, Frankfurt, Düsseldorf, Karlsruhe and Dresden have city-portal or relocation-firm
-  figures; Cologne, Stuttgart, Nuremberg and Aachen rely on process descriptions plus the national
-  pattern (smaller/eastern offices faster, Berlin/Munich/Frankfurt slower). Verify *your* office's
-  current wait before committing — this is the highest-variance input.
-- **Rents are new-lease/asking figures** (what a newcomer pays), mostly from GREIX (8 big cities,
-  Q4 2025) and ImmoScout24/Numbeo/city Mietspiegel for the rest. Methodologies differ; the four
-  smaller cities are portal/Numbeo-based, not the academic GREIX panel. Rents were re-accelerating
-  at end-2025 (~+4.5% YoY) — budget upward.
-- **Safety is national + regional, not street-level.** Anti-Islamic hate crimes rose ~140% in 2023
-  (1,464 cases) and civil-society monitor CLAIM logged ~4,096 anti-Muslim incidents in 2025; 54%
-  of racially-marked people report monthly discrimination (DeZIM). This is a baseline penalty
-  across *all* cities; the east/west split (Saxony's Dresden/Leipzig higher-risk) is the main
-  per-city differentiator, with big western cities and their diverse cores lower-risk.
-- **Job data mixes signals** (AI-startup counts, portal posting counts, salary bands, the Bitkom
-  ~109,000-IT-vacancy shortage figure, which is a lobby survey and understates the 2025–26 cyclical
-  hiring slowdown). Corporate engineering jobs in Stuttgart/Karlsruhe/Frankfurt/Nuremberg are
-  undercounted by startup metrics.
-- **No German airport flies direct to Dhaka** — every city is 1-stop at best (Istanbul/Doha/Dubai/
-  Abu Dhabi), and Dresden/Aachen are effectively 2-stop.
-- **Blue Card thresholds re-index annually.** The €48,300 / €43,759.80 (2025) and €50,700 (2026)
-  figures were cross-checked; re-verify against BAMF / make-it-in-germany.de before relying on them.
-  Ignore the Auswärtiges Amt English FAQ's €56,400/€43,992 — those are stale pre-2023 numbers.
+- **The spread is narrow (56.9–70.7).** Treat this as a tie-break among viable cities. Your
+  specialisation, savings, and how fast you land an offer move the needle more than the city.
+- **Bureaucracy speed is unevenly evidenced.** Only Munich (up to 7 months), Dresden (~3 months
+  to appointment + 6–8 weeks), Hannover (up to 3 months), Hamburg/Karlsruhe (~4–8 weeks) and
+  Leipzig (~4 weeks) publish concrete authority-decision figures; most others publish none and are
+  scored conservatively. Verify *your* office's current wait before committing.
+- **Audit corrections applied 2026-07-14:** Munich's honest "up to 7 months" is no longer
+  penalised below silent peers (conv 32→46); Karlsruhe (60→63), Hamburg (68→70), Hannover
+  (58→62), Leipzig (kept 62 on the corrected page), Stuttgart (40→46), Frankfurt (42→52) and
+  Nuremberg (58→61) reflect verified channel design; Potsdam trimmed (62→60) because its "2–3
+  months" was a non-authoritative university caseload warning. Dead or wrong-scope official links
+  were replaced for Frankfurt (a law-firm page → the official Ausländerbehörde), Leipzig and
+  Dresden (settlement-permit pages → the Blue Card application), and Potsdam, Dortmund, Hannover
+  and Darmstadt (404s → live pages). Stale 2024/2025 salary thresholds were purged in favour of
+  the 2026 figures. Job scores were re-validated for this specific mid-level profile (Karlsruhe,
+  Nuremberg, Leipzig, Dortmund, Darmstadt, Potsdam raised).
+- **Naturalisation and settlement queues are unscored context** and are recorded separately in
+  each city cell; a naturalisation backlog is never used as a proxy for Blue Card processing.
+- **Rents are new-lease/asking figures** (what a newcomer pays); safety is national + regional,
+  not street-level; no German airport flies direct to Dhaka (every city is 1-stop at best).
 
 ---
 
 ## Key sources (official / primary first)
 
-**Visa & Blue Card:** BAMF Chancenkarte & Blue Card pages · Auswärtiges Amt Chancenkarte mission
-page (proof-of-funds €1,091/mo, 20 h/week) · Make it in Germany (Opportunity Card Q&A) · Handbook
-Germany · §18b/§18c/§20a AufenthG (gesetze-im-internet.de).
+**Law & thresholds:** §81 AufenthG (§81(4) Fortgeltungsfiktion, §81(5a) work permission),
+gesetze-im-internet.de · BAMF & Make-it-in-Germany EU Blue Card / Chancenkarte pages · Bundesagentur
+für Arbeit (ZAV) Blaue-Karte-EU 2026 thresholds · Hessen/Baden-Württemberg ministry Fiktionsbescheinigung
+guidance.
 
-**Rents & cost:** Kiel Institute **GREIX** Rental Price Index Q3/Q4 2025 · city **Mietspiegel**
-(Munich, Frankfurt, Hamburg, Stuttgart, Cologne, Karlsruhe, Leipzig, Dresden, Nuremberg, Aachen)
-· ImmoScout24 · Numbeo.
+**Per-city authorities:** each city's Ausländerbehörde / Welcome-Center & Bürgeramt portals —
+Hamburg Welcome Center for Professionals, KVR München, Stadt Karlsruhe/Leipzig/Nürnberg/Köln/Dresden
+service portals, Berlin LEA (service.berlin.de), Frankfurt Ausländerbehörde (+ hessenschau on the
+20→3-month cut), Stadt Stuttgart, Düsseldorf, Dortmund Amt für Migration, Hannover Willkommensservice
+(Unit 32.33), Migrationsamt Potsdam, StädteRegion Aachen, Digitales Rathaus Darmstadt. (Full
+per-claim URLs live in the app dataset's `links`/`sources`.)
 
-**Jobs:** appliedAI *German AI Startup Landscape 2025* · Bitkom IT-shortage release (Aug 2025) ·
-GTAI · city/employer pages (DATEV, Silicon Saxony, DeepL, etc.) · Glassdoor/GermanTechJobs posting
-counts.
+**Jobs & rents:** GREIX Rental Price Index, city Mietspiegel, ImmoScout24 · Glassdoor/levels.fyi/
+StepStone/jobvector/germantechjobs/englishjobs posting counts and salary bands · employer pages
+(DATEV, adesso, Software AG, DeepL, SAP Signavio, Finanz Informatik, etc.).
 
-**Bureaucracy:** city Ausländerbehörde/Welcome-Center & Bürgeramt portals (berlin.de/einwanderung,
-english.leipzig.de, hamburg.com/welcome, stadt.muenchen.de, Frankfurt/Cologne/Düsseldorf/Karlsruhe/
-Dresden/Nuremberg/Aachen service portals) · Jobbatical relocation guides.
-
-**Population:** city statistics offices / Destatis / citypopulation.de (end-2024/2025).
-
-**Safety:** Human Rights Watch World Report 2025/2026 (BKA/BMI PMK data) · DeZIM NaDiRa 2025
-Racism Monitor · CLAIM anti-Muslim incident report 2025 · regional election results (2024–25).
-
-**Connectivity & community:** FlightConnections/Flight Routes/airline pages · HalalTrip/Zabihah/
-JoinHalal · city mosque directories · Bangladesh Islamic Centres (Hamburg, Frankfurt, Munich) ·
-BSAAG (Bangladeshi Student & Alumni Association in Germany).
-
-*Full per-claim source URLs are retained in the research brief (`docs/superpowers/` research
-output, 2026-07-13). No figure in this document was written from memory.*
+*No figure in this document was written from memory; each rests on the cited sources recorded in
+the app dataset (`src/data/cities/germany.json`), reviewed 2026-07-14.*
 
 ---
 
 ## Copy-paste block (TSV → Google Sheets)
 
-Select everything inside the block and paste into a Google Sheet — tab separators auto-split into
-rows and columns.
-
 ```
-Rank	City	Overall	Tier	Conv	Jobs	Rent	Anm	Eng	Comp	Safe	Cost	PT	Conn	Comm
-1	Hamburg	70.1	Good	76	74	66	62	72	60	78	60	70	70	82
-2	Karlsruhe	68.3	Average	78	60	74	82	64	56	72	72	60	58	56
-3	Munich	67.8	Average	68	92	34	68	74	66	78	44	70	80	74
-4	Leipzig	67.3	Average	82	54	88	78	56	52	52	84	66	54	44
-5	Düsseldorf	65.7	Average	74	62	58	64	74	54	70	58	68	74	66
-6	Nuremberg	65.4	Average	68	56	80	76	48	54	72	78	64	58	58
-7	Stuttgart	64.0	Average	60	76	56	74	58	60	72	54	58	62	72
-8	Berlin	63.9	Average	46	90	46	42	84	62	64	62	78	72	84
-9	Frankfurt	63.7	Average	52	80	48	46	74	62	76	52	70	84	82
-10	Cologne	62.7	Average	62	70	52	52	62	58	74	60	68	70	74
-11	Dresden	62.6	Average	64	54	86	80	54	52	42	82	58	48	50
-12	Aachen	60.5	Average	58	48	80	56	66	46	70	78	56	50	56
+Rank	City	Overall	Tier	Conv	Jobs	Anm	PT	Rent	Eng	Safe	Comp	Cost	Conn	Comm
+1	Hamburg	70.7	Good	70	74	62	80	66	72	78	64	60	70	82
+2	Munich	66.9	Average	46	90	68	80	34	74	78	68	44	80	74
+3	Karlsruhe	66.4	Average	63	66	82	58	74	64	72	58	72	58	56
+4	Nuremberg	66.3	Average	61	68	76	66	80	48	72	62	78	58	58
+5	Berlin	66.0	Average	50	88	42	85	46	84	64	66	62	72	84
+6	Frankfurt	65.6	Average	52	80	50	80	48	74	76	66	52	84	82
+7	Leipzig	64.9	Average	62	57	78	78	88	56	52	56	84	54	44
+8	Dortmund	64.3	Average	55	64	58	80	82	58	66	60	78	64	68
+9	Hannover	64.1	Average	62	62	64	70	70	58	72	60	68	62	60
+10	Cologne	63.5	Average	56	70	55	76	52	62	74	62	60	70	74
+11	Stuttgart	63.5	Average	46	78	74	68	56	58	72	64	54	62	72
+12	Düsseldorf	62.9	Average	54	62	64	72	58	74	70	60	58	74	66
+13	Potsdam	61.2	Average	60	64	64	66	48	62	62	58	58	68	52
+14	Darmstadt	60.4	Average	42	70	66	64	50	66	74	58	58	82	58
+15	Dresden	58.3	Weak	48	52	80	60	86	54	42	56	82	48	50
+16	Aachen	56.9	Weak	50	48	56	56	80	66	70	50	78	50	56
 ```

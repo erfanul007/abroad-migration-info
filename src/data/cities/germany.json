@@ -2,310 +2,1367 @@
   "kind": "cities",
   "countryId": "germany",
   "title": "German Cities — Opportunity-Card (Chancenkarte) Relocation Scoreboard",
-  "subtitle": "Scored for a Bangladeshi software engineer on a 1-year job-seeking visa: register → rent → job → EU Blue Card conversion",
+  "subtitle": "Scored for an experienced Bangladeshi software engineer (4y+ .NET/Python, distributed systems, AI/RAG, enterprise integration): job-search visa → full-time job + EU Blue Card → permanent residency → naturalisation",
   "scale": "score",
-  "lastReviewed": "2026-07-13",
+  "lastReviewed": "2026-07-14",
   "columns": [
-    { "id": "conv", "label": "Blue Card conversion speed", "shortLabel": "Conv", "kind": "score", "weight": 16, "betterWhen": "high", "description": "Ausländerbehörde processing speed / backlog for the in-country Blue Card switch — the make-or-break gate on a 12-month clock." },
-    { "id": "jobs", "label": "Job availability & sponsors", "shortLabel": "Jobs", "kind": "score", "weight": 14, "betterWhen": "high", "description": "Volume of software/AI roles plus density of large, visa-sponsoring employers." },
-    { "id": "rent", "label": "Housing + rent affordability", "shortLabel": "Rent", "kind": "score", "weight": 13, "betterWhen": "high", "description": "New-lease rent level and how findable a flat is for a newcomer with no SCHUFA." },
-    { "id": "anm", "label": "Anmeldung ease", "shortLabel": "Anm", "kind": "score", "weight": 10, "betterWhen": "high", "description": "Bürgeramt appointment availability and registration-friendliness (gates bank, tax ID, everything)." },
-    { "id": "eng", "label": "English usability", "shortLabel": "Eng", "kind": "score", "weight": 9, "betterWhen": "high", "description": "How far English gets you across job market, bureaucracy and daily life." },
-    { "id": "comp", "label": "Competition / your odds", "shortLabel": "Comp", "kind": "score", "weight": 8, "betterWhen": "high", "description": "Applicant saturation for the English-OK roles you can realistically land (higher = better odds)." },
-    { "id": "safe", "label": "Safety & xenophobia climate", "shortLabel": "Safe", "kind": "score", "weight": 8, "betterWhen": "high", "description": "Physical safety plus far-right / anti-Muslim risk for a visible-minority Muslim." },
-    { "id": "cost", "label": "Cost of living", "shortLabel": "Cost", "kind": "score", "weight": 6, "betterWhen": "high", "description": "Non-rent burn rate — higher score = cheaper, longer runway." },
-    { "id": "pt", "label": "Part-time / side-income", "shortLabel": "PT", "kind": "score", "weight": 6, "betterWhen": "high", "description": "Availability of the ≤20 h/week gigs the Chancenkarte permits, English-OK slice." },
-    { "id": "conn", "label": "Connectivity & facilities", "shortLabel": "Conn", "kind": "score", "weight": 6, "betterWhen": "high", "description": "Air links to Dhaka (all 1-stop at best) plus public transport." },
-    { "id": "comm", "label": "BD/Muslim community + halal", "shortLabel": "Comm", "kind": "score", "weight": 4, "betterWhen": "high", "description": "Bangladeshi/South-Asian diaspora, mosques, halal food." },
-    { "id": "population", "label": "Population (city proper)", "shortLabel": "Pop.", "kind": "number", "betterWhen": "high" },
-    { "id": "rentCentre", "label": "1-bed rent, centre", "shortLabel": "1-bed €/mo", "kind": "text" },
-    { "id": "rentM2", "label": "New-lease rent", "shortLabel": "€/m²", "kind": "number", "betterWhen": "low", "unit": "€/m²" },
-    { "id": "salary", "label": "Tech salary (junior / mid, gross)", "shortLabel": "Salary", "kind": "text" },
-    { "id": "bdCommunity", "label": "Bangladeshi community", "shortLabel": "BD community", "kind": "text" },
-    { "id": "embassy", "label": "Bangladesh embassy access", "shortLabel": "BD embassy", "kind": "text" }
+    {
+      "id": "jobs",
+      "label": "Mid-level job market & sponsors",
+      "shortLabel": "Jobs",
+      "kind": "score",
+      "weight": 18,
+      "betterWhen": "high",
+      "description": "Depth of full-time demand and visa-sponsoring employers for an experienced (4y+) .NET / Python / AI-RAG / enterprise-integration engineer — enterprise and corporate employers weigh heavily; junior-generalist volume weighs less. Federal data show 59% of 2024 IT vacancies target the 'Experte' level, so experienced hiring is the favourable slice."
+    },
+    {
+      "id": "conv",
+      "label": "Chancenkarte → Blue Card conversion",
+      "shortLabel": "Conv",
+      "kind": "score",
+      "weight": 22,
+      "betterWhen": "high",
+      "description": "Evidence-backed local risk from complete application to permission for full-time Blue Card employment. Appointment waits, authority decision time and eAT production are kept separate; missing official timing is scored conservatively."
+    },
+    {
+      "id": "anm",
+      "label": "City registration (Anmeldung)",
+      "shortLabel": "Anm",
+      "kind": "score",
+      "weight": 12,
+      "betterWhen": "high",
+      "description": "Ease of registering the main residence, which establishes the responsible foreigners authority and supplies residence evidence commonly requested for the Blue Card application."
+    },
+    {
+      "id": "pt",
+      "label": "Part-time / any-field odd jobs",
+      "shortLabel": "PT",
+      "kind": "score",
+      "weight": 10,
+      "betterWhen": "high",
+      "description": "Depth of the any-field ≤20 h/week gig market the Chancenkarte permits — gastro, warehouse/logistics, delivery, retail — accessible without German fluency. Bigger population plus a logistics/hospitality base scores higher; 2026 minimum wage €13.90/h."
+    },
+    {
+      "id": "rent",
+      "label": "Housing + rent affordability",
+      "shortLabel": "Rent",
+      "kind": "score",
+      "weight": 6,
+      "betterWhen": "high",
+      "description": "New-lease rent level and how findable a flat is for a newcomer with no SCHUFA (higher score = cheaper and easier)."
+    },
+    {
+      "id": "eng",
+      "label": "English usability (work + admin)",
+      "shortLabel": "Eng",
+      "kind": "score",
+      "weight": 7,
+      "betterWhen": "high",
+      "description": "How far English carries you across the full-time job market and bureaucracy (part-time odd jobs no longer depend on it). English-OK developer roles are heavily concentrated in Berlin and Munich."
+    },
+    {
+      "id": "safe",
+      "label": "Safety & xenophobia climate",
+      "shortLabel": "Safe",
+      "kind": "score",
+      "weight": 7,
+      "betterWhen": "high",
+      "description": "Physical safety plus far-right / anti-Muslim risk for a visible-minority Muslim couple; anti-Muslim hate crime in Germany is predominantly far-right in origin, so regional far-right strength is the main differentiator."
+    },
+    {
+      "id": "comp",
+      "label": "Competition / your odds (mid-level)",
+      "shortLabel": "Comp",
+      "kind": "score",
+      "weight": 6,
+      "betterWhen": "high",
+      "description": "Applicant saturation for the roles you can realistically land (higher = better odds). Federal data show the 2024 saturation is concentrated among under-35 juniors, so an experienced candidate faces easier odds than a fresh graduate — tempered where English-OK roles are scarce."
+    },
+    {
+      "id": "cost",
+      "label": "Cost of living",
+      "shortLabel": "Cost",
+      "kind": "score",
+      "weight": 5,
+      "betterWhen": "high",
+      "description": "Non-rent burn rate — higher score = cheaper, longer runway on part-time income while job-searching."
+    },
+    {
+      "id": "conn",
+      "label": "Connectivity & facilities",
+      "shortLabel": "Conn",
+      "kind": "score",
+      "weight": 4,
+      "betterWhen": "high",
+      "description": "Air links to Dhaka (all 1-stop at best) plus public transport."
+    },
+    {
+      "id": "comm",
+      "label": "BD/Muslim community + halal",
+      "shortLabel": "Comm",
+      "kind": "score",
+      "weight": 3,
+      "betterWhen": "high",
+      "description": "Bangladeshi/South-Asian diaspora, mosques, halal food."
+    },
+    {
+      "id": "natTime",
+      "label": "Naturalisation context (unscored)",
+      "shortLabel": "Naturalisation",
+      "kind": "text"
+    },
+    {
+      "id": "population",
+      "label": "Population (city proper)",
+      "shortLabel": "Pop.",
+      "kind": "number",
+      "betterWhen": "high"
+    },
+    {
+      "id": "rentCentre",
+      "label": "1-bed rent, centre",
+      "shortLabel": "1-bed €/mo",
+      "kind": "text"
+    },
+    {
+      "id": "rentM2",
+      "label": "New-lease rent",
+      "shortLabel": "€/m²",
+      "kind": "number",
+      "betterWhen": "low",
+      "unit": "€/m²"
+    },
+    {
+      "id": "salary",
+      "label": "Tech salary (junior / mid, gross)",
+      "shortLabel": "Salary",
+      "kind": "text"
+    },
+    {
+      "id": "bdCommunity",
+      "label": "Bangladeshi / Muslim community",
+      "shortLabel": "BD/Muslim community",
+      "kind": "text"
+    },
+    {
+      "id": "embassy",
+      "label": "Bangladesh embassy access",
+      "shortLabel": "BD embassy",
+      "kind": "text"
+    }
   ],
   "rows": [
     {
       "id": "hamburg",
       "label": "Hamburg",
       "sublabel": "Hamburg (city-state)",
-      "values": { "conv": 76, "jobs": 74, "rent": 66, "anm": 62, "eng": 72, "comp": 60, "safe": 78, "cost": 60, "pt": 70, "conn": 70, "comm": 82, "population": 1860000, "rentCentre": "€700–950", "rentM2": 14, "salary": "Junior €47–53k · Mid €58–72k", "bdCommunity": "Indian ~9,900 (2024); BD <1,500 (in 'other'); Bangladesh Islamic Center on Adenauerallee", "embassy": "Full service: Berlin embassy (~290 km, nearest of the set); honorary consulate in Hamburg" },
+      "location": {
+        "lat": 53.5503,
+        "lng": 9.992,
+        "label": "Hamburg city centre",
+        "sourceUrl": "https://www.openstreetmap.org/search?query=Hamburg%20city%20centre"
+      },
+      "values": {
+        "jobs": 74,
+        "conv": 70,
+        "anm": 62,
+        "pt": 80,
+        "rent": 66,
+        "eng": 72,
+        "safe": 78,
+        "comp": 64,
+        "cost": 60,
+        "conn": 70,
+        "comm": 82,
+        "natTime": "Naturalisation ~14 months; 26,000+ applications pending (2024 reform surge), easing by ~2027",
+        "population": 1860000,
+        "rentCentre": "€700–950",
+        "rentM2": 14,
+        "salary": "Junior €47–53k · Mid €58–72k",
+        "bdCommunity": "Indian ~9,900 (2024); BD <1,500 (in 'other'); Bangladesh Islamic Center on Adenauerallee; Steindamm South-Asian strip",
+        "embassy": "Full service: Berlin embassy (~290 km, nearest of the set); honorary consulate in Hamburg"
+      },
       "detail": {
-        "summary": "The best all-rounder for this plan — no weak link in the land-and-convert core.",
-        "note": "Blue Card runs through the Hamburg Welcome Center, a dedicated English-friendly skilled-worker channel (~8–12 weeks), not a general Ausländerbehörde queue.",
+        "summary": "The best all-rounder for this plan — no weak link in the land-and-convert core, and a strong any-field part-time base.",
+        "note": "Official decision time circa 4–8 weeks (authority processing after a complete application); the appointment intake wait and Bundesdruckerei eAT production are extra and unpublished. The Hamburg Welcome Center for Professionals runs a dedicated skilled-worker channel. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
         "pros": [
-          { "text": "Welcome Center conversion is faster + more English-friendly than Berlin/Munich's general offices." },
-          { "text": "Sponsor-heavy market (Airbus, Otto/About You, Google, gaming, growing AI/climatetech); rents well below Munich/Frankfurt." },
-          { "text": "Diverse, western, low far-right risk; real Bangladeshi anchor (Steindamm South-Asian strip)." }
+          {
+            "text": "The Hamburg Welcome Center for Professionals runs a dedicated, English-friendly skilled-worker channel; the authority publishes a circa 4–8 week decision time (processing after a complete application — not counting the appointment wait or eAT card production)."
+          },
+          {
+            "text": "Sponsor-heavy market (Airbus, Otto/About You, Google, gaming, growing AI/climatetech) that fits an enterprise-integration + AI profile; rents well below Munich/Frankfurt."
+          },
+          {
+            "text": "Port-and-logistics plus hospitality give a deep any-field part-time market; diverse, western, low far-right risk with a real Bangladeshi anchor."
+          }
         ],
         "cons": [
-          { "text": "Deep-tech/AI-research depth trails Berlin/Munich." },
-          { "text": "Entry-level saturated (300–400 applications/role); Anmeldung slots go fast." }
+          {
+            "text": "Deep-tech/AI-research depth trails Berlin/Munich; English-OK developer roles are a thin slice (~6 on EnglishJobs.de)."
+          },
+          {
+            "text": "Naturalisation backlog (~26,000 pending, ~14 months) makes the citizenship tail slow; Anmeldung slots go fast."
+          }
         ],
         "links": [
-          { "title": "Hamburg Welcome Portal — EU Blue Card", "url": "https://www.hamburg.com/welcome/entry-residence/work/11749182/eu-blue-card/" },
-          { "title": "Hamburger Mietenspiegel 2025 (official)", "url": "https://www.hamburg.de/politik-und-verwaltung/senat/presseservice-des-senats/landespressekonferenz/mietenspiegel-2025-1126144" }
-        ]
+          {
+            "title": "Hamburg Welcome Center for Professionals — EU Blue Card",
+            "url": "https://welcome.hamburg.com/entry-and-residence/residence-permit/eu-blue-card-17644"
+          },
+          {
+            "title": "Mediendienst Integration — naturalisation backlog survey (2026)",
+            "url": "https://mediendienst-integration.de/bevoelkerung/einbuergerung/unbearbeitete-einbuergerungsantraege/"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Circa 4–8 weeks (authority decision)",
+          "timeScope": "Official Bearbeitungsdauer for the authority decision after a complete application; excludes the (unpublished) appointment intake wait and Bundesdruckerei eAT production",
+          "applicationChannel": "Hamburg online residence-permit service; skilled-worker cases route through the Hamburg Welcome Center for Professionals (a dedicated unit)",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
+          "confidence": "medium",
+          "asOf": "2026-07",
+          "naturalisation": "~14 months; 26,000+ applications pending after the 2024 reform surge, projected to ease by roughly 2027 (context only)"
+        }
       }
     },
     {
       "id": "karlsruhe",
       "label": "Karlsruhe",
       "sublabel": "Baden-Württemberg",
-      "values": { "conv": 78, "jobs": 60, "rent": 74, "anm": 82, "eng": 64, "comp": 56, "safe": 72, "cost": 72, "pt": 60, "conn": 58, "comm": 56, "population": 309000, "rentCentre": "~€880", "rentM2": 13.7, "salary": "Junior €47–53k · Mid €55–70k", "bdCommunity": "Small BD; KIT-driven South-Asian student presence", "embassy": "Full service: Berlin embassy (~625 km); honorary consulate Frankfurt (~145 km)" },
+      "location": {
+        "lat": 49.0069,
+        "lng": 8.4037,
+        "label": "Karlsruhe city centre",
+        "sourceUrl": "https://www.openstreetmap.org/search?query=Karlsruhe%20city%20centre"
+      },
+      "values": {
+        "jobs": 66,
+        "conv": 63,
+        "anm": 82,
+        "pt": 58,
+        "rent": 74,
+        "eng": 64,
+        "safe": 72,
+        "comp": 58,
+        "cost": 72,
+        "conn": 58,
+        "comm": 56,
+        "natTime": "Naturalisation ~20 months; clearing mid-2024 filings despite doubled staff",
+        "population": 309000,
+        "rentCentre": "~€880",
+        "rentM2": 13.7,
+        "salary": "Junior €47–53k · Mid €55–70k",
+        "bdCommunity": "Small BD; KIT-driven South-Asian student presence",
+        "embassy": "Full service: Berlin embassy (~625 km); honorary consulate Frankfurt (~145 km)"
+      },
       "detail": {
-        "summary": "The under-the-radar pick — fastest, cheapest, calmest admin of the serious tech towns.",
-        "note": "Ausländerbehörde quotes ~4–8 weeks for the Blue Card and takes online submissions; online Anmeldung exists (rare) — the smoothest bureaucracy in the set.",
+        "summary": "An under-the-radar enterprise-software fit with excellent Anmeldung access; the city publishes a circa 4–8 week authority decision time and low case-load keeps the 12-month clock manageable.",
+        "note": "Official decision time circa 4–8 weeks (authority processing after complete documents); the appointment intake wait and eAT production are extra and unpublished. Online application; the §81a accelerated skilled-worker procedure is signposted. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
         "pros": [
-          { "text": "Low case-load + digital intake = your 12-month clock is least at risk here." },
-          { "text": "Genuine 'hidden tech powerhouse' (KIT, FZI/Fraunhofer, CyberForum, IONOS, CAS, dm; SAP an hour away); affordable; safe liberal university city." }
+          {
+            "text": "Low case-load plus digital intake means the 12-month clock is least at risk here."
+          },
+          {
+            "text": "Genuine 'hidden tech powerhouse' with an enterprise/SAP-orbit fit (SAP an hour away, IONOS, CAS, dm; KIT, FZI/Fraunhofer, CyberForum); affordable, safe liberal university city."
+          }
         ],
         "cons": [
-          { "text": "Modest absolute job volume vs the big hubs; KIT graduate pipeline sharpens junior competition." },
-          { "text": "Thin Bangladeshi-specific community; no long-haul airport (Frankfurt ~1 h by ICE)." }
+          {
+            "text": "Modest absolute job volume vs the big hubs; the KIT graduate pipeline sharpens competition even at mid level, and part-time odd-job depth is limited for a smaller city."
+          },
+          {
+            "text": "Thin Bangladeshi-specific community; no long-haul airport (Frankfurt ~1 h by ICE)."
+          }
         ],
         "links": [
-          { "title": "Blaue Karte EU beantragen — Stadt Karlsruhe", "url": "https://web1.karlsruhe.de/service/Buergerdienste/leistung.php?id=6004479" },
-          { "title": "Karlsruher Mietspiegel 2025 (qualified)", "url": "https://web6.karlsruhe.de/Stadtentwicklung/statistik/pdf/mietspiegel/karlsruher-mietspiegel-2025.pdf" }
-        ]
+          {
+            "title": "Blaue Karte EU beantragen — Stadt Karlsruhe",
+            "url": "https://web1.karlsruhe.de/service/Buergerdienste/leistung.php?id=6004479"
+          },
+          {
+            "title": "Karlsruher Mietspiegel 2025 (qualified)",
+            "url": "https://web6.karlsruhe.de/Stadtentwicklung/statistik/pdf/mietspiegel/karlsruher-mietspiegel-2025.pdf"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Circa 4–8 weeks (authority decision)",
+          "timeScope": "Official Bearbeitungsdauer ('in der Regel vier bis acht Wochen') for the authority decision after complete documents; excludes the appointment intake wait and eAT production",
+          "applicationChannel": "Online application (data + document upload) to the Stadt Karlsruhe foreigners authority; the §81a accelerated skilled-worker procedure is signposted",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
+          "confidence": "medium",
+          "asOf": "2026-07",
+          "naturalisation": "~20 months; clearing mid-2024 filings despite doubled staff (context only)"
+        }
       }
     },
     {
       "id": "munich",
       "label": "Munich",
       "sublabel": "Bavaria",
-      "values": { "conv": 68, "jobs": 92, "rent": 34, "anm": 68, "eng": 74, "comp": 66, "safe": 78, "cost": 44, "pt": 70, "conn": 80, "comm": 74, "population": 1510000, "rentCentre": "€1,400–1,800", "rentM2": 22, "salary": "Junior €50–62k · Mid €65–85k (highest in DE)", "bdCommunity": "1,007 Bangladeshi (2024), 17,946 Indian; small BD, Indian-led; Masjid An-Nur (Bangladeshi-founded)", "embassy": "Full service: Berlin embassy (~585 km); honorary consulate in Munich" },
+      "location": {
+        "lat": 48.1374,
+        "lng": 11.5755,
+        "label": "Munich city centre",
+        "sourceUrl": "https://www.openstreetmap.org/search?query=Munich%20city%20centre"
+      },
+      "values": {
+        "jobs": 90,
+        "conv": 46,
+        "anm": 68,
+        "pt": 80,
+        "rent": 34,
+        "eng": 74,
+        "safe": 78,
+        "comp": 68,
+        "cost": 44,
+        "conn": 80,
+        "comm": 74,
+        "natTime": "Naturalisation 18+ months (KVR); ~40,200 pending — largest single-city backlog",
+        "population": 1510000,
+        "rentCentre": "€1,400–1,800",
+        "rentM2": 22,
+        "salary": "Junior €50–62k · Mid €65–85k (highest in DE)",
+        "bdCommunity": "1,007 Bangladeshi (2024), 17,946 Indian; small BD, Indian-led; Masjid An-Nur (Bangladeshi-founded)",
+        "embassy": "Full service: Berlin embassy (~585 km); honorary consulate in Munich"
+      },
       "detail": {
-        "summary": "The strongest job market in Germany, taxed hard by cost.",
-        "note": "Conversion is decent (~12–14 weeks total) and much faster via a Munich Expat Center–enrolled employer (BMW, Siemens, Allianz…).",
+        "summary": "The strongest job market in Germany for this profile, taxed hard by cost and a long — though transparently published — conversion queue.",
+        "note": "Official 'up to 7 months' Bearbeitungszeit — a worst-case ceiling for the authority decision under current volumes, not a typical time; eAT production is extra, and full-time work can begin earlier via a §81(5a) Fiktionsbescheinigung at the decision. Fully digital lodging through a dedicated international-skilled-worker service centre. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
         "pros": [
-          { "text": "~19% of all German software openings; Big Tech R&D + corporate + unicorns; high salaries clear the Blue Card bar easily." },
-          { "text": "Safe, cosmopolitan; excellent transport and MUC air links." }
+          {
+            "text": "Deepest enterprise + AI market (Big Tech R&D, BMW/Siemens/Allianz, unicorns); high salaries clear the Blue Card bar easily and experienced hiring is favoured."
+          },
+          {
+            "text": "Safe, cosmopolitan; deep hospitality/retail part-time base; excellent transport and MUC air links."
+          }
         ],
         "cons": [
-          { "text": "Germany's most expensive city — rent (~€22/m²) and fierce flat competition are brutal on Chancenkarte funds; this is what drags the overall down." }
+          {
+            "text": "Germany's most expensive city — rent (~€22/m²) and fierce flat competition are brutal on Chancenkarte funds; this is what drags the overall down."
+          },
+          {
+            "text": "Largest naturalisation backlog in Germany (~40,200 pending, 18+ months) slows the citizenship endpoint."
+          }
         ],
         "links": [
-          { "title": "EU Blue Card — Servicestelle für Zuwanderung, München", "url": "https://stadt.muenchen.de/service/en-GB/info/hauptabteilung-ii-buergerangelegenheiten-auslaenderangelegenheiten-service-center-fuer-internationale-fachkraefte/10422541/" },
-          { "title": "Statistisches Amt München — Bevölkerung nach Staatsangehörigkeit", "url": "https://stadt.muenchen.de/dam/jcr:89a2dcdb-76bb-427d-8930-61a956092c08/jt210115.pdf" }
-        ]
+          {
+            "title": "EU Blue Card — Servicestelle für Zuwanderung, München",
+            "url": "https://stadt.muenchen.de/service/en-GB/info/hauptabteilung-ii-buergerangelegenheiten-auslaenderangelegenheiten-service-center-fuer-internationale-fachkraefte/10422541/"
+          },
+          {
+            "title": "Stadt München — naturalisation processing time (18+ months)",
+            "url": "https://stadt.muenchen.de/news/einbuergerung-bearbeitungszeit.html"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Up to 7 months (authority decision, worst-case ceiling)",
+          "timeScope": "Official maximum Bearbeitungszeit; best read as online-submission to the authority decision under current volumes (queue-dominated). eAT production (~4–6 weeks) is additional; full-time work may begin at the decision via a §81(5a) Fiktionsbescheinigung",
+          "applicationChannel": "Fully digital application to the Servicestelle für Zuwanderung und Einbürgerung (dedicated Service Center für internationale Fachkräfte)",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
+          "confidence": "high",
+          "asOf": "2026-07",
+          "naturalisation": "18+ months (official KVR); ~40,200 applications pending — the largest single-city backlog (context only)"
+        }
       }
     },
     {
       "id": "leipzig",
       "label": "Leipzig",
       "sublabel": "Saxony (eastern Germany)",
-      "values": { "conv": 82, "jobs": 54, "rent": 88, "anm": 78, "eng": 56, "comp": 52, "safe": 52, "cost": 84, "pt": 66, "conn": 54, "comm": 44, "population": 634000, "rentCentre": "~€700", "rentM2": 10, "salary": "Junior €42–50k · Mid €50–62k (below avg, east)", "bdCommunity": "Small BD; growing international/student population; halal mainly via Turkish/Arab shops", "embassy": "Full service: Berlin embassy (~190 km, nearest); honorary consulate Potsdam" },
+      "location": {
+        "lat": 51.3397,
+        "lng": 12.3731,
+        "label": "Leipzig city centre",
+        "sourceUrl": "https://www.openstreetmap.org/search?query=Leipzig%20city%20centre"
+      },
+      "values": {
+        "jobs": 57,
+        "conv": 62,
+        "anm": 78,
+        "pt": 78,
+        "rent": 88,
+        "eng": 56,
+        "safe": 52,
+        "comp": 56,
+        "cost": 84,
+        "conn": 54,
+        "comm": 44,
+        "natTime": "Naturalisation ~11,400 waiting (Feb 2025); reported waits exceed ~3.5 years",
+        "population": 634000,
+        "rentCentre": "~€700",
+        "rentM2": 10,
+        "salary": "Junior €42–50k · Mid €50–62k (below avg, east)",
+        "bdCommunity": "Small BD; growing international/student population; halal mainly via Turkish/Arab shops",
+        "embassy": "Full service: Berlin embassy (~190 km, nearest); honorary consulate Potsdam"
+      },
       "detail": {
-        "summary": "The value play — cheapest big city plus the fastest-evidenced eastern bureaucracy — held back by the eastern safety question and thinner jobs/community.",
-        "note": "Leipzig's foreigners' authority decides Blue Card cases ~4 weeks after complete submission and works largely online; Anmeldung allows walk-ins.",
+        "summary": "The low-cost big-city option with strong Anmeldung access and a published ~4-week authority decision time; held back by thinner jobs and safety concerns.",
+        "note": "Official decision time about 4 weeks (authority processing after complete documents; excludes degree recognition, biometrics and eAT production). Fully online application; the authority posts the biometric appointment after a positive decision. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
         "pros": [
-          { "text": "Cheapest rents and cost of living in the set — huge runway extension." },
-          { "text": "Rising ecosystem (BMW, Porsche, DHL, ScaDS.AI); on-paper the fastest Blue Card decision here." }
+          {
+            "text": "Cheapest rents and cost of living in the set — a huge runway extension — plus DHL's global air-freight hub (7,000+) and an Amazon fulfilment centre give deep warehouse/logistics part-time work."
+          },
+          {
+            "text": "Affordable runway and strong Anmeldung access reduce early relocation risk; the authority publishes a ~4-week decision time and runs a fully online application with a post-by-mail appointment."
+          }
         ],
         "cons": [
-          { "text": "Saxony carries elevated far-right risk; Leipzig city is a progressive enclave but caution rises in outer districts and at night." },
-          { "text": "Smaller English-role pool; very small Bangladeshi community and limited halal." }
+          {
+            "text": "Saxony carries elevated far-right risk; Leipzig city is a progressive enclave but caution rises in outer districts and at night."
+          },
+          {
+            "text": "Smaller job pool for a senior enterprise/.NET profile; very small Bangladeshi community and limited halal."
+          }
         ],
         "links": [
-          { "title": "Blaue Karte EU beantragen — Stadt Leipzig", "url": "https://www.leipzig.de/service-portal/dienstleistung/blaue-karte-eu" },
-          { "title": "Mietspiegel — Stadt Leipzig (qualified 2025–2027)", "url": "https://www.leipzig.de/bauen-und-wohnen/wohnen/mietspiegel" }
-        ]
+          {
+            "title": "Blaue Karte EU beantragen — Stadt Leipzig",
+            "url": "https://www.leipzig.de/service-portal/dienstleistung/blaue-karte-eu"
+          },
+          {
+            "title": "Mietspiegel — Stadt Leipzig (qualified 2025–2027)",
+            "url": "https://www.leipzig.de/bauen-und-wohnen/wohnen/mietspiegel"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "About 4 weeks (authority decision)",
+          "timeScope": "Official 'in der Regel innerhalb von vier Wochen' for the authority decision after complete documents; excludes degree recognition (anabin/ZAB), biometrics and eAT production",
+          "applicationChannel": "Fully online application to the Stadt Leipzig foreigners authority; after a positive decision the authority sends the biometric appointment by post (§81a / Saxon AKZESS accelerated procedure available)",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
+          "confidence": "medium",
+          "asOf": "2026-07",
+          "naturalisation": "Severe backlog — ~11,400 applicants waiting (Feb 2025); reported waits exceed ~3.5 years (context only)"
+        }
       }
     },
     {
       "id": "duesseldorf",
       "label": "Düsseldorf",
       "sublabel": "North Rhine-Westphalia",
-      "values": { "conv": 74, "jobs": 62, "rent": 58, "anm": 64, "eng": 74, "comp": 54, "safe": 70, "cost": 58, "pt": 68, "conn": 74, "comm": 66, "population": 659000, "rentCentre": "~€1,080", "rentM2": 13, "salary": "Junior €47–52k · Mid €55–70k (avg ~€63k)", "bdCommunity": "Small BD (Oberbilk South-Asian quarter); large Japanese community; halal widely available", "embassy": "Full service: Berlin embassy (~560 km); honorary consulate Grefrath (~40 km)" },
+      "location": {
+        "lat": 51.2277,
+        "lng": 6.7735,
+        "label": "Düsseldorf city centre",
+        "sourceUrl": "https://www.openstreetmap.org/search?query=D%C3%BCsseldorf%20city%20centre"
+      },
+      "values": {
+        "jobs": 62,
+        "conv": 54,
+        "anm": 64,
+        "pt": 72,
+        "rent": 58,
+        "eng": 74,
+        "safe": 70,
+        "comp": 60,
+        "cost": 58,
+        "conn": 74,
+        "comm": 66,
+        "natTime": "Naturalisation ~12–30 months after the 2024 reform surge",
+        "population": 659000,
+        "rentCentre": "~€1,080",
+        "rentM2": 13,
+        "salary": "Junior €47–52k · Mid €55–70k (avg ~€63k)",
+        "bdCommunity": "Small BD (Oberbilk South-Asian quarter); large Japanese community; halal widely available",
+        "embassy": "Full service: Berlin embassy (~560 km); honorary consulate Grefrath (~40 km)"
+      },
       "detail": {
         "summary": "Corporate, English-friendly, efficient — a quietly strong operational choice.",
-        "note": "Electronic Blue Card ~3–5 weeks after a positive decision; city added Anmeldung capacity (pop-up offices, extra slots).",
+        "note": "No published decision time. A single online portal handles both the Chancenkarte and the Blue Card switch, with an AI-assisted completeness pre-check; there is no dedicated skilled-worker unit. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
         "pros": [
-          { "text": "One of Germany's most English-friendly job markets (Vodafone, Henkel, Metro, Trivago, Amazon)." },
-          { "text": "Doha nonstop from DUS eases Dhaka trips; South-Asian quarter in Oberbilk." }
+          {
+            "text": "One of Germany's most English-friendly corporate markets (Vodafone, Henkel, Metro, Trivago, Amazon) with enterprise-integration demand."
+          },
+          {
+            "text": "Doha nonstop from DUS eases Dhaka trips; NRW's deep any-field part-time base; South-Asian quarter in Oberbilk."
+          }
         ],
         "cons": [
-          { "text": "Startup/AI depth is mid-sized (~405 IT roles); many 'English' employers still expect working German." },
-          { "text": "Upper-mid cost; no dedicated Bangladeshi association found." }
+          {
+            "text": "Startup/AI depth is mid-sized; many 'English' employers still expect working German for the core team."
+          },
+          {
+            "text": "Upper-mid cost; no dedicated Bangladeshi association found."
+          }
         ],
         "links": [
-          { "title": "Blaue Karte EU — Landeshauptstadt Düsseldorf", "url": "https://www.duesseldorf.de/auslaenderamt/aufenthalt/beschaeftigung-und-selbststaendigkeit/blaue-karte-eu" },
-          { "title": "Mietspiegel Düsseldorf — ImmoScout24", "url": "https://www.immobilienscout24.de/immobilienpreise/nordrhein-westfalen/duesseldorf/mietspiegel" }
-        ]
+          {
+            "title": "Blaue Karte EU — Landeshauptstadt Düsseldorf",
+            "url": "https://www.duesseldorf.de/auslaenderamt/aufenthalt/beschaeftigung-und-selbststaendigkeit/blaue-karte-eu"
+          },
+          {
+            "title": "Mietspiegel Düsseldorf — ImmoScout24",
+            "url": "https://www.immobilienscout24.de/immobilienpreise/nordrhein-westfalen/duesseldorf/mietspiegel"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Not published",
+          "timeScope": "The authority publishes no decision or end-to-end time; only the federal eAT production step (~4–6 weeks) is quantified, and that is card production, not processing",
+          "applicationChannel": "Single online portal for both the Chancenkarte and the Blue Card switch (Aufenthalt-Navigator + AI completeness pre-check); no dedicated skilled-worker unit",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
+          "confidence": "low",
+          "asOf": "2026-07",
+          "naturalisation": "~12–30 months after the 2024 reform surge (context only)"
+        }
       }
     },
     {
       "id": "nuremberg",
       "label": "Nuremberg",
       "sublabel": "Bavaria",
-      "values": { "conv": 68, "jobs": 56, "rent": 80, "anm": 76, "eng": 48, "comp": 54, "safe": 72, "cost": 78, "pt": 64, "conn": 58, "comm": 58, "population": 531000, "rentCentre": "~€780", "rentM2": 10.3, "salary": "Junior €45–52k · Mid €55–65k (Bavaria, below Munich)", "bdCommunity": "246 Bangladeshi (2024), 4,212 Indian; small but growing BD; wide Muslim/halal infrastructure", "embassy": "Full service: Berlin embassy (~380 km); honorary consulates Munich (~170 km)/Frankfurt" },
+      "location": {
+        "lat": 49.4521,
+        "lng": 11.0767,
+        "label": "Nuremberg city centre",
+        "sourceUrl": "https://www.openstreetmap.org/search?query=Nuremberg%20city%20centre"
+      },
+      "values": {
+        "jobs": 68,
+        "conv": 61,
+        "anm": 76,
+        "pt": 66,
+        "rent": 80,
+        "eng": 48,
+        "safe": 72,
+        "comp": 62,
+        "cost": 78,
+        "conn": 58,
+        "comm": 58,
+        "natTime": "Naturalisation: Bavarian offices ~1–2 years+; no precise Nuremberg figure",
+        "population": 531000,
+        "rentCentre": "~€780",
+        "rentM2": 10.3,
+        "salary": "Junior €45–52k · Mid €55–65k (Bavaria, below Munich)",
+        "bdCommunity": "246 Bangladeshi (2024), 4,212 Indian; small but growing BD; wide Muslim/halal infrastructure",
+        "embassy": "Full service: Berlin embassy (~380 km); honorary consulates Munich (~170 km)/Frankfurt"
+      },
       "detail": {
-        "summary": "Bavarian quality of life without Munich prices — but a small English job pool.",
-        "note": "Blue Card applied online, office schedules the appointment by letter; no published SLA — plan conservatively.",
+        "summary": "Bavarian quality of life without Munich prices, and an unusually good fit for an enterprise-.NET profile — but a small English-first job pool.",
+        "note": "No published decision time; the city runs a dedicated online Blue Card self-service with invitation-based intake. DATEV makes it an unusually strong enterprise-.NET fit. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
         "pros": [
-          { "text": "Affordable for the south (~18–25% cheaper than Munich), safe and very diverse ('City of Human Rights'); findable Anmeldung slots." },
-          { "text": "Solid enterprise/industrial tech (DATEV, Siemens, Fraunhofer IIS applied AI)." }
+          {
+            "text": "DATEV (a very large .NET/enterprise employer), Siemens and Fraunhofer IIS (applied AI) make this a strong match for the applicant's exact stack; experienced hiring is favoured over juniors."
+          },
+          {
+            "text": "Affordable for the south (~18–25% cheaper than Munich), safe and very diverse ('City of Human Rights'); findable Anmeldung slots."
+          }
         ],
         "cons": [
-          { "text": "Smallest English-first tech pool in the set (~6 English dev roles at a time); Mittelstand strongly prefers German." },
-          { "text": "No dedicated Bangladeshi mosque/centre (wide general Muslim/halal infra)." }
+          {
+            "text": "Smallest English-first tech pool in the set; Mittelstand strongly prefers German, so working German becomes near-mandatory."
+          },
+          {
+            "text": "No dedicated Bangladeshi mosque/centre (wide general Muslim/halal infra); modest long-haul connectivity."
+          }
         ],
         "links": [
-          { "title": "Aufenthaltstitel Blaue Karte EU — Stadt Nürnberg", "url": "https://www.nuernberg.de/internet/stadtportal/behoerdenwegweiser/dienstleistung/aufenthaltstitel_blaue_karte_eu.html" },
-          { "title": "Nürnberg in Zahlen 2025 (population/nationalities)", "url": "https://www.nuernberg.de/imperia/md/statistik/dokumente/veroeffentlichungen/berichte/niz/niz_2025_online_v_1_0.pdf" }
-        ]
+          {
+            "title": "Aufenthaltstitel Blaue Karte EU — Stadt Nürnberg",
+            "url": "https://www.nuernberg.de/internet/stadtportal/behoerdenwegweiser/dienstleistung/aufenthaltstitel_blaue_karte_eu.html"
+          },
+          {
+            "title": "Nürnberg in Zahlen 2025 (population/nationalities)",
+            "url": "https://www.nuernberg.de/imperia/md/statistik/dokumente/veroeffentlichungen/berichte/niz/niz_2025_online_v_1_0.pdf"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Not published",
+          "timeScope": "No decision or end-to-end time published; intake is invitation-based after online submission. Only the federal eAT production step (~4–6 weeks) is quantified, and that is card production, not processing",
+          "applicationChannel": "Dedicated online Blue Card self-service of the Amt für Migration und Integration; after submission the authority invites you to an appointment by letter",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
+          "confidence": "low",
+          "asOf": "2026-07",
+          "naturalisation": "Bavarian offices carry 1–2 year+ backlogs; no precise Nuremberg figure published (context only)"
+        }
       }
     },
     {
       "id": "stuttgart",
       "label": "Stuttgart",
       "sublabel": "Baden-Württemberg",
-      "values": { "conv": 60, "jobs": 76, "rent": 56, "anm": 74, "eng": 58, "comp": 60, "safe": 72, "cost": 54, "pt": 58, "conn": 62, "comm": 72, "population": 606000, "rentCentre": "~€990", "rentM2": 15, "salary": "Junior €48–55k · Mid €60–80k (avg ~€77k, auto premium)", "bdCommunity": "Small BD; large Indian IT community; dedicated Bangladeshi mosque; halal easy", "embassy": "Full service: Berlin embassy (~630 km); honorary consulates Frankfurt/Munich" },
+      "location": {
+        "lat": 48.7758,
+        "lng": 9.1829,
+        "label": "Stuttgart city centre",
+        "sourceUrl": "https://www.openstreetmap.org/search?query=Stuttgart%20city%20centre"
+      },
+      "values": {
+        "jobs": 78,
+        "conv": 46,
+        "anm": 74,
+        "pt": 68,
+        "rent": 56,
+        "eng": 58,
+        "safe": 72,
+        "comp": 64,
+        "cost": 54,
+        "conn": 62,
+        "comm": 72,
+        "natTime": "Naturalisation ~10,000 pending; dedicated dept; ~319 days–21 months",
+        "population": 606000,
+        "rentCentre": "~€990",
+        "rentM2": 15,
+        "salary": "Junior €48–55k · Mid €60–80k (avg ~€77k, auto premium)",
+        "bdCommunity": "Small BD; large Indian IT community; dedicated Bangladeshi mosque; halal easy",
+        "embassy": "Full service: Berlin embassy (~630 km); honorary consulates Frankfurt/Munich"
+      },
       "detail": {
-        "summary": "Deep automotive/industrial tech, but expensive and German-leaning.",
-        "note": "The Ausländerbehörde warns of longer Blue Card processing; plan for several weeks to a few months.",
+        "summary": "Deep automotive/industrial and enterprise tech — a strong .NET/integration fit — but expensive, German-leaning, and slow to convert.",
+        "note": "The authority posts an honest volume warning — 'longer processing times' — but publishes no number; a multilingual online application portal routes to a named Fachkräfte-und-Migration team. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
         "pros": [
-          { "text": "Big sponsors (Bosch, Mercedes, Porsche, IBM, HPE); ~4,000+ IT roles; good Anmeldung availability; safe western BW." }
+          {
+            "text": "Big sponsors (Bosch, Mercedes, Porsche, IBM, HPE) and ~4,000+ IT roles with heavy enterprise-integration demand; good Anmeldung availability; safe western BW."
+          }
         ],
         "cons": [
-          { "text": "High southern cost; longer Blue Card processing." },
-          { "text": "English-only role pool modest; much of the Mittelstand wants B1–B2 German." }
+          {
+            "text": "High southern cost; longer Blue Card processing than the fast offices."
+          },
+          {
+            "text": "English-only role pool is modest; much of the Mittelstand wants B1–B2 German."
+          }
         ],
         "links": [
-          { "title": "Apply for an EU Blue Card — Stadt Stuttgart", "url": "https://www.stuttgart.de/en/organigramm/leistungen/blaue-karte-zur-ausuebung-einer-hochqualifizierten-beschaeftigung-beantragen-blue-card-" },
-          { "title": "Qualifizierter Mietspiegel 2025/2026 — Stadt Stuttgart", "url": "https://www.stuttgart.de/medien/ibs/mietspiegel_2025_2026.pdf" }
-        ]
+          {
+            "title": "Apply for an EU Blue Card — Stadt Stuttgart",
+            "url": "https://www.stuttgart.de/en/organigramm/leistungen/blaue-karte-zur-ausuebung-einer-hochqualifizierten-beschaeftigung-beantragen-blue-card-"
+          },
+          {
+            "title": "Qualifizierter Mietspiegel 2025/2026 — Stadt Stuttgart",
+            "url": "https://www.stuttgart.de/medien/ibs/mietspiegel_2025_2026.pdf"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Longer processing times (official volume warning; no number)",
+          "timeScope": "Honest official warning of longer processing due to high volume; refers to the authority decision only — no duration is published, and it excludes eAT production (~4–6 weeks)",
+          "applicationChannel": "Multilingual online application portal → online appointment (konsentas); handled by the dedicated Sachgebiet 3 'Fachkräfte und Migration' team",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
+          "confidence": "medium",
+          "asOf": "2026-07",
+          "naturalisation": "Dedicated Einbürgerung department (~41 posts); ~10,000 cases pending, ~319 days–21 months (context only)"
+        }
       }
     },
     {
       "id": "berlin",
       "label": "Berlin",
       "sublabel": "Berlin (city-state)",
-      "values": { "conv": 46, "jobs": 90, "rent": 46, "anm": 42, "eng": 84, "comp": 62, "safe": 64, "cost": 62, "pt": 78, "conn": 72, "comm": 84, "population": 3700000, "rentCentre": "€1,200–1,500", "rentM2": 15.8, "salary": "Junior €48–55k · Mid €60–80k (avg ~€73k)", "bdCommunity": "Bangladesh embassy city; visible BD diaspora (Kreuzberg/Neukölln); ~80 mosques, 380+ halal spots", "embassy": "Embassy of Bangladesh, Berlin — in-city, the only full-service mission (passport, visa, attestation)" },
+      "location": {
+        "lat": 52.52,
+        "lng": 13.405,
+        "label": "Berlin city centre",
+        "sourceUrl": "https://www.openstreetmap.org/search?query=Berlin%20city%20centre"
+      },
+      "values": {
+        "jobs": 88,
+        "conv": 50,
+        "anm": 42,
+        "pt": 85,
+        "rent": 46,
+        "eng": 84,
+        "safe": 64,
+        "comp": 66,
+        "cost": 62,
+        "conn": 72,
+        "comm": 84,
+        "natTime": "Naturalisation heavily backlogged (40,000+ legacy + ~75,000 newer); record delay lawsuits in 2025; no forecast",
+        "population": 3700000,
+        "rentCentre": "€1,200–1,500",
+        "rentM2": 15.8,
+        "salary": "Junior €48–55k · Mid €60–80k (avg ~€73k)",
+        "bdCommunity": "Bangladesh embassy city; visible BD diaspora (Kreuzberg/Neukölln); ~80 mosques, 380+ halal spots",
+        "embassy": "Embassy of Bangladesh, Berlin — in-city, the only full-service mission (passport, visa, attestation)"
+      },
       "detail": {
-        "summary": "The tech capital — and the biggest cautionary tale for a time-boxed visa.",
-        "note": "Best job market, worst conversion logistics: the LEA's multi-month Blue Card backlog + weeks-long Bürgeramt Anmeldung waits are exactly what you cannot afford on a 12-month clock.",
+        "summary": "The tech and AI capital with the best English access — and still the biggest cautionary tale for a time-boxed visa.",
+        "note": "The LEA publishes no pre-appointment/decision total; the online Blue Card application (mandatory since April 2025) is reviewed before an appointment is assigned. The published 4–6 weeks is eAT card production after a positive decision, not total conversion time. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
         "pros": [
-          { "text": "Deepest, most diverse market (startups, fintech, AI/ML near full employment) and the most English-navigable city in Germany." },
-          { "text": "Strongest Muslim infrastructure + real Bangladeshi presence; the only in-city Bangladesh embassy." }
+          {
+            "text": "Deepest, most diverse market (startups, fintech, AI/ML near full employment) with by far the most English-navigable environment in Germany — the applicant's AI/RAG edge lands best here."
+          },
+          {
+            "text": "Strongest Muslim infrastructure and real Bangladeshi presence; the only in-city Bangladesh embassy; huge any-field part-time market."
+          }
         ],
         "cons": [
-          { "text": "LEA multi-month Blue Card backlog (OTV appointment system decommissioned); Bürgeramt slots booked out for weeks." },
-          { "text": "Scarce, competitive housing; junior generalist roles saturated (an AI/ML edge changes the picture)." }
+          {
+            "text": "The LEA does not publish the pre-appointment total; scarce Bürgeramt capacity and high case volume make the process less predictable."
+          },
+          {
+            "text": "Scarce, competitive housing; naturalisation deeply backlogged (40,000+ legacy plus ~75,000 newer applications) with no reliable forecast."
+          }
         ],
         "links": [
-          { "title": "Making appointments — Berlin.de (Immigration/LEA)", "url": "https://www.berlin.de/einwanderung/en/services/appointments/" },
-          { "title": "Embassy of Bangladesh, Berlin (official)", "url": "https://berlin.mofa.gov.bd/" }
-        ]
+          {
+            "title": "Making appointments — Berlin.de (Immigration/LEA)",
+            "url": "https://www.berlin.de/einwanderung/en/services/appointments/"
+          },
+          {
+            "title": "Berlin.de — Einbürgerung (LEA centralised, digital application)",
+            "url": "https://www.berlin.de/einwanderung/einbuergerung/"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Not published before appointment; 4–6 weeks for eAT",
+          "timeScope": "The 4–6 weeks is eAT card production after a positive decision, not total conversion time; the LEA publishes no pre-appointment/decision total and appointment allocation can take 'a few months'",
+          "applicationChannel": "Online Blue Card application (mandatory since April 2025); the LEA reviews documents, then assigns an in-person appointment (the §81a Business Immigration Service is an employer/abroad route, not this in-country switch)",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
+          "confidence": "medium",
+          "asOf": "2026-07",
+          "naturalisation": "Heavily backlogged — 40,000+ legacy plus ~75,000 newer applications, with record 'failure-to-act' lawsuits in 2025 and no reliable wait forecast (context only)"
+        }
       }
     },
     {
       "id": "frankfurt",
       "label": "Frankfurt",
       "sublabel": "Hesse",
-      "values": { "conv": 52, "jobs": 80, "rent": 48, "anm": 46, "eng": 74, "comp": 62, "safe": 76, "cost": 52, "pt": 70, "conn": 84, "comm": 82, "population": 781000, "rentCentre": "~€1,200", "rentM2": 18, "salary": "Junior €48–55k · Mid €60–75k (fintech premium)", "bdCommunity": "Indian 11,393 (2024); BD small; Baitul Hamd (Bangladesh Islamic Centre); halal easy", "embassy": "Full service: Berlin embassy (~550 km); honorary consulate in Frankfurt (upgrade planned 2025)" },
+      "location": {
+        "lat": 50.1109,
+        "lng": 8.6821,
+        "label": "Frankfurt city centre",
+        "sourceUrl": "https://www.openstreetmap.org/search?query=Frankfurt%20city%20centre"
+      },
+      "values": {
+        "jobs": 80,
+        "conv": 52,
+        "anm": 50,
+        "pt": 80,
+        "rent": 48,
+        "eng": 74,
+        "safe": 76,
+        "comp": 66,
+        "cost": 52,
+        "conn": 84,
+        "comm": 82,
+        "natTime": "Naturalisation via RP Darmstadt (large regional backlog); Frankfurt waits up to ~28 months",
+        "population": 781000,
+        "rentCentre": "~€1,200",
+        "rentM2": 18,
+        "salary": "Junior €48–55k · Mid €60–75k (fintech premium)",
+        "bdCommunity": "Indian 11,393 (2024); BD small; Baitul Hamd (Bangladesh Islamic Centre); halal easy",
+        "embassy": "Full service: Berlin embassy (~550 km); honorary consulate in Frankfurt (upgrade planned 2025)"
+      },
       "detail": {
-        "summary": "Best global connectivity and finance-tech depth; slow admin and high cost.",
-        "note": "Ausländerbehörde appointments run up to ~4 months out; Bürgeramt slots vanish in seconds — secure the Anmeldung slot on arrival.",
+        "summary": "Best global connectivity and finance/enterprise-integration depth; admin is improving (appointment waits cut from ~20 months to ~3), though cost is high and the regional citizenship tail is the worst in the set.",
+        "note": "The foreigners authority cut appointment waits from up to 20 months to ~3 months on average (official, Jan 2026) and offers a 12-language online application; the substantive decision time is unpublished, and a Blue Card at the general threshold needs no Federal Employment Agency approval. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
         "pros": [
-          { "text": "FRA is Germany's largest hub — the best Dhaka 1-stop options; finance/fintech jobs frequently in English; strong pay-to-cost ratio." },
-          { "text": "Direct Bangladeshi anchor (Baitul Hamd / Bangladesh Islamic Centre)." }
+          {
+            "text": "FRA is Germany's largest hub — the best Dhaka 1-stop options; finance/fintech and enterprise-integration jobs frequently in English; strong pay-to-cost ratio."
+          },
+          {
+            "text": "Airport plus fairs give a deep any-field part-time market; direct Bangladeshi anchor (Baitul Hamd / Bangladesh Islamic Centre)."
+          }
         ],
         "cons": [
-          { "text": "Ausländerbehörde appointments up to ~4 months; Bürgeramt slots vanish instantly." },
-          { "text": "Germany's 2nd-costliest city; hiring skews mid-senior (few entry roles)." }
+          {
+            "text": "Ausländerbehörde appointments up to ~4 months; Bürgeramt slots vanish instantly."
+          },
+          {
+            "text": "Germany's 2nd-costliest city, and naturalisation via RP Darmstadt (large regional backlog; Frankfurt waits up to ~28 months) is among the slowest citizenship routes in the set."
+          }
         ],
         "links": [
-          { "title": "EU Blue Card Frankfurt — RT & Partner", "url": "https://www.rtpartner.de/en/immigration/eu-blue-card-frankfurt/" },
-          { "title": "Mietspiegel Frankfurt am Main 2026 — ImmoScout24", "url": "https://www.immobilienscout24.de/immobilienpreise/hessen/frankfurt-am-main/mietspiegel" }
-        ]
+          {
+            "title": "Blaue Karte EU — Ausländerbehörde Frankfurt am Main",
+            "url": "https://frankfurt.de/auslaenderangelegenheiten/ich-moechte-einen-antrag-stellen/arbeitnehmer/blaue-karte-eu"
+          },
+          {
+            "title": "Ausländerbehörde Frankfurt — appointment waits cut from ~20 to ~3 months (hessenschau, Jan 2026)",
+            "url": "https://www.hessenschau.de/gesellschaft/trotz-aenderungen-warum-es-bei-der-auslaenderbehoerde-frankfurt-noch-hakt-v1,frankfurt-immigration-office-bilanz-100.html"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "~3 months (average appointment wait, Jan 2026)",
+          "timeScope": "Official average wait to obtain an authority appointment (cut from up to 20 months); this is the appointment/intake stage, NOT the substantive decision and NOT eAT production (both extra)",
+          "applicationChannel": "Online application (12 languages) to the Frankfurt Ausländerbehörde; a Blue Card at the general salary threshold needs no Federal Employment Agency approval (§81a exists but is an abroad/entry route)",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
+          "confidence": "medium",
+          "asOf": "2026-07",
+          "naturalisation": "Handled by Regierungspräsidium Darmstadt (one of Germany's largest regional backlogs; Frankfurt waits up to ~28 months) — a separate authority, not a proxy for Blue Card processing (context only)"
+        }
       }
     },
     {
       "id": "cologne",
       "label": "Cologne",
       "sublabel": "North Rhine-Westphalia",
-      "values": { "conv": 62, "jobs": 70, "rent": 52, "anm": 52, "eng": 62, "comp": 58, "safe": 74, "cost": 60, "pt": 68, "conn": 70, "comm": 74, "population": 1100000, "rentCentre": "~€1,040", "rentM2": 14.8, "salary": "Junior €48–53k · Mid €58–70k", "bdCommunity": "Small BD; DITIB Central Mosque; Rhine-Ruhr South-Asian community; halal easy", "embassy": "Full service: Berlin embassy (~575 km); honorary consulate Grefrath NRW (~60 km)" },
+      "location": {
+        "lat": 50.9375,
+        "lng": 6.9603,
+        "label": "Cologne city centre",
+        "sourceUrl": "https://www.openstreetmap.org/search?query=Cologne%20city%20centre"
+      },
+      "values": {
+        "jobs": 70,
+        "conv": 56,
+        "anm": 55,
+        "pt": 76,
+        "rent": 52,
+        "eng": 62,
+        "safe": 74,
+        "comp": 62,
+        "cost": 60,
+        "conn": 70,
+        "comm": 74,
+        "natTime": "Naturalisation slow — ~1.5–2 years end-to-end",
+        "population": 1100000,
+        "rentCentre": "~€1,040",
+        "rentM2": 14.8,
+        "salary": "Junior €48–53k · Mid €58–70k",
+        "bdCommunity": "Small BD; DITIB Central Mosque; Rhine-Ruhr South-Asian community; halal easy",
+        "embassy": "Full service: Berlin embassy (~575 km); honorary consulate Grefrath NRW (~60 km)"
+      },
       "detail": {
-        "summary": "Diversified and welcoming, but middling on the operational gates.",
-        "note": "Blue Card runs to the 90-day benchmark (no fast published figure); apply online, then an invitation for the in-person appointment.",
+        "summary": "Diversified and welcoming, with a broad enterprise market — but middling on the operational gates.",
+        "note": "No published decision time; a dedicated 'Arbeitsmigration' unit takes the Blue Card application online. Anmeldung offers walk-in registration on Mondays and Wednesdays. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
         "pros": [
-          { "text": "Broad market (DeepL, REWE, Ford, RTL, AXA; 2,000+ SWE postings); large, diverse, low-far-right city." },
-          { "text": "DITIB central mosque + Rhine-Ruhr South-Asian community; DUS/FRA close." }
+          {
+            "text": "Broad market (DeepL, REWE, Ford, RTL, AXA; 2,000+ SWE postings) with real enterprise and AI demand; large, diverse, low-far-right city; deep NRW part-time base."
+          },
+          {
+            "text": "DITIB central mosque and Rhine-Ruhr South-Asian community; DUS/FRA close."
+          }
         ],
         "cons": [
-          { "text": "No fast published Blue Card figure; Anmeldung booked weeks ahead." },
-          { "text": "Very tight flat supply — finding one is harder than affording it." }
+          {
+            "text": "No published Blue Card decision time; booked Anmeldung slots run weeks out (though walk-in Mon/Wed helps)."
+          },
+          {
+            "text": "Very tight flat supply — finding one is harder than affording it."
+          }
         ],
         "links": [
-          { "title": "Blaue Karte EU — Stadt Köln", "url": "https://www.stadt-koeln.de/service/produkte/20321/index.html" },
-          { "title": "Mietspiegel Köln 2025/2026", "url": "https://www.koeln.de/leben/mietspiegel/" }
-        ]
+          {
+            "title": "Blaue Karte EU — Stadt Köln",
+            "url": "https://www.stadt-koeln.de/service/produkte/20321/index.html"
+          },
+          {
+            "title": "Mietspiegel Köln 2025/2026",
+            "url": "https://www.koeln.de/leben/mietspiegel/"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Not published",
+          "timeScope": "No decision or end-to-end time published; only the federal eAT production step (~4–6 weeks) is quantified, and that is card production, not processing",
+          "applicationChannel": "Online Blue Card application to the dedicated 'Arbeitsmigration' labour-migration unit; the authority reviews, then invites you to a card-collection appointment",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
+          "confidence": "low",
+          "asOf": "2026-07",
+          "naturalisation": "Slow — roughly 1.5–2 years end-to-end (~12-month first-appointment wait plus processing) (context only)"
+        }
       }
     },
     {
       "id": "dresden",
       "label": "Dresden",
       "sublabel": "Saxony (eastern Germany)",
-      "values": { "conv": 64, "jobs": 54, "rent": 86, "anm": 80, "eng": 54, "comp": 52, "safe": 42, "cost": 82, "pt": 58, "conn": 48, "comm": 50, "population": 572000, "rentCentre": "~€800", "rentM2": 9.2, "salary": "Junior €42–48k · Mid €52–62k (below avg, east)", "bdCommunity": "Small BD; TU Dresden international students; halal via Turkish/Arab shops + Islamic centres", "embassy": "Full service: Berlin embassy (~195 km); honorary consulate Potsdam (~175 km)" },
+      "location": {
+        "lat": 51.0504,
+        "lng": 13.7373,
+        "label": "Dresden city centre",
+        "sourceUrl": "https://www.openstreetmap.org/search?query=Dresden%20city%20centre"
+      },
+      "values": {
+        "jobs": 52,
+        "conv": 48,
+        "anm": 80,
+        "pt": 60,
+        "rent": 86,
+        "eng": 54,
+        "safe": 42,
+        "comp": 56,
+        "cost": 82,
+        "conn": 48,
+        "comm": 50,
+        "natTime": "Naturalisation ~31 months to a caseworker (Feb 2026); ~3 years total, worsening",
+        "population": 572000,
+        "rentCentre": "~€800",
+        "rentM2": 9.2,
+        "salary": "Junior €42–48k · Mid €52–62k (below avg, east)",
+        "bdCommunity": "Small BD; TU Dresden international students; halal via Turkish/Arab shops + Islamic centres",
+        "embassy": "Full service: Berlin embassy (~195 km); honorary consulate Potsdam (~175 km)"
+      },
       "detail": {
-        "summary": "Cheap and administratively relaxed, but the weakest safety profile for this profile.",
-        "note": "Blue Card appointment often ~3 months out, decision then ~6–8 weeks; a Fiktionsbescheinigung bridges legal stay.",
+        "summary": "Cheap and relaxed on registration, but the Blue Card path is email-only with a documented ~3-month appointment wait, and safety is the weakest in the set.",
+        "note": "The authority publishes ~3 months to the in-person appointment plus a 6–8 week decision after documents are submitted (email-only intake; no online portal). eAT production is extra. It issues a Fiktionsbescheinigung only 'sometimes' and does not document §81(5a) early-work permission — so an early full-time start is not assured. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
         "pros": [
-          { "text": "Very affordable; relaxed Anmeldung (walk-ins)." },
-          { "text": "World-class semiconductor cluster ('Silicon Saxony': Infineon, GlobalFoundries, Bosch, ESMC) — strong if you have embedded/chip skills." }
+          {
+            "text": "Very affordable; genuinely relaxed registration — online self-service (processed in ~3 working days) plus walk-in Bürgerbüro slots."
+          },
+          {
+            "text": "World-class semiconductor cluster ('Silicon Saxony': Infineon, GlobalFoundries, Bosch, ESMC) — strong if you have embedded/chip skills."
+          }
         ],
         "cons": [
-          { "text": "Birthplace of PEGIDA, in AfD-stronghold Saxony — the highest far-right/anti-Muslim risk in the set." },
-          { "text": "Effectively 2-stop to Dhaka (small airport); small diaspora; thin web/SaaS depth." }
+          {
+            "text": "Birthplace of PEGIDA, in AfD-stronghold Saxony — the highest far-right/anti-Muslim risk in the set."
+          },
+          {
+            "text": "Effectively 2-stop to Dhaka (small airport); thin web/SaaS/.NET depth; ~3-year naturalisation wait."
+          }
         ],
         "links": [
-          { "title": "Blaue Karte EU — Landeshauptstadt Dresden", "url": "https://www.dresden.de/de/rathaus/dienstleistungen/abh/ba/blaue-karte.php" },
-          { "title": "Mietspiegel Dresden 2025 (official)", "url": "https://www.dresden.de/media/pdf/sozialamt/Mietspiegel_Dresden_2025.pdf" }
-        ]
+          {
+            "title": "Blaue Karte EU (§18g) — Stadt Dresden",
+            "url": "https://www.dresden.de/de/rathaus/dienstleistungen/abh/ba/blaue-karte.php"
+          },
+          {
+            "title": "Mietspiegel Dresden 2025 (official)",
+            "url": "https://www.dresden.de/media/pdf/sozialamt/Mietspiegel_Dresden_2025.pdf"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "~3 months to appointment + 6–8 weeks decision",
+          "timeScope": "Official: ~3 months from the initial email to the in-person appointment, then 'zwischen 6 bis 8 Wochen' for the decision after documents are submitted; eAT production is extra. Realistic card-in-hand ~6 months",
+          "applicationChannel": "Email to the dedicated Sachgebiet Fachkräfte (no online portal): email + PDFs → invitation with appointment ~2 weeks later → in-person appointment",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a) allows full-time work once the authority initiates card issuance — but Dresden's pages state a Fiktionsbescheinigung is issued only 'sometimes' and do not document §81(5a) employment permission, so an early full-time start here is not assured.",
+          "confidence": "medium",
+          "asOf": "2026-07",
+          "naturalisation": "Severe — ~31 months just to reach a caseworker (Feb 2026), ~3 years total, worsening (context only)"
+        }
       }
     },
     {
       "id": "aachen",
       "label": "Aachen",
       "sublabel": "North Rhine-Westphalia",
-      "values": { "conv": 58, "jobs": 48, "rent": 80, "anm": 56, "eng": 66, "comp": 46, "safe": 70, "cost": 78, "pt": 56, "conn": 50, "comm": 56, "population": 261000, "rentCentre": "~€740", "rentM2": 10.5, "salary": "Junior €44–50k · Mid €50–60k (RWTH-heavy market)", "bdCommunity": "Small BD; large RWTH international student body (BD reportedly 3rd-largest group); halal via Turkish/Arab shops", "embassy": "Full service: Berlin embassy (~640 km); honorary consulate Grefrath (~90 km)" },
+      "location": {
+        "lat": 50.7753,
+        "lng": 6.0839,
+        "label": "Aachen city centre",
+        "sourceUrl": "https://www.openstreetmap.org/search?query=Aachen%20city%20centre"
+      },
+      "values": {
+        "jobs": 48,
+        "conv": 50,
+        "anm": 56,
+        "pt": 56,
+        "rent": 80,
+        "eng": 66,
+        "safe": 70,
+        "comp": 50,
+        "cost": 78,
+        "conn": 50,
+        "comm": 56,
+        "natTime": "Naturalisation ~12–30 months; applications ~2.5× up on 2024",
+        "population": 261000,
+        "rentCentre": "~€740",
+        "rentM2": 10.5,
+        "salary": "Junior €44–50k · Mid €50–60k (RWTH-heavy market)",
+        "bdCommunity": "Small BD; large RWTH international student body (BD reportedly 3rd-largest group); halal via Turkish/Arab shops",
+        "embassy": "Full service: Berlin embassy (~640 km); honorary consulate Grefrath (~90 km)"
+      },
       "detail": {
-        "summary": "A superb research town — but the weakest job-seeker market of the twelve.",
-        "note": "Blue Card via the StädteRegion Aachen office with limited hours and competitive appointments — apply 8–12 weeks ahead.",
+        "summary": "A superb research town — but the weakest job-seeker market of the sixteen.",
+        "note": "No Blue-Card-specific decision time is published; the StädteRegion authority uses a paper form plus an in-person appointment (no online application, no general skilled-worker unit). A same-office student-context proxy suggests ~6 weeks to process/issue. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
         "pros": [
-          { "text": "Above-average English (RWTH international scene); affordable border city; safe western NRW." },
-          { "text": "Strong for embedded/industrial/research roles and spin-offs." }
+          {
+            "text": "Above-average English (RWTH international scene); affordable border city; safe western NRW."
+          },
+          {
+            "text": "Strong for embedded/industrial/research roles and spin-offs."
+          }
         ],
         "cons": [
-          { "text": "Thinnest job volume and worst competition — RWTH floods junior roles (you compete with your own cohort)." },
-          { "text": "No airport (DUS/CGN ~1 h, then 1-stop); limited-hours Ausländeramt." }
+          {
+            "text": "Thinnest job volume and worst competition — RWTH floods entry roles, and the enterprise/.NET demand is limited."
+          },
+          {
+            "text": "No airport (DUS/CGN ~1 h, then 1-stop); limited-hours Ausländeramt; shallow part-time market for a small city."
+          }
         ],
         "links": [
-          { "title": "Blaue Karte EU — StädteRegion Aachen", "url": "https://bportal.staedteregion-aachen.de/staedteregion-a-z/-/egov-bis-detail/dienstleistung/15003/show" },
-          { "title": "Mietspiegel Aachen 2026 — ImmoScout24", "url": "https://www.immobilienscout24.de/immobilienpreise/nordrhein-westfalen/aachen/mietspiegel" }
-        ]
+          {
+            "title": "Blaue Karte EU — StädteRegion Aachen",
+            "url": "https://bportal.staedteregion-aachen.de/staedteregion-a-z/-/egov-bis-detail/dienstleistung/15003/show"
+          },
+          {
+            "title": "Mietspiegel Aachen 2026 — ImmoScout24",
+            "url": "https://www.immobilienscout24.de/immobilienpreise/nordrhein-westfalen/aachen/mietspiegel"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Not published (student-context proxy ~6 weeks)",
+          "timeScope": "No Blue-Card-specific decision time; a same-office student-permit page cites 'up to six weeks to process and issue' (a loose proxy, not Blue-Card-specific), with eAT production ~3–4 weeks on top",
+          "applicationChannel": "StädteRegion Aachen (A 33): paper application form + in-person appointment (no online application); a dedicated skilled-worker branch exists only for RWTH/FH staff and researchers",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
+          "confidence": "low",
+          "asOf": "2026-07",
+          "naturalisation": "Heavy backlog — applications ~2.5× up on 2024; roughly 12–30 months (context only)"
+        }
+      }
+    },
+    {
+      "id": "potsdam",
+      "label": "Potsdam",
+      "sublabel": "Brandenburg",
+      "location": {
+        "lat": 52.3906,
+        "lng": 13.0645,
+        "label": "Potsdam city centre",
+        "sourceUrl": "https://www.openstreetmap.org/search?query=Potsdam%20city%20centre"
+      },
+      "values": {
+        "jobs": 64,
+        "conv": 60,
+        "anm": 64,
+        "pt": 66,
+        "rent": 48,
+        "eng": 62,
+        "safe": 62,
+        "comp": 58,
+        "cost": 58,
+        "conn": 68,
+        "comm": 52,
+        "natTime": "Naturalisation ~24 months average (up to ~64); Apr 2026 still on end-2023 intake",
+        "population": 188000,
+        "rentCentre": "€745–990 (new-build)",
+        "rentM2": 16.6,
+        "salary": "Junior €45–52k · Mid €55–70k (Berlin orbit, SAP/Signavio)",
+        "bdCommunity": "Thin BD locally (Brandenburg has Germany's smallest foreign population); leans on adjacent Berlin (Bangladeshi Islamic Centre, Kreuzberg/Neukölln)",
+        "embassy": "Bangladesh Embassy Berlin ~25–35 km — the nearest full-service mission of all sixteen cities"
+      },
+      "detail": {
+        "summary": "Berlin's job market reachable by S-Bahn, but with its own Brandenburg immigration office — dodging Berlin's LEA backlog — and the best embassy access of the set.",
+        "note": "The Migrationsamt publishes no Blue-Card-specific decision time; the widely-cited '2–3 months' is a University of Potsdam Welcome Center caseload warning covering both Potsdam and Berlin offices generally, not an authority Blue Card SLA, and the city online portal excludes the Blue Card. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "pros": [
+          {
+            "text": "Real enterprise/AI anchor (SAP Innovation Center / Signavio 400+, HPI and ~25 spin-offs) plus full access to Berlin's market next door."
+          },
+          {
+            "text": "Own Migrationsamt avoids Berlin's multi-month LEA queue; Bangladesh embassy is effectively local (~25–35 km)."
+          },
+          {
+            "text": "Potsdam city is a centre-left outlier (AfD 15.6% vs 29.2% Brandenburg-wide) — much safer than its state backdrop suggests."
+          }
+        ],
+        "cons": [
+          {
+            "text": "Expensive, tight housing (new-build ~€16.6/m²) driven by Berlin overflow; small local job market forces reliance on Berlin roles."
+          },
+          {
+            "text": "Thin Bangladeshi/Muslim infrastructure locally (Brandenburg has the smallest foreign population of the four relevant states); narrow office hours."
+          }
+        ],
+        "links": [
+          {
+            "title": "Aufenthaltstitel / Migrationsamt Potsdam (online-portal scope; Blue Card handled by appointment) — Landeshauptstadt Potsdam",
+            "url": "https://www.potsdam.de/de/344-aufenthaltstitel-koennen-ab-sofort-online-beantragt-werden"
+          },
+          {
+            "title": "Potsdam Mietspiegel 2026 (qualified, §558d BGB)",
+            "url": "https://www.potsdam.de/de/mietspiegel"
+          },
+          {
+            "title": "Brandenburg Landtagswahl 2024 — official result (AfD 29.2% state; Potsdam 15.6%)",
+            "url": "https://wahlergebnisse.brandenburg.de/12/620/20240922/landtagswahl_land/index.html"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Not published (Blue-Card-specific)",
+          "timeScope": "The Migrationsamt publishes no Blue Card decision time; the widely-cited '2–3 months' is a University of Potsdam Welcome Center caseload warning covering both Potsdam and Berlin offices for any matter, not a Blue Card SLA",
+          "applicationChannel": "Contact form / email to Migrationsamt Potsdam → in-person appointment; the city's online residence-title portal excludes the Blue Card and skilled-worker permits (researchers use the university Welcome Center)",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
+          "confidence": "low",
+          "asOf": "2026-07",
+          "naturalisation": "Heavily backlogged — ~24 months average, up to ~64 months; as of Apr 2026 still on end-2023 intake (context only)"
+        }
+      }
+    },
+    {
+      "id": "dortmund",
+      "label": "Dortmund",
+      "sublabel": "North Rhine-Westphalia",
+      "location": {
+        "lat": 51.5136,
+        "lng": 7.4653,
+        "label": "Dortmund city centre",
+        "sourceUrl": "https://www.openstreetmap.org/search?query=Dortmund%20city%20centre"
+      },
+      "values": {
+        "jobs": 64,
+        "conv": 55,
+        "anm": 58,
+        "pt": 80,
+        "rent": 82,
+        "eng": 58,
+        "safe": 66,
+        "comp": 60,
+        "cost": 78,
+        "conn": 64,
+        "comm": 68,
+        "natTime": "Naturalisation ~12–30 months; capacity expanding (staff tripled)",
+        "population": 603000,
+        "rentCentre": "~€600–750",
+        "rentM2": 9.5,
+        "salary": "Junior €44–50k · Mid €52–65k (median ~€59k; Ruhr, below Munich)",
+        "bdCommunity": "NRW has Germany's largest foreign population (3.27M); big Turkish/Muslim community with abundant halal; some South-Asian presence",
+        "embassy": "Full service: Berlin embassy (~480 km); honorary consulate Grefrath NRW (~70 km)"
+      },
+      "detail": {
+        "summary": "The Ruhr value play — cheap, findable housing, a genuine .NET/enterprise employer base, and Germany's deepest any-field part-time market.",
+        "note": "No published decision time; the Amt für Migration handles the switch through an appointment-based work-migration team (38/2-1). adesso's HQ makes it a genuine .NET/enterprise fit. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "pros": [
+          {
+            "text": "adesso (founded here — a very large .NET/Java consultancy), Materna, Wilo and Signal Iduna give a real enterprise-integration fit; median dev pay ~€59k on low costs."
+          },
+          {
+            "text": "Cheap, findable flats (near-new ~€10/m², mild rent growth) plus a huge NRW logistics/gastro part-time base (1,158 Minijobs listed on the BA board)."
+          },
+          {
+            "text": "Large, established Muslim community with abundant halal; NRW's low-far-right, diverse climate."
+          }
+        ],
+        "cons": [
+          {
+            "text": "Absolute job depth and English-first roles trail the big hubs; DTM airport is small (DUS/CGN ~40–60 min for 1-stop Dhaka)."
+          },
+          {
+            "text": "Appointment-only intake with no published Blue Card wait; naturalisation runs ~12–30 months."
+          }
+        ],
+        "links": [
+          {
+            "title": "Amt für Migration — Stadt Dortmund",
+            "url": "https://www.dortmund.de/rathaus-und-verwaltung/verwaltung/amt-fuer-migration/"
+          },
+          {
+            "title": "Mietspiegel Dortmund 2025/2026 (qualified, §558d BGB)",
+            "url": "https://www.dortmund.de/leben-in-dortmund/planen-bauen-wohnen/wohnen/mietspiegel/"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Not published",
+          "timeScope": "No decision or end-to-end time published; only the federal eAT production step (~4–6 weeks) is quantified, and that is card production, not processing",
+          "applicationChannel": "Appointment-based Amt für Migration; the work-migration team 38/2-1 ('Einreise & Erwerbstätigkeit') handles the Blue Card (no online application, no branded fast lane)",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
+          "confidence": "low",
+          "asOf": "2026-07",
+          "naturalisation": "~12–30 months after the 2024 reform surge; capacity expanding (context only)"
+        }
+      }
+    },
+    {
+      "id": "darmstadt",
+      "label": "Darmstadt",
+      "sublabel": "Hesse",
+      "location": {
+        "lat": 49.8728,
+        "lng": 8.6512,
+        "label": "Darmstadt city centre",
+        "sourceUrl": "https://www.openstreetmap.org/search?query=Darmstadt%20city%20centre"
+      },
+      "values": {
+        "jobs": 70,
+        "conv": 42,
+        "anm": 66,
+        "pt": 64,
+        "rent": 50,
+        "eng": 66,
+        "safe": 74,
+        "comp": 58,
+        "cost": 58,
+        "conn": 82,
+        "comm": 58,
+        "natTime": "Naturalisation via RP Darmstadt (~23,000+ pending; up to ~32 months)",
+        "population": 162000,
+        "rentCentre": "~€900–1,100",
+        "rentM2": 15,
+        "salary": "Junior €48–55k · Mid €58–75k (Merck/Software AG/ESA, Rhine-Main premium)",
+        "bdCommunity": "TU-driven international scene; several mosques (Assalam, Al Rahma, Nuur-ud-Din); halal available",
+        "embassy": "Full service: Berlin embassy (~500 km); honorary consulate Frankfurt (~30 km)"
+      },
+      "detail": {
+        "summary": "The 'Digitalstadt' — an exceptional enterprise/AI-and-integration fit next to Frankfurt airport, undercut by a slow front door and the worst regional citizenship queue.",
+        "note": "No official Blue Card decision time is published; the earlier 'six-month' claim could not be verified and has been removed. Applications go by email/post plus an appointment; only the eAT production step (~4–6 weeks) is quantified. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "pros": [
+          {
+            "text": "Software AG (enterprise integration), Merck, ESA/ESOC, EUMETSAT and T-Systems make this a near-perfect match for a .NET/AI-RAG/integration profile; strong English pockets (ESA international)."
+          },
+          {
+            "text": "20 minutes to Frankfurt Airport — the best Dhaka connectivity of the set; safe Hesse university city; several mosques and halal."
+          }
+        ],
+        "cons": [
+          {
+            "text": "No official end-to-end Blue Card time is published; Rhine-Main rents are high (~€14–16/m² asking) and stock is tight."
+          },
+          {
+            "text": "Naturalisation via RP Darmstadt (~23,000+ pending, up to ~32 months) — one of the worst citizenship tails in the set; small city limits part-time depth."
+          }
+        ],
+        "links": [
+          {
+            "title": "Blaue Karte EU (Erteilung/Verlängerung) — Digitales Rathaus Darmstadt",
+            "url": "https://digitales-rathaus.darmstadt.de/formulare-auslaenderbehoerde/erteilung/verlaengerung-aufenthaltstitel-erwerbstaetigkeit-inkl-selbstaendigkeit-/blaue-karte-eu"
+          },
+          {
+            "title": "Mietspiegel Darmstadt 2026 — ImmoScout24",
+            "url": "https://www.immobilienscout24.de/immobilienpreise/hessen/darmstadt/mietspiegel"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Not published",
+          "timeScope": "No official decision or end-to-end time; the previous 'six-month' claim could not be verified and has been removed. Only the eAT production step (~4–6 weeks between application and hand-over) is published, and that is card production",
+          "applicationChannel": "Application by email or post plus an in-person appointment to Darmstadt's Ausländerbehörde (digitales-rathaus portal); a §81a page exists (employer/entry route)",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
+          "confidence": "low",
+          "asOf": "2026-07",
+          "naturalisation": "Via Regierungspräsidium Darmstadt — ~23,000+ pending, ~16–20 months to first handling, up to ~32 months total; a separate authority (context only)"
+        }
+      }
+    },
+    {
+      "id": "hannover",
+      "label": "Hannover",
+      "sublabel": "Lower Saxony",
+      "location": {
+        "lat": 52.3759,
+        "lng": 9.732,
+        "label": "Hannover city centre",
+        "sourceUrl": "https://www.openstreetmap.org/search?query=Hannover%20city%20centre"
+      },
+      "values": {
+        "jobs": 62,
+        "conv": 62,
+        "anm": 64,
+        "pt": 70,
+        "rent": 70,
+        "eng": 58,
+        "safe": 72,
+        "comp": 60,
+        "cost": 68,
+        "conn": 62,
+        "comm": 60,
+        "natTime": "Naturalisation ~1–2 years after the 2024 reform surge; no city-specific figure",
+        "population": 548000,
+        "rentCentre": "~€800–950",
+        "rentM2": 10.4,
+        "salary": "Junior €45–52k · Mid €54–68k (Continental/Finanz Informatik/TUI)",
+        "bdCommunity": "Established Muslim community in Lower Saxony; halal in Linden/List; modest BD-specific presence",
+        "embassy": "Full service: Berlin embassy (~290 km); honorary consulate Hamburg (~150 km)"
+      },
+      "detail": {
+        "summary": "The balanced mid-size all-rounder — a verified digital-first skilled-worker office, moderate rents, and a solid enterprise/financial-IT employer base.",
+        "note": "The city publishes 'up to 3 months' for the authority decision after complete documents (excludes the biometric step and eAT production); a verified digital-first, dedicated skilled-worker office (Unit 32.33) files both the Chancenkarte and the Blue Card online. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "pros": [
+          {
+            "text": "Continental, Finanz Informatik (major financial IT — heavy .NET/Java), TUI, Hannover Re and Talanx across ~25,000 IT jobs / 1,000+ firms give a real enterprise-integration fit."
+          },
+          {
+            "text": "Moderate rents (~€10.4/m² asking, official Mietspiegel €8.73), a digital-first office, and Messe/logistics-driven part-time work; safe, diverse Lower Saxony."
+          }
+        ],
+        "cons": [
+          {
+            "text": "English-first roles are limited outside the big employers; HAJ needs FRA/MUC/IST for most Dhaka 1-stops."
+          },
+          {
+            "text": "Not a startup/AI hub — AI-RAG depth is thinner than Berlin/Munich/Darmstadt; BD-specific community is modest."
+          }
+        ],
+        "links": [
+          {
+            "title": "Blaue Karte EU für akademische Fachkräfte — Landeshauptstadt Hannover",
+            "url": "https://hannover.gov.de/buergerservice/dienstleistungen/blaue-karte-eu-fuer-akademische-fachkraefte-1339-0.html"
+          },
+          {
+            "title": "Mietspiegel Hannover 2025 (qualified, adopted 18 Dec 2025)",
+            "url": "https://www.hannover.de/Leben-in-der-Region-Hannover/Verwaltungen-Kommunen/Die-Verwaltung-der-Landeshauptstadt-Hannover/Dezernate-und-Fachbereiche-der-LHH/Stadtentwicklung-und-Bauen/Fachbereich-Planen-und-Stadtentwicklung/Stadtentwicklung-und-Mobilit%C3%A4tsplanung/Sachgebiet-Stadtentwicklung/Mietspiegel-f%C3%BCr-Hannover"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Up to 3 months (authority decision, after complete documents)",
+          "timeScope": "Official 'bis zu 3 Monate nach Vorlage aller Unterlagen' for the authority decision (a ceiling); excludes document-gathering, the biometric appointment and eAT production (~4–6 weeks)",
+          "applicationChannel": "Online-first application to the dedicated skilled-worker Welcome Service (Unit 32.33); one in-person biometrics appointment follows after online approval",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
+          "confidence": "medium",
+          "asOf": "2026-07",
+          "naturalisation": "~1–2 years after the 2024 reform surge; no city-specific figure published (context only)"
+        }
       }
     }
   ],
-  "methodology": "Overall is the weighted mean of the 11 scored criteria (weights shown), computed live over the criteria present — raw, no display curve. Scores are evidence-backed 0–100 expert synthesis: no single index ranks e.g. 'Blue Card conversion speed by city', so each cell is built from official processing-time statements, rent indices (GREIX Q4 2025 + city Mietspiegel), job-posting counts, election results and hate-crime statistics. The land-and-convert cluster — Conversion (16) + Jobs (14) + Anmeldung (10) + English (9) = 49 — plus Competition (8) reflects the stated priority: land a full-time tech job and convert the EU Blue Card inside the 12-month Chancenkarte window. Context columns (population, rent, salary, community, embassy) are descriptive, not scored. Chancenkarte basics: up to 12 months, part-time work ≤20 h/week + 2-week trials, proof of funds €1,091/month (€13,092/year, 2026); Blue Card IT/shortage salary bar €43,759.80 (2025); settlement in 21 months with B1 German (27 with A1).",
+  "methodology": "Overall is the weighted mean of 11 scored criteria, computed live with raw 0–100 scores. The immediate land-and-convert decision dominates: Jobs (18) + Chancenkarte-to-Blue-Card conversion (22) + Anmeldung (12) = 52 points. Conversion scores separate application intake, authority decision or employment authorisation, and physical eAT production; a published printing time is never treated as the total wait. Official end-to-end authority timings receive the highest confidence. Official vague warnings or partial-stage timings receive medium confidence. Where the responsible authority publishes no total time, the UI says so and the score is conservative rather than inventing precision. An authority that transparently publishes a slow official time is scored on that documented duration and its channel design, not penalised below authorities that publish nothing — non-publication paired with disclosed pressure is scored conservatively, never rewarded for opacity. A timely application before expiry preserves lawful residence under §81(4) AufenthG, but the Opportunity Card's existing 20-hour work restriction normally continues until the authority authorises the future full-time employment; under §81(5a), future-title employment is permitted once issuance has been initiated and must be recorded in the interim certificate. Naturalisation and settlement queues are descriptive context only and do not affect city scores. Federal 2026 constants: Blue Card salary €50,700 standard / €45,934.20 for shortage and IT occupations; Opportunity Card funds €1,091 per month and work up to 20 hours weekly during search.",
   "caveats": [
-    "The spread is narrow (60.5–70.1) — a tie-break among viable cities, not a quality gap. Your specialisation, savings and how fast you land an offer move the needle more than the city choice.",
-    "Bureaucracy speed is the highest-variance input; only Leipzig and Berlin publish clear signals. Verify your target office's current Ausländerbehörde/Bürgeramt waits before committing.",
-    "Rents are new-lease/asking figures (GREIX Q4 2025 for the big cities; ImmoScout24/Numbeo/Mietspiegel elsewhere), re-accelerating at end-2025 (~+4.5% YoY) — budget upward.",
-    "Safety is national/regional, not street-level: anti-Islamic hate crimes rose ~140% in 2023; the east/west split (Saxony's Dresden/Leipzig higher-risk) is the main per-city differentiator.",
-    "Salary bands are cross-checked market aggregates (Glassdoor/Levels.fyi/StepStone), not official; most mid-level offers clear the 2025 Blue Card IT bar (€43,759.80). Bangladeshi community sizes are dual-sourced only where a city register publishes them (Munich, Nuremberg); elsewhere they are qualitative."
+    "A four-month conversion wait is plausible and Munich now officially warns that EU Blue Card processing can take up to seven months. Do not sign an unconditional immediate full-time start date without confirming work authorisation.",
+    "Most cities do not publish an end-to-end Opportunity Card-to-Blue Card service level. Low-confidence scores compare process design and disclosed pressure, not guaranteed personal waiting times.",
+    "The eAT card's 4–6 week production period begins after a positive decision or appointment and is not the same as the application queue.",
+    "Apply with a complete pack immediately after the offer: job offer or contract, Erklärung zum Beschäftigungsverhältnis, passport and current title, recognised degree/anabin or ZAB evidence, Anmeldung/residence evidence, health insurance, and salary/job-description evidence.",
+    "Naturalisation is intentionally unscored. Its office may be organisationally separate and its backlog does not reliably predict employment-residence processing."
   ],
   "sources": [
-    { "title": "BAMF — Opportunity Card / EU Blue Card", "url": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/ZuwandererDrittstaaten/Migrathek/BlaueKarteEU/blauekarteeu-node.html" },
-    { "title": "Auswärtiges Amt — Chancenkarte (proof of funds €1,091/mo, 20 h/week)", "url": "https://eriwan.diplo.de/am-de/service/visa/chancenkarte-2721494" },
-    { "title": "Make it in Germany — Opportunity Card Q&A", "url": "https://www.make-it-in-germany.com/en/visa-residence/opportunity-card/questions-answers" },
-    { "title": "Kiel Institute GREIX Rental Price Index Q4 2025", "url": "https://www.kielinstitut.de/fileadmin/Dateiverwaltung/IfW-Publications/fis-import/e521f10a-7baa-4543-9a9d-57a1b8a330a4-GREIX_Rental_Price_Index_update_doc_25q4_en1.pdf" },
-    { "title": "appliedAI — German AI Startup Landscape 2025", "url": "https://www.appliedai-institute.de/en/publications/ai-startup-landscape-2025/" },
-    { "title": "Bitkom — Germany still lacks 100,000+ IT specialists (Aug 2025)", "url": "https://silicon-saxony.de/en/bitkom-germany-still-lacks-more-than-100000-it-specialists/" },
-    { "title": "Human Rights Watch — World Report 2025: Germany", "url": "https://www.hrw.org/world-report/2025/country-chapters/germany" },
-    { "title": "DeZIM — NaDiRa Racism Monitor 2025", "url": "https://www.rassismusmonitor.de/en/publications/monitoring-racism-and-discrimination-in-germany/" },
-    { "title": "Embassy of Bangladesh, Berlin (official)", "url": "https://berlin.mofa.gov.bd/" }
+    {
+      "title": "Residence Act §81 — application effect and interim employment authorisation",
+      "url": "https://www.gesetze-im-internet.de/aufenthg_2004/__81.html"
+    },
+    {
+      "title": "Make it in Germany — Opportunity Card questions and transition to employment",
+      "url": "https://www.make-it-in-germany.com/en/visa-residence/opportunity-card/questions-answers"
+    },
+    {
+      "title": "Make it in Germany — employing Opportunity Card holders",
+      "url": "https://www.make-it-in-germany.com/en/looking-for-foreign-professionals/entering/employment-opportunity-card-holders"
+    },
+    {
+      "title": "Munich — EU Blue Card (up to 7 months)",
+      "url": "https://stadt.muenchen.de/service/en-GB/info/servicestelle-fur-zuwanderung-und-einburgerung/10422541/"
+    },
+    {
+      "title": "Berlin — EU Blue Card online process and 4–6 week eAT stage",
+      "url": "https://service.berlin.de/dienstleistung/324659/en/"
+    },
+    {
+      "title": "Hamburg Welcome Center for Professionals — EU Blue Card (~4–8 weeks authority decision)",
+      "url": "https://welcome.hamburg.com/entry-and-residence/residence-permit/eu-blue-card-17644"
+    },
+    {
+      "title": "Stuttgart — EU Blue Card and longer processing warning",
+      "url": "https://www.stuttgart.de/organigramm/leistungen/blaue-karte-zur-ausuebung-einer-hochqualifizierten-beschaeftigung-beantragen-blue-card-"
+    },
+    {
+      "title": "University of Potsdam Welcome Center — current Migrationsamt wait warning",
+      "url": "https://www.uni-potsdam.de/de/welcomecenter/in-potsdam-berlin/behoerden/auslaenderbehoerde"
+    },
+    {
+      "title": "Make it in Germany — Opportunity Card (Chancenkarte)",
+      "url": "https://www.make-it-in-germany.com/en/visa-residence/types/job-search-opportunity-card"
+    },
+    {
+      "title": "Make it in Germany — EU Blue Card (2026 thresholds, settlement rule)",
+      "url": "https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card"
+    },
+    {
+      "title": "BAMF — EU Blue Card (settlement after 21/27 months)",
+      "url": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/ZuwandererDrittstaaten/Migrathek/BlaueKarteEU/blauekarteeu-node.html"
+    },
+    {
+      "title": "BMI — 2024 Nationality Law modernisation (5-year naturalisation, dual citizenship)",
+      "url": "https://www.bmi.bund.de/SharedDocs/kurzmeldungen/EN/2024/06/mod-staatsangehoerigkeitsrecht.html"
+    },
+    {
+      "title": "BMI — 2025 Cabinet decision ending the 3-year fast-track naturalisation",
+      "url": "https://www.bmi.bund.de/SharedDocs/pressemitteilungen/EN/2025/05/kabinett.html"
+    },
+    {
+      "title": "Mediendienst Integration — naturalisation backlog survey (2026)",
+      "url": "https://mediendienst-integration.de/bevoelkerung/einbuergerung/unbearbeitete-einbuergerungsantraege/"
+    },
+    {
+      "title": "Minijob-Zentrale — minimum wage €13.90 and minijob ceiling €603 (2026)",
+      "url": "https://www.minijob-zentrale.de/"
+    },
+    {
+      "title": "Bundesagentur für Arbeit — IT labour-market report (demand skews to Experte level)",
+      "url": "https://www.arbeitsagentur.de/datei/arbeitsmarkt-akademikerinnen-mint_ba147248.pdf"
+    },
+    {
+      "title": "Kiel Institute GREIX Rental Price Index (Q1 2026)",
+      "url": "https://www.kielinstitut.de/en/publications/greix/"
+    },
+    {
+      "title": "Bitkom — Germany still lacks 100,000+ IT specialists (Aug 2025)",
+      "url": "https://silicon-saxony.de/en/bitkom-germany-still-lacks-more-than-100000-it-specialists/"
+    }
   ]
 }
