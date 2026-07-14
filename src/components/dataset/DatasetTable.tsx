@@ -10,8 +10,11 @@ import {
   type SortingState,
 } from "@tanstack/react-table";
 import { ArrowDown, ArrowUp, ChevronDown, ChevronRight, ChevronsUpDown, ExternalLink } from "lucide-react";
-import type { ComparativeDataset, DatasetRow } from "@/types";
+import type { ComparativeDataset, DatasetColumn, DatasetRow } from "@/types";
 import { ScoreBadge } from "@/components/common/ScoreBadge";
+import { DatasetScoreVisuals } from "@/components/dataset/DatasetScoreVisuals";
+import { ImmigrationEvidence } from "@/components/dataset/ImmigrationEvidence";
+import { Badge } from "@/components/ui/badge";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { formatNumber } from "@/lib/formatters";
 import { bestValue, rowOverall } from "@/lib/datasets";
@@ -19,12 +22,35 @@ import { cn } from "@/lib/utils";
 
 const num = (v: number) => formatNumber(v, Number.isInteger(v) ? 0 : 1);
 
+const intakeTagClass = (tag: string) => {
+  if (tag === "Winter ’27 upcoming") return "border-amber-500/30 bg-amber-500/15 text-amber-800 dark:text-amber-300";
+  if (tag === "No CS intake ’27") return "border-rose-500/30 bg-rose-500/15 text-rose-800 dark:text-rose-300";
+  return "border-emerald-500/25 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300";
+};
+
 /** A sortable comparative table for one supplementary dataset. Score cells render as tier badges,
- *  rank/number cells as figures (best-in-column highlighted), text cells plain; rows with a
- *  `detail` block expand to a full-width profile panel. */
+ *  rank/number cells as figures (best-in-column highlighted), text cells plain; rows expand to a
+ *  full-width profile panel. On score-scale datasets only scored columns stay in the table —
+ *  context (number/text) columns move into the expanded panel to keep the grid scannable. */
 export function DatasetTable({ dataset }: { dataset: ComparativeDataset }) {
   const isScore = dataset.scale === "score";
-  const hasDetail = dataset.rows.some((r) => r.detail);
+  const contextCols = useMemo(
+    () => dataset.columns.filter((column) => !(isScore
+      ? column.kind === "score"
+      : dataset.kind === "universities"
+        ? column.kind === "rank" || column.id === "nonEuTuition" || column.id === "applicationFee"
+        : true)),
+    [dataset, isScore],
+  );
+  const tableCols = useMemo(
+    () => dataset.columns.filter((column) => isScore
+      ? column.kind === "score"
+      : dataset.kind === "universities"
+        ? column.kind === "rank" || column.id === "nonEuTuition" || column.id === "applicationFee"
+        : true),
+    [dataset, isScore],
+  );
+  const hasDetail = dataset.rows.some((r) => r.detail) || contextCols.length > 0;
   const best = useMemo(
     () => Object.fromEntries(dataset.columns.map((c) => [c.id, bestValue(dataset, c.id)])),
     [dataset],
@@ -38,7 +64,7 @@ export function DatasetTable({ dataset }: { dataset: ComparativeDataset }) {
         id: "_expand",
         header: () => <span className="sr-only">Details</span>,
         cell: ({ row }) =>
-          row.original.detail ? (
+          row.getCanExpand() ? (
             <button
               type="button"
               onClick={row.getToggleExpandedHandler()}
@@ -59,7 +85,14 @@ export function DatasetTable({ dataset }: { dataset: ComparativeDataset }) {
       accessorFn: (r) => r.label,
       cell: ({ row }) => (
         <div className="min-w-40">
-          <div className="font-medium whitespace-normal">{row.original.label}</div>
+          <div className="flex flex-wrap items-center gap-1.5 whitespace-normal">
+            <span className="font-medium">{row.original.label}</span>
+            {dataset.kind === "universities" && row.original.tags?.map((tag) => (
+              <Badge key={tag} variant="secondary" className={cn("border", intakeTagClass(tag))}>
+                {tag}
+              </Badge>
+            ))}
+          </div>
           {row.original.sublabel && (
             <div className="text-xs text-muted-foreground whitespace-normal">{row.original.sublabel}</div>
           )}
@@ -81,7 +114,7 @@ export function DatasetTable({ dataset }: { dataset: ComparativeDataset }) {
       });
     }
 
-    for (const col of dataset.columns) {
+    for (const col of tableCols) {
       cols.push({
         id: col.id,
         header: col.shortLabel ?? col.label,
@@ -96,10 +129,12 @@ export function DatasetTable({ dataset }: { dataset: ComparativeDataset }) {
           if (typeof v !== "number") return <span className="text-muted-foreground">—</span>;
           if (col.kind === "score") return <ScoreBadge score={v} />;
           const isBest = best[col.id] != null && v === best[col.id];
+          const isEuroFee = col.id === "nonEuTuition" || col.id === "applicationFee";
+          const formatted = isEuroFee ? `€${num(v)}` : num(v);
           return (
             <span className={cn("tabular-nums", isBest && "font-semibold text-primary")}>
-              {num(v)}
-              {col.unit ? <span className="ml-0.5 text-xs text-muted-foreground">{col.unit}</span> : null}
+              {formatted}
+              {col.unit && !isEuroFee ? <span className="ml-0.5 text-xs text-muted-foreground">{col.unit}</span> : null}
             </span>
           );
         },
@@ -109,7 +144,7 @@ export function DatasetTable({ dataset }: { dataset: ComparativeDataset }) {
     }
 
     return cols;
-  }, [dataset, isScore, hasDetail, best]);
+  }, [dataset, isScore, hasDetail, best, tableCols]);
 
   const firstRankId = dataset.columns.find((c) => c.kind === "rank")?.id;
   const [sorting, setSorting] = useState<SortingState>(
@@ -127,7 +162,7 @@ export function DatasetTable({ dataset }: { dataset: ComparativeDataset }) {
     state: { sorting, expanded },
     onSortingChange: setSorting,
     onExpandedChange: setExpanded,
-    getRowCanExpand: (row) => Boolean(row.original.detail),
+    getRowCanExpand: (row) => Boolean(row.original.detail) || contextCols.length > 0,
     getCoreRowModel: getCoreRowModel(),
     getSortedRowModel: getSortedRowModel(),
     getExpandedRowModel: getExpandedRowModel(),
@@ -173,10 +208,10 @@ export function DatasetTable({ dataset }: { dataset: ComparativeDataset }) {
                   </TableCell>
                 ))}
               </TableRow>
-              {row.getIsExpanded() && row.original.detail && (
+              {row.getIsExpanded() && (
                 <TableRow className="bg-muted/30 hover:bg-muted/30">
                   <TableCell colSpan={leafCount} className="whitespace-normal">
-                    <RowDetail detail={row.original.detail} />
+                    <RowDetail dataset={dataset} row={row.original} contextCols={contextCols} />
                   </TableCell>
                 </TableRow>
               )}
@@ -188,10 +223,37 @@ export function DatasetTable({ dataset }: { dataset: ComparativeDataset }) {
   );
 }
 
-function RowDetail({ detail }: { detail: NonNullable<DatasetRow["detail"]> }) {
+function RowDetail({ dataset, row, contextCols }: { dataset: ComparativeDataset; row: DatasetRow; contextCols: DatasetColumn[] }) {
+  const detail: NonNullable<DatasetRow["detail"]> = row.detail ?? {};
+  const facts = contextCols
+    .map((col) => ({ col, value: row.values[col.id] }))
+    .filter((f) => f.value != null && f.value !== "");
   return (
     <div className="space-y-3 py-1 text-sm">
+      {dataset.kind === "cities" && dataset.scale === "score" && (
+        <DatasetScoreVisuals dataset={dataset} row={row} />
+      )}
       {detail.summary && <p className="max-w-3xl text-muted-foreground">{detail.summary}</p>}
+      {detail.immigration && <ImmigrationEvidence evidence={detail.immigration} />}
+      {facts.length > 0 && (
+        <dl className="grid gap-x-6 gap-y-2 sm:grid-cols-2 lg:grid-cols-3">
+          {facts.map(({ col, value }) => (
+            <div key={col.id}>
+              <dt className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">{col.label}</dt>
+              <dd className="whitespace-normal">
+                {typeof value === "number" ? (
+                  <span className="tabular-nums">
+                    {num(value)}
+                    {col.unit ? <span className="ml-0.5 text-xs text-muted-foreground">{col.unit}</span> : null}
+                  </span>
+                ) : (
+                  String(value)
+                )}
+              </dd>
+            </div>
+          ))}
+        </dl>
+      )}
       {detail.note && <p className="max-w-3xl"><span className="font-medium">Note: </span>{detail.note}</p>}
       <div className="grid gap-3 sm:grid-cols-2">
         {detail.pros && detail.pros.length > 0 && (

@@ -12,6 +12,8 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { TierLegend } from "@/components/common/TierLegend";
 import { DatasetTable } from "@/components/dataset/DatasetTable";
+import { CityCompare } from "@/components/dataset/CityCompare";
+import { UniversityCompare } from "@/components/dataset/UniversityCompare";
 import { scoreColumns } from "@/lib/datasets";
 import { formatDate, formatPercent } from "@/lib/formatters";
 
@@ -21,12 +23,20 @@ export function DatasetModal({ dataset, trigger }: { dataset: ComparativeDataset
   const isScore = dataset.scale === "score";
   const showMethodology = Boolean(dataset.methodology) || isScore;
   const showSources = Boolean(dataset.sources?.length) || Boolean(dataset.caveats?.length);
+  const showCompare = dataset.rows.length >= 2 && (
+    (dataset.kind === "cities" && isScore) ||
+    (dataset.kind === "universities" && dataset.scale === "rank")
+  );
   const weighted = scoreColumns(dataset);
 
   return (
     <Dialog>
       <DialogTrigger asChild>{trigger}</DialogTrigger>
-      <DialogContent className="sm:max-w-4xl">
+      <DialogContent
+        className="sm:max-w-7xl"
+        data-outside-dismiss="disabled"
+        onPointerDownOutside={(event) => event.preventDefault()}
+      >
         <DialogHeader>
           <DialogTitle>{dataset.title}</DialogTitle>
           <DialogDescription>
@@ -37,6 +47,7 @@ export function DatasetModal({ dataset, trigger }: { dataset: ComparativeDataset
         <Tabs defaultValue="table">
           <TabsList>
             <TabsTrigger value="table">Table</TabsTrigger>
+            {showCompare && <TabsTrigger value="compare">Compare</TabsTrigger>}
             {showMethodology && <TabsTrigger value="methodology">Methodology</TabsTrigger>}
             {showSources && <TabsTrigger value="sources">Sources</TabsTrigger>}
           </TabsList>
@@ -49,6 +60,14 @@ export function DatasetModal({ dataset, trigger }: { dataset: ComparativeDataset
                 : "Lower rank = better. Click a row to expand its detail; click a header to sort."}
             </p>
           </TabsContent>
+
+          {showCompare && (
+            <TabsContent value="compare" className="mt-4">
+              {dataset.kind === "cities"
+                ? <CityCompare dataset={dataset} />
+                : <UniversityCompare dataset={dataset} />}
+            </TabsContent>
+          )}
 
           {showMethodology && (
             <TabsContent value="methodology" className="mt-4 space-y-4">

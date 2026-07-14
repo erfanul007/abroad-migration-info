@@ -1,16 +1,31 @@
 # German Universities — CS Subject Rankings (EduRank)
 
-**Purpose:** German counterpart to the Italian university shortlist. Same source, same
-columns, same rank basis, so the two tables are directly comparable.
+**Purpose:** German counterpart to the Italian university shortlist. The application
+also layers current English-taught programme fit, intake, application-window, fee,
+portal and international-student context over these ranks for Tanima's CSE/software
+background. Those admissions facts live in `src/data/universities/germany.json` and
+must be checked against the linked official programme page for the chosen intake.
 
 **Source:** [EduRank.org](https://edurank.org) — a citation-based ranking aggregator
 (built on a graph of research papers and citations). Each cell is the university's
 **global / world rank** in that subject (lower = better; `#1` is the world's top).
 **Not** a national government source — see *Caveats*.
 
-**Snapshot date (reviewed):** 2026-07-13
+**Snapshot date (reviewed):** 2026-07-14
 **Scope:** Top 20 German universities, ordered by **Computer Science (CSE)** world rank
 (the primary column, matching the Italian sheet's leading column).
+
+> July 2026 suitability correction: LMU's former M.Sc. Data Science states that it is
+> discontinued with no intake from 2025 onward. Charité has no general CS/AI/Data
+> Science master's. Both remain in the rank table for source fidelity but are not
+> active English-programme recommendations.
+
+> The app table additionally exposes EduRank's 2026 overall world rank and a numeric
+> non-EU tuition-per-semester column. `€0` means no tuition was identified under the
+> current policy; it does not include semester contributions or application fees.
+> Expanded rows list suitable international intake months and published or recurring
+> application dates through calendar 2027 only. Dates that universities have not yet
+> published are labelled as such rather than inferred from an older cycle.
 
 ## Column legend
 
@@ -81,6 +96,20 @@ list, drop Charité and the next row in is **Heinrich Heine University of Düsse
 - Machine Learning — Germany: https://edurank.org/cs/machine-learning/de/
 - Data Science — Germany: https://edurank.org/cs/data-science/de/
 - Software Engineering — Germany: https://edurank.org/cs/software-engineering/de/
+
+## Compare-map campus locations (reviewed 2026-07-14)
+
+The university Compare map uses stored campus coordinates rather than runtime geocoding.
+Each pin was resolved in OpenStreetMap from the institution or faculty's published campus
+name/address, and the exact OSM node, way or relation is retained as `location.sourceUrl`
+in `src/data/universities/germany.json`.
+
+For institutions with more than one campus, the pin represents the campus associated with
+the principal shortlisted English CS-related programme: TUM uses Garching; FAU uses the
+Technical Faculty in Erlangen; TH Köln uses Südstadt for Data and Information Science;
+Humboldt uses Adlershof; FU Berlin uses Dahlem; and Potsdam/HPI uses Griebnitzsee. The
+campus label is shown in the map summary and popup so the pin is not presented as covering
+every programme location.
 
 ## Copy-paste block (TSV → Google Sheets)
 

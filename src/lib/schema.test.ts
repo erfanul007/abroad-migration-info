@@ -149,8 +149,29 @@ describe("validateDataset", () => {
         { id: "cse", label: "CSE", kind: "rank", betterWhen: "low" },
         { id: "city", label: "City", kind: "text" },
       ],
-      rows: [{ id: "tum", label: "TUM", values: { cse: 71, city: "Munich" } }],
+      rows: [{
+        id: "tum",
+        label: "TUM",
+        location: { lat: 48.262, lng: 11.668, label: "Garching campus", sourceUrl: "https://www.openstreetmap.org/" },
+        values: { cse: 71, city: "Munich" },
+      }],
     };
     expect(validateDataset(uni, ["germany"])).toEqual([]);
+  });
+  it("requires reviewed locations for German university rows", () => {
+    const uni = {
+      kind: "universities", countryId: "germany", title: "Germany universities", scale: "rank", lastReviewed: "2026-07-14",
+      columns: [{ id: "cse", label: "CSE", kind: "rank", betterWhen: "low" }],
+      rows: [{ id: "tum", label: "TUM", values: { cse: 71 } }],
+    };
+    expect(validateDataset(uni, ["germany"]).join()).toMatch(/location/i);
+  });
+  it("rejects German university coordinates outside the supported map bounds", () => {
+    const uni = {
+      kind: "universities", countryId: "germany", title: "Germany universities", scale: "rank", lastReviewed: "2026-07-14",
+      columns: [{ id: "cse", label: "CSE", kind: "rank", betterWhen: "low" }],
+      rows: [{ id: "tum", label: "TUM", location: { lat: 40, lng: 20, label: "Wrong campus", sourceUrl: "https://www.openstreetmap.org/" }, values: { cse: 71 } }],
+    };
+    expect(validateDataset(uni, ["germany"]).join()).toMatch(/Germany map bounds/i);
   });
 });

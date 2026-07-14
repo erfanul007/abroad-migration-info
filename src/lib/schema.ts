@@ -99,10 +99,29 @@ export const datasetColumnSchema = z.object({
   description: z.string().optional(),
 });
 
+export const datasetLocationSchema = z.object({
+  lat: z.number().finite(),
+  lng: z.number().finite(),
+  label: z.string().min(1),
+  sourceUrl: z.url(),
+});
+
+export const immigrationEvidenceSchema = z.object({
+  publishedTime: z.string().min(1),
+  timeScope: z.string().min(1),
+  applicationChannel: z.string().min(1),
+  workStart: z.string().min(1),
+  confidence: z.enum(["high", "medium", "low"]),
+  asOf: z.string().regex(/^\d{4}-\d{2}$/),
+  naturalisation: z.string().min(1),
+});
+
 export const datasetRowSchema = z.object({
   id: z.string().min(1),
   label: z.string().min(1),
   sublabel: z.string().optional(),
+  tags: z.array(z.string().min(1)).optional(),
+  location: datasetLocationSchema.optional(),
   values: z.record(z.string(), z.union([z.number(), z.string()])),
   detail: z
     .object({
@@ -111,6 +130,7 @@ export const datasetRowSchema = z.object({
       cons: z.array(proConSchema).optional(),
       note: z.string().optional(),
       links: z.array(referenceLinkSchema).optional(),
+      immigration: immigrationEvidenceSchema.optional(),
     })
     .optional(),
 });
@@ -263,6 +283,16 @@ export function validateDataset(data: unknown, knownCountryIds: string[]): strin
 
   if (ds.kind === "cities" && ds.scale !== "score") out.push(`${ds.countryId}.cities: scale must be "score".`);
   if (ds.kind === "universities" && ds.scale !== "rank") out.push(`${ds.countryId}.universities: scale must be "rank".`);
+
+  if (ds.countryId === "germany" && ds.kind === "universities") {
+    for (const row of ds.rows) {
+      if (!row.location) {
+        out.push(`${ds.countryId}.${ds.kind}.${row.id}: location is required.`);
+      } else if (row.location.lat < 47 || row.location.lat > 55.2 || row.location.lng < 5.5 || row.location.lng > 15.6) {
+        out.push(`${ds.countryId}.${ds.kind}.${row.id}: location is outside Germany map bounds.`);
+      }
+    }
+  }
 
   const colById = new Map(ds.columns.map((c) => [c.id, c]));
   if (ds.scale === "score") {
