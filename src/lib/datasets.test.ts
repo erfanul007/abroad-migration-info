@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
-import { rowOverall, rowTier, bestValue, scoreColumns } from "@/lib/datasets";
-import type { ComparativeDataset } from "@/types";
+import { rowOverall, rowTier, bestValue, scoreColumns, deriveFacets, filterDatasetRows, markerLabel } from "@/lib/datasets";
+import type { ComparativeDataset, DatasetRow } from "@/types";
 
 // The 11 real cities criteria + weights (sum 100), with two context columns.
 const cities: ComparativeDataset = {
@@ -69,5 +69,95 @@ describe("bestValue", () => {
   it("returns null for a column with no numeric values", () => {
     const ds = { ...cities, rows: [{ id: "z", label: "Z", values: {} }] };
     expect(bestValue(ds, "jobs")).toBeNull();
+  });
+});
+
+// A minimal universities dataset (rank scale): city lives in sublabel "City, State",
+// intake status in tags[]. Munich appears twice; Aachen carries two tags.
+const universities: ComparativeDataset = {
+  kind: "universities",
+  countryId: "germany",
+  title: "U",
+  scale: "rank",
+  lastReviewed: "2026-07-13",
+  columns: [{ id: "overallRank", label: "Rank", kind: "rank", betterWhen: "low" }],
+  rows: [
+    { id: "tum", label: "Technical University of Munich (TUM)", sublabel: "Munich, Bavaria", tags: ["Summer ’27"], values: { overallRank: 1 } },
+    { id: "lmu", label: "University of Munich (LMU)", sublabel: "Munich, Bavaria", tags: ["No CS intake ’27"], values: { overallRank: 3 } },
+    { id: "rwth", label: "RWTH Aachen University", sublabel: "Aachen, North Rhine-Westphalia", tags: ["Winter ’27 upcoming", "Summer ’27"], values: { overallRank: 2 } },
+  ],
+};
+
+describe("deriveFacets", () => {
+  it("derives a City facet from sublabel (segment before first comma), distinct in first-appearance order", () => {
+    const city = deriveFacets(universities).find((f) => f.id === "city");
+    expect(city?.options).toEqual(["Munich", "Aachen"]);
+  });
+  it("derives an Intake facet from tags, distinct in first-appearance order", () => {
+    const intake = deriveFacets(universities).find((f) => f.id === "intake");
+    expect(intake?.options).toEqual(["Summer ’27", "No CS intake ’27", "Winter ’27 upcoming"]);
+  });
+  it("getValues returns the row's city and tags", () => {
+    const facets = deriveFacets(universities);
+    const city = facets.find((f) => f.id === "city")!;
+    const intake = facets.find((f) => f.id === "intake")!;
+    expect(city.getValues(universities.rows[2])).toEqual(["Aachen"]);
+    expect(intake.getValues(universities.rows[2])).toEqual(["Winter ’27 upcoming", "Summer ’27"]);
+  });
+  it("suppresses a facet with fewer than 2 distinct values", () => {
+    const oneCity: ComparativeDataset = {
+      ...universities,
+      rows: universities.rows.map((r) => ({ ...r, sublabel: "Munich, Bavaria" })),
+    };
+    expect(deriveFacets(oneCity).some((f) => f.id === "city")).toBe(false);
+  });
+  it("returns no facets for a cities dataset (no sublabel, no tags)", () => {
+    expect(deriveFacets(cities)).toEqual([]);
+  });
+});
+
+describe("filterDatasetRows", () => {
+  const ids = (rows: { id: string }[]) => rows.map((r) => r.id);
+
+  it("returns all rows for an empty filter", () => {
+    expect(ids(filterDatasetRows(universities, { query: "", facets: {} }))).toEqual(["tum", "lmu", "rwth"]);
+  });
+  it("matches the query against the name (case-insensitive)", () => {
+    expect(ids(filterDatasetRows(universities, { query: "technical", facets: {} }))).toEqual(["tum"]);
+  });
+  it("matches the query against the city in sublabel", () => {
+    expect(ids(filterDatasetRows(universities, { query: "munich", facets: {} }))).toEqual(["tum", "lmu"]);
+  });
+  it("filters by the city facet", () => {
+    expect(ids(filterDatasetRows(universities, { query: "", facets: { city: "Munich" } }))).toEqual(["tum", "lmu"]);
+  });
+  it("filters by the intake facet (membership in tags)", () => {
+    expect(ids(filterDatasetRows(universities, { query: "", facets: { intake: "Summer ’27" } }))).toEqual(["tum", "rwth"]);
+  });
+  it("ANDs query and facets together", () => {
+    expect(ids(filterDatasetRows(universities, { query: "", facets: { city: "Munich", intake: "Summer ’27" } }))).toEqual(["tum"]);
+  });
+  it("treats an empty facet value as no constraint", () => {
+    expect(ids(filterDatasetRows(universities, { query: "", facets: { city: "" } }))).toEqual(["tum", "lmu", "rwth"]);
+  });
+  it("returns [] when nothing matches", () => {
+    expect(filterDatasetRows(universities, { query: "zzz", facets: {} })).toEqual([]);
+  });
+});
+
+describe("markerLabel", () => {
+  const uni = (label: string, abbr?: string): DatasetRow => ({ id: "x", label, abbr, values: {} });
+  it("returns the city name for cities (always short)", () => {
+    expect(markerLabel({ id: "c", label: "Munich", values: {} }, "cities")).toBe("Munich");
+  });
+  it("returns the full name when a university name is short enough", () => {
+    expect(markerLabel(uni("TU Berlin", "TUB"), "universities")).toBe("TU Berlin");
+  });
+  it("returns abbr when a university name is too long", () => {
+    expect(markerLabel(uni("Technical University of Munich (TUM)", "TUM"), "universities")).toBe("TUM");
+  });
+  it("falls back to the full name when a long university has no abbr", () => {
+    const label = "Technical University of Munich (TUM)";
+    expect(markerLabel(uni(label), "universities")).toBe(label);
   });
 });

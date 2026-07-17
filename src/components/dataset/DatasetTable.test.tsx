@@ -200,6 +200,55 @@ describe("DatasetTable", () => {
     expect(within(winterRow).queryByText("Summer ’27")).not.toBeInTheDocument();
   });
 
+  const uni: ComparativeDataset = {
+    kind: "universities",
+    countryId: "germany",
+    title: "Universities",
+    scale: "rank",
+    lastReviewed: "2026-07-14",
+    columns: [{ id: "overallRank", label: "Rank", kind: "rank", betterWhen: "low" }],
+    rows: [
+      { id: "tum", label: "Technical University of Munich", sublabel: "Munich, Bavaria", tags: ["Summer ’27"], values: { overallRank: 1 } },
+      { id: "lmu", label: "University of Munich (LMU)", sublabel: "Munich, Bavaria", tags: ["No CS intake ’27"], values: { overallRank: 3 } },
+      { id: "rwth", label: "RWTH Aachen University", sublabel: "Aachen, North Rhine-Westphalia", tags: ["Winter ’27 upcoming"], values: { overallRank: 2 } },
+    ],
+  };
+
+  it("renders a search box, two facets, and the match count for universities", () => {
+    render(<DatasetTable dataset={uni} />);
+    expect(screen.getByPlaceholderText("Search universities…")).toBeInTheDocument();
+    // City + Intake facets both have >= 2 distinct values → two Select comboboxes
+    expect(screen.getAllByRole("combobox")).toHaveLength(2);
+    expect(screen.getByText("3 of 3")).toBeInTheDocument();
+  });
+
+  it("filters rows live by the search box (name or city) and updates the count", () => {
+    render(<DatasetTable dataset={uni} />);
+    fireEvent.change(screen.getByPlaceholderText("Search universities…"), { target: { value: "aachen" } });
+    expect(screen.getByText("RWTH Aachen University")).toBeInTheDocument();
+    expect(screen.queryByText("Technical University of Munich")).not.toBeInTheDocument();
+    expect(screen.queryByText("University of Munich (LMU)")).not.toBeInTheDocument();
+    expect(screen.getByText("1 of 3")).toBeInTheDocument();
+  });
+
+  it("shows an empty state and a Clear control when nothing matches", () => {
+    render(<DatasetTable dataset={uni} />);
+    const search = screen.getByPlaceholderText("Search universities…");
+    fireEvent.change(search, { target: { value: "zzz" } });
+    expect(screen.getByText(/No matches/)).toBeInTheDocument();
+    expect(screen.getByText("0 of 3")).toBeInTheDocument();
+    // Clearing restores every row
+    fireEvent.click(screen.getByRole("button", { name: /Clear/ }));
+    expect(screen.getByText("Technical University of Munich")).toBeInTheDocument();
+    expect(screen.getByText("3 of 3")).toBeInTheDocument();
+  });
+
+  it("gives a cities dataset the search box only (no facets)", () => {
+    render(<DatasetTable dataset={ds} />);
+    expect(screen.getByPlaceholderText("Search cities…")).toBeInTheDocument();
+    expect(screen.queryAllByRole("combobox")).toHaveLength(0);
+  });
+
   it("uses green, yellow, and red semantics for university intake chips", () => {
     const universities: ComparativeDataset = {
       kind: "universities",

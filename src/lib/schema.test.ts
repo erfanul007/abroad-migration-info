@@ -1,7 +1,7 @@
 // Covers only the cross-field rules we own (category/factor weight sums, unique ids,
 // known category refs); full-shape checks are Zod's job and not re-tested here.
 import { describe, it, expect } from "vitest";
-import { validateCategories, validateCountry, validateDataset } from "@/lib/schema";
+import { validateCategories, validateCountry, validateDataset, datasetRowSchema } from "@/lib/schema";
 import type { Category, Country, Factor } from "@/types";
 
 const f = (id: string, weight: number): Factor => ({ id, label: id, description: "", weight });
@@ -173,5 +173,13 @@ describe("validateDataset", () => {
       rows: [{ id: "tum", label: "TUM", location: { lat: 40, lng: 20, label: "Wrong campus", sourceUrl: "https://www.openstreetmap.org/" }, values: { cse: 71 } }],
     };
     expect(validateDataset(uni, ["germany"]).join()).toMatch(/Germany map bounds/i);
+  });
+});
+
+describe("datasetRowSchema abbr", () => {
+  it("accepts an optional abbr on a dataset row", () => {
+    const base = { id: "tum", label: "Technical University of Munich (TUM)", values: {} };
+    expect(datasetRowSchema.parse({ ...base, abbr: "TUM" }).abbr).toBe("TUM");
+    expect(datasetRowSchema.parse(base).abbr).toBeUndefined();
   });
 });

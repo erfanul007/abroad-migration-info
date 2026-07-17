@@ -119,6 +119,7 @@ export const immigrationEvidenceSchema = z.object({
 export const datasetRowSchema = z.object({
   id: z.string().min(1),
   label: z.string().min(1),
+  abbr: z.string().min(1).optional(),
   sublabel: z.string().optional(),
   tags: z.array(z.string().min(1)).optional(),
   location: datasetLocationSchema.optional(),

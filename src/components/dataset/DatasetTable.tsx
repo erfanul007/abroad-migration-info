@@ -16,8 +16,9 @@ import { DatasetScoreVisuals } from "@/components/dataset/DatasetScoreVisuals";
 import { ImmigrationEvidence } from "@/components/dataset/ImmigrationEvidence";
 import { Badge } from "@/components/ui/badge";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { DatasetToolbar } from "@/components/dataset/DatasetToolbar";
 import { formatNumber } from "@/lib/formatters";
-import { bestValue, rowOverall } from "@/lib/datasets";
+import { bestValue, rowOverall, deriveFacets, filterDatasetRows, type DatasetFilter } from "@/lib/datasets";
 import { cn } from "@/lib/utils";
 
 const num = (v: number) => formatNumber(v, Number.isInteger(v) ? 0 : 1);
@@ -55,6 +56,10 @@ export function DatasetTable({ dataset }: { dataset: ComparativeDataset }) {
     () => Object.fromEntries(dataset.columns.map((c) => [c.id, bestValue(dataset, c.id)])),
     [dataset],
   );
+
+  const [filter, setFilter] = useState<DatasetFilter>({ query: "", facets: {} });
+  const facets = useMemo(() => deriveFacets(dataset), [dataset]);
+  const filteredRows = useMemo(() => filterDatasetRows(dataset, filter), [dataset, filter]);
 
   const columns = useMemo<ColumnDef<DatasetRow>[]>(() => {
     const cols: ColumnDef<DatasetRow>[] = [];
@@ -157,7 +162,7 @@ export function DatasetTable({ dataset }: { dataset: ComparativeDataset }) {
   const [expanded, setExpanded] = useState<ExpandedState>({});
 
   const table = useReactTable({
-    data: dataset.rows,
+    data: filteredRows,
     columns,
     state: { sorting, expanded },
     onSortingChange: setSorting,
@@ -171,7 +176,16 @@ export function DatasetTable({ dataset }: { dataset: ComparativeDataset }) {
   const leafCount = table.getVisibleLeafColumns().length;
 
   return (
-    <div className="overflow-x-auto rounded-lg border">
+    <div className="space-y-3">
+      <DatasetToolbar
+        dataset={dataset}
+        facets={facets}
+        filter={filter}
+        onFilterChange={setFilter}
+        total={dataset.rows.length}
+        matched={filteredRows.length}
+      />
+      <div className="overflow-x-auto rounded-lg border">
       <Table>
         <TableHeader>
           {table.getHeaderGroups().map((hg) => (
@@ -199,6 +213,13 @@ export function DatasetTable({ dataset }: { dataset: ComparativeDataset }) {
           ))}
         </TableHeader>
         <TableBody>
+          {filteredRows.length === 0 && (
+            <TableRow className="hover:bg-transparent">
+              <TableCell colSpan={leafCount} className="py-8 text-center text-muted-foreground">
+                No matches — adjust the search or filters.
+              </TableCell>
+            </TableRow>
+          )}
           {table.getRowModel().rows.map((row) => (
             <Fragment key={row.id}>
               <TableRow>
@@ -219,6 +240,7 @@ export function DatasetTable({ dataset }: { dataset: ComparativeDataset }) {
           ))}
         </TableBody>
       </Table>
+      </div>
     </div>
   );
 }

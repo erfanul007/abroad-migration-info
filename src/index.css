@@ -170,3 +170,4 @@
 .university-map-marker > span { transform: rotate(45deg); }
 .university-map-marker-a { background: #0f766e; }
 .university-map-marker-b { background: #9f1239; }
+.university-map-marker-pin { background: #0f766e; } /* single-colour pin for the all-markers dataset map */
