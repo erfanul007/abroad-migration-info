@@ -1,7 +1,7 @@
 # Country dataset pages + all-markers map — design spec
 
 **Date:** 2026-07-17
-**Status:** Approved (brainstorm), pending spec review → implementation plan
+**Status:** Implemented; map popup interaction corrected on 2026-07-17
 **Supersedes UI surface of:** `2026-07-17-dataset-search-filter-design.md` (that search/filter work is retained verbatim; it moves from the modal into the new page unchanged).
 
 ## Problem
