@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 import type { ComparativeDataset } from "@/types";
-import { UniversityOverviewMap } from "@/components/dataset/UniversityOverviewMap";
+import { DatasetOverviewMap } from "@/components/dataset/DatasetOverviewMap";
 
 vi.mock("react-map-gl/maplibre", () => ({
   default: ({ children, mapStyle, interactiveLayerIds, onClick, onMouseMove }: React.PropsWithChildren<{
@@ -19,6 +19,15 @@ vi.mock("react-map-gl/maplibre", () => ({
         })}
         onMouseMove={() => onMouseMove({
           features: [{ properties: { id: "tum", label: "Technical University of Munich (TUM)", abbr: "TUM" }, geometry: { type: "Point", coordinates: [11.58, 48.15] } }],
+        })}
+      />
+      <button
+        data-testid="city-feature"
+        onClick={() => onClick({
+          features: [{ properties: { id: "berlin" }, geometry: { type: "Point", coordinates: [13.405, 52.52] } }],
+        })}
+        onMouseMove={() => onMouseMove({
+          features: [{ properties: { id: "berlin", label: "Berlin" }, geometry: { type: "Point", coordinates: [13.405, 52.52] } }],
         })}
       />
     </div>
@@ -54,20 +63,36 @@ const dataset: ComparativeDataset = {
   }],
 };
 
-describe("UniversityOverviewMap", () => {
+const cityDataset: ComparativeDataset = {
+  kind: "cities",
+  countryId: "germany",
+  title: "German cities",
+  scale: "score",
+  lastReviewed: "2026-07-17",
+  columns: [{ id: "jobs", label: "Jobs", kind: "score", weight: 100, betterWhen: "high" }],
+  rows: [{
+    id: "berlin",
+    label: "Berlin",
+    sublabel: "Berlin",
+    values: { jobs: 82 },
+    location: { lat: 52.52, lng: 13.405, label: "Berlin city centre", sourceUrl: "https://example.org" },
+  }],
+};
+
+describe("DatasetOverviewMap", () => {
   it("uses OpenFreeMap with native clustering and no permanent university labels", () => {
-    render(<UniversityOverviewMap dataset={dataset} />);
+    render(<DatasetOverviewMap dataset={dataset} />);
 
     expect(screen.getByTestId("maplibre-map")).toHaveAttribute("data-style", "https://tiles.openfreemap.org/styles/positron");
     expect(screen.getByTestId("university-source")).toHaveAttribute("data-cluster", "true");
     expect(screen.getByTestId("university-source")).toHaveAttribute("data-count", "1");
-    expect(screen.getByTestId("layer-university-clusters")).toBeInTheDocument();
-    expect(screen.getByTestId("layer-university-points")).toBeInTheDocument();
+    expect(screen.getByTestId("layer-dataset-clusters")).toBeInTheDocument();
+    expect(screen.getByTestId("layer-dataset-points")).toBeInTheDocument();
     expect(screen.queryByText("TUM")).not.toBeInTheDocument();
   });
 
   it("opens only basic university information when an individual point is clicked", () => {
-    render(<UniversityOverviewMap dataset={dataset} />);
+    render(<DatasetOverviewMap dataset={dataset} />);
     fireEvent.click(screen.getByTestId("university-feature"));
 
     const popup = screen.getByTestId("university-popup");
@@ -78,9 +103,26 @@ describe("UniversityOverviewMap", () => {
   });
 
   it("shows the full university name on hover", () => {
-    render(<UniversityOverviewMap dataset={dataset} />);
+    render(<DatasetOverviewMap dataset={dataset} />);
     fireEvent.mouseMove(screen.getByTestId("university-feature"));
 
     expect(screen.getByTestId("university-popup")).toHaveTextContent("Technical University of Munich (TUM)");
+  });
+
+  it("shows basic city score information when used by the cities overview", () => {
+    render(<DatasetOverviewMap dataset={cityDataset} />);
+    fireEvent.click(screen.getByTestId("city-feature"));
+
+    const popup = screen.getByTestId("university-popup");
+    expect(popup).toHaveTextContent("Berlin");
+    expect(popup).toHaveTextContent("Overall82%");
+    expect(popup).toHaveTextContent("Excellent");
+  });
+
+  it("shows the full city name on hover", () => {
+    render(<DatasetOverviewMap dataset={cityDataset} />);
+    fireEvent.mouseMove(screen.getByTestId("city-feature"));
+
+    expect(screen.getByTestId("university-popup")).toHaveTextContent("Berlin");
   });
 });

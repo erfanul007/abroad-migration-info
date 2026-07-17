@@ -3,10 +3,10 @@ import { render, screen, waitFor } from "@testing-library/react";
 import type { ComparativeDataset } from "@/types";
 import { DatasetMap } from "@/components/dataset/DatasetMap";
 
-vi.mock("@/components/dataset/UniversityOverviewMap", () => ({
-  UniversityOverviewMap: ({ dataset }: { dataset: ComparativeDataset }) => {
+vi.mock("@/components/dataset/DatasetOverviewMap", () => ({
+  DatasetOverviewMap: ({ dataset }: { dataset: ComparativeDataset }) => {
     const count = dataset.rows.filter((row) => row.location).length;
-    return count > 0 ? <div data-testid="university-overview" data-count={count} /> : null;
+    return count > 0 ? <div data-testid="dataset-overview" data-count={count} data-kind={dataset.kind} /> : null;
   },
 }));
 
@@ -43,8 +43,13 @@ const ds: ComparativeDataset = {
 describe("DatasetMap", () => {
   it("delegates university datasets to the dedicated overview map", async () => {
     render(<DatasetMap dataset={ds} />);
-    expect(await screen.findByTestId("university-overview")).toHaveAttribute("data-count", "2");
+    expect(await screen.findByTestId("dataset-overview")).toHaveAttribute("data-count", "2");
     expect(screen.queryByTestId("tiles")).not.toBeInTheDocument();
+  });
+  it("delegates city datasets to the same reusable overview map", async () => {
+    const cities = { ...ds, kind: "cities" as const, scale: "score" as const };
+    render(<DatasetMap dataset={cities} />);
+    expect(await screen.findByTestId("dataset-overview")).toHaveAttribute("data-kind", "cities");
   });
   it("renders no map section when no row has a location", async () => {
     const bare = { ...ds, rows: ds.rows.map((r) => ({ ...r, location: undefined })) };

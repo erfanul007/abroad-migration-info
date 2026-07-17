@@ -4,21 +4,21 @@ import type { LayerProps } from "react-map-gl/maplibre";
 import type { MapLayerMouseEvent } from "maplibre-gl";
 import type { Feature, FeatureCollection, Point } from "geojson";
 import type { ComparativeDataset, DatasetRow } from "@/types";
-import { formatNumber } from "@/lib/formatters";
+import { rowOverall, rowTier } from "@/lib/datasets";
+import { formatNumber, formatPercent, tierLabel } from "@/lib/formatters";
 import "maplibre-gl/dist/maplibre-gl.css";
 
 const OPENFREEMAP_STYLE = "https://tiles.openfreemap.org/styles/positron";
 const GERMANY_BOUNDS: [[number, number], [number, number]] = [[5, 46.5], [16.1, 55.7]];
-const INTERACTIVE_LAYERS = ["university-clusters", "university-points"];
+const INTERACTIVE_LAYERS = ["dataset-clusters", "dataset-points"];
 
-interface UniversityProperties {
+interface DatasetPointProperties {
   id: string;
   label: string;
-  abbr: string;
 }
 
 const clusterLayer = {
-  id: "university-clusters",
+  id: "dataset-clusters",
   type: "circle" as const,
   filter: ["has", "point_count"],
   paint: {
@@ -30,7 +30,7 @@ const clusterLayer = {
 } satisfies LayerProps;
 
 const clusterCountLayer = {
-  id: "university-cluster-count",
+  id: "dataset-cluster-count",
   type: "symbol" as const,
   filter: ["has", "point_count"],
   layout: {
@@ -41,7 +41,7 @@ const clusterCountLayer = {
 } satisfies LayerProps;
 
 const pointLayer = {
-  id: "university-points",
+  id: "dataset-points",
   type: "circle" as const,
   filter: ["!", ["has", "point_count"]],
   paint: {
@@ -52,19 +52,21 @@ const pointLayer = {
   },
 } satisfies LayerProps;
 
-function universityFeatures(rows: DatasetRow[]): FeatureCollection<Point, UniversityProperties> {
+function datasetFeatures(rows: DatasetRow[]): FeatureCollection<Point, DatasetPointProperties> {
   return {
     type: "FeatureCollection",
     features: rows.flatMap((row) => row.location ? [{
       type: "Feature" as const,
       geometry: { type: "Point" as const, coordinates: [row.location.lng, row.location.lat] },
-      properties: { id: row.id, label: row.label, abbr: row.abbr ?? row.label },
+      properties: { id: row.id, label: row.label },
     }] : []),
   };
 }
 
-function BasicUniversityPopup({ row }: { row: DatasetRow }) {
+function BasicDatasetPopup({ dataset, row }: { dataset: ComparativeDataset; row: DatasetRow }) {
   const place = [row.sublabel, row.location?.label].filter(Boolean).join(" · ");
+  const overall = dataset.kind === "cities" ? rowOverall(dataset, row) : null;
+  const tier = dataset.kind === "cities" ? rowTier(dataset, row) : null;
   return (
     <div className="w-60 space-y-2">
       <div>
@@ -78,17 +80,23 @@ function BasicUniversityPopup({ row }: { row: DatasetRow }) {
         {typeof row.values.nonEuTuition === "number" && (
           <div><dt className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Non-EU tuition</dt><dd>€{formatNumber(row.values.nonEuTuition)}</dd></div>
         )}
+        {overall != null && (
+          <div><dt className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Overall</dt><dd>{formatPercent(overall)}</dd></div>
+        )}
+        {tier && (
+          <div><dt className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">Tier</dt><dd>{tierLabel(tier)}</dd></div>
+        )}
       </dl>
     </div>
   );
 }
 
-export function UniversityOverviewMap({ dataset }: { dataset: ComparativeDataset }) {
+export function DatasetOverviewMap({ dataset }: { dataset: ComparativeDataset }) {
   const rows = useMemo(() => dataset.rows.filter((row) => row.location), [dataset.rows]);
-  const features = useMemo(() => universityFeatures(rows), [rows]);
+  const features = useMemo(() => datasetFeatures(rows), [rows]);
   const byId = useMemo(() => new globalThis.Map(rows.map((row) => [row.id, row])), [rows]);
   const [selected, setSelected] = useState<DatasetRow | null>(null);
-  const [hovered, setHovered] = useState<Feature<Point, UniversityProperties> | null>(null);
+  const [hovered, setHovered] = useState<Feature<Point, DatasetPointProperties> | null>(null);
 
   if (rows.length === 0) return null;
 
@@ -109,11 +117,11 @@ export function UniversityOverviewMap({ dataset }: { dataset: ComparativeDataset
       setHovered(null);
       return;
     }
-    setHovered(hit as unknown as Feature<Point, UniversityProperties>);
+    setHovered(hit as unknown as Feature<Point, DatasetPointProperties>);
   };
 
   return (
-    <section aria-label="University locations in Germany" className="space-y-2">
+    <section aria-label={`${dataset.kind === "cities" ? "City" : "University"} locations in Germany`} className="space-y-2">
       <h2 className="font-semibold">Locations in Germany</h2>
       <div className="h-[320px] overflow-hidden rounded-lg border bg-muted sm:h-[400px]">
         <MapGL
@@ -132,7 +140,7 @@ export function UniversityOverviewMap({ dataset }: { dataset: ComparativeDataset
           style={{ width: "100%", height: "100%" }}
         >
           <NavigationControl position="top-right" showCompass={false} />
-          <Source id="universities" type="geojson" data={features} cluster clusterMaxZoom={10} clusterRadius={44}>
+          <Source id="dataset-locations" type="geojson" data={features} cluster clusterMaxZoom={10} clusterRadius={44}>
             <Layer {...clusterLayer} />
             <Layer {...clusterCountLayer} />
             <Layer {...pointLayer} />
@@ -161,7 +169,7 @@ export function UniversityOverviewMap({ dataset }: { dataset: ComparativeDataset
               maxWidth="280px"
               anchor="bottom"
             >
-              <BasicUniversityPopup row={selected} />
+              <BasicDatasetPopup dataset={dataset} row={selected} />
             </Popup>
           )}
         </MapGL>
