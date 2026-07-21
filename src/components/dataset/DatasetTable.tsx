@@ -44,11 +44,17 @@ export function DatasetTable({ dataset }: { dataset: ComparativeDataset }) {
     [dataset, isScore],
   );
   const tableCols = useMemo(
-    () => dataset.columns.filter((column) => isScore
-      ? column.kind === "score"
-      : dataset.kind === "universities"
-        ? column.kind === "rank" || column.id === "nonEuTuition" || column.id === "applicationFee"
-        : true),
+    () => {
+      const visibleColumns = dataset.columns.filter((column) => isScore
+        ? column.kind === "score"
+        : dataset.kind === "universities"
+          ? column.kind === "rank" || column.id === "nonEuTuition" || column.id === "applicationFee"
+          : true);
+
+      return isScore
+        ? [...visibleColumns].sort((a, b) => (b.weight ?? 0) - (a.weight ?? 0))
+        : visibleColumns;
+    },
     [dataset, isScore],
   );
   const hasDetail = dataset.rows.some((r) => r.detail) || contextCols.length > 0;

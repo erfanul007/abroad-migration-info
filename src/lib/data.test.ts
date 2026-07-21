@@ -35,21 +35,26 @@ describe("data integrity", () => {
 });
 
 describe("supplementary datasets", () => {
-  it("models German city administration around conversion and Anmeldung, not naturalisation", () => {
+  it("models a job-first city board with pathway-neutral conversion evidence", () => {
     const cities = getDatasets("germany").cities!;
     const scored = cities.columns.filter((column) => column.kind === "score");
     expect(scored.reduce((sum, column) => sum + (column.weight ?? 0), 0)).toBe(100);
-    expect(scored.find((column) => column.id === "settle")).toBeUndefined();
-    expect(scored.find((column) => column.id === "conv")?.weight).toBe(22);
-    expect(scored.find((column) => column.id === "anm")?.weight).toBe(12);
+    expect(scored.map((column) => [column.id, column.weight])).toEqual([
+      ["jobs", 22], ["conv", 18], ["scale-pay", 12], ["comp", 9], ["rent", 9],
+      ["cost", 7], ["pt", 6], ["eng", 6], ["safe", 5], ["conn", 3], ["comm", 3],
+    ]);
+    expect(cities.columns.find((column) => column.id === "anm")).toBeUndefined();
+    expect(cities.columns.find((column) => column.id === "natTime")).toBeUndefined();
     for (const row of cities.rows) {
-      expect(row.values.settle).toBeUndefined();
+      expect(row.values.anm).toBeUndefined();
+      expect(row.values.natTime).toBeUndefined();
       expect(row.detail?.immigration).toMatchObject({
         publishedTime: expect.any(String), timeScope: expect.any(String),
         applicationChannel: expect.any(String), workStart: expect.any(String),
         confidence: expect.stringMatching(/^(high|medium|low)$/),
-        asOf: expect.stringMatching(/^2026-/), naturalisation: expect.any(String),
+        asOf: expect.stringMatching(/^2026-/),
       });
+      expect("naturalisation" in (row.detail?.immigration ?? {})).toBe(false);
     }
   });
   it("encodes the audited Chancenkarte→Blue Card conversion evidence discipline for every German city", () => {
@@ -94,19 +99,58 @@ describe("supplementary datasets", () => {
     // resolvable by iso too
     expect(getDatasets("DE").cities?.countryId).toBe("germany");
   });
+
+  it("includes the approved formal-city Berlin commuter alternatives with complete scored evidence", () => {
+    const cities = getDatasets("germany").cities!;
+    const requiredIds = [
+      "brandenburg-an-der-havel", "cottbus", "frankfurt-oder", "oranienburg",
+      "falkensee", "bernau-bei-berlin", "eberswalde",
+    ];
+    const scoreIds = cities.columns.filter((column) => column.kind === "score").map((column) => column.id);
+
+    for (const id of requiredIds) {
+      const row = cities.rows.find((candidate) => candidate.id === id);
+      expect(row, `${id} is present`).toBeTruthy();
+      if (!row) continue;
+      expect(row.location, `${id} has a map location`).toBeTruthy();
+      expect(row.detail?.links?.length ?? 0, `${id} has official evidence links`).toBeGreaterThanOrEqual(2);
+      expect(row.detail?.immigration, `${id} documents its responsible authority`).toBeTruthy();
+      for (const scoreId of scoreIds) {
+        const score = row.values[scoreId];
+        expect(typeof score, `${id}.${scoreId} is numeric`).toBe("number");
+        expect(score, `${id}.${scoreId} is within the absolute score scale`).toBeGreaterThanOrEqual(0);
+        expect(score, `${id}.${scoreId} is within the absolute score scale`).toBeLessThanOrEqual(100);
+      }
+    }
+  });
   it("Germany cities score-column weights sum to 100", () => {
     const cols = getDatasets("germany").cities?.columns ?? [];
     const sum = cols.filter((c) => c.kind === "score").reduce((a, c) => a + (c.weight ?? 0), 0);
     expect(sum).toBe(100);
   });
-  it("covers every listed German city with at least one university location", () => {
+  it("prioritises jobs over conversion and exposes score columns in descending-weight order", () => {
+    const scored = getDatasets("germany").cities?.columns.filter((column) => column.kind === "score") ?? [];
+    expect(scored.map((column) => [column.id, column.weight])).toEqual([
+      ["jobs", 22], ["conv", 18], ["scale-pay", 12], ["comp", 9], ["rent", 9],
+      ["cost", 7], ["pt", 6], ["eng", 6], ["safe", 5], ["conn", 3], ["comm", 3],
+    ]);
+  });
+  it("uses concise one-word labels for every city-table column", () => {
+    const columns = getDatasets("germany").cities?.columns ?? [];
+    for (const column of columns) {
+      expect(column.label, `${column.id}.label`).toMatch(/^\S+$/);
+      expect(column.shortLabel ?? column.label, `${column.id}.shortLabel`).toMatch(/^\S+$/);
+    }
+  });
+  it("keeps city and university datasets independently scoped", () => {
     const de = getDatasets("germany");
     const locations = (de.universities?.rows ?? []).map((row) => row.sublabel?.toLocaleLowerCase("de") ?? "");
-    const uncovered = (de.cities?.rows ?? [])
+    const commuterOnly = (de.cities?.rows ?? [])
       .map((row) => row.label)
+      .filter((city) => ["Brandenburg an der Havel", "Falkensee", "Oranienburg"].includes(city))
       .filter((city) => !locations.some((location) => location.includes(city.toLocaleLowerCase("de"))));
 
-    expect(uncovered).toEqual([]);
+    expect(commuterOnly.sort()).toEqual(["Brandenburg an der Havel", "Falkensee", "Oranienburg"]);
   });
   it("provides every displayed global and specialization rank for German universities", () => {
     const universities = getDatasets("germany").universities?.rows ?? [];

@@ -10,8 +10,8 @@ const ds: ComparativeDataset = {
   scale: "score",
   lastReviewed: "2026-07-13",
   columns: [
-    { id: "conv", label: "Conversion", shortLabel: "Conv", kind: "score", weight: 60, betterWhen: "high" },
     { id: "jobs", label: "Jobs", kind: "score", weight: 40, betterWhen: "high" },
+    { id: "conv", label: "Conversion", shortLabel: "Conv", kind: "score", weight: 60, betterWhen: "high" },
     { id: "rentM2", label: "€/m²", kind: "number", betterWhen: "low" },
   ],
   rows: [
@@ -19,7 +19,7 @@ const ds: ComparativeDataset = {
       detail: { summary: "Balanced all-rounder.", pros: [{ text: "Welcome Center" }], cons: [{ text: "Entry saturated" }], immigration: {
         publishedTime: "Several weeks", timeScope: "Authority processing; no end-to-end guarantee",
         applicationChannel: "Online residence-permit service", workStart: "Wait for written full-time employment authorisation",
-        confidence: "medium", asOf: "2026-07", naturalisation: "Longer-term context only; not scored.",
+        confidence: "medium", asOf: "2026-07",
       } } },
     { id: "munich", label: "Munich", values: { conv: 68, jobs: 92, rentM2: 22 } },
   ],
@@ -31,6 +31,12 @@ describe("DatasetTable", () => {
     expect(screen.getByText("Hamburg")).toBeInTheDocument();
     expect(screen.getByText("Munich")).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Overall" })).toBeInTheDocument();
+  });
+
+  it("orders score columns by descending weight after Overall", () => {
+    render(<DatasetTable dataset={ds} />);
+    const headers = screen.getAllByRole("columnheader").map((header) => header.textContent?.trim());
+    expect(headers).toEqual(["Details", "City", "Overall", "Conv", "Jobs"]);
   });
 
   it("moves context (non-score) columns out of the table into the row panel", () => {
@@ -56,7 +62,6 @@ describe("DatasetTable", () => {
     expect(screen.getByText("Wait for written full-time employment authorisation")).toBeInTheDocument();
     expect(screen.getByText("Medium confidence")).toBeInTheDocument();
     expect(screen.getByText("Verified 2026-07")).toBeInTheDocument();
-    expect(screen.getByText("Longer-term context only; not scored.")).toBeInTheDocument();
     // the context column value (€/m² = 14) now renders inside the panel
     expect(screen.getByText("14")).toBeInTheDocument();
   });

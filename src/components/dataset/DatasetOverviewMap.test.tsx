@@ -2,6 +2,7 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 import type { ComparativeDataset } from "@/types";
 import { DatasetOverviewMap } from "@/components/dataset/DatasetOverviewMap";
+import { getDatasets } from "@/lib/data";
 
 vi.mock("react-map-gl/maplibre", () => ({
   default: ({ children, mapStyle, interactiveLayerIds, onClick, onMouseMove }: React.PropsWithChildren<{
@@ -124,5 +125,20 @@ describe("DatasetOverviewMap", () => {
     fireEvent.mouseMove(screen.getByTestId("city-feature"));
 
     expect(screen.getByTestId("university-popup")).toHaveTextContent("Berlin");
+  });
+
+  it("includes every audited German city at an official geocoded city-centre point", () => {
+    const cities = getDatasets("germany").cities!;
+    render(<DatasetOverviewMap dataset={cities} />);
+
+    expect(cities.rows).toHaveLength(23);
+    for (const row of cities.rows) {
+      expect(row.location?.lat, `${row.id} latitude`).toBeGreaterThanOrEqual(46.5);
+      expect(row.location?.lat, `${row.id} latitude`).toBeLessThanOrEqual(55.7);
+      expect(row.location?.lng, `${row.id} longitude`).toBeGreaterThanOrEqual(5);
+      expect(row.location?.lng, `${row.id} longitude`).toBeLessThanOrEqual(16.1);
+      expect(row.location?.sourceUrl, `${row.id} official geocoder`).toContain("sg.geodatenzentrum.de/gdz_geokodierung");
+    }
+    expect(screen.getByTestId("university-source")).toHaveAttribute("data-count", "23");
   });
 });

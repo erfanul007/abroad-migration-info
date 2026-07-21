@@ -113,7 +113,6 @@ export const immigrationEvidenceSchema = z.object({
   workStart: z.string().min(1),
   confidence: z.enum(["high", "medium", "low"]),
   asOf: z.string().regex(/^\d{4}-\d{2}$/),
-  naturalisation: z.string().min(1),
 });
 
 export const datasetRowSchema = z.object({
