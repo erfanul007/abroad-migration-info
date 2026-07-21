@@ -100,6 +100,23 @@ describe("supplementary datasets", () => {
     expect(getDatasets("DE").cities?.countryId).toBe("germany");
   });
 
+  it("includes the researched English-taught Berlin-region university candidates", () => {
+    const universities = getDatasets("germany").universities!;
+    const rows = new Map(universities.rows.map((row) => [row.id, row]));
+    const candidateIds = [
+      "bht-berlin", "btu-cottbus", "htw-berlin",
+    ];
+
+    for (const id of candidateIds) {
+      const row = rows.get(id);
+      expect(row, `${id} is present`).toBeTruthy();
+      expect(typeof row?.values.programs, `${id} lists its qualifying programmes`).toBe("string");
+      expect(row?.location?.sourceUrl, `${id} has a sourced map location`).toMatch(/^https:\/\//);
+      expect(row?.tags?.length ?? 0, `${id} has a current admission-status chip`).toBeGreaterThan(0);
+      expect(row?.detail?.links?.length ?? 0, `${id} has evidence links`).toBeGreaterThanOrEqual(2);
+    }
+  });
+
   it("includes the approved formal-city Berlin commuter alternatives with complete scored evidence", () => {
     const cities = getDatasets("germany").cities!;
     const requiredIds = [
@@ -152,16 +169,24 @@ describe("supplementary datasets", () => {
 
     expect(commuterOnly.sort()).toEqual(["Brandenburg an der Havel", "Falkensee", "Oranienburg"]);
   });
-  it("provides every displayed global and specialization rank for German universities", () => {
+  it("provides an overall rank for every university and documents unavailable subject ranks", () => {
     const universities = getDatasets("germany").universities?.rows ?? [];
-    const rankIds = ["overallRank", "cse", "ai", "ml", "ds", "swe"];
+    expect(
+      universities.filter((row) => typeof row.values.overallRank !== "number").map((row) => row.id),
+    ).toEqual([]);
+
+    const rankIds = ["cse", "ai", "ml", "ds", "swe"];
     const missing = universities.flatMap((row) =>
       rankIds
         .filter((rankId) => typeof row.values[rankId] !== "number")
         .map((rankId) => `${row.id}.${rankId}`),
     );
 
-    expect(missing).toEqual([]);
+    const incompleteRows = [...new Set(missing.map((item) => item.split(".")[0]))];
+    for (const id of incompleteRows) {
+      const row = universities.find((candidate) => candidate.id === id);
+      expect(row?.detail?.note, `${id} explains incomplete rankings`).toMatch(/EduRank.*(not|no matching|partial|six-field)/i);
+    }
   });
   it("provides a reviewed Germany-area map location for every German university", () => {
     const universities = getDatasets("germany").universities?.rows ?? [];
@@ -185,18 +210,56 @@ describe("supplementary datasets", () => {
       .map((row) => row.id);
     expect(invalid).toEqual([]);
   });
-  it("classifies researched 2027 university intake-chip states", () => {
+  it("classifies researched university ownership and intake-tag states", () => {
     const rows = getDatasets("germany").universities?.rows ?? [];
     const idsWith = (tag: string) => rows.filter((row) => row.tags?.includes(tag)).map((row) => row.id).sort();
+    const ownershipTags = new Set(["Public", "Private"]);
+    const admissionTags = new Set([
+      "Winter ’26 open", "Summer ’27 open", "Winter ’27 open",
+      "Summer ’27", "Winter ’27", "No CS intake ’27",
+    ]);
 
-    expect(idsWith("Winter ’27 upcoming")).toEqual([
+    expect(rows.filter((row) => (row.tags ?? []).filter((tag) => ownershipTags.has(tag)).length !== 1).map((row) => row.id)).toEqual([]);
+    expect(rows.flatMap((row) => row.tags ?? []).filter((tag) => !ownershipTags.has(tag) && !admissionTags.has(tag))).toEqual([]);
+    expect(rows.filter((row) => row.tags?.includes("Summer ’27") && row.tags.includes("Summer ’27 open")).map((row) => row.id)).toEqual([]);
+    expect(rows.filter((row) => row.tags?.includes("Winter ’27") && row.tags.includes("Winter ’27 open")).map((row) => row.id)).toEqual([]);
+
+    expect(idsWith("Winter ’27")).toEqual([
       "bonn", "fau", "freiburg", "fu-berlin", "goettingen", "hamburg", "heidelberg", "hhu-duesseldorf",
-      "kit", "leibniz-hannover", "potsdam-hpi", "ruhr-bochum", "rwth-aachen", "stuttgart", "th-koeln",
-      "tu-berlin", "tu-darmstadt", "tu-dortmund", "tu-dresden", "tuebingen", "tum",
+      "bht-berlin", "btu-cottbus", "htw-berlin", "kit", "leibniz-hannover",
+      "potsdam-hpi", "ruhr-bochum", "rwth-aachen", "stuttgart", "th-koeln",
+      "tu-berlin", "tu-darmstadt", "tu-dortmund", "tu-dresden", "tuebingen",
     ].sort());
+    expect(idsWith("Winter ’26 open")).toEqual([]);
+    expect(idsWith("Summer ’27 open")).toEqual([
+      "htw-berlin",
+    ].sort());
+    expect(idsWith("Winter ’27 open")).toEqual([]);
     expect(idsWith("No CS intake ’27")).toEqual([
       "charite-berlin", "goethe-frankfurt", "humboldt-berlin", "lmu",
     ].sort());
+    expect(rows.flatMap((row) => row.tags ?? []).some((tag) => tag.includes("upcoming"))).toBe(false);
+  });
+  it("marks every German university as exactly public or private", () => {
+    const rows = getDatasets("germany").universities?.rows ?? [];
+    expect(rows.filter((row) => row.tags?.includes("Public")).map((row) => row.id).sort()).toEqual([
+      "bht-berlin", "bonn", "btu-cottbus", "charite-berlin", "fau", "freiburg", "fu-berlin",
+      "goethe-frankfurt", "goettingen", "hamburg", "heidelberg", "hhu-duesseldorf", "htw-berlin",
+      "humboldt-berlin", "kit", "leibniz-hannover", "lmu", "potsdam-hpi", "ruhr-bochum",
+      "rwth-aachen", "stuttgart", "th-koeln", "tu-berlin", "tu-darmstadt",
+      "tu-dortmund", "tu-dresden", "tuebingen",
+    ].sort());
+    expect(rows.filter((row) => row.tags?.includes("Private")).map((row) => row.id).sort()).toEqual([]);
+  });
+  it("keeps only universities within both the rank and tuition limits", () => {
+    const rows = getDatasets("germany").universities?.rows ?? [];
+    expect(rows).toHaveLength(27);
+    expect(rows.filter((row) => typeof row.values.overallRank !== "number" || row.values.overallRank > 3200).map((row) => row.id)).toEqual([]);
+    expect(rows.filter((row) => typeof row.values.nonEuTuition !== "number" || row.values.nonEuTuition > 5000).map((row) => row.id)).toEqual([]);
+  });
+  it("provides a numeric non-EU tuition amount for every university", () => {
+    const rows = getDatasets("germany").universities?.rows ?? [];
+    expect(rows.filter((row) => typeof row.values.nonEuTuition !== "number").map((row) => row.id)).toEqual([]);
   });
   it("provides an application fee for every university with a suitable 2027 CS intake", () => {
     const rows = getDatasets("germany").universities?.rows ?? [];

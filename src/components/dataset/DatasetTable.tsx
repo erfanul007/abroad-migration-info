@@ -24,9 +24,13 @@ import { cn } from "@/lib/utils";
 const num = (v: number) => formatNumber(v, Number.isInteger(v) ? 0 : 1);
 
 const intakeTagClass = (tag: string) => {
-  if (tag === "Winter ’27 upcoming") return "border-amber-500/30 bg-amber-500/15 text-amber-800 dark:text-amber-300";
+  if (tag === "Public") return "border-sky-500/25 bg-sky-500/10 text-sky-700 dark:text-sky-300";
+  if (tag === "Private") return "border-violet-500/25 bg-violet-500/10 text-violet-700 dark:text-violet-300";
+  if (tag.endsWith(" open")) return "border-emerald-500/30 bg-emerald-500/15 text-emerald-800 dark:text-emerald-300";
   if (tag === "No CS intake ’27") return "border-rose-500/30 bg-rose-500/15 text-rose-800 dark:text-rose-300";
-  return "border-emerald-500/25 bg-emerald-500/10 text-emerald-700 dark:text-emerald-300";
+  if (tag.startsWith("Winter")) return "border-amber-500/30 bg-amber-500/15 text-amber-800 dark:text-amber-300";
+  if (tag.startsWith("Summer")) return "border-teal-500/25 bg-teal-500/10 text-teal-700 dark:text-teal-300";
+  return "border-border bg-muted text-muted-foreground";
 };
 
 /** A sortable comparative table for one supplementary dataset. Score cells render as tier badges,
