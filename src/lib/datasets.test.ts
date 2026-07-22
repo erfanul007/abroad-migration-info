@@ -84,7 +84,7 @@ const universities: ComparativeDataset = {
   rows: [
     { id: "tum", label: "Technical University of Munich (TUM)", sublabel: "Munich, Bavaria", tags: ["Summer ’27"], values: { overallRank: 1 } },
     { id: "lmu", label: "University of Munich (LMU)", sublabel: "Munich, Bavaria", tags: ["No CS intake ’27"], values: { overallRank: 3 } },
-    { id: "rwth", label: "RWTH Aachen University", sublabel: "Aachen, North Rhine-Westphalia", tags: ["Winter ’27 upcoming", "Summer ’27"], values: { overallRank: 2 } },
+    { id: "rwth", label: "RWTH Aachen University", sublabel: "Aachen, North Rhine-Westphalia", tags: ["Winter ’27", "Summer ’27"], values: { overallRank: 2 } },
   ],
 };
 
@@ -93,16 +93,17 @@ describe("deriveFacets", () => {
     const city = deriveFacets(universities).find((f) => f.id === "city");
     expect(city?.options).toEqual(["Munich", "Aachen"]);
   });
-  it("derives an Intake facet from tags, distinct in first-appearance order", () => {
-    const intake = deriveFacets(universities).find((f) => f.id === "intake");
-    expect(intake?.options).toEqual(["Summer ’27", "No CS intake ’27", "Winter ’27 upcoming"]);
+  it("derives a Tags facet from tags, distinct in first-appearance order", () => {
+    const tags = deriveFacets(universities).find((f) => f.id === "tags");
+    expect(tags?.label).toBe("Tags");
+    expect(tags?.options).toEqual(["Summer ’27", "No CS intake ’27", "Winter ’27"]);
   });
   it("getValues returns the row's city and tags", () => {
     const facets = deriveFacets(universities);
     const city = facets.find((f) => f.id === "city")!;
-    const intake = facets.find((f) => f.id === "intake")!;
+    const tags = facets.find((f) => f.id === "tags")!;
     expect(city.getValues(universities.rows[2])).toEqual(["Aachen"]);
-    expect(intake.getValues(universities.rows[2])).toEqual(["Winter ’27 upcoming", "Summer ’27"]);
+    expect(tags.getValues(universities.rows[2])).toEqual(["Winter ’27", "Summer ’27"]);
   });
   it("suppresses a facet with fewer than 2 distinct values", () => {
     const oneCity: ComparativeDataset = {
@@ -131,11 +132,11 @@ describe("filterDatasetRows", () => {
   it("filters by the city facet", () => {
     expect(ids(filterDatasetRows(universities, { query: "", facets: { city: "Munich" } }))).toEqual(["tum", "lmu"]);
   });
-  it("filters by the intake facet (membership in tags)", () => {
-    expect(ids(filterDatasetRows(universities, { query: "", facets: { intake: "Summer ’27" } }))).toEqual(["tum", "rwth"]);
+  it("filters by the tags facet (membership in tags)", () => {
+    expect(ids(filterDatasetRows(universities, { query: "", facets: { tags: "Summer ’27" } }))).toEqual(["tum", "rwth"]);
   });
   it("ANDs query and facets together", () => {
-    expect(ids(filterDatasetRows(universities, { query: "", facets: { city: "Munich", intake: "Summer ’27" } }))).toEqual(["tum"]);
+    expect(ids(filterDatasetRows(universities, { query: "", facets: { city: "Munich", tags: "Summer ’27" } }))).toEqual(["tum"]);
   });
   it("treats an empty facet value as no constraint", () => {
     expect(ids(filterDatasetRows(universities, { query: "", facets: { city: "" } }))).toEqual(["tum", "lmu", "rwth"]);

@@ -1,157 +1,377 @@
 {
   "kind": "cities",
   "countryId": "germany",
-  "title": "German Cities — Opportunity-Card (Chancenkarte) Relocation Scoreboard",
-  "subtitle": "Scored for an experienced Bangladeshi software engineer (4y+ .NET/Python, distributed systems, AI/RAG, enterprise integration): job-search visa → full-time job + EU Blue Card → permanent residency → naturalisation",
+  "title": "German Cities — Job-First Relocation Scoreboard",
+  "subtitle": "Scored for an experienced Bangladeshi software engineer (4y+ .NET/Python, distributed systems, AI/RAG, enterprise integration) using either the Opportunity Card or a student-visa route to skilled full-time work.",
   "scale": "score",
-  "lastReviewed": "2026-07-14",
+  "lastReviewed": "2026-07-21",
   "columns": [
     {
       "id": "jobs",
-      "label": "Mid-level job market & sponsors",
+      "label": "Jobs",
       "shortLabel": "Jobs",
       "kind": "score",
-      "weight": 18,
+      "weight": 22,
       "betterWhen": "high",
       "description": "Depth of full-time demand and visa-sponsoring employers for an experienced (4y+) .NET / Python / AI-RAG / enterprise-integration engineer — enterprise and corporate employers weigh heavily; junior-generalist volume weighs less. Federal data show 59% of 2024 IT vacancies target the 'Experte' level, so experienced hiring is the favourable slice."
     },
     {
       "id": "conv",
-      "label": "Chancenkarte → Blue Card conversion",
-      "shortLabel": "Conv",
+      "label": "Conversion",
+      "shortLabel": "Conversion",
       "kind": "score",
-      "weight": 22,
+      "weight": 18,
       "betterWhen": "high",
-      "description": "Evidence-backed local risk from complete application to permission for full-time Blue Card employment. Appointment waits, authority decision time and eAT production are kept separate; missing official timing is scored conservatively."
+      "description": "Registration friction, responsible authority, route from either current title, and the lawful point at which full-time skilled work can start. Appointment waits, authority decision time and eAT production are kept separate; missing official timing is scored conservatively."
     },
     {
-      "id": "anm",
-      "label": "City registration (Anmeldung)",
-      "shortLabel": "Anm",
+      "id": "scale-pay",
+      "label": "Scale",
+      "shortLabel": "Scale",
       "kind": "score",
       "weight": 12,
       "betterWhen": "high",
-      "description": "Ease of registering the main residence, which establishes the responsible foreigners authority and supplies residence evidence commonly requested for the Blue Card application."
+      "description": "Urban scale, reachable employment base and experienced-software earning power. Uses official city/region employment and BA pay evidence; portal/analytics signals corroborate direction only."
     },
     {
-      "id": "pt",
-      "label": "Part-time / any-field odd jobs",
-      "shortLabel": "PT",
+      "id": "comp",
+      "label": "Competition",
+      "shortLabel": "Competition",
       "kind": "score",
-      "weight": 10,
+      "weight": 9,
       "betterWhen": "high",
-      "description": "Depth of the any-field ≤20 h/week gig market the Chancenkarte permits — gastro, warehouse/logistics, delivery, retail — accessible without German fluency. Bigger population plus a logistics/hospitality base scores higher; 2026 minimum wage €13.90/h."
+      "description": "Applicant saturation for the roles you can realistically land (higher = better odds). An experienced candidate has better odds than a fresh graduate, tempered where English-accessible roles are scarce."
     },
     {
       "id": "rent",
-      "label": "Housing + rent affordability",
-      "shortLabel": "Rent",
+      "label": "Housing",
+      "shortLabel": "Housing",
       "kind": "score",
-      "weight": 6,
+      "weight": 9,
       "betterWhen": "high",
       "description": "New-lease rent level and how findable a flat is for a newcomer with no SCHUFA (higher score = cheaper and easier)."
     },
     {
-      "id": "eng",
-      "label": "English usability (work + admin)",
-      "shortLabel": "Eng",
-      "kind": "score",
-      "weight": 7,
-      "betterWhen": "high",
-      "description": "How far English carries you across the full-time job market and bureaucracy (part-time odd jobs no longer depend on it). English-OK developer roles are heavily concentrated in Berlin and Munich."
-    },
-    {
-      "id": "safe",
-      "label": "Safety & xenophobia climate",
-      "shortLabel": "Safe",
-      "kind": "score",
-      "weight": 7,
-      "betterWhen": "high",
-      "description": "Physical safety plus far-right / anti-Muslim risk for a visible-minority Muslim couple; anti-Muslim hate crime in Germany is predominantly far-right in origin, so regional far-right strength is the main differentiator."
-    },
-    {
-      "id": "comp",
-      "label": "Competition / your odds (mid-level)",
-      "shortLabel": "Comp",
-      "kind": "score",
-      "weight": 6,
-      "betterWhen": "high",
-      "description": "Applicant saturation for the roles you can realistically land (higher = better odds). Federal data show the 2024 saturation is concentrated among under-35 juniors, so an experienced candidate faces easier odds than a fresh graduate — tempered where English-OK roles are scarce."
-    },
-    {
       "id": "cost",
-      "label": "Cost of living",
+      "label": "Cost",
       "shortLabel": "Cost",
       "kind": "score",
-      "weight": 5,
+      "weight": 7,
       "betterWhen": "high",
       "description": "Non-rent burn rate — higher score = cheaper, longer runway on part-time income while job-searching."
     },
     {
-      "id": "conn",
-      "label": "Connectivity & facilities",
-      "shortLabel": "Conn",
+      "id": "pt",
+      "label": "Parttime",
+      "shortLabel": "Parttime",
       "kind": "score",
-      "weight": 4,
+      "weight": 6,
+      "betterWhen": "high",
+      "description": "Depth of lawful any-field part-time work available while on an Opportunity Card or as a student, including retail, logistics, hospitality and delivery."
+    },
+    {
+      "id": "eng",
+      "label": "English",
+      "shortLabel": "English",
+      "kind": "score",
+      "weight": 6,
+      "betterWhen": "high",
+      "description": "How far English carries across the skilled job market and practical administration."
+    },
+    {
+      "id": "safe",
+      "label": "Safety",
+      "shortLabel": "Safety",
+      "kind": "score",
+      "weight": 5,
+      "betterWhen": "high",
+      "description": "Physical safety plus far-right and anti-Muslim risk for a visible-minority Muslim couple."
+    },
+    {
+      "id": "conn",
+      "label": "Connectivity",
+      "shortLabel": "Connectivity",
+      "kind": "score",
+      "weight": 3,
       "betterWhen": "high",
       "description": "Air links to Dhaka (all 1-stop at best) plus public transport."
     },
     {
       "id": "comm",
-      "label": "BD/Muslim community + halal",
-      "shortLabel": "Comm",
+      "label": "Community",
+      "shortLabel": "Community",
       "kind": "score",
       "weight": 3,
       "betterWhen": "high",
       "description": "Bangladeshi/South-Asian diaspora, mosques, halal food."
     },
     {
-      "id": "natTime",
-      "label": "Naturalisation context (unscored)",
-      "shortLabel": "Naturalisation",
-      "kind": "text"
-    },
-    {
       "id": "population",
-      "label": "Population (city proper)",
-      "shortLabel": "Pop.",
+      "label": "Population",
+      "shortLabel": "Population",
       "kind": "number",
       "betterWhen": "high"
     },
     {
       "id": "rentCentre",
-      "label": "1-bed rent, centre",
-      "shortLabel": "1-bed €/mo",
+      "label": "CentreRent",
+      "shortLabel": "CentreRent",
       "kind": "text"
     },
     {
       "id": "rentM2",
-      "label": "New-lease rent",
-      "shortLabel": "€/m²",
+      "label": "NewRent",
+      "shortLabel": "NewRent",
       "kind": "number",
       "betterWhen": "low",
       "unit": "€/m²"
     },
     {
       "id": "salary",
-      "label": "Tech salary (junior / mid, gross)",
+      "label": "Salary",
       "shortLabel": "Salary",
       "kind": "text"
     },
     {
       "id": "bdCommunity",
-      "label": "Bangladeshi / Muslim community",
-      "shortLabel": "BD/Muslim community",
+      "label": "Diaspora",
+      "shortLabel": "Diaspora",
       "kind": "text"
     },
     {
       "id": "embassy",
-      "label": "Bangladesh embassy access",
-      "shortLabel": "BD embassy",
+      "label": "Embassy",
+      "shortLabel": "Embassy",
       "kind": "text"
     }
   ],
   "rows": [
+    {
+      "id": "brandenburg-an-der-havel",
+      "label": "Brandenburg an der Havel",
+      "sublabel": "Brandenburg",
+      "tags": [
+        "Berlin commuter",
+        "RE1",
+        "hybrid-friendly"
+      ],
+      "location": {
+        "lat": 52.4125,
+        "lng": 12.5316,
+        "label": "Brandenburg an der Havel city centre",
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Brandenburg%20an%20der%20Havel&count=1"
+      },
+      "values": {
+        "jobs": 40,
+        "conv": 52,
+        "scale-pay": 48,
+        "pt": 52,
+        "rent": 72,
+        "eng": 32,
+        "safe": 45,
+        "comp": 62,
+        "cost": 78,
+        "conn": 64,
+        "comm": 32,
+        "population": 73945,
+        "rentCentre": "No official single newcomer 1-bed figure published",
+        "bdCommunity": "No municipal official Bangladeshi/Muslim count found; Berlin facilities are reachable by rail",
+        "embassy": "Bangladesh Embassy Berlin reachable by RE1/S-Bahn; allow for onward travel"
+      },
+      "detail": {
+        "summary": "A formal independent city with a direct RE1 corridor to Berlin, but a much smaller local labour and English-language market than Potsdam or Berlin.",
+        "note": "The city publishes an appointment/contact-form foreigners-authority channel, not an initial Blue-Card decision time. The conversion score is conservative and does not infer a queue length.",
+        "pros": [
+          {
+            "text": "Direct RE1 service gives access to Berlin's job market; the city has 73,945 residents in the official 31 December 2025 statistics."
+          },
+          {
+            "text": "The city publishes a 2026 Mietspiegel and a local registration service."
+          }
+        ],
+        "cons": [
+          {
+            "text": "BA's March 2026 city data show a 9.0% unemployment rate and 802 registered social-insurance vacancies, not a demonstrated English-speaking software-sponsor market."
+          },
+          {
+            "text": "No official city-specific Blue Card decision time or Bangladeshi/Muslim population count was found."
+          }
+        ],
+        "links": [
+          {
+            "title": "Ausländerbehörde — Brandenburg an der Havel",
+            "url": "https://www.stadt-brandenburg.de/struktur/auslaenderbehoerde"
+          },
+          {
+            "title": "Mietspiegel 2026 — Brandenburg an der Havel",
+            "url": "https://www.stadt-brandenburg.de/mietspiegel"
+          },
+          {
+            "title": "VBB RE1",
+            "url": "https://www.vbb.de/unterwegs-im-vbb/regionalbahnlinien/re1/"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Not published (initial Blue-Card decision)",
+          "timeScope": "The municipal authority publishes appointment/contact-form access but no Blue-Card-specific decision or employment-authorisation time; eAT production is an additional federal production step, not a decision time.",
+          "applicationChannel": "Appointment/contact form with Brandenburg an der Havel Ausländerbehörde; register the main residence with the city first.",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): full-time Blue Card employment is permitted only once the authority initiates card issuance after a positive decision and records this on the Fiktionsbescheinigung.",
+          "confidence": "low",
+          "asOf": "2026-07"
+        }
+      }
+    },
+    {
+      "id": "cottbus",
+      "label": "Cottbus",
+      "sublabel": "Brandenburg",
+      "tags": [
+        "Berlin commuter",
+        "RE2",
+        "hybrid-friendly"
+      ],
+      "location": {
+        "lat": 51.7563,
+        "lng": 14.3329,
+        "label": "Cottbus city centre",
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Cottbus&count=1"
+      },
+      "values": {
+        "jobs": 46,
+        "conv": 50,
+        "scale-pay": 50,
+        "pt": 54,
+        "rent": 86,
+        "eng": 36,
+        "safe": 42,
+        "comp": 60,
+        "cost": 84,
+        "conn": 52,
+        "comm": 38,
+        "population": 95140,
+        "rentCentre": "Qualified municipal Mietspiegel; no official single newcomer 1-bed figure published",
+        "bdCommunity": "No municipal official Bangladeshi/Muslim count found",
+        "embassy": "Bangladesh Embassy Berlin requires a long regional-rail journey"
+      },
+      "detail": {
+        "summary": "A substantial, low-cost regional city with its own authority and a direct RE2 link, but VBB's approximately 90-minute Berlin journey makes it a hybrid option rather than a routine daily commute recommendation.",
+        "note": "The city office is appointment-based and advises applicants to contact it if no slot appears within six weeks; this is an intake instruction, not a Blue-Card processing SLA.",
+        "pros": [
+          {
+            "text": "Cottbus is a 95,140-resident kreisfreie Stadt and maintains a qualified Mietspiegel, with materially more local institutional depth than a small rail suburb."
+          },
+          {
+            "text": "VBB runs RE2 daily between the Berlin corridor and Cottbus."
+          }
+        ],
+        "cons": [
+          {
+            "text": "The city administration's 2026 integration paper identifies lower regional wages and SME capacity as risks for Blue Card thresholds and English-language employment."
+          },
+          {
+            "text": "No official initial Blue-Card decision time, sponsored-software vacancy count, or municipal community count was found."
+          }
+        ],
+        "links": [
+          {
+            "title": "Ausländerbehörde — Cottbus",
+            "url": "https://cottbus.de/verwaltung/gb-3/dz-3-1/fb-33-buergerservice/auslaenderbehoerde/"
+          },
+          {
+            "title": "Mietspiegel — Cottbus",
+            "url": "https://cottbus.de/verwaltung/gb-3/dz-3-1/fb-33-buergerservice/mietspiegel-2024-der-kreisfreien-stadt-cottbus-chosebuz/"
+          },
+          {
+            "title": "VBB RE2",
+            "url": "https://www.vbb.de/unterwegs-im-vbb/regionalbahnlinien/re2/"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Not published (initial Blue-Card decision)",
+          "timeScope": "Published service information covers appointment/e-mail access only; it does not state a Blue-Card decision time. eAT production is an additional federal production step, not a decision time.",
+          "applicationChannel": "Appointment/e-mail with Cottbus Ausländerbehörde after city registration; the student service is not assumed to cover general skilled-worker cases.",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): full-time Blue Card employment is permitted only once the authority initiates card issuance after a positive decision and records this on the Fiktionsbescheinigung.",
+          "confidence": "low",
+          "asOf": "2026-07"
+        }
+      }
+    },
+    {
+      "id": "frankfurt-oder",
+      "label": "Frankfurt (Oder)",
+      "sublabel": "Brandenburg",
+      "tags": [
+        "Berlin commuter",
+        "RE1",
+        "hybrid-friendly"
+      ],
+      "location": {
+        "lat": 52.3471,
+        "lng": 14.5506,
+        "label": "Frankfurt (Oder) city centre",
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Frankfurt%20(Oder)&count=1"
+      },
+      "values": {
+        "jobs": 38,
+        "conv": 50,
+        "scale-pay": 48,
+        "pt": 48,
+        "rent": 88,
+        "eng": 38,
+        "safe": 40,
+        "comp": 64,
+        "cost": 84,
+        "conn": 60,
+        "comm": 44,
+        "population": 56586,
+        "rentCentre": "Qualified municipal Mietspiegel; no official single newcomer 1-bed figure published",
+        "bdCommunity": "No municipal official Bangladeshi/Muslim count found",
+        "embassy": "Bangladesh Embassy Berlin reachable by RE1 plus local travel"
+      },
+      "detail": {
+        "summary": "An exceptionally affordable, direct-RE1 city for a hybrid Berlin role, but not a substitute for Berlin's local job, English, or community depth.",
+        "note": "Frankfurt (Oder) has municipal registration access and a city Ausländerbehörde, but its published material does not provide an initial Blue-Card timeline.",
+        "pros": [
+          {
+            "text": "The 2026 qualified Mietspiegel provides a current local rent reference and RE1 directly serves Berlin's eastern and central corridor in normal operation."
+          },
+          {
+            "text": "The municipal Bürgerbüro combines appointment and walk-in periods for registration."
+          }
+        ],
+        "cons": [
+          {
+            "text": "BA's March 2026 city data report 10.0% unemployment and 423 registered social-insurance vacancies; neither figure establishes a local sponsored tech market."
+          },
+          {
+            "text": "No official city-specific Blue Card decision time, English-role count, or anti-Muslim incident series was found."
+          }
+        ],
+        "links": [
+
+          {
+            "title": "City administration office directory — Frankfurt (Oder)",
+            "url": "https://www.frankfurt-oder.de/Verwaltung-Stadtpolitik/Verwaltung/%C3%84mterverzeichnis/index.php?KatID=1.100&La=1&ModID=9&NavID=2616.16&TypSel=1.100&k_sub=1&kat=1.100&kuo=1&object=tx%7C4071.1.1&ofs_1=25&sfort=1"
+          },
+          {
+            "title": "Mietspiegel — Frankfurt (Oder)",
+            "url": "https://www.frankfurt-oder.de/Verwaltung-Politik/Verwaltung/Stadtentwicklung/Wohnen-in-Frankfurt-Oder-/Mietspiegel/"
+          },
+          {
+            "title": "VBB RE1",
+            "url": "https://www.vbb.de/unterwegs-im-vbb/regionalbahnlinien/re1/"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Not published (initial Blue-Card decision)",
+          "timeScope": "Municipal service information establishes the responsible city authority and registration channel, but no Blue-Card decision or employment-authorisation duration. eAT production is an additional federal production step, not a decision time.",
+          "applicationChannel": "City Ausländerbehörde after registration with the Bürgerbüro; confirm the skilled-worker appointment route directly with the authority.",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): full-time Blue Card employment is permitted only once the authority initiates card issuance after a positive decision and records this on the Fiktionsbescheinigung.",
+          "confidence": "low",
+          "asOf": "2026-07"
+        }
+      }
+    },
     {
       "id": "hamburg",
       "label": "Hamburg",
@@ -160,12 +380,12 @@
         "lat": 53.5503,
         "lng": 9.992,
         "label": "Hamburg city centre",
-        "sourceUrl": "https://www.openstreetmap.org/search?query=Hamburg%20city%20centre"
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Hamburg&count=1"
       },
       "values": {
         "jobs": 74,
         "conv": 70,
-        "anm": 62,
+        "scale-pay": 83,
         "pt": 80,
         "rent": 66,
         "eng": 72,
@@ -174,7 +394,6 @@
         "cost": 60,
         "conn": 70,
         "comm": 82,
-        "natTime": "Naturalisation ~14 months; 26,000+ applications pending (2024 reform surge), easing by ~2027",
         "population": 1860000,
         "rentCentre": "€700–950",
         "rentM2": 14,
@@ -184,7 +403,7 @@
       },
       "detail": {
         "summary": "The best all-rounder for this plan — no weak link in the land-and-convert core, and a strong any-field part-time base.",
-        "note": "Official decision time circa 4–8 weeks (authority processing after a complete application); the appointment intake wait and Bundesdruckerei eAT production are extra and unpublished. The Hamburg Welcome Center for Professionals runs a dedicated skilled-worker channel. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "note": "Official decision time circa 4–8 weeks (authority processing after a complete application); the appointment intake wait and Bundesdruckerei eAT production are extra and unpublished. The Hamburg Welcome Center for Professionals runs a dedicated skilled-worker channel.",
         "pros": [
           {
             "text": "The Hamburg Welcome Center for Professionals runs a dedicated, English-friendly skilled-worker channel; the authority publishes a circa 4–8 week decision time (processing after a complete application — not counting the appointment wait or eAT card production)."
@@ -199,19 +418,12 @@
         "cons": [
           {
             "text": "Deep-tech/AI-research depth trails Berlin/Munich; English-OK developer roles are a thin slice (~6 on EnglishJobs.de)."
-          },
-          {
-            "text": "Naturalisation backlog (~26,000 pending, ~14 months) makes the citizenship tail slow; Anmeldung slots go fast."
           }
         ],
         "links": [
           {
             "title": "Hamburg Welcome Center for Professionals — EU Blue Card",
             "url": "https://welcome.hamburg.com/entry-and-residence/residence-permit/eu-blue-card-17644"
-          },
-          {
-            "title": "Mediendienst Integration — naturalisation backlog survey (2026)",
-            "url": "https://mediendienst-integration.de/bevoelkerung/einbuergerung/unbearbeitete-einbuergerungsantraege/"
           }
         ],
         "immigration": {
@@ -220,8 +432,7 @@
           "applicationChannel": "Hamburg online residence-permit service; skilled-worker cases route through the Hamburg Welcome Center for Professionals (a dedicated unit)",
           "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
           "confidence": "medium",
-          "asOf": "2026-07",
-          "naturalisation": "~14 months; 26,000+ applications pending after the 2024 reform surge, projected to ease by roughly 2027 (context only)"
+          "asOf": "2026-07"
         }
       }
     },
@@ -233,12 +444,12 @@
         "lat": 49.0069,
         "lng": 8.4037,
         "label": "Karlsruhe city centre",
-        "sourceUrl": "https://www.openstreetmap.org/search?query=Karlsruhe%20city%20centre"
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Karlsruhe&count=1"
       },
       "values": {
         "jobs": 66,
         "conv": 63,
-        "anm": 82,
+        "scale-pay": 82,
         "pt": 58,
         "rent": 74,
         "eng": 64,
@@ -247,7 +458,6 @@
         "cost": 72,
         "conn": 58,
         "comm": 56,
-        "natTime": "Naturalisation ~20 months; clearing mid-2024 filings despite doubled staff",
         "population": 309000,
         "rentCentre": "~€880",
         "rentM2": 13.7,
@@ -257,7 +467,7 @@
       },
       "detail": {
         "summary": "An under-the-radar enterprise-software fit with excellent Anmeldung access; the city publishes a circa 4–8 week authority decision time and low case-load keeps the 12-month clock manageable.",
-        "note": "Official decision time circa 4–8 weeks (authority processing after complete documents); the appointment intake wait and eAT production are extra and unpublished. Online application; the §81a accelerated skilled-worker procedure is signposted. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "note": "Official decision time circa 4–8 weeks (authority processing after complete documents); the appointment intake wait and eAT production are extra and unpublished. Online application; the §81a accelerated skilled-worker procedure is signposted.",
         "pros": [
           {
             "text": "Low case-load plus digital intake means the 12-month clock is least at risk here."
@@ -290,8 +500,7 @@
           "applicationChannel": "Online application (data + document upload) to the Stadt Karlsruhe foreigners authority; the §81a accelerated skilled-worker procedure is signposted",
           "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
           "confidence": "medium",
-          "asOf": "2026-07",
-          "naturalisation": "~20 months; clearing mid-2024 filings despite doubled staff (context only)"
+          "asOf": "2026-07"
         }
       }
     },
@@ -303,12 +512,12 @@
         "lat": 48.1374,
         "lng": 11.5755,
         "label": "Munich city centre",
-        "sourceUrl": "https://www.openstreetmap.org/search?query=Munich%20city%20centre"
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Munich&count=1"
       },
       "values": {
         "jobs": 90,
         "conv": 46,
-        "anm": 68,
+        "scale-pay": 92,
         "pt": 80,
         "rent": 34,
         "eng": 74,
@@ -317,7 +526,6 @@
         "cost": 44,
         "conn": 80,
         "comm": 74,
-        "natTime": "Naturalisation 18+ months (KVR); ~40,200 pending — largest single-city backlog",
         "population": 1510000,
         "rentCentre": "€1,400–1,800",
         "rentM2": 22,
@@ -327,7 +535,7 @@
       },
       "detail": {
         "summary": "The strongest job market in Germany for this profile, taxed hard by cost and a long — though transparently published — conversion queue.",
-        "note": "Official 'up to 7 months' Bearbeitungszeit — a worst-case ceiling for the authority decision under current volumes, not a typical time; eAT production is extra, and full-time work can begin earlier via a §81(5a) Fiktionsbescheinigung at the decision. Fully digital lodging through a dedicated international-skilled-worker service centre. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "note": "Official 'up to 7 months' Bearbeitungszeit — a worst-case ceiling for the authority decision under current volumes, not a typical time; eAT production is extra, and full-time work can begin earlier via a §81(5a) Fiktionsbescheinigung at the decision. Fully digital lodging through a dedicated international-skilled-worker service centre.",
         "pros": [
           {
             "text": "Deepest enterprise + AI market (Big Tech R&D, BMW/Siemens/Allianz, unicorns); high salaries clear the Blue Card bar easily and experienced hiring is favoured."
@@ -339,29 +547,21 @@
         "cons": [
           {
             "text": "Germany's most expensive city — rent (~€22/m²) and fierce flat competition are brutal on Chancenkarte funds; this is what drags the overall down."
-          },
-          {
-            "text": "Largest naturalisation backlog in Germany (~40,200 pending, 18+ months) slows the citizenship endpoint."
           }
         ],
         "links": [
           {
             "title": "EU Blue Card — Servicestelle für Zuwanderung, München",
             "url": "https://stadt.muenchen.de/service/en-GB/info/hauptabteilung-ii-buergerangelegenheiten-auslaenderangelegenheiten-service-center-fuer-internationale-fachkraefte/10422541/"
-          },
-          {
-            "title": "Stadt München — naturalisation processing time (18+ months)",
-            "url": "https://stadt.muenchen.de/news/einbuergerung-bearbeitungszeit.html"
           }
         ],
         "immigration": {
           "publishedTime": "Up to 7 months (authority decision, worst-case ceiling)",
           "timeScope": "Official maximum Bearbeitungszeit; best read as online-submission to the authority decision under current volumes (queue-dominated). eAT production (~4–6 weeks) is additional; full-time work may begin at the decision via a §81(5a) Fiktionsbescheinigung",
-          "applicationChannel": "Fully digital application to the Servicestelle für Zuwanderung und Einbürgerung (dedicated Service Center für internationale Fachkräfte)",
+          "applicationChannel": "Fully digital application to the Servicestelle für Zuwanderung (dedicated service centre for international skilled workers)",
           "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
           "confidence": "high",
-          "asOf": "2026-07",
-          "naturalisation": "18+ months (official KVR); ~40,200 applications pending — the largest single-city backlog (context only)"
+          "asOf": "2026-07"
         }
       }
     },
@@ -373,12 +573,12 @@
         "lat": 51.3397,
         "lng": 12.3731,
         "label": "Leipzig city centre",
-        "sourceUrl": "https://www.openstreetmap.org/search?query=Leipzig%20city%20centre"
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Leipzig&count=1"
       },
       "values": {
         "jobs": 57,
         "conv": 62,
-        "anm": 78,
+        "scale-pay": 62,
         "pt": 78,
         "rent": 88,
         "eng": 56,
@@ -387,7 +587,6 @@
         "cost": 84,
         "conn": 54,
         "comm": 44,
-        "natTime": "Naturalisation ~11,400 waiting (Feb 2025); reported waits exceed ~3.5 years",
         "population": 634000,
         "rentCentre": "~€700",
         "rentM2": 10,
@@ -397,7 +596,7 @@
       },
       "detail": {
         "summary": "The low-cost big-city option with strong Anmeldung access and a published ~4-week authority decision time; held back by thinner jobs and safety concerns.",
-        "note": "Official decision time about 4 weeks (authority processing after complete documents; excludes degree recognition, biometrics and eAT production). Fully online application; the authority posts the biometric appointment after a positive decision. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "note": "Official decision time about 4 weeks (authority processing after complete documents; excludes degree recognition, biometrics and eAT production). Fully online application; the authority posts the biometric appointment after a positive decision.",
         "pros": [
           {
             "text": "Cheapest rents and cost of living in the set — a huge runway extension — plus DHL's global air-freight hub (7,000+) and an Amazon fulfilment centre give deep warehouse/logistics part-time work."
@@ -430,8 +629,7 @@
           "applicationChannel": "Fully online application to the Stadt Leipzig foreigners authority; after a positive decision the authority sends the biometric appointment by post (§81a / Saxon AKZESS accelerated procedure available)",
           "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
           "confidence": "medium",
-          "asOf": "2026-07",
-          "naturalisation": "Severe backlog — ~11,400 applicants waiting (Feb 2025); reported waits exceed ~3.5 years (context only)"
+          "asOf": "2026-07"
         }
       }
     },
@@ -443,12 +641,12 @@
         "lat": 51.2277,
         "lng": 6.7735,
         "label": "Düsseldorf city centre",
-        "sourceUrl": "https://www.openstreetmap.org/search?query=D%C3%BCsseldorf%20city%20centre"
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=D%C3%BCsseldorf&count=1"
       },
       "values": {
         "jobs": 62,
         "conv": 54,
-        "anm": 64,
+        "scale-pay": 78,
         "pt": 72,
         "rent": 58,
         "eng": 74,
@@ -457,7 +655,6 @@
         "cost": 58,
         "conn": 74,
         "comm": 66,
-        "natTime": "Naturalisation ~12–30 months after the 2024 reform surge",
         "population": 659000,
         "rentCentre": "~€1,080",
         "rentM2": 13,
@@ -467,7 +664,7 @@
       },
       "detail": {
         "summary": "Corporate, English-friendly, efficient — a quietly strong operational choice.",
-        "note": "No published decision time. A single online portal handles both the Chancenkarte and the Blue Card switch, with an AI-assisted completeness pre-check; there is no dedicated skilled-worker unit. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "note": "No published decision time. A single online portal handles both the Chancenkarte and the Blue Card switch, with an AI-assisted completeness pre-check; there is no dedicated skilled-worker unit.",
         "pros": [
           {
             "text": "One of Germany's most English-friendly corporate markets (Vodafone, Henkel, Metro, Trivago, Amazon) with enterprise-integration demand."
@@ -500,9 +697,9 @@
           "applicationChannel": "Single online portal for both the Chancenkarte and the Blue Card switch (Aufenthalt-Navigator + AI completeness pre-check); no dedicated skilled-worker unit",
           "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
           "confidence": "low",
-          "asOf": "2026-07",
-          "naturalisation": "~12–30 months after the 2024 reform surge (context only)"
+          "asOf": "2026-07"
         }
+
       }
     },
     {
@@ -513,12 +710,12 @@
         "lat": 49.4521,
         "lng": 11.0767,
         "label": "Nuremberg city centre",
-        "sourceUrl": "https://www.openstreetmap.org/search?query=Nuremberg%20city%20centre"
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Nuremberg&count=1"
       },
       "values": {
         "jobs": 68,
         "conv": 61,
-        "anm": 76,
+        "scale-pay": 82,
         "pt": 66,
         "rent": 80,
         "eng": 48,
@@ -527,7 +724,6 @@
         "cost": 78,
         "conn": 58,
         "comm": 58,
-        "natTime": "Naturalisation: Bavarian offices ~1–2 years+; no precise Nuremberg figure",
         "population": 531000,
         "rentCentre": "~€780",
         "rentM2": 10.3,
@@ -537,7 +733,7 @@
       },
       "detail": {
         "summary": "Bavarian quality of life without Munich prices, and an unusually good fit for an enterprise-.NET profile — but a small English-first job pool.",
-        "note": "No published decision time; the city runs a dedicated online Blue Card self-service with invitation-based intake. DATEV makes it an unusually strong enterprise-.NET fit. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "note": "No published decision time; the city runs a dedicated online Blue Card self-service with invitation-based intake. DATEV makes it an unusually strong enterprise-.NET fit.",
         "pros": [
           {
             "text": "DATEV (a very large .NET/enterprise employer), Siemens and Fraunhofer IIS (applied AI) make this a strong match for the applicant's exact stack; experienced hiring is favoured over juniors."
@@ -570,8 +766,7 @@
           "applicationChannel": "Dedicated online Blue Card self-service of the Amt für Migration und Integration; after submission the authority invites you to an appointment by letter",
           "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
           "confidence": "low",
-          "asOf": "2026-07",
-          "naturalisation": "Bavarian offices carry 1–2 year+ backlogs; no precise Nuremberg figure published (context only)"
+          "asOf": "2026-07"
         }
       }
     },
@@ -583,12 +778,12 @@
         "lat": 48.7758,
         "lng": 9.1829,
         "label": "Stuttgart city centre",
-        "sourceUrl": "https://www.openstreetmap.org/search?query=Stuttgart%20city%20centre"
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Stuttgart&count=1"
       },
       "values": {
         "jobs": 78,
         "conv": 46,
-        "anm": 74,
+        "scale-pay": 88,
         "pt": 68,
         "rent": 56,
         "eng": 58,
@@ -597,7 +792,6 @@
         "cost": 54,
         "conn": 62,
         "comm": 72,
-        "natTime": "Naturalisation ~10,000 pending; dedicated dept; ~319 days–21 months",
         "population": 606000,
         "rentCentre": "~€990",
         "rentM2": 15,
@@ -607,7 +801,7 @@
       },
       "detail": {
         "summary": "Deep automotive/industrial and enterprise tech — a strong .NET/integration fit — but expensive, German-leaning, and slow to convert.",
-        "note": "The authority posts an honest volume warning — 'longer processing times' — but publishes no number; a multilingual online application portal routes to a named Fachkräfte-und-Migration team. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "note": "The authority posts an honest volume warning — 'longer processing times' — but publishes no number; a multilingual online application portal routes to a named Fachkräfte-und-Migration team.",
         "pros": [
           {
             "text": "Big sponsors (Bosch, Mercedes, Porsche, IBM, HPE) and ~4,000+ IT roles with heavy enterprise-integration demand; good Anmeldung availability; safe western BW."
@@ -637,8 +831,7 @@
           "applicationChannel": "Multilingual online application portal → online appointment (konsentas); handled by the dedicated Sachgebiet 3 'Fachkräfte und Migration' team",
           "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
           "confidence": "medium",
-          "asOf": "2026-07",
-          "naturalisation": "Dedicated Einbürgerung department (~41 posts); ~10,000 cases pending, ~319 days–21 months (context only)"
+          "asOf": "2026-07"
         }
       }
     },
@@ -650,12 +843,12 @@
         "lat": 52.52,
         "lng": 13.405,
         "label": "Berlin city centre",
-        "sourceUrl": "https://www.openstreetmap.org/search?query=Berlin%20city%20centre"
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Berlin&count=1"
       },
       "values": {
         "jobs": 88,
         "conv": 50,
-        "anm": 42,
+        "scale-pay": 90,
         "pt": 85,
         "rent": 46,
         "eng": 84,
@@ -664,7 +857,6 @@
         "cost": 62,
         "conn": 72,
         "comm": 84,
-        "natTime": "Naturalisation heavily backlogged (40,000+ legacy + ~75,000 newer); record delay lawsuits in 2025; no forecast",
         "population": 3700000,
         "rentCentre": "€1,200–1,500",
         "rentM2": 15.8,
@@ -674,7 +866,7 @@
       },
       "detail": {
         "summary": "The tech and AI capital with the best English access — and still the biggest cautionary tale for a time-boxed visa.",
-        "note": "The LEA publishes no pre-appointment/decision total; the online Blue Card application (mandatory since April 2025) is reviewed before an appointment is assigned. The published 4–6 weeks is eAT card production after a positive decision, not total conversion time. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "note": "The LEA publishes no pre-appointment/decision total; the online Blue Card application (mandatory since April 2025) is reviewed before an appointment is assigned. The published 4–6 weeks is eAT card production after a positive decision, not total conversion time.",
         "pros": [
           {
             "text": "Deepest, most diverse market (startups, fintech, AI/ML near full employment) with by far the most English-navigable environment in Germany — the applicant's AI/RAG edge lands best here."
@@ -686,19 +878,12 @@
         "cons": [
           {
             "text": "The LEA does not publish the pre-appointment total; scarce Bürgeramt capacity and high case volume make the process less predictable."
-          },
-          {
-            "text": "Scarce, competitive housing; naturalisation deeply backlogged (40,000+ legacy plus ~75,000 newer applications) with no reliable forecast."
           }
         ],
         "links": [
           {
             "title": "Making appointments — Berlin.de (Immigration/LEA)",
             "url": "https://www.berlin.de/einwanderung/en/services/appointments/"
-          },
-          {
-            "title": "Berlin.de — Einbürgerung (LEA centralised, digital application)",
-            "url": "https://www.berlin.de/einwanderung/einbuergerung/"
           }
         ],
         "immigration": {
@@ -707,8 +892,7 @@
           "applicationChannel": "Online Blue Card application (mandatory since April 2025); the LEA reviews documents, then assigns an in-person appointment (the §81a Business Immigration Service is an employer/abroad route, not this in-country switch)",
           "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
           "confidence": "medium",
-          "asOf": "2026-07",
-          "naturalisation": "Heavily backlogged — 40,000+ legacy plus ~75,000 newer applications, with record 'failure-to-act' lawsuits in 2025 and no reliable wait forecast (context only)"
+          "asOf": "2026-07"
         }
       }
     },
@@ -720,12 +904,12 @@
         "lat": 50.1109,
         "lng": 8.6821,
         "label": "Frankfurt city centre",
-        "sourceUrl": "https://www.openstreetmap.org/search?query=Frankfurt%20city%20centre"
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Frankfurt&count=1"
       },
       "values": {
         "jobs": 80,
         "conv": 52,
-        "anm": 50,
+        "scale-pay": 84,
         "pt": 80,
         "rent": 48,
         "eng": 74,
@@ -734,7 +918,6 @@
         "cost": 52,
         "conn": 84,
         "comm": 82,
-        "natTime": "Naturalisation via RP Darmstadt (large regional backlog); Frankfurt waits up to ~28 months",
         "population": 781000,
         "rentCentre": "~€1,200",
         "rentM2": 18,
@@ -743,8 +926,8 @@
         "embassy": "Full service: Berlin embassy (~550 km); honorary consulate in Frankfurt (upgrade planned 2025)"
       },
       "detail": {
-        "summary": "Best global connectivity and finance/enterprise-integration depth; admin is improving (appointment waits cut from ~20 months to ~3), though cost is high and the regional citizenship tail is the worst in the set.",
-        "note": "The foreigners authority cut appointment waits from up to 20 months to ~3 months on average (official, Jan 2026) and offers a 12-language online application; the substantive decision time is unpublished, and a Blue Card at the general threshold needs no Federal Employment Agency approval. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "summary": "Best global connectivity and finance/enterprise-integration depth; admin is improving (appointment waits cut from ~20 months to ~3), though cost is high",
+        "note": "The foreigners authority cut appointment waits from up to 20 months to ~3 months on average (official, Jan 2026) and offers a 12-language online application; the substantive decision time is unpublished, and a Blue Card at the general threshold needs no Federal Employment Agency approval.",
         "pros": [
           {
             "text": "FRA is Germany's largest hub — the best Dhaka 1-stop options; finance/fintech and enterprise-integration jobs frequently in English; strong pay-to-cost ratio."
@@ -756,9 +939,6 @@
         "cons": [
           {
             "text": "Ausländerbehörde appointments up to ~4 months; Bürgeramt slots vanish instantly."
-          },
-          {
-            "text": "Germany's 2nd-costliest city, and naturalisation via RP Darmstadt (large regional backlog; Frankfurt waits up to ~28 months) is among the slowest citizenship routes in the set."
           }
         ],
         "links": [
@@ -777,8 +957,7 @@
           "applicationChannel": "Online application (12 languages) to the Frankfurt Ausländerbehörde; a Blue Card at the general salary threshold needs no Federal Employment Agency approval (§81a exists but is an abroad/entry route)",
           "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
           "confidence": "medium",
-          "asOf": "2026-07",
-          "naturalisation": "Handled by Regierungspräsidium Darmstadt (one of Germany's largest regional backlogs; Frankfurt waits up to ~28 months) — a separate authority, not a proxy for Blue Card processing (context only)"
+          "asOf": "2026-07"
         }
       }
     },
@@ -790,12 +969,12 @@
         "lat": 50.9375,
         "lng": 6.9603,
         "label": "Cologne city centre",
-        "sourceUrl": "https://www.openstreetmap.org/search?query=Cologne%20city%20centre"
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Cologne&count=1"
       },
       "values": {
         "jobs": 70,
         "conv": 56,
-        "anm": 55,
+        "scale-pay": 75,
         "pt": 76,
         "rent": 52,
         "eng": 62,
@@ -804,7 +983,6 @@
         "cost": 60,
         "conn": 70,
         "comm": 74,
-        "natTime": "Naturalisation slow — ~1.5–2 years end-to-end",
         "population": 1100000,
         "rentCentre": "~€1,040",
         "rentM2": 14.8,
@@ -814,7 +992,7 @@
       },
       "detail": {
         "summary": "Diversified and welcoming, with a broad enterprise market — but middling on the operational gates.",
-        "note": "No published decision time; a dedicated 'Arbeitsmigration' unit takes the Blue Card application online. Anmeldung offers walk-in registration on Mondays and Wednesdays. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "note": "No published decision time; a dedicated 'Arbeitsmigration' unit takes the Blue Card application online. Anmeldung offers walk-in registration on Mondays and Wednesdays.",
         "pros": [
           {
             "text": "Broad market (DeepL, REWE, Ford, RTL, AXA; 2,000+ SWE postings) with real enterprise and AI demand; large, diverse, low-far-right city; deep NRW part-time base."
@@ -847,8 +1025,7 @@
           "applicationChannel": "Online Blue Card application to the dedicated 'Arbeitsmigration' labour-migration unit; the authority reviews, then invites you to a card-collection appointment",
           "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
           "confidence": "low",
-          "asOf": "2026-07",
-          "naturalisation": "Slow — roughly 1.5–2 years end-to-end (~12-month first-appointment wait plus processing) (context only)"
+          "asOf": "2026-07"
         }
       }
     },
@@ -860,12 +1037,12 @@
         "lat": 51.0504,
         "lng": 13.7373,
         "label": "Dresden city centre",
-        "sourceUrl": "https://www.openstreetmap.org/search?query=Dresden%20city%20centre"
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Dresden&count=1"
       },
       "values": {
         "jobs": 52,
         "conv": 48,
-        "anm": 80,
+        "scale-pay": 63,
         "pt": 60,
         "rent": 86,
         "eng": 54,
@@ -873,8 +1050,8 @@
         "comp": 56,
         "cost": 82,
         "conn": 48,
+
         "comm": 50,
-        "natTime": "Naturalisation ~31 months to a caseworker (Feb 2026); ~3 years total, worsening",
         "population": 572000,
         "rentCentre": "~€800",
         "rentM2": 9.2,
@@ -884,7 +1061,7 @@
       },
       "detail": {
         "summary": "Cheap and relaxed on registration, but the Blue Card path is email-only with a documented ~3-month appointment wait, and safety is the weakest in the set.",
-        "note": "The authority publishes ~3 months to the in-person appointment plus a 6–8 week decision after documents are submitted (email-only intake; no online portal). eAT production is extra. It issues a Fiktionsbescheinigung only 'sometimes' and does not document §81(5a) early-work permission — so an early full-time start is not assured. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "note": "The authority publishes ~3 months to the in-person appointment plus a 6–8 week decision after documents are submitted (email-only intake; no online portal). eAT production is extra. It issues a Fiktionsbescheinigung only 'sometimes' and does not document §81(5a) early-work permission — so an early full-time start is not assured.",
         "pros": [
           {
             "text": "Very affordable; genuinely relaxed registration — online self-service (processed in ~3 working days) plus walk-in Bürgerbüro slots."
@@ -896,9 +1073,6 @@
         "cons": [
           {
             "text": "Birthplace of PEGIDA, in AfD-stronghold Saxony — the highest far-right/anti-Muslim risk in the set."
-          },
-          {
-            "text": "Effectively 2-stop to Dhaka (small airport); thin web/SaaS/.NET depth; ~3-year naturalisation wait."
           }
         ],
         "links": [
@@ -917,8 +1091,7 @@
           "applicationChannel": "Email to the dedicated Sachgebiet Fachkräfte (no online portal): email + PDFs → invitation with appointment ~2 weeks later → in-person appointment",
           "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a) allows full-time work once the authority initiates card issuance — but Dresden's pages state a Fiktionsbescheinigung is issued only 'sometimes' and do not document §81(5a) employment permission, so an early full-time start here is not assured.",
           "confidence": "medium",
-          "asOf": "2026-07",
-          "naturalisation": "Severe — ~31 months just to reach a caseworker (Feb 2026), ~3 years total, worsening (context only)"
+          "asOf": "2026-07"
         }
       }
     },
@@ -930,12 +1103,12 @@
         "lat": 50.7753,
         "lng": 6.0839,
         "label": "Aachen city centre",
-        "sourceUrl": "https://www.openstreetmap.org/search?query=Aachen%20city%20centre"
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Aachen&count=1"
       },
       "values": {
         "jobs": 48,
         "conv": 50,
-        "anm": 56,
+        "scale-pay": 70,
         "pt": 56,
         "rent": 80,
         "eng": 66,
@@ -944,7 +1117,6 @@
         "cost": 78,
         "conn": 50,
         "comm": 56,
-        "natTime": "Naturalisation ~12–30 months; applications ~2.5× up on 2024",
         "population": 261000,
         "rentCentre": "~€740",
         "rentM2": 10.5,
@@ -954,7 +1126,7 @@
       },
       "detail": {
         "summary": "A superb research town — but the weakest job-seeker market of the sixteen.",
-        "note": "No Blue-Card-specific decision time is published; the StädteRegion authority uses a paper form plus an in-person appointment (no online application, no general skilled-worker unit). A same-office student-context proxy suggests ~6 weeks to process/issue. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "note": "No Blue-Card-specific decision time is published; the StädteRegion authority uses a paper form plus an in-person appointment (no online application, no general skilled-worker unit). A same-office student-context proxy suggests ~6 weeks to process/issue.",
         "pros": [
           {
             "text": "Above-average English (RWTH international scene); affordable border city; safe western NRW."
@@ -987,8 +1159,7 @@
           "applicationChannel": "StädteRegion Aachen (A 33): paper application form + in-person appointment (no online application); a dedicated skilled-worker branch exists only for RWTH/FH staff and researchers",
           "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
           "confidence": "low",
-          "asOf": "2026-07",
-          "naturalisation": "Heavy backlog — applications ~2.5× up on 2024; roughly 12–30 months (context only)"
+          "asOf": "2026-07"
         }
       }
     },
@@ -1000,12 +1171,12 @@
         "lat": 52.3906,
         "lng": 13.0645,
         "label": "Potsdam city centre",
-        "sourceUrl": "https://www.openstreetmap.org/search?query=Potsdam%20city%20centre"
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Potsdam&count=1"
       },
       "values": {
         "jobs": 64,
         "conv": 60,
-        "anm": 64,
+        "scale-pay": 75,
         "pt": 66,
         "rent": 48,
         "eng": 62,
@@ -1014,7 +1185,6 @@
         "cost": 58,
         "conn": 68,
         "comm": 52,
-        "natTime": "Naturalisation ~24 months average (up to ~64); Apr 2026 still on end-2023 intake",
         "population": 188000,
         "rentCentre": "€745–990 (new-build)",
         "rentM2": 16.6,
@@ -1024,7 +1194,7 @@
       },
       "detail": {
         "summary": "Berlin's job market reachable by S-Bahn, but with its own Brandenburg immigration office — dodging Berlin's LEA backlog — and the best embassy access of the set.",
-        "note": "The Migrationsamt publishes no Blue-Card-specific decision time; the widely-cited '2–3 months' is a University of Potsdam Welcome Center caseload warning covering both Potsdam and Berlin offices generally, not an authority Blue Card SLA, and the city online portal excludes the Blue Card. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "note": "The Migrationsamt publishes no Blue-Card-specific decision time; the widely-cited '2–3 months' is a University of Potsdam Welcome Center caseload warning covering both Potsdam and Berlin offices generally, not an authority Blue Card SLA, and the city online portal excludes the Blue Card.",
         "pros": [
           {
             "text": "Real enterprise/AI anchor (SAP Innovation Center / Signavio 400+, HPI and ~25 spin-offs) plus full access to Berlin's market next door."
@@ -1064,8 +1234,7 @@
           "applicationChannel": "Contact form / email to Migrationsamt Potsdam → in-person appointment; the city's online residence-title portal excludes the Blue Card and skilled-worker permits (researchers use the university Welcome Center)",
           "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
           "confidence": "low",
-          "asOf": "2026-07",
-          "naturalisation": "Heavily backlogged — ~24 months average, up to ~64 months; as of Apr 2026 still on end-2023 intake (context only)"
+          "asOf": "2026-07"
         }
       }
     },
@@ -1077,12 +1246,12 @@
         "lat": 51.5136,
         "lng": 7.4653,
         "label": "Dortmund city centre",
-        "sourceUrl": "https://www.openstreetmap.org/search?query=Dortmund%20city%20centre"
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Dortmund&count=1"
       },
       "values": {
         "jobs": 64,
         "conv": 55,
-        "anm": 58,
+        "scale-pay": 68,
         "pt": 80,
         "rent": 82,
         "eng": 58,
@@ -1091,7 +1260,6 @@
         "cost": 78,
         "conn": 64,
         "comm": 68,
-        "natTime": "Naturalisation ~12–30 months; capacity expanding (staff tripled)",
         "population": 603000,
         "rentCentre": "~€600–750",
         "rentM2": 9.5,
@@ -1101,7 +1269,7 @@
       },
       "detail": {
         "summary": "The Ruhr value play — cheap, findable housing, a genuine .NET/enterprise employer base, and Germany's deepest any-field part-time market.",
-        "note": "No published decision time; the Amt für Migration handles the switch through an appointment-based work-migration team (38/2-1). adesso's HQ makes it a genuine .NET/enterprise fit. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "note": "No published decision time; the Amt für Migration handles the switch through an appointment-based work-migration team (38/2-1). adesso's HQ makes it a genuine .NET/enterprise fit.",
         "pros": [
           {
             "text": "adesso (founded here — a very large .NET/Java consultancy), Materna, Wilo and Signal Iduna give a real enterprise-integration fit; median dev pay ~€59k on low costs."
@@ -1116,9 +1284,6 @@
         "cons": [
           {
             "text": "Absolute job depth and English-first roles trail the big hubs; DTM airport is small (DUS/CGN ~40–60 min for 1-stop Dhaka)."
-          },
-          {
-            "text": "Appointment-only intake with no published Blue Card wait; naturalisation runs ~12–30 months."
           }
         ],
         "links": [
@@ -1137,8 +1302,7 @@
           "applicationChannel": "Appointment-based Amt für Migration; the work-migration team 38/2-1 ('Einreise & Erwerbstätigkeit') handles the Blue Card (no online application, no branded fast lane)",
           "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
           "confidence": "low",
-          "asOf": "2026-07",
-          "naturalisation": "~12–30 months after the 2024 reform surge; capacity expanding (context only)"
+          "asOf": "2026-07"
         }
       }
     },
@@ -1150,12 +1314,12 @@
         "lat": 49.8728,
         "lng": 8.6512,
         "label": "Darmstadt city centre",
-        "sourceUrl": "https://www.openstreetmap.org/search?query=Darmstadt%20city%20centre"
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Darmstadt&count=1"
       },
       "values": {
         "jobs": 70,
         "conv": 42,
-        "anm": 66,
+        "scale-pay": 82,
         "pt": 64,
         "rent": 50,
         "eng": 66,
@@ -1164,7 +1328,6 @@
         "cost": 58,
         "conn": 82,
         "comm": 58,
-        "natTime": "Naturalisation via RP Darmstadt (~23,000+ pending; up to ~32 months)",
         "population": 162000,
         "rentCentre": "~€900–1,100",
         "rentM2": 15,
@@ -1173,8 +1336,8 @@
         "embassy": "Full service: Berlin embassy (~500 km); honorary consulate Frankfurt (~30 km)"
       },
       "detail": {
-        "summary": "The 'Digitalstadt' — an exceptional enterprise/AI-and-integration fit next to Frankfurt airport, undercut by a slow front door and the worst regional citizenship queue.",
-        "note": "No official Blue Card decision time is published; the earlier 'six-month' claim could not be verified and has been removed. Applications go by email/post plus an appointment; only the eAT production step (~4–6 weeks) is quantified. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "summary": "The 'Digitalstadt' — an exceptional enterprise/AI-and-integration fit next to Frankfurt airport, undercut by a slow front door.",
+        "note": "No official Blue Card decision time is published; the earlier 'six-month' claim could not be verified and has been removed. Applications go by email/post plus an appointment; only the eAT production step (~4–6 weeks) is quantified.",
         "pros": [
           {
             "text": "Software AG (enterprise integration), Merck, ESA/ESOC, EUMETSAT and T-Systems make this a near-perfect match for a .NET/AI-RAG/integration profile; strong English pockets (ESA international)."
@@ -1186,9 +1349,6 @@
         "cons": [
           {
             "text": "No official end-to-end Blue Card time is published; Rhine-Main rents are high (~€14–16/m² asking) and stock is tight."
-          },
-          {
-            "text": "Naturalisation via RP Darmstadt (~23,000+ pending, up to ~32 months) — one of the worst citizenship tails in the set; small city limits part-time depth."
           }
         ],
         "links": [
@@ -1207,8 +1367,7 @@
           "applicationChannel": "Application by email or post plus an in-person appointment to Darmstadt's Ausländerbehörde (digitales-rathaus portal); a §81a page exists (employer/entry route)",
           "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
           "confidence": "low",
-          "asOf": "2026-07",
-          "naturalisation": "Via Regierungspräsidium Darmstadt — ~23,000+ pending, ~16–20 months to first handling, up to ~32 months total; a separate authority (context only)"
+          "asOf": "2026-07"
         }
       }
     },
@@ -1220,12 +1379,12 @@
         "lat": 52.3759,
         "lng": 9.732,
         "label": "Hannover city centre",
-        "sourceUrl": "https://www.openstreetmap.org/search?query=Hannover%20city%20centre"
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Hannover&count=1"
       },
       "values": {
         "jobs": 62,
         "conv": 62,
-        "anm": 64,
+        "scale-pay": 72,
         "pt": 70,
         "rent": 70,
         "eng": 58,
@@ -1234,7 +1393,6 @@
         "cost": 68,
         "conn": 62,
         "comm": 60,
-        "natTime": "Naturalisation ~1–2 years after the 2024 reform surge; no city-specific figure",
         "population": 548000,
         "rentCentre": "~€800–950",
         "rentM2": 10.4,
@@ -1243,8 +1401,9 @@
         "embassy": "Full service: Berlin embassy (~290 km); honorary consulate Hamburg (~150 km)"
       },
       "detail": {
+
         "summary": "The balanced mid-size all-rounder — a verified digital-first skilled-worker office, moderate rents, and a solid enterprise/financial-IT employer base.",
-        "note": "The city publishes 'up to 3 months' for the authority decision after complete documents (excludes the biometric step and eAT production); a verified digital-first, dedicated skilled-worker office (Unit 32.33) files both the Chancenkarte and the Blue Card online. The conversion score reflects documented local process risk and evidence quality; naturalisation is not scored.",
+        "note": "The city publishes 'up to 3 months' for the authority decision after complete documents (excludes the biometric step and eAT production); a verified digital-first, dedicated skilled-worker office (Unit 32.33) files both the Chancenkarte and the Blue Card online.",
         "pros": [
           {
             "text": "Continental, Finanz Informatik (major financial IT — heavy .NET/Java), TUI, Hannover Re and Talanx across ~25,000 IT jobs / 1,000+ firms give a real enterprise-integration fit."
@@ -1277,19 +1436,328 @@
           "applicationChannel": "Online-first application to the dedicated skilled-worker Welcome Service (Unit 32.33); one in-person biometrics appointment follows after online approval",
           "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): the future Blue Card employment is permitted only once the authority initiates card issuance after a positive decision, recorded on the Fiktionsbescheinigung. Begin full-time work only after that permission is granted — timely filing protects residence, not the right to work full-time.",
           "confidence": "medium",
-          "asOf": "2026-07",
-          "naturalisation": "~1–2 years after the 2024 reform surge; no city-specific figure published (context only)"
+          "asOf": "2026-07"
+        }
+      }
+    },
+    {
+      "id": "oranienburg",
+      "label": "Oranienburg",
+      "sublabel": "Brandenburg",
+      "tags": [
+        "Berlin commuter",
+        "RE5",
+        "S1",
+        "daily practical"
+      ],
+      "location": {
+        "lat": 52.7555,
+        "lng": 13.2415,
+        "label": "Oranienburg city centre",
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Oranienburg&count=1"
+      },
+      "values": {
+        "jobs": 46,
+        "conv": 55,
+        "scale-pay": 50,
+        "pt": 56,
+        "rent": 66,
+        "eng": 38,
+        "safe": 48,
+        "comp": 60,
+        "cost": 68,
+        "conn": 68,
+        "comm": 34,
+        "population": 49824,
+        "rentCentre": "No current official newcomer 1-bed figure published",
+        "bdCommunity": "No municipal official Bangladeshi/Muslim count found",
+        "embassy": "Bangladesh Embassy Berlin reachable on the north–south rail/S-Bahn network"
+      },
+      "detail": {
+        "summary": "A balanced northern commuter city with RE5, RB32 and S1 options, local services and a county migration service point, but thin public evidence of English-language sponsor demand.",
+        "note": "Oberhavel's form explicitly includes issuing/extending the EU Blue Card, but the authority does not publish an initial-decision time.",
+        "pros": [
+          {
+            "text": "The city documents rail access through RE5 and S1; RB32 adds a direct east-Berlin/BER corridor."
+          },
+          {
+            "text": "Oranienburg's registration service explains the two-week registration requirement and accepts a proxy in defined cases."
+          }
+        ],
+        "cons": [
+          {
+            "text": "The current municipal housing reference is an older Mietspiegel, so no precise newcomer rent is asserted."
+          },
+          {
+            "text": "No official city-specific sponsored-software, English-job, or Bangladeshi/Muslim population count was found."
+          }
+        ],
+        "links": [
+          {
+            "title": "Residence registration — Oranienburg",
+            "url": "https://www.oranienburg.de/Rathaus-Service/B%C3%BCrgerservice/Online-Termine/Dienstleistungen/Wohnsitz-Anmeldung-Ummeldung-und-Abmeldung.php?FID=2967.23.1&La=1&ModID=10&NavID=2967.472&object=tx%2C2967.2646.1"
+          },
+          {
+            "title": "Servicepunkt Migration — Landkreis Oberhavel",
+            "url": "https://www.oberhavel.de/B%C3%BCrgerservice/Kontakt/Kontaktdetails/Servicepunkt-Migration.php?FID=2244.7303.1&KatID=1.100&La=1&ModID=9&NavID=2244.3345&alpha=S&object=tx%2C2244.6907.1&ort=Oranienburg"
+          },
+          {
+            "title": "VBB RE5",
+            "url": "https://www.vbb.de/unterwegs-im-vbb/regionalbahnlinien/re5/"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Not published (initial Blue-Card decision)",
+          "timeScope": "Oberhavel publishes a Blue Card issue/extension form and a local migration service point, not an initial decision or employment-authorisation time; eAT production is additional, not a decision time.",
+          "applicationChannel": "Use the Landkreis Oberhavel migration service/foreigners authority after registration in Oranienburg; confirm the skilled-worker appointment route directly.",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): full-time Blue Card employment is permitted only once the authority initiates card issuance after a positive decision and records this on the Fiktionsbescheinigung.",
+          "confidence": "low",
+          "asOf": "2026-07"
+        }
+      }
+    },
+    {
+      "id": "falkensee",
+      "label": "Falkensee",
+      "sublabel": "Brandenburg",
+      "tags": [
+        "Berlin commuter",
+        "RE2",
+        "RB14",
+        "daily practical"
+      ],
+      "location": {
+        "lat": 52.5604,
+        "lng": 13.0917,
+        "label": "Falkensee city centre",
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Falkensee&count=1"
+      },
+      "values": {
+        "jobs": 48,
+        "conv": 50,
+        "scale-pay": 52,
+        "pt": 56,
+        "rent": 42,
+        "eng": 50,
+        "safe": 50,
+        "comp": 54,
+        "cost": 54,
+        "conn": 76,
+        "comm": 42,
+        "population": 46213,
+        "rentCentre": "No municipal Mietspiegel; no official single newcomer 1-bed figure published",
+        "bdCommunity": "No municipal official Bangladeshi/Muslim count found; Berlin facilities are accessible",
+        "embassy": "Bangladesh Embassy Berlin is comparatively accessible by regional rail plus local travel"
+      },
+      "detail": {
+        "summary": "The best western-Berlin access among the additions, with RE2/RB14, but Berlin-overflow housing pressure and a county authority outside Falkensee limit the operational advantage.",
+        "note": "Havelland is the responsible foreigners authority; its published form includes the EU Blue Card but does not establish initial conversion timing.",
+        "pros": [
+          {
+            "text": "The city documents regional-rail access and several stations; VBB's RE2 identifies Falkensee as an intermediate stop."
+          },
+          {
+            "text": "Falkensee is a 46,213-resident formal city with municipal business and housing-company services."
+          }
+        ],
+        "cons": [
+          {
+            "text": "The city states that it has no Mietspiegel, so the rent score is intentionally cautious rather than a claimed market price."
+          },
+          {
+            "text": "The responsible Ausländerbehörde is in Havelland rather than Falkensee and no initial Blue-Card service level is published."
+          }
+        ],
+        "links": [
+          {
+            "title": "Transport links — Falkensee",
+            "url": "https://www.falkensee.de/seite/389268/verkehrsanbindung-%C3%B6pnv.html"
+          },
+          {
+            "title": "Havelland residence-permit form (includes EU Blue Card)",
+            "url": "https://www.havelland.de/fileadmin/dateien/amt50/formulare/Auslaenderangelegenheiten/Antrag_-_Antrag_AE_RA.pdf"
+          },
+          {
+            "title": "VBB RE2",
+            "url": "https://www.vbb.de/unterwegs-im-vbb/regionalbahnlinien/re2/"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Not published (initial Blue-Card decision)",
+          "timeScope": "The competent Havelland authority's published form includes the EU Blue Card but gives no initial decision or employment-authorisation time; eAT production is additional, not a decision time.",
+          "applicationChannel": "Register in Falkensee, then use the Havelland Ausländerbehörde channel; do not assume the local Bürgeramt handles residence-title decisions.",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): full-time Blue Card employment is permitted only once the authority initiates card issuance after a positive decision and records this on the Fiktionsbescheinigung.",
+          "confidence": "low",
+          "asOf": "2026-07"
+        }
+      }
+    },
+    {
+      "id": "bernau-bei-berlin",
+      "label": "Bernau bei Berlin",
+      "sublabel": "Brandenburg",
+      "tags": [
+        "Berlin commuter",
+        "S2",
+        "RE3",
+        "RB24",
+        "daily practical"
+      ],
+      "location": {
+        "lat": 52.6798,
+        "lng": 13.5871,
+        "label": "Bernau bei Berlin city centre",
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Bernau%20bei%20Berlin&count=1"
+      },
+      "values": {
+        "jobs": 50,
+        "conv": 54,
+        "scale-pay": 52,
+        "pt": 55,
+        "rent": 60,
+        "eng": 48,
+        "safe": 50,
+        "comp": 58,
+        "cost": 64,
+        "conn": 78,
+        "comm": 38,
+        "population": 44706,
+        "rentCentre": "No current official newcomer 1-bed figure published",
+        "bdCommunity": "No municipal official Bangladeshi/Muslim count found; Berlin facilities are accessible",
+        "embassy": "Bangladesh Embassy Berlin is accessible by S-Bahn/regional rail plus local travel"
+      },
+      "detail": {
+        "summary": "The strongest new daily-commute candidate: S2 is supplemented by RE3 and RB24, while Berlin access offsets a smaller local labour market.",
+        "note": "Barnim handles residence matters from Eberswalde. Its published 6–8-week statement concerns a Blue Card extension service, not a new Chancenkarte conversion, so the score does not promise an initial timeline.",
+        "pros": [
+          {
+            "text": "S2, RE3 and RB24 provide three distinct Berlin-facing rail options in the normal network."
+          },
+          {
+            "text": "Barnim has published integration contacts including a Bernau Welcome Center/integration contact."
+          }
+        ],
+        "cons": [
+          {
+            "text": "Barnim's published 6–8-week service reference is only for a Blue Card extension and cannot be used as an initial-conversion SLA."
+          },
+          {
+            "text": "No official city-specific English software vacancy, newcomer housing-availability, or community count was found."
+          }
+        ],
+        "links": [
+          {
+            "title": "Barnim Ausländerangelegenheiten",
+            "url": "https://www.barnim.de/sicherheit-ordnung/auslaenderangelegenheiten/aufenthalt-aufenthaltserlaubnis"
+          },
+          {
+            "title": "Barnim integration contacts",
+            "url": "https://www.barnim.de/integration/ansprechpersonen-im-landkreis-barnim"
+          },
+          {
+            "title": "VBB RE3",
+            "url": "https://www.vbb.de/unterwegs-im-vbb/regionalbahnlinien/re3/"
+          },
+          {
+            "title": "VBB RB24",
+            "url": "https://www.vbb.de/unterwegs-im-vbb/regionalbahnlinien/rb24/"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Not published (initial Blue-Card decision; extension service cites about 6–8 weeks)",
+          "timeScope": "The Barnim 6–8-week indication is for an extension service, not a new Blue Card decision; no initial decision or employment-authorisation time is published. eAT production is additional, not a decision time.",
+          "applicationChannel": "Register in Bernau and use Barnim Ausländerbehörde in Eberswalde for residence matters; confirm appointment requirements directly.",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): full-time Blue Card employment is permitted only once the authority initiates card issuance after a positive decision and records this on the Fiktionsbescheinigung.",
+          "confidence": "low",
+          "asOf": "2026-07"
+        }
+      }
+    },
+    {
+      "id": "eberswalde",
+      "label": "Eberswalde",
+      "sublabel": "Brandenburg",
+      "tags": [
+        "Berlin commuter",
+        "RE3",
+        "RB24",
+        "daily practical"
+      ],
+      "location": {
+        "lat": 52.8344,
+        "lng": 13.8195,
+        "label": "Eberswalde city centre",
+        "sourceUrl": "https://sg.geodatenzentrum.de/gdz_geokodierung/geosearch.json?query=Eberswalde&count=1"
+      },
+      "values": {
+        "jobs": 42,
+        "conv": 54,
+        "scale-pay": 48,
+        "pt": 48,
+        "rent": 82,
+        "eng": 32,
+        "safe": 44,
+        "comp": 64,
+        "cost": 80,
+        "conn": 66,
+        "comm": 28,
+        "population": 41867,
+        "rentCentre": "No current official newcomer 1-bed figure published",
+        "bdCommunity": "No municipal official Bangladeshi/Muslim count found",
+        "embassy": "Bangladesh Embassy Berlin requires regional-rail and local onward travel"
+      },
+      "detail": {
+        "summary": "A low-cost county seat, university city and rail-connected regional centre; the trade-off is a smaller English/community base and less commute resilience than Bernau.",
+        "note": "Eberswalde hosts the Barnim foreigners authority. Its published extension timing does not establish an initial Blue Card conversion outcome.",
+        "pros": [
+          {
+            "text": "Eberswalde is Barnim's county seat and a Mittelzentrum with a university, trolleybus system and RE3/RB24 rail corridors."
+          },
+          {
+            "text": "Barnim's public accommodation guideline gives a lower reference value for Eberswalde than Bernau, supporting a relative affordability advantage without claiming an advertised rent."
+          }
+        ],
+        "cons": [
+          {
+            "text": "The municipal Mietspiegel reference is outdated, so no precise current newcomer rent is published here."
+          },
+          {
+            "text": "No official city-specific English software vacancy, Blue Card initial-decision time, or Bangladeshi/Muslim count was found."
+          }
+        ],
+        "links": [
+          {
+            "title": "City information — Eberswalde",
+            "url": "https://www.eberswalde.de/verwaltung-politik/stadtinformationen"
+          },
+          {
+            "title": "Barnim Ausländerangelegenheiten",
+            "url": "https://www.barnim.de/sicherheit-ordnung/auslaenderangelegenheiten/aufenthalt-aufenthaltserlaubnis"
+          },
+          {
+            "title": "VBB RB24",
+            "url": "https://www.vbb.de/unterwegs-im-vbb/regionalbahnlinien/rb24/"
+          }
+        ],
+        "immigration": {
+          "publishedTime": "Not published (initial Blue-Card decision; extension service cites about 6–8 weeks)",
+          "timeScope": "The Barnim 6–8-week indication is for an extension service, not a new Blue Card decision; no initial decision or employment-authorisation time is published. eAT production is additional, not a decision time.",
+          "applicationChannel": "Register in Eberswalde and use the Barnim Ausländerbehörde in Eberswalde for residence matters; confirm appointment requirements directly.",
+          "workStart": "§81(4): filing before the Opportunity Card expires preserves lawful residence (Fiktionswirkung) but continues only the card's ≤20 h/week limit. §81(5a): full-time Blue Card employment is permitted only once the authority initiates card issuance after a positive decision and records this on the Fiktionsbescheinigung.",
+          "confidence": "low",
+          "asOf": "2026-07"
         }
       }
     }
   ],
-  "methodology": "Overall is the weighted mean of 11 scored criteria, computed live with raw 0–100 scores. The immediate land-and-convert decision dominates: Jobs (18) + Chancenkarte-to-Blue-Card conversion (22) + Anmeldung (12) = 52 points. Conversion scores separate application intake, authority decision or employment authorisation, and physical eAT production; a published printing time is never treated as the total wait. Official end-to-end authority timings receive the highest confidence. Official vague warnings or partial-stage timings receive medium confidence. Where the responsible authority publishes no total time, the UI says so and the score is conservative rather than inventing precision. An authority that transparently publishes a slow official time is scored on that documented duration and its channel design, not penalised below authorities that publish nothing — non-publication paired with disclosed pressure is scored conservatively, never rewarded for opacity. A timely application before expiry preserves lawful residence under §81(4) AufenthG, but the Opportunity Card's existing 20-hour work restriction normally continues until the authority authorises the future full-time employment; under §81(5a), future-title employment is permitted once issuance has been initiated and must be recorded in the interim certificate. Naturalisation and settlement queues are descriptive context only and do not affect city scores. Federal 2026 constants: Blue Card salary €50,700 standard / €45,934.20 for shortage and IT occupations; Opportunity Card funds €1,091 per month and work up to 20 hours weekly during search.",
+  "methodology": "Overall is the weighted mean of 11 scored criteria, computed live with raw 0–100 scores. The job-first decision prioritises Jobs (22), Conversion & work authorisation (18), and City scale & earning power (12). Conversion scores separate registration/intake, authority decision or employment authorisation, and physical eAT production; a printing time is never treated as the total wait. A timely application before expiry preserves lawful residence under §81(4) AufenthG, but full-time skilled work under §81(5a) begins only once the authority initiates issuance and records that permission in the interim certificate. Federal 2026 constants: Blue Card salary €50,700 standard / €45,934.20 for shortage and IT occupations; Opportunity Card funds €1,091 per month and work up to 20 hours weekly during search.",
   "caveats": [
+
     "A four-month conversion wait is plausible and Munich now officially warns that EU Blue Card processing can take up to seven months. Do not sign an unconditional immediate full-time start date without confirming work authorisation.",
     "Most cities do not publish an end-to-end Opportunity Card-to-Blue Card service level. Low-confidence scores compare process design and disclosed pressure, not guaranteed personal waiting times.",
     "The eAT card's 4–6 week production period begins after a positive decision or appointment and is not the same as the application queue.",
     "Apply with a complete pack immediately after the offer: job offer or contract, Erklärung zum Beschäftigungsverhältnis, passport and current title, recognised degree/anabin or ZAB evidence, Anmeldung/residence evidence, health insurance, and salary/job-description evidence.",
-    "Naturalisation is intentionally unscored. Its office may be organisationally separate and its backlog does not reliably predict employment-residence processing."
+    "Berlin-commuter additions use VBB's normal-service line patterns. The temporary Berlin Stadtbahn closure through 12 December 2026 changes some central-city access and is not scored as permanent service; always check a dated VBB journey before choosing a home or accepting an in-office requirement."
   ],
   "sources": [
     {
@@ -1335,18 +1803,6 @@
     {
       "title": "BAMF — EU Blue Card (settlement after 21/27 months)",
       "url": "https://www.bamf.de/EN/Themen/MigrationAufenthalt/ZuwandererDrittstaaten/Migrathek/BlaueKarteEU/blauekarteeu-node.html"
-    },
-    {
-      "title": "BMI — 2024 Nationality Law modernisation (5-year naturalisation, dual citizenship)",
-      "url": "https://www.bmi.bund.de/SharedDocs/kurzmeldungen/EN/2024/06/mod-staatsangehoerigkeitsrecht.html"
-    },
-    {
-      "title": "BMI — 2025 Cabinet decision ending the 3-year fast-track naturalisation",
-      "url": "https://www.bmi.bund.de/SharedDocs/pressemitteilungen/EN/2025/05/kabinett.html"
-    },
-    {
-      "title": "Mediendienst Integration — naturalisation backlog survey (2026)",
-      "url": "https://mediendienst-integration.de/bevoelkerung/einbuergerung/unbearbeitete-einbuergerungsantraege/"
     },
     {
       "title": "Minijob-Zentrale — minimum wage €13.90 and minijob ceiling €603 (2026)",

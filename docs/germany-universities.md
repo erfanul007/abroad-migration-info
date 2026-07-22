@@ -15,10 +15,17 @@ must be checked against the linked official programme page for the chosen intake
 **Scope:** Top 20 German universities, ordered by **Computer Science (CSE)** world rank
 (the primary column, matching the Italian sheet's leading column).
 
-> July 2026 suitability correction: LMU's former M.Sc. Data Science states that it is
-> discontinued with no intake from 2025 onward. Charité has no general CS/AI/Data
-> Science master's. Both remain in the rank table for source fidelity but are not
-> active English-programme recommendations.
+> July 2026 suitability correction: LMU's former Data Science degree was discontinued,
+> but its current English M.Sc. Statistics and Data Science passes the active shortlist
+> rules subject to quantitative prerequisite matching. Charité has no qualifying
+> English computing-centred master's and is excluded from the active dataset.
+
+> The active application dataset is the independently audited 56-university census.
+> The nationwide ceiling is EduRank overall rank `<= 1000`; a documented regional
+> exception permits `<= 3200` for qualifying-programme campuses in any city already
+> listed in the German city scoreboard. Every row must still offer a current on-campus,
+> computing-centred degree completable in English, accept foreign credentials, and
+> charge non-EU tuition `<= €5000` per semester. See the 22 July research scratchpads.
 
 > The app table additionally exposes EduRank's 2026 overall world rank and a numeric
 > non-EU tuition-per-semester column. `€0` means no tuition was identified under the
@@ -110,6 +117,14 @@ Technical Faculty in Erlangen; TH Köln uses Südstadt for Data and Information 
 Humboldt uses Adlershof; FU Berlin uses Dahlem; and Potsdam/HPI uses Griebnitzsee. The
 campus label is shown in the map summary and popup so the pin is not presented as covering
 every programme location.
+
+The 23 July city-coverage reconciliation added Frankfurt UAS, University of Cologne,
+TH Köln and Leipzig University. TH Köln represents only Data and Information Science at
+Südstadt; Leipzig represents the specialised Earth System Data Science and Remote Sensing
+programme and therefore carries a strict domain-credit warning. Six listed cities have no
+qualifying local institution under the same rules: Brandenburg an der Havel, Frankfurt
+(Oder), Oranienburg, Falkensee, Bernau bei Berlin and Eberswalde. They remain in the city
+scoreboard because city/job/commuting suitability is independent of local university supply.
 
 ## Copy-paste block (TSV → Google Sheets)
 

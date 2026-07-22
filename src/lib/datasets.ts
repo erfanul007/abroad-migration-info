@@ -88,11 +88,11 @@ function distinct(values: string[]): string[] {
 }
 
 /** Facets available for a dataset, each with >= 2 distinct option values.
- *  City derives from the sublabel; Intake from the row tags. */
+ *  City derives from the sublabel; Tags includes ownership and admission row tags. */
 export function deriveFacets(dataset: ComparativeDataset): DatasetFacet[] {
   const candidates: DatasetFacet[] = [
     { id: "city", label: "City", options: [], getValues: (r) => (cityOf(r) ? [cityOf(r)] : []) },
-    { id: "intake", label: "Intake", options: [], getValues: (r) => r.tags ?? [] },
+    { id: "tags", label: "Tags", options: [], getValues: (r) => r.tags ?? [] },
   ];
   return candidates
     .map((facet) => ({ ...facet, options: distinct(dataset.rows.flatMap(facet.getValues)) }))

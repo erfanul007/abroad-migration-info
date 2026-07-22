@@ -10,8 +10,8 @@ const ds: ComparativeDataset = {
   scale: "score",
   lastReviewed: "2026-07-13",
   columns: [
-    { id: "conv", label: "Conversion", shortLabel: "Conv", kind: "score", weight: 60, betterWhen: "high" },
     { id: "jobs", label: "Jobs", kind: "score", weight: 40, betterWhen: "high" },
+    { id: "conv", label: "Conversion", shortLabel: "Conv", kind: "score", weight: 60, betterWhen: "high" },
     { id: "rentM2", label: "€/m²", kind: "number", betterWhen: "low" },
   ],
   rows: [
@@ -19,7 +19,7 @@ const ds: ComparativeDataset = {
       detail: { summary: "Balanced all-rounder.", pros: [{ text: "Welcome Center" }], cons: [{ text: "Entry saturated" }], immigration: {
         publishedTime: "Several weeks", timeScope: "Authority processing; no end-to-end guarantee",
         applicationChannel: "Online residence-permit service", workStart: "Wait for written full-time employment authorisation",
-        confidence: "medium", asOf: "2026-07", naturalisation: "Longer-term context only; not scored.",
+        confidence: "medium", asOf: "2026-07",
       } } },
     { id: "munich", label: "Munich", values: { conv: 68, jobs: 92, rentM2: 22 } },
   ],
@@ -31,6 +31,12 @@ describe("DatasetTable", () => {
     expect(screen.getByText("Hamburg")).toBeInTheDocument();
     expect(screen.getByText("Munich")).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Overall" })).toBeInTheDocument();
+  });
+
+  it("orders score columns by descending weight after Overall", () => {
+    render(<DatasetTable dataset={ds} />);
+    const headers = screen.getAllByRole("columnheader").map((header) => header.textContent?.trim());
+    expect(headers).toEqual(["Details", "City", "Overall", "Conv", "Jobs"]);
   });
 
   it("moves context (non-score) columns out of the table into the row panel", () => {
@@ -56,7 +62,6 @@ describe("DatasetTable", () => {
     expect(screen.getByText("Wait for written full-time employment authorisation")).toBeInTheDocument();
     expect(screen.getByText("Medium confidence")).toBeInTheDocument();
     expect(screen.getByText("Verified 2026-07")).toBeInTheDocument();
-    expect(screen.getByText("Longer-term context only; not scored.")).toBeInTheDocument();
     // the context column value (€/m² = 14) now renders inside the panel
     expect(screen.getByText("14")).toBeInTheDocument();
   });
@@ -210,15 +215,16 @@ describe("DatasetTable", () => {
     rows: [
       { id: "tum", label: "Technical University of Munich", sublabel: "Munich, Bavaria", tags: ["Summer ’27"], values: { overallRank: 1 } },
       { id: "lmu", label: "University of Munich (LMU)", sublabel: "Munich, Bavaria", tags: ["No CS intake ’27"], values: { overallRank: 3 } },
-      { id: "rwth", label: "RWTH Aachen University", sublabel: "Aachen, North Rhine-Westphalia", tags: ["Winter ’27 upcoming"], values: { overallRank: 2 } },
+      { id: "rwth", label: "RWTH Aachen University", sublabel: "Aachen, North Rhine-Westphalia", tags: ["Winter ’27"], values: { overallRank: 2 } },
     ],
   };
 
   it("renders a search box, two facets, and the match count for universities", () => {
     render(<DatasetTable dataset={uni} />);
     expect(screen.getByPlaceholderText("Search universities…")).toBeInTheDocument();
-    // City + Intake facets both have >= 2 distinct values → two Select comboboxes
+    // City + Tags facets both have >= 2 distinct values → two Select comboboxes
     expect(screen.getAllByRole("combobox")).toHaveLength(2);
+    expect(screen.getByText("All tags")).toBeInTheDocument();
     expect(screen.getByText("3 of 3")).toBeInTheDocument();
   });
 
@@ -249,7 +255,7 @@ describe("DatasetTable", () => {
     expect(screen.queryAllByRole("combobox")).toHaveLength(0);
   });
 
-  it("uses green, yellow, and red semantics for university intake chips", () => {
+  it("uses ownership, open, summer, winter, and no-intake colour semantics", () => {
     const universities: ComparativeDataset = {
       kind: "universities",
       countryId: "germany",
@@ -260,15 +266,23 @@ describe("DatasetTable", () => {
       rows: [{
         id: "status",
         label: "Status University",
-        tags: ["Summer ’27", "Winter ’27 upcoming", "No CS intake ’27"],
+        tags: [
+          "Public", "Private", "Summer ’27 open", "Winter ’26 open", "Winter ’27 open",
+          "Summer ’27", "Winter ’27", "No CS intake ’27",
+        ],
         values: { overallRank: 100 },
       }],
     };
 
     render(<DatasetTable dataset={universities} />);
 
-    expect(screen.getByText("Summer ’27")).toHaveClass("bg-emerald-500/10", "text-emerald-700");
-    expect(screen.getByText("Winter ’27 upcoming")).toHaveClass("bg-amber-500/15", "text-amber-800");
+    expect(screen.getByText("Public")).toHaveClass("bg-sky-500/10", "text-sky-700");
+    expect(screen.getByText("Private")).toHaveClass("bg-violet-500/10", "text-violet-700");
+    expect(screen.getByText("Summer ’27 open")).toHaveClass("bg-emerald-500/15", "text-emerald-800");
+    expect(screen.getByText("Winter ’26 open")).toHaveClass("bg-emerald-500/15", "text-emerald-800");
+    expect(screen.getByText("Winter ’27 open")).toHaveClass("bg-emerald-500/15", "text-emerald-800");
+    expect(screen.getByText("Summer ’27")).toHaveClass("bg-teal-500/10", "text-teal-700");
+    expect(screen.getByText("Winter ’27")).toHaveClass("bg-amber-500/15", "text-amber-800");
     expect(screen.getByText("No CS intake ’27")).toHaveClass("bg-rose-500/15", "text-rose-800");
   });
 });

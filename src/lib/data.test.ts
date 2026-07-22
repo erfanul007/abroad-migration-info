@@ -35,21 +35,26 @@ describe("data integrity", () => {
 });
 
 describe("supplementary datasets", () => {
-  it("models German city administration around conversion and Anmeldung, not naturalisation", () => {
+  it("models a job-first city board with pathway-neutral conversion evidence", () => {
     const cities = getDatasets("germany").cities!;
     const scored = cities.columns.filter((column) => column.kind === "score");
     expect(scored.reduce((sum, column) => sum + (column.weight ?? 0), 0)).toBe(100);
-    expect(scored.find((column) => column.id === "settle")).toBeUndefined();
-    expect(scored.find((column) => column.id === "conv")?.weight).toBe(22);
-    expect(scored.find((column) => column.id === "anm")?.weight).toBe(12);
+    expect(scored.map((column) => [column.id, column.weight])).toEqual([
+      ["jobs", 22], ["conv", 18], ["scale-pay", 12], ["comp", 9], ["rent", 9],
+      ["cost", 7], ["pt", 6], ["eng", 6], ["safe", 5], ["conn", 3], ["comm", 3],
+    ]);
+    expect(cities.columns.find((column) => column.id === "anm")).toBeUndefined();
+    expect(cities.columns.find((column) => column.id === "natTime")).toBeUndefined();
     for (const row of cities.rows) {
-      expect(row.values.settle).toBeUndefined();
+      expect(row.values.anm).toBeUndefined();
+      expect(row.values.natTime).toBeUndefined();
       expect(row.detail?.immigration).toMatchObject({
         publishedTime: expect.any(String), timeScope: expect.any(String),
         applicationChannel: expect.any(String), workStart: expect.any(String),
         confidence: expect.stringMatching(/^(high|medium|low)$/),
-        asOf: expect.stringMatching(/^2026-/), naturalisation: expect.any(String),
+        asOf: expect.stringMatching(/^2026-/),
       });
+      expect("naturalisation" in (row.detail?.immigration ?? {})).toBe(false);
     }
   });
   it("encodes the audited Chancenkarte→Blue Card conversion evidence discipline for every German city", () => {
@@ -94,30 +99,172 @@ describe("supplementary datasets", () => {
     // resolvable by iso too
     expect(getDatasets("DE").cities?.countryId).toBe("germany");
   });
+
+  it("includes only fully evidenced nationwide or Berlin-region English-CS university candidates", () => {
+    const rows = getDatasets("germany").universities?.rows ?? [];
+    const ownershipTags = new Set(["Public", "Private"]);
+    const listedCityRankExceptions = new Set([
+      "bht-berlin", "btu-cottbus", "htw-berlin", "hwr-berlin",
+      "frankfurt-uas", "th-koeln",
+    ]);
+
+    for (const row of rows) {
+      const rankCeiling = listedCityRankExceptions.has(row.id) ? 3200 : 1000;
+      expect(row.values.overallRank, `${row.id} satisfies its geographic rank ceiling`).toBeLessThanOrEqual(rankCeiling);
+      expect(row.values.nonEuTuition, `${row.id} stays within the tuition ceiling`).toBeLessThanOrEqual(5000);
+      expect(row.values.programs, `${row.id} lists a qualifying programme`).toEqual(expect.any(String));
+      expect(row.values.language, `${row.id} documents the English path`).toMatch(/English/i);
+      expect(row.values.applicationRoute, `${row.id} documents international application`).toEqual(expect.any(String));
+      expect(row.values.tuition, `${row.id} explains tuition`).toEqual(expect.any(String));
+      expect(row.location?.sourceUrl, `${row.id} has a sourced map location`).toMatch(/^https:\/\//);
+      expect((row.tags ?? []).filter((tag) => ownershipTags.has(tag))).toHaveLength(1);
+      expect(row.detail?.links?.length ?? 0, `${row.id} has cross-checkable evidence`).toBeGreaterThanOrEqual(2);
+    }
+  });
+  it("fully enriches every newly added top-1,000 university row", () => {
+    const rows = new Map((getDatasets("germany").universities?.rows ?? []).map((row) => [row.id, row]));
+    const newIds = [
+      "tum", "muenster", "wuerzburg", "kiel", "marburg", "saarland", "bielefeld", "bremen",
+      "regensburg", "ulm", "konstanz", "rostock", "tu-braunschweig", "bayreuth", "mannheim",
+      "rptu-kaiserslautern", "greifswald", "ovgu-magdeburg", "luebeck", "kassel", "augsburg",
+      "wuppertal", "chemnitz", "oldenburg", "trier", "paderborn", "siegen", "osnabrueck",
+    ];
+    const rankIds = ["cse", "ai", "ml", "ds", "swe"];
+    const winterOnlyIds = new Set([
+      "muenster", "bielefeld", "bremen", "ulm", "konstanz", "greifswald", "wuppertal",
+      "chemnitz", "oldenburg", "siegen",
+    ]);
+    const genericTimeline = /exact .*must be taken|use the .*target|target-cycle|programme-specific target|subject to programme rules/i;
+    const genericNarrative = /A qualifying public German option under the top-1,000 rank/i;
+
+    for (const id of newIds) {
+      const row = rows.get(id);
+      expect(row, `${id} remains present`).toBeTruthy();
+      if (!row) continue;
+      expect(row.values.applicationWindow, `${id} has a researched timeline`).not.toMatch(genericTimeline);
+      expect(row.detail?.summary, `${id} has a university-specific assessment`).not.toMatch(genericNarrative);
+      expect(row.location?.label, `${id} has a resolved programme-campus pin`).not.toMatch(/approximate/i);
+      expect(row.detail?.links?.length ?? 0, `${id} has programme, admission, fee and rank evidence`).toBeGreaterThanOrEqual(4);
+      expect(row.tags).toContain("Winter ’27");
+      expect(row.tags?.includes("Summer ’27"), `${id} has an intake-accurate summer chip`).toBe(!winterOnlyIds.has(id));
+      if (/uni-assist|VPD/i.test(String(row.values.applicationRoute ?? ""))) {
+        expect(row.values.applicationFee, `${id} records its foreign-credential application fee`).toBeGreaterThan(0);
+      }
+
+      const missingRanks = rankIds.filter((rankId) => typeof row.values[rankId] !== "number");
+      if (missingRanks.length > 0) {
+        expect(row.detail?.note, `${id} explicitly names unavailable EduRank topics`).toContain(
+          `Unavailable EduRank topics: ${missingRanks.join(", ")}`,
+        );
+      }
+    }
+  });
+  it("fully evidences every listed-city coverage addition", () => {
+    const rows = new Map((getDatasets("germany").universities?.rows ?? []).map((row) => [row.id, row]));
+    const regionalIds = [
+      "bht-berlin", "btu-cottbus", "htw-berlin", "hwr-berlin",
+      "frankfurt-uas", "university-cologne", "th-koeln", "leipzig-university",
+    ];
+
+    for (const id of regionalIds) {
+      const row = rows.get(id);
+      expect(row, `${id} is retained`).toBeTruthy();
+      if (!row) continue;
+      expect(row.values.overallRank).toBeLessThanOrEqual(3200);
+      expect(row.values.nonEuTuition).toBeLessThanOrEqual(5000);
+      expect(row.values.applicationWindow).toEqual(expect.any(String));
+      expect(row.values.semesterFee).toEqual(expect.any(String));
+      expect(row.location?.label).toMatch(/^Address pin/);
+      expect(row.detail?.links?.length ?? 0).toBeGreaterThanOrEqual(5);
+    }
+  });
+
+  it("includes the approved formal-city Berlin commuter alternatives with complete scored evidence", () => {
+    const cities = getDatasets("germany").cities!;
+    const requiredIds = [
+      "brandenburg-an-der-havel", "cottbus", "frankfurt-oder", "oranienburg",
+      "falkensee", "bernau-bei-berlin", "eberswalde",
+    ];
+    const scoreIds = cities.columns.filter((column) => column.kind === "score").map((column) => column.id);
+
+    for (const id of requiredIds) {
+      const row = cities.rows.find((candidate) => candidate.id === id);
+      expect(row, `${id} is present`).toBeTruthy();
+      if (!row) continue;
+      expect(row.location, `${id} has a map location`).toBeTruthy();
+      expect(row.detail?.links?.length ?? 0, `${id} has official evidence links`).toBeGreaterThanOrEqual(2);
+      expect(row.detail?.immigration, `${id} documents its responsible authority`).toBeTruthy();
+      for (const scoreId of scoreIds) {
+        const score = row.values[scoreId];
+        expect(typeof score, `${id}.${scoreId} is numeric`).toBe("number");
+        expect(score, `${id}.${scoreId} is within the absolute score scale`).toBeGreaterThanOrEqual(0);
+        expect(score, `${id}.${scoreId} is within the absolute score scale`).toBeLessThanOrEqual(100);
+      }
+    }
+  });
   it("Germany cities score-column weights sum to 100", () => {
     const cols = getDatasets("germany").cities?.columns ?? [];
     const sum = cols.filter((c) => c.kind === "score").reduce((a, c) => a + (c.weight ?? 0), 0);
     expect(sum).toBe(100);
   });
-  it("covers every listed German city with at least one university location", () => {
+  it("prioritises jobs over conversion and exposes score columns in descending-weight order", () => {
+    const scored = getDatasets("germany").cities?.columns.filter((column) => column.kind === "score") ?? [];
+    expect(scored.map((column) => [column.id, column.weight])).toEqual([
+      ["jobs", 22], ["conv", 18], ["scale-pay", 12], ["comp", 9], ["rent", 9],
+      ["cost", 7], ["pt", 6], ["eng", 6], ["safe", 5], ["conn", 3], ["comm", 3],
+    ]);
+  });
+  it("uses concise one-word labels for every city-table column", () => {
+    const columns = getDatasets("germany").cities?.columns ?? [];
+    for (const column of columns) {
+      expect(column.label, `${column.id}.label`).toMatch(/^\S+$/);
+      expect(column.shortLabel ?? column.label, `${column.id}.shortLabel`).toMatch(/^\S+$/);
+    }
+  });
+  it("covers every listed city where a qualifying local university was found", () => {
     const de = getDatasets("germany");
     const locations = (de.universities?.rows ?? []).map((row) => row.sublabel?.toLocaleLowerCase("de") ?? "");
-    const uncovered = (de.cities?.rows ?? [])
-      .map((row) => row.label)
-      .filter((city) => !locations.some((location) => location.includes(city.toLocaleLowerCase("de"))));
+    const newlyCovered = ["Frankfurt am Main", "Cologne", "Leipzig"];
 
-    expect(uncovered).toEqual([]);
+    for (const city of newlyCovered) {
+      expect(
+        locations.some((location) => location.includes(city.toLocaleLowerCase("de"))),
+        `${city} has at least one qualifying local university`,
+      ).toBe(true);
+    }
   });
-  it("provides every displayed global and specialization rank for German universities", () => {
+
+  it("keeps researched cities without a qualifying local university independently scoped", () => {
+    const de = getDatasets("germany");
+    const locations = (de.universities?.rows ?? []).map((row) => row.sublabel?.toLocaleLowerCase("de") ?? "");
+    const researchedWithoutLocalMatch = [
+      "Brandenburg an der Havel", "Frankfurt (Oder)", "Oranienburg",
+      "Falkensee", "Bernau bei Berlin", "Eberswalde",
+    ];
+    const commuterOnly = researchedWithoutLocalMatch.filter(
+      (city) => !locations.some((location) => location.includes(city.toLocaleLowerCase("de"))),
+    );
+
+    expect(commuterOnly.sort()).toEqual([...researchedWithoutLocalMatch].sort());
+  });
+  it("provides an overall rank for every university and documents unavailable subject ranks", () => {
     const universities = getDatasets("germany").universities?.rows ?? [];
-    const rankIds = ["overallRank", "cse", "ai", "ml", "ds", "swe"];
+    expect(
+      universities.filter((row) => typeof row.values.overallRank !== "number").map((row) => row.id),
+    ).toEqual([]);
+
+    const rankIds = ["cse", "ai", "ml", "ds", "swe"];
     const missing = universities.flatMap((row) =>
       rankIds
         .filter((rankId) => typeof row.values[rankId] !== "number")
         .map((rankId) => `${row.id}.${rankId}`),
     );
 
-    expect(missing).toEqual([]);
+    const incompleteRows = [...new Set(missing.map((item) => item.split(".")[0]))];
+    for (const id of incompleteRows) {
+      const row = universities.find((candidate) => candidate.id === id);
+      expect(row?.detail?.note, `${id} explains incomplete rankings`).toMatch(/EduRank.*(not|no matching|partial|six-field)/i);
+    }
   });
   it("provides a reviewed Germany-area map location for every German university", () => {
     const universities = getDatasets("germany").universities?.rows ?? [];
@@ -141,18 +288,46 @@ describe("supplementary datasets", () => {
       .map((row) => row.id);
     expect(invalid).toEqual([]);
   });
-  it("classifies researched 2027 university intake-chip states", () => {
+  it("classifies researched university ownership and intake-tag states", () => {
     const rows = getDatasets("germany").universities?.rows ?? [];
     const idsWith = (tag: string) => rows.filter((row) => row.tags?.includes(tag)).map((row) => row.id).sort();
+    const ownershipTags = new Set(["Public", "Private"]);
+    const admissionTags = new Set([
+      "Winter ’26 open", "Summer ’27 open", "Winter ’27 open",
+      "Summer ’27", "Winter ’27", "No CS intake ’27",
+    ]);
 
-    expect(idsWith("Winter ’27 upcoming")).toEqual([
-      "bonn", "fau", "freiburg", "fu-berlin", "goettingen", "hamburg", "heidelberg", "hhu-duesseldorf",
-      "kit", "leibniz-hannover", "potsdam-hpi", "ruhr-bochum", "rwth-aachen", "stuttgart", "th-koeln",
-      "tu-berlin", "tu-darmstadt", "tu-dortmund", "tu-dresden", "tuebingen", "tum",
-    ].sort());
-    expect(idsWith("No CS intake ’27")).toEqual([
-      "charite-berlin", "goethe-frankfurt", "humboldt-berlin", "lmu",
-    ].sort());
+    expect(rows.filter((row) => (row.tags ?? []).filter((tag) => ownershipTags.has(tag)).length !== 1).map((row) => row.id)).toEqual([]);
+    expect(rows.flatMap((row) => row.tags ?? []).filter((tag) => !ownershipTags.has(tag) && !admissionTags.has(tag))).toEqual([]);
+    expect(rows.filter((row) => row.tags?.includes("Summer ’27") && row.tags.includes("Summer ’27 open")).map((row) => row.id)).toEqual([]);
+    expect(rows.filter((row) => row.tags?.includes("Winter ’27") && row.tags.includes("Winter ’27 open")).map((row) => row.id)).toEqual([]);
+
+    expect(idsWith("Winter ’27").length).toBeGreaterThan(0);
+    expect(idsWith("Winter ’26 open")).toEqual([]);
+    expect(idsWith("Summer ’27 open")).toEqual(["htw-berlin"]);
+    expect(idsWith("Winter ’27 open")).toEqual([]);
+    expect(idsWith("No CS intake ’27")).toEqual([]);
+    expect(rows.flatMap((row) => row.tags ?? []).some((tag) => tag.includes("upcoming"))).toBe(false);
+  });
+  it("marks every German university as exactly public or private", () => {
+    const rows = getDatasets("germany").universities?.rows ?? [];
+    expect(rows.filter((row) => row.tags?.includes("Public"))).toHaveLength(56);
+    expect(rows.filter((row) => row.tags?.includes("Private")).map((row) => row.id).sort()).toEqual([]);
+  });
+  it("applies the listed-city rank exception without weakening the nationwide limit", () => {
+    const rows = getDatasets("germany").universities?.rows ?? [];
+    const regionalRankExceptions = [
+      "bht-berlin", "btu-cottbus", "htw-berlin", "hwr-berlin",
+      "frankfurt-uas", "th-koeln",
+    ];
+    expect(rows).toHaveLength(56);
+    expect(rows.filter((row) => typeof row.values.overallRank !== "number" || row.values.overallRank > 3200).map((row) => row.id)).toEqual([]);
+    expect(rows.filter((row) => typeof row.values.overallRank === "number" && row.values.overallRank > 1000).map((row) => row.id).sort()).toEqual(regionalRankExceptions.sort());
+    expect(rows.filter((row) => typeof row.values.nonEuTuition !== "number" || row.values.nonEuTuition > 5000).map((row) => row.id)).toEqual([]);
+  });
+  it("provides a numeric non-EU tuition amount for every university", () => {
+    const rows = getDatasets("germany").universities?.rows ?? [];
+    expect(rows.filter((row) => typeof row.values.nonEuTuition !== "number").map((row) => row.id)).toEqual([]);
   });
   it("provides an application fee for every university with a suitable 2027 CS intake", () => {
     const rows = getDatasets("germany").universities?.rows ?? [];
