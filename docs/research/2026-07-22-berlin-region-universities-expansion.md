@@ -1,5 +1,7 @@
 # Berlin-region English CS master's research log
 
+> **Active policy, 22 July 2026:** The [top-1,000 national audit](./2026-07-22-germany-top-1000-universities-scratchpad.md) remains in force outside the region. Qualifying-programme campuses in Berlin and the established Berlin-commuter cities instead use the approved inclusive overall-rank ceiling of 3,200. English completion, foreign-credential access and non-EU tuition no higher than €5,000 per semester remain mandatory.
+
 Reviewed: 2026-07-22
 
 ## Scope and decision rule
@@ -10,13 +12,23 @@ Admissions, fees and campus claims use institution or DAAD records. Every row ha
 
 ## Included institutions
 
+### Regional-exception reassessment
+
+The complete location census restored BHT Berlin, BTU Cottbus-Senftenberg and HTW Berlin and discovered one additional qualifying row, HWR Berlin. BHT's former record incorrectly repeated its 3,104 Computer Science subject rank as its overall rank; EduRank 2026 publishes overall rank 2,325. HWR ranks 2,099 and explicitly accepts Applied Computer Science with a business major for its English Business Intelligence and Process Management MSc. BTU remains a long regional/hybrid commute, while HTW's Summer 2027 route is currently open.
+
+No other institution passed every gate. Potsdam/HPI already qualifies under the national ceiling. Viadrina's Data Science and Decision Support option is data-intensive but belongs to International Business Administration and restricts admission to business/economics degrees, so it fails the CSE-applicant/programme-centrality rule. TH Wildau narrowly fails at 3,297. IU has an English Berlin Computer Science MSc but its available EduRank overall rank is 7,226; a lower fallback ranking cannot override an existing EduRank record.
+
+The city-by-city census also rejected FH Potsdam (English portfolio is design/social-work rather than computing), HNE Eberswalde (rank 7,443), TH Brandenburg (rank 7,663 and German CS route), European University Viadrina (admission/programme-centrality mismatch), the Oranienburg police university, and locations in Falkensee and Bernau without an internationally open qualifying degree campus. Berlin false positives were rejected for rank, tuition or subject fit, including Hertie, Steinbeis, ESMT, SRH, Fresenius, IU, CODE, Berlin International, UE, GISMA, Arden, Macromedia, FOM, HMKW, Mediadesign, BSP, bbw and Victoria.
+
+HWR evidence: [programme](https://www.hwr-berlin.de/en/study/degree-programme/detail/13-business-intelligence-and-process-management), [foreign-degree application and prerequisite FAQ](https://www.hwr-berlin.de/en/hwr-berlin/departments-and-bps/department-1-business-and-economics/studying-at-the-department/faqs-applying-for-master-degree-programmes/), [semester fee](https://www.hwr-berlin.de/en/study/studying-at-the-hwr-berlin/organizing-your-degree/semester-fee/), and [EduRank 2026](https://edurank.org/uni/berlin-school-of-economics-and-law/rankings/).
+
 ### BHT Berlin
 
 - Included programme: M.Sc. Data Science; English, winter start, capacity restricted.
 - Published recurring application period: 2 May–15 June. International degrees use uni-assist. Entry requires a relevant 180-ECTS degree, including at least 20 ECTS mathematics/statistics and 25 ECTS computer science, plus English B2.
 - Cost treatment: no tuition; semester contribution applies; €75 first uni-assist application.
 - Evidence: [programme and admission](https://www.bht-berlin.de/en/m-ds), [international applicants](https://www.bht-berlin.de/en/international/international-students), [campuses](https://www.bht-berlin.de/en/bht/campuses), [EduRank](https://edurank.org/uni/berlin-technical-university-of-applied-sciences/rankings/).
-- Rank fields recorded: overall 3104, CSE 3104, AI 2567, ML 2823, DS 2113, SWE 2027.
+- Rank fields recorded: overall 2325, CSE 3104, AI 2567, ML 2823, DS 2113, SWE 2027.
 
 ### BTU Cottbus-Senftenberg
 
@@ -99,9 +111,9 @@ The [VBB RE1 corridor](https://www.vbb.de/fahrinformation/zug-um-zug-mehr-schien
 
 The `Public` and `Private` badges are separate from admission chips. Ownership was checked against the German Rectors' Conference's Hochschulkompass model, which distinguishes state/public-law institutions from merely state-recognised private institutions, and cross-checked against DAAD/CHE institution records and institution legal descriptions. After applying both selection cutoffs, the retained public set is Heidelberg, LMU, RWTH, Hamburg, Freiburg, KIT, FAU, Tübingen, Bonn, Goethe Frankfurt, Göttingen, TU Berlin, TU Dresden, TU Darmstadt, Charité, Ruhr Bochum, Stuttgart, FU Berlin, Humboldt Berlin, HHU, University of Potsdam/HPI, TU Dortmund, Leibniz Hannover, TH Köln, BHT, BTU and HTW Berlin.
 
-No private institution remains after applying both cutoffs; all 27 retained rows are public. Relevant verification sources: [Hochschulkompass institution types](https://www.hochschulkompass.de/hochschulen/hochschullandschaft/hochschultypen.html) and [Hochschulkompass data provenance](https://www.hochschulkompass.de/home.html).
+No private institution remains after applying the national and listed-city cutoffs; all 56 active rows are public. Relevant verification sources: [Hochschulkompass institution types](https://www.hochschulkompass.de/hochschulen/hochschullandschaft/hochschultypen.html) and [Hochschulkompass data provenance](https://www.hochschulkompass.de/home.html).
 
-All 27 retained rows contain numeric non-EU tuition of no more than €5,000 per semester. Public-programme zeroes still exclude semester contributions.
+All 56 retained rows contain numeric non-EU tuition of no more than €5,000 per semester. Public-programme zeroes still exclude semester contributions.
 
 ## 2027 intake and application-window audit — 22 July 2026
 
@@ -133,6 +145,19 @@ The final dataset applies two inclusive, conjunctive numeric rules:
 - Overall rank must be within 3,200: retain `overallRank <= 3200`.
 - Non-EU tuition must be within €5,000 per semester: retain `nonEuTuition <= 5000`.
 
-A university is removed when it fails either rule. The rank rule removed UE (3,208), SRH (6,252), Hochschule Fresenius (7,403), TH Brandenburg (7,663), and Gisma (15,013). The tuition rule additionally removed TUM (€6,000), Hertie (€9,125), and Lancaster Leipzig (€12,500) per semester. Their research notes above are retained as an audit trail rather than active dataset entries. BHT remains because its overall rank is 3,104 and its tuition is €0.
+A regional university is removed when it fails either rule. The rank rule removes UE (3,208), TH Wildau (3,297), SRH (6,252), Hochschule Fresenius (7,403), TH Brandenburg (7,663), IU (7,226 in EduRank), and Gisma (15,013). The tuition rule independently removes Hertie and Lancaster Leipzig. Their research notes remain an audit trail. BHT remains because its corrected overall rank is 2,325 and its tuition is €0; TUM separately qualifies in the national census through the €4,000 Games Engineering programme.
+
+## 23 July all-listed-city reconciliation
+
+The later coverage audit extends the same `<= 3200` exception to qualifying programme
+campuses in every city already present in the German city scoreboard. It adds Frankfurt
+UAS and TH Köln above the nationwide rank ceiling. University of Cologne and Leipzig
+University also enter after deeper programme-level review but already rank inside the
+nationwide top 1,000. The active census is therefore 56 institutions: 50 nationwide
+top-1,000 rows and six above-1,000 listed-city exceptions.
+
+The maximum truthful city coverage is 17 of 23. No qualifying local institution was
+found in Brandenburg an der Havel, Frankfurt (Oder), Oranienburg, Falkensee, Bernau bei
+Berlin or Eberswalde. This is an explicit negative research result, not missing data.
 
 The remaining public programmes' reviewed Winter 2026 international/foreign-degree windows had closed by 22 July 2026. Examples cross-checked against current official pages include FU Data Science (31 May), HPI Computer Science (1 June), Bonn (1 June), BHT (15 June), BTU AI (15 July), HHU AI and Data Science (15 July), and HTW MPMD (explicitly closed). Hertie's Fall 2026 cycle is also closed. No `open` tag was added from a German-degree-only, higher-semester or exchange-student deadline.

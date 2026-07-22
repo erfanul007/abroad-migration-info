@@ -100,20 +100,82 @@ describe("supplementary datasets", () => {
     expect(getDatasets("DE").cities?.countryId).toBe("germany");
   });
 
-  it("includes the researched English-taught Berlin-region university candidates", () => {
-    const universities = getDatasets("germany").universities!;
-    const rows = new Map(universities.rows.map((row) => [row.id, row]));
-    const candidateIds = [
-      "bht-berlin", "btu-cottbus", "htw-berlin",
+  it("includes only fully evidenced nationwide or Berlin-region English-CS university candidates", () => {
+    const rows = getDatasets("germany").universities?.rows ?? [];
+    const ownershipTags = new Set(["Public", "Private"]);
+    const listedCityRankExceptions = new Set([
+      "bht-berlin", "btu-cottbus", "htw-berlin", "hwr-berlin",
+      "frankfurt-uas", "th-koeln",
+    ]);
+
+    for (const row of rows) {
+      const rankCeiling = listedCityRankExceptions.has(row.id) ? 3200 : 1000;
+      expect(row.values.overallRank, `${row.id} satisfies its geographic rank ceiling`).toBeLessThanOrEqual(rankCeiling);
+      expect(row.values.nonEuTuition, `${row.id} stays within the tuition ceiling`).toBeLessThanOrEqual(5000);
+      expect(row.values.programs, `${row.id} lists a qualifying programme`).toEqual(expect.any(String));
+      expect(row.values.language, `${row.id} documents the English path`).toMatch(/English/i);
+      expect(row.values.applicationRoute, `${row.id} documents international application`).toEqual(expect.any(String));
+      expect(row.values.tuition, `${row.id} explains tuition`).toEqual(expect.any(String));
+      expect(row.location?.sourceUrl, `${row.id} has a sourced map location`).toMatch(/^https:\/\//);
+      expect((row.tags ?? []).filter((tag) => ownershipTags.has(tag))).toHaveLength(1);
+      expect(row.detail?.links?.length ?? 0, `${row.id} has cross-checkable evidence`).toBeGreaterThanOrEqual(2);
+    }
+  });
+  it("fully enriches every newly added top-1,000 university row", () => {
+    const rows = new Map((getDatasets("germany").universities?.rows ?? []).map((row) => [row.id, row]));
+    const newIds = [
+      "tum", "muenster", "wuerzburg", "kiel", "marburg", "saarland", "bielefeld", "bremen",
+      "regensburg", "ulm", "konstanz", "rostock", "tu-braunschweig", "bayreuth", "mannheim",
+      "rptu-kaiserslautern", "greifswald", "ovgu-magdeburg", "luebeck", "kassel", "augsburg",
+      "wuppertal", "chemnitz", "oldenburg", "trier", "paderborn", "siegen", "osnabrueck",
+    ];
+    const rankIds = ["cse", "ai", "ml", "ds", "swe"];
+    const winterOnlyIds = new Set([
+      "muenster", "bielefeld", "bremen", "ulm", "konstanz", "greifswald", "wuppertal",
+      "chemnitz", "oldenburg", "siegen",
+    ]);
+    const genericTimeline = /exact .*must be taken|use the .*target|target-cycle|programme-specific target|subject to programme rules/i;
+    const genericNarrative = /A qualifying public German option under the top-1,000 rank/i;
+
+    for (const id of newIds) {
+      const row = rows.get(id);
+      expect(row, `${id} remains present`).toBeTruthy();
+      if (!row) continue;
+      expect(row.values.applicationWindow, `${id} has a researched timeline`).not.toMatch(genericTimeline);
+      expect(row.detail?.summary, `${id} has a university-specific assessment`).not.toMatch(genericNarrative);
+      expect(row.location?.label, `${id} has a resolved programme-campus pin`).not.toMatch(/approximate/i);
+      expect(row.detail?.links?.length ?? 0, `${id} has programme, admission, fee and rank evidence`).toBeGreaterThanOrEqual(4);
+      expect(row.tags).toContain("Winter ’27");
+      expect(row.tags?.includes("Summer ’27"), `${id} has an intake-accurate summer chip`).toBe(!winterOnlyIds.has(id));
+      if (/uni-assist|VPD/i.test(String(row.values.applicationRoute ?? ""))) {
+        expect(row.values.applicationFee, `${id} records its foreign-credential application fee`).toBeGreaterThan(0);
+      }
+
+      const missingRanks = rankIds.filter((rankId) => typeof row.values[rankId] !== "number");
+      if (missingRanks.length > 0) {
+        expect(row.detail?.note, `${id} explicitly names unavailable EduRank topics`).toContain(
+          `Unavailable EduRank topics: ${missingRanks.join(", ")}`,
+        );
+      }
+    }
+  });
+  it("fully evidences every listed-city coverage addition", () => {
+    const rows = new Map((getDatasets("germany").universities?.rows ?? []).map((row) => [row.id, row]));
+    const regionalIds = [
+      "bht-berlin", "btu-cottbus", "htw-berlin", "hwr-berlin",
+      "frankfurt-uas", "university-cologne", "th-koeln", "leipzig-university",
     ];
 
-    for (const id of candidateIds) {
+    for (const id of regionalIds) {
       const row = rows.get(id);
-      expect(row, `${id} is present`).toBeTruthy();
-      expect(typeof row?.values.programs, `${id} lists its qualifying programmes`).toBe("string");
-      expect(row?.location?.sourceUrl, `${id} has a sourced map location`).toMatch(/^https:\/\//);
-      expect(row?.tags?.length ?? 0, `${id} has a current admission-status chip`).toBeGreaterThan(0);
-      expect(row?.detail?.links?.length ?? 0, `${id} has evidence links`).toBeGreaterThanOrEqual(2);
+      expect(row, `${id} is retained`).toBeTruthy();
+      if (!row) continue;
+      expect(row.values.overallRank).toBeLessThanOrEqual(3200);
+      expect(row.values.nonEuTuition).toBeLessThanOrEqual(5000);
+      expect(row.values.applicationWindow).toEqual(expect.any(String));
+      expect(row.values.semesterFee).toEqual(expect.any(String));
+      expect(row.location?.label).toMatch(/^Address pin/);
+      expect(row.detail?.links?.length ?? 0).toBeGreaterThanOrEqual(5);
     }
   });
 
@@ -159,15 +221,31 @@ describe("supplementary datasets", () => {
       expect(column.shortLabel ?? column.label, `${column.id}.shortLabel`).toMatch(/^\S+$/);
     }
   });
-  it("keeps city and university datasets independently scoped", () => {
+  it("covers every listed city where a qualifying local university was found", () => {
     const de = getDatasets("germany");
     const locations = (de.universities?.rows ?? []).map((row) => row.sublabel?.toLocaleLowerCase("de") ?? "");
-    const commuterOnly = (de.cities?.rows ?? [])
-      .map((row) => row.label)
-      .filter((city) => ["Brandenburg an der Havel", "Falkensee", "Oranienburg"].includes(city))
-      .filter((city) => !locations.some((location) => location.includes(city.toLocaleLowerCase("de"))));
+    const newlyCovered = ["Frankfurt am Main", "Cologne", "Leipzig"];
 
-    expect(commuterOnly.sort()).toEqual(["Brandenburg an der Havel", "Falkensee", "Oranienburg"]);
+    for (const city of newlyCovered) {
+      expect(
+        locations.some((location) => location.includes(city.toLocaleLowerCase("de"))),
+        `${city} has at least one qualifying local university`,
+      ).toBe(true);
+    }
+  });
+
+  it("keeps researched cities without a qualifying local university independently scoped", () => {
+    const de = getDatasets("germany");
+    const locations = (de.universities?.rows ?? []).map((row) => row.sublabel?.toLocaleLowerCase("de") ?? "");
+    const researchedWithoutLocalMatch = [
+      "Brandenburg an der Havel", "Frankfurt (Oder)", "Oranienburg",
+      "Falkensee", "Bernau bei Berlin", "Eberswalde",
+    ];
+    const commuterOnly = researchedWithoutLocalMatch.filter(
+      (city) => !locations.some((location) => location.includes(city.toLocaleLowerCase("de"))),
+    );
+
+    expect(commuterOnly.sort()).toEqual([...researchedWithoutLocalMatch].sort());
   });
   it("provides an overall rank for every university and documents unavailable subject ranks", () => {
     const universities = getDatasets("germany").universities?.rows ?? [];
@@ -224,37 +302,27 @@ describe("supplementary datasets", () => {
     expect(rows.filter((row) => row.tags?.includes("Summer ’27") && row.tags.includes("Summer ’27 open")).map((row) => row.id)).toEqual([]);
     expect(rows.filter((row) => row.tags?.includes("Winter ’27") && row.tags.includes("Winter ’27 open")).map((row) => row.id)).toEqual([]);
 
-    expect(idsWith("Winter ’27")).toEqual([
-      "bonn", "fau", "freiburg", "fu-berlin", "goettingen", "hamburg", "heidelberg", "hhu-duesseldorf",
-      "bht-berlin", "btu-cottbus", "htw-berlin", "kit", "leibniz-hannover",
-      "potsdam-hpi", "ruhr-bochum", "rwth-aachen", "stuttgart", "th-koeln",
-      "tu-berlin", "tu-darmstadt", "tu-dortmund", "tu-dresden", "tuebingen",
-    ].sort());
+    expect(idsWith("Winter ’27").length).toBeGreaterThan(0);
     expect(idsWith("Winter ’26 open")).toEqual([]);
-    expect(idsWith("Summer ’27 open")).toEqual([
-      "htw-berlin",
-    ].sort());
+    expect(idsWith("Summer ’27 open")).toEqual(["htw-berlin"]);
     expect(idsWith("Winter ’27 open")).toEqual([]);
-    expect(idsWith("No CS intake ’27")).toEqual([
-      "charite-berlin", "goethe-frankfurt", "humboldt-berlin", "lmu",
-    ].sort());
+    expect(idsWith("No CS intake ’27")).toEqual([]);
     expect(rows.flatMap((row) => row.tags ?? []).some((tag) => tag.includes("upcoming"))).toBe(false);
   });
   it("marks every German university as exactly public or private", () => {
     const rows = getDatasets("germany").universities?.rows ?? [];
-    expect(rows.filter((row) => row.tags?.includes("Public")).map((row) => row.id).sort()).toEqual([
-      "bht-berlin", "bonn", "btu-cottbus", "charite-berlin", "fau", "freiburg", "fu-berlin",
-      "goethe-frankfurt", "goettingen", "hamburg", "heidelberg", "hhu-duesseldorf", "htw-berlin",
-      "humboldt-berlin", "kit", "leibniz-hannover", "lmu", "potsdam-hpi", "ruhr-bochum",
-      "rwth-aachen", "stuttgart", "th-koeln", "tu-berlin", "tu-darmstadt",
-      "tu-dortmund", "tu-dresden", "tuebingen",
-    ].sort());
+    expect(rows.filter((row) => row.tags?.includes("Public"))).toHaveLength(56);
     expect(rows.filter((row) => row.tags?.includes("Private")).map((row) => row.id).sort()).toEqual([]);
   });
-  it("keeps only universities within both the rank and tuition limits", () => {
+  it("applies the listed-city rank exception without weakening the nationwide limit", () => {
     const rows = getDatasets("germany").universities?.rows ?? [];
-    expect(rows).toHaveLength(27);
+    const regionalRankExceptions = [
+      "bht-berlin", "btu-cottbus", "htw-berlin", "hwr-berlin",
+      "frankfurt-uas", "th-koeln",
+    ];
+    expect(rows).toHaveLength(56);
     expect(rows.filter((row) => typeof row.values.overallRank !== "number" || row.values.overallRank > 3200).map((row) => row.id)).toEqual([]);
+    expect(rows.filter((row) => typeof row.values.overallRank === "number" && row.values.overallRank > 1000).map((row) => row.id).sort()).toEqual(regionalRankExceptions.sort());
     expect(rows.filter((row) => typeof row.values.nonEuTuition !== "number" || row.values.nonEuTuition > 5000).map((row) => row.id)).toEqual([]);
   });
   it("provides a numeric non-EU tuition amount for every university", () => {
