@@ -16,15 +16,15 @@ The applicants are **Bangladeshi nationals based in Dhaka** — assess every cou
 
 Applies to *every* change to a country/category score, summary, pro/con, link, or factual claim. **Never edit a number or claim from memory.**
 
-1. **Research first.** Run the `deep-research` skill: fan-out web searches, read primary sources, adversarially verify — before changing anything.
+1. **Research first.** Use the `researching-migration-evidence` skill: fan-out web searches, read primary sources, adversarially verify — before changing anything.
 2. **Authentic sources only.** Prefer official government / immigration-authority portals (gov-first for visa, post-study-work, PR, citizenship), then OECD / official statistics / reputable indices. Reject blogs, forums, SEO content, and AI-generated stats.
 3. **Currency & conflict.** Confirm each source reflects current 2025–26 rules; flag and replace anything older than ~12 months. Cross-check ≥2 independent authoritative sources per claim. When sources disagree, prefer the most recent official one and record the disagreement in the cell `summary` (or a `con`).
-4. **Record provenance.** On every change update the cell's `summary`/`pros`/`cons`, `links` (title + url), and `lastReviewed`, plus the country `lastReviewed`. No claim ships without a citation.
+4. **Record provenance.** On every change update the cell's `summary`/`pros`/`cons`, `links` (title + url), and `lastReviewed`, plus the country `lastReviewed`. `lastReviewed` records the date **you** verified the claim against its source — never stamp it for facts supplied to you unverified. No claim ships without a citation.
 5. **Validate.** Run `npm run test` — the Zod gate fails on malformed data, weights ≠ 100, or scores outside 0–100. Never bypass it.
 
 ## Data model & invariants
 
-- **Source of truth:** `src/data/` — `profile.json`, `categories.json`, `countries/<id>.json` (one per country). Zod schemas live in `src/lib/schema.ts`; types are inferred via `z.infer` and re-exported from `@/types`. JSON is validated at load (throws in dev/test).
+- **Source of truth:** `src/data/` — `profile.json`, `categories.json`, `countries/<id>.json` (one per country). Zod schemas live in `src/lib/schema.ts`; types are inferred via `z.infer` and re-exported from `@/types`. JSON is validated at load (throws in dev/test). **`src/lib/data.test.ts` is the authority on dataset row shape** — tag vocabulary, required fields, link minimums, note regexes, map bounds, plus hardcoded row counts and rank-exception allowlists that every row addition must update in the same change. Read it; never paraphrase it from memory.
 - **Add a country/category = JSON only**, no component changes. New category → `categories.json`; new country → `countries/<id>.json`.
 - **Weights sum to 100** (±0.001), category ids are unique, and a country may only reference known category ids.
 - **Absolute 0–100 scale** (not data-relative): five tiers (`scoreTier`, single source `config.ts` `TIERS`) — ≥80 excellent · ≥70 good · ≥60 average · ≥50 weak · <50 poor. `scoreTier` rounds to a whole percent first so a tier colour always matches the shown number. Choropleth fill is a separate, absolute single-hue **green ramp** (`scoreToGreen`) floored at 50 (= inclusion) and capped at 80 (= excellent) — deepest green highest, faintest lowest; `<50` renders as neutral land.
@@ -62,7 +62,12 @@ React 19 · TypeScript (strict) · Vite 8 · React Router 7 · Tailwind CSS v4 +
 
 ## Skills cheat-sheet
 
-`brainstorming` (before any feature/design) · `deep-research` (mandatory before data/score/evidence edits) · `writing-plans` (before large changes) · `test-driven-development` (lib logic) · `systematic-debugging` (any bug) · `verification-before-completion` (before claiming done).
+**Project skills** (`.claude/skills/`) — each carries only judgment not recoverable from the repo itself; `src/lib/data.test.ts` remains the authority on dataset row shape:
+
+- `auditing-university-candidates` — the five admission gates, the listed-city rank-exception scope, and PASS/FAIL precedents. Use for any university add/remove/re-audit or "did we miss any".
+- `researching-migration-evidence` — banned aggregators and blocked-official-site fallbacks. Use before any data/score/claim edit.
+
+**General:** `brainstorming` (before any feature/design) · `writing-plans` (before large changes) · `test-driven-development` (lib logic) · `systematic-debugging` (any bug) · `verification-before-completion` (before claiming done).
 
 ## Never
 
