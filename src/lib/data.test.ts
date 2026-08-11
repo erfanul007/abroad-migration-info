@@ -102,10 +102,9 @@ describe("supplementary datasets", () => {
 
   it("includes only fully evidenced nationwide or Berlin-region English-CS university candidates", () => {
     const rows = getDatasets("germany").universities?.rows ?? [];
-    const ownershipTags = new Set(["Public", "Private"]);
     const listedCityRankExceptions = new Set([
       "bht-berlin", "btu-cottbus", "htw-berlin", "hwr-berlin",
-      "frankfurt-uas", "th-koeln",
+      "frankfurt-uas", "th-koeln", "tuhh", "haw-hamburg", "fh-dortmund",
     ]);
 
     for (const row of rows) {
@@ -117,7 +116,6 @@ describe("supplementary datasets", () => {
       expect(row.values.applicationRoute, `${row.id} documents international application`).toEqual(expect.any(String));
       expect(row.values.tuition, `${row.id} explains tuition`).toEqual(expect.any(String));
       expect(row.location?.sourceUrl, `${row.id} has a sourced map location`).toMatch(/^https:\/\//);
-      expect((row.tags ?? []).filter((tag) => ownershipTags.has(tag))).toHaveLength(1);
       expect(row.detail?.links?.length ?? 0, `${row.id} has cross-checkable evidence`).toBeGreaterThanOrEqual(2);
     }
   });
@@ -288,39 +286,46 @@ describe("supplementary datasets", () => {
       .map((row) => row.id);
     expect(invalid).toEqual([]);
   });
-  it("classifies researched university ownership and intake-tag states", () => {
+  it("classifies researched university intake-tag states", () => {
     const rows = getDatasets("germany").universities?.rows ?? [];
     const idsWith = (tag: string) => rows.filter((row) => row.tags?.includes(tag)).map((row) => row.id).sort();
-    const ownershipTags = new Set(["Public", "Private"]);
-    const admissionTags = new Set([
-      "Winter ’26 open", "Summer ’27 open", "Winter ’27 open",
-      "Summer ’27", "Winter ’27", "No CS intake ’27",
-    ]);
+    const intakeTags = new Set(["Summer ’27", "Winter ’27"]);
+    // a status chip is a verified portal state on the dataset review date: accepting applications
+    // today, or an officially published opening month. Never both, never a projected month.
+    const openingTag = /^Opens (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) ’(26|27)$/;
+    const isStatus = (tag: string) => tag === "Open now" || openingTag.test(tag);
 
-    expect(rows.filter((row) => (row.tags ?? []).filter((tag) => ownershipTags.has(tag)).length !== 1).map((row) => row.id)).toEqual([]);
-    expect(rows.flatMap((row) => row.tags ?? []).filter((tag) => !ownershipTags.has(tag) && !admissionTags.has(tag))).toEqual([]);
-    expect(rows.filter((row) => row.tags?.includes("Summer ’27") && row.tags.includes("Summer ’27 open")).map((row) => row.id)).toEqual([]);
-    expect(rows.filter((row) => row.tags?.includes("Winter ’27") && row.tags.includes("Winter ’27 open")).map((row) => row.id)).toEqual([]);
+    expect(
+      rows.flatMap((row) => row.tags ?? []).filter((tag) => !intakeTags.has(tag) && !isStatus(tag)),
+    ).toEqual([]);
+    // exactly one status chip at most, and it may never contradict itself
+    expect(rows.filter((row) => (row.tags ?? []).filter(isStatus).length > 1).map((row) => row.id)).toEqual([]);
+    // every row states at least one intake
+    expect(rows.filter((row) => !(row.tags ?? []).some((tag) => intakeTags.has(tag))).map((row) => row.id)).toEqual([]);
+    // a status chip must sit on a row whose window text explains it
+    for (const row of rows) {
+      const status = (row.tags ?? []).find(isStatus);
+      if (status === "Open now") {
+        expect(String(row.values.applicationWindow), `${row.id} explains its open state`).toMatch(/Open now/i);
+      }
+    }
 
     expect(idsWith("Winter ’27").length).toBeGreaterThan(0);
-    expect(idsWith("Winter ’26 open")).toEqual([]);
-    expect(idsWith("Summer ’27 open")).toEqual(["htw-berlin"]);
-    expect(idsWith("Winter ’27 open")).toEqual([]);
-    expect(idsWith("No CS intake ’27")).toEqual([]);
+    expect(idsWith("Open now")).toEqual(["heidelberg", "htw-berlin", "marburg", "tu-braunschweig"]);
     expect(rows.flatMap((row) => row.tags ?? []).some((tag) => tag.includes("upcoming"))).toBe(false);
   });
-  it("marks every German university as exactly public or private", () => {
+  it("targets public universities only, so no row carries an ownership tag", () => {
     const rows = getDatasets("germany").universities?.rows ?? [];
-    expect(rows.filter((row) => row.tags?.includes("Public"))).toHaveLength(56);
-    expect(rows.filter((row) => row.tags?.includes("Private")).map((row) => row.id).sort()).toEqual([]);
+    expect(rows).toHaveLength(59);
+    expect(rows.filter((row) => row.tags?.some((tag) => tag === "Public" || tag === "Private")).map((row) => row.id)).toEqual([]);
   });
   it("applies the listed-city rank exception without weakening the nationwide limit", () => {
     const rows = getDatasets("germany").universities?.rows ?? [];
     const regionalRankExceptions = [
       "bht-berlin", "btu-cottbus", "htw-berlin", "hwr-berlin",
-      "frankfurt-uas", "th-koeln",
+      "frankfurt-uas", "th-koeln", "tuhh", "haw-hamburg", "fh-dortmund",
     ];
-    expect(rows).toHaveLength(56);
+    expect(rows).toHaveLength(59);
     expect(rows.filter((row) => typeof row.values.overallRank !== "number" || row.values.overallRank > 3200).map((row) => row.id)).toEqual([]);
     expect(rows.filter((row) => typeof row.values.overallRank === "number" && row.values.overallRank > 1000).map((row) => row.id).sort()).toEqual(regionalRankExceptions.sort());
     expect(rows.filter((row) => typeof row.values.nonEuTuition !== "number" || row.values.nonEuTuition > 5000).map((row) => row.id)).toEqual([]);
