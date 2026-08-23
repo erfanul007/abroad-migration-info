@@ -129,7 +129,7 @@ describe("supplementary datasets", () => {
     ];
     const rankIds = ["cse", "ai", "ml", "ds", "swe"];
     const winterOnlyIds = new Set([
-      "muenster", "bielefeld", "bremen", "ulm", "konstanz", "greifswald", "wuppertal",
+      "bielefeld", "bremen", "ulm", "konstanz", "greifswald", "wuppertal",
       "chemnitz", "oldenburg", "siegen",
     ]);
     const genericTimeline = /exact .*must be taken|use the .*target|target-cycle|programme-specific target|subject to programme rules/i;
@@ -311,7 +311,7 @@ describe("supplementary datasets", () => {
     }
 
     expect(idsWith("Winter ’27").length).toBeGreaterThan(0);
-    expect(idsWith("Open now")).toEqual(["heidelberg", "htw-berlin", "marburg", "tu-braunschweig"]);
+    expect(idsWith("Open now")).toEqual(["heidelberg", "htw-berlin", "rptu-kaiserslautern", "tu-braunschweig"]);
     expect(rows.flatMap((row) => row.tags ?? []).some((tag) => tag.includes("upcoming"))).toBe(false);
   });
   it("targets public universities only, so no row carries an ownership tag", () => {

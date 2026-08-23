@@ -4,7 +4,7 @@
   "title": "German Universities — CS & Engineering Master Shortlist",
   "subtitle": "Public German universities only. Those within EduRank’s global top 1,000, plus a top-3,200 exception for any city already listed in the German city scoreboard, with an evidenced on-campus English computing-related degree for international applicants and non-EU tuition no higher than €5,000 per semester.",
   "scale": "rank",
-  "lastReviewed": "2026-08-11",
+  "lastReviewed": "2026-08-24",
   "columns": [
     {
       "id": "overallRank",
@@ -145,9 +145,9 @@
         "applicationFee": 0,
         "programs": "M.Sc. Data and Computer Science; M.Sc. Scientific Computing",
         "intakes": "Summer 2027 · April start; Winter 2027 · October start",
-        "applicationWindow": "Open now for Summer 2027 · 1 August – 15 September 2026; Winter 2027/28 · 1 February – 15 March 2027. The published master's table applies the same dates to German and international nationals",
+        "applicationWindow": "Open now for M.Sc. Data and Computer Science — Summer 2027: 1 August – 15 September 2026; Winter 2027/28: 1 February – 15 March 2027 (the university's published master's table applies the same dates to German and international nationals). M.Sc. Scientific Computing runs a separate, wider window: Summer 2027 applications open 1 October 2026 (recommended non-EU deadline 15 November 2026, final 1 January 2027; EU/German deadlines later, up to 1 March 2027); Winter 2027/28 applications open 1 April 2027 (recommended non-EU deadline 15 June 2027, final 31 July 2027). As of 23 August 2026, Scientific Computing's next window has not opened yet — only DACS is open now.",
         "tuition": "€1,500 per semester for most non-EU students",
-        "semesterFee": "About €190 per semester; verify current amount",
+        "semesterFee": "€189.80 per semester (current Heidelberg University semester fee, per the university's own semester-fees page)",
         "applicationRoute": "Direct university application",
         "applicationPortal": "heiCO",
         "language": "English; programme-specific proof such as IELTS 6.5 may apply",
@@ -181,6 +181,18 @@
           {
             "title": "Heidelberg application information",
             "url": "https://www.informatik.uni-heidelberg.de/studium/master/dacs/application?lang=en"
+          },
+          {
+            "title": "Application deadlines for the 1st semester of the Master's degree programmes - Heidelberg University",
+            "url": "https://www.uni-heidelberg.de/en/study/management-of-studies/key-dates-deadlines/application-deadlines-for-the-1st-semester-of-the-masters-degree-programmes"
+          },
+          {
+            "title": "Application & Admission - International Master Scientific Computing",
+            "url": "https://mastersc.iwr.uni-heidelberg.de/application-admission"
+          },
+          {
+            "title": "Semester Fees - Heidelberg University",
+            "url": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees"
           }
         ]
       }
@@ -356,7 +368,7 @@
         "intakes": "Winter 2027 · October start",
         "applicationWindow": "Winter 2027 · 15 February – 31 March 2027; the programme states there is no summer or late intake",
         "tuition": "€0 tuition",
-        "semesterFee": "About €380 per semester, often including transport benefits",
+        "semesterFee": "€402 for Winter Semester 2026/27 (up from €384 in Summer 2026), per the University of Hamburg's own semester-contribution announcement; includes the public-transport semester ticket",
         "applicationRoute": "Direct university/programme application",
         "applicationPortal": "STiNE / programme application portal",
         "language": "English proof required",
@@ -389,6 +401,10 @@
           {
             "title": "EduRank — Germany 2026 rankings",
             "url": "https://edurank.org/geo/de/"
+          },
+          {
+            "title": "Semesterbeitrag Wintersemester 2026/27 : UHH : Universität Hamburg",
+            "url": "https://www.uni-hamburg.de/campuscenter/aktuelles/2026-07-23-semesterbeitrag-wise-2026.html"
           }
         ]
       }
@@ -558,7 +574,7 @@
         "intakes": "Summer 2027 · April start; Winter 2027 · October start",
         "applicationWindow": "Summer 2027 · round one, open to all applicants, 15 October – 1 November 2026; round two is EEA-only, 15 December 2026 – 15 January 2027. Non-EEA decisions are targeted for 15 December",
         "tuition": "€0 tuition",
-        "semesterFee": "Semester contribution applies",
+        "semesterFee": "€363.07 for Winter 2026/27 (up from €345.07 in Summer 2026), covering the Deutschlandticket and administrative/student-service costs",
         "applicationRoute": "Direct university application",
         "applicationPortal": "University application portal",
         "language": "Can be studied in English; verify accepted proof",
@@ -595,6 +611,10 @@
           {
             "title": "Bonn Institute of Computer Science — deadlines at a glance",
             "url": "https://www.informatik.uni-bonn.de/en/studies/examination-office/deadlines-at-a-glance"
+          },
+          {
+            "title": "University of Bonn — costs (application, admission and enrolment)",
+            "url": "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs"
           }
         ]
       }
@@ -605,6 +625,7 @@
       "abbr": "UGOE",
       "sublabel": "Göttingen, Lower Saxony",
       "tags": [
+        "Opens Oct ’26",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -625,7 +646,7 @@
         "applicationFee": 0,
         "programs": "M.Sc. Applied Data Science",
         "intakes": "Summer 2027 · April start; Winter 2027 · October start",
-        "applicationWindow": "Summer 2027 · deadline 1 November 2026; the application period is stated only as starting roughly one month before the deadline, so no opening date is published. Non-EU applicants use a separate portal and must pass an online aptitude test",
+        "applicationWindow": "Summer 2027 · deadline 1 November 2026; the application period is stated only as starting roughly one month before the deadline (around 1 October 2026), so no exact opening date is published, and as of 23 August 2026 the portal is confirmed not yet open. Non-EU applicants use a separate portal from EU/EEA applicants and, from Summer 2027, may submit external dMAT Data Science test results in place of (or alongside) the university's own online aptitude test. Winter semester deadline is 1 May, though winter entry is the recommended track",
         "tuition": "€0 tuition",
         "semesterFee": "Semester contribution applies",
         "applicationRoute": "Direct university application",
@@ -664,6 +685,10 @@
           {
             "title": "Göttingen Applied Data Science — application",
             "url": "https://www.uni-goettingen.de/en/642406.html"
+          },
+          {
+            "title": "Application deadlines - Georg-August-Universität Göttingen",
+            "url": "https://www.uni-goettingen.de/en/51427.html"
           }
         ]
       }
@@ -950,6 +975,7 @@
       "abbr": "KIT",
       "sublabel": "Karlsruhe, Baden-Württemberg",
       "tags": [
+        "Opens Nov ’26",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -970,7 +996,7 @@
         "applicationFee": 0,
         "programs": "M.Sc. Computer Science",
         "intakes": "Summer 2027 · April start; Winter 2027 · October start",
-        "applicationWindow": "Summer 2027 · deadline 15 January 2027; Winter 2027/28 · deadline 15 June 2027 for the capacity-limited Computer Science master (KIT's central table gives 15 January and 15 July for limited-capacity programmes). No portal opening date is published on the official pages",
+        "applicationWindow": "Computer Science M.Sc. (INT) deadlines: 15 January for summer-term entry (Summer 2027) and 15 June for winter-term entry (Winter 2027/28); KIT's general capacity-limited-programme table separately lists 15 January / 15 July for other Informatics-family master's programmes. No exact portal-opening day is published for this specific programme, but KIT's central admissions FAQ states application portals open 'voraussichtlich Ende November' (expected end of November) ahead of a summer-semester deadline and 'voraussichtlich Mitte/Ende Mai' (expected mid/end of May) ahead of a winter-semester one — so the Summer-2027 portal is expected to open around end of November 2026, not yet open as of 23 August 2026",
         "tuition": "€1,500 per semester for most non-EU students",
         "semesterFee": "Administrative and student-services fees apply",
         "applicationRoute": "Direct university application",
@@ -1005,6 +1031,10 @@
           {
             "title": "KIT Computer Science admission and deadlines",
             "url": "https://www.informatik.kit.edu/english/14346.php"
+          },
+          {
+            "title": "KIT - Business unit Studying and Teaching - Before Your Studies - Application and Admission - FAQ",
+            "url": "https://www.sle.kit.edu/english/vorstudium/3928.php"
           }
         ]
       }
@@ -1014,6 +1044,8 @@
       "label": "University of Münster",
       "sublabel": "Münster, North Rhine-Westphalia",
       "tags": [
+        "Opens Nov ’26",
+        "Summer ’27",
         "Winter ’27"
       ],
       "location": {
@@ -1029,7 +1061,7 @@
         "applicationFee": 0,
         "programs": "M.Sc. Information Systems",
         "intakes": "Winter only for the qualifying English-taught programme and Bangladeshi/visa-required applicants",
-        "applicationWindow": "Winter entry confirmed; the programme-specific 2027 international deadline is portal-dependent and not publicly specified as of 22 July 2026",
+        "applicationWindow": "The Department of Information Systems' own admissions page states M.Sc. Information Systems admits in both semesters: summer-semester-intake applications run 10 November – 15 January (Summer 2027: 10 Nov 2026 – 15 Jan 2027, the next window to open); winter-semester-intake applications run 10 May – 15 July (Winter 2027/28: 10 May – 15 Jul 2027). This is consistent with the university-wide pattern for local-NC master's programmes published by the central admissions office (early May–15 July winter / early Nov–15 Jan summer). As of 23 August 2026 no window is open",
         "tuition": "€0 tuition",
         "semesterFee": "€369.50 for Winter 2026/27",
         "applicationRoute": "University master application with foreign-degree route",
@@ -1081,6 +1113,14 @@
           {
             "title": "University of Münster — map address",
             "url": "https://www.openstreetmap.org/?mlat=51.969&mlon=7.596#map=17/51.969/7.596"
+          },
+          {
+            "title": "Master of Science Information Systems | Department of Information Systems (application deadlines: 10th Nov–15th Jan / 10th May–15th Jul)",
+            "url": "https://www.wi.uni-muenster.de/prospective-students/our-courses-study/master-science-information-systems"
+          },
+          {
+            "title": "Application deadlines (Fristen und Termine) - University of Münster",
+            "url": "https://www.uni-muenster.de/studieninteressierte/bewerbung/fristenundtermine.shtml"
           }
         ]
       }
@@ -1303,6 +1343,7 @@
       "label": "Kiel University",
       "sublabel": "Kiel, Schleswig-Holstein",
       "tags": [
+        "Opens Nov ’26",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -1322,7 +1363,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Computer Science",
         "intakes": "Summer and winter",
-        "applicationWindow": "Published recurring windows: winter semester from the beginning of May to 15 July, summer semester from the beginning of November to 15 January, both via uni-assist. The programme page itself states no cycle-specific 2027 dates",
+        "applicationWindow": "Published recurring windows via uni-assist: winter-semester intake from the beginning of May to 15 July (Winter 2027/28: May–15 July 2027); summer-semester intake from the beginning of November to 15 January (Summer 2027: 1 Nov 2026 – 15 Jan 2027, the next window to open). CAU Kiel's central deadlines page separately lists earlier 1 July / 2 January cut-offs for NC-restricted programmes. The M.Sc. Computer Science programme page itself states no cycle-specific 2027 dates. As of 23 August 2026 no window is open",
         "tuition": "€0 tuition",
         "semesterFee": "€403 for Winter 2026/27 plus one-time €55 enrolment fee",
         "applicationRoute": "uni-assist for degrees obtained outside Germany",
@@ -1371,6 +1412,10 @@
           {
             "title": "Kiel University — map address",
             "url": "https://www.openstreetmap.org/?mlat=54.3309&mlon=10.1808#map=17/54.3309/10.1808"
+          },
+          {
+            "title": "Fristen - Bewerbung über uni-assist - Christian-Albrechts-Universität zu Kiel",
+            "url": "https://www.studium.uni-kiel.de/de/bewerbung-einschreibung/bewerbung/uni-assist/fristen"
           }
         ]
       }
@@ -1450,7 +1495,6 @@
       "label": "University of Marburg",
       "sublabel": "Marburg, Hesse",
       "tags": [
-        "Open now",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -1466,7 +1510,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Data Science",
         "intakes": "Summer and winter",
-        "applicationWindow": "Open now: the uni-assist window for foreign degrees for Winter 2026/27 runs 1 May – 21 August 2026. The Summer 2026 equivalent ran 1 November 2025 – 27 February 2026; the 2027 cycles are not yet published",
+        "applicationWindow": "Winter 2026/27's uni-assist window for foreign degrees closed 21 August 2026 (it ran 1 May – 21 August 2026). The Summer 2026 equivalent ran 1 November 2025 – 27 February 2026. The 2027 cycles are not yet published on the university's own pages as of this check.",
         "tuition": "€0 tuition",
         "semesterFee": "€424.80 for Winter 2026/27",
         "applicationRoute": "uni-assist for foreign degrees",
@@ -1614,7 +1658,7 @@
         "applicationFee": 0,
         "programs": "M.Sc. Computer Science; Data Science and Artificial Intelligence; Cybersecurity",
         "intakes": "Summer and winter",
-        "applicationWindow": "Recurring deadlines only: summer semester 15 May (early) or 15 November (regular); winter semester 15 November (early) or 15 May (regular). Applying by 15 November for the following winter semester is expected to yield a decision by mid-February. No portal opening date is published",
+        "applicationWindow": "Recurring deadlines only: summer semester 15 May (early) or 15 November (regular); winter semester 15 November (early) or 15 May (regular). Applying by 15 November for the following winter semester is expected to yield a decision by mid-February. Computer Science is administered by its own department portal (apply.cs.uni-saarland.de), separate from the university's central SIM portal system — cross-checked via the English page, its German-language equivalent, the university-wide application-procedure pages, and Wayback Machine snapshots from January 2025 to August 2026: no source at any point publishes a distinct portal-opening date for the department's own system, only the two deadline pairs above.",
         "tuition": "€0 tuition",
         "semesterFee": "€412.30 for Winter 2026/27",
         "applicationRoute": "Saarland Informatics Campus application portal",
@@ -1658,6 +1702,14 @@
           {
             "title": "Saarland University — official semester contribution",
             "url": "https://www.uni-saarland.de/studium/organisation/beitraege/semesterbeitrag.html"
+          },
+          {
+            "title": "Saarland University — Informatik programme page (German)",
+            "url": "https://www.uni-saarland.de/studium/angebot/master/informatik.html"
+          },
+          {
+            "title": "Saarland University — Master's programmes application (SIM vs. departmental portals)",
+            "url": "https://www.uni-saarland.de/en/study/application/master.html"
           },
           {
             "title": "EduRank — Saarland University",
@@ -2061,7 +2113,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Cognitive Systems; M.Sc. Mathematical Data Science",
         "intakes": "Winter only for the qualifying English-taught programme and Bangladeshi/visa-required applicants",
-        "applicationWindow": "Winter 2027/28 · 1 April – 15 May 2027 (the programme page states 1 April – 15 May as the application period); no summer entry",
+        "applicationWindow": "Winter 2027/28 · no summer entry for either programme. M.Sc. Cognitive Systems: 1 April – 15 May 2027, identical deadline via the Campusportal and uni-assist routes. M.Sc. Mathematical Data Science: 1 April – 15 May 2027 via the Campusportal, but 1 April – 15 July 2027 via uni-assist — the route required for applicants with a bachelor's degree obtained outside Germany, so Bangladeshi applicants should use the 15 July deadline, not 15 May",
         "tuition": "€1,500 per semester for non-EU students",
         "semesterFee": "€192 plus €1,500 non-EU tuition for Winter 2026/27",
         "applicationRoute": "uni-assist for foreign degrees",
@@ -2106,6 +2158,10 @@
           {
             "title": "Ulm University — map address",
             "url": "https://www.openstreetmap.org/?mlat=48.4227&mlon=9.9556#map=17/48.4227/9.9556"
+          },
+          {
+            "title": "Master of Science in Mathematical Data Science - Application and enrolment - Universität Ulm",
+            "url": "https://www.uni-ulm.de/en/study/application-and-enrolment/masters-programmes/master-of-science-in-mathematical-data-science/"
           }
         ]
       }
@@ -2414,7 +2470,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Data Science; M.Sc. Computational Sciences in Engineering",
         "intakes": "Summer and winter depending on programme",
-        "applicationWindow": "Open now for Summer 2027 · the English-language and bilingual international master's window runs 1 August – 15 September 2026; Winter 2027/28 · 1 February – 15 March 2027. TU Braunschweig's general international master's windows (1 December – 15 January and 1 June – 15 July) do not apply to these programmes",
+        "applicationWindow": "Open now for Summer 2027 · the English-language/bilingual international master's window runs 1 August–15 September 2026 (confirmed directly via TU Braunschweig's own central application page, today 23 August 2026 falls inside it); Winter 2027/28 · 1 February–15 March 2027. TU Braunschweig's general international master's windows (1 December–15 January and 1 June–15 July) do not apply to these programmes. M.Sc. Computational Sciences in Engineering's own programme page states it begins in the winter semester only, with no summer intake mentioned — the Summer 2027 window applies to M.Sc. Data Science",
         "tuition": "€0 tuition",
         "semesterFee": "€472.50 per semester",
         "applicationRoute": "TU online international application; €75 foreign-qualification assessment",
@@ -2462,6 +2518,10 @@
           {
             "title": "TU Braunschweig — application deadlines for international applicants",
             "url": "https://www.tu-braunschweig.de/en/application"
+          },
+          {
+            "title": "CSE: Computational Sciences in Engineering (Master) - TU Braunschweig",
+            "url": "https://www.tu-braunschweig.de/en/degree-programmes/cse-computational-sciences-in-engineering-master"
           }
         ]
       }
@@ -2618,6 +2678,7 @@
       "label": "RPTU Kaiserslautern-Landau",
       "sublabel": "Kaiserslautern, Rhineland-Palatinate",
       "tags": [
+        "Open now",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -2633,7 +2694,7 @@
         "applicationFee": 60,
         "programs": "M.Sc. Computer Science; M.Sc. Embedded Computing Systems",
         "intakes": "Summer and winter",
-        "applicationWindow": "Summer 2027 · deadline 31 October 2026; Winter 2027/28 · deadline 30 April 2027, both stated in the faculty's international master application portal. No portal opening date is published",
+        "applicationWindow": "Open now for Summer 2027 via the Dept. of Electrical and Computer Engineering's M.Sc. Embedded Computing Systems portal, which states a standing window 'for the summer semester: from May 1 until October 31 of the year before' (i.e. Summer 2027 · 1 May–31 October 2026) and 'for the winter semester: from November 1 of the year before until April 30' (Winter 2027/28 · 1 November 2026–30 April 2027). M.Sc. Computer Science, on the Dept. of Computer Science's separate portal, has the same deadlines — Summer 2027 · 31 October 2026; Winter 2027/28 · 30 April 2027 — but that portal still states no opening date",
         "tuition": "€0 tuition",
         "semesterFee": "Approximately €320 per semester, official RPTU estimate",
         "applicationRoute": "RPTU international-master portal; €60 foreign-certificate evaluation",
@@ -2684,8 +2745,12 @@
             "url": "https://www.openstreetmap.org/?mlat=49.425&mlon=7.755#map=17/49.425/7.755"
           },
           {
-            "title": "RPTU informatics international master application portal",
-            "url": "https://applymsc.informatik.uni-kl.de/"
+            "title": "M.Sc. Application TUK-CS - RPTU (Dept. of Computer Science portal; redirected from applymsc.informatik.uni-kl.de)",
+            "url": "https://applymsc.cs.rptu.de/"
+          },
+          {
+            "title": "M.Sc. Application Dept. of Electrical and Computer Engineering - RPTU ('for the summer semester: from May 1 until October 31 of the year before'; 'for the winter semester: from November 1 of the year before until April 30')",
+            "url": "https://applymsc.eit.rptu.de/"
           }
         ]
       }
@@ -2713,7 +2778,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Data Science",
         "intakes": "Winter only for the qualifying English-taught programme and Bangladeshi/visa-required applicants",
-        "applicationWindow": "Winter-only entry; applicants with foreign degrees apply directly via uni-assist by 31 May for a start in the winter semester of the same year. No opening date is published, and the 2027 cycle is not separately announced",
+        "applicationWindow": "Winter-only entry. The confirmed non-EU Master's application window for the nearest published cycle (Winter 2026/27) is 1 May – 15 July via uni-assist. Winter 2027/28-specific dates are not yet separately announced.",
         "tuition": "€0 tuition",
         "semesterFee": "€152 first enrolment; €127 re-registration",
         "applicationRoute": "uni-assist; €75 first application",
@@ -2757,6 +2822,14 @@
           {
             "title": "University of Greifswald — map address",
             "url": "https://www.openstreetmap.org/?mlat=54.0949&mlon=13.3737#map=17/54.0949/13.3737"
+          },
+          {
+            "title": "Application Procedure for International Applicants - University of Greifswald (non-EU/EEA, 'all other Master's programmes': 01.05.2026–15.07.2026 for Winter Semester 2026/2027; Summer Semester 2027: 1 Nov 2026–15 Jan 2027)",
+            "url": "https://www.uni-greifswald.de/en/international/incoming/degree-seeking-students/application-procedure-for-international-applicants/"
+          },
+          {
+            "title": "Dates and Deadlines - University of Greifswald",
+            "url": "https://www.uni-greifswald.de/en/study/prior-to-studies/dates-and-deadlines/"
           }
         ]
       }
@@ -2987,6 +3060,7 @@
       "label": "University of Augsburg",
       "sublabel": "Augsburg, Bavaria",
       "tags": [
+        "Opens Sep ’26",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -3002,7 +3076,7 @@
         "applicationFee": 0,
         "programs": "M.Sc. Data Science",
         "intakes": "Summer and winter",
-        "applicationWindow": "Summer 2027 · deadline 1 March 2027; Winter 2027/28 · deadline 1 September 2027. Non-EU applicants are advised to apply by 1 December and 1 May respectively for visa processing. No portal opening date is published",
+        "applicationWindow": "Summer 2027 · portal opens mid-September 2026, official deadline 1 March 2027; non-EU applicants advised to apply by 1 December 2026 for visa processing. Winter 2027/28 · portal opens mid-March 2027, official deadline 1 September 2027; non-EU applicants advised to apply by 1 May 2027. Both the deadlines and the mid-March/mid-September portal-opening pattern are stated by the programme's own page as standing (non-year-specific) rules",
         "tuition": "€0 tuition",
         "semesterFee": "€181.95 for Winter 2026/27",
         "applicationRoute": "Direct VIBS application; no university fee",
@@ -3151,7 +3225,7 @@
         "applicationFee": 0,
         "programs": "M.Sc. Web Engineering",
         "intakes": "Winter only for the qualifying English-taught programme and Bangladeshi/visa-required applicants",
-        "applicationWindow": "Winter 2026/27 ran 1 April – 15 July 2026 and is closed. TU Chemnitz's central table additionally lists a restricted-admission international uni-assist window of 1 October 2026 – 15 January 2027 for the summer semester, which the programme page does not confirm for Web Engineering — verify with the department before assuming a summer route",
+        "applicationWindow": "Winter 2026/27 ran 1 April – 15 July 2026 and is closed. Web Engineering is confirmed admission-free (zulassungsfrei) on its own German-language programme page, and is one of four TU Chemnitz Master's programmes named as using the EduApplication Portal directly rather than uni-assist — so the previously flagged restricted uni-assist summer window does not apply to this programme. The same page confirms intake is usually winter semester only. Winter 2027/28 dates are not yet published for this programme specifically.",
         "tuition": "€0 tuition",
         "semesterFee": "€341.40 for Winter 2026/27",
         "applicationRoute": "EduApplication; no university application fee identified",
@@ -3190,8 +3264,16 @@
             "url": "https://www.tu-chemnitz.de/informatik/studium/studiengaenge/ma_web_engineering.php.en"
           },
           {
+            "title": "Chemnitz University of Technology — Web Engineering programme page (German, admission-mode statement)",
+            "url": "https://www.tu-chemnitz.de/informatik/studium/studiengaenge/ma_web_engineering.php"
+          },
+          {
             "title": "Chemnitz University of Technology — fees or international information",
             "url": "https://www.tu-chemnitz.de/international/digiassist/Digi_FAQs.php.en"
+          },
+          {
+            "title": "Chemnitz University of Technology — application-procedure classification (EduApplication Portal)",
+            "url": "https://www.tu-chemnitz.de/studierendenservice/studserv/bewerbung/bew_bamala.php.en"
           },
           {
             "title": "EduRank — Chemnitz University of Technology",
@@ -3501,6 +3583,7 @@
       "label": "Osnabrück University",
       "sublabel": "Osnabrück, Lower Saxony",
       "tags": [
+        "Opens Sep ’26",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -3517,7 +3600,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Cognitive Science",
         "intakes": "Winter and summer subject to programme rules",
-        "applicationWindow": "The university's own pages disagree for applicants with non-German certificates: uni-assist deadlines of 15 January (summer) and 15 July (winter) are published alongside the general 15 December and 15 June dates. Confirm which applies before the target cycle",
+        "applicationWindow": "Cognitive Science admits in both semesters. Two independent official pages (the university's central non-European-applicants page and its uni-assist application page) confirm, identically, that international applicants — required to apply exclusively via uni-assist — face deadlines of 15 June for winter-semester entry (Winter 2027/28) and 15 December for summer-semester entry (Summer 2027). This is the reverse of the 15 January/15 July pair, which applies only to the direct HISinOne-Studienorganisation portal used by applicants who don't need uni-assist (German nationals or those already studying in Germany). The uni-assist page states the Summer 2027 application process will 'approximately begin on 15th September 2026'; no opening date is published for the Winter 2027/28 (15 June 2027) deadline",
         "tuition": "€0 tuition",
         "semesterFee": "Approximately €350 including semester ticket",
         "applicationRoute": "uni-assist for non-German credentials; €75 first application",
@@ -3565,6 +3648,14 @@
           {
             "title": "Osnabrück M.Sc. Cognitive Science",
             "url": "https://www.uni-osnabrueck.de/en/studying/our-study-programs/study-programs-from-a-z/cognitive-science-master-of-science"
+          },
+          {
+            "title": "International students from non-European countries - Osnabrück University",
+            "url": "https://www.uni-osnabrueck.de/en/studying/application-and-start-of-studies/application-admission-and-enrollment/application-information-for-international-students/international-students-from-non-european-countries"
+          },
+          {
+            "title": "Application at Osnabrück University via uni-assist e.V. - Osnabrück University",
+            "url": "https://www.uni-osnabrueck.de/en/studying/application-and-start-of-studies/application-admission-and-enrollment/application-information-for-international-students/application-via-uni-assist-ev"
           }
         ]
       }
@@ -3596,7 +3687,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Artificial Intelligence; M.Sc. Cyber Security",
         "intakes": "Artificial Intelligence: summer and winter; Cyber Security: winter",
-        "applicationWindow": "Summer 2027 · 1 November 2026 – 15 January 2027 via uni-assist for the Artificial Intelligence master; the Winter 2026/27 foreign-degree window closed on 15 July 2026 and Winter 2027/28 is not yet published",
+        "applicationWindow": "Artificial Intelligence M.Sc. (uni-Assist, foreign qualifications) — Summer 2027: 1 November 2026 – 15 January 2027 (not yet open); Winter 2026/27 window closed 15 July 2026; Winter 2027/28 not yet published. Cyber Security M.Sc. has no Summer intake; its own Winter 2026/27 window for foreign qualifications ran 1 March – 15 May 2026 (non-EU/EEA) / 1 March – 15 August 2026 (EU/EEA) via uni-Assist — a different, earlier-closing window than the AI programme's — and Winter 2027/28 dates are not yet published. As of 23 August 2026 neither programme's window is open; the next confirmed opening is AI's Summer 2027 window on 1 November 2026.",
         "tuition": "€0 tuition",
         "semesterFee": "€391.80 for Winter 2026/27",
         "applicationRoute": "Foreign-degree applicants apply through uni-assist",
@@ -3910,7 +4001,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. High Integrity Systems; M.Eng. Information Technology",
         "intakes": "Winter only for international-degree applicants · October start",
-        "applicationWindow": "Winter 2026/27 closed on 15 April 2026; the official annual international deadline supports 15 April 2027 for Winter 2027/28, but the target portal is not yet open",
+        "applicationWindow": "Winter 2026/27 closed for international/foreign-qualification applicants on 15 April 2026 (domestic/German-qualification deadline 15 September 2026); Winter 2027/28 dates are not separately published on either programme's own page. For additional context: the university's general master's-application table places English-taught programmes — a category that includes High Integrity Systems M.Sc. and the 4-semester Information Technology M.Eng. track recommended for international students — in a 'January – 15 April' winter-semester window for uni-assist/foreign-qualification applicants, matching both programmes' own individually published 15 April deadline; domestic applicants apply 1 April – 15 September. This table's date range is not marked as repeating every year, so it should not be assumed to apply automatically to future intakes without checking the live page.",
         "tuition": "€0 tuition",
         "semesterFee": "€406.78 for Winter 2026/27; €416.78 at first enrolment including the €10 Study Chip",
         "applicationRoute": "Applicants with foreign credentials apply through uni-assist",
@@ -3958,6 +4049,10 @@
           {
             "title": "Frankfurt UAS — map address",
             "url": "https://www.openstreetmap.org/?mlat=50.129&mlon=8.693#map=17/50.129/8.693"
+          },
+          {
+            "title": "Application for Master studies - Frankfurt UAS",
+            "url": "https://www.frankfurt-university.de/en/studies/study-at-frankfurt-uas/application-for-master-studies/"
           }
         ]
       }
@@ -3986,7 +4081,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Business Analytics & Econometrics; M.Sc. Computational Sciences",
         "intakes": "Winter only · October start",
-        "applicationWindow": "Business Analytics & Econometrics applications run from mid-April to 15 June in KLIPS each year, so Winter 2027/28 closes 15 June 2027; Computational Sciences ran 15 June – 15 July 2026. No portal opening date is published beyond \"mid-April\"",
+        "applicationWindow": "Business Analytics & Econometrics M.Sc. — applications run mid-April to 15 June via KLIPS, per the official application page ('From mid-April until 15 June, you apply exclusively online via the campus management system [KLIPS]'). This date range is not tied to a specific year on the page, so it should be treated as the currently published window rather than a guaranteed annual repeat. Computational Sciences M.Sc. — the department's prospective-students page states a separate, later 'Application Period: June 15 – July 15', likewise without a year or a stated annual repeat. Neither track's window is open as of 23 August 2026.",
         "tuition": "€0 tuition",
         "semesterFee": "€355.65 for Winter 2026/27",
         "applicationRoute": "Applicants with foreign degrees obtain a uni-assist VPD and then apply in KLIPS 2.0",
@@ -4207,7 +4302,6 @@
       "abbr": "TUHH",
       "sublabel": "Hamburg",
       "tags": [
-        "Opens Dec ’26",
         "Winter ’27"
       ],
       "location": {
@@ -4227,7 +4321,7 @@
         "applicationFee": 0,
         "programs": "M.Sc. Data Science",
         "intakes": "Winter 2027 · October start; Data Science admits for the winter semester only",
-        "applicationWindow": "Winter 2027 · the international master's pre-check and online application open 1 December 2026 on the recurring schedule (the Winter 2026/27 window ran 1 December 2025 – 1 February 2026). EU nationals and EU residents applying to Data Science use 1 June – 15 July instead, and TUHH's dates page separately states that the deadline for the international master's courses expires on 1 March — confirm the exact non-EU date with STUDIS",
+        "applicationWindow": "Winter 2027 · the Data Science programme's own page states the non-EU pre-check and online application both run 1 December 2026 – 1 March 2027 (verbatim: pre-check 'from December 1st until March 1st', online application 'from December 1st and ends on March 1st'). TUHH's general international-study-programs page separately describes a 1 February close for the typical cycle, which does not match the Data Science page's own 1 March date; the Data Science page is the more specific and authoritative source for this programme. EU nationals and EU residents applying to Data Science use a separate window: 1 June – 15 July 2027. Neither window carries a year on its own page, and no TUHH page found (Data Science page, central Dates & Respites page, or the general How-to-Apply PDF) states these dates repeat annually",
         "tuition": "€0 tuition",
         "semesterFee": "€400.00 for Winter 2026/27",
         "applicationRoute": "Direct online application in the TUHH portal; no uni-assist or VPD step. An APS certificate is required only for degrees from China, India or Vietnam, so a Bangladeshi degree does not need one",
@@ -4273,6 +4367,14 @@
             "url": "https://www.tuhh.de/tuhh/en/studying/before-studying/degree-courses/international-study-programs/how-and-when-to-apply/documents"
           },
           {
+            "title": "TUHH: FAQs Master",
+            "url": "https://www.tuhh.de/tuhh/en/studying/before-studying/application/faqs/faqs-master"
+          },
+          {
+            "title": "TUHH: Dates & Respites",
+            "url": "https://www.tuhh.de/tuhh/en/education/students/organisational-details-about-your-studies/dates-respites"
+          },
+          {
             "title": "TUHH semester contribution",
             "url": "https://www.tuhh.de/tuhh/en/education/students/organisational-details-about-your-studies/financing-your-studies/costs/semester-contribution"
           },
@@ -4293,7 +4395,6 @@
       "abbr": "HAW Hamburg",
       "sublabel": "Hamburg",
       "tags": [
-        "Opens Dec ’26",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -4314,7 +4415,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Information and Communications Engineering",
         "intakes": "Winter 2027 · October start; Summer 2027 · March start — the course admits for both semesters",
-        "applicationWindow": "Summer 2027 · 1 December 2026 – 15 January 2027; Winter 2027/28 · 1 June – 15 July 2027. The uni-assist preliminary review takes four to six weeks, so documents must be submitted well before those dates",
+        "applicationWindow": "Summer 2027 · 1 December 2026 – 15 January 2027; Winter 2027/28 · 1 June – 15 July 2027, per the programme's own page (verbatim: 'Winter Semester: 1 June–15 July', 'Summer Semester: 1 December–15 January'). These are bare, undated MM-DD statements — no page found on haw-hamburg.de (the programme page, the general Master's-application page, the international-applicants page, or the uni-assist page) states the dates repeat annually. The uni-assist preliminary review takes four to six weeks, so documents must be submitted well before those dates; uni-assist itself accepts submissions at any time year-round for the pre-check step, per HAW Hamburg's uni-assist guidance page",
         "tuition": "€0 tuition",
         "semesterFee": "€397.00 for Winter 2026/27, including the semester public-transport ticket",
         "applicationRoute": "Applicants with foreign credentials must first have their certificates reviewed by uni-assist for a VPD, then apply in the myHAW portal; the VPD stays valid at HAW Hamburg for two years",
@@ -4364,6 +4465,14 @@
             "url": "https://www.haw-hamburg.de/en/master-computer-science/"
           },
           {
+            "title": "Applying for a Master's degree course - HAW Hamburg",
+            "url": "https://www.haw-hamburg.de/en/study/applications/applying-for-a-masters-degree-course/"
+          },
+          {
+            "title": "International applicants - HAW Hamburg",
+            "url": "https://www.haw-hamburg.de/en/study/applications/international-applicants/"
+          },
+          {
             "title": "EduRank — Hamburg University of Applied Sciences",
             "url": "https://edurank.org/uni/hamburg-university-of-applied-sciences/rankings/"
           },
@@ -4380,7 +4489,7 @@
       "abbr": "FH Dortmund",
       "sublabel": "Dortmund, North Rhine-Westphalia",
       "tags": [
-        "Opens Mar ’27",
+        "Opens Feb ’27",
         "Winter ’27"
       ],
       "location": {
@@ -4399,7 +4508,7 @@
         "applicationFee": 0,
         "programs": "M.Eng. Embedded Systems Engineering; M.Sc. Digital Transformation",
         "intakes": "Winter 2027 · October start; both programmes admit for the winter semester only",
-        "applicationWindow": "Winter 2027/28 · the central dates page gives 1 March – 15 June for the English-language master's programmes for non-EU applicants (matching DAAD), while both programme pages state early April – 15 June; the non-EU pre-check runs February to June and both sources close on 15 June",
+        "applicationWindow": "Winter 2027/28 · FH Dortmund's own non-EU-applicants page states, specifically for the English-language master's programmes (Embedded Systems Engineering, Digital Transformation): 'Der pre-check startet jedes Jahr im Februar und endet im Juni' (the pre-check starts every year in February and ends in June) — explicit recurring-policy language confirming a February opening. The central dates page separately gives 1 March–15 June for 'Non-EU English-language Master's programmes' (undated single 2026 instance), while both programme pages state early April–15 June (also undated single instance); it remains unresolved which of March or April governs the subsequent online-application submission stage specifically, but all three sources agree the window closes 15 June, and the pre-check's February opening carries the only source with explicit annual-recurrence wording",
         "tuition": "€0 tuition",
         "semesterFee": "€346.80 social contribution per semester",
         "applicationRoute": "Mandatory pre-check for the English-language master's programmes at precheck.go-study-europe.de, then a direct application in the FH Dortmund portal; uni-assist applies only to the MA International Management, so no uni-assist fee arises here",
@@ -4445,6 +4554,10 @@
             "url": "https://www.fh-dortmund.de/application-ma-non-eu"
           },
           {
+            "title": "Bewerben als Nicht-EU-Angehörige*r - Master | Fachhochschule Dortmund ('Der pre-check startet jedes Jahr im Februar und endet im Juni')",
+            "url": "https://www.fh-dortmund.de/studieren/bewerben-einschreiben/bewerben-aus-dem-ausland/nicht-eu-master.php"
+          },
+          {
             "title": "DAAD — FH Dortmund Embedded Systems Engineering",
             "url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/detail/4513/"
           },
@@ -4477,10 +4590,6 @@
     {
       "title": "EduRank — Overall university rankings, Germany",
       "url": "https://edurank.org/geo/de/"
-    },
-    {
-      "title": "DAAD — International Programmes",
-      "url": "https://www2.daad.de/deutschland/studienangebote/international-programmes/en/"
     },
     {
       "title": "Heidelberg Data and Computer Science",
@@ -4645,6 +4754,14 @@
     {
       "title": "Saarland University — official semester contribution",
       "url": "https://www.uni-saarland.de/studium/organisation/beitraege/semesterbeitrag.html"
+    },
+    {
+      "title": "Saarland University — Informatik programme page (German)",
+      "url": "https://www.uni-saarland.de/studium/angebot/master/informatik.html"
+    },
+    {
+      "title": "Saarland University — Master's programmes application (SIM vs. departmental portals)",
+      "url": "https://www.uni-saarland.de/en/study/application/master.html"
     },
     {
       "title": "EduRank — Saarland University",
@@ -4943,8 +5060,16 @@
       "url": "https://www.tu-chemnitz.de/informatik/studium/studiengaenge/ma_web_engineering.php.en"
     },
     {
+      "title": "Chemnitz University of Technology — Web Engineering programme page (German, admission-mode statement)",
+      "url": "https://www.tu-chemnitz.de/informatik/studium/studiengaenge/ma_web_engineering.php"
+    },
+    {
       "title": "Chemnitz University of Technology — fees or international information",
       "url": "https://www.tu-chemnitz.de/international/digiassist/Digi_FAQs.php.en"
+    },
+    {
+      "title": "Chemnitz University of Technology — application-procedure classification (EduApplication Portal)",
+      "url": "https://www.tu-chemnitz.de/studierendenservice/studserv/bewerbung/bew_bamala.php.en"
     },
     {
       "title": "EduRank — Chemnitz University of Technology",
@@ -5287,10 +5412,6 @@
       "url": "https://www.tu-braunschweig.de/en/application"
     },
     {
-      "title": "RPTU informatics international master application portal",
-      "url": "https://applymsc.informatik.uni-kl.de/"
-    },
-    {
       "title": "Wuppertal CSiS — application",
       "url": "https://www.csis.uni-wuppertal.de/en/application/"
     },
@@ -5393,6 +5514,102 @@
     {
       "title": "Bielefeld international application deadlines",
       "url": "https://www.uni-bielefeld.de/international/come-in/studium/studium-mit-abschluss/fristen/"
+    },
+    {
+      "title": "Heidelberg — application deadlines for the 1st semester of Master's programmes",
+      "url": "https://www.uni-heidelberg.de/en/study/management-of-studies/key-dates-deadlines/application-deadlines-for-the-1st-semester-of-the-masters-degree-programmes"
+    },
+    {
+      "title": "Heidelberg Scientific Computing — application & admission",
+      "url": "https://mastersc.iwr.uni-heidelberg.de/application-admission"
+    },
+    {
+      "title": "Heidelberg University — semester fees",
+      "url": "https://www.uni-heidelberg.de/en/study/management-of-studies/semester-fees"
+    },
+    {
+      "title": "Semesterbeitrag Wintersemester 2026/27 : UHH : Universität Hamburg",
+      "url": "https://www.uni-hamburg.de/campuscenter/aktuelles/2026-07-23-semesterbeitrag-wise-2026.html"
+    },
+    {
+      "title": "University of Bonn — costs (application, admission and enrolment)",
+      "url": "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/costs"
+    },
+    {
+      "title": "Göttingen — application deadlines",
+      "url": "https://www.uni-goettingen.de/en/51427.html"
+    },
+    {
+      "title": "KIT — application and admission FAQ",
+      "url": "https://www.sle.kit.edu/english/vorstudium/3928.php"
+    },
+    {
+      "title": "University of Münster — Information Systems M.Sc.",
+      "url": "https://www.wi.uni-muenster.de/prospective-students/our-courses-study/master-science-information-systems"
+    },
+    {
+      "title": "University of Münster — application deadlines",
+      "url": "https://www.uni-muenster.de/studieninteressierte/bewerbung/fristenundtermine.shtml"
+    },
+    {
+      "title": "Kiel University — uni-assist application deadlines",
+      "url": "https://www.studium.uni-kiel.de/de/bewerbung-einschreibung/bewerbung/uni-assist/fristen"
+    },
+    {
+      "title": "Ulm University — Mathematical Data Science application and enrolment",
+      "url": "https://www.uni-ulm.de/en/study/application-and-enrolment/masters-programmes/master-of-science-in-mathematical-data-science/"
+    },
+    {
+      "title": "TU Braunschweig — CSE: Computational Sciences in Engineering (Master)",
+      "url": "https://www.tu-braunschweig.de/en/degree-programmes/cse-computational-sciences-in-engineering-master"
+    },
+    {
+      "title": "RPTU — Computer Science M.Sc. application portal",
+      "url": "https://applymsc.cs.rptu.de/"
+    },
+    {
+      "title": "RPTU — Electrical and Computer Engineering M.Sc. application portal",
+      "url": "https://applymsc.eit.rptu.de/"
+    },
+    {
+      "title": "University of Greifswald — application procedure for international applicants",
+      "url": "https://www.uni-greifswald.de/en/international/incoming/degree-seeking-students/application-procedure-for-international-applicants/"
+    },
+    {
+      "title": "University of Greifswald — dates and deadlines",
+      "url": "https://www.uni-greifswald.de/en/study/prior-to-studies/dates-and-deadlines/"
+    },
+    {
+      "title": "Osnabrück University — international students from non-European countries",
+      "url": "https://www.uni-osnabrueck.de/en/studying/application-and-start-of-studies/application-admission-and-enrollment/application-information-for-international-students/international-students-from-non-european-countries"
+    },
+    {
+      "title": "Osnabrück University — application via uni-assist e.V.",
+      "url": "https://www.uni-osnabrueck.de/en/studying/application-and-start-of-studies/application-admission-and-enrollment/application-information-for-international-students/application-via-uni-assist-ev"
+    },
+    {
+      "title": "Frankfurt UAS — application for Master studies",
+      "url": "https://www.frankfurt-university.de/en/studies/study-at-frankfurt-uas/application-for-master-studies/"
+    },
+    {
+      "title": "TUHH — FAQs Master",
+      "url": "https://www.tuhh.de/tuhh/en/studying/before-studying/application/faqs/faqs-master"
+    },
+    {
+      "title": "TUHH — dates & respites",
+      "url": "https://www.tuhh.de/tuhh/en/education/students/organisational-details-about-your-studies/dates-respites"
+    },
+    {
+      "title": "HAW Hamburg — applying for a Master's degree course",
+      "url": "https://www.haw-hamburg.de/en/study/applications/applying-for-a-masters-degree-course/"
+    },
+    {
+      "title": "HAW Hamburg — international applicants",
+      "url": "https://www.haw-hamburg.de/en/study/applications/international-applicants/"
+    },
+    {
+      "title": "FH Dortmund — non-EU Master's application procedure",
+      "url": "https://www.fh-dortmund.de/studieren/bewerben-einschreiben/bewerben-aus-dem-ausland/nicht-eu-master.php"
     }
   ]
 }
