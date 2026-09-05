@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# graphify (knowledge graph tool) - regenerate locally, don't commit
+graphify-out/
+obsidian-abroad-migration-info/

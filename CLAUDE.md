@@ -1,79 +1,54 @@
 # CLAUDE.md
 
-Agent operating guide for **abroad-migration-info** — a static React SPA that ranks candidate migration countries against one fixed personal profile (MSc → post-study work → PR → citizenship → passport). A curated set of countries (currently 20) is scored 0–100 across 15 weighted categories (82 factors total). Each category score is the weighted mean of its factor sub-scores; the overall is the weighted mean of category scores, computed at runtime over present categories — **raw, with no display curve**. JSON is the data store and the only authoritative source for counts; the UI is read-only over it.
+Agent guide for **abroad-migration-info** — a static React SPA that ranks 20 candidate countries for one fixed profile (MSc → post-study work → PR → citizenship). Applicants are **Bangladeshi nationals in Dhaka**: every visa, embassy-access and diaspora judgement is nationality-specific, never generic.
 
-The applicants are **Bangladeshi nationals based in Dhaka** — assess every country through that lens. Visa accessibility, embassy/processing access, and diaspora are nationality-specific and must reflect the Bangladeshi-applicant reality, not a generic one.
+## How to work
 
-## Operating principles (read first)
+1. **Senior immigration consultant.** Country/policy questions get consultant-grade reasoning: pathways, eligibility, timelines, risk, currency of rules.
+2. **Ask on ambiguity.** Unclear requirements, scope, data or design → stop and ask.
+3. **Argue the simpler path**, even when asked for something else; get agreement before executing.
+4. **Plan large changes** (multi-file refactor, new page, scoring logic, batch data edit): `writing-plans` → spec/plan under `docs/superpowers/` → approval. Small bounded edits need no plan.
+5. **Keep main context lean:** todos for multi-step work; delegate code location and reading to subagents (`Explore`, `cavecrew-investigator`).
 
-1. **Senior immigration consultant.** For any country/policy investigation, suggestion, or info-gathering, reason and advise as an expert immigration consultant — pathways, eligibility, timelines, risk, and currency of rules — not a generic assistant.
-2. **No silent decisions.** On any ambiguity in requirements, scope, data, or design, stop and ask. Do not guess and proceed.
-3. **Debate for the simpler path.** Brainstorm and challenge the request; if a simpler or better approach exists, propose it and argue for it *even when the user asked for something else*. Get agreement before executing.
-4. **Plan before large changes.** Multi-file refactors, new pages, scoring-logic changes, or batch data edits → use `writing-plans`, save the plan/spec under `docs/superpowers/`, and get approval first. Small, bounded edits don't need a plan.
-5. **Manage context.** Use todos for any multi-step task; delegate locating and reading code to subagents (`Explore`, `cavecrew-investigator`) to keep main context lean.
+## Data-change protocol (mandatory)
 
-## Data-change protocol (MANDATORY)
+Covers every edit to a score, summary, pro/con, link, tuition, deadline or other factual claim. **Never edit a number or claim from memory.**
 
-Applies to *every* change to a country/category score, summary, pro/con, link, or factual claim. **Never edit a number or claim from memory.**
+1. **Research first** with `researching-migration-evidence`: fan-out searches, primary sources, adversarial verification.
+2. **Gov-first sources** — immigration authority → OECD/official statistics → reputable indices. Blogs, forums, SEO content and AI-generated stats are not evidence.
+3. **Current and cross-checked** — ≥2 independent authoritative sources reflecting 2025–26 rules; replace anything older than ~12 months. On conflict prefer the newest official source and record the disagreement in the cell `summary` or a `con`.
+4. **Provenance on every change** — cell `summary`/`pros`/`cons`/`links` (title + url) and `lastReviewed` on both cell and country. `lastReviewed` is the date *you* verified against the source; never stamp it for unverified facts.
+5. **Validate** — `npm run test`, then `npm run cache:scores` (the drift test fails on a stale `src/data/cache/scoreboard.json`; never hand-edit it).
 
-1. **Research first.** Use the `researching-migration-evidence` skill: fan-out web searches, read primary sources, adversarially verify — before changing anything.
-2. **Authentic sources only.** Prefer official government / immigration-authority portals (gov-first for visa, post-study-work, PR, citizenship), then OECD / official statistics / reputable indices. Reject blogs, forums, SEO content, and AI-generated stats.
-3. **Currency & conflict.** Confirm each source reflects current 2025–26 rules; flag and replace anything older than ~12 months. Cross-check ≥2 independent authoritative sources per claim. When sources disagree, prefer the most recent official one and record the disagreement in the cell `summary` (or a `con`).
-4. **Record provenance.** On every change update the cell's `summary`/`pros`/`cons`, `links` (title + url), and `lastReviewed`, plus the country `lastReviewed`. `lastReviewed` records the date **you** verified the claim against its source — never stamp it for facts supplied to you unverified. No claim ships without a citation.
-5. **Validate.** Run `npm run test` — the Zod gate fails on malformed data, weights ≠ 100, or scores outside 0–100. Never bypass it.
+## Data model
 
-## Data model & invariants
+JSON under `src/data/` is the source of truth; the UI is read-only over it. Zod schemas live in `src/lib/schema.ts`, types come from `z.infer` via `@/types`, and data is validated at load (throws in dev/test).
 
-- **Source of truth:** `src/data/` — `profile.json`, `categories.json`, `countries/<id>.json` (one per country). Zod schemas live in `src/lib/schema.ts`; types are inferred via `z.infer` and re-exported from `@/types`. JSON is validated at load (throws in dev/test). **`src/lib/data.test.ts` is the authority on dataset row shape** — tag vocabulary, required fields, link minimums, note regexes, map bounds, plus hardcoded row counts and rank-exception allowlists that every row addition must update in the same change. Read it; never paraphrase it from memory.
-- **Add a country/category = JSON only**, no component changes. New category → `categories.json`; new country → `countries/<id>.json`.
-- **Weights sum to 100** (±0.001), category ids are unique, and a country may only reference known category ids.
-- **Absolute 0–100 scale** (not data-relative): five tiers (`scoreTier`, single source `config.ts` `TIERS`) — ≥80 excellent · ≥70 good · ≥60 average · ≥50 weak · <50 poor. `scoreTier` rounds to a whole percent first so a tier colour always matches the shown number. Choropleth fill is a separate, absolute single-hue **green ramp** (`scoreToGreen`) floored at 50 (= inclusion) and capped at 80 (= excellent) — deepest green highest, faintest lowest; `<50` renders as neutral land.
-- **Overall is computed at runtime, never stored** in a source country JSON (raw weighted mean, renormalised over present categories — no display curve). Do not add a precomputed `overall` field to a country file. The one sanctioned derived artifact is the generated, drift-tested `src/data/cache/scoreboard.json` (regenerate via `npm run cache:scores`; never hand-edit).
-- **Inclusion:** drop countries scoring <50% overall (surfaced, not auto-deleted).
-- **Cell standard:** a `scored` category cell carries `factors` (each `{status, score}`), `summary`, `pros[]`, `cons[]`, `links[]`, `lastReviewed`. Provenance (the evidence + reasoning behind a score) lives in the `summary`, `pros`/`cons`, and `links`. `pending` = placeholder, rendered muted; pending cells are excluded from the overall, not counted as zero.
-- **Categories** (`id` · weight, sum = 100): `job-market` 10 · `visa-access` 9 (BD lens) · `citizenship` 9 · `post-study-work` 8 · `spouse-family` 8 · `msc-study` 7 · `pr-pathway` 7 · `income-cost` 6 · `healthcare` 5 · `culture-language` 6 · `safety-law` 5 · `politics` 4 · `tax` 3 · `community-belonging` 3 (religion-neutral label; factors stay Bangladeshi/Muslim-specific) · `direct-work-route` 10 (BD direct skilled-work entry route; owns sponsorship). Rebalance the whole set if you change any weight — the sum must stay 100. Categories have no `other` catch-all factor.
+- **Countries** — `countries/<id>.json` (one per country), `categories.json` (15 categories, weights sum to 100, 82 factors), `profile.json`. Adding a country or category is JSON only.
+- **Scoring** — category score = weighted mean of factor sub-scores; overall = weighted mean of *present* scored categories, computed at runtime, **raw with no display curve**. `pending` cells are placeholders excluded from the overall (not zero). Never store `overall` in a country file; the generated `scoreboard.json` cache is the one sanctioned derivative.
+- **Scale** — absolute 0–100. Tiers from `config.ts` `TIERS` (≥80 excellent · ≥70 good · ≥60 average · ≥50 weak · <50 poor), rounded to a whole percent before tiering. The choropleth uses a separate green ramp (`scoreToGreen`) from 50 (inclusion floor) to 80; <50 is neutral land. Countries under 50 overall are surfaced for removal, not auto-deleted.
+- **Cell standard** — a `scored` cell carries `factors[{status, score}]`, `summary`, `pros[]`, `cons[]`, `links[]`, `lastReviewed`; provenance lives in summary/pros/cons/links.
+- **Category lens** — `visa-access` and `direct-work-route` are BD-specific (direct-work owns sponsorship); `community-belonging` is a religion-neutral label whose factors stay Bangladeshi/Muslim-specific. Changing one weight means rebalancing the set to 100. There is no `other` catch-all factor.
+- **Supplementary datasets** — `cities/<country>.json` and `universities/<country>.json` (`kind: cities | universities`; Germany only so far), rendered by `src/components/dataset/` and `pages/CountryDatasetPage`. **`src/lib/data.test.ts` is the authority on row shape** — tag vocabulary, required fields, link minimums, note regexes, map bounds, plus hardcoded row counts and rank-exception allowlists that every row addition updates in the same change. Read it; never paraphrase it from memory.
 
-## Stack
+## Code
 
-React 19 · TypeScript (strict) · Vite 8 · React Router 7 · Tailwind CSS v4 + shadcn/ui · Zod 4 · Recharts · Leaflet + react-leaflet · TanStack Table · Vitest + Testing Library. Package manager: **npm**. Deploy: GitHub Pages (`base: /abroad-migration-info/`, build only).
+- **Layout** — `src/lib/` pure logic with co-located `*.test.ts` (`schema`, `scoring`, `scoreboard`, `datasets`, `selectors`, `formatters`, `palette`, `config`, `data`); `src/components/{ui,charts,common,leaderboard,compare,country,methodology,dataset,about}`; `src/pages/`, `src/routes/`, `src/hooks/`; `scripts/build-score-cache.ts`. `docs/` holds the PRD, design system, research briefs and `superpowers/{specs,plans,research}`; `docs/deployment.md` covers GitHub Pages.
+- **Strict TS, no `any`** — derive types from Zod, never redeclare them.
+- **Styling** — Tailwind v4 utilities + shadcn only; `src/index.css` is the sole stylesheet (imports + theme tokens). Compose classes with `cn()` from `@/lib/utils`. Dark mode is class-based.
+- **Formatting** — every user-facing number and date goes through `src/lib/formatters.ts` (en-GB); never hardcode separators.
+- **Maps** — Leaflet for the compare maps, MapLibre (`react-map-gl`) for the clustered overview map.
+- **Conventions** — PascalCase component/page files, kebab-case for `ui/` primitives and `lib/`; `@/` imports; keep Radix/ARIA accessibility.
+- **Tests** — TDD for any scoring, schema or formatter change.
 
-## Repo map
+## Quality gate & git
 
-- `src/lib/` — pure, tested logic: `schema.ts` (Zod), `scoring.ts` (overall/rank), `data.ts` (load + validate), `formatters.ts` (en-GB), `utils.ts` (`cn`).
-- `src/data/` — JSON data store (above).
-- `src/components/` — `ui/` (shadcn), `charts/` (radar, bars, choropleth), `leaderboard/` (table, search, filters), `common/` (layout, nav, badges).
-- `src/pages/` (Dashboard, Leaderboard, Compare, CountryDetail, Methodology, About, NotFound), `src/routes/`, `src/hooks/` (`useData`, `useTheme`), `src/types/`.
-- `docs/` — PRD, design system + wireframes, implementation plans, research briefs.
+- Done means `npm run lint && npm run typecheck && npm run test && npm run build` all green, reported honestly.
+- Conventional Commits, imperative mood (`data:`, `docs:`, `feat:`, `fix:`, `refactor:`, `ci:`); branch off `main` for non-trivial work.
+- **Never commit or push without explicit approval** — auto-accept mode covers edits, not git. Stage and propose.
 
-## Code hygiene
+## Skills
 
-- **Strict TS, no `any`.** Type props explicitly; derive types from Zod, don't redeclare them.
-- **Pure logic in `src/lib/`** with co-located `*.test.ts`; write or extend tests for any scoring/schema/format change (TDD for non-trivial logic).
-- **Styling:** Tailwind utilities + shadcn only — no raw CSS files. Compose classes via `cn()` from `@/lib/utils`. Dark mode is class-based.
-- **Formatting:** route all user-facing numbers/dates through `src/lib/formatters.ts` (en-GB locale) — never hardcode separators or date formats.
-- **Conventions:** kebab-case files, PascalCase types, camelCase functions; import via the `@/` alias. Preserve accessibility (Radix/ARIA, contrast, keyboard nav).
-
-## Quality gate & commits
-
-- **Before "done", all green:** `npm run lint && npm run typecheck && npm run test && npm run build`. Report results honestly; never claim passing unverified.
-- **Regenerate the score cache before committing any data/scoring change:** `npm run cache:scores` (rewrites `src/data/cache/scoreboard.json`); the drift test fails the gate if it is stale.
-- **Commits:** Conventional Commits, imperative mood (`data:`, `docs:`, `feat:`, `fix:`, `refactor:`, `ci:`). Branch off `main` for non-trivial work.
-- **Never commit or push without explicit approval** — including in auto-accept / auto-edit mode. Auto mode covers edits, not git history. Stage and propose; wait for the go-ahead.
-
-## Skills cheat-sheet
-
-**Project skills** (`.claude/skills/`) — each carries only judgment not recoverable from the repo itself; `src/lib/data.test.ts` remains the authority on dataset row shape:
-
-- `auditing-university-candidates` — the five admission gates, the listed-city rank-exception scope, and PASS/FAIL precedents. Use for any university add/remove/re-audit or "did we miss any".
-- `researching-migration-evidence` — banned aggregators and blocked-official-site fallbacks. Use before any data/score/claim edit.
-
-**General:** `brainstorming` (before any feature/design) · `writing-plans` (before large changes) · `test-driven-development` (lib logic) · `systematic-debugging` (any bug) · `verification-before-completion` (before claiming done).
-
-## Never
-
-- Change a score/evidence/claim without deep research and citations.
-- Store a precomputed overall in a source country JSON (the generated `scoreboard.json` cache is the only exception), or add a country/category via code instead of JSON.
-- Fabricate statistics, sources, or `lastReviewed` dates.
-- Hardcode number/date separators, or bypass the Zod test gate.
-- Decide silently on ambiguity, or skip the simpler-approach debate.
-- Commit or push without explicit approval — auto mode never authorises git actions.
+- `researching-migration-evidence` — before any data/score/claim edit; carries the banned aggregators and blocked-official-site fallbacks.
+- `auditing-university-candidates` — any university add/remove/re-audit or "did we miss any"; carries the five gates and the listed-city rank-exception scope.
+- General: `brainstorming` (features/design) · `writing-plans` (large changes) · `test-driven-development` · `systematic-debugging` · `verification-before-completion`.
