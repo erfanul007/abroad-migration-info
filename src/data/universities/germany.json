@@ -4,7 +4,7 @@
   "title": "German Universities — CS & Engineering Master Shortlist",
   "subtitle": "Public German universities only. Those within EduRank’s global top 1,000, plus a top-3,200 exception for any city already listed in the German city scoreboard, with an evidenced on-campus English computing-related degree for international applicants and non-EU tuition no higher than €5,000 per semester.",
   "scale": "rank",
-  "lastReviewed": "2026-08-24",
+  "lastReviewed": "2026-09-05",
   "columns": [
     {
       "id": "overallRank",
@@ -1200,7 +1200,7 @@
       "label": "University of Würzburg",
       "sublabel": "Würzburg, Bavaria",
       "tags": [
-        "Opens Aug ’26",
+        "Open now",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -1219,7 +1219,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Computer Science; M.Sc. Artificial Intelligence & Extended Reality",
         "intakes": "Summer and winter; AI&XR winter",
-        "applicationWindow": "Summer 2027 · end of August – 31 October 2026; Winter 2027/28 · end of January – 15 March 2027. The uni-assist VPD must be issued for the University of Würzburg and be under one year old",
+        "applicationWindow": "Open now for Summer 2027 — the university's own admissions page states the application period runs end of August to 31 October 2026 each year for the following summer semester, and today (5 September 2026) falls inside that window; Winter 2027/28 · end of January – 15 March 2027. The uni-assist VPD must be issued for the University of Würzburg and be under one year old.",
         "tuition": "€0 tuition",
         "semesterFee": "€182.10 for Winter 2026/27",
         "applicationRoute": "WueStudy plus uni-assist VPD for a foreign degree",
@@ -1426,7 +1426,6 @@
       "sublabel": "Stuttgart, Baden-Württemberg",
       "tags": [
         "Opens Nov ’26",
-        "Summer ’27",
         "Winter ’27"
       ],
       "location": {
@@ -1445,8 +1444,8 @@
         "nonEuTuition": 1500,
         "applicationFee": 0,
         "programs": "M.Sc. INFOTECH; Computer Science English options must be verified",
-        "intakes": "Winter 2027 · October start and Summer 2027 · April start; INFOTECH publishes application windows for both semesters",
-        "applicationWindow": "INFOTECH recurring windows: winter semester 15 November – 15 January, summer semester 15 May – 15 July. The Winter 2027/28 window therefore opens 15 November 2026; the Summer 2027 window closed on 15 July 2026",
+        "intakes": "Winter 2027/28 · October start",
+        "applicationWindow": "INFOTECH recurring windows: winter semester 15 November – 15 January, summer semester 15 May – 15 July. Summer 2027's window ran 15 May – 15 July 2026 and is already closed with no live path remaining, so Summer 2027 is no longer a viable intake; the Winter 2027/28 window opens 15 November 2026.",
         "tuition": "€1,500 per semester for most non-EU students",
         "semesterFee": "Administrative and student-services fees apply",
         "applicationRoute": "Direct university application",
@@ -2912,7 +2911,7 @@
       "label": "University of Lübeck",
       "sublabel": "Lübeck, Schleswig-Holstein",
       "tags": [
-        "Opens Sep ’26",
+        "Open now",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -2928,7 +2927,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Robotics and Autonomous Systems",
         "intakes": "Summer and winter",
-        "applicationWindow": "Winter 2026/27 closed · 15 February–1 April 2026; Summer 2027 · 1 September–15 October 2026; Winter 2027/28 · 15 February–1 April 2027",
+        "applicationWindow": "Open now for Summer 2027 — Winter 2026/27 closed · 15 February–1 April 2026; Summer 2027 · 1 September–15 October 2026 (today, 5 September 2026, falls inside this recurring non-EU uni-assist window); Winter 2027/28 · 15 February–1 April 2027.",
         "tuition": "€0 tuition",
         "semesterFee": "€400.60 for Winter 2026/27 plus one-time €40 enrolment fee",
         "applicationRoute": "uni-assist for non-EU applicants",
@@ -2986,7 +2985,7 @@
       "label": "University of Kassel",
       "sublabel": "Kassel, Hesse",
       "tags": [
-        "Opens Sep ’26",
+        "Open now",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -3002,7 +3001,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Computer Science",
         "intakes": "Summer and winter",
-        "applicationWindow": "Summer 2027 · 1 September 2026 – 15 January 2027 for applicants with foreign certificates; Winter 2027/28 · 1 March – 15 July 2027",
+        "applicationWindow": "Open now for Summer 2027 · 1 September 2026 – 15 January 2027 for applicants with foreign certificates (today, 5 September 2026, falls inside this window; confirmed via DAAD's programme listing after the university's own pages returned no dates on this check); Winter 2027/28 · 1 March – 15 July 2027.",
         "tuition": "€0 tuition",
         "semesterFee": "€409.27 for Winter 2026/27",
         "applicationRoute": "uni-assist for foreign degrees",
@@ -3076,7 +3075,7 @@
         "applicationFee": 0,
         "programs": "M.Sc. Data Science",
         "intakes": "Summer and winter",
-        "applicationWindow": "Summer 2027 · portal opens mid-September 2026, official deadline 1 March 2027; non-EU applicants advised to apply by 1 December 2026 for visa processing. Winter 2027/28 · portal opens mid-March 2027, official deadline 1 September 2027; non-EU applicants advised to apply by 1 May 2027. Both the deadlines and the mid-March/mid-September portal-opening pattern are stated by the programme's own page as standing (non-year-specific) rules",
+        "applicationWindow": "Summer 2027 · the programme's own page (msc-dsc) still states the portal opens mid-September 2026, official deadline 1 March 2027 (non-EU applicants advised to apply by 1 December 2026 for visa processing); but the university's central admissions schedule does not name Data Science among the programmes opening 10 September, listing it instead with 'all other master's programmes' opening 6 November 2026 — the two official pages disagree and this should be resolved with the department before treating the portal as open. Winter 2027/28 · portal opens mid-March 2027, official deadline 1 September 2027; non-EU applicants advised to apply by 1 May 2027.",
         "tuition": "€0 tuition",
         "semesterFee": "€181.95 for Winter 2026/27",
         "applicationRoute": "Direct VIBS application; no university fee",
@@ -3749,8 +3748,7 @@
       "abbr": "HTW",
       "sublabel": "Berlin",
       "tags": [
-        "Open now",
-        "Summer ’27",
+        "Opens Nov ’26",
         "Winter ’27"
       ],
       "location": {
@@ -3769,8 +3767,8 @@
         "nonEuTuition": 4400,
         "applicationFee": 0,
         "programs": "M.Sc. Project Management and Data Science",
-        "intakes": "Summer and winter",
-        "applicationWindow": "Open now for Summer 2027 · 1 May – 31 August 2026; Winter 2027/28 · 1 November 2026 – 28 February 2027",
+        "intakes": "Winter 2027/28 · October start",
+        "applicationWindow": "Summer 2027's application window closed 31 August 2026 — the programme's own page now describes the deadline in the past tense ('was 31 August 2026'); late applications may still be considered only if seats remain, so Summer 2027 is no longer a reliable intake. Winter 2027/28 · 1 November 2026 – 28 February 2027 is the next confirmed window.",
         "tuition": "€17,600 total, payable as €4,400 per semester",
         "semesterFee": "€375.30 for Winter 2026/27",
         "applicationRoute": "Direct programme application",
@@ -4143,7 +4141,7 @@
       "abbr": "TH Köln",
       "sublabel": "Cologne, North Rhine-Westphalia",
       "tags": [
-        "Opens Sep ’26",
+        "Open now",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -4164,7 +4162,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Digital Sciences — Data and Information Science",
         "intakes": "Summer 2027 · April start; Winter 2027 · October start",
-        "applicationWindow": "Summer 2027 · early September – 31 October 2026 for applicants whose school and first degrees are both from outside the EU/EEA; the Winter 2026/27 equivalent ran early March – 30 April 2026",
+        "applicationWindow": "Open now for Summer 2027 — early September – 31 October 2026 for applicants whose school and first degrees are both from outside the EU/EEA, per the programme's own how-to-apply page (today, 5 September 2026, falls within 'early September'); the Winter 2026/27 equivalent ran early March – 30 April 2026.",
         "tuition": "€0 tuition",
         "semesterFee": "€352.70 for Winter 2026/27",
         "applicationRoute": "Bangladeshi applicants with foreign credentials apply through uni-assist; TH Köln CaMS follows university processing",

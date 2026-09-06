@@ -311,7 +311,9 @@ describe("supplementary datasets", () => {
     }
 
     expect(idsWith("Winter ’27").length).toBeGreaterThan(0);
-    expect(idsWith("Open now")).toEqual(["heidelberg", "htw-berlin", "rptu-kaiserslautern", "tu-braunschweig"]);
+    expect(idsWith("Open now")).toEqual([
+      "heidelberg", "kassel", "luebeck", "rptu-kaiserslautern", "th-koeln", "tu-braunschweig", "wuerzburg",
+    ]);
     expect(rows.flatMap((row) => row.tags ?? []).some((tag) => tag.includes("upcoming"))).toBe(false);
   });
   it("targets public universities only, so no row carries an ownership tag", () => {
