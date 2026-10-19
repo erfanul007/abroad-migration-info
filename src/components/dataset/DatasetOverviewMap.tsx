@@ -1,15 +1,20 @@
 import { useMemo, useState } from "react";
 import MapGL, { Layer, NavigationControl, Popup, Source } from "react-map-gl/maplibre";
 import type { LayerProps } from "react-map-gl/maplibre";
+import { setWorkerUrl } from "maplibre-gl";
 import type { MapLayerMouseEvent } from "maplibre-gl";
+import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import type { Feature, FeatureCollection, Point } from "geojson";
 import type { ComparativeDataset, DatasetRow } from "@/types";
 import { rowOverall, rowTier } from "@/lib/datasets";
 import { formatNumber, formatPercent, tierLabel } from "@/lib/formatters";
 import "maplibre-gl/dist/maplibre-gl.css";
 
+// MapLibre v6 can't locate its worker inside a Vite bundle; point it at the emitted file.
+setWorkerUrl(workerUrl);
+
 const OPENFREEMAP_STYLE = "https://tiles.openfreemap.org/styles/positron";
-const GERMANY_BOUNDS: [[number, number], [number, number]] = [[5, 46.5], [16.1, 55.7]];
+const GERMANY_BOUNDS: [number, number, number, number] = [5, 46.5, 16.1, 55.7];
 const INTERACTIVE_LAYERS = ["dataset-clusters", "dataset-points"];
 
 interface DatasetPointProperties {
