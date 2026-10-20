@@ -20,7 +20,10 @@ must be checked against the linked official programme page for the chosen intake
 > rules subject to quantitative prerequisite matching. Charité has no qualifying
 > English computing-centred master's and is excluded from the active dataset.
 
-> The active application dataset is the independently audited 56-university census.
+> The active application dataset is the audited 61-university census (re-audited 20 October 2026; see
+> `docs/research/2026-10-20-german-university-gap-closure.md`). TUM now qualifies through its Heilbronn
+> M.Sc. Information Engineering rather than Games Engineering (now €6,000 per semester); HFT Stuttgart, FH Aachen
+> and Giessen were added and Greifswald removed (German DSH-1 required to apply).
 > The nationwide ceiling is EduRank overall rank `<= 1000`; a documented regional
 > exception permits `<= 3200` for qualifying-programme campuses in any city already
 > listed in the German city scoreboard. Every row must still offer a current on-campus,

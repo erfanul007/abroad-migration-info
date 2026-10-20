@@ -105,6 +105,7 @@ describe("supplementary datasets", () => {
     const listedCityRankExceptions = new Set([
       "bht-berlin", "btu-cottbus", "htw-berlin", "hwr-berlin",
       "frankfurt-uas", "th-koeln", "tuhh", "haw-hamburg", "fh-dortmund",
+      "hft-stuttgart", "fh-aachen",
     ]);
 
     for (const row of rows) {
@@ -124,12 +125,12 @@ describe("supplementary datasets", () => {
     const newIds = [
       "tum", "muenster", "wuerzburg", "kiel", "marburg", "saarland", "bielefeld", "bremen",
       "regensburg", "ulm", "konstanz", "rostock", "tu-braunschweig", "bayreuth", "mannheim",
-      "rptu-kaiserslautern", "greifswald", "ovgu-magdeburg", "luebeck", "kassel", "augsburg",
+      "rptu-kaiserslautern", "giessen", "ovgu-magdeburg", "luebeck", "kassel", "augsburg",
       "wuppertal", "chemnitz", "oldenburg", "trier", "paderborn", "siegen", "osnabrueck",
     ];
     const rankIds = ["cse", "ai", "ml", "ds", "swe"];
     const winterOnlyIds = new Set([
-      "bielefeld", "bremen", "ulm", "konstanz", "greifswald", "wuppertal",
+      "bielefeld", "bremen", "ulm", "konstanz", "giessen", "wuppertal",
       "chemnitz", "oldenburg", "siegen",
     ]);
     const genericTimeline = /exact .*must be taken|use the .*target|target-cycle|programme-specific target|subject to programme rules/i;
@@ -162,6 +163,7 @@ describe("supplementary datasets", () => {
     const regionalIds = [
       "bht-berlin", "btu-cottbus", "htw-berlin", "hwr-berlin",
       "frankfurt-uas", "university-cologne", "th-koeln", "leipzig-university",
+      "hft-stuttgart", "fh-aachen",
     ];
 
     for (const id of regionalIds) {
@@ -312,13 +314,13 @@ describe("supplementary datasets", () => {
 
     expect(idsWith("Winter ’27").length).toBeGreaterThan(0);
     expect(idsWith("Open now")).toEqual([
-      "heidelberg", "kassel", "luebeck", "rptu-kaiserslautern", "th-koeln", "tu-braunschweig", "wuerzburg",
+      "heidelberg", "kassel", "luebeck", "rptu-kaiserslautern", "th-koeln", "tu-braunschweig", "tum", "wuerzburg",
     ]);
     expect(rows.flatMap((row) => row.tags ?? []).some((tag) => tag.includes("upcoming"))).toBe(false);
   });
   it("targets public universities only, so no row carries an ownership tag", () => {
     const rows = getDatasets("germany").universities?.rows ?? [];
-    expect(rows).toHaveLength(59);
+    expect(rows).toHaveLength(61);
     expect(rows.filter((row) => row.tags?.some((tag) => tag === "Public" || tag === "Private")).map((row) => row.id)).toEqual([]);
   });
   it("applies the listed-city rank exception without weakening the nationwide limit", () => {
@@ -326,8 +328,9 @@ describe("supplementary datasets", () => {
     const regionalRankExceptions = [
       "bht-berlin", "btu-cottbus", "htw-berlin", "hwr-berlin",
       "frankfurt-uas", "th-koeln", "tuhh", "haw-hamburg", "fh-dortmund",
+      "hft-stuttgart", "fh-aachen",
     ];
-    expect(rows).toHaveLength(59);
+    expect(rows).toHaveLength(61);
     expect(rows.filter((row) => typeof row.values.overallRank !== "number" || row.values.overallRank > 3200).map((row) => row.id)).toEqual([]);
     expect(rows.filter((row) => typeof row.values.overallRank === "number" && row.values.overallRank > 1000).map((row) => row.id).sort()).toEqual(regionalRankExceptions.sort());
     expect(rows.filter((row) => typeof row.values.nonEuTuition !== "number" || row.values.nonEuTuition > 5000).map((row) => row.id)).toEqual([]);
