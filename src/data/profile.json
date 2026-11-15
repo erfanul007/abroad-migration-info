@@ -17,8 +17,68 @@
         "company": "Optimizely",
         "location": "Dhaka, Bangladesh",
         "links": {
-          "portfolio": "https://tanimahossain.github.io/",
+          "portfolio": "https://tanima.me/",
           "linkedin": "https://www.linkedin.com/in/tanimahossain/"
+        },
+        "study": {
+          "nationality": "Bangladeshi",
+          "degree": "BSc in Computer Science and Engineering",
+          "institution": "Daffodil International University",
+          "cgpa": 3.83,
+          "localCredits": 148,
+          "germanGrade": 1.35,
+          "gradeEvidence": "user-reported; formal conversion document not inspected",
+          "english": {
+            "test": "IELTS Academic",
+            "date": "2026-08-09",
+            "overall": 7.5,
+            "listening": 9,
+            "reading": 7,
+            "writing": 6.5,
+            "speaking": 7.5
+          },
+          "language": "English only",
+          "intakes": [
+            "Summer 2027 first priority",
+            "Winter 2027/28 also considered"
+          ],
+          "preferredCities": [
+            "Berlin",
+            "Munich",
+            "Hamburg",
+            "Frankfurt am Main",
+            "Cologne"
+          ],
+          "funding": "Tuition-free preferred; a paid programme requires full funding, including tuition and living costs. A potential fee waiver is not a complete funding award.",
+          "researchInterests": [
+            "Trustworthy AI and evaluation",
+            "Algorithms and optimisation",
+            "Machine-learning foundations",
+            "Efficient intelligent systems"
+          ],
+          "admissions": [
+            {
+              "institution": "TU Ilmenau",
+              "programme": "MSc Computer Science",
+              "intake": "Summer 2027",
+              "status": "Offer received (user-reported)",
+              "documentVerified": false
+            }
+          ],
+          "evidence": [
+            "BSc transcript, pages 1–2",
+            "IELTS report, page 1 (identity matched)",
+            "Applicant CV",
+            "Applicant motivation-letter guide",
+            "Maintainer instructions on 2026-11-10"
+          ],
+          "checks": [
+            "Official historic DIU module descriptions are needed for course-credit mapping.",
+            "The supplied transcript is scanned; prepare a searchable copy where required, including Dresden.",
+            "Tanima’s degree certificate, relevant university-specific VPD and Ilmenau offer letter were not present in the supplied folder.",
+            "Theoretical-CS equivalence needs particular attention for TU Berlin, TU Hamburg and Hannover."
+          ],
+          "lastReviewed": "2026-11-10"
         }
       }
     ]

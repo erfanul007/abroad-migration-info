@@ -1,5 +1,9 @@
 # German Universities — CS Subject Rankings (EduRank)
 
+**2026-11-10 admissions update:** the app retains the audited 61-row census, rank order and campus pins. Twenty discussion-matching rows were reconciled with current programme evidence; other rows now explicitly show Window unverified. Admission, annual-window evidence and applicant funding have separate tags. See [programme evidence](research/2026-11-10-germany-cs-programme-evidence.md) and [Tanima’s readiness review](research/2026-11-10-tanima-profile-and-application-readiness.md). No fresh rank or country/city scoring sweep is implied.
+
+The historical rank snapshot below is preserved. TUM’s active programme map pin is Heilbronn; the old Garching statement below concerns a superseded programme.
+
 **Purpose:** German counterpart to the Italian university shortlist. The application
 also layers current English-taught programme fit, intake, application-window, fee,
 portal and international-student context over these ranks for Tanima's CSE/software

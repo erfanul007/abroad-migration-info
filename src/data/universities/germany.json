@@ -2,9 +2,9 @@
   "kind": "universities",
   "countryId": "germany",
   "title": "German Universities — CS & Engineering Master Shortlist",
-  "subtitle": "Public German universities only. Those within EduRank’s global top 1,000, plus a top-3,200 exception for any city already listed in the German city scoreboard, with an evidenced on-campus English computing-related degree for international applicants and non-EU tuition no higher than €5,000 per semester.",
+  "subtitle": "Public English-completable computing master’s shortlist with programme-campus cities, rank ordering, applicant funding flags and dated admission evidence. Nationwide EduRank overall ≤1,000; ≤3,200 in listed cities. Not every row’s 2027 window is verified.",
   "scale": "rank",
-  "lastReviewed": "2026-10-20",
+  "lastReviewed": "2026-11-10",
   "columns": [
     {
       "id": "overallRank",
@@ -116,6 +116,18 @@
       "id": "studentChecks",
       "label": "Applicant checks",
       "kind": "text"
+    },
+    {
+      "id": "funding",
+      "label": "Applicant funding",
+      "kind": "text",
+      "description": "Tuition-free preference versus a paid or unconfirmed programme; this is not a scholarship award."
+    },
+    {
+      "id": "reviewScope",
+      "label": "Evidence review",
+      "kind": "text",
+      "description": "Scope and date of the latest programme check; an institution-wide dataset date does not verify every row."
     }
   ],
   "rows": [
@@ -124,7 +136,8 @@
       "label": "Heidelberg University",
       "sublabel": "Heidelberg, Baden-Württemberg",
       "tags": [
-        "Open now",
+        "Window unverified",
+        "Funding needed",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -145,14 +158,16 @@
         "applicationFee": 0,
         "programs": "M.Sc. Data and Computer Science; M.Sc. Scientific Computing",
         "intakes": "Summer 2027 · April start; Winter 2027 · October start",
-        "applicationWindow": "Open now for M.Sc. Data and Computer Science — Summer 2027: 1 August – 15 September 2026; Winter 2027/28: 1 February – 15 March 2027 (the university's published master's table applies the same dates to German and international nationals). M.Sc. Scientific Computing runs a separate, wider window: Summer 2027 applications open 1 October 2026 (recommended non-EU deadline 15 November 2026, final 1 January 2027; EU/German deadlines later, up to 1 March 2027); Winter 2027/28 applications open 1 April 2027 (recommended non-EU deadline 15 June 2027, final 31 July 2027). As of 23 August 2026, Scientific Computing's next window has not opened yet — only DACS is open now.",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Previously open for M.Sc. Data and Computer Science — Summer 2027: 1 August – 15 September 2026; Winter 2027/28: 1 February – 15 March 2027 (the university's published master's table applies the same dates to German and international nationals). M.Sc. Scientific Computing runs a separate, wider window: Summer 2027 applications open 1 October 2026 (recommended non-EU deadline 15 November 2026, final 1 January 2027; EU/German deadlines later, up to 1 March 2027); Winter 2027/28 applications open 1 April 2027 (recommended non-EU deadline 15 June 2027, final 31 July 2027). As of 23 August 2026, Scientific Computing's next window has not opened yet — only DACS is Previously open.",
         "tuition": "€1,500 per semester for most non-EU students",
         "semesterFee": "€189.80 per semester (current Heidelberg University semester fee, per the university's own semester-fees page)",
         "applicationRoute": "Direct university application",
         "applicationPortal": "heiCO",
         "language": "English; programme-specific proof such as IELTS 6.5 may apply",
         "academicRequirements": "Relevant degree with required core CS and quantitative coursework",
-        "studentChecks": "Map Tanima's transcript to the published CS/mathematics prerequisites before applying"
+        "studentChecks": "Map Tanima's transcript to the published CS/mathematics prerequisites before applying",
+        "funding": "Paid tuition: a complete tuition-and-living funding package is required under Tanima’s preference; no award is verified.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "A strong fit when Tanima wants data, software systems or scientific-computing depth, with a lower living-cost profile than Munich but Baden-Württemberg tuition.",
@@ -202,7 +217,8 @@
       "label": "University of Munich (LMU)",
       "sublabel": "Munich, Bavaria",
       "tags": [
-        "Opens Oct ’26",
+        "Annual window open",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -222,15 +238,17 @@
         "nonEuTuition": 0,
         "programs": "M.Sc. Statistics and Data Science",
         "intakes": "Summer and winter entry",
-        "applicationWindow": "Summer 2027 · portal opens 2 October 2026, programme deadline 15 November 2026, International Office deadline 15 January 2027; Winter 2027/28 · portal opens 1 April 2027, programme deadline 15 May, International Office deadline 15 July 2027",
+        "applicationWindow": "Annual window open: Statistics and Data Science department summer applications 10-15–11-15 (thus 2026-11-15 closing under the published recurring rule); winter department applications 04-01–05-15. No separately verified summer 2027 portal cycle. Central admission is a separate step.",
         "tuition": "€0 tuition",
         "semesterFee": "€97 per semester as of August 2026",
         "applicationRoute": "International applicants submit the programme application and the required LMU international credential application",
         "applicationPortal": "LMU application routes",
-        "language": "English-taught programme; programme-defined English proof required",
-        "academicRequirements": "Degree in the field of statistics or data science, or with it as a major or minor, with substantial statistics, mathematics, programming and data-science preparation; an aptitude test follows",
-        "studentChecks": "A general CSE degree is not automatically sufficient; map formal statistics and mathematics credits before applying",
-        "applicationFee": 0
+        "language": "English B2 or the programme’s accepted English-medium-degree proof.",
+        "academicRequirements": "Qualifying degree of at least 180 ECTS with statistics/data-science major, minor or focus. Advanced statistical modelling/inference, mathematical foundations and statistical programming are assessed; 150 ECTS completed at application may suffice for unfinished degrees.",
+        "studentChecks": "Conditional related option, not general MSc Computer Science. Tanima’s BSc grade and IELTS do not establish the required statistics focus. The supplied BSc shows a statistics course and data-related modules; official content evidence is required. Her ongoing DIU MSc is not assumed awarded.",
+        "applicationFee": 0,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "LMU's current English Statistics and Data Science master's is a valid quantitative computing route, but admission depends on substantial formal statistics and mathematics rather than software experience alone.",
@@ -265,9 +283,13 @@
           {
             "title": "EduRank — LMU",
             "url": "https://edurank.org/uni/ludwig-maximilian-university-of-munich/rankings/"
+          },
+          {
+            "title": "Official programme evidence — lmu2026vpd",
+            "url": "https://www.lmu.de/en/study/admissions/university-entrance-qualification/uni-assist/"
           }
         ],
-        "note": "Re-checked on 20 October 2026: the programme page confirms English as the study language and no German requirement. Deadlines are 15 May for winter and 15 November for summer. LMU's own central fee pages returned 404; no official source found charges tuition for this programme."
+        "note": "Re-checked on 20 October 2026: the programme page confirms English as the study language and no German requirement. Deadlines are 15 May for winter and 15 November for summer. LMU's own central fee pages returned 404; no official source found charges tuition for this programme. Review 2026-11-10: Department text retains older International Office wording. Follow LMU’s summer 2027 portal transition too; master applicants are exempt from the general new VPD rule."
       }
     },
     {
@@ -275,7 +297,8 @@
       "label": "Technical University of Munich (TUM)",
       "sublabel": "Heilbronn, Baden-Württemberg",
       "tags": [
-        "Open now",
+        "Annual window open",
+        "Funding unverified",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -296,14 +319,16 @@
         "applicationFee": 75,
         "programs": "M.Sc. Information Engineering (TUM Campus Heilbronn)",
         "intakes": "Summer 2027 and Winter 2027/28; both semesters admit",
-        "applicationWindow": "Summer 2027 · Open now: 1 October–30 November 2026 (30 November is a hard deadline); Winter 2027/28 · 1 February–31 May 2027. Applicants with borderline scores are interviewed in English, usually by video: January–April for summer entry, June–August for winter entry",
+        "applicationWindow": "Annual window open for Heilbronn Information Engineering: summer period 10-01–11-30, corresponding to 2026-10-01–2026-11-30 for Summer 2027 under the standing rule. TUM’s current programme page gives winter 04-01–05-31; DAAD still gives 02-01–05-31. Prefer TUM and recheck before winter submission.",
         "tuition": "€0 per DAAD ('None'). TUM's own programme page lists no tuition, whereas every fee-charging TUM programme page states an amount, and TUM's fee annex lists every other Heilbronn programme as fee-free; no TUM document states 'no tuition' for this programme in so many words, so confirm with ie-master@hn.cit.tum.de before applying",
         "semesterFee": "€97 per semester at Heilbronn (basic student union fee)",
         "applicationRoute": "TUMonline application plus a curricular analysis in TUM's Master Evaluation Tool; a uni-assist VPD is required (it may arrive after the deadline if applied for). Degrees from Bangladesh require a GRE or GATE result because Bangladesh is not on TUM's Lisbon Recognition Convention list",
         "applicationPortal": "TUMonline + uni-assist VPD",
         "language": "English only ('The language of instruction … is English'); no German required for admission or enrolment. English proof: TOEFL iBT 88, IELTS 6.5, PTE 65, Cambridge, or a bachelor thesis written in English",
         "academicRequirements": "Bachelor's of at least six semesters in Information Engineering, Electrical Engineering and IT or a comparable field. The curriculum is compared with TUM's Information Engineering bachelor: at least 61 informatics credits (35 points) and 36 maths credits (20 points), 30 or more points overall with at least 10 in maths, plus up to 20 grade points. 53+ points is direct admission, under 39 is rejection, and anything between gets a 20–30 minute English interview",
-        "studentChecks": "A four-year CSE transcript normally maps closely onto the informatics and maths credit requirements. A GRE or GATE result is mandatory for Bangladeshi degrees. TUM's fee-charging master's rise to €4,600/€6,800 from winter 2027/28; this programme's fee status is not stated by TUM, so confirm it before relying on €0."
+        "studentChecks": "Keep the Heilbronn programme and campus. GRE/GATE and VPD requirements still apply to the relevant Bangladeshi degree route; no GRE evidence was supplied. Do not apply general TUM tuition to Heilbronn without its programme-specific fee evidence.",
+        "funding": "Funding unverified: DAAD lists no tuition for Heilbronn Information Engineering; TUM does not explicitly state a programme fee on the fetched page. Confirm before relying on zero tuition. Munich/Garching Informatics is a different paid degree.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "TUM qualifies on the English M.Sc. Information Engineering at its Heilbronn campus: machine learning, software engineering, GPU and parallel computing and chip-design electives, no German requirement, and a CSE bachelor mapped credit-by-credit. Its former qualifying programme, Informatics: Games Engineering, now costs €6,000 per semester and fails the tuition ceiling; this programme's no-tuition status rests on DAAD and TUM's fee structure rather than an explicit TUM statement.",
@@ -329,7 +354,7 @@
             "text": "Heilbronn is a smaller campus city than Munich, and the points system can end in an interview or rejection"
           }
         ],
-        "note": "Re-qualified on 20 October 2026. The previous qualifying programme, M.Sc. Informatics: Games Engineering, is listed at €6,000 per semester on TUM's own programme page (and 'German or English' by focus area), so it fails the €5,000 ceiling. All 108 TUM master's programmes were checked; Information Engineering is the only one that passes every gate. AI in Society (€4,000) fails: about 22% computing and a social-science admission profile. EduRank 2026 overall rank and topic ranks are institution-level and unchanged. Map pin: Bildungscampus 2, Heilbronn.",
+        "note": "Re-qualified on 20 October 2026. The previous qualifying programme, M.Sc. Informatics: Games Engineering, is listed at €6,000 per semester on TUM's own programme page (and 'German or English' by focus area), so it fails the €5,000 ceiling. All 108 TUM master's programmes were checked; Information Engineering is the only one that passes every gate. AI in Society (€4,000) fails: about 22% computing and a social-science admission profile. EduRank 2026 overall rank and topic ranks are institution-level and unchanged. Map pin: Bildungscampus 2, Heilbronn. Review 2026-11-10: Current official programme page re-read 2026-11-10; winter dates differ from DAAD. No fee confirmation email was sent.",
         "links": [
           {
             "title": "TUM M.Sc. Information Engineering — programme page",
@@ -373,6 +398,7 @@
       "sublabel": "Hamburg",
       "tags": [
         "Opens Feb ’27",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -390,16 +416,18 @@
         "swe": 164,
         "nonEuTuition": 0,
         "applicationFee": 0,
-        "programs": "M.Sc. Intelligent Adaptive Systems",
+        "programs": "M.Sc. Data Science and Artificial Intelligence; M.Sc. Intelligent Adaptive Systems",
         "intakes": "Winter 2027 · October start",
-        "applicationWindow": "Winter 2027 · 15 February – 31 March 2027; the programme states there is no summer or late intake",
+        "applicationWindow": "DSAI explicitly publishes the next window 2027-02-15–2027-03-31 for winter entry. IAS publishes the standing annual 02-15–03-31 window. No first-semester summer intake for these programmes.",
         "tuition": "€0 tuition",
         "semesterFee": "€402 for Winter Semester 2026/27 (up from €384 in Summer 2026), per the University of Hamburg's own semester-contribution announcement; includes the public-transport semester ticket",
         "applicationRoute": "Direct university/programme application",
         "applicationPortal": "STiNE / programme application portal",
-        "language": "English proof required",
-        "academicRequirements": "Relevant CS degree with foundations for AI, intelligent systems and quantitative methods",
-        "studentChecks": "Check exact module-credit and English-certificate rules for the selected intake"
+        "language": "English-taught. DSAI: IELTS at least 6.5 or listed equivalent. IAS: IELTS at least 6.5 overall and every component at least 6.0, or accepted equivalent. IELTS scores meet these numerical minima; credit mapping and document acceptance remain separate.",
+        "academicRequirements": "DSAI: relevant degree, 24 ECTS maths including 6 stochastics and 60 CS, with the exact credit table controlling. IAS: at least 60 ECTS core CS comparable to Hamburg’s curriculum.",
+        "studentChecks": "Winter AI/data alternatives matching the research interests. Apply through STiNE with the programme credit table and all required documents by the deadline; do not assume a Bangladeshi English-medium letter automatically waives test evidence.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "A focused AI and intelligent-systems option that suits a CSE/software applicant seeking an English programme in a large employment market.",
@@ -431,6 +459,18 @@
           {
             "title": "Semesterbeitrag Wintersemester 2026/27 : UHH : Universität Hamburg",
             "url": "https://www.uni-hamburg.de/campuscenter/aktuelles/2026-07-23-semesterbeitrag-wise-2026.html"
+          },
+          {
+            "title": "Official programme evidence — uhh2026dsaiprogramme",
+            "url": "https://www.inf.uni-hamburg.de/en/studies/master/dsai.html"
+          },
+          {
+            "title": "Official programme evidence — uhh2026iasadmission",
+            "url": "https://www.uni-hamburg.de/onTEAM/studiengaenge/intelligent-adaptive-systems.pdf"
+          },
+          {
+            "title": "Official programme evidence — uhh2026fees",
+            "url": "https://www.wiso.uni-hamburg.de/internationales/international-office/study-with-us/studying-at-uhh/semester-contribution.html"
           }
         ]
       }
@@ -440,7 +480,8 @@
       "label": "University of Tübingen",
       "sublabel": "Tübingen, Baden-Württemberg",
       "tags": [
-        "Opens Feb ’27",
+        "Window unverified",
+        "Funding needed",
         "Winter ’27"
       ],
       "location": {
@@ -460,14 +501,16 @@
         "applicationFee": 0,
         "programs": "M.Sc. Machine Learning",
         "intakes": "Winter 2027 · October start",
-        "applicationWindow": "Winter 2027 · portal opens early February 2027, deadline 30 April 2027; the same deadline applies to EU and non-EU applicants",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Winter 2027 · portal opens early February 2027, deadline 30 April 2027; the same deadline applies to EU and non-EU applicants",
         "tuition": "€1,500 per semester for most non-EU students",
         "semesterFee": "Semester contribution applies",
         "applicationRoute": "Direct university application",
         "applicationPortal": "University application portal",
         "language": "English proof required",
         "academicRequirements": "Strong CS/mathematics degree with substantial calculus, linear algebra, probability, algorithms and programming",
-        "studentChecks": "Compare Tanima's quantitative credits carefully; work experience does not replace the formal mathematics threshold"
+        "studentChecks": "Compare Tanima's quantitative credits carefully; work experience does not replace the formal mathematics threshold",
+        "funding": "Paid tuition: a complete tuition-and-living funding package is required under Tanima’s preference; no award is verified.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "A high-upside choice for a deliberate ML specialisation, but more mathematically selective than a general software-engineering programme.",
@@ -508,7 +551,8 @@
       "label": "Free University of Berlin (FU Berlin)",
       "sublabel": "Berlin",
       "tags": [
-        "Opens Apr ’27",
+        "Annual dates",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -528,14 +572,16 @@
         "applicationFee": 75,
         "programs": "M.Sc. Data Science",
         "intakes": "Winter 2027 · October start",
-        "applicationWindow": "Winter 2027/28 · mid-April – 31 May 2027; winter entry only, summer admission exists solely for higher semesters. A uni-assist VPD is required for a bachelor obtained outside Germany and is valid for one year",
+        "applicationWindow": "English Data Science admits first-year students in winter only. A fetched summer 2027 notice concerns higher-semester applications, not fresh BSc entry. The current winter 2027/28 opening was not independently confirmed; do not reuse the old central 2026 calendar.",
         "tuition": "€0 tuition",
         "semesterFee": "Semester contribution applies",
         "applicationRoute": "External credential review and university admission",
         "applicationPortal": "uni-assist",
         "language": "English proof required",
-        "academicRequirements": "Relevant degree with specified CS, mathematics, statistics and data-science preparation",
-        "studentChecks": "Quantify Tanima's mathematics/statistics credits before treating this as an eligible target"
+        "academicRequirements": "Relevant 180-CP degree; 20 ECTS maths including specified linear-algebra/calculus and probability/statistics portions; 10 CS including algorithms and higher programming; self-disclosure form; English C1 or accepted exemption.",
+        "studentChecks": "Winter Data Science alternative; confirm the new application calendar and exact maths/CS mapping. FU’s standard MSc Computer Science requires German and is not this English route.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "A tuition-free English Data Science option in Berlin, strongest for Tanima if her CSE transcript contains enough formal mathematics and statistics.",
@@ -567,6 +613,18 @@
           {
             "title": "FU Berlin M.Sc. Data Science — prospective students",
             "url": "https://www.mi.fu-berlin.de/en/data-science/prospective-students/index.html"
+          },
+          {
+            "title": "Official programme evidence — fuberlin2026dsrequirements",
+            "url": "https://www.mi.fu-berlin.de/en/data-science/index.html"
+          },
+          {
+            "title": "Official programme evidence — fuberlin2026ds2027",
+            "url": "https://www.mi.fu-berlin.de/en/data-science/prospective-students/Current-Admissions.html"
+          },
+          {
+            "title": "Official programme evidence — fuberlin2026dsfees",
+            "url": "https://www.mi.fu-berlin.de/en/data-science/prospective-students/students_prospective/Application-FAQ/Are-there-any-tution-or-semester-fees_.html"
           }
         ]
       }
@@ -577,7 +635,8 @@
       "abbr": "Uni Bonn",
       "sublabel": "Bonn, North Rhine-Westphalia",
       "tags": [
-        "Opens Oct ’26",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -598,14 +657,16 @@
         "applicationFee": 0,
         "programs": "M.Sc. Computer Science",
         "intakes": "Summer 2027 · April start; Winter 2027 · October start",
-        "applicationWindow": "Summer 2027 · round one, open to all applicants, 15 October – 1 November 2026; round two is EEA-only, 15 December 2026 – 15 January 2027. Non-EEA decisions are targeted for 15 December",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Summer 2027 · round one, open to all applicants, 15 October – 1 November 2026; round two is EEA-only, 15 December 2026 – 15 January 2027. Non-EEA decisions are targeted for 15 December",
         "tuition": "€0 tuition",
         "semesterFee": "€363.07 for Winter 2026/27 (up from €345.07 in Summer 2026), covering the Deutschlandticket and administrative/student-service costs",
         "applicationRoute": "Direct university application",
         "applicationPortal": "University application portal",
         "language": "Can be studied in English; verify accepted proof",
         "academicRequirements": "Relevant CS degree with required theoretical, practical and technical informatics coverage",
-        "studentChecks": "Use the programme's eligibility checklist against the transcript before submission"
+        "studentChecks": "Use the programme's eligibility checklist against the transcript before submission",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "A broad, tuition-free CS option that can suit Tanima well if her undergraduate module distribution meets Bonn's formal subject requirements.",
@@ -651,7 +712,8 @@
       "abbr": "UGOE",
       "sublabel": "Göttingen, Lower Saxony",
       "tags": [
-        "Opens Oct ’26",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -672,14 +734,16 @@
         "applicationFee": 0,
         "programs": "M.Sc. Applied Data Science",
         "intakes": "Summer 2027 · April start; Winter 2027 · October start",
-        "applicationWindow": "Summer 2027 · deadline 1 November 2026; the application period is stated only as starting roughly one month before the deadline (around 1 October 2026), so no exact opening date is published, and as of 23 August 2026 the portal is confirmed not yet open. Non-EU applicants use a separate portal from EU/EEA applicants and, from Summer 2027, may submit external dMAT Data Science test results in place of (or alongside) the university's own online aptitude test. Winter semester deadline is 1 May, though winter entry is the recommended track",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Summer 2027 · deadline 1 November 2026; the application period is stated only as starting roughly one month before the deadline (around 1 October 2026), so no exact opening date is published, and as of 23 August 2026 the portal is confirmed not yet open. Non-EU applicants use a separate portal from EU/EEA applicants and, from Summer 2027, may submit external dMAT Data Science test results in place of (or alongside) the university's own online aptitude test. Winter semester deadline is 1 May, though winter entry is the recommended track",
         "tuition": "€0 tuition",
         "semesterFee": "About €460 per semester (DAAD figure; not confirmed on a Göttingen page)",
         "applicationRoute": "Direct university application",
         "applicationPortal": "University application portal",
         "language": "Mainly English; English C1 (or B2 plus German DSH-2 as an alternative). DAAD says the degree can be completed entirely in English, but certain courses may be taught in German and mandatory in the Digital Business Administration and Physical Modelling and Data Analysis specialisations — choose another specialisation",
         "academicRequirements": "Relevant degree with quantitative methods, programming and data-analysis preparation",
-        "studentChecks": "Check whether CSE statistics and mathematics credits meet the programme minimums"
+        "studentChecks": "Check whether CSE statistics and mathematics credits meet the programme minimums",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "A practical tuition-free data-science option in a lower-cost university city, best when Tanima can document solid statistics and quantitative coursework.",
@@ -728,7 +792,8 @@
       "label": "University of Freiburg",
       "sublabel": "Freiburg, Baden-Württemberg",
       "tags": [
-        "Opens Nov ’26",
+        "Window unverified",
+        "Funding needed",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -749,14 +814,16 @@
         "applicationFee": 0,
         "programs": "M.Sc. Computer Science (AI, Robotics and related specialisations)",
         "intakes": "Summer 2027 · April start; Winter 2027 · October start",
-        "applicationWindow": "Summer 2027 · 1 November 2026–15 December 2026 (non-EU); Winter 2027 · 15 April 2027–31 May 2027 (non-EU; official recurring windows)",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Summer 2027 · 1 November 2026–15 December 2026 (non-EU); Winter 2027 · 15 April 2027–31 May 2027 (non-EU; official recurring windows)",
         "tuition": "€1,500 per semester for most non-EU students",
         "semesterFee": "€190 per semester (€103 Studierendenwerk + €80 administration + €7 student council)",
         "applicationRoute": "Direct university application",
         "applicationPortal": "HISinOne",
         "language": "Teaching language English; no German requirement; English C1 (IELTS 7.0)",
         "academicRequirements": "Relevant CS degree with programme-defined foundational credits",
-        "studentChecks": "Check track language, curriculum equivalence and non-EU deadline before preparing documents"
+        "studentChecks": "Check track language, curriculum equivalence and non-EU deadline before preparing documents",
+        "funding": "Paid tuition: a complete tuition-and-living funding package is required under Tanima’s preference; no award is verified.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "A good AI/robotics-oriented fit with a respected CS faculty, balanced against Baden-Württemberg tuition and a smaller local job market.",
@@ -794,7 +861,8 @@
       "abbr": "RWTH",
       "sublabel": "Aachen, North Rhine-Westphalia",
       "tags": [
-        "Opens Dec ’26",
+        "Window unverified",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -814,14 +882,16 @@
         "applicationFee": 0,
         "programs": "M.Sc. Software Systems Engineering",
         "intakes": "Winter 2027 · October start",
-        "applicationWindow": "Winter 2027/28 · non-EU/EEA applicants apply between December 2026 and 1 March 2027; EU/EEA applicants between June and 15 July 2027. There is no first-semester summer intake",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Winter 2027/28 · non-EU/EEA applicants apply between December 2026 and 1 March 2027; EU/EEA applicants between June and 15 July 2027. There is no first-semester summer intake",
         "tuition": "€0 tuition",
         "semesterFee": "About €300–€320 per semester; verify current amount",
         "applicationRoute": "Direct university application",
         "applicationPortal": "RWTHonline",
         "language": "English proof required; no German required for the programme",
         "academicRequirements": "Bachelor's in CS or closely related field with specified theoretical and software-systems foundations",
-        "studentChecks": "Complete the prerequisite-course mapping; professional experience does not offset missing academic credits"
+        "studentChecks": "Complete the prerequisite-course mapping; professional experience does not offset missing academic credits",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "One of the clearest matches for Tanima's CSE and software-engineering profile, especially if she prefers rigorous software systems over a general data-science degree.",
@@ -864,7 +934,8 @@
       "abbr": "FAU",
       "sublabel": "Erlangen / Nuremberg, Bavaria",
       "tags": [
-        "Opens Feb ’27",
+        "Window unverified",
+        "Funding needed",
         "Winter ’27"
       ],
       "location": {
@@ -884,14 +955,16 @@
         "applicationFee": 100,
         "programs": "M.Sc. Artificial Intelligence; M.Sc. Computational Engineering; M.Sc. International Information Systems (Nuremberg)",
         "intakes": "Winter 2027 · October start; summer entry is exceptional for AI and unavailable for IIS",
-        "applicationWindow": "Winter 2027/28 · AI applications run 15 February – 31 May 2027 in campo; the Winter 2026/27 cycle was shortened to 15 April – 31 May 2026 by an examination-regulation change. Master entry is normally winter-only",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Winter 2027/28 · AI applications run 15 February – 31 May 2027 in campo; the Winter 2026/27 cycle was shortened to 15 April – 31 May 2026 by an examination-regulation change. Master entry is normally winter-only",
         "tuition": "€4,000 per semester for non-EU students who enrol for the first time or change subject from summer semester 2027 (AI, Computational Engineering and International Information Systems each €4,000 on FAU's schedule); the €100 non-EU application fee is separate",
         "semesterFee": "€82 per semester (Student Services contribution on FAU's tuition page); the earlier €140 figure for IIS could not be confirmed",
         "applicationRoute": "Direct university application",
         "applicationPortal": "campo",
         "language": "English; IIS requires C1 such as IELTS 7.0 or TOEFL iBT 100",
         "academicRequirements": "Programme-specific: AI is quantitative/CS-focused; IIS accepts relevant IT/business backgrounds and values practical experience. Non-EU AI applicants must submit a GRE result (winter 2026/27 rule)",
-        "studentChecks": "For Nuremberg coverage, choose IIS: about 70% of its courses are taught in Nuremberg, and the programme recommends living there"
+        "studentChecks": "For Nuremberg coverage, choose IIS: about 70% of its courses are taught in Nuremberg, and the programme recommends living there",
+        "funding": "Paid tuition: a complete tuition-and-living funding package is required under Tanima’s preference; no award is verified.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "FAU covers both Erlangen and Nuremberg: AI and Computational Engineering are stronger technical choices, while English International Information Systems is predominantly taught in Nuremberg and aligns with Tanima's software-industry experience.",
@@ -938,7 +1011,8 @@
       "abbr": "TUD",
       "sublabel": "Dresden, Saxony",
       "tags": [
-        "Opens Oct ’26",
+        "Open now",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -957,16 +1031,18 @@
         "swe": 140,
         "nonEuTuition": 0,
         "applicationFee": 75,
-        "programs": "M.Sc. Computer Science; related distributed systems/computational programmes",
+        "programs": "M.Sc. Computer Science",
         "intakes": "Summer 2027 · April start; Winter 2027 · October start",
-        "applicationWindow": "Summer 2027 · 1 October 2026–30 November 2026 (non-EU); Winter 2027 · 1 April 2027–31 May 2027 (non-EU)",
+        "applicationWindow": "Open now for Summer 2027: the faculty announces the aptitude portal open from 2026-10-01. Non-EU foreign-degree assessment deadline: 2026-11-30. Standing winter period: 04-01–05-31. Submit both the university/uni-assist application and separate aptitude application; a current published window is not an admission decision.",
         "tuition": "€0 tuition",
         "semesterFee": "€361 for Winter 2026/27 (from a search summary, not read on an official TU Dresden page; verify)",
-        "applicationRoute": "External document review plus programme process",
+        "applicationRoute": "University application switch (normally uni-assist for foreign credentials) plus a separate faculty aptitude portal; use the same email address.",
         "applicationPortal": "uni-assist + TU Dresden application/aptitude portal",
-        "language": "Taught in English; English C1 (IELTS 7.0 or TOEFL 100)",
-        "academicRequirements": "Relevant CS degree with programme-defined foundational credits; an aptitude assessment comes first and a GRE is strongly recommended",
-        "studentChecks": "Check both uni-assist processing time and any separate faculty aptitude submission"
+        "language": "English C1: IELTS Academic at least 7.0 overall and at least 6.0 in every component. Tanima’s documented 7.5 / L9 R7 W6.5 S7.5 meets those numerical thresholds; certificate acceptance remains part of assessment.",
+        "academicRequirements": "CS degree and 90 non-overlapping ECTS: systems/networks/databases/security 20; theory/algorithms/data structures 10; mathematics 20; architecture/engineering/HPC 5; programming/software/HCI/graphics/web 25; a further 10 across these fields. GRE is strongly recommended, not universally compulsory in the fetched guidance.",
+        "studentChecks": "Priority summer application. Obtain official historic DIU module descriptions and a searchable transcript. Dresden’s published conversion 60 × degree years / total local credits gives 240/148 for this four-year degree; this is programme-specific, not universal ECTS recognition. A provisional 65-local-credit allocation gives 105.41 ECTS but is not a university equivalence decision. Relevant laboratory portions and learning outcomes must be supported; no double counting.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "A cost-effective technical-university option with lower living costs than Germany's largest cities and suitable CS/systems pathways.",
@@ -998,9 +1074,17 @@
           {
             "title": "TU Dresden M.Sc. Computer Science — admission",
             "url": "https://tu-dresden.de/ing/informatik/studium/studienangebot/master-studiengaenge/m-sc-computer-science/admission?set_language=en"
+          },
+          {
+            "title": "Official programme evidence — dresden2026csadmission",
+            "url": "https://tu-dresden.de/ing/informatik/studium/studienangebot/master-studiengaenge/m-sc-computer-science/admission"
+          },
+          {
+            "title": "Official programme evidence — dresden2026csregulations",
+            "url": "https://www.verw.tu-dresden.de/Amtbek/PDF-Dateien/2026-13/02_AB26_256_EFO_Computer_Science.pdf"
           }
         ],
-        "note": "The old Masterstudiengang Informatik (examination regulations 2010) no longer enrols; applicants are directed to the M.Sc. Computer Science."
+        "note": "The old Masterstudiengang Informatik (examination regulations 2010) no longer enrols; applicants are directed to the M.Sc. Computer Science. Review 2026-11-10: The transcript supplied locally is scanned; current 2026 aptitude rules require searchable PDFs for most evidence. Degree certificate and official module evidence were not present in the supplied folder."
       }
     },
     {
@@ -1009,7 +1093,8 @@
       "abbr": "KIT",
       "sublabel": "Karlsruhe, Baden-Württemberg",
       "tags": [
-        "Opens Nov ’26",
+        "Window unverified",
+        "Funding needed",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -1030,14 +1115,16 @@
         "applicationFee": 0,
         "programs": "M.Sc. Computer Science",
         "intakes": "Summer 2027 · April start; Winter 2027 · October start",
-        "applicationWindow": "Computer Science M.Sc. (INT) deadlines: 15 January for summer-term entry (Summer 2027) and 15 June for winter-term entry (Winter 2027/28); KIT's general capacity-limited-programme table separately lists 15 January / 15 July for other Informatics-family master's programmes. No exact portal-opening day is published for this specific programme, but KIT's central admissions FAQ states application portals open 'voraussichtlich Ende November' (expected end of November) ahead of a summer-semester deadline and 'voraussichtlich Mitte/Ende Mai' (expected mid/end of May) ahead of a winter-semester one — so the Summer-2027 portal is expected to open around end of November 2026, not yet open as of 23 August 2026",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Computer Science M.Sc. (INT) deadlines: 15 January for summer-term entry (Summer 2027) and 15 June for winter-term entry (Winter 2027/28); KIT's general capacity-limited-programme table separately lists 15 January / 15 July for other Informatics-family master's programmes. No exact portal-opening day is published for this specific programme, but KIT's central admissions FAQ states application portals open 'voraussichtlich Ende November' (expected end of November) ahead of a summer-semester deadline and 'voraussichtlich Mitte/Ende Mai' (expected mid/end of May) ahead of a winter-semester one — so the Summer-2027 portal is expected to open around end of November 2026, not yet open as of 23 August 2026",
         "tuition": "€1,500 per semester for most non-EU students",
         "semesterFee": "Administrative and student-services fees apply",
         "applicationRoute": "Direct university application",
         "applicationPortal": "KIT application portal",
         "language": "English proof required",
         "academicRequirements": "Relevant CS degree with strong mathematics and theoretical/practical CS coverage",
-        "studentChecks": "Confirm the application documents and selection requirements in the KIT portal before applying"
+        "studentChecks": "Confirm the application documents and selection requirements in the KIT portal before applying",
+        "funding": "Paid tuition: a complete tuition-and-living funding package is required under Tanima’s preference; no award is verified.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "A technically strong option for software and systems, but Tanima should verify the current English-only study path rather than assuming the whole degree is English.",
@@ -1078,7 +1165,8 @@
       "label": "University of Münster",
       "sublabel": "Münster, North Rhine-Westphalia",
       "tags": [
-        "Opens Nov ’26",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -1095,7 +1183,7 @@
         "applicationFee": 0,
         "programs": "M.Sc. Information Systems",
         "intakes": "Winter only for the qualifying English-taught programme and Bangladeshi/visa-required applicants",
-        "applicationWindow": "The Department of Information Systems' own admissions page states M.Sc. Information Systems admits in both semesters: summer-semester-intake applications run 10 November – 15 January (Summer 2027: 10 Nov 2026 – 15 Jan 2027, the next window to open); winter-semester-intake applications run 10 May – 15 July (Winter 2027/28: 10 May – 15 Jul 2027). This is consistent with the university-wide pattern for local-NC master's programmes published by the central admissions office (early May–15 July winter / early Nov–15 Jan summer). As of 23 August 2026 no window is open",
+        "applicationWindow": "Historical application guidance, not a verified current opening: The Department of Information Systems' own admissions page states M.Sc. Information Systems admits in both semesters: summer-semester-intake applications run 10 November – 15 January (Summer 2027: 10 Nov 2026 – 15 Jan 2027, the next window to open); winter-semester-intake applications run 10 May – 15 July (Winter 2027/28: 10 May – 15 Jul 2027). This is consistent with the university-wide pattern for local-NC master's programmes published by the central admissions office (early May–15 July winter / early Nov–15 Jan summer). As of 23 August 2026 no window is open",
         "tuition": "€0 tuition",
         "semesterFee": "€369.50 for Winter 2026/27",
         "applicationRoute": "University master application with foreign-degree route",
@@ -1106,7 +1194,9 @@
         "ai": 420,
         "ml": 469,
         "ds": 289,
-        "swe": 427
+        "swe": 427,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Information Systems is English-completable at University of Münster. Winter entry confirmed; the programme-specific 2027 international deadline is portal-dependent and not publicly specified as of 22 July 2026 Tuition is €0 tuition, and the published semester charge is €369.50 for Winter 2026/27.",
@@ -1166,6 +1256,7 @@
       "sublabel": "Berlin",
       "tags": [
         "Opens Dec ’26",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -1184,16 +1275,18 @@
         "swe": 96,
         "nonEuTuition": 0,
         "applicationFee": 75,
-        "programs": "M.Sc. Computer Science (English curriculum from summer 2026; verify transition rules)",
+        "programs": "M.Sc. Computer Science (English)",
         "intakes": "Summer 2027 · April start; Winter 2027 · October start",
-        "applicationWindow": "Summer 2027 · 1 December 2026–15 January 2027 for restricted-admission master's programmes (1 December–28 February for open-admission ones); Winter 2027/28 · 1 April–15 May 2027 restricted admission, 1 June–31 August 2027 open admission. A uni-assist VPD is required for a foreign first degree",
+        "applicationWindow": "Summer 2027: 2026-12-01–2027-02-28; Winter 2027/28: 2027-06-01–2027-08-31. The programme is open admission, so restricted English-master deadlines do not apply.",
         "tuition": "€0 tuition",
         "semesterFee": "€379.06 for Winter 2026/27 including the semester ticket (€149.56 without); figure from a summary of TU Berlin's fee page, not read directly",
         "applicationRoute": "Preliminary review plus university application",
         "applicationPortal": "uni-assist VPD + TU Berlin portal",
         "language": "Taught in English; English B2 required; no German requirement (programme page)",
-        "academicRequirements": "Relevant CS degree with formal equivalence across core subject groups",
-        "studentChecks": "Confirm the new English curriculum, VPD timing and exact credit-group requirements before applying"
+        "academicRequirements": "Core CS credits: 12 ECTS theoretical, 12 technical and 12 methodological/practical; mathematics 18; further CS 30 excluding thesis; English B2. Foreign graduates submit the Suitability Assessment Form.",
+        "studentChecks": "Obtain a TU-specific VPD. The 12-ECTS theoretical-CS requirement is a material uncertainty: algorithms/data structures and a generic discrete-maths title do not automatically qualify. The specific TU Discrete Mathematics and Logic module has a four-credit logic exception, which is not blanket recognition of foreign courses. Official historic DIU descriptions are needed.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "A strong tuition-free fit for Tanima in Berlin's job market; the programme page now states it is taught in English (B2 required), though module-level language and formal equivalence checks still decide admission.",
@@ -1225,6 +1318,18 @@
           {
             "title": "TU Berlin — dates and deadlines for application and enrolment",
             "url": "https://www.tu.berlin/en/studierendensekretariat/dates-deadlines-for-application-and-enrollment-at-tu-berlin"
+          },
+          {
+            "title": "Official programme evidence — tuberlin2026cs",
+            "url": "https://www.tu.berlin/en/studying/study-programs/all-programs-offered/study-course/computer-science-informatik-m-sc"
+          },
+          {
+            "title": "Official programme evidence — tuberlin2026csadmission",
+            "url": "https://www.tu.berlin/en/eecs/academics-teaching/organizing-your-studies/during-your-studies/msc-computer-science-informatik/msc-cs-in-application-admission"
+          },
+          {
+            "title": "Official programme evidence — tuberlin2026theory",
+            "url": "https://www.tu.berlin/en/eecs/academics-teaching/organizing-your-studies/during-your-studies/what-is-theoretical-computer-science"
           }
         ]
       }
@@ -1234,7 +1339,8 @@
       "label": "University of Würzburg",
       "sublabel": "Würzburg, Bavaria",
       "tags": [
-        "Open now",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -1253,7 +1359,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Computer Science",
         "intakes": "Summer and winter; AI&XR winter",
-        "applicationWindow": "Open now for Summer 2027 — the university's own admissions page states the application period runs end of August to 31 October 2026 each year for the following summer semester, and today (5 September 2026) falls inside that window; Winter 2027/28 · end of January – 15 March 2027. The uni-assist VPD must be issued for the University of Würzburg and be under one year old.",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Previously open for Summer 2027 — the university's own admissions page states the application period runs end of August to 31 October 2026 each year for the following summer semester, and today (5 September 2026) falls inside that window; Winter 2027/28 · end of January – 15 March 2027. The uni-assist VPD must be issued for the University of Würzburg and be under one year old.",
         "tuition": "€0 tuition",
         "semesterFee": "€182.10 for Winter 2026/27",
         "applicationRoute": "WueStudy plus uni-assist VPD for a foreign degree",
@@ -1262,7 +1368,9 @@
         "academicRequirements": "Relevant CS degree, required core coverage and a thesis/research paper equivalent to 10 ECTS; English C1 or German B2",
         "studentChecks": "Check the published prerequisite mapping for M.Sc. Computer Science before applying; professional experience does not replace missing academic credits.",
         "cse": 328,
-        "ml": 615
+        "ml": 615,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Computer Science is English-completable at University of Würzburg. Summer 2027 · 23 January–15 March 2027; Winter 2027/28 · late August–31 October 2027 under the published programme schedule Tuition is €0 tuition, and the published semester charge is €182.10 for Winter 2026/27.",
@@ -1309,7 +1417,8 @@
       "abbr": "RUB",
       "sublabel": "Bochum, North Rhine-Westphalia",
       "tags": [
-        "Opens Nov ’26",
+        "Window unverified",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -1329,14 +1438,16 @@
         "applicationFee": 0,
         "programs": "M.Sc. Computer Science",
         "intakes": "Winter 2027 · October start",
-        "applicationWindow": "Winter 2027/28 · portal opens at the beginning of November 2026 and closes 15 December 2026, 23:59 UTC+1. Non-EU applicants can only start in the winter semester",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Winter 2027/28 · portal opens at the beginning of November 2026 and closes 15 December 2026, 23:59 UTC+1. Non-EU applicants can only start in the winter semester",
         "tuition": "€0 tuition",
         "semesterFee": "Semester contribution applies",
         "applicationRoute": "Direct faculty/university application",
         "applicationPortal": "apply.cs.rub.de",
         "language": "Fully English; accepted proof required",
         "academicRequirements": "Relevant CS degree with required coverage across core subject areas",
-        "studentChecks": "Complete the programme's academic-background form against the transcript"
+        "studentChecks": "Complete the programme's academic-background form against the transcript",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "A practical tuition-free English CS option for Tanima, with lower regional living costs and access to the broader Rhine-Ruhr job market.",
@@ -1377,7 +1488,8 @@
       "label": "Kiel University",
       "sublabel": "Kiel, Schleswig-Holstein",
       "tags": [
-        "Opens Nov ’26",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -1397,7 +1509,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Computer Science",
         "intakes": "Summer and winter",
-        "applicationWindow": "Published recurring windows via uni-assist: winter-semester intake from the beginning of May to 15 July (Winter 2027/28: May–15 July 2027); summer-semester intake from the beginning of November to 15 January (Summer 2027: 1 Nov 2026 – 15 Jan 2027, the next window to open). CAU Kiel's central deadlines page separately lists earlier 1 July / 2 January cut-offs for NC-restricted programmes. The M.Sc. Computer Science programme page itself states no cycle-specific 2027 dates. As of 23 August 2026 no window is open",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Published recurring windows via uni-assist: winter-semester intake from the beginning of May to 15 July (Winter 2027/28: May–15 July 2027); summer-semester intake from the beginning of November to 15 January (Summer 2027: 1 Nov 2026 – 15 Jan 2027, the next window to open). CAU Kiel's central deadlines page separately lists earlier 1 July / 2 January cut-offs for NC-restricted programmes. The M.Sc. Computer Science programme page itself states no cycle-specific 2027 dates. As of 23 August 2026 no window is open",
         "tuition": "€0 tuition",
         "semesterFee": "€403 for Winter 2026/27 plus one-time €55 enrolment fee",
         "applicationRoute": "uni-assist for degrees obtained outside Germany",
@@ -1405,7 +1517,9 @@
         "language": "Complete English path",
         "academicRequirements": "Relevant degree satisfying the published CS admission rules; English B1 or GRE Verbal 145",
         "studentChecks": "Check the published prerequisite mapping for M.Sc. Computer Science before applying; professional experience does not replace missing academic credits.",
-        "cse": 395
+        "cse": 395,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Computer Science is English-completable at Kiel University. Summer and winter entry confirmed; exact 2027 foreign-degree dates are not publicly stated on the programme page as of 22 July 2026 Tuition is €0 tuition, and the published semester charge is €403 for Winter 2026/27 plus one-time €55 enrolment fee.",
@@ -1462,7 +1576,8 @@
       "label": "University of Stuttgart",
       "sublabel": "Stuttgart, Baden-Württemberg",
       "tags": [
-        "Opens Nov ’26",
+        "Annual dates",
+        "Funding needed",
         "Winter ’27"
       ],
       "location": {
@@ -1482,14 +1597,16 @@
         "applicationFee": 0,
         "programs": "M.Sc. INFOTECH; Computer Science English options must be verified",
         "intakes": "Winter 2027/28 · October start",
-        "applicationWindow": "INFOTECH recurring windows: winter semester 15 November – 15 January, summer semester 15 May – 15 July. Summer 2027's window ran 15 May – 15 July 2026 and is already closed with no live path remaining, so Summer 2027 is no longer a viable intake; the Winter 2027/28 window opens 15 November 2026.",
+        "applicationWindow": "English Computer Science summer window 05-15–07-15 is in the preceding year, so Summer 2027 is closed. Its standing Winter 2027/28 window maps to 2026-11-15–2027-01-15. INFOTECH is a distinct existing option with its own dates; confirm that programme separately.",
         "tuition": "€1,500 per semester for most non-EU students",
         "semesterFee": "Administrative and student-services fees apply",
         "applicationRoute": "Direct university application",
         "applicationPortal": "C@MPUS",
         "language": "English for INFOTECH; programme-specific proof required",
         "academicRequirements": "Relevant engineering/CS degree; INFOTECH expects communications, electronics or information-technology foundations",
-        "studentChecks": "Confirm whether Tanima's CSE curriculum matches the chosen programme rather than relying on the university's CS rank"
+        "studentChecks": "Keep INFOTECH distinct from English Computer Science. Non-EU tuition generally EUR 1,500/semester requires full funding under Tanima’s preference; no complete funding award or package was verified.",
+        "funding": "Paid tuition: a complete tuition-and-living funding package is required under Tanima’s preference; no award is verified.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "Attractive for an information-technology or engineering-oriented direction and the Stuttgart employer market, but programme fit must be checked carefully for a software-focused CSE transcript.",
@@ -1521,6 +1638,18 @@
           {
             "title": "Stuttgart INFOTECH — application",
             "url": "https://www.infotech.uni-stuttgart.de/application/"
+          },
+          {
+            "title": "Official programme evidence — stuttgart2026englishdates",
+            "url": "https://www.uni-stuttgart.de/en/study/application/master/admission/"
+          },
+          {
+            "title": "Official programme evidence — stuttgart2026cs",
+            "url": "https://www.f05.uni-stuttgart.de/en/cs/prospective-students/msc-computerscience"
+          },
+          {
+            "title": "Official programme evidence — stuttgart2026fees",
+            "url": "https://www.student.uni-stuttgart.de/en/organizing-studies/formalities/tuition-and-fees/tuition-fee/"
           }
         ],
         "note": "INFOTECH admits for both semesters; an earlier revision of this row described it as winter-only."
@@ -1531,6 +1660,8 @@
       "label": "University of Marburg",
       "sublabel": "Marburg, Hesse",
       "tags": [
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -1546,7 +1677,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Data Science",
         "intakes": "Summer and winter",
-        "applicationWindow": "Winter 2026/27's uni-assist window for foreign degrees closed 21 August 2026 (it ran 1 May – 21 August 2026). The Summer 2026 equivalent ran 1 November 2025 – 27 February 2026. The 2027 cycles are not yet published on the university's own pages as of this check.",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Winter 2026/27's uni-assist window for foreign degrees closed 21 August 2026 (it ran 1 May – 21 August 2026). The Summer 2026 equivalent ran 1 November 2025 – 27 February 2026. The 2027 cycles are not yet published on the university's own pages as of this check.",
         "tuition": "€0 tuition",
         "semesterFee": "€424.80 for Winter 2026/27",
         "applicationRoute": "uni-assist for foreign degrees",
@@ -1558,7 +1689,9 @@
         "ai": 644,
         "ml": 699,
         "ds": 622,
-        "swe": 653
+        "swe": 653,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Data Science is English-completable at University of Marburg. Summer and winter entry confirmed; the central deadline table has not yet published the 2027 foreign-degree windows Tuition is €0 tuition, and the published semester charge is €424.80 for Winter 2026/27.",
@@ -1609,7 +1742,8 @@
       "abbr": "TU Darmstadt",
       "sublabel": "Darmstadt, Hesse",
       "tags": [
-        "Opens Dec ’26",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -1630,14 +1764,16 @@
         "applicationFee": 0,
         "programs": "M.Sc. Computer Science; Artificial Intelligence and Machine Learning options",
         "intakes": "Summer 2027 · April start; Winter 2027 · October start",
-        "applicationWindow": "The online application opens 1 December for a summer semester and 1 June for a winter semester; exact deadlines are published each November and May. The Winter 2026/27 cycle ran 1 June – 15 July 2026 with certified documents required on paper by the deadline",
+        "applicationWindow": "Historical application guidance, not a verified current opening: The online application opens 1 December for a summer semester and 1 June for a winter semester; exact deadlines are published each November and May. The Winter 2026/27 cycle ran 1 June – 15 July 2026 with certified documents required on paper by the deadline",
         "tuition": "€0 tuition",
         "semesterFee": "€402.68 for Winter 2026/27 (the student body reports an upward correction of about €18 is pending)",
         "applicationRoute": "Direct university application",
         "applicationPortal": "TUCaN",
         "language": "Teaching language English; English C1 or equivalent; no German requirement (the page does not say explicitly that every module is in English)",
         "academicRequirements": "Relevant CS degree with substantial core informatics and mathematics",
-        "studentChecks": "Select the exact programme before mapping Tanima's modules and language evidence"
+        "studentChecks": "Select the exact programme before mapping Tanima's modules and language evidence",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "A strong tuition-free match for software systems, AI and security-oriented study, close to the Frankfurt technology market.",
@@ -1678,6 +1814,8 @@
       "label": "Saarland University",
       "sublabel": "Saarbrücken, Saarland",
       "tags": [
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -1694,7 +1832,7 @@
         "applicationFee": 0,
         "programs": "M.Sc. Computer Science; Data Science and Artificial Intelligence; Cybersecurity",
         "intakes": "Summer and winter",
-        "applicationWindow": "Recurring deadlines only: summer semester 15 May (early) or 15 November (regular); winter semester 15 November (early) or 15 May (regular). Applying by 15 November for the following winter semester is expected to yield a decision by mid-February. Computer Science is administered by its own department portal (apply.cs.uni-saarland.de), separate from the university's central SIM portal system — cross-checked via the English page, its German-language equivalent, the university-wide application-procedure pages, and Wayback Machine snapshots from January 2025 to August 2026: no source at any point publishes a distinct portal-opening date for the department's own system, only the two deadline pairs above.",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Recurring deadlines only: summer semester 15 May (early) or 15 November (regular); winter semester 15 November (early) or 15 May (regular). Applying by 15 November for the following winter semester is expected to yield a decision by mid-February. Computer Science is administered by its own department portal (apply.cs.uni-saarland.de), separate from the university's central SIM portal system — cross-checked via the English page, its German-language equivalent, the university-wide application-procedure pages, and Wayback Machine snapshots from January 2025 to August 2026: no source at any point publishes a distinct portal-opening date for the department's own system, only the two deadline pairs above.",
         "tuition": "€0 tuition",
         "semesterFee": "€412.30 for Winter 2026/27",
         "applicationRoute": "Saarland Informatics Campus application portal",
@@ -1705,7 +1843,9 @@
         "cse": 379,
         "ai": 325,
         "ml": 557,
-        "ds": 394
+        "ds": 394,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Computer Science; Data Science and Artificial Intelligence; Cybersecurity is English-completable at Saarland University. Summer: early 15 May or regular 15 November; Winter: early 15 November or regular 15 May Tuition is €0 tuition, and the published semester charge is €412.30 for Winter 2026/27.",
@@ -1763,7 +1903,8 @@
       "label": "Leibniz University Hannover",
       "sublabel": "Hannover, Lower Saxony",
       "tags": [
-        "Opens Oct ’26",
+        "Annual window open",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -1784,14 +1925,16 @@
         "applicationFee": 75,
         "programs": "M.Sc. Computer Science (English study option)",
         "intakes": "Summer 2027 · April start; Winter 2027 · October start",
-        "applicationWindow": "Summer 2027 · 15 October–30 November 2026 for non-EU first-degree applicants; Winter 2027 · 15 April–31 May 2027",
+        "applicationWindow": "Annual window open under the standing non-EU programme schedule: 2026-10-15–2026-11-30 for Summer 2027. Winter 2027/28: 2027-04-15–2027-05-31 by the same annual rule. A separately dated 2027 portal listing was not verified.",
         "tuition": "€0 tuition",
         "semesterFee": "€453.16 for Winter 2026/27",
         "applicationRoute": "VPD followed by university application",
         "applicationPortal": "uni-assist VPD + Leibniz application portal",
-        "language": "English-only study route (enough English modules for the degree); English C1 required for it. German C1 applies only to the German-taught route",
-        "academicRequirements": "Relevant bachelor's plus programme-defined CS foundations and admission selection",
-        "studentChecks": "Confirm the English-only module plan and request the VPD well before the non-EU deadline"
+        "language": "The degree can be completed through English lectures only; English C1 replaces German for this route. IELTS Academic at least 7.0 is accepted in the current certificate list.",
+        "academicRequirements": "Relevant CS degree with at least 15 ECTS mathematics, 10 theoretical CS, 20 CS fundamentals and 20 advanced CS; grade-based competition. Official module descriptions are needed for equivalence.",
+        "studentChecks": "Check LUH-specific uni-assist VPD availability immediately before relying on the approaching November deadline. Ilmenau’s offer is not a VPD. Tanima’s IELTS exceeds the stated numerical threshold; theoretical-CS credit equivalence remains unresolved.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "A broad public-university CS option covering Hannover with both intakes; it suits Tanima if she can meet the demanding C1 English and formal curriculum review.",
@@ -1820,6 +1963,18 @@
           {
             "title": "EduRank — Leibniz University Hannover rankings",
             "url": "https://edurank.org/uni/leibniz-university-of-hanover/rankings/"
+          },
+          {
+            "title": "Official programme evidence — hannover2024cslaw",
+            "url": "https://www.uni-hannover.de/fileadmin/luh/studium/ordnungen/zugang/englische_uebersetzungen/zo_m_EN_Computer_Science_and_Computer_Engineering.pdf"
+          },
+          {
+            "title": "Official programme evidence — hannover2026englishcerts",
+            "url": "https://www.llc.uni-hannover.de/en/language-examinations/accepted-language-certificates-at-the-luh"
+          },
+          {
+            "title": "Official programme evidence — hannover2026vpd",
+            "url": "https://www.uni-hannover.de/en/studium/vor-dem-studium/bewerbung-zulassung/voraussetzungen-zum-studium/vorpruefungsdokumentation"
           }
         ]
       }
@@ -1830,7 +1985,8 @@
       "abbr": "HHU",
       "sublabel": "Düsseldorf, North Rhine-Westphalia",
       "tags": [
-        "Opens May ’27",
+        "Annual dates",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -1850,14 +2006,16 @@
         "applicationFee": 0,
         "programs": "M.Sc. Artificial Intelligence and Data Science",
         "intakes": "Winter 2027 · October start",
-        "applicationWindow": "Winter-only entry. HeiCAD states the portal opens in spring, early in May, and closes 15 July, with no application possible after the deadline; the Winter 2026/27 cycle ran 5 May – 15 July 2026. A uni-assist VPD may be required and takes six weeks or more, so start it early",
+        "applicationWindow": "AI and Data Science: winter-only first-semester entry; standing closing date 07-15. The fetched page’s dated 2026 opening is not confirmation of a 2027 opening.",
         "tuition": "€0 tuition",
         "semesterFee": "€371.15 for Winter 2026/27",
         "applicationRoute": "Direct university application",
         "applicationPortal": "HHU application portal",
-        "language": "English; IELTS 6.0, TOEFL iBT 80, Cambridge B2 or accepted equivalent",
-        "academicRequirements": "Relevant bachelor's in CS, mathematics, physics, electrical engineering or a closely related field; converted German grade 2.5 or better; 30 ECTS of mathematics including Analysis I and II, Linear Algebra I and Stochastics I",
-        "studentChecks": "Confirm Tanima's converted GPA and document enough mathematics, algorithms and programming"
+        "language": "IELTS at least 6.0 or accepted English-degree proof under the programme FAQ.",
+        "academicRequirements": "Relevant bachelor; German-equivalent grade 2.5 or better; 30 ECTS specified maths (analysis, linear algebra, stochastics/statistics) with syllabi.",
+        "studentChecks": "Winter AI/data alternative. Reported German grade around 1.35 meets the stated grade threshold only if formal conversion is accepted. Maths mapping must use HHU’s rules, not Dresden’s conversion automatically.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "A focused English AI/data-science option in Düsseldorf with no tuition, but formal grade and quantitative-background thresholds matter more than software work experience.",
@@ -1889,6 +2047,18 @@
           {
             "title": "HHU HeiCAD AI and Data Science — application",
             "url": "https://www.heicad.hhu.de/lehre/masters-programme-ai-and-data-science/application"
+          },
+          {
+            "title": "Official programme evidence — hhu2026aimain",
+            "url": "https://www.heicad.hhu.de/en/lehre/masters-programme-ai-and-data-science"
+          },
+          {
+            "title": "Official programme evidence — hhu2026aiadmission",
+            "url": "https://www.heicad.hhu.de/lehre/masters-programme-ai-and-data-science/admission"
+          },
+          {
+            "title": "Official programme evidence — hhu2026aifaq",
+            "url": "https://www.heicad.hhu.de/en/lehre/masters-programme-ai-and-data-science/faq"
           }
         ]
       }
@@ -1898,7 +2068,8 @@
       "label": "Bielefeld University",
       "sublabel": "Bielefeld, North Rhine-Westphalia",
       "tags": [
-        "Opens Jun ’27",
+        "Window unverified",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -1915,7 +2086,7 @@
         "applicationFee": 0,
         "programs": "M.Sc. Intelligent Systems (English branch); M.Sc. Data Science",
         "intakes": "Winter only for the qualifying English-taught programme and Bangladeshi/visa-required applicants",
-        "applicationWindow": "Winter-only entry for this programme. The international-office deadline table gives 1 June – 15 July for the winter semester and 1 December – 15 January for the summer semester for applicants with foreign qualifications, so Winter 2027/28 opens 1 June 2027. Data Science is excepted from that table and requires prior documentation",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Winter-only entry for this programme. The international-office deadline table gives 1 June – 15 July for the winter semester and 1 December – 15 January for the summer semester for applicants with foreign qualifications, so Winter 2027/28 opens 1 June 2027. Data Science is excepted from that table and requires prior documentation",
         "tuition": "€0 tuition",
         "semesterFee": "€351.65 for Winter 2026/27",
         "applicationRoute": "Bielefeld international application portal",
@@ -1925,7 +2096,9 @@
         "studentChecks": "Check the published prerequisite mapping for M.Sc. Intelligent Systems (English branch); M.Sc. Data Science before applying; professional experience does not replace missing academic credits.",
         "cse": 470,
         "ml": 493,
-        "swe": 623
+        "swe": 623,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Intelligent Systems (English branch); M.Sc. Data Science is English-completable at Bielefeld University. Winter-only entry; programme-specific deadline is displayed only in the live portal and is not publicly specified as of 22 July 2026 Tuition is €0 tuition, and the published semester charge is €351.65 for Winter 2026/27.",
@@ -1975,7 +2148,8 @@
       "label": "University of Bremen",
       "sublabel": "Bremen",
       "tags": [
-        "Opens Feb ’27",
+        "Annual dates",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -1995,14 +2169,16 @@
         "applicationFee": 0,
         "programs": "M.Sc. Artificial Intelligence and Intelligent Systems",
         "intakes": "Winter only for the qualifying English-taught programme and Bangladeshi/visa-required applicants",
-        "applicationWindow": "Winter 2026/27 closed · 1 February–15 March 2026; Winter 2027/28 · 1 February–15 March 2027",
+        "applicationWindow": "AI and Intelligent Systems: standing winter-entry application window 02-01–03-15 (2027 inferred from recurring rule, not a separate dated portal). No beginner summer intake.",
         "tuition": "€0 tuition",
         "semesterFee": "€443.40 for Winter 2026/27 including semester ticket (the earlier €425.40 was the Summer 2026 figure)",
         "applicationRoute": "Direct moin application; no application fee",
         "applicationPortal": "Direct moin application; no application fee",
-        "language": "English",
-        "academicRequirements": "CS, Systems Engineering or closely related bachelor; English B2 at application and C1 by enrolment",
-        "studentChecks": "Check the published prerequisite mapping for M.Sc. Artificial Intelligence and Intelligent Systems before applying; professional experience does not replace missing academic credits."
+        "language": "English B2 at application, C1 by the stated later deadline. Latest fetched certificate table maps IELTS 7.0–8.0 to C1 but expressly labels winter 2026/27; recheck the 2027 table.",
+        "academicRequirements": "Relevant degree of at least 180 CP including 90 CS-related CP; motivation of at most two pages; grade/subject experience/motivation ranking.",
+        "studentChecks": "Winter AI research alternative. Verify programme-specific credit equivalence and the current certificate table; do not confuse advanced-semester January deadlines with first-year admission.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "M.Sc. Artificial Intelligence and Intelligent Systems is English-completable at University of Bremen. Winter 2026/27 closed · 1 February–15 March 2026; Winter 2027/28 · 1 February–15 March 2027 Tuition is €0 tuition, and the published semester charge is €443.40 for Winter 2026/27 including semester ticket (the earlier €425.40 was the Summer 2026 figure).",
@@ -2043,6 +2219,14 @@
           {
             "title": "University of Bremen — map address",
             "url": "https://www.openstreetmap.org/?mlat=53.106&mlon=8.8531#map=17/53.106/8.8531"
+          },
+          {
+            "title": "Official programme evidence — bremen2024aiisfaq",
+            "url": "https://minds-media-machines.de/wp-content/uploads/2024/09/Faq-for-AIIS-27.8.2024.pdf"
+          },
+          {
+            "title": "Official programme evidence — bremen2026certificates",
+            "url": "https://www.uni-bremen.de/en/language-centre-of-the-universities-in-the-land-of-bremen/courses-more/tests-certificates/international-certificates-and-recognized-proof-of-language-proficiency-for-admission-to-studies/international-certificates-and-recognized-proof-of-language-proficiency-for-admission-to-studies"
           }
         ]
       }
@@ -2052,7 +2236,8 @@
       "label": "University of Regensburg",
       "sublabel": "Regensburg, Bavaria",
       "tags": [
-        "Opens Oct ’26",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -2069,7 +2254,7 @@
         "applicationFee": 0,
         "programs": "M.Sc. Computer Science",
         "intakes": "Summer and winter",
-        "applicationWindow": "Summer 2027 · mid-to-late October 2026 – 1 December 2026; Winter 2027/28 · mid-to-late April 2027 – 1 June 2027. The programme starts every year in both October and April",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Summer 2027 · mid-to-late October 2026 – 1 December 2026; Winter 2027/28 · mid-to-late April 2027 – 1 June 2027. The programme starts every year in both October and April",
         "tuition": "€0 tuition",
         "semesterFee": "€198 per semester",
         "applicationRoute": "Direct university/faculty application and aptitude review",
@@ -2080,7 +2265,9 @@
         "ai": 854,
         "ml": 1012,
         "ds": 494,
-        "swe": 858
+        "swe": 858,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Computer Science is English-completable at University of Regensburg. Summer and winter entry confirmed; 2027 application dates are not yet publicly published Tuition is €0 tuition, and the published semester charge is €198 per semester.",
@@ -2130,7 +2317,8 @@
       "label": "Ulm University",
       "sublabel": "Ulm, Baden-Württemberg",
       "tags": [
-        "Opens Apr ’27",
+        "Window unverified",
+        "Funding needed",
         "Winter ’27"
       ],
       "location": {
@@ -2149,7 +2337,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Cognitive Systems; M.Sc. Mathematical Data Science",
         "intakes": "Winter only for the qualifying English-taught programme and Bangladeshi/visa-required applicants",
-        "applicationWindow": "Winter 2027/28 · no summer entry for either programme. M.Sc. Cognitive Systems: 1 April – 15 May 2027, identical deadline via the Campusportal and uni-assist routes. M.Sc. Mathematical Data Science: 1 April – 15 May 2027 via the Campusportal, but 1 April – 15 July 2027 via uni-assist — the route required for applicants with a bachelor's degree obtained outside Germany, so Bangladeshi applicants should use the 15 July deadline, not 15 May",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Winter 2027/28 · no summer entry for either programme. M.Sc. Cognitive Systems: 1 April – 15 May 2027, identical deadline via the Campusportal and uni-assist routes. M.Sc. Mathematical Data Science: 1 April – 15 May 2027 via the Campusportal, but 1 April – 15 July 2027 via uni-assist — the route required for applicants with a bachelor's degree obtained outside Germany, so Bangladeshi applicants should use the 15 July deadline, not 15 May",
         "tuition": "€1,500 per semester for non-EU students",
         "semesterFee": "€192 plus €1,500 non-EU tuition for Winter 2026/27",
         "applicationRoute": "uni-assist for foreign degrees",
@@ -2157,7 +2345,9 @@
         "language": "English",
         "academicRequirements": "Relevant degree including CS; German-equivalent grade 2.5 or better; English B2 under the current central admission rule",
         "studentChecks": "Check the published prerequisite mapping for M.Sc. Cognitive Systems; M.Sc. Mathematical Data Science before applying; professional experience does not replace missing academic credits.",
-        "cse": 406
+        "cse": 406,
+        "funding": "Paid tuition: a complete tuition-and-living funding package is required under Tanima’s preference; no award is verified.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Cognitive Systems; M.Sc. Mathematical Data Science is English-completable at Ulm University. Winter 2026/27 closed · 1 April–15 May 2026; no Summer 2027 entry; Winter 2027/28 dates not yet published Tuition is €1,500 per semester for non-eu students, and the published semester charge is €192 plus €1,500 non-EU tuition for Winter 2026/27.",
@@ -2207,7 +2397,8 @@
       "label": "University of Konstanz",
       "sublabel": "Konstanz, Baden-Württemberg",
       "tags": [
-        "Opens Mar ’27",
+        "Window unverified",
+        "Funding needed",
         "Winter ’27"
       ],
       "location": {
@@ -2223,7 +2414,7 @@
         "applicationFee": 0,
         "programs": "M.Sc. Computer and Information Science",
         "intakes": "Winter only for the qualifying English-taught programme and Bangladeshi/visa-required applicants",
-        "applicationWindow": "Visa-required applicants: Winter 2027/28 · 18 March – 15 April 2027 (applicants without a visa requirement have until 15 June). The summer window, 29 November – 15 January, is open only to applicants without a visa requirement",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Visa-required applicants: Winter 2027/28 · 18 March – 15 April 2027 (applicants without a visa requirement have until 15 June). The summer window, 29 November – 15 January, is open only to applicants without a visa requirement",
         "tuition": "€1,500 per semester for non-EU students",
         "semesterFee": "€209 plus €1,500 non-EU tuition",
         "applicationRoute": "Direct university application",
@@ -2234,7 +2425,9 @@
         "ai": 559,
         "ml": 724,
         "ds": 301,
-        "swe": 614
+        "swe": 614,
+        "funding": "Paid tuition: a complete tuition-and-living funding package is required under Tanima’s preference; no award is verified.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Computer and Information Science is English-completable at University of Konstanz. Visa-required applicants: Winter 2026/27 closed · 18 March–15 April 2026; no Summer 2027 route; Winter 2027/28 dates not yet published Tuition is €1,500 per semester for non-eu students, and the published semester charge is €209 plus €1,500 non-EU tuition.",
@@ -2280,7 +2473,8 @@
       "label": "University of Rostock",
       "sublabel": "Rostock, Mecklenburg-Vorpommern",
       "tags": [
-        "Opens Oct ’26",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -2301,14 +2495,16 @@
         "applicationFee": 75,
         "programs": "M.Sc. Computer Science International",
         "intakes": "Summer and winter",
-        "applicationWindow": "Winter 2026/27 closed · 1 April–31 May 2026; Summer 2027 · 1 October–30 November 2026; Winter 2027/28 · 1 April–31 May 2027",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Winter 2026/27 closed · 1 April–31 May 2026; Summer 2027 · 1 October–30 November 2026; Winter 2027/28 · 1 April–31 May 2027",
         "tuition": "€0 tuition",
         "semesterFee": "€352 for Winter 2026/27",
         "applicationRoute": "uni-assist; €75 first application",
         "applicationPortal": "uni-assist; €75 first application",
         "language": "English-completable pathway",
         "academicRequirements": "180-ECTS CS degree, 85% comparable result, 18 ECTS mathematics, 12 ECTS theoretical CS; IELTS 7.0 or TOEFL 94",
-        "studentChecks": "Check the published prerequisite mapping for M.Sc. Computer Science International before applying; professional experience does not replace missing academic credits."
+        "studentChecks": "Check the published prerequisite mapping for M.Sc. Computer Science International before applying; professional experience does not replace missing academic credits.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Computer Science International is English-completable at University of Rostock. Winter 2026/27 closed · 1 April–31 May 2026; Summer 2027 · 1 October–30 November 2026; Winter 2027/28 · 1 April–31 May 2027 Tuition is €0 tuition, and the published semester charge is €352 for Winter 2026/27.",
@@ -2355,7 +2551,8 @@
       "abbr": "TU Dortmund",
       "sublabel": "Dortmund, North Rhine-Westphalia",
       "tags": [
-        "Opens Nov ’26",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -2376,14 +2573,16 @@
         "applicationFee": 75,
         "programs": "M.Sc. Data Science",
         "intakes": "Summer 2027 · April start; Winter 2027 · October start",
-        "applicationWindow": "Non-EU applicants: early November 2026 – 15 January 2027 for Summer 2027; early January – 15 May for a winter semester, with the Winter 2026/27 deadline extended to 15 June 2026. The 2027/28 cycle is not yet published",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Non-EU applicants: early November 2026 – 15 January 2027 for Summer 2027; early January – 15 May for a winter semester, with the Winter 2026/27 deadline extended to 15 June 2026. The 2027/28 cycle is not yet published",
         "tuition": "€0 tuition",
         "semesterFee": "€339.70 for Winter 2026/27; verify the 2027 amount",
         "applicationRoute": "International Office review via uni-assist",
         "applicationPortal": "uni-assist / TU Dortmund International Office",
         "language": "Fully English; accepted proof required; German is not required",
         "academicRequirements": "Strong theoretical statistics, mathematics and CS foundation; mandatory self-assessment, self-disclosure and statistical application report",
-        "studentChecks": "This is mathematically intensive; compare transcript statistics/calculus credits and budget time for the required report"
+        "studentChecks": "This is mathematically intensive; compare transcript statistics/calculus credits and budget time for the required report The existing qualifying programme is Data Science, not the separate CS/Applied CS transition. The latter is expected to become English from Summer 2027, but exact new dates and entry rules were not verified. Do not use a generic January deadline as its confirmed window.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "A tuition-free English Data Science option with excellent ML and software rankings, best for Tanima only if her CSE degree contains substantial formal statistics and mathematics.",
@@ -2411,8 +2610,13 @@
           {
             "title": "TU Dortmund Data Science admission",
             "url": "https://statistik.tu-dortmund.de/en/studies/degrees/data-science-msc/admission/"
+          },
+          {
+            "title": "Official programme evidence — dortmund2026masters",
+            "url": "https://international.tu-dortmund.de/en/international-applicants/application/master/application-for-non-eu/eea/"
           }
-        ]
+        ],
+        "note": " Review 2026-11-10: Partial recheck: English CS transition only. Existing Data Science admission window not newly verified."
       }
     },
     {
@@ -2420,7 +2624,8 @@
       "label": "University of Potsdam / Hasso Plattner Institute",
       "sublabel": "Potsdam, Brandenburg",
       "tags": [
-        "Opens Nov ’26",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -2441,14 +2646,16 @@
         "applicationFee": 75,
         "programs": "M.Sc. Computer Science at HPI",
         "intakes": "Summer 2027 · April start; Winter 2027 · October start",
-        "applicationWindow": "Summer 2027 · 1 November–1 December 2026; Winter 2027 · 1 April–1 June 2027",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Summer 2027 · 1 November–1 December 2026; Winter 2027 · 1 April–1 June 2027",
         "tuition": "€0 tuition",
         "semesterFee": "University of Potsdam semester contribution applies",
         "applicationRoute": "Direct application with preliminary credential review",
         "applicationPortal": "PULS + uni-assist VPD for degrees outside Germany",
         "language": "English C1",
         "academicRequirements": "Relevant CS/IT/data degree plus specified credits in algorithms/theory, software development, mathematics and technical CS",
-        "studentChecks": "Order the VPD early; non-EU applicants may also need GRE General and must meet every credit block at application"
+        "studentChecks": "Order the VPD early; non-EU applicants may also need GRE General and must meet every credit block at application",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "A particularly strong software-oriented fit for Tanima, combining HPI's practical industry links with a tuition-free University of Potsdam degree.",
@@ -2485,7 +2692,8 @@
       "label": "TU Braunschweig",
       "sublabel": "Braunschweig, Lower Saxony",
       "tags": [
-        "Open now",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -2506,14 +2714,16 @@
         "applicationFee": 75,
         "programs": "M.Sc. Data Science; M.Sc. Computational Sciences in Engineering",
         "intakes": "Summer and winter depending on programme",
-        "applicationWindow": "Open now for Summer 2027 · the English-language/bilingual international master's window runs 1 August–15 September 2026 (confirmed directly via TU Braunschweig's own central application page, today 23 August 2026 falls inside it); Winter 2027/28 · 1 February–15 March 2027. TU Braunschweig's general international master's windows (1 December–15 January and 1 June–15 July) do not apply to these programmes. M.Sc. Computational Sciences in Engineering's own programme page states it begins in the winter semester only, with no summer intake mentioned — the Summer 2027 window applies to M.Sc. Data Science",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Previously open for Summer 2027 · the English-language/bilingual international master's window runs 1 August–15 September 2026 (confirmed directly via TU Braunschweig's own central application page, today 23 August 2026 falls inside it); Winter 2027/28 · 1 February–15 March 2027. TU Braunschweig's general international master's windows (1 December–15 January and 1 June–15 July) do not apply to these programmes. M.Sc. Computational Sciences in Engineering's own programme page states it begins in the winter semester only, with no summer intake mentioned — the Summer 2027 window applies to M.Sc. Data Science",
         "tuition": "€0 tuition",
         "semesterFee": "€472.50 per semester",
         "applicationRoute": "TU online international application; €75 foreign-qualification assessment",
         "applicationPortal": "TU online international application; €75 foreign-qualification assessment",
         "language": "English",
         "academicRequirements": "Relevant engineering, science, mathematics or CS degree; programme-specific mathematics and CS review",
-        "studentChecks": "Check the published prerequisite mapping for M.Sc. Data Science; M.Sc. Computational Sciences in Engineering before applying; professional experience does not replace missing academic credits."
+        "studentChecks": "Check the published prerequisite mapping for M.Sc. Data Science; M.Sc. Computational Sciences in Engineering before applying; professional experience does not replace missing academic credits.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Data Science; M.Sc. Computational Sciences in Engineering is English-completable at TU Braunschweig. Winter 2026/27 closed · 1 February–15 March 2026; Summer 2027 · 1 August–15 September 2026; Winter 2027/28 · 1 February–15 March 2027 Tuition is €0 tuition, and the published semester charge is €472.50 per semester.",
@@ -2567,7 +2777,8 @@
       "label": "University of Bayreuth",
       "sublabel": "Bayreuth, Bavaria",
       "tags": [
-        "Opens Oct ’26",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -2583,7 +2794,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Computer Science",
         "intakes": "Summer and winter",
-        "applicationWindow": "Winter 2026/27 closed · 15 April–15 July 2026; Summer 2027 · 15 October 2026–15 January 2027; Winter 2027/28 · 15 April–15 July 2027",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Winter 2026/27 closed · 15 April–15 July 2026; Summer 2027 · 15 October 2026–15 January 2027; Winter 2027/28 · 15 April–15 July 2027",
         "tuition": "€0 tuition",
         "semesterFee": "€172 for Winter 2026/27",
         "applicationRoute": "uni-assist VPD then CAMPUSonline",
@@ -2595,7 +2806,9 @@
         "ai": 841,
         "ml": 1033,
         "ds": 746,
-        "swe": 637
+        "swe": 637,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Computer Science is English-completable at University of Bayreuth. Winter 2026/27 closed · 15 April–15 July 2026; Summer 2027 · 15 October 2026–15 January 2027; Winter 2027/28 · 15 April–15 July 2027 Tuition is €0 tuition, and the published semester charge is €172 for Winter 2026/27.",
@@ -2644,6 +2857,8 @@
       "label": "University of Mannheim",
       "sublabel": "Mannheim, Baden-Württemberg",
       "tags": [
+        "Window unverified",
+        "Funding needed",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -2662,7 +2877,7 @@
         "applicationFee": 0,
         "programs": "Mannheim M.Sc. Data Science",
         "intakes": "Spring and autumn",
-        "applicationWindow": "Fall 2026 closed · 1 April–15 May 2026; Spring and Fall 2027 dates are not yet officially published",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Fall 2026 closed · 1 April–15 May 2026; Spring and Fall 2027 dates are not yet officially published",
         "tuition": "€1,500 per semester for non-EU students",
         "semesterFee": "€194 plus €1,500 non-EU tuition",
         "applicationRoute": "Direct University of Mannheim application",
@@ -2671,7 +2886,9 @@
         "academicRequirements": "Relevant bachelor with at least 70 ECTS across informatics, mathematics and statistics; English proof",
         "studentChecks": "Check the published prerequisite mapping for Mannheim M.Sc. Data Science before applying; professional experience does not replace missing academic credits.",
         "ai": 582,
-        "ml": 500
+        "ml": 500,
+        "funding": "Paid tuition: a complete tuition-and-living funding package is required under Tanima’s preference; no award is verified.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "Mannheim M.Sc. Data Science is English-completable at University of Mannheim. Fall 2026 closed · 1 April–15 May 2026; Spring and Fall 2027 dates are not yet officially published Tuition is €1,500 per semester for non-eu students, and the published semester charge is €194 plus €1,500 non-EU tuition.",
@@ -2717,7 +2934,8 @@
       "label": "RPTU Kaiserslautern-Landau",
       "sublabel": "Kaiserslautern, Rhineland-Palatinate",
       "tags": [
-        "Open now",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -2733,7 +2951,7 @@
         "applicationFee": 60,
         "programs": "M.Sc. Computer Science; M.Sc. Embedded Computing Systems",
         "intakes": "Summer and winter",
-        "applicationWindow": "Open now for Summer 2027 via the Dept. of Electrical and Computer Engineering's M.Sc. Embedded Computing Systems portal, which states a standing window 'for the summer semester: from May 1 until October 31 of the year before' (i.e. Summer 2027 · 1 May–31 October 2026) and 'for the winter semester: from November 1 of the year before until April 30' (Winter 2027/28 · 1 November 2026–30 April 2027). M.Sc. Computer Science, on the Dept. of Computer Science's separate portal, has the same deadlines — Summer 2027 · 31 October 2026; Winter 2027/28 · 30 April 2027 — but that portal still states no opening date",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Previously open for Summer 2027 via the Dept. of Electrical and Computer Engineering's M.Sc. Embedded Computing Systems portal, which states a standing window 'for the summer semester: from May 1 until October 31 of the year before' (i.e. Summer 2027 · 1 May–31 October 2026) and 'for the winter semester: from November 1 of the year before until April 30' (Winter 2027/28 · 1 November 2026–30 April 2027). M.Sc. Computer Science, on the Dept. of Computer Science's separate portal, has the same deadlines — Summer 2027 · 31 October 2026; Winter 2027/28 · 30 April 2027 — but that portal still states no opening date",
         "tuition": "€0 tuition",
         "semesterFee": "€381.80 for Winter 2026/27 (Kaiserslautern, attendance students)",
         "applicationRoute": "RPTU international-master portal; €60 foreign-certificate evaluation",
@@ -2745,7 +2963,9 @@
         "ai": 517,
         "ml": 727,
         "ds": 726,
-        "swe": 191
+        "swe": 191,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Computer Science; M.Sc. Embedded Computing Systems is English-completable at RPTU Kaiserslautern-Landau. Summer and winter entry; the exact CS deadline is published only in the programme graphic/application portal and is not machine-readable Tuition is €0 tuition, and the published semester charge is €381.80 for Winter 2026/27 (Kaiserslautern, attendance students).",
@@ -2802,6 +3022,8 @@
       "label": "Otto von Guericke University Magdeburg",
       "sublabel": "Magdeburg, Saxony-Anhalt",
       "tags": [
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -2817,7 +3039,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Data and Knowledge Engineering",
         "intakes": "Summer and winter",
-        "applicationWindow": "Summer 2027 · uni-assist deadline 15 November 2026; Winter 2027/28 · uni-assist deadline 15 May 2027. No portal opening date is published",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Summer 2027 · uni-assist deadline 15 November 2026; Winter 2027/28 · uni-assist deadline 15 May 2027. No portal opening date is published",
         "tuition": "€0 tuition",
         "semesterFee": "€329.30 for Winter 2026/27",
         "applicationRoute": "uni-assist; €75 first application",
@@ -2829,7 +3051,9 @@
         "ai": 469,
         "ml": 412,
         "ds": 440,
-        "swe": 305
+        "swe": 305,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Data and Knowledge Engineering is English-completable at Otto von Guericke University Magdeburg. Winter 2026/27 closed · 15 May 2026; Summer 2027 · 15 November 2026; Winter 2027/28 · 15 May 2027 Tuition is €0 tuition, and the published semester charge is €329.30 for Winter 2026/27.",
@@ -2875,7 +3099,8 @@
       "label": "University of Lübeck",
       "sublabel": "Lübeck, Schleswig-Holstein",
       "tags": [
-        "Open now",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -2891,7 +3116,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Robotics and Autonomous Systems",
         "intakes": "Summer and winter",
-        "applicationWindow": "Open now for Summer 2027 — Winter 2026/27 closed · 15 February–1 April 2026; Summer 2027 · 1 September–15 October 2026 (today, 5 September 2026, falls inside this recurring non-EU uni-assist window); Winter 2027/28 · 15 February–1 April 2027.",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Previously open for Summer 2027 — Winter 2026/27 closed · 15 February–1 April 2026; Summer 2027 · 1 September–15 October 2026 (today, 5 September 2026, falls inside this recurring non-EU uni-assist window); Winter 2027/28 · 15 February–1 April 2027.",
         "tuition": "€0 tuition",
         "semesterFee": "€400.60 for Winter 2026/27 plus one-time €40 enrolment fee",
         "applicationRoute": "uni-assist for non-EU applicants",
@@ -2903,7 +3128,9 @@
         "ai": 611,
         "ml": 774,
         "ds": 862,
-        "swe": 547
+        "swe": 547,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Robotics and Autonomous Systems is English-completable at University of Lübeck. Winter 2026/27 closed · 15 February–1 April 2026; Summer 2027 · 1 September–15 October 2026; Winter 2027/28 · 15 February–1 April 2027 Tuition is €0 tuition, and the published semester charge is €400.60 for Winter 2026/27 plus one-time €40 enrolment fee.",
@@ -2949,7 +3176,8 @@
       "label": "University of Kassel",
       "sublabel": "Kassel, Hesse",
       "tags": [
-        "Open now",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -2965,7 +3193,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Computer Science",
         "intakes": "Summer and winter",
-        "applicationWindow": "Open now for Summer 2027 · 1 September 2026 – 15 January 2027 for applicants with foreign certificates (today, 5 September 2026, falls inside this window; confirmed via DAAD's programme listing after the university's own pages returned no dates on this check); Winter 2027/28 · 1 March – 15 July 2027.",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Previously open for Summer 2027 · 1 September 2026 – 15 January 2027 for applicants with foreign certificates (today, 5 September 2026, falls inside this window; confirmed via DAAD's programme listing after the university's own pages returned no dates on this check); Winter 2027/28 · 1 March – 15 July 2027.",
         "tuition": "€0 tuition",
         "semesterFee": "€409.27 for Winter 2026/27 (the figure on the university's fee page is undated and a second, lower figure of €391.27 appears there)",
         "applicationRoute": "uni-assist for foreign degrees",
@@ -2977,7 +3205,9 @@
         "ai": 836,
         "ml": 948,
         "ds": 604,
-        "swe": 572
+        "swe": 572,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Computer Science is English-completable at University of Kassel. Winter 2026/27 closed · 1 March–15 July 2026; Summer 2027 · 1 September 2026–15 January 2027; Winter 2027/28 · 1 March–15 July 2027 Tuition is €0 tuition, and the published semester charge is €409.27 for Winter 2026/27 (the figure on the university's fee page is undated and a second, lower figure of €391.27 appears there).",
@@ -3030,7 +3260,8 @@
       "label": "University of Augsburg",
       "sublabel": "Augsburg, Bavaria",
       "tags": [
-        "Opens Sep ’26",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -3046,7 +3277,7 @@
         "applicationFee": 0,
         "programs": "M.Sc. Data Science",
         "intakes": "Summer and winter",
-        "applicationWindow": "Summer 2027 · the programme's own page (msc-dsc) still states the portal opens mid-September 2026, official deadline 1 March 2027 (non-EU applicants advised to apply by 1 December 2026 for visa processing); but the university's central admissions schedule does not name Data Science among the programmes opening 10 September, listing it instead with 'all other master's programmes' opening 6 November 2026 — the two official pages disagree and this should be resolved with the department before treating the portal as open. Winter 2027/28 · portal opens mid-March 2027, official deadline 1 September 2027; non-EU applicants advised to apply by 1 May 2027.",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Summer 2027 · the programme's own page (msc-dsc) still states the portal opens mid-September 2026, official deadline 1 March 2027 (non-EU applicants advised to apply by 1 December 2026 for visa processing); but the university's central admissions schedule does not name Data Science among the programmes opening 10 September, listing it instead with 'all other master's programmes' opening 6 November 2026 — the two official pages disagree and this should be resolved with the department before treating the portal as open. Winter 2027/28 · portal opens mid-March 2027, official deadline 1 September 2027; non-EU applicants advised to apply by 1 May 2027.",
         "tuition": "€0 tuition",
         "semesterFee": "€181.95 for Winter 2026/27",
         "applicationRoute": "Direct VIBS application; no university fee",
@@ -3058,7 +3289,9 @@
         "ai": 772,
         "ml": 1008,
         "ds": 780,
-        "swe": 493
+        "swe": 493,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Data Science is English-completable at University of Augsburg. Summer 2027 · deadline 1 March 2027; Winter 2027/28 · deadline 1 September 2027; visa applicants advised by 1 December/1 May Tuition is €0 tuition, and the published semester charge is €181.95 for Winter 2026/27.",
@@ -3104,7 +3337,8 @@
       "label": "University of Wuppertal",
       "sublabel": "Wuppertal, North Rhine-Westphalia",
       "tags": [
-        "Opens Nov ’26",
+        "Window unverified",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -3119,7 +3353,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Computer Simulation in Science",
         "intakes": "Winter only for the qualifying English-taught programme and Bangladeshi/visa-required applicants",
-        "applicationWindow": "Winter 2027/28 · 15 November 2026 – 31 March 2027, stated on the programme's own application page; studies begin only in the winter semester",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Winter 2027/28 · 15 November 2026 – 31 March 2027, stated on the programme's own application page; studies begin only in the winter semester",
         "tuition": "€0 tuition",
         "semesterFee": "€358.05 for Winter 2026/27",
         "applicationRoute": "uni-assist for non-German degrees",
@@ -3131,7 +3365,9 @@
         "ai": 787,
         "ml": 1165,
         "ds": 1243,
-        "swe": 922
+        "swe": 922,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Computer Simulation in Science is English-completable at University of Wuppertal. Winter 2026/27 closed · 15 November 2025–31 March 2026; no Summer 2027 entry; Winter 2027/28 · 15 November 2026–31 March 2027 Tuition is €0 tuition, and the published semester charge is €358.05 for Winter 2026/27.",
@@ -3181,6 +3417,8 @@
       "label": "Chemnitz University of Technology",
       "sublabel": "Chemnitz, Saxony",
       "tags": [
+        "Window unverified",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -3195,7 +3433,7 @@
         "applicationFee": 0,
         "programs": "M.Sc. Web Engineering",
         "intakes": "Winter only for the qualifying English-taught programme and Bangladeshi/visa-required applicants",
-        "applicationWindow": "Winter 2026/27 ran 1 April – 15 July 2026 and is closed. Web Engineering is confirmed admission-free (zulassungsfrei) on its own German-language programme page, and is one of four TU Chemnitz Master's programmes named as using the EduApplication Portal directly rather than uni-assist — so the previously flagged restricted uni-assist summer window does not apply to this programme. The same page confirms intake is usually winter semester only. Winter 2027/28 dates are not yet published for this programme specifically.",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Winter 2026/27 ran 1 April – 15 July 2026 and is closed. Web Engineering is confirmed admission-free (zulassungsfrei) on its own German-language programme page, and is one of four TU Chemnitz Master's programmes named as using the EduApplication Portal directly rather than uni-assist — so the previously flagged restricted uni-assist summer window does not apply to this programme. The same page confirms intake is usually winter semester only. Winter 2027/28 dates are not yet published for this programme specifically.",
         "tuition": "€0 tuition",
         "semesterFee": "€341.40 for Winter 2026/27",
         "applicationRoute": "EduApplication; no university application fee identified",
@@ -3207,7 +3445,9 @@
         "ai": 800,
         "ml": 1195,
         "ds": 1277,
-        "swe": 695
+        "swe": 695,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Web Engineering is English-completable at Chemnitz University of Technology. Winter 2026/27 closed · 1 April–15 July 2026; no Summer 2027 entry; Winter 2027/28 · 1 April–15 July 2027 Tuition is €0 tuition, and the published semester charge is €341.40 for Winter 2026/27.",
@@ -3261,6 +3501,8 @@
       "label": "University of Oldenburg",
       "sublabel": "Oldenburg, Lower Saxony",
       "tags": [
+        "Window unverified",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -3275,7 +3517,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Data Science and Machine Learning; M.Sc. Engineering of Socio-Technical Systems",
         "intakes": "Winter only for the qualifying English-taught programme and Bangladeshi/visa-required applicants",
-        "applicationWindow": "Winter-only entry; the non-EU deadline is 30 April, so Winter 2027/28 closes 30 April 2027. No opening date is published",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Winter-only entry; the non-EU deadline is 30 April, so Winter 2027/28 closes 30 April 2027. No opening date is published",
         "tuition": "€0 tuition",
         "semesterFee": "€457.90 for Winter 2026/27 including the semester ticket",
         "applicationRoute": "uni-assist/international-master route; €75 first application",
@@ -3287,7 +3529,9 @@
         "ai": 733,
         "ml": 975,
         "ds": 923,
-        "swe": 374
+        "swe": 374,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Data Science and Machine Learning; M.Sc. Engineering of Socio-Technical Systems is English-completable at University of Oldenburg. Winter 2026/27 closed · non-EU deadline 30 April 2026; no Summer 2027 entry; Winter 2027/28 · 30 April 2027 Tuition is €0 tuition, and the published semester charge is €457.90 for Winter 2026/27 including the semester ticket.",
@@ -3333,7 +3577,8 @@
       "label": "Trier University",
       "sublabel": "Trier, Rhineland-Palatinate",
       "tags": [
-        "Opens Dec ’26",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -3350,7 +3595,7 @@
         "applicationFee": 70,
         "programs": "M.Sc. Data Science",
         "intakes": "Summer and winter",
-        "applicationWindow": "Summer 2027 · 15 December 2026 – 15 January 2027 for non-EU applicants; Winter 2027/28 · 1 – 31 May 2027. PORTA opens in mid-December for the summer semester and at the beginning of May for the winter semester",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Summer 2027 · 15 December 2026 – 15 January 2027 for non-EU applicants; Winter 2027/28 · 1 – 31 May 2027. PORTA opens in mid-December for the summer semester and at the beginning of May for the winter semester",
         "tuition": "€0 tuition",
         "semesterFee": "€393.80 for new students in Winter 2026/27",
         "applicationRoute": "PORTA; €70 international evaluation fee; no uni-assist",
@@ -3361,7 +3606,9 @@
         "cse": 1145,
         "ai": 1151,
         "ml": 1145,
-        "swe": 727
+        "swe": 727,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Data Science is English-completable at Trier University. Summer 2027 · non-EU 15 December 2026–15 January 2027; Winter 2027/28 · non-EU 1–31 May 2027 under the official ETM schedule Tuition is €0 tuition, and the published semester charge is €393.80 for new students in Winter 2026/27.",
@@ -3407,6 +3654,8 @@
       "label": "Paderborn University",
       "sublabel": "Paderborn, North Rhine-Westphalia",
       "tags": [
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -3423,7 +3672,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Computer Science",
         "intakes": "Summer and winter",
-        "applicationWindow": "Summer 2027 · deadline 30 November 2026; Winter 2027/28 · deadline 31 May 2027. No portal opening date is published",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Summer 2027 · deadline 30 November 2026; Winter 2027/28 · deadline 31 May 2027. No portal opening date is published",
         "tuition": "€0 tuition",
         "semesterFee": "€351.15 for Winter 2026/27",
         "applicationRoute": "Direct university application",
@@ -3434,7 +3683,9 @@
         "cse": 636,
         "ai": 561,
         "ml": 762,
-        "ds": 829
+        "ds": 829,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Computer Science is English-completable at Paderborn University. Winter 2026/27 closed · 31 May 2026; Summer 2027 · 30 November 2026; Winter 2027/28 · 31 May 2027 Tuition is €0 tuition, and the published semester charge is €351.15 for Winter 2026/27.",
@@ -3483,7 +3734,8 @@
       "label": "University of Siegen",
       "sublabel": "Siegen, North Rhine-Westphalia",
       "tags": [
-        "Opens Jan ’27",
+        "Window unverified",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -3498,7 +3750,7 @@
         "applicationFee": 0,
         "programs": "International M.Sc. Computer Science",
         "intakes": "Winter only for the qualifying English-taught programme and Bangladeshi/visa-required applicants",
-        "applicationWindow": "Winter 2026/27 closed · 1 January–30 April 2026; no Summer 2027 entry; Winter 2027/28 · 1 January–30 April 2027",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Winter 2026/27 closed · 1 January–30 April 2026; no Summer 2027 entry; Winter 2027/28 · 1 January–30 April 2027",
         "tuition": "€0 tuition",
         "semesterFee": "€393.80 for Winter 2026/27",
         "applicationRoute": "Direct UNISONO; no application fee",
@@ -3510,7 +3762,9 @@
         "ai": 813,
         "ml": 1150,
         "ds": 689,
-        "swe": 657
+        "swe": 657,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "International M.Sc. Computer Science is English-completable at University of Siegen. Winter 2026/27 closed · 1 January–30 April 2026; no Summer 2027 entry; Winter 2027/28 · 1 January–30 April 2027 Tuition is €0 tuition, and the published semester charge is €393.80 for Winter 2026/27.",
@@ -3556,7 +3810,8 @@
       "label": "Osnabrück University",
       "sublabel": "Osnabrück, Lower Saxony",
       "tags": [
-        "Opens Sep ’26",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -3573,7 +3828,7 @@
         "applicationFee": 75,
         "programs": "M.Sc. Cognitive Science",
         "intakes": "Winter and summer subject to programme rules",
-        "applicationWindow": "Cognitive Science admits in both semesters. Two independent official pages (the university's central non-European-applicants page and its uni-assist application page) confirm, identically, that international applicants — required to apply exclusively via uni-assist — face deadlines of 15 June for winter-semester entry (Winter 2027/28) and 15 December for summer-semester entry (Summer 2027). This is the reverse of the 15 January/15 July pair, which applies only to the direct HISinOne-Studienorganisation portal used by applicants who don't need uni-assist (German nationals or those already studying in Germany). The uni-assist page states the Summer 2027 application process will 'approximately begin on 15th September 2026'; no opening date is published for the Winter 2027/28 (15 June 2027) deadline",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Cognitive Science admits in both semesters. Two independent official pages (the university's central non-European-applicants page and its uni-assist application page) confirm, identically, that international applicants — required to apply exclusively via uni-assist — face deadlines of 15 June for winter-semester entry (Winter 2027/28) and 15 December for summer-semester entry (Summer 2027). This is the reverse of the 15 January/15 July pair, which applies only to the direct HISinOne-Studienorganisation portal used by applicants who don't need uni-assist (German nationals or those already studying in Germany). The uni-assist page states the Summer 2027 application process will 'approximately begin on 15th September 2026'; no opening date is published for the Winter 2027/28 (15 June 2027) deadline",
         "tuition": "€0 tuition",
         "semesterFee": "€459.30 for Winter 2026/27 (€135 + €249.30 + €75 per the university's costs-of-studying page as reported by search; the fetched page showed no figure, so verify)",
         "applicationRoute": "uni-assist for non-German credentials; €75 first application",
@@ -3584,7 +3839,9 @@
         "ai": 931,
         "ml": 1197,
         "ds": 874,
-        "swe": 838
+        "swe": 838,
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "M.Sc. Cognitive Science is English-completable at Osnabrück University. Winter 2026/27 closed · 15 June 2026; Summer 2027 · 15 December 2026; Winter 2027/28 · 15 June 2027 Tuition is €0 tuition, and the published semester charge is €459.30 for Winter 2026/27 (€135 + €249.30 + €75 per the university's costs-of-studying page as reported by search; the fetched page showed no figure, so verify).",
@@ -3639,7 +3896,8 @@
       "abbr": "BTU",
       "sublabel": "Cottbus, Brandenburg",
       "tags": [
-        "Opens Nov ’26",
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -3660,14 +3918,16 @@
         "applicationFee": 75,
         "programs": "M.Sc. Artificial Intelligence; M.Sc. Cyber Security",
         "intakes": "Artificial Intelligence: summer and winter; Cyber Security: winter",
-        "applicationWindow": "Artificial Intelligence M.Sc. (uni-Assist, foreign qualifications) — Summer 2027: 1 November 2026 – 15 January 2027 (not yet open); Winter 2026/27 window closed 15 July 2026; Winter 2027/28 not yet published. Cyber Security M.Sc. has no Summer intake; its own Winter 2026/27 window for foreign qualifications ran 1 March – 15 May 2026 (non-EU/EEA) / 1 March – 15 August 2026 (EU/EEA) via uni-Assist — a different, earlier-closing window than the AI programme's — and Winter 2027/28 dates are not yet published. As of 23 August 2026 neither programme's window is open; the next confirmed opening is AI's Summer 2027 window on 1 November 2026.",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Artificial Intelligence M.Sc. (uni-Assist, foreign qualifications) — Summer 2027: 1 November 2026 – 15 January 2027 (not yet open); Winter 2026/27 window closed 15 July 2026; Winter 2027/28 not yet published. Cyber Security M.Sc. has no Summer intake; its own Winter 2026/27 window for foreign qualifications ran 1 March – 15 May 2026 (non-EU/EEA) / 1 March – 15 August 2026 (EU/EEA) via uni-Assist — a different, earlier-closing window than the AI programme's — and Winter 2027/28 dates are not yet published. As of 23 August 2026 neither programme's window is open; the next confirmed opening is AI's Summer 2027 window on 1 November 2026.",
         "tuition": "€0 tuition",
         "semesterFee": "€391.80 for Winter 2026/27",
         "applicationRoute": "Foreign-degree applicants apply through uni-assist",
         "applicationPortal": "uni-assist",
         "language": "English B2; TOEFL iBT 79 or recognised equivalent; MOI from Bangladesh is not accepted",
         "academicRequirements": "Related degree with programme-board equivalence across computer science, mathematics and ethics; conditions of up to 18 CP may be imposed",
-        "studentChecks": "Map theory, mathematics, systems and programming credits and obtain an accepted English certificate; check whether any imposed condition is taught only in German"
+        "studentChecks": "Map theory, mathematics, systems and programming credits and obtain an accepted English certificate; check whether any imposed condition is taught only in German",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "BTU offers tuition-free English Artificial Intelligence and Cyber Security routes at its Cottbus campus; the commute to Berlin is long and best treated as a regional or hybrid option.",
@@ -3722,7 +3982,8 @@
       "abbr": "HTW",
       "sublabel": "Berlin",
       "tags": [
-        "Opens Nov ’26",
+        "Open now",
+        "Funding needed",
         "Winter ’27"
       ],
       "location": {
@@ -3742,20 +4003,22 @@
         "applicationFee": 0,
         "programs": "M.Sc. Project Management and Data Science",
         "intakes": "Winter 2027/28 · October start",
-        "applicationWindow": "Summer 2027's application window closed 31 August 2026 — the programme's own page now describes the deadline in the past tense ('was 31 August 2026'); late applications may still be considered only if seats remain, so Summer 2027 is no longer a reliable intake. Winter 2027/28 · 1 November 2026 – 28 February 2027 is the next confirmed window.",
-        "tuition": "€17,600 total, payable as €4,400 per semester",
+        "applicationWindow": "Open now for MPMD Winter 2027/28: the programme explicitly states it is accepting applications from 2026-11-01 through 2027-02-28, for study starting 2027-10-01. Summer 2027 applications ran 2026-05-01–2026-08-31 and are closed.",
+        "tuition": "EUR 17,600 total, paid in four EUR 4,400 semester instalments, plus contributions.",
         "semesterFee": "€375.30 for Winter 2026/27",
         "applicationRoute": "Direct programme application",
         "applicationPortal": "HTW MPMD application form",
         "language": "English; accepted proof required",
-        "academicRequirements": "At least a 180-ECTS bachelor's plus one year of qualified professional experience after graduation",
-        "studentChecks": "Document post-degree software work and verify that the management-heavy curriculum matches the intended technical career"
+        "academicRequirements": "Bachelor of at least 180 ECTS, at least one year of qualified post-bachelor professional experience and accepted English proficiency. Selection weights are first-degree grade 50%, post-degree experience 25%, English 25%; IELTS 7.0+ counts as C1 for ranking.",
+        "studentChecks": "A paid professional project-management/data programme, distinct from core CS and ProITD. Tanima’s IELTS meets the published C1 ranking level, but professional-experience letters and a complete funding solution are still needed.",
+        "funding": "Funding needed: the programme states no HTW scholarships are available. No full tuition-and-living funding package is verified; DAAD suggestions are not an award.",
+        "reviewScope": "Programme-focused review 2026-11-10; explicit 2027/28 application announcement and fee/scholarship statement read. Ranks and campus retained."
       },
       "detail": {
         "summary": "HTW's English continuing-education master's combines data analytics with international project management and remains under the tuition ceiling at €4,400 per semester.",
         "pros": [
           {
-            "text": "Summer 2027 application is officially open"
+            "text": "Winter 2027/28 application is officially open (2026-11-01 to 2027-02-28)"
           },
           {
             "text": "Berlin campus and applied data curriculum"
@@ -3769,7 +4032,7 @@
             "text": "More management-oriented than a general Computer Science MSc"
           }
         ],
-        "note": "The map uses the published Treskowallee campus address as an address-level pin. All five EduRank 2026 topics were checked individually.",
+        "note": "The map uses the published Treskowallee campus address as an address-level pin. All five EduRank 2026 topics were checked individually. Review 2026-11-10: MPMD application and fee page fetched directly. Paid status is separate from being open.",
         "links": [
           {
             "title": "HTW Project Management and Data Science",
@@ -3800,7 +4063,8 @@
       "abbr": "HWR",
       "sublabel": "Berlin",
       "tags": [
-        "Opens Mar ’27",
+        "Annual dates",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -3819,14 +4083,16 @@
         "applicationFee": 75,
         "programs": "M.Sc. Business Intelligence and Process Management",
         "intakes": "Winter only",
-        "applicationWindow": "Winter 2027/28 · 15 March – 15 May 2027 for applicants with a non-German degree, who apply through uni-assist rather than the HWR platform. Only an October start is offered",
+        "applicationWindow": "Business Intelligence and Process Management: winter entry; standing foreign-degree uni-assist period 03-15–05-15. No first-semester summer entry; 2027-specific confirmation remains pending.",
         "tuition": "€0 tuition",
         "semesterFee": "€379.77 for Winter 2026/27",
         "applicationRoute": "Applicants with non-German degrees apply through uni-assist",
         "applicationPortal": "uni-assist",
         "language": "Entirely English; high B2 (for example TOEFL iBT 83 or IELTS 6.0); one year of prior English-medium study may qualify",
-        "academicRequirements": "Relevant degree in Business Information Systems, Administrative Informatics, Applied Computer Science with a business major, or business/business engineering with an informatics major; at least 10 ECTS each in business, quantitative methods/databases and informatics. Applicants with a 180-ECTS bachelor earn 30 further credits (typically a third-semester internship), so the master takes four semesters",
-        "studentChecks": "Confirm the transcript contains all three 10-ECTS blocks; 180-ECTS graduates must complete the published additional 30 ECTS or internship route"
+        "academicRequirements": "Normally 210 ECTS, or an extra 30 credits under the 180-ECTS route. At least 10 ECTS business administration, 10 quantitative methods/databases, 10 CS/information systems. English high B2 with programme-specific listening evidence.",
+        "studentChecks": "Related business/data degree, not core CS. Verify business-credit equivalence from Economics/Accounting content; do not assume all CSE graduates meet the 10-ECTS business requirement.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "HWR's tuition-free English MSc is a focused Business Information Systems option covering business intelligence, big data, databases and IT-enabled process management rather than general Computer Science.",
@@ -3867,6 +4133,14 @@
           {
             "title": "HWR Berlin — map address",
             "url": "https://www.openstreetmap.org/?mlat=52.484&mlon=13.34#map=17/52.484/13.34"
+          },
+          {
+            "title": "Official programme evidence — hwrberlin2026bipm",
+            "url": "https://www.hwr-berlin.de/en/study/degree-programme/detail/13-business-intelligence-and-process-management?cHash=0e39ef71342c6d0594884a707128ed7c&tx_web2pdf_pi1%5Baction%5D=&tx_web2pdf_pi1%5Bargument%5D=printPage&tx_web2pdf_pi1%5Bcontroller%5D=Pdf"
+          },
+          {
+            "title": "Official programme evidence — hwrberlin2026semester",
+            "url": "https://www.hwr-berlin.de/en/study/studying-at-the-hwr-berlin/organizing-your-degree/semester-fee"
           }
         ]
       }
@@ -3877,7 +4151,8 @@
       "abbr": "BHT",
       "sublabel": "Berlin",
       "tags": [
-        "Opens May ’27",
+        "Annual dates",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -3897,14 +4172,16 @@
         "applicationFee": 75,
         "programs": "M.Sc. Data Science",
         "intakes": "Winter only",
-        "applicationWindow": "Winter 2027/28 · 2 May – 15 June 2027 on the programme page’s recurring window; the Winter 2026/27 cycle closed on 15 June 2026. No separate international deadline is published",
+        "applicationWindow": "Data Science: first-semester winter entry only; standing application period 05-02–06-15. No first-semester Summer 2027 entry. Winter 2027/28 dates are not separately confirmed here.",
         "tuition": "€0 tuition",
         "semesterFee": "€376.30 for Winter 2026/27",
         "applicationRoute": "Applicants with foreign degrees apply through uni-assist",
         "applicationPortal": "uni-assist",
         "language": "Entirely English; B2 proof required",
-        "academicRequirements": "Relevant degree of at least 180 ECTS with at least 20 ECTS mathematics/statistics and 25 ECTS computer science",
-        "studentChecks": "Map the transcript to both credit thresholds; professional work cannot replace missing academic credits"
+        "academicRequirements": "Relevant CS/maths degree of at least 180 ECTS; 20 ECTS maths/statistics and 25 CS; English B2.",
+        "studentChecks": "Retain as a winter data-science alternative. Do not apply the institution’s November–December summer master window to this winter-only programme.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "BHT provides a tuition-free, entirely English and practice-oriented Data Science MSc in Berlin for applicants with documented mathematics, statistics and Computer Science coverage.",
@@ -3945,6 +4222,10 @@
           {
             "title": "BHT Berlin — map address",
             "url": "https://www.openstreetmap.org/?mlat=52.544&mlon=13.354#map=17/52.544/13.354"
+          },
+          {
+            "title": "Official programme evidence — bhtberlin2026fees",
+            "url": "https://www.bht-berlin.de/189/article/287/"
           }
         ]
       }
@@ -3955,6 +4236,8 @@
       "abbr": "Frankfurt UAS",
       "sublabel": "Frankfurt am Main, Hesse",
       "tags": [
+        "Window unverified",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -3973,14 +4256,16 @@
         "applicationFee": 75,
         "programs": "M.Sc. High Integrity Systems; M.Eng. Information Technology",
         "intakes": "Winter only for international-degree applicants · October start",
-        "applicationWindow": "Winter 2026/27 closed for international/foreign-qualification applicants on 15 April 2026 (domestic/German-qualification deadline 15 September 2026); Winter 2027/28 dates are not separately published on either programme's own page. For additional context: the university's general master's-application table places English-taught programmes — a category that includes High Integrity Systems M.Sc. and the 4-semester Information Technology M.Eng. track recommended for international students — in a 'January – 15 April' winter-semester window for uni-assist/foreign-qualification applicants, matching both programmes' own individually published 15 April deadline; domestic applicants apply 1 April – 15 September. This table's date range is not marked as repeating every year, so it should not be assumed to apply automatically to future intakes without checking the live page.",
+        "applicationWindow": "Current foreign-degree 2027 deadlines remain unresolved after the old High Integrity Systems pages returned 404. The current central German-degree master list names HIS for Winter 2027/28, but that does not verify international dates. Previous April 15 statements are historical leads, not fresh 2027 confirmation.",
         "tuition": "€0 tuition",
         "semesterFee": "€406.78 for Winter 2026/27; €416.78 at first enrolment including the €10 Study Chip",
         "applicationRoute": "Applicants with foreign credentials apply through uni-assist",
         "applicationPortal": "uni-assist",
-        "language": "English B2",
+        "language": "Current official English-proof page supports HIS B2 with accepted test evidence no older than three years, or its specified 30-ECTS English-module route.",
         "academicRequirements": "High Integrity Systems requires at least 180 ECTS, at least 70% Computer Science and grade 1.8 or better, with specified exceptional evidence possible for grades 1.9–2.5. Information Technology requires a relevant Electrical Engineering, IT or Communications degree of at least 180 ECTS and grade 2.0 or better.",
-        "studentChecks": "Treat the two routes separately: High Integrity Systems is the direct software/CS fit, while Information Technology requires the relevant engineering subject profile."
+        "studentChecks": "Retain previously audited HIS/Information Technology alternatives with current evidence gaps visible. Re-fetch current programme academic/fee/deadline pages before treating them as application-ready. The older HIS 70%-CS and grade thresholds remain prior-audit evidence, not newly verified facts.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "Frankfurt UAS gives Frankfurt am Main a public, tuition-free local option through two English technical master's programmes; High Integrity Systems is the stronger match for a software-engineering background.",
@@ -4000,7 +4285,7 @@
             "text": "High Integrity Systems applies strict CS-share and grade requirements"
           }
         ],
-        "note": "The map uses the university's published Nibelungenplatz address as an address-level pin. EduRank does not publish a matching Data Science topic rank. Unavailable EduRank topics: ds",
+        "note": "The map uses the university's published Nibelungenplatz address as an address-level pin. EduRank does not publish a matching Data Science topic rank. Unavailable EduRank topics: ds Review 2026-11-10: Current English-proof page retrieved; historical programme links failed. No current opening or new intake deadline inferred from snippets.",
         "links": [
           {
             "title": "Frankfurt UAS High Integrity Systems",
@@ -4025,6 +4310,14 @@
           {
             "title": "Application for Master studies - Frankfurt UAS",
             "url": "https://www.frankfurt-university.de/en/studies/study-at-frankfurt-uas/application-for-master-studies/"
+          },
+          {
+            "title": "Official programme evidence — frau2026hisenglish",
+            "url": "https://www.frankfurt-university.de/bewerbung-und-einschreibung/master-studiengaenge/englischnachweise-fuer-master-studiengaenge"
+          },
+          {
+            "title": "Official programme evidence — frau2026masterdates",
+            "url": "https://www.frankfurt-university.de/bewerbung-und-einschreibung/master-studiengaenge"
           }
         ]
       }
@@ -4034,6 +4327,8 @@
       "label": "University of Cologne",
       "sublabel": "Cologne, North Rhine-Westphalia",
       "tags": [
+        "Window unverified",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -4053,14 +4348,16 @@
         "applicationFee": 75,
         "programs": "M.Sc. Business Analytics & Econometrics; M.Sc. Computational Sciences",
         "intakes": "Winter only · October start",
-        "applicationWindow": "Business Analytics & Econometrics M.Sc. — applications run mid-April to 15 June via KLIPS, per the official application page ('From mid-April until 15 June, you apply exclusively online via the campus management system [KLIPS]'). This date range is not tied to a specific year on the page, so it should be treated as the currently published window rather than a guaranteed annual repeat. Computational Sciences M.Sc. — the department's prospective-students page states a separate, later 'Application Period: June 15 – July 15', likewise without a year or a stated annual repeat. Neither track's window is open as of 23 August 2026.",
+        "applicationWindow": "BA&E’s official application page says it is being revised for the 2027 process, expected ready in December. It currently lists a mid-April opening and June 15 regular-master deadline; treat these as provisional guidance, not a confirmed 2027 cycle. Computational Sciences has its own winter-only calendar.",
         "tuition": "€0 tuition",
         "semesterFee": "€355.65 for Winter 2026/27",
         "applicationRoute": "Applicants with foreign degrees obtain a uni-assist VPD and then apply in KLIPS 2.0",
         "applicationPortal": "uni-assist VPD + KLIPS 2.0",
         "language": "Entirely English; B2 proof required",
         "academicRequirements": "Business Analytics & Econometrics accepts a relevant degree with grade 2.5 or better and either 30 ECTS business/economics plus 24 ECTS quantitative, information-systems or CS coursework, or 48 ECTS in those quantitative/IS/CS fields. Computational Sciences requires at least 180 ECTS in natural science, mathematics, CS or a related field, at least 21 ECTS mathematics/CS, programming, and at least 12 ECTS in one named natural-science specialisation.",
-        "studentChecks": "Business Analytics & Econometrics is the cleaner CSE-background route but is highly selective for non-EU applicants; Computational Sciences is viable only with the required natural-science specialisation credits."
+        "studentChecks": "Retain both English alternatives. BA&E has a 48-ECTS quantitative/IS/CS pathway distinct from the 30-business-plus-24-quantitative pathway. Computational Sciences requires 12 CP in a named natural-science specialisation. Do not remove Cologne based on German-taught standard CS.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "The University of Cologne supplies two English quantitative-computing routes in Cologne. Business Analytics & Econometrics admits a CS-heavy quantitative transcript, while Computational Sciences adds a mandatory natural-science specialisation.",
@@ -4080,7 +4377,7 @@
             "text": "Computational Sciences requires 12 ECTS in a named natural-science specialisation"
           }
         ],
-        "note": "The map uses the coordinating Institute for Geophysics and Meteorology address for Computational Sciences; programme teaching may use other University of Cologne buildings.",
+        "note": "The map uses the coordinating Institute for Geophysics and Meteorology address for Computational Sciences; programme teaching may use other University of Cologne buildings. Review 2026-11-10: The 2027 BA&E page revision notice was read 2026-11-10. Exact opening remains unresolved.",
         "links": [
           {
             "title": "Cologne Business Analytics & Econometrics",
@@ -4105,6 +4402,10 @@
           {
             "title": "University of Cologne — map address",
             "url": "https://www.openstreetmap.org/?mlat=50.916&mlon=6.943#map=17/50.916/6.943"
+          },
+          {
+            "title": "Official programme evidence — cologne2026compscireq",
+            "url": "https://computationalsciences.uni-koeln.de/for-prospective-students/check-admission-requirements"
           }
         ]
       }
@@ -4115,7 +4416,8 @@
       "abbr": "TH Köln",
       "sublabel": "Cologne, North Rhine-Westphalia",
       "tags": [
-        "Open now",
+        "Closed for summer",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -4136,14 +4438,16 @@
         "applicationFee": 75,
         "programs": "M.Sc. Digital Sciences — Data and Information Science",
         "intakes": "Summer 2027 · April start; Winter 2027 · October start",
-        "applicationWindow": "Open now for Summer 2027 — early September – 31 October 2026 for applicants whose school and first degrees are both from outside the EU/EEA, per the programme's own how-to-apply page (today, 5 September 2026, falls within 'early September'); the Winter 2026/27 equivalent ran early March – 30 April 2026.",
+        "applicationWindow": "Closed for Summer 2027 under the standing non-EU/foreign-school-and-bachelor route: early September–2026-10-31. Winter foreign-qualification schedule is early March–04-30; no separate 2027 portal opening verified. The previous Open now label dated September was stale.",
         "tuition": "€0 tuition",
         "semesterFee": "€352.70 for Winter 2026/27",
         "applicationRoute": "Bangladeshi applicants with foreign credentials apply through uni-assist; TH Köln CaMS follows university processing",
         "applicationPortal": "uni-assist + TH Köln CaMS",
         "language": "English B2",
         "academicRequirements": "Relevant bachelor with German-equivalent grade 2.5 or better and at least 80 ECTS in specified Computer Science or information-science fields; up to 15 missing prerequisite ECTS may be completed conditionally, but more than 15 fails admission.",
-        "studentChecks": "Select Data and Information Science for the physical Cologne campus; professional experience cannot replace missing academic credits, and selection may include an interview or motivation video."
+        "studentChecks": "Data and Information Science at Südstadt retains Cologne city attribution. English Software Architecture/Business Information Systems variants exist at Gummersbach, not Cologne. IT Management requires German; do not substitute that variant. Course mapping and competitive selection remain necessary.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "TH Köln is a practical public applied-sciences option physically covering Cologne through the English Data and Information Science specialisation at Südstadt Campus.",
@@ -4193,6 +4497,8 @@
       "label": "Leipzig University",
       "sublabel": "Leipzig, Saxony",
       "tags": [
+        "Window unverified",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -4212,14 +4518,16 @@
         "applicationFee": 75,
         "programs": "M.Sc. Earth System Data Science and Remote Sensing",
         "intakes": "Winter only · October start",
-        "applicationWindow": "Applicants with foreign degrees apply through uni-assist by 31 May for a start in the winter semester of the same year, so Winter 2027/28 closes 31 May 2027. No opening date is published",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Applicants with foreign degrees apply through uni-assist by 31 May for a start in the winter semester of the same year, so Winter 2027/28 closes 31 May 2027. No opening date is published",
         "tuition": "€0 general tuition",
         "semesterFee": "€332.30 for Winter 2026/27",
         "applicationRoute": "Applicants with foreign degrees apply through uni-assist",
         "applicationPortal": "uni-assist",
         "language": "English B2",
         "academicRequirements": "Bachelor in earth, natural or environmental science or a Computer Science/Data Science-related programme; at least 35 ECTS across the university's named fields such as Data Science, environmental informatics, remote sensing or GIS, plus at least 5 ECTS statistics and programming or scripting knowledge.",
-        "studentChecks": "Do not assume a general software-engineering transcript qualifies: identify 35 ECTS explicitly matching the university's named data, environmental-informatics, GIS or remote-sensing fields before applying."
+        "studentChecks": "Do not assume a general software-engineering transcript qualifies: identify 35 ECTS explicitly matching the university's named data, environmental-informatics, GIS or remote-sensing fields before applying. Retain the previously audited English Earth System Data Science alternative; conventional Informatik/Data Science language findings do not remove this distinct programme. Current faculty sources were not reliably retrieved in this pass; 2027 dates remain unverified.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "Leipzig's English option is a specialised environmental data-science and remote-sensing degree rather than general Computer Science, but it explicitly accepts qualifying CS/Data Science backgrounds and makes data methods central to the curriculum.",
@@ -4239,7 +4547,7 @@
             "text": "Requires 35 ECTS in a restricted list of data or environmental fields, not generic software experience"
           }
         ],
-        "note": "The map uses the faculty's published Linnéstraße address as an address-level neighbourhood pin; it is not claimed as a building-entrance coordinate.",
+        "note": "The map uses the faculty's published Linnéstraße address as an address-level neighbourhood pin; it is not claimed as a building-entrance coordinate. Review 2026-11-10: Partial recheck: current programme source retrieval unresolved; historical institutional brochure is not current programme evidence.",
         "links": [
           {
             "title": "Leipzig Earth System Data Science programme",
@@ -4274,6 +4582,8 @@
       "abbr": "TUHH",
       "sublabel": "Hamburg",
       "tags": [
+        "Annual dates",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -4293,14 +4603,16 @@
         "applicationFee": 0,
         "programs": "M.Sc. Data Science",
         "intakes": "Winter 2027 · October start; Data Science admits for the winter semester only",
-        "applicationWindow": "Winter 2027 · the Data Science programme's own page states the non-EU pre-check and online application both run 1 December 2026 – 1 March 2027 (verbatim: pre-check 'from December 1st until March 1st', online application 'from December 1st and ends on March 1st'). TUHH's general international-study-programs page separately describes a 1 February close for the typical cycle, which does not match the Data Science page's own 1 March date; the Data Science page is the more specific and authoritative source for this programme. EU nationals and EU residents applying to Data Science use a separate window: 1 June – 15 July 2027. Neither window carries a year on its own page, and no TUHH page found (Data Science page, central Dates & Respites page, or the general How-to-Apply PDF) states these dates repeat annually",
+        "applicationWindow": "Data Science winter non-EU standing pre-check/application 12-01–03-01; the programme page gives March 1 while central international guidance can give a different cutoff. No separately verified 2027 portal cycle. English Computer Science separately publishes annual summer 12-01–01-15 and winter 06-01–07-15; foreign-degree/visa suitability for that route remains to confirm.",
         "tuition": "€0 tuition",
         "semesterFee": "€400.00 for Winter 2026/27",
         "applicationRoute": "Direct online application in the TUHH portal; no uni-assist or VPD step. An APS certificate is required only for degrees from China, India or Vietnam, so a Bangladeshi degree does not need one",
         "applicationPortal": "TUHH TUNE application portal",
         "language": "English; proof is compulsory for all applicants — TOEFL iBT 90, IELTS Academic 6.5, Cambridge CAE/CPE or telc English C1. No German requirement",
         "academicRequirements": "Bachelor's or equivalent degree in data science, or an equivalent degree with a sufficiently strong computer-science and mathematics background, plus very good previous academic performance. The programme's subject-specific requirements cover databases, machine learning, probability, statistics and programming.",
-        "studentChecks": "Apply through Data Science rather than Computer Science: the Computer Science master frames its admission around bachelor's degrees from German universities and publishes only the 1 June – 15 July window, so foreign-credential eligibility there is unconfirmed. Only one international master's application per cycle is permitted at TUHH."
+        "studentChecks": "Retain the evidenced international Data Science route. English Computer Science is a separate summer lead, not automatic admission for Bangladeshi graduates: the page’s automatic-admission statement concerns German CS bachelors. Its subject checklist includes substantial theoretical CS. Confirm the correct foreign-degree route and visa-related timing; do not transfer Data Science dates to Computer Science.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "TUHH gives Hamburg a tuition-free, technically strong English master through Data Science, applied for directly in the university's own portal with no uni-assist step; it enters the shortlist on the listed-city rank exception, not the nationwide top-1,000 limit.",
@@ -4320,7 +4632,7 @@
             "text": "TUHH publishes conflicting deadlines (1 February versus 1 March) for the international master's courses"
           }
         ],
-        "note": "Entered through the ≤3,200 listed-city exception for Hamburg at EduRank 2026 overall rank 1,057. The M.Sc. Computer Science is deliberately not claimed: its admission page describes qualifying bachelors in terms of German universities and no non-EU window is published, so it remains unresolved.",
+        "note": "Entered through the ≤3,200 listed-city exception for Hamburg at EduRank 2026 overall rank 1,057. The M.Sc. Computer Science is deliberately not claimed: its admission page describes qualifying bachelors in terms of German universities and no non-EU window is published, so it remains unresolved. Review 2026-11-10: The earlier university-wide exclusion and the earlier summer-CS recommendation were both too broad. Programme, foreign-degree route and visa timing must be assessed separately.",
         "links": [
           {
             "title": "TUHH Data Science programme",
@@ -4357,6 +4669,14 @@
           {
             "title": "TUHH Schwarzenberg campus — map address",
             "url": "https://www.openstreetmap.org/way/129491121"
+          },
+          {
+            "title": "Official programme evidence — tuhh2026csprogramme",
+            "url": "https://www.tuhh.de/tuhh/en/studying/before-studying/degree-courses/masters-programs/computer-science"
+          },
+          {
+            "title": "Official programme evidence — tuhh2026cscredits",
+            "url": "https://www.tuhh.de/t3resources/tuhh/download/studium/studieninteressierte/Fachspezifische_Kenntnisse_Master/Fachspezifische_Anforderung_2015_CSMS_EN.pdf"
           }
         ]
       }
@@ -4367,6 +4687,8 @@
       "abbr": "HAW Hamburg",
       "sublabel": "Hamburg",
       "tags": [
+        "Annual dates",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -4387,14 +4709,16 @@
         "applicationFee": 75,
         "programs": "M.Sc. Information and Communications Engineering",
         "intakes": "Winter 2027 · October start; Summer 2027 · March start — the course admits for both semesters",
-        "applicationWindow": "Summer 2027 · 1 December 2026 – 15 January 2027; Winter 2027/28 · 1 June – 15 July 2027, per the programme's own page (verbatim: 'Winter Semester: 1 June–15 July', 'Summer Semester: 1 December–15 January'). These are bare, undated MM-DD statements — no page found on haw-hamburg.de (the programme page, the general Master's-application page, the international-applicants page, or the uni-assist page) states the dates repeat annually. The uni-assist preliminary review takes four to six weeks, so documents must be submitted well before those dates; uni-assist itself accepts submissions at any time year-round for the pre-check step, per HAW Hamburg's uni-assist guidance page",
+        "applicationWindow": "Information and Communications Engineering: standing summer 12-01–01-15 and winter 06-01–07-15 windows. The official programme page was updated 2026-11-03, but no separately dated 2027 application cycle is shown.",
         "tuition": "€0 tuition",
-        "semesterFee": "€397.00 for Winter 2026/27, including the semester public-transport ticket",
+        "semesterFee": "EUR 397 on the currently fetched programme page; not a guaranteed 2027 amount.",
         "applicationRoute": "Applicants with foreign credentials must first have their certificates reviewed by uni-assist for a VPD, then apply in the myHAW portal; the VPD stays valid at HAW Hamburg for two years",
         "applicationPortal": "uni-assist (VPD) + myHAW",
         "language": "English B2; no German requirement for this programme",
         "academicRequirements": "Bachelor's, Diplom or equivalent in electrical engineering and information technology, information engineering, renewable energy systems, computer science for technical systems and energy management, or mechatronics, or a comparable subject; a 180-credit-point bachelor must earn 30 additional credit points within the first two semesters, which can extend the three-semester course by one semester.",
-        "studentChecks": "Confirm the transcript maps onto the information and communications profile — the course expects programming in ANSI C, signal and system theory, electrical-engineering foundations and Matlab/Simulink. The flagship M.Sc. Computer Science is not an option: it is taught in German and requires C1 German of international applicants."
+        "studentChecks": "Retain the English ICE alternative; HAW’s German-taught Computer Science is a different degree. Match electrical/information-engineering, signals/systems, C and Matlab requirements to official DIU module content; a CSE title alone does not prove suitability.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Programme-focused review 2026-11-10; ranks and campus evidence retained. Annual dates are not a confirmed portal listing."
       },
       "detail": {
         "summary": "HAW Hamburg qualifies only through Information and Communications Engineering — a fully English, tuition-free course with both intakes — on the same basis as the Stuttgart INFOTECH row; its German-taught Computer Science master is excluded.",
@@ -4414,7 +4738,7 @@
             "text": "A 180-credit-point bachelor triggers 30 extra credit points and can add a semester"
           }
         ],
-        "note": "Entered through the ≤3,200 listed-city exception for Hamburg at EduRank 2026 overall rank 1,622. The M.Sc. Computer Science was checked and fails: language of instruction German plus C1 German for international applicants.",
+        "note": "Entered through the ≤3,200 listed-city exception for Hamburg at EduRank 2026 overall rank 1,622. The M.Sc. Computer Science was checked and fails: language of instruction German plus C1 German for international applicants. Review 2026-11-10: English ICE programme, campus and annual periods re-read directly on the university programme page; do not remove this institution based on flagship CS.",
         "links": [
           {
             "title": "HAW Hamburg Information and Communications Engineering (M.Sc.)",
@@ -4461,7 +4785,8 @@
       "abbr": "FH Dortmund",
       "sublabel": "Dortmund, North Rhine-Westphalia",
       "tags": [
-        "Opens Feb ’27",
+        "Window unverified",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -4480,14 +4805,16 @@
         "applicationFee": 0,
         "programs": "M.Eng. Embedded Systems Engineering; M.Sc. Digital Transformation; M.Sc. Medical Informatics (new from winter 2026/27, enrolled at FH Dortmund with the University of Duisburg-Essen as partner)",
         "intakes": "Winter 2027 · October start; both programmes admit for the winter semester only",
-        "applicationWindow": "Winter 2027/28 · FH Dortmund's own non-EU-applicants page states, specifically for the English-language master's programmes (Embedded Systems Engineering, Digital Transformation): 'Der pre-check startet jedes Jahr im Februar und endet im Juni' (the pre-check starts every year in February and ends in June) — explicit recurring-policy language confirming a February opening. The central dates page separately gives 1 March–15 June for 'Non-EU English-language Master's programmes' (undated single 2026 instance), while both programme pages state early April–15 June (also undated single instance); it remains unresolved which of March or April governs the subsequent online-application submission stage specifically, but all three sources agree the window closes 15 June, and the pre-check's February opening carries the only source with explicit annual-recurrence wording. M.Sc. Medical Informatics lists non-EU windows of 1 March–15 June (winter) and 1 September–15 December (summer) on DAAD; the February pre-check quote above came from a page that returned 404 on 20 October 2026",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Winter 2027/28 · FH Dortmund's own non-EU-applicants page states, specifically for the English-language master's programmes (Embedded Systems Engineering, Digital Transformation): 'Der pre-check startet jedes Jahr im Februar und endet im Juni' (the pre-check starts every year in February and ends in June) — explicit recurring-policy language confirming a February opening. The central dates page separately gives 1 March–15 June for 'Non-EU English-language Master's programmes' (undated single 2026 instance), while both programme pages state early April–15 June (also undated single instance); it remains unresolved which of March or April governs the subsequent online-application submission stage specifically, but all three sources agree the window closes 15 June, and the pre-check's February opening carries the only source with explicit annual-recurrence wording. M.Sc. Medical Informatics lists non-EU windows of 1 March–15 June (winter) and 1 September–15 December (summer) on DAAD; the February pre-check quote above came from a page that returned 404 on 20 October 2026",
         "tuition": "€0 tuition",
         "semesterFee": "€346.80 social contribution per semester",
         "applicationRoute": "Mandatory pre-check for the English-language master's programmes at precheck.go-study-europe.de, then a direct application in the FH Dortmund portal; uni-assist applies only to the MA International Management, so no uni-assist fee arises here",
         "applicationPortal": "go-study-europe pre-check + portal.fh-dortmund.de",
         "language": "100% English teaching; English C1 (TOEFL iBT 90 or IELTS 6.5) is required for enrolment rather than at application, and there is no German requirement. Medical Informatics: 'Die Lehrveranstaltungen finden in englischer Sprache statt'; English C1 (TOEFL iBT 90 or IELTS 6.5); no German",
         "academicRequirements": "Bachelor's or Diplom of at least 180 ECTS in computer science, electrical engineering or information technology with a German-equivalent grade of 2.5 or better. Embedded Systems Engineering additionally expects software engineering, control engineering, signal processing and systems engineering; Digital Transformation expects digital systems and software engineering. Medical Informatics expects prior competence in computing, software engineering and medicine or medical technology; a plain CSE degree is decided case by case.",
-        "studentChecks": "Complete the pre-check before applying — the minimum grade, degree recognition and English proof are not assessed in it. Digital Transformation is the closer fit for a software-focused CSE transcript; Embedded Systems Engineering expects hardware-side credits."
+        "studentChecks": "Complete the pre-check before applying — the minimum grade, degree recognition and English proof are not assessed in it. Digital Transformation is the closer fit for a software-focused CSE transcript; Embedded Systems Engineering expects hardware-side credits.",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "FH Dortmund covers the listed city of Dortmund with two tuition-free, fully English computing master's programmes that accept a foreign CS bachelor at grade 2.5 with no German requirement, applied for directly after a mandatory pre-check.",
@@ -4553,6 +4880,8 @@
       "abbr": "HFT Stuttgart",
       "sublabel": "Stuttgart, Baden-Württemberg",
       "tags": [
+        "Window unverified",
+        "Funding needed",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -4568,14 +4897,16 @@
         "applicationFee": 0,
         "programs": "M.Sc. Software Technology",
         "intakes": "Summer 2027 (mid-March start, additional round only) and Winter 2027/28 (1 October start)",
-        "applicationWindow": "Summer 2027 · the regular deadline of 31 August 2026 has passed; the additional deadline is 15 January 2027 and applies only if places remain; Winter 2027/28 · regular deadline 28 February 2027, additional deadline 15 July 2027 (only if places remain). The programme page gives no separate non-EU deadline",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Summer 2027 · the regular deadline of 31 August 2026 has passed; the additional deadline is 15 January 2027 and applies only if places remain; Winter 2027/28 · regular deadline 28 February 2027, additional deadline 15 July 2027 (only if places remain). The programme page gives no separate non-EU deadline",
         "tuition": "€1,500 per semester for non-EU students (Baden-Württemberg international tuition)",
         "semesterFee": "€180.50 per semester on the programme page (a June 2024 figure); DAAD gives about €190 — confirm the current amount",
         "applicationRoute": "Electronic application to the programme with uploaded scans; the programme page mentions neither uni-assist nor an application fee, so none is recorded here. Confirm the route and that the application portal is available",
         "applicationPortal": "HFT electronic application portal",
         "language": "100% English ('All courses are conducted in English'); IELTS 6.5 or TOEFL is strictly required of all non-native speakers; no German requirement (DAAD: no minimum language level)",
         "academicRequirements": "Above-average degree in computer science or a related field of at least 7 semesters and 210 ECTS; prerequisite competencies in object-oriented programming, software engineering, database systems, data structures and algorithms, and distributed systems; CV, a 500-word statement of goals and two recommendation letters. A four-year CSE bachelor normally meets the ECTS bar",
-        "studentChecks": "Map your transcript to the five prerequisite areas; DAAD describes the grade bar as 'significantly above average'. HFT's page asks for 210 ECTS while DAAD states three years, so confirm the threshold with the programme"
+        "studentChecks": "Map your transcript to the five prerequisite areas; DAAD describes the grade bar as 'significantly above average'. HFT's page asks for 210 ECTS while DAAD states three years, so confirm the threshold with the programme",
+        "funding": "Paid tuition: a complete tuition-and-living funding package is required under Tanima’s preference; no award is verified.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "HFT Stuttgart covers the listed city of Stuttgart with a fully English software-technology master's that has no German requirement, accepts a foreign CS bachelor of 210 ECTS or more and charges only Baden-Württemberg's €1,500 non-EU fee per semester.",
@@ -4636,6 +4967,8 @@
       "abbr": "FH Aachen",
       "sublabel": "Aachen, North Rhine-Westphalia",
       "tags": [
+        "Window unverified",
+        "Tuition-free",
         "Summer ’27",
         "Winter ’27"
       ],
@@ -4651,14 +4984,16 @@
         "applicationFee": 0,
         "programs": "M.Sc. Information Systems",
         "intakes": "Summer and winter semester starts; four semesters full-time with a mobility semester (internship or semester abroad) in semester 3",
-        "applicationWindow": "For degrees from outside the EHEA/EU/EEA the usual windows are 15–31 May (winter) and 15–30 November (summer), 'subject to change'. Summer 2027 should therefore fall around 15–30 November 2026 and Winter 2027/28 around 15–31 May 2027; the 2027 dates themselves are not yet published and the portal state was not verified",
+        "applicationWindow": "Historical application guidance, not a verified current opening: For degrees from outside the EHEA/EU/EEA the usual windows are 15–31 May (winter) and 15–30 November (summer), 'subject to change'. Summer 2027 should therefore fall around 15–30 November 2026 and Winter 2027/28 around 15–31 May 2027; the 2027 dates themselves are not yet published and the portal state was not verified",
         "tuition": "€0 tuition; the university's fee page lists only the semester contribution",
         "semesterFee": "€384.60 per semester for Winter 2026/27 (€128 Studierendenwerk plus €256.60 student body, including the Deutschland ticket)",
         "applicationRoute": "Direct application through the FH Aachen application portal; no uni-assist. Applicants with a degree from outside the EU/EEA/EHEA submit a tabular CV, an official GRE result or transcript of records, the (provisional) degree certificate, English proof and module descriptions for the subject-specific aptitude test",
         "applicationPortal": "FH Aachen application portal",
         "language": "Teaching language English: the university says the entire programme can be studied in English without restriction, although some compulsory elective modules are German-only; no proof of German required (basic German recommended). English: IELTS 6.5 (6.0 per section), TOEFL iBT 92 (20 per section) or Cambridge B2",
         "academicRequirements": "Relevant bachelor's of at least six semesters and 180 credit points in business informatics, computer science, business administration or digital-economy fields, judged by a selection committee. Applicant mark = base mark × 2/3 + subject-fit mark × 1/3 and must be 1.90 or better (May 2026 rules); for non-EHEA degrees the base mark comes from the GRE result or transcript (the conversion table was not read). The fit mark is assessed from listed foundation modules",
-        "studentChecks": "Plan for a GRE; the 1.90 cut-off is demanding. This is an information-systems master mixing business and computing, not a pure CS degree, and some computing electives are German-only, so an English-only student has fewer of them"
+        "studentChecks": "Plan for a GRE; the 1.90 cut-off is demanding. This is an information-systems master mixing business and computing, not a pure CS degree, and some computing electives are German-only, so an English-only student has fewer of them",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "FH Aachen covers the listed city of Aachen with a tuition-free information-systems master's that the university states can be completed entirely in English with no German proof, applied for directly; it mixes business and computing and sets a 1.90 applicant-mark cut-off and a GRE for non-EHEA degrees.",
@@ -4720,6 +5055,8 @@
       "abbr": "JLU Giessen",
       "sublabel": "Giessen, Hesse",
       "tags": [
+        "Window unverified",
+        "Tuition-free",
         "Winter ’27"
       ],
       "location": {
@@ -4739,14 +5076,16 @@
         "applicationFee": 75,
         "programs": "M.Sc. Agrobioinformatics",
         "intakes": "Winter semester only",
-        "applicationWindow": "Winter 2027/28 · dates are 'currently being prepared' and due in spring 2027; the faculty page gives uni-assist opening on 1 May and a deadline of 15 June (year not stated). No portal opening is verified",
+        "applicationWindow": "Historical application guidance, not a verified current opening: Winter 2027/28 · dates are 'currently being prepared' and due in spring 2027; the faculty page gives uni-assist opening on 1 May and a deadline of 15 June (year not stated). No portal opening is verified",
         "tuition": "€0 tuition",
         "semesterFee": "€421.43 per semester for 2026/27",
         "applicationRoute": "uni-assist for degrees from outside Germany; the faculty's specialist panel reviews foreign degrees; €75 standard first uni-assist/VPD application",
         "applicationPortal": "uni-assist",
         "language": "The entire degree is taught in English; English C1; no German requirement stated",
         "academicRequirements": "180-ECTS bachelor's; Computer Science, Data Science and Bioinformatics are named as relevant fields; foreign degrees are reviewed by a specialist panel",
-        "studentChecks": "Domain-specialised: about half of the ten core modules are computational (applied statistics, sequencing analysis, Python for bioinformatics, statistical learning and neural networks) while the rest cover crop genetics, plant and animal breeding and biodiversity. The module handbook was not read, so the computing share of the electives is not established"
+        "studentChecks": "Domain-specialised: about half of the ten core modules are computational (applied statistics, sequencing analysis, Python for bioinformatics, statistical learning and neural networks) while the rest cover crop genetics, plant and animal breeding and biodiversity. The module handbook was not read, so the computing share of the electives is not established",
+        "funding": "No ordinary programme tuition recorded; semester contributions, applications and living costs remain separate. Personal exemptions and programme changes require rechecking.",
+        "reviewScope": "Prior audit retained. Current application status was not rechecked in this pass; ranks and campus evidence are unchanged."
       },
       "detail": {
         "summary": "Giessen qualifies nationwide on its English M.Sc. Agrobioinformatics, a crop-science degree with a computational core that names Computer Science, Data Science and Bioinformatics as relevant bachelors, charges no tuition and requires no German.",
@@ -4800,7 +5139,7 @@
       }
     }
   ],
-  "methodology": "Only public universities are in scope: private institutions are excluded before any other gate, so no ownership tag is carried on a row. Universities are retained only when all inclusive gates are evidenced: EduRank 2026 overall world rank of 1,000 or better nationwide, or 3,200 or better for a qualifying programme campus in a city already listed in the German city scoreboard; at least one current on-campus, computing-centred degree that accepts foreign credentials and can be completed in English; and mandatory Bangladeshi/non-EU tuition of €5,000 or less per semester. English admission evidence or isolated English modules do not establish an English-completable pathway. Domain programmes qualify only when computing is central and a CSE-related prior degree is explicitly accepted. Intake chips record a portal state verified against the official source on the dataset review date: \"Open now\" means applications were being accepted that day, \"Opens <month>\" carries an officially published opening date, and a row with neither chip has no published opening date. Official university sources govern programmes, admission, tuition, intakes and campuses; EduRank is used for ranks. Subject ranks are shown only when directly confirmed and otherwise remain absent. Semester contributions and application charges are separate from tuition.",
+  "methodology": "Only public universities are in scope: private institutions are excluded before any other gate, so no ownership tag is carried on a row. Universities are retained only when all inclusive gates are evidenced: EduRank 2026 overall world rank of 1,000 or better nationwide, or 3,200 or better for a qualifying programme campus in a city already listed in the German city scoreboard; at least one current on-campus, computing-centred degree that accepts foreign credentials and can be completed in English; and mandatory Bangladeshi/non-EU tuition of €5,000 or less per semester. English admission evidence or isolated English modules do not establish an English-completable pathway. Domain programmes qualify only when computing is central and a CSE-related prior degree is explicitly accepted. Intake tags describe programme entry seasons, not admission eligibility. Open now is reserved for a current explicitly dated official cycle. Annual window open means today falls within a standing recurring rule; Annual dates has no confirmed current cycle. Closed for summer records the relevant passed summer window. Window unverified means the current window was not established, including rows outside this focused review. Future Opens tags require an explicitly published relevant-cycle opening. Exactly one admission-status tag and one applicant-funding tag are used. Tuition-free does not cover living costs; Funding needed marks paid programmes under Tanima’s full-funding requirement; Funding unverified records unresolved programme tuition. The university inclusion ceiling remains EUR 5,000 per semester, while the applicant’s funding filter is stricter. Rankings, row order and campus pins are retained, not freshly re-ranked. Evidence review scope is stated on each row; official university sources govern programme rules and DAAD provides cross-checks.",
   "caveats": [
     "The shortlist is public-universities-only by design. Private institutions are out of scope and are never listed, whatever their rank or English provision.",
     "The inclusion rules are conjunctive: failing rank, English-completable computing programme, international admission, or tuition removes the institution.",
@@ -4814,7 +5153,10 @@
     "FAU Erlangen charges non-EU students €4,000 per semester from summer 2027 enrolment; this stays within the €5,000 ceiling.",
     "Several programmes require a GRE, GATE or dMat result from Bangladeshi applicants (for example FAU AI, Kassel, Paderborn, FH Aachen and TUM Heilbronn); read each row's route and requirements.",
     "Bayreuth and RPTU Kaiserslautern require basic German (A1, or an A1 course or A2 certificate) within the first year of study, though not to apply.",
-    "Intake and status chips were last verified on 5 September 2026, except TUM (20 October 2026); confirm the live portal before relying on an open or opening chip."
+    "Focused programme refresh: 20 existing rows corresponding to the 26 institutions discussed were reconciled on 2026-11-10. The other 41 rows retain prior research but carry Window unverified rather than stale current-status claims.",
+    "Six discussed institutions have no qualifying row under the audited gates: HU Berlin, HM Munich UAS, HafenCity University, Goethe Frankfurt, Hohenheim and University Duisburg-Essen. Their findings and unresolved leads are recorded in the 2026-11-10 research ledger; a flagship-only exclusion is not an exhaustive catalogue audit.",
+    "Tanima’s profile records the inspected academic/language documents and user-reported Ilmenau offer separately. Grades and language scores do not replace official subject-credit equivalence or an inspected offer letter.",
+    "TU Ilmenau remains a user-reported offer baseline in the profile, not a ranked dataset row: EduRank 2026 overall 1,148 exceeds the nationwide 1,000 ceiling and Ilmenau is not in the existing 23-city exception list. No rank rule was changed."
   ],
   "sources": [
     {

@@ -24,6 +24,9 @@ import { cn } from "@/lib/utils";
 const num = (v: number) => formatNumber(v, Number.isInteger(v) ? 0 : 1);
 
 const intakeTagClass = (tag: string) => {
+  if (tag === "Annual window open" || tag === "Funding unverified") return "border-amber-500/30 bg-amber-500/15 text-amber-800 dark:text-amber-300";
+  if (tag === "Funding needed" || tag === "Closed for summer") return "border-rose-500/30 bg-rose-500/15 text-rose-800 dark:text-rose-300";
+  if (tag === "Tuition-free") return "border-emerald-500/25 bg-emerald-500/10 text-emerald-800 dark:text-emerald-300";
   if (tag === "Public") return "border-sky-500/25 bg-sky-500/10 text-sky-700 dark:text-sky-300";
   if (tag === "Private") return "border-violet-500/25 bg-violet-500/10 text-violet-700 dark:text-violet-300";
   if (tag === "Open now" || tag.endsWith(" open")) return "border-emerald-500/30 bg-emerald-500/15 text-emerald-800 dark:text-emerald-300";

@@ -269,6 +269,7 @@ describe("DatasetTable", () => {
         tags: [
           "Public", "Private", "Summer ’27 open", "Winter ’26 open", "Winter ’27 open",
           "Summer ’27", "Winter ’27", "No CS intake ’27",
+          "Annual window open", "Funding needed", "Funding unverified", "Tuition-free",
         ],
         values: { overallRank: 100 },
       }],
@@ -276,6 +277,10 @@ describe("DatasetTable", () => {
 
     render(<DatasetTable dataset={universities} />);
 
+    expect(screen.getByText("Annual window open")).toHaveClass("bg-amber-500/15", "text-amber-800");
+    expect(screen.getByText("Funding unverified")).toHaveClass("bg-amber-500/15", "text-amber-800");
+    expect(screen.getByText("Funding needed")).toHaveClass("bg-rose-500/15", "text-rose-800");
+    expect(screen.getByText("Tuition-free")).toHaveClass("bg-emerald-500/10", "text-emerald-800");
     expect(screen.getByText("Public")).toHaveClass("bg-sky-500/10", "text-sky-700");
     expect(screen.getByText("Private")).toHaveClass("bg-violet-500/10", "text-violet-700");
     expect(screen.getByText("Summer ’27 open")).toHaveClass("bg-emerald-500/15", "text-emerald-800");

@@ -2,6 +2,7 @@ import { useData } from "@/hooks/useData";
 import { Section } from "@/components/common/Section";
 import { FeedbackForm } from "@/components/about/FeedbackForm";
 import { Card, CardContent } from "@/components/ui/card";
+import { formatDate, formatNumber } from "@/lib/formatters";
 import {
   Users, Route, SlidersHorizontal, Dot,
   GraduationCap, Briefcase, Home, BadgeCheck, Plane,
@@ -19,7 +20,7 @@ export default function About() {
     <div className="space-y-8">
       <div className="space-y-1">
         <h1 className="text-2xl font-bold tracking-tight">About this tool</h1>
-        <p className="max-w-2xl text-sm text-muted-foreground">A transparent, personally-weighted ranking of candidate migration countries for a two-person household — both software engineers with equivalent profiles. Either partner can be the primary applicant and the other the dependent, so categories are weighted to suit whichever of us leads. Each country is scored 0–100% per category; a weighted sum (weights total 100%) gives the overall score.</p>
+        <p className="max-w-2xl text-sm text-muted-foreground">A transparent, personally-weighted ranking of candidate migration countries for a two-person household. The household pathway and Tanima’s study application have separate requirements. Each country is scored 0–100% per category; a weighted sum (weights total 100%) gives the overall score.</p>
       </div>
 
       <Section title="The household" icon={Users}>
@@ -36,8 +37,33 @@ export default function About() {
             </CardContent></Card>
           ))}
         </div>
-        <p className="text-sm text-muted-foreground">Both hold a {p.education.degree} from {p.education.institution}. With equivalent profiles, either of us can lead the application — the other joins as the dependent.</p>
+        <p className="text-sm text-muted-foreground">Both hold a {p.education.degree} from {p.education.institution}. Individual qualifications and admission conditions are assessed separately.</p>
       </Section>
+
+      {p.household.people.filter((person) => person.study).map((person) => {
+        const study = person.study!;
+        return <Section key={person.name} title="Tanima’s study profile" icon={GraduationCap}>
+          <Card><CardContent className="space-y-4 p-4 text-sm">
+            <div><div className="font-semibold">{study.degree} · {study.institution}</div>
+              <p>CGPA {formatNumber(study.cgpa, 2)} / {formatNumber(4)} · {formatNumber(study.localCredits)} local credits · {study.nationality}</p>
+              <p className="text-muted-foreground">German grade approximately {formatNumber(study.germanGrade, 2)} — {study.gradeEvidence}</p>
+            </div>
+            <div><p>{study.english.test}: {formatNumber(study.english.overall, 1)} · tested {formatDate(study.english.date)}</p>
+              <p className="text-muted-foreground">Listening {formatNumber(study.english.listening, 1)} · Reading {formatNumber(study.english.reading, 1)} · Writing {formatNumber(study.english.writing, 1)} · Speaking {formatNumber(study.english.speaking, 1)}</p>
+            </div>
+            <div><p>{study.language} · {study.intakes.join("; ")}</p><p>{study.funding}</p>
+              <p className="text-muted-foreground">Preferred cities: {study.preferredCities.join(", ")}</p>
+              <p className="text-muted-foreground">Research interests: {study.researchInterests.join("; ")}</p>
+            </div>
+            {study.admissions.map((offer) => <div key={offer.institution} className="rounded-md border p-3">
+              <p className="font-medium">{offer.institution} · {offer.programme} · {offer.intake}</p>
+              <p>{offer.status}{!offer.documentVerified && " — offer letter not inspected; conditions and acceptance deadline still need checking."}</p>
+            </div>)}
+            <div><p className="font-medium">Application preparation</p><ul className="list-disc space-y-1 pl-5 text-muted-foreground">{study.checks.map((check) => <li key={check}>{check}</li>)}</ul></div>
+            <p className="text-xs text-muted-foreground">Evidence: {study.evidence.join("; ")}. Reviewed {formatDate(study.lastReviewed)}. Local credit hours are not a universal ECTS certificate.</p>
+          </CardContent></Card>
+        </Section>;
+      })}
 
       <Section title="Goal & pathway" icon={Route}>
         <div className="flex flex-wrap items-center gap-2 text-sm">

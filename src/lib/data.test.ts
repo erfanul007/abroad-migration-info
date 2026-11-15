@@ -295,10 +295,12 @@ describe("supplementary datasets", () => {
     // a status chip is a verified portal state on the dataset review date: accepting applications
     // today, or an officially published opening month. Never both, never a projected month.
     const openingTag = /^Opens (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) ’(26|27)$/;
-    const isStatus = (tag: string) => tag === "Open now" || openingTag.test(tag);
+    const admissionStates = new Set(["Open now", "Annual window open", "Annual dates", "Closed for summer", "Window unverified"]);
+    const fundingStates = new Set(["Tuition-free", "Funding needed", "Funding unverified"]);
+    const isStatus = (tag: string) => admissionStates.has(tag) || openingTag.test(tag);
 
     expect(
-      rows.flatMap((row) => row.tags ?? []).filter((tag) => !intakeTags.has(tag) && !isStatus(tag)),
+      rows.flatMap((row) => row.tags ?? []).filter((tag) => !intakeTags.has(tag) && !isStatus(tag) && !fundingStates.has(tag)),
     ).toEqual([]);
     // exactly one status chip at most, and it may never contradict itself
     expect(rows.filter((row) => (row.tags ?? []).filter(isStatus).length > 1).map((row) => row.id)).toEqual([]);
@@ -312,9 +314,13 @@ describe("supplementary datasets", () => {
       }
     }
 
+    expect(idsWith("Annual window open")).toEqual(["leibniz-hannover", "lmu", "tum"]);
+    expect(idsWith("Closed for summer")).toContain("th-koeln");
+    expect(idsWith("Funding unverified")).toContain("tum");
+    expect(rows.every((row) => row.tags?.some((tag) => fundingStates.has(tag)))).toBe(true);
     expect(idsWith("Winter ’27").length).toBeGreaterThan(0);
     expect(idsWith("Open now")).toEqual([
-      "heidelberg", "kassel", "luebeck", "rptu-kaiserslautern", "th-koeln", "tu-braunschweig", "tum", "wuerzburg",
+      "htw-berlin", "tu-dresden",
     ]);
     expect(rows.flatMap((row) => row.tags ?? []).some((tag) => tag.includes("upcoming"))).toBe(false);
   });
