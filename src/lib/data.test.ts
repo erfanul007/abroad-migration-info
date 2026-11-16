@@ -314,13 +314,14 @@ describe("supplementary datasets", () => {
       }
     }
 
-    expect(idsWith("Annual window open")).toEqual(["leibniz-hannover", "lmu", "tum"]);
+    expect(idsWith("Annual window open")).toEqual(["bayreuth", "freiburg", "kassel", "kiel", "muenster", "tu-dortmund"]);
     expect(idsWith("Closed for summer")).toContain("th-koeln");
     expect(idsWith("Funding unverified")).toContain("tum");
     expect(rows.every((row) => row.tags?.some((tag) => fundingStates.has(tag)))).toBe(true);
     expect(idsWith("Winter ’27").length).toBeGreaterThan(0);
     expect(idsWith("Open now")).toEqual([
-      "htw-berlin", "tu-dresden",
+      "augsburg", "btu-cottbus", "fh-dortmund", "heidelberg", "htw-berlin", "leibniz-hannover", "marburg",
+      "potsdam-hpi", "rostock", "rptu-kaiserslautern", "ruhr-bochum", "tu-dresden", "tum", "wuppertal",
     ]);
     expect(rows.flatMap((row) => row.tags ?? []).some((tag) => tag.includes("upcoming"))).toBe(false);
   });
